@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "railroad_commissioner",
+    "year": 2012,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.50097302123493,
+    "matched_precinct_rows": 3884,
+    "total_precinct_rows": 4310,
+    "matched_total_votes": 6720245,
+    "total_votes": 7508572,
+    "generated_at": "2026-03-03T22:22:28.679130+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 19434,
+        "rep_votes": 104742,
+        "other_votes": 16314,
+        "total_votes": 140490,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 85308,
+        "margin_pct": 60.72175955584027,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 77947,
+        "rep_votes": 313831,
+        "other_votes": 55680,
+        "total_votes": 447458,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 235884,
+        "margin_pct": 52.716456069619944,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 80078,
+        "rep_votes": 337348,
+        "other_votes": 54827,
+        "total_votes": 472253,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 257270,
+        "margin_pct": 54.47716842169269,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 34453,
+        "rep_votes": 220975,
+        "other_votes": 35069,
+        "total_votes": 290497,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 186522,
+        "margin_pct": 64.20787893212658,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 21982,
+        "rep_votes": 141722,
+        "other_votes": 13171,
+        "total_votes": 176875,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 119740,
+        "margin_pct": 67.69752650176677,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 17521,
+        "rep_votes": 95798,
+        "other_votes": 26168,
+        "total_votes": 139487,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 78277,
+        "margin_pct": 56.11777441625384,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 77751,
+        "rep_votes": 283293,
+        "other_votes": 52181,
+        "total_votes": 413225,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 205542,
+        "margin_pct": 49.74094016576925,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 14904,
+        "rep_votes": 71503,
+        "other_votes": 13920,
+        "total_votes": 100327,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 56599,
+        "margin_pct": 56.41452450486908,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 137549,
+        "rep_votes": 84702,
+        "other_votes": 56065,
+        "total_votes": 278316,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": -52847,
+        "margin_pct": -18.98805869036373,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 35863,
+        "rep_votes": 198236,
+        "other_votes": 26516,
+        "total_votes": 260615,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 162373,
+        "margin_pct": 62.30378144005525,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 33556,
+        "rep_votes": 260311,
+        "other_votes": 33156,
+        "total_votes": 327023,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 226755,
+        "margin_pct": 69.33915963097397,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 3562,
+        "rep_votes": 40965,
+        "other_votes": 3313,
+        "total_votes": 47840,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 37404,
+        "margin_pct": 78.18516681731035,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 18242,
+        "rep_votes": 193706,
+        "other_votes": 68387,
+        "total_votes": 280335,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 175463,
+        "margin_pct": 62.59056071904002,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 37973,
+        "rep_votes": 156338,
+        "other_votes": 77574,
+        "total_votes": 271885,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 118365,
+        "margin_pct": 43.53495043860456,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 5420,
+        "rep_votes": 7903,
+        "other_votes": 2514,
+        "total_votes": 15837,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 2483,
+        "margin_pct": 15.678474458546443,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 50050,
+        "rep_votes": 205633,
+        "other_votes": 48911,
+        "total_votes": 304594,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 155583,
+        "margin_pct": 51.07881310859702,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 141398,
+        "rep_votes": 96434,
+        "other_votes": 52267,
+        "total_votes": 290099,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": -44964,
+        "margin_pct": -15.499546626135222,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 41079,
+        "rep_votes": 276791,
+        "other_votes": 36443,
+        "total_votes": 354313,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 235712,
+        "margin_pct": 66.52648929054254,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 18235,
+        "rep_votes": 114125,
+        "other_votes": 22936,
+        "total_votes": 155297,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 95890,
+        "margin_pct": 61.74628073902891,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 86320,
+        "rep_votes": 316923,
+        "other_votes": 51439,
+        "total_votes": 454682,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 230603,
+        "margin_pct": 50.717442275388045,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 16746,
+        "rep_votes": 32518,
+        "other_votes": 11242,
+        "total_votes": 60506,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 15772,
+        "margin_pct": 26.066836346808582,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 22655,
+        "rep_votes": 96689,
+        "other_votes": 15525,
+        "total_votes": 134869,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 74033,
+        "margin_pct": 54.89284072672048,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 57922,
+        "rep_votes": 194158,
+        "other_votes": 41412,
+        "total_votes": 293492,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 136236,
+        "margin_pct": 46.41898245948782,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 51357,
+        "rep_votes": 42019,
+        "other_votes": 51244,
+        "total_votes": 144620,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": -9338,
+        "margin_pct": -6.456921587608906,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 72433,
+        "rep_votes": 73988,
+        "other_votes": 33525,
+        "total_votes": 179946,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 1555,
+        "margin_pct": 0.8641851967724098,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 28641,
+        "rep_votes": 91623,
+        "other_votes": 18389,
+        "total_votes": 138653,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 62982,
+        "margin_pct": 45.4241884416493,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 4806,
+        "rep_votes": 20771,
+        "other_votes": 3460,
+        "total_votes": 29037,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 15965,
+        "margin_pct": 54.98157523160106,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 55053,
+        "rep_votes": 78171,
+        "other_votes": 67972,
+        "total_votes": 201196,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 23118,
+        "margin_pct": 11.490288077297759,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 15786,
+        "rep_votes": 26544,
+        "other_votes": 7792,
+        "total_votes": 50123,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 10758,
+        "margin_pct": 21.46307127726878,
+        "winner": "REP"
+      },
+      "36": {
+        "dem_votes": 39417,
+        "rep_votes": 198087,
+        "other_votes": 28852,
+        "total_votes": 266356,
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
+        "margin": 158670,
+        "margin_pct": 59.57064980702519,
+        "winner": "REP"
+      }
+    }
+  }
+}

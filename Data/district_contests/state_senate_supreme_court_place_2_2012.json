@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_2",
+    "year": 2012,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 88.99086955683694,
+    "matched_precinct_rows": 2751,
+    "total_precinct_rows": 3043,
+    "matched_total_votes": 2400785,
+    "total_votes": 2697788,
+    "generated_at": "2026-03-03T22:22:29.092434+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 43988,
+        "other_votes": 5569,
+        "total_votes": 49557,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 43988,
+        "margin_pct": 88.76243517565632,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 62311,
+        "other_votes": 6664,
+        "total_votes": 68975,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 62311,
+        "margin_pct": 90.33852845233781,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 70547,
+        "other_votes": 7663,
+        "total_votes": 78210,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 70547,
+        "margin_pct": 90.20202020202021,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 43820,
+        "other_votes": 5281,
+        "total_votes": 49101,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 43820,
+        "margin_pct": 89.24461823588115,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 22515,
+        "other_votes": 4348,
+        "total_votes": 26863,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 22515,
+        "margin_pct": 83.81416818672524,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 52026,
+        "other_votes": 26360,
+        "total_votes": 78386,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 52026,
+        "margin_pct": 66.3715459393259,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 203345,
+        "other_votes": 37612,
+        "total_votes": 240957,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 203345,
+        "margin_pct": 84.3905759118847,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 164639,
+        "other_votes": 36937,
+        "total_votes": 201576,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 164639,
+        "margin_pct": 81.67590011165761,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 119297,
+        "other_votes": 22324,
+        "total_votes": 141621,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 119297,
+        "margin_pct": 84.2368092904015,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 44860,
+        "other_votes": 50145,
+        "total_votes": 95005,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 44860,
+        "margin_pct": 47.21857002155162,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 99728,
+        "other_votes": 43488,
+        "total_votes": 143216,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 99728,
+        "margin_pct": 69.63467768964362,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 186150,
+        "other_votes": 44920,
+        "total_votes": 231069,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 186150,
+        "margin_pct": 80.56003718527911,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 107516,
+        "other_votes": 22961,
+        "total_votes": 130477,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 107516,
+        "margin_pct": 82.40226246771462,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 78967,
+        "other_votes": 16835,
+        "total_votes": 95802,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 78967,
+        "margin_pct": 82.42729796872716,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 24331,
+        "other_votes": 6670,
+        "total_votes": 31000,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 24331,
+        "margin_pct": 78.48537367611375,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 115172,
+        "other_votes": 30568,
+        "total_votes": 145740,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 115172,
+        "margin_pct": 79.02566213805406,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 139947,
+        "other_votes": 23475,
+        "total_votes": 163422,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 139947,
+        "margin_pct": 85.63534996034906,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 37254,
+        "other_votes": 12152,
+        "total_votes": 49407,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 37254,
+        "margin_pct": 75.40334171509923,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 3925,
+        "other_votes": 1212,
+        "total_votes": 5137,
+        "dem_candidate": "",
+        "rep_candidate": "Under Votes",
+        "margin": 3925,
+        "margin_pct": 76.40646291609889,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 143180,
+        "other_votes": 21356,
+        "total_votes": 164536,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 143180,
+        "margin_pct": 87.02046763199338,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 83978,
+        "other_votes": 10450,
+        "total_votes": 94428,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 83978,
+        "margin_pct": 88.93336336199106,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 86223,
+        "other_votes": 30076,
+        "total_votes": 116299,
+        "dem_candidate": "",
+        "rep_candidate": "Don Willett",
+        "margin": 86223,
+        "margin_pct": 74.13907256296271,
+        "winner": "REP"
+      }
+    }
+  }
+}

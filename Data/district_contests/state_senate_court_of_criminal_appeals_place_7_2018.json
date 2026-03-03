@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_place_7",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.9525877810927,
+    "matched_precinct_rows": 7040,
+    "total_precinct_rows": 7152,
+    "matched_total_votes": 7277569,
+    "total_votes": 7354602,
+    "generated_at": "2026-03-03T22:22:40.013068+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 17184,
+        "rep_votes": 68129,
+        "other_votes": 1489,
+        "total_votes": 86802,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 50945,
+        "margin_pct": 58.69104398516164,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 86616,
+        "rep_votes": 108156,
+        "other_votes": 3931,
+        "total_votes": 198703,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 21540,
+        "margin_pct": 10.84008328641559,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 38181,
+        "rep_votes": 134943,
+        "other_votes": 3998,
+        "total_votes": 177122,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 96762,
+        "margin_pct": 54.630141936066664,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 93992,
+        "rep_votes": 198236,
+        "other_votes": 5004,
+        "total_votes": 297232,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 104244,
+        "margin_pct": 35.07159390644345,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 129914,
+        "rep_votes": 174585,
+        "other_votes": 10206,
+        "total_votes": 314705,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 44671,
+        "margin_pct": 14.194563162326624,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 97588,
+        "rep_votes": 36658,
+        "other_votes": 3544,
+        "total_votes": 137790,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -60930,
+        "margin_pct": -44.219464402351406,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 124877,
+        "rep_votes": 180531,
+        "other_votes": 6418,
+        "total_votes": 311826,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 55654,
+        "margin_pct": 17.847774079133877,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 153421,
+        "rep_votes": 176292,
+        "other_votes": 12792,
+        "total_votes": 342505,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "B. Parker Hervey",
+        "margin": 22871,
+        "margin_pct": 6.6775997174965145,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 112487,
+        "rep_votes": 131505,
+        "other_votes": 7310,
+        "total_votes": 251302,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 19018,
+        "margin_pct": 7.567628781553914,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 144101,
+        "rep_votes": 140932,
+        "other_votes": 8932,
+        "total_votes": 293965,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -3169,
+        "margin_pct": -1.0780130978885605,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 112150,
+        "rep_votes": 174840,
+        "other_votes": 3785,
+        "total_votes": 290775,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 62690,
+        "margin_pct": 21.55967513118268,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 134626,
+        "rep_votes": 203254,
+        "other_votes": 10260,
+        "total_votes": 348141,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 68628,
+        "margin_pct": 19.712760856700264,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 160641,
+        "rep_votes": 31091,
+        "other_votes": 4115,
+        "total_votes": 195847,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -129550,
+        "margin_pct": -66.14850820199992,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 256911,
+        "rep_votes": 95231,
+        "other_votes": 0,
+        "total_votes": 352142,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -161680,
+        "margin_pct": -45.913296340680745,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 149074,
+        "rep_votes": 83903,
+        "other_votes": 6405,
+        "total_votes": 239382,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -65171,
+        "margin_pct": -27.224686902106253,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 147291,
+        "rep_votes": 141624,
+        "other_votes": 12245,
+        "total_votes": 301161,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -5667,
+        "margin_pct": -1.8816443847166204,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 142868,
+        "rep_votes": 162663,
+        "other_votes": 9276,
+        "total_votes": 314807,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 19794,
+        "margin_pct": 6.28778488443475,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 92024,
+        "rep_votes": 147630,
+        "other_votes": 15714,
+        "total_votes": 255368,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 55606,
+        "margin_pct": 21.774850411954514,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 96358,
+        "rep_votes": 62570,
+        "other_votes": 3912,
+        "total_votes": 162840,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -33788,
+        "margin_pct": -20.749272822924986,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 109990,
+        "rep_votes": 79938,
+        "other_votes": 6343,
+        "total_votes": 196271,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -30052,
+        "margin_pct": -15.311482592945469,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 55822,
+        "rep_votes": 47147,
+        "other_votes": 685,
+        "total_votes": 103654,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -8675,
+        "margin_pct": -8.369233065941492,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 65805,
+        "rep_votes": 102561,
+        "other_votes": 2893,
+        "total_votes": 171259,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 36756,
+        "margin_pct": 21.462229722233577,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 184823,
+        "rep_votes": 39203,
+        "other_votes": 5549,
+        "total_votes": 229575,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -145620,
+        "margin_pct": -63.430082539976,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 78751,
+        "rep_votes": 176899,
+        "other_votes": 4340,
+        "total_votes": 259990,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 98148,
+        "margin_pct": 37.750686234457184,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 137118,
+        "rep_votes": 208170,
+        "other_votes": 6822,
+        "total_votes": 352110,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 71052,
+        "margin_pct": 20.17892843793042,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 138033,
+        "rep_votes": 67295,
+        "other_votes": 5875,
+        "total_votes": 211203,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -70738,
+        "margin_pct": -33.492893926613675,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 85044,
+        "rep_votes": 43353,
+        "other_votes": 5544,
+        "total_votes": 133941,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": -41691,
+        "margin_pct": -31.1263914708715,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 48799,
+        "rep_votes": 130421,
+        "other_votes": 5823,
+        "total_votes": 185043,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 81622,
+        "margin_pct": 44.109739786698945,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 138026,
+        "rep_votes": 54890,
+        "other_votes": 0,
+        "total_votes": 192916,
+        "dem_candidate": "RAMONA FRANKLIN",
+        "rep_candidate": "BARBARA PARKER HERVE",
+        "margin": -83136,
+        "margin_pct": -43.09440378195691,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 59702,
+        "rep_votes": 150937,
+        "other_votes": 5580,
+        "total_votes": 216219,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 91235,
+        "margin_pct": 42.19562944401109,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 31792,
+        "rep_votes": 119325,
+        "other_votes": 1856,
+        "total_votes": 152973,
+        "dem_candidate": "Ramona Franklin",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 87533,
+        "margin_pct": 57.22120897151785,
+        "winner": "REP"
+      }
+    }
+  }
+}

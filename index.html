@@ -2215,7 +2215,6 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="control-group" style="margin-bottom:10px;">
                 <div class="view-toggle-row" style="display:flex;gap:6px;flex-wrap:wrap;">
                   <button id="counties-view" class="view-toggle-btn active" onclick="setMapView('counties')">Counties</button>
-                  <button id="vtds-2000-view" class="view-toggle-btn" onclick="setMapView('vtds_2000')">2000s VTDs</button>
                   <button id="districts-view" class="view-toggle-btn" onclick="setMapView('districts')">Congress</button>
                   <button id="state-house-view" class="view-toggle-btn" onclick="setMapView('state_house')">State House</button>
                   <button id="state-senate-view" class="view-toggle-btn" onclick="setMapView('state_senate')">State Senate</button>
@@ -2394,7 +2393,6 @@ document.addEventListener('DOMContentLoaded', function() {
         counties: withBase('./Data/tl_2020_48_county20.geojson'),
         precincts: withBase('./Data/tl_2020_48_vtd20.geojson'),
         precinct_centroids: withBase('./Data/precinct_centroids_tx.geojson'),
-        vtds_2000: withBase('./Data/vtd_2000s_tx.geojson'),
         districts: withBase('./Data/tx_cd_2025.geojson'),
         state_house: withBase('./Data/tx_state_house_2022.geojson'),
         state_senate: withBase('./Data/tx_state_senate_2022.geojson'),
@@ -3416,7 +3414,7 @@ document.addEventListener('DOMContentLoaded', function() {
         (Array.isArray(districtManifest) && districtManifest.length > 0);
       let entries = null;
 
-      if (currentView === 'counties' || currentView === 'vtds_2000' || !currentView) {
+      if (currentView === 'counties' || !currentView) {
         entries = contestManifest || [];
       } else {
         const scope = currentView === 'districts'
@@ -3435,7 +3433,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       // If we have manifests but no matches for this view, don't fall back to county contests (they won't load here).
-      if (inManifestMode && currentView !== 'counties' && currentView !== 'vtds_2000') {
+      if (inManifestMode && currentView !== 'counties') {
         const sel = document.getElementById('contestSelect');
         if (sel) {
           sel.innerHTML = '<option value="">No contests available for this view</option>';
@@ -3796,26 +3794,19 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('state-house-view')?.classList.toggle('active', view === 'state_house');
       document.getElementById('state-senate-view')?.classList.toggle('active', view === 'state_senate');
       
-      // Update 2000 VTDs button if available
-      const vtds2000Button = document.getElementById('vtds-2000-view');
-      if (vtds2000Button) {
-        vtds2000Button.classList.toggle('active', view === 'vtds_2000');
-      }
-      
       // Update sidebar title
       const sidebarTitle = document.querySelector('.sidebar-header h3');
       const titles = {
         'counties': 'County Analysis',
         'districts': 'Congressional District Analysis', 
         'state_house': 'State House District Analysis',
-        'state_senate': 'State Senate District Analysis',
-        'vtds_2000': '2000s VTD Analysis'
+        'state_senate': 'State Senate District Analysis'
       };
       sidebarTitle.textContent = titles[view];
       
       // Clear all map layers for the active view.
       // Precincts are an overlay; don't destroy precinct layers when switching views.
-      const layerTypes = ['county', 'district', 'state-house', 'state-senate', 'vtds-2000'];
+      const layerTypes = ['county', 'district', 'state-house', 'state-senate'];
       layerTypes.forEach(type => {
         if (map.getLayer(`${type}-fill`)) {
           map.removeLayer(`${type}-fill`);
@@ -3841,8 +3832,6 @@ document.addEventListener('DOMContentLoaded', function() {
         addStateHouseLayers();
       } else if (view === 'state_senate') {
         addStateSenatelayers();
-      } else if (view === 'vtds_2000') {
-        add2000VTDLayers();
       }
       
       // Repopulate contest selector

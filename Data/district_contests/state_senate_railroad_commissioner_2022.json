@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "railroad_commissioner",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.43973019990182,
+    "matched_precinct_rows": 5057,
+    "total_precinct_rows": 5948,
+    "matched_total_votes": 4001147,
+    "total_votes": 4795254,
+    "generated_at": "2026-03-03T22:22:52.209952+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 32051,
+        "rep_votes": 105891,
+        "other_votes": 5283,
+        "total_votes": 143225,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 73840,
+        "margin_pct": 51.55524524349799,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 56838,
+        "rep_votes": 82492,
+        "other_votes": 7117,
+        "total_votes": 146447,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 25654,
+        "margin_pct": 17.517396479730024,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 24313,
+        "rep_votes": 112448,
+        "other_votes": 7359,
+        "total_votes": 144120,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 88135,
+        "margin_pct": 61.153899528170975,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 64333,
+        "rep_votes": 150166,
+        "other_votes": 7953,
+        "total_votes": 222452,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 85833,
+        "margin_pct": 38.584953158434175,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 72988,
+        "rep_votes": 110617,
+        "other_votes": 11896,
+        "total_votes": 195501,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 37629,
+        "margin_pct": 19.247471879939233,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 127115,
+        "rep_votes": 146468,
+        "other_votes": 17893,
+        "total_votes": 291476,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 19353,
+        "margin_pct": 6.639674928222703,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 94302,
+        "rep_votes": 120625,
+        "other_votes": 10324,
+        "total_votes": 225251,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 26323,
+        "margin_pct": 11.686254976086637,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 123718,
+        "rep_votes": 127305,
+        "other_votes": 9909,
+        "total_votes": 260932,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 3586,
+        "margin_pct": 1.3743962102487721,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 28310,
+        "rep_votes": 39540,
+        "other_votes": 2597,
+        "total_votes": 70447,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 11230,
+        "margin_pct": 15.941299016332017,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 34600,
+        "rep_votes": 57795,
+        "other_votes": 3925,
+        "total_votes": 96321,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 23195,
+        "margin_pct": 24.08115994338664,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 18549,
+        "rep_votes": 3483,
+        "other_votes": 882,
+        "total_votes": 22914,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": -15066,
+        "margin_pct": -65.75019638648861,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 2657,
+        "rep_votes": 3313,
+        "other_votes": 510,
+        "total_votes": 6480,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 656,
+        "margin_pct": 10.123456790123457,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 89370,
+        "rep_votes": 83830,
+        "other_votes": 10094,
+        "total_votes": 183294,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": -5541,
+        "margin_pct": -3.022912195981865,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 8447,
+        "rep_votes": 21332,
+        "other_votes": 998,
+        "total_votes": 30777,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 12885,
+        "margin_pct": 41.86539389911006,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 15012,
+        "rep_votes": 47283,
+        "other_votes": 3097,
+        "total_votes": 65392,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 32271,
+        "margin_pct": 49.35007340347443,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 82503,
+        "rep_votes": 70252,
+        "other_votes": 16361,
+        "total_votes": 169116,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": -12251,
+        "margin_pct": -7.244168858923578,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 36650,
+        "rep_votes": 44547,
+        "other_votes": 4502,
+        "total_votes": 85699,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 7897,
+        "margin_pct": 9.214809974445442,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 25516,
+        "rep_votes": 51967,
+        "other_votes": 8126,
+        "total_votes": 85608,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 26451,
+        "margin_pct": 30.897842124695813,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 39398,
+        "rep_votes": 56489,
+        "other_votes": 9890,
+        "total_votes": 105777,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 17091,
+        "margin_pct": 16.157576788904958,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 126447,
+        "rep_votes": 29426,
+        "other_votes": 10215,
+        "total_votes": 166088,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": -97021,
+        "margin_pct": -58.41527609005319,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 49030,
+        "rep_votes": 139285,
+        "other_votes": 6856,
+        "total_votes": 195171,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 90255,
+        "margin_pct": 46.244066945386706,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 100869,
+        "rep_votes": 127079,
+        "other_votes": 14578,
+        "total_votes": 242526,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 26209,
+        "margin_pct": 10.806675627716004,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 108957,
+        "rep_votes": 58547,
+        "other_votes": 17466,
+        "total_votes": 184970,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": -50410,
+        "margin_pct": -27.25307033430801,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 35160,
+        "rep_votes": 30626,
+        "other_votes": 10703,
+        "total_votes": 76489,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": -4534,
+        "margin_pct": -5.927649727411785,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 6971,
+        "rep_votes": 39821,
+        "other_votes": 90797,
+        "total_votes": 137589,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 32850,
+        "margin_pct": 23.875461412127322,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 92144,
+        "rep_votes": 54694,
+        "other_votes": 19177,
+        "total_votes": 166015,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": -37450,
+        "margin_pct": -22.558202572056743,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 26680,
+        "rep_votes": 83972,
+        "other_votes": 5652,
+        "total_votes": 116304,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 57292,
+        "margin_pct": 49.26055675991886,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 26302,
+        "rep_votes": 130332,
+        "other_votes": 8132,
+        "total_votes": 164766,
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
+        "margin": 104030,
+        "margin_pct": 63.13802604906352,
+        "winner": "REP"
+      }
+    }
+  }
+}

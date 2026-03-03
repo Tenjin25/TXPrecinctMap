@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "railroad_commissioner",
+    "year": 2016,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 99.11303960081986,
+    "matched_precinct_rows": 6339,
+    "total_precinct_rows": 6432,
+    "matched_total_votes": 7130535,
+    "total_votes": 7194346,
+    "generated_at": "2026-03-03T22:22:37.430218+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 58466,
+        "rep_votes": 164544,
+        "other_votes": 60484,
+        "total_votes": 283494,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 106078,
+        "margin_pct": 37.41807586756686,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 17989,
+        "rep_votes": 70300,
+        "other_votes": 86981,
+        "total_votes": 175270,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 52311,
+        "margin_pct": 29.8459519598334,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 52746,
+        "rep_votes": 202657,
+        "other_votes": 65361,
+        "total_votes": 320764,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 149911,
+        "margin_pct": 46.73560624010176,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 92218,
+        "rep_votes": 223617,
+        "other_votes": 194134,
+        "total_votes": 509969,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 131399,
+        "margin_pct": 25.76607597716724,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 103987,
+        "rep_votes": 190407,
+        "other_votes": 32333,
+        "total_votes": 326727,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 86420,
+        "margin_pct": 26.45021684770466,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 98626,
+        "rep_votes": 38923,
+        "other_votes": 20955,
+        "total_votes": 158504,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": -59703,
+        "margin_pct": -37.666557310856504,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 108065,
+        "rep_votes": 195727,
+        "other_votes": 35258,
+        "total_votes": 339050,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 87662,
+        "margin_pct": 25.855183601238757,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 103132,
+        "rep_votes": 168078,
+        "other_votes": 35431,
+        "total_votes": 306641,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 64946,
+        "margin_pct": 21.17984194213897,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 216718,
+        "total_votes": 216718,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 304244,
+        "total_votes": 304244,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "11": {
+        "dem_votes": 61976,
+        "rep_votes": 114007,
+        "other_votes": 104994,
+        "total_votes": 280978,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 52031,
+        "margin_pct": 18.517919026328837,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 77549,
+        "rep_votes": 152349,
+        "other_votes": 129807,
+        "total_votes": 359705,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 74800,
+        "margin_pct": 20.794840305518115,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 166840,
+        "rep_votes": 31493,
+        "other_votes": 19547,
+        "total_votes": 217881,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": -135347,
+        "margin_pct": -62.12001444778809,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 9646,
+        "rep_votes": 14813,
+        "other_votes": 3319,
+        "total_votes": 27778,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 5167,
+        "margin_pct": 18.601051191590468,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 138262,
+        "rep_votes": 87937,
+        "other_votes": 32587,
+        "total_votes": 258786,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": -50325,
+        "margin_pct": -19.446569752614128,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 124986,
+        "rep_votes": 168420,
+        "other_votes": 71785,
+        "total_votes": 365191,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 43433,
+        "margin_pct": 11.893310013405648,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 86044,
+        "rep_votes": 161600,
+        "other_votes": 72034,
+        "total_votes": 319678,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 75556,
+        "margin_pct": 23.635032751706404,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 30280,
+        "rep_votes": 31259,
+        "other_votes": 18472,
+        "total_votes": 80011,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 979,
+        "margin_pct": 1.2235817575083427,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 109371,
+        "rep_votes": 78298,
+        "other_votes": 34343,
+        "total_votes": 222012,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": -31073,
+        "margin_pct": -13.996090301425149,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 80396,
+        "rep_votes": 67850,
+        "other_votes": 47119,
+        "total_votes": 195365,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": -12547,
+        "margin_pct": -6.422204161891385,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 60528,
+        "rep_votes": 182872,
+        "other_votes": 136137,
+        "total_votes": 379537,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 122344,
+        "margin_pct": 32.23506535594685,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 57002,
+        "rep_votes": 154507,
+        "other_votes": 35230,
+        "total_votes": 246739,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 97505,
+        "margin_pct": 39.51746582421101,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 46985,
+        "rep_votes": 112894,
+        "other_votes": 16049,
+        "total_votes": 175928,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 65910,
+        "margin_pct": 37.46395997420681,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 90764,
+        "rep_votes": 41297,
+        "other_votes": 101927,
+        "total_votes": 233988,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": -49467,
+        "margin_pct": -21.14082773475563,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 15786,
+        "rep_votes": 69046,
+        "other_votes": 10354,
+        "total_votes": 95186,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 53260,
+        "margin_pct": 55.95360662282268,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 127900,
+        "rep_votes": 54860,
+        "other_votes": 39141,
+        "total_votes": 221901,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": -73040,
+        "margin_pct": -32.915579470124065,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 53245,
+        "rep_votes": 186064,
+        "other_votes": 77232,
+        "total_votes": 316541,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 132819,
+        "margin_pct": 41.95948045350068,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 30514,
+        "rep_votes": 135345,
+        "other_votes": 26091,
+        "total_votes": 191950,
+        "dem_candidate": "Grady Yarbrough",
+        "rep_candidate": "Wayne Christian",
+        "margin": 104831,
+        "margin_pct": 54.613701484761656,
+        "winner": "REP"
+      }
+    }
+  }
+}

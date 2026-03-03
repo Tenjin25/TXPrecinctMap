@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "governor",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.67169881571427,
+    "matched_precinct_rows": 8542,
+    "total_precinct_rows": 8697,
+    "matched_total_votes": 8289589,
+    "total_votes": 8401182,
+    "generated_at": "2026-03-03T22:22:41.519629+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 61752,
+        "rep_votes": 202371,
+        "other_votes": 3356,
+        "total_votes": 267479,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 140619,
+        "margin_pct": 52.57197761319582,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 93906,
+        "rep_votes": 161530,
+        "other_votes": 11895,
+        "total_votes": 267331,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 67624,
+        "margin_pct": 25.295826913437036,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 49709,
+        "rep_votes": 208742,
+        "other_votes": 11434,
+        "total_votes": 269885,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 159033,
+        "margin_pct": 58.92620931137337,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 89849,
+        "rep_votes": 209283,
+        "other_votes": 5596,
+        "total_votes": 304728,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 119434,
+        "margin_pct": 39.19364154262161,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 126382,
+        "rep_votes": 193854,
+        "other_votes": 18560,
+        "total_votes": 338796,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 67472,
+        "margin_pct": 19.915229223485518,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 93519,
+        "rep_votes": 40727,
+        "other_votes": 3544,
+        "total_votes": 137790,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -52792,
+        "margin_pct": -38.31337542637347,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 119227,
+        "rep_votes": 185874,
+        "other_votes": 6725,
+        "total_votes": 311826,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 66647,
+        "margin_pct": 21.373137583139314,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 145988,
+        "rep_votes": 186618,
+        "other_votes": 9899,
+        "total_votes": 342505,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 40630,
+        "margin_pct": 11.862632585422341,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 106504,
+        "rep_votes": 137538,
+        "other_votes": 7260,
+        "total_votes": 251302,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 31034,
+        "margin_pct": 12.349135266876637,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 136924,
+        "rep_votes": 148751,
+        "other_votes": 8290,
+        "total_votes": 293965,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 11827,
+        "margin_pct": 4.023270660705947,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 105584,
+        "rep_votes": 181245,
+        "other_votes": 5857,
+        "total_votes": 292686,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 75661,
+        "margin_pct": 25.85061720304304,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 126324,
+        "rep_votes": 212372,
+        "other_votes": 9444,
+        "total_votes": 348141,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 86048,
+        "margin_pct": 24.71649240416945,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 153311,
+        "rep_votes": 37433,
+        "other_votes": 5103,
+        "total_votes": 195847,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -115878,
+        "margin_pct": -59.16749866924326,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 257708,
+        "rep_votes": 119889,
+        "other_votes": 10975,
+        "total_votes": 388572,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -137819,
+        "margin_pct": -35.46807284106935,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 144021,
+        "rep_votes": 88786,
+        "other_votes": 6575,
+        "total_votes": 239382,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -55235,
+        "margin_pct": -23.073998880450493,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 139741,
+        "rep_votes": 151689,
+        "other_votes": 9730,
+        "total_votes": 301161,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 11948,
+        "margin_pct": 3.9673710567087386,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 138730,
+        "rep_votes": 167346,
+        "other_votes": 8731,
+        "total_votes": 314807,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 28615,
+        "margin_pct": 9.089794441534474,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 100800,
+        "rep_votes": 209464,
+        "other_votes": 11963,
+        "total_votes": 322227,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 108664,
+        "margin_pct": 33.72281031695047,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 108366,
+        "rep_votes": 95802,
+        "other_votes": 4627,
+        "total_votes": 208795,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -12564,
+        "margin_pct": -6.0174224949588115,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 100080,
+        "rep_votes": 92329,
+        "other_votes": 4776,
+        "total_votes": 197185,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -7751,
+        "margin_pct": -3.930826381317037,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 112218,
+        "rep_votes": 92056,
+        "other_votes": 9342,
+        "total_votes": 213615,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -20163,
+        "margin_pct": -9.438742405387455,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 82911,
+        "rep_votes": 196944,
+        "other_votes": 5337,
+        "total_votes": 285192,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 114033,
+        "margin_pct": 39.9846419254397,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 176391,
+        "rep_votes": 46198,
+        "other_votes": 6986,
+        "total_votes": 229575,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -130193,
+        "margin_pct": -56.710283195530906,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 75746,
+        "rep_votes": 193052,
+        "other_votes": 5887,
+        "total_votes": 274685,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 117306,
+        "margin_pct": 42.70564919030434,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 159308,
+        "rep_votes": 247646,
+        "other_votes": 10130,
+        "total_votes": 417084,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 88338,
+        "margin_pct": 21.17982712965127,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 129733,
+        "rep_votes": 75292,
+        "other_votes": 6178,
+        "total_votes": 211203,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -54441,
+        "margin_pct": -25.776623959292007,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 80057,
+        "rep_votes": 55501,
+        "other_votes": 4438,
+        "total_votes": 139996,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": -24556,
+        "margin_pct": -17.54050115717592,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 53264,
+        "rep_votes": 167667,
+        "other_votes": 8472,
+        "total_votes": 229403,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 114403,
+        "margin_pct": 49.86987171688807,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 134270,
+        "rep_votes": 63275,
+        "other_votes": 3726,
+        "total_votes": 201271,
+        "dem_candidate": "LUPE VALDEZ",
+        "rep_candidate": "GREG ABBOTT",
+        "margin": -70995,
+        "margin_pct": -35.273337937407774,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 67810,
+        "rep_votes": 196017,
+        "other_votes": 14980,
+        "total_votes": 278807,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 128207,
+        "margin_pct": 45.98412809605818,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 39765,
+        "rep_votes": 167052,
+        "other_votes": 7531,
+        "total_votes": 214348,
+        "dem_candidate": "Lupe Valdez",
+        "rep_candidate": "Greg Abbott",
+        "margin": 127287,
+        "margin_pct": 59.383339242726784,
+        "winner": "REP"
+      }
+    }
+  }
+}

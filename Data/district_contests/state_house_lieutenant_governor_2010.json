@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "scope": "state_house",
+    "contest_type": "lieutenant_governor",
+    "year": 2010,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.57235632888127,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 7310,
+    "total_votes": 8161,
+    "generated_at": "2026-03-03T22:22:27.561789+00:00"
+  },
+  "general": {
+    "results": {
+      "17": {
+        "dem_votes": 2675,
+        "rep_votes": 4263,
+        "other_votes": 372,
+        "total_votes": 7310,
+        "dem_candidate": "LINDA CHAVEZ-THOMPSON",
+        "rep_candidate": "DAVID DEWHURST",
+        "margin": 1588,
+        "margin_pct": 21.723666210670313,
+        "winner": "REP"
+      }
+    }
+  }
+}

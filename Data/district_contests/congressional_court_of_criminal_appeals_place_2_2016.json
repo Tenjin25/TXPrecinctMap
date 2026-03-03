@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_place_2",
+    "year": 2016,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 99.66573838084648,
+    "matched_precinct_rows": 2337,
+    "total_precinct_rows": 2352,
+    "matched_total_votes": 2532033,
+    "total_votes": 2540525,
+    "generated_at": "2026-03-03T22:22:36.048413+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7414,
+        "rep_votes": 20950,
+        "other_votes": 54274,
+        "total_votes": 82638,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 13536,
+        "margin_pct": 16.379873665868004,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 107294,
+        "rep_votes": 188695,
+        "other_votes": 30169,
+        "total_votes": 326158,
+        "dem_candidate": "Lawrence Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 81401,
+        "margin_pct": 24.95755892576738,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 6193,
+        "rep_votes": 20864,
+        "other_votes": 53814,
+        "total_votes": 80871,
+        "dem_candidate": "Lawrence Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 14671,
+        "margin_pct": 18.141129012504795,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 45997,
+        "rep_votes": 41511,
+        "other_votes": 19372,
+        "total_votes": 106881,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": -4486,
+        "margin_pct": -4.197455566587297,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 193530,
+        "total_votes": 193530,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "8": {
+        "dem_votes": 2028,
+        "rep_votes": 7419,
+        "other_votes": 1006,
+        "total_votes": 10453,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 5391,
+        "margin_pct": 51.57371089639338,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 1815,
+        "rep_votes": 5538,
+        "other_votes": 576,
+        "total_votes": 7929,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 3723,
+        "margin_pct": 46.954218690881575,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 1230,
+        "rep_votes": 8206,
+        "other_votes": 627,
+        "total_votes": 10063,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 6976,
+        "margin_pct": 69.32326344032595,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 224210,
+        "total_votes": 224210,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "13": {
+        "dem_votes": 1592,
+        "rep_votes": 8861,
+        "other_votes": 16127,
+        "total_votes": 26580,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 7269,
+        "margin_pct": 27.34806789368649,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 42508,
+        "rep_votes": 40664,
+        "other_votes": 5385,
+        "total_votes": 88557,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": -1844,
+        "margin_pct": -2.0822746931354947,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 5865,
+        "rep_votes": 15721,
+        "other_votes": 1675,
+        "total_votes": 23261,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 9856,
+        "margin_pct": 42.371351188684926,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 2387,
+        "rep_votes": 7969,
+        "other_votes": 1017,
+        "total_votes": 11373,
+        "dem_candidate": "LAWRENCE \"LARRY\" MEYERS",
+        "rep_candidate": "MARY LOU KEEL",
+        "margin": 5582,
+        "margin_pct": 49.08115712652774,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 4906,
+        "rep_votes": 13508,
+        "other_votes": 935,
+        "total_votes": 19349,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "May Lou Keel",
+        "margin": 8602,
+        "margin_pct": 44.45707788516202,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 70290,
+        "rep_votes": 79843,
+        "other_votes": 129244,
+        "total_votes": 279376,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 9553,
+        "margin_pct": 3.4192327634030586,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 3000,
+        "total_votes": 3000,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "26": {
+        "dem_votes": 77348,
+        "rep_votes": 157560,
+        "other_votes": 89553,
+        "total_votes": 324462,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 80212,
+        "margin_pct": 24.72161559244834,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 30182,
+        "total_votes": 30182,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "30": {
+        "dem_votes": 164607,
+        "rep_votes": 44436,
+        "other_votes": 14954,
+        "total_votes": 223997,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": -120171,
+        "margin_pct": -53.64843930684652,
+        "winner": "DEM"
+      },
+      "32": {
+        "dem_votes": 110206,
+        "rep_votes": 148148,
+        "other_votes": 27640,
+        "total_votes": 285994,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 37942,
+        "margin_pct": 13.266765875406545,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 40889,
+        "rep_votes": 18120,
+        "other_votes": 70450,
+        "total_votes": 129459,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": -22769,
+        "margin_pct": -17.587542963261143,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 985,
+        "rep_votes": 2317,
+        "other_votes": 476,
+        "total_votes": 3778,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 1332,
+        "margin_pct": 35.25674960296453,
+        "winner": "REP"
+      },
+      "36": {
+        "dem_votes": 7540,
+        "rep_votes": 29923,
+        "other_votes": 2470,
+        "total_votes": 39933,
+        "dem_candidate": "Lawrence \"Larry\" Meyers",
+        "rep_candidate": "Mary Lou Keel",
+        "margin": 22383,
+        "margin_pct": 56.05138607167005,
+        "winner": "REP"
+      }
+    }
+  }
+}

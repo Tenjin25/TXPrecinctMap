@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_8",
+    "year": 2020,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 95.3868631640881,
+    "matched_precinct_rows": 5006,
+    "total_precinct_rows": 5421,
+    "matched_total_votes": 6186522,
+    "total_votes": 6485717,
+    "generated_at": "2026-03-03T22:22:47.932344+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 41731,
+        "rep_votes": 114940,
+        "other_votes": 4082,
+        "total_votes": 160753,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 73209,
+        "margin_pct": 45.541296274408566,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 181016,
+        "rep_votes": 221371,
+        "other_votes": 31504,
+        "total_votes": 433892,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 40355,
+        "margin_pct": 9.30076742088071,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 43161,
+        "rep_votes": 140885,
+        "other_votes": 6770,
+        "total_votes": 190815,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 97724,
+        "margin_pct": 51.213783148353556,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 69316,
+        "rep_votes": 67585,
+        "other_votes": 3906,
+        "total_votes": 140807,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": -1730,
+        "margin_pct": -1.2288972927412378,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 147770,
+        "rep_votes": 162737,
+        "other_votes": 7759,
+        "total_votes": 318266,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 14967,
+        "margin_pct": 4.702650333565328,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 2752,
+        "rep_votes": 9499,
+        "other_votes": 275,
+        "total_votes": 12526,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 6747,
+        "margin_pct": 53.86396295704934,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 122888,
+        "rep_votes": 96844,
+        "other_votes": 7608,
+        "total_votes": 227340,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": -26044,
+        "margin_pct": -11.455969033166182,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 31922,
+        "rep_votes": 124274,
+        "other_votes": 20296,
+        "total_votes": 176492,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 92352,
+        "margin_pct": 52.32645105727172,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 125837,
+        "rep_votes": 226031,
+        "other_votes": 12362,
+        "total_votes": 364229,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 100194,
+        "margin_pct": 27.508445044017694,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 21876,
+        "rep_votes": 117727,
+        "other_votes": 7702,
+        "total_votes": 147304,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 95851,
+        "margin_pct": 65.06972576650571,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 18211,
+        "rep_votes": 43549,
+        "other_votes": 1693,
+        "total_votes": 63453,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 25338,
+        "margin_pct": 39.93191811261879,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 21090,
+        "rep_votes": 40678,
+        "other_votes": 3514,
+        "total_votes": 65282,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 19588,
+        "margin_pct": 30.005208173769187,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 113707,
+        "rep_votes": 135142,
+        "other_votes": 21092,
+        "total_votes": 269941,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 21435,
+        "margin_pct": 7.940624062295094,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 8587,
+        "rep_votes": 36278,
+        "other_votes": 1285,
+        "total_votes": 46150,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 27691,
+        "margin_pct": 60.00216684723727,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 166171,
+        "rep_votes": 93131,
+        "other_votes": 19604,
+        "total_votes": 278906,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": -73040,
+        "margin_pct": -26.18807960714118,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 193876,
+        "rep_votes": 224590,
+        "other_votes": 18973,
+        "total_votes": 437439,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 30714,
+        "margin_pct": 7.0213341192513825,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 39207,
+        "rep_votes": 46156,
+        "other_votes": 2130,
+        "total_votes": 87493,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 6949,
+        "margin_pct": 7.94234967368818,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 80962,
+        "rep_votes": 82226,
+        "other_votes": 18615,
+        "total_votes": 181804,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 1264,
+        "margin_pct": 0.6952253060139126,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 131451,
+        "rep_votes": 140773,
+        "other_votes": 67189,
+        "total_votes": 339413,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 9321,
+        "margin_pct": 2.7462630308540295,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 142171,
+        "rep_votes": 154153,
+        "other_votes": 9026,
+        "total_votes": 305350,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 11982,
+        "margin_pct": 3.924097948122369,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 27690,
+        "rep_votes": 53734,
+        "other_votes": 345252,
+        "total_votes": 426677,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 26044,
+        "margin_pct": 6.103943671977017,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 12941,
+        "rep_votes": 28839,
+        "other_votes": 1632,
+        "total_votes": 43412,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 15898,
+        "margin_pct": 36.62121072514512,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 45649,
+        "rep_votes": 49973,
+        "other_votes": 5755,
+        "total_votes": 101377,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 4324,
+        "margin_pct": 4.2652693754667865,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 206878,
+        "rep_votes": 50714,
+        "other_votes": 5441,
+        "total_votes": 263033,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": -156164,
+        "margin_pct": -59.37046300429854,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 45300,
+        "rep_votes": 65329,
+        "other_votes": 5352,
+        "total_votes": 115981,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 20029,
+        "margin_pct": 17.269207887498812,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 166883,
+        "rep_votes": 163746,
+        "other_votes": 9751,
+        "total_votes": 340379,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": -3137,
+        "margin_pct": -0.9215627969188743,
+        "winner": "DEM"
+      },
+      "33": {
+        "dem_votes": 112582,
+        "rep_votes": 39941,
+        "other_votes": 3740,
+        "total_votes": 156263,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": -72641,
+        "margin_pct": -46.48610314816815,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 71040,
+        "rep_votes": 49848,
+        "other_votes": 13332,
+        "total_votes": 134220,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": -21192,
+        "margin_pct": -15.789003129190881,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 172421,
+        "rep_votes": 79362,
+        "other_votes": 13902,
+        "total_votes": 265684,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": -93059,
+        "margin_pct": -35.026117043475104,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 14704,
+        "rep_votes": 74714,
+        "other_votes": 2423,
+        "total_votes": 91841,
+        "dem_candidate": "Gisela D. Triana",
+        "rep_candidate": "Brett Busby",
+        "margin": 60010,
+        "margin_pct": 65.34118748707004,
+        "winner": "REP"
+      }
+    }
+  }
+}

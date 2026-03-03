@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "scope": "state_house",
+    "contest_type": "attorney_general",
+    "year": 2010,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.57618814306713,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 7313,
+    "total_votes": 8164,
+    "generated_at": "2026-03-03T22:22:27.539032+00:00"
+  },
+  "general": {
+    "results": {
+      "17": {
+        "dem_votes": 2465,
+        "rep_votes": 4600,
+        "other_votes": 248,
+        "total_votes": 7313,
+        "dem_candidate": "BARBARA ANN RADNOFSKY",
+        "rep_candidate": "GREG ABBOTT",
+        "margin": 2135,
+        "margin_pct": 29.19458498564201,
+        "winner": "REP"
+      }
+    }
+  }
+}

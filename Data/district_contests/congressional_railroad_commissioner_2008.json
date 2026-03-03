@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "railroad_commissioner",
+    "year": 2008,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.4468313641246,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 9993,
+    "total_votes": 11172,
+    "generated_at": "2026-03-03T22:22:27.522405+00:00"
+  },
+  "general": {
+    "results": {
+      "27": {
+        "dem_votes": 1913,
+        "rep_votes": 2252,
+        "other_votes": 245,
+        "total_votes": 4410,
+        "dem_candidate": "MARK THOMPSON",
+        "rep_candidate": "MICHAEL L WILLIAMS",
+        "margin": 339,
+        "margin_pct": 7.687074829931973,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 3102,
+        "rep_votes": 2213,
+        "other_votes": 268,
+        "total_votes": 5583,
+        "dem_candidate": "MARK THOMPSON",
+        "rep_candidate": "MICHAEL L WILLIAMS",
+        "margin": -889,
+        "margin_pct": -15.923338706788465,
+        "winner": "DEM"
+      }
+    }
+  }
+}

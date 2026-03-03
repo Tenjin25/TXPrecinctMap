@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "comptroller",
+    "year": 2010,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.26678445229682,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 6063,
+    "total_votes": 6792,
+    "generated_at": "2026-03-03T22:22:27.542104+00:00"
+  },
+  "general": {
+    "results": {
+      "27": {
+        "dem_votes": 363,
+        "rep_votes": 2334,
+        "other_votes": 160,
+        "total_votes": 2857,
+        "dem_candidate": "MARY J RUWART",
+        "rep_candidate": "SUSAN COMBS",
+        "margin": 1971,
+        "margin_pct": 68.98844942247112,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 509,
+        "rep_votes": 2408,
+        "other_votes": 289,
+        "total_votes": 3206,
+        "dem_candidate": "MARY J RUWART",
+        "rep_candidate": "SUSAN COMBS",
+        "margin": 1899,
+        "margin_pct": 59.23268870867125,
+        "winner": "REP"
+      }
+    }
+  }
+}

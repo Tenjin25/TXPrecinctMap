@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "lieutenant_governor",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.67281589697564,
+    "matched_precinct_rows": 8542,
+    "total_precinct_rows": 8697,
+    "matched_total_votes": 8276289,
+    "total_votes": 8387608,
+    "generated_at": "2026-03-03T22:22:42.259071+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 65763,
+        "rep_votes": 156682,
+        "other_votes": 12326,
+        "total_votes": 234771,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 90919,
+        "margin_pct": 38.72685955898899,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 123617,
+        "rep_votes": 134700,
+        "other_votes": 7527,
+        "total_votes": 265844,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 11083,
+        "margin_pct": 4.168986322805856,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 140742,
+        "rep_votes": 165445,
+        "other_votes": 11772,
+        "total_votes": 317959,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 24703,
+        "margin_pct": 7.769271958994695,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 61711,
+        "rep_votes": 174223,
+        "other_votes": 11616,
+        "total_votes": 247550,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 112512,
+        "margin_pct": 45.45020660099987,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 79864,
+        "rep_votes": 121046,
+        "other_votes": 5973,
+        "total_votes": 206882,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 41182,
+        "margin_pct": 19.90611331863136,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 118500,
+        "rep_votes": 132657,
+        "other_votes": 8188,
+        "total_votes": 259344,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 14157,
+        "margin_pct": 5.458763495632057,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 124898,
+        "rep_votes": 113737,
+        "other_votes": 7447,
+        "total_votes": 246082,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -11161,
+        "margin_pct": -4.535480043237619,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 71019,
+        "rep_votes": 186273,
+        "other_votes": 15612,
+        "total_votes": 272904,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 115254,
+        "margin_pct": 42.2324333831677,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 135035,
+        "rep_votes": 34694,
+        "other_votes": 4717,
+        "total_votes": 174446,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -100341,
+        "margin_pct": -57.51984704165179,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 147808,
+        "rep_votes": 153408,
+        "other_votes": 8438,
+        "total_votes": 309654,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 5600,
+        "margin_pct": 1.8084700988845614,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 47133,
+        "rep_votes": 156330,
+        "other_votes": 18666,
+        "total_votes": 222130,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 109198,
+        "margin_pct": 49.159386754123155,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 89621,
+        "rep_votes": 119333,
+        "other_votes": 8310,
+        "total_votes": 217264,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 29713,
+        "margin_pct": 13.675869153592135,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 43220,
+        "rep_votes": 153171,
+        "other_votes": 9779,
+        "total_votes": 206170,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 109951,
+        "margin_pct": 53.33024170943541,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 94199,
+        "rep_votes": 135902,
+        "other_votes": 4805,
+        "total_votes": 234906,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 41703,
+        "margin_pct": 17.753058670276623,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 90044,
+        "rep_votes": 68902,
+        "other_votes": 11955,
+        "total_votes": 170901,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -21142,
+        "margin_pct": -12.370904792833278,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 120725,
+        "rep_votes": 52702,
+        "other_votes": 5464,
+        "total_votes": 178891,
+        "dem_candidate": "MIKE COLLIER",
+        "rep_candidate": "DAN PATRICK",
+        "margin": -68023,
+        "margin_pct": -38.02483076286677,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 103450,
+        "rep_votes": 127523,
+        "other_votes": 8932,
+        "total_votes": 239905,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 24073,
+        "margin_pct": 10.03438861215898,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 141902,
+        "rep_votes": 39868,
+        "other_votes": 5336,
+        "total_votes": 187106,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -102034,
+        "margin_pct": -54.53273055771214,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 58787,
+        "rep_votes": 138216,
+        "other_votes": 7177,
+        "total_votes": 204180,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 79428,
+        "margin_pct": 38.90130987684856,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 124026,
+        "rep_votes": 70793,
+        "other_votes": 7437,
+        "total_votes": 202256,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -53233,
+        "margin_pct": -26.319663732972305,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 164441,
+        "rep_votes": 173375,
+        "other_votes": 10852,
+        "total_votes": 348668,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 8934,
+        "margin_pct": 2.5623369402454252,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 139798,
+        "rep_votes": 152670,
+        "other_votes": 9071,
+        "total_votes": 301539,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 12872,
+        "margin_pct": 4.268831954690235,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 97244,
+        "rep_votes": 88012,
+        "other_votes": 5970,
+        "total_votes": 191226,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -9232,
+        "margin_pct": -4.827982711130735,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 127094,
+        "rep_votes": 130327,
+        "other_votes": 10409,
+        "total_votes": 267830,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 3233,
+        "margin_pct": 1.206990592233644,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 137943,
+        "rep_votes": 161333,
+        "other_votes": 8727,
+        "total_votes": 308004,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 23390,
+        "margin_pct": 7.594120462597169,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 124083,
+        "rep_votes": 181162,
+        "other_votes": 11523,
+        "total_votes": 316769,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 57079,
+        "margin_pct": 18.01917489955227,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 78690,
+        "rep_votes": 124225,
+        "other_votes": 6577,
+        "total_votes": 209492,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 45535,
+        "margin_pct": 21.735913543237928,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 93128,
+        "rep_votes": 66329,
+        "other_votes": 4721,
+        "total_votes": 164178,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -26799,
+        "margin_pct": -16.323171962682554,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 84022,
+        "rep_votes": 32053,
+        "other_votes": 3540,
+        "total_votes": 119615,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -51969,
+        "margin_pct": -43.44687079007391,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 163487,
+        "rep_votes": 38557,
+        "other_votes": 6597,
+        "total_votes": 208641,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -124930,
+        "margin_pct": -59.87795215476366,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 129947,
+        "rep_votes": 147307,
+        "other_votes": 11888,
+        "total_votes": 289142,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 17360,
+        "margin_pct": 6.00397036750109,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 141389,
+        "rep_votes": 126218,
+        "other_votes": 10915,
+        "total_votes": 278522,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -15171,
+        "margin_pct": -5.446906938486528,
+        "winner": "DEM"
+      },
+      "33": {
+        "dem_votes": 89278,
+        "rep_votes": 28048,
+        "other_votes": 5041,
+        "total_votes": 122368,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -61230,
+        "margin_pct": -50.03792790761775,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 72524,
+        "rep_votes": 54160,
+        "other_votes": 13336,
+        "total_votes": 140020,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -18364,
+        "margin_pct": -13.115269247250394,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 132913,
+        "rep_votes": 57068,
+        "other_votes": 7151,
+        "total_votes": 197132,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": -75846,
+        "margin_pct": -38.474519400568816,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 60116,
+        "rep_votes": 148887,
+        "other_votes": 4997,
+        "total_votes": 214000,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
+        "margin": 88771,
+        "margin_pct": 41.481775700934584,
+        "winner": "REP"
+      }
+    }
+  }
+}

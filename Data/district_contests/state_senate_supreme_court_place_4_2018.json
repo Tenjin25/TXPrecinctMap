@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_4",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.964149930063,
+    "matched_precinct_rows": 7157,
+    "total_precinct_rows": 7269,
+    "matched_total_votes": 7359661,
+    "total_votes": 7436694,
+    "generated_at": "2026-03-03T22:22:44.189503+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 17381,
+        "rep_votes": 67999,
+        "other_votes": 1462,
+        "total_votes": 86842,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 50618,
+        "margin_pct": 58.287464590866165,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 97347,
+        "rep_votes": 135849,
+        "other_votes": 4329,
+        "total_votes": 237525,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 38502,
+        "margin_pct": 16.209483143073193,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 40372,
+        "rep_votes": 142062,
+        "other_votes": 3840,
+        "total_votes": 186274,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 101690,
+        "margin_pct": 54.59162309286321,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 96497,
+        "rep_votes": 196225,
+        "other_votes": 4563,
+        "total_votes": 297285,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 99728,
+        "margin_pct": 33.54626032258607,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 133523,
+        "rep_votes": 178673,
+        "other_votes": 9443,
+        "total_votes": 321639,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 45150,
+        "margin_pct": 14.037476798522567,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 98313,
+        "rep_votes": 36084,
+        "other_votes": 3393,
+        "total_votes": 137790,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -62229,
+        "margin_pct": -45.16220335292837,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 128896,
+        "rep_votes": 177211,
+        "other_votes": 5719,
+        "total_votes": 311826,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 48315,
+        "margin_pct": 15.494217929229762,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 154510,
+        "rep_votes": 175689,
+        "other_votes": 12306,
+        "total_votes": 342505,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 21179,
+        "margin_pct": 6.183592831426237,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 113274,
+        "rep_votes": 131033,
+        "other_votes": 6995,
+        "total_votes": 251302,
+        "dem_candidate": "R. K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 17759,
+        "margin_pct": 7.0666441019496915,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 145137,
+        "rep_votes": 140405,
+        "other_votes": 8423,
+        "total_votes": 293965,
+        "dem_candidate": "R. K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -4732,
+        "margin_pct": -1.6097110034110487,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 115091,
+        "rep_votes": 172390,
+        "other_votes": 3475,
+        "total_votes": 290956,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 57299,
+        "margin_pct": 19.693406294212917,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 135806,
+        "rep_votes": 202744,
+        "other_votes": 9590,
+        "total_votes": 348141,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 66938,
+        "margin_pct": 19.227321610795915,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 161913,
+        "rep_votes": 29912,
+        "other_votes": 4022,
+        "total_votes": 195847,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -132001,
+        "margin_pct": -67.40002071912252,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 260410,
+        "rep_votes": 93402,
+        "other_votes": 0,
+        "total_votes": 353812,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -167008,
+        "margin_pct": -47.20246910788781,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 153720,
+        "rep_votes": 80027,
+        "other_votes": 5635,
+        "total_votes": 239382,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -73693,
+        "margin_pct": -30.78468723630014,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 148587,
+        "rep_votes": 141989,
+        "other_votes": 10584,
+        "total_votes": 301161,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -6598,
+        "margin_pct": -2.1907798787314245,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 151378,
+        "rep_votes": 155260,
+        "other_votes": 8169,
+        "total_votes": 314807,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 3881,
+        "margin_pct": 1.2329586472533631,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 95345,
+        "rep_votes": 150402,
+        "other_votes": 15480,
+        "total_votes": 261227,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 55057,
+        "margin_pct": 21.076305282378925,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 96220,
+        "rep_votes": 62803,
+        "other_votes": 7247,
+        "total_votes": 166270,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -33417,
+        "margin_pct": -20.0980992882609,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 110206,
+        "rep_votes": 79652,
+        "other_votes": 6413,
+        "total_votes": 196271,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -30554,
+        "margin_pct": -15.567251402397705,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 56037,
+        "rep_votes": 47074,
+        "other_votes": 660,
+        "total_votes": 103771,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -8963,
+        "margin_pct": -8.637330704591063,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 70029,
+        "rep_votes": 112634,
+        "other_votes": 2790,
+        "total_votes": 185453,
+        "dem_candidate": "R. K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 42605,
+        "margin_pct": 22.973475759356816,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 184549,
+        "rep_votes": 39521,
+        "other_votes": 5505,
+        "total_votes": 229575,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -145028,
+        "margin_pct": -63.17221778348677,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 79699,
+        "rep_votes": 176228,
+        "other_votes": 4206,
+        "total_votes": 260133,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 96529,
+        "margin_pct": 37.107560148655836,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 139055,
+        "rep_votes": 206870,
+        "other_votes": 6388,
+        "total_votes": 352313,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 67815,
+        "margin_pct": 19.24851590342664,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 137982,
+        "rep_votes": 67554,
+        "other_votes": 5667,
+        "total_votes": 211203,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -70428,
+        "margin_pct": -33.346116988466626,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 83829,
+        "rep_votes": 44050,
+        "other_votes": 6062,
+        "total_votes": 133941,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": -39779,
+        "margin_pct": -29.698897275666152,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 40517,
+        "rep_votes": 131130,
+        "other_votes": 14547,
+        "total_votes": 186194,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 90613,
+        "margin_pct": 48.665897586005244,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 137433,
+        "rep_votes": 55528,
+        "other_votes": 0,
+        "total_votes": 192961,
+        "dem_candidate": "R K SANDILL",
+        "rep_candidate": "JOHN DEVINE",
+        "margin": -81905,
+        "margin_pct": -42.44640108622986,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 60127,
+        "rep_votes": 150739,
+        "other_votes": 5409,
+        "total_votes": 216275,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 90612,
+        "margin_pct": 41.89664397507998,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 32165,
+        "rep_votes": 119073,
+        "other_votes": 1777,
+        "total_votes": 153015,
+        "dem_candidate": "R.K. Sandill",
+        "rep_candidate": "John Devine",
+        "margin": 86908,
+        "margin_pct": 56.797046041237785,
+        "winner": "REP"
+      }
+    }
+  }
+}

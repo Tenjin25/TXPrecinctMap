@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_7",
+    "year": 2020,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 95.39001413283262,
+    "matched_precinct_rows": 5006,
+    "total_precinct_rows": 5421,
+    "matched_total_votes": 6194721,
+    "total_votes": 6494098,
+    "generated_at": "2026-03-03T22:22:47.808084+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 51398,
+        "rep_votes": 139869,
+        "other_votes": 4948,
+        "total_votes": 196215,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 88471,
+        "margin_pct": 45.08880564686696,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 86209,
+        "rep_votes": 76337,
+        "other_votes": 3843,
+        "total_votes": 166389,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -9873,
+        "margin_pct": -5.9334074519290425,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 29580,
+        "rep_votes": 123369,
+        "other_votes": 4407,
+        "total_votes": 157356,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 93789,
+        "margin_pct": 59.60306566003203,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 35835,
+        "rep_votes": 62377,
+        "other_votes": 3449,
+        "total_votes": 101661,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 26542,
+        "margin_pct": 26.10834046487837,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 203682,
+        "rep_votes": 219334,
+        "other_votes": 28651,
+        "total_votes": 451668,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 15652,
+        "margin_pct": 3.465435281081964,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 148612,
+        "rep_votes": 168204,
+        "other_votes": 8768,
+        "total_votes": 325584,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 19591,
+        "margin_pct": 6.01724099577972,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 184857,
+        "rep_votes": 174246,
+        "other_votes": 8619,
+        "total_votes": 367722,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -10611,
+        "margin_pct": -2.8855306870135866,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 48464,
+        "rep_votes": 62002,
+        "other_votes": 2665,
+        "total_votes": 113131,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 13538,
+        "margin_pct": 11.966857864681076,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 50267,
+        "rep_votes": 81234,
+        "other_votes": 342595,
+        "total_votes": 474097,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 30967,
+        "margin_pct": 6.531821907287344,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 317995,
+        "rep_votes": 138765,
+        "other_votes": 14358,
+        "total_votes": 471118,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -179230,
+        "margin_pct": -38.043547476428415,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 188763,
+        "rep_votes": 172643,
+        "other_votes": 8366,
+        "total_votes": 369772,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -16120,
+        "margin_pct": -4.35933879585294,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 9779,
+        "rep_votes": 27361,
+        "other_votes": 1033,
+        "total_votes": 38173,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 17582,
+        "margin_pct": 46.058506916028016,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 24836,
+        "rep_votes": 69729,
+        "other_votes": 11177,
+        "total_votes": 105742,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 44893,
+        "margin_pct": 42.45522119876681,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 124937,
+        "rep_votes": 82181,
+        "other_votes": 22393,
+        "total_votes": 229511,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -42756,
+        "margin_pct": -18.62922910641047,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 6981,
+        "rep_votes": 6676,
+        "other_votes": 208,
+        "total_votes": 13865,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -305,
+        "margin_pct": -2.1997836278398846,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 74575,
+        "rep_votes": 53818,
+        "other_votes": 4808,
+        "total_votes": 133202,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -20757,
+        "margin_pct": -15.583412643977132,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 90330,
+        "rep_votes": 146130,
+        "other_votes": 10000,
+        "total_votes": 246460,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 55800,
+        "margin_pct": 22.64059076523574,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 231916,
+        "rep_votes": 53166,
+        "other_votes": 5924,
+        "total_votes": 291006,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -178749,
+        "margin_pct": -61.42469714136632,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 100656,
+        "rep_votes": 192151,
+        "other_votes": 25468,
+        "total_votes": 318275,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 91495,
+        "margin_pct": 28.747152619589976,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 231280,
+        "rep_votes": 308609,
+        "other_votes": 25126,
+        "total_votes": 565015,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 77329,
+        "margin_pct": 13.68627132262657,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 179131,
+        "rep_votes": 90131,
+        "other_votes": 20169,
+        "total_votes": 289431,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -89000,
+        "margin_pct": -30.749990101785585,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 61116,
+        "rep_votes": 42046,
+        "other_votes": 15754,
+        "total_votes": 118916,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -19070,
+        "margin_pct": -16.03652998755424,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 19666,
+        "rep_votes": 76091,
+        "other_votes": 4897,
+        "total_votes": 100654,
+        "dem_candidate": "STACI WILLIAMS",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 56425,
+        "margin_pct": 56.058378206529305,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 1251,
+        "total_votes": 1251,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "30": {
+        "dem_votes": 65939,
+        "rep_votes": 243420,
+        "other_votes": 78448,
+        "total_votes": 387806,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 177481,
+        "margin_pct": 45.76530601151616,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 29993,
+        "rep_votes": 124385,
+        "other_votes": 6325,
+        "total_votes": 160703,
+        "dem_candidate": "Staci Williams",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 94392,
+        "margin_pct": 58.736924637374536,
+        "winner": "REP"
+      }
+    }
+  }
+}

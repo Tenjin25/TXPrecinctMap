@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_6_unexpired",
+    "year": 2020,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 94.05341542087096,
+    "matched_precinct_rows": 3250,
+    "total_precinct_rows": 3651,
+    "matched_total_votes": 4457197,
+    "total_votes": 4739006,
+    "generated_at": "2026-03-03T22:22:47.453691+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 4061,
+        "rep_votes": 19129,
+        "other_votes": 0,
+        "total_votes": 23190,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 15068,
+        "margin_pct": 64.97628288055196,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 5301,
+        "rep_votes": 25224,
+        "other_votes": 0,
+        "total_votes": 30525,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "JANE BLAND",
+        "margin": 19923,
+        "margin_pct": 65.26781326781327,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 8889,
+        "rep_votes": 46729,
+        "other_votes": 0,
+        "total_votes": 55618,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 37840,
+        "margin_pct": 68.03552806645331,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 34432,
+        "rep_votes": 59048,
+        "other_votes": 25,
+        "total_votes": 93505,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 24616,
+        "margin_pct": 26.325864927009253,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 174719,
+        "rep_votes": 200010,
+        "other_votes": 22725,
+        "total_votes": 397455,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 25291,
+        "margin_pct": 6.363306223178913,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 118183,
+        "rep_votes": 150997,
+        "other_votes": 0,
+        "total_votes": 269180,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 32814,
+        "margin_pct": 12.19019559413658,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 187073,
+        "rep_votes": 180739,
+        "other_votes": 0,
+        "total_votes": 367812,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": -6334,
+        "margin_pct": -1.7219980804682975,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 49052,
+        "rep_votes": 64119,
+        "other_votes": 0,
+        "total_votes": 113171,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 15067,
+        "margin_pct": 13.313683567737488,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 51241,
+        "rep_votes": 84411,
+        "other_votes": 338013,
+        "total_votes": 473666,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 33170,
+        "margin_pct": 7.002865257154527,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 307825,
+        "rep_votes": 127382,
+        "other_votes": 0,
+        "total_votes": 435207,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": -180443,
+        "margin_pct": -41.46141950841783,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 9825,
+        "rep_votes": 28327,
+        "other_votes": 0,
+        "total_votes": 38152,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 18502,
+        "margin_pct": 48.49527328876137,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 13448,
+        "rep_votes": 31351,
+        "other_votes": 8636,
+        "total_votes": 53435,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 17903,
+        "margin_pct": 33.504257509123235,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 124162,
+        "rep_votes": 82780,
+        "other_votes": 9738,
+        "total_votes": 216680,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": -41382,
+        "margin_pct": -19.098278880446255,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 7024,
+        "rep_votes": 6841,
+        "other_votes": 0,
+        "total_votes": 13865,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": -183,
+        "margin_pct": -1.3198701767039307,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 70228,
+        "rep_votes": 37899,
+        "other_votes": 868,
+        "total_votes": 108995,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": -32329,
+        "margin_pct": -29.66133634711039,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 64651,
+        "rep_votes": 87647,
+        "other_votes": 5069,
+        "total_votes": 157367,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 22996,
+        "margin_pct": 14.61297476599287,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 43286,
+        "rep_votes": 113691,
+        "other_votes": 15485,
+        "total_votes": 172462,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 70405,
+        "margin_pct": 40.82348575338335,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 226952,
+        "rep_votes": 299992,
+        "other_votes": 11511,
+        "total_votes": 538456,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 73040,
+        "margin_pct": 13.564785444506331,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 182681,
+        "rep_votes": 93009,
+        "other_votes": 13741,
+        "total_votes": 289431,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": -89672,
+        "margin_pct": -30.98216895637397,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 62917,
+        "rep_votes": 45296,
+        "other_votes": 10703,
+        "total_votes": 118916,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": -17621,
+        "margin_pct": -14.81802280601433,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 16058,
+        "rep_votes": 54441,
+        "other_votes": 171,
+        "total_votes": 70670,
+        "dem_candidate": "KATHY CHENG",
+        "rep_candidate": "JANE BLAND",
+        "margin": 38383,
+        "margin_pct": 54.31300410358002,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 46395,
+        "rep_votes": 169354,
+        "other_votes": 71904,
+        "total_votes": 287652,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 122959,
+        "margin_pct": 42.74561102062231,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 26842,
+        "rep_votes": 102547,
+        "other_votes": 2400,
+        "total_votes": 131789,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jane Bland",
+        "margin": 75705,
+        "margin_pct": 57.444096244754874,
+        "winner": "REP"
+      }
+    }
+  }
+}

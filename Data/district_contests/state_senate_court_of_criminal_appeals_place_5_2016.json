@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_place_5",
+    "year": 2016,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 99.6658966387177,
+    "matched_precinct_rows": 2337,
+    "total_precinct_rows": 2352,
+    "matched_total_votes": 2529955,
+    "total_votes": 2538436,
+    "generated_at": "2026-03-03T22:22:36.301661+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 2627,
+        "rep_votes": 6668,
+        "other_votes": 75323,
+        "total_votes": 84618,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 4041,
+        "margin_pct": 4.775579663901299,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 59674,
+        "rep_votes": 47908,
+        "other_votes": 50279,
+        "total_votes": 157861,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": -11766,
+        "margin_pct": -7.453709765933887,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 16510,
+        "rep_votes": 59270,
+        "other_votes": 4878,
+        "total_votes": 80658,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 42760,
+        "margin_pct": 53.01396017753973,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 41770,
+        "rep_votes": 41706,
+        "other_votes": 2055,
+        "total_votes": 85531,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": -64,
+        "margin_pct": -0.07482667103155581,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 5655,
+        "rep_votes": 16043,
+        "other_votes": 1580,
+        "total_votes": 23278,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 10388,
+        "margin_pct": 44.62582696107913,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 127462,
+        "rep_votes": 193566,
+        "other_votes": 32131,
+        "total_votes": 353159,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 66104,
+        "margin_pct": 18.717938613523742,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 24468,
+        "rep_votes": 19842,
+        "other_votes": 221319,
+        "total_votes": 265628,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": -4626,
+        "margin_pct": -1.7415131964057529,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 303682,
+        "total_votes": 303682,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "12": {
+        "dem_votes": 81163,
+        "rep_votes": 155382,
+        "other_votes": 123040,
+        "total_votes": 359585,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 74219,
+        "margin_pct": 20.64020460355045,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 126129,
+        "rep_votes": 157338,
+        "other_votes": 29026,
+        "total_votes": 312494,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 31209,
+        "margin_pct": 9.98706947736645,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 2726,
+        "rep_votes": 7922,
+        "other_votes": 31296,
+        "total_votes": 41944,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 5196,
+        "margin_pct": 12.387945832538623,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 4463,
+        "rep_votes": 11850,
+        "other_votes": 826,
+        "total_votes": 17139,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 7387,
+        "margin_pct": 43.10053095279771,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 34004,
+        "total_votes": 34004,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "23": {
+        "dem_votes": 182506,
+        "rep_votes": 42862,
+        "other_votes": 18296,
+        "total_votes": 243664,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": -139644,
+        "margin_pct": -57.30985645899296,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 3580,
+        "rep_votes": 16344,
+        "other_votes": 1524,
+        "total_votes": 21448,
+        "dem_candidate": "BETSY JOHNSON",
+        "rep_candidate": "Scott Walker",
+        "margin": 12764,
+        "margin_pct": 59.511376352107426,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 30798,
+        "rep_votes": 69343,
+        "other_votes": 34837,
+        "total_votes": 134978,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 38545,
+        "margin_pct": 28.556456041512046,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 1581,
+        "rep_votes": 7761,
+        "other_votes": 942,
+        "total_votes": 10284,
+        "dem_candidate": "Betsy Johnson",
+        "rep_candidate": "Scott Walker",
+        "margin": 6180,
+        "margin_pct": 60.09334889148191,
+        "winner": "REP"
+      }
+    }
+  }
+}

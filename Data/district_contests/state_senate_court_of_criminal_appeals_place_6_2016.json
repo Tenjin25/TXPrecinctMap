@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_place_6",
+    "year": 2016,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 99.66407643014227,
+    "matched_precinct_rows": 2337,
+    "total_precinct_rows": 2352,
+    "matched_total_votes": 2514717,
+    "total_votes": 2523193,
+    "generated_at": "2026-03-03T22:22:36.458845+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 2654,
+        "rep_votes": 6558,
+        "other_votes": 75236,
+        "total_votes": 84448,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 3904,
+        "margin_pct": 4.622963243652901,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 60364,
+        "rep_votes": 48244,
+        "other_votes": 49159,
+        "total_votes": 157767,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": -12121,
+        "margin_pct": -7.682534999974851,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 16937,
+        "rep_votes": 58576,
+        "other_votes": 5123,
+        "total_votes": 80636,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 41639,
+        "margin_pct": 51.63822610248524,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 42415,
+        "rep_votes": 40736,
+        "other_votes": 2084,
+        "total_votes": 85235,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": -1679,
+        "margin_pct": -1.9698480671085823,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 5743,
+        "rep_votes": 15937,
+        "other_votes": 1586,
+        "total_votes": 23266,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 10194,
+        "margin_pct": 43.81500902604659,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 127112,
+        "rep_votes": 194704,
+        "other_votes": 31343,
+        "total_votes": 353159,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 67592,
+        "margin_pct": 19.13927813508138,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 24786,
+        "rep_votes": 20203,
+        "other_votes": 220000,
+        "total_votes": 264988,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": -4583,
+        "margin_pct": -1.7294851062078103,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 302594,
+        "total_votes": 302594,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "12": {
+        "dem_votes": 81023,
+        "rep_votes": 155885,
+        "other_votes": 122175,
+        "total_votes": 359083,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 74862,
+        "margin_pct": 20.848127740047385,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 127152,
+        "rep_votes": 157841,
+        "other_votes": 27500,
+        "total_votes": 312494,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 30689,
+        "margin_pct": 9.82066015174646,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 2826,
+        "rep_votes": 7882,
+        "other_votes": 31122,
+        "total_votes": 41830,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 5056,
+        "margin_pct": 12.087018885967009,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 4518,
+        "rep_votes": 0,
+        "other_votes": 633,
+        "total_votes": 5151,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "",
+        "margin": -4518,
+        "margin_pct": -87.71112405358183,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 33856,
+        "total_votes": 33856,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "23": {
+        "dem_votes": 183892,
+        "rep_votes": 44042,
+        "other_votes": 15730,
+        "total_votes": 243664,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": -139849,
+        "margin_pct": -57.394397388642496,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 3687,
+        "rep_votes": 16268,
+        "other_votes": 1466,
+        "total_votes": 21421,
+        "dem_candidate": "ROBERT BURNS",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 12581,
+        "margin_pct": 58.732085336819004,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 31040,
+        "rep_votes": 69258,
+        "other_votes": 34549,
+        "total_votes": 134847,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 38218,
+        "margin_pct": 28.341701058891655,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 1635,
+        "rep_votes": 7768,
+        "other_votes": 875,
+        "total_votes": 10278,
+        "dem_candidate": "Robert Burns",
+        "rep_candidate": "Michael E. Keasler",
+        "margin": 6133,
+        "margin_pct": 59.67114224557307,
+        "winner": "REP"
+      }
+    }
+  }
+}

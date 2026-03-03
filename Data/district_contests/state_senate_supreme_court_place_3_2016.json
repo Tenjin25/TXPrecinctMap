@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_3",
+    "year": 2016,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 99.66552804151101,
+    "matched_precinct_rows": 2337,
+    "total_precinct_rows": 2352,
+    "matched_total_votes": 2535203,
+    "total_votes": 2543711,
+    "generated_at": "2026-03-03T22:22:37.573666+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 2751,
+        "rep_votes": 7004,
+        "other_votes": 75021,
+        "total_votes": 84776,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 4253,
+        "margin_pct": 5.016750023591583,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 56929,
+        "rep_votes": 48426,
+        "other_votes": 52616,
+        "total_votes": 157971,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -8504,
+        "margin_pct": -5.382962129096939,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 16407,
+        "rep_votes": 58734,
+        "other_votes": 5523,
+        "total_votes": 80664,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 42327,
+        "margin_pct": 52.47322225528117,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 41763,
+        "rep_votes": 41088,
+        "other_votes": 5706,
+        "total_votes": 88557,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -675,
+        "margin_pct": -0.7622209424438497,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 5575,
+        "rep_votes": 15999,
+        "other_votes": 1745,
+        "total_votes": 23319,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 10424,
+        "margin_pct": 44.70174535786269,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 122687,
+        "rep_votes": 196794,
+        "other_votes": 33678,
+        "total_votes": 353159,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 74107,
+        "margin_pct": 20.984055779725274,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 23160,
+        "rep_votes": 20035,
+        "other_votes": 223017,
+        "total_votes": 266211,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -3125,
+        "margin_pct": -1.1738451858744825,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 304634,
+        "total_votes": 304634,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "12": {
+        "dem_votes": 77632,
+        "rep_votes": 156973,
+        "other_votes": 125278,
+        "total_votes": 359883,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 79341,
+        "margin_pct": 22.046355344229426,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 120584,
+        "rep_votes": 160242,
+        "other_votes": 31667,
+        "total_votes": 312494,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 39658,
+        "margin_pct": 12.690790978078702,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 2686,
+        "rep_votes": 7877,
+        "other_votes": 31489,
+        "total_votes": 42052,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 5191,
+        "margin_pct": 12.344240464187196,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 4193,
+        "rep_votes": 11903,
+        "other_votes": 982,
+        "total_votes": 17078,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 7710,
+        "margin_pct": 45.1458016161143,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 34014,
+        "total_votes": 34014,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "23": {
+        "dem_votes": 176527,
+        "rep_votes": 44338,
+        "other_votes": 22799,
+        "total_votes": 243664,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -132188,
+        "margin_pct": -54.25030801464402,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 3425,
+        "rep_votes": 16123,
+        "other_votes": 1909,
+        "total_votes": 21457,
+        "dem_candidate": "MIKE WESTERGREN",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 12698,
+        "margin_pct": 59.17882276180267,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 29391,
+        "rep_votes": 69639,
+        "other_votes": 35956,
+        "total_votes": 134986,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 40248,
+        "margin_pct": 29.816377005998135,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 1542,
+        "rep_votes": 7702,
+        "other_votes": 1040,
+        "total_votes": 10284,
+        "dem_candidate": "Mike Westergren",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 6160,
+        "margin_pct": 59.89887203422792,
+        "winner": "REP"
+      }
+    }
+  }
+}

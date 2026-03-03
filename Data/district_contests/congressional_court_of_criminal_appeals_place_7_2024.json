@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_place_7",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 74.00277391384908,
+    "matched_precinct_rows": 2553,
+    "total_precinct_rows": 3186,
+    "matched_total_votes": 3283008,
+    "total_votes": 4436331,
+    "generated_at": "2026-03-03T22:22:53.481931+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 15379,
+        "rep_votes": 56558,
+        "other_votes": 3282,
+        "total_votes": 75219,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 41179,
+        "margin_pct": 54.74547654183118,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 172916,
+        "rep_votes": 218939,
+        "other_votes": 26940,
+        "total_votes": 418795,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 46023,
+        "margin_pct": 10.989405532319095,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 28664,
+        "rep_votes": 107386,
+        "other_votes": 6355,
+        "total_votes": 142405,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 78722,
+        "margin_pct": 55.28038252191509,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 70975,
+        "rep_votes": 219343,
+        "other_votes": 10315,
+        "total_votes": 300633,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 148368,
+        "margin_pct": 49.351867559449566,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 24979,
+        "rep_votes": 6486,
+        "other_votes": 2009,
+        "total_votes": 33474,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": -18493,
+        "margin_pct": -55.24586246041704,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 9009,
+        "rep_votes": 20606,
+        "other_votes": 703,
+        "total_votes": 30318,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 11597,
+        "margin_pct": 38.2512039052708,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 19458,
+        "rep_votes": 90100,
+        "other_votes": 5002,
+        "total_votes": 114560,
+        "dem_candidate": "NANCY MULDER",
+        "rep_candidate": "Gina Parker",
+        "margin": 70642,
+        "margin_pct": 61.663756983240226,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 13771,
+        "rep_votes": 79995,
+        "other_votes": 2248,
+        "total_votes": 96014,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 66224,
+        "margin_pct": 68.9732978553761,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 21018,
+        "rep_votes": 93220,
+        "other_votes": 3222,
+        "total_votes": 117460,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 72202,
+        "margin_pct": 61.469390873176756,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 15822,
+        "rep_votes": 42604,
+        "other_votes": 1778,
+        "total_votes": 60204,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 26782,
+        "margin_pct": 44.48541625141187,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 19341,
+        "rep_votes": 37478,
+        "other_votes": 4391,
+        "total_votes": 61210,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 18137,
+        "margin_pct": 29.63077928443065,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 61224,
+        "rep_votes": 128309,
+        "other_votes": 7273,
+        "total_votes": 196806,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 67085,
+        "margin_pct": 34.0868672703068,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 14771,
+        "rep_votes": 55389,
+        "other_votes": 679,
+        "total_votes": 70839,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 40618,
+        "margin_pct": 57.33847174578975,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 245848,
+        "total_votes": 245848,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "21": {
+        "dem_votes": 16598,
+        "rep_votes": 50527,
+        "other_votes": 135638,
+        "total_votes": 202763,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 33929,
+        "margin_pct": 16.733310653829935,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 45388,
+        "rep_votes": 56679,
+        "other_votes": 4033,
+        "total_votes": 106100,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 11291,
+        "margin_pct": 10.641847313854853,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 9546,
+        "rep_votes": 23489,
+        "other_votes": 166031,
+        "total_votes": 199066,
+        "dem_candidate": "NANCY MULDER",
+        "rep_candidate": "GINA PARKER",
+        "margin": 13943,
+        "margin_pct": 7.004223499430122,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 3591,
+        "rep_votes": 5416,
+        "other_votes": 454,
+        "total_votes": 9461,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 1825,
+        "margin_pct": 19.289715674875808,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 13350,
+        "rep_votes": 22834,
+        "other_votes": 29700,
+        "total_votes": 65884,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 9484,
+        "margin_pct": 14.394889638977155,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 40457,
+        "rep_votes": 61169,
+        "other_votes": 5585,
+        "total_votes": 107211,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 20712,
+        "margin_pct": 19.3189131712231,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 55587,
+        "rep_votes": 82757,
+        "other_votes": 7209,
+        "total_votes": 145553,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 27170,
+        "margin_pct": 18.666739950396074,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 106,
+        "rep_votes": 108,
+        "other_votes": 77741,
+        "total_votes": 77955,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 2,
+        "margin_pct": 0.0025655940454375773,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 70343,
+        "rep_votes": 81944,
+        "other_votes": 9508,
+        "total_votes": 161795,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 11601,
+        "margin_pct": 7.170184492722272,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 10575,
+        "rep_votes": 15873,
+        "other_votes": 1931,
+        "total_votes": 28379,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 5298,
+        "margin_pct": 18.66873392297121,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 9472,
+        "rep_votes": 17100,
+        "other_votes": 1911,
+        "total_votes": 28483,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 7628,
+        "margin_pct": 26.780886844784607,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 20209,
+        "rep_votes": 17014,
+        "other_votes": 100828,
+        "total_votes": 138051,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": -3195,
+        "margin_pct": -2.3142769077550662,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 8183,
+        "rep_votes": 38403,
+        "other_votes": 1936,
+        "total_votes": 48522,
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
+        "margin": 30220,
+        "margin_pct": 62.2810271629364,
+        "winner": "REP"
+      }
+    }
+  }
+}

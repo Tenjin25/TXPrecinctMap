@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "land_commissioner",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.43973027021347,
+    "matched_precinct_rows": 5057,
+    "total_precinct_rows": 5948,
+    "matched_total_votes": 4002190,
+    "total_votes": 4796504,
+    "generated_at": "2026-03-03T22:22:51.406400+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 34062,
+        "rep_votes": 105897,
+        "other_votes": 3248,
+        "total_votes": 143207,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 71835,
+        "margin_pct": 50.161654109086854,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 59163,
+        "rep_votes": 84110,
+        "other_votes": 3194,
+        "total_votes": 146467,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 24947,
+        "margin_pct": 17.032298156424982,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 26005,
+        "rep_votes": 112684,
+        "other_votes": 5338,
+        "total_votes": 144027,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 86679,
+        "margin_pct": 60.18246578766482,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 66410,
+        "rep_votes": 151851,
+        "other_votes": 4102,
+        "total_votes": 222363,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 85441,
+        "margin_pct": 38.424108327374604,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 75941,
+        "rep_votes": 112242,
+        "other_votes": 7350,
+        "total_votes": 195533,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 36301,
+        "margin_pct": 18.56515268522449,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 130332,
+        "rep_votes": 149663,
+        "other_votes": 11481,
+        "total_votes": 291476,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 19331,
+        "margin_pct": 6.632127106748604,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 96790,
+        "rep_votes": 122828,
+        "other_votes": 5623,
+        "total_votes": 225241,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 26038,
+        "margin_pct": 11.560236281279645,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 126416,
+        "rep_votes": 129346,
+        "other_votes": 5070,
+        "total_votes": 260832,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 2929,
+        "margin_pct": 1.1230391633964463,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 29009,
+        "rep_votes": 40197,
+        "other_votes": 1247,
+        "total_votes": 70453,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 11188,
+        "margin_pct": 15.880331419884808,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 35842,
+        "rep_votes": 58642,
+        "other_votes": 1842,
+        "total_votes": 96327,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 22800,
+        "margin_pct": 23.669608494523207,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 18876,
+        "rep_votes": 3534,
+        "other_votes": 515,
+        "total_votes": 22925,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": -15342,
+        "margin_pct": -66.92257360959651,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 2749,
+        "rep_votes": 3445,
+        "other_votes": 286,
+        "total_votes": 6480,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 696,
+        "margin_pct": 10.74074074074074,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 92314,
+        "rep_votes": 85410,
+        "other_votes": 5570,
+        "total_votes": 183294,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": -6905,
+        "margin_pct": -3.7670735894782683,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 8755,
+        "rep_votes": 21639,
+        "other_votes": 394,
+        "total_votes": 30788,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 12884,
+        "margin_pct": 41.84717970898483,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 16173,
+        "rep_votes": 47426,
+        "other_votes": 1819,
+        "total_votes": 65418,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 31253,
+        "margin_pct": 47.774312880247024,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 86912,
+        "rep_votes": 71461,
+        "other_votes": 10820,
+        "total_votes": 169193,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": -15451,
+        "margin_pct": -9.13221174673679,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 41441,
+        "rep_votes": 43202,
+        "other_votes": 1571,
+        "total_votes": 86214,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 1761,
+        "margin_pct": 2.0425916904447075,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 27264,
+        "rep_votes": 52442,
+        "other_votes": 5952,
+        "total_votes": 85658,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 25177,
+        "margin_pct": 29.392588217204356,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 41283,
+        "rep_votes": 56593,
+        "other_votes": 7984,
+        "total_votes": 105860,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 15310,
+        "margin_pct": 14.462497638390326,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 129724,
+        "rep_votes": 30154,
+        "other_votes": 6210,
+        "total_votes": 166088,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": -99570,
+        "margin_pct": -59.95000188416773,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 51891,
+        "rep_votes": 140926,
+        "other_votes": 2848,
+        "total_votes": 195665,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 89035,
+        "margin_pct": 45.50379721509709,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 106412,
+        "rep_votes": 127610,
+        "other_votes": 8550,
+        "total_votes": 242571,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 21198,
+        "margin_pct": 8.738857134728876,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 114567,
+        "rep_votes": 59469,
+        "other_votes": 10957,
+        "total_votes": 184993,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": -55098,
+        "margin_pct": -29.7838303914334,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 39788,
+        "rep_votes": 31755,
+        "other_votes": 4962,
+        "total_votes": 76505,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": -8033,
+        "margin_pct": -10.499967322397229,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 7378,
+        "rep_votes": 40377,
+        "other_votes": 89799,
+        "total_votes": 137554,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 32999,
+        "margin_pct": 23.989859259072396,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 97031,
+        "rep_votes": 56004,
+        "other_votes": 12971,
+        "total_votes": 166006,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": -41027,
+        "margin_pct": -24.7141669578208,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 27625,
+        "rep_votes": 85415,
+        "other_votes": 3273,
+        "total_votes": 116313,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 57790,
+        "margin_pct": 49.68490074027119,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 27668,
+        "rep_votes": 132302,
+        "other_votes": 4769,
+        "total_votes": 164739,
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
+        "margin": 104634,
+        "margin_pct": 63.515014659552385,
+        "winner": "REP"
+      }
+    }
+  }
+}

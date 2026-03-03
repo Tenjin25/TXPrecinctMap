@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_place_8",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.91649352115037,
+    "matched_precinct_rows": 7060,
+    "total_precinct_rows": 7172,
+    "matched_total_votes": 6985462,
+    "total_votes": 7061979,
+    "generated_at": "2026-03-03T22:22:40.483524+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 69015,
+        "other_votes": 14597,
+        "total_votes": 83612,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 69015,
+        "margin_pct": 82.54197962015022,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 116174,
+        "other_votes": 78836,
+        "total_votes": 195010,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 116174,
+        "margin_pct": 59.5732524711295,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 137254,
+        "other_votes": 38319,
+        "total_votes": 175573,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 137254,
+        "margin_pct": 78.17489021660506,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 205400,
+        "other_votes": 68009,
+        "total_votes": 273409,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 205400,
+        "margin_pct": 75.12554451389676,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 187303,
+        "other_votes": 125253,
+        "total_votes": 312556,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 187303,
+        "margin_pct": 59.92622122115717,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 43657,
+        "other_votes": 94133,
+        "total_votes": 137790,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 43657,
+        "margin_pct": 31.683721605341464,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 189530,
+        "other_votes": 122296,
+        "total_votes": 311826,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 189530,
+        "margin_pct": 60.78069179606575,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 188318,
+        "other_votes": 154187,
+        "total_votes": 342505,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 188318,
+        "margin_pct": 54.982571076836315,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 139118,
+        "other_votes": 112184,
+        "total_votes": 251302,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 139118,
+        "margin_pct": 55.35881920396811,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 150585,
+        "other_votes": 143380,
+        "total_votes": 293965,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 150585,
+        "margin_pct": 51.2254880283755,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 185736,
+        "other_votes": 86191,
+        "total_votes": 271927,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 185736,
+        "margin_pct": 68.30364421015864,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 212833,
+        "other_votes": 135307,
+        "total_votes": 348141,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 212833,
+        "margin_pct": 61.13431533358485,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 41016,
+        "other_votes": 154831,
+        "total_votes": 195847,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 41016,
+        "margin_pct": 20.942937591007134,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 119556,
+        "other_votes": 120263,
+        "total_votes": 239819,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 119556,
+        "margin_pct": 49.85259716703013,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 94928,
+        "other_votes": 144454,
+        "total_votes": 239382,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 94928,
+        "margin_pct": 39.655446107059014,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 155055,
+        "other_votes": 146105,
+        "total_votes": 301161,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 155055,
+        "margin_pct": 51.48594342057024,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 174951,
+        "other_votes": 139856,
+        "total_votes": 314807,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 174951,
+        "margin_pct": 55.5739410837678,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 547,
+        "rep_votes": 160584,
+        "other_votes": 94996,
+        "total_votes": 256127,
+        "dem_candidate": "Mark Ash",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 160037,
+        "margin_pct": 62.48345547326131,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 73423,
+        "other_votes": 86247,
+        "total_votes": 159670,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 73423,
+        "margin_pct": 45.98418382034005,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 97354,
+        "other_votes": 98915,
+        "total_votes": 196269,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 97354,
+        "margin_pct": 49.602331494020966,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 52032,
+        "other_votes": 30351,
+        "total_votes": 82383,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 52032,
+        "margin_pct": 63.15867673067134,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 107642,
+        "other_votes": 56555,
+        "total_votes": 164197,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 107642,
+        "margin_pct": 65.55661796500544,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 51245,
+        "other_votes": 178330,
+        "total_votes": 229575,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 51245,
+        "margin_pct": 22.32175961757503,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 357,
+        "rep_votes": 183978,
+        "other_votes": 67216,
+        "total_votes": 251551,
+        "dem_candidate": "Mark Ash",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 183621,
+        "margin_pct": 72.99553805076128,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 224002,
+        "other_votes": 109780,
+        "total_votes": 333782,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 224002,
+        "margin_pct": 67.11026742487938,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 81990,
+        "other_votes": 129213,
+        "total_votes": 211203,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 81990,
+        "margin_pct": 38.82047173535211,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 55976,
+        "other_votes": 77965,
+        "total_votes": 133941,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 55976,
+        "margin_pct": 41.79153507887801,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 135849,
+        "other_votes": 46837,
+        "total_votes": 182686,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 135849,
+        "margin_pct": 74.36201624065993,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 71587,
+        "other_votes": 60737,
+        "total_votes": 132324,
+        "dem_candidate": "",
+        "rep_candidate": "MICHELLE SLAUGHTER",
+        "margin": 71587,
+        "margin_pct": 54.099785375290956,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 155534,
+        "other_votes": 58808,
+        "total_votes": 214342,
+        "dem_candidate": "",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 155534,
+        "margin_pct": 72.56346632827645,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 74,
+        "rep_votes": 123278,
+        "other_votes": 25428,
+        "total_votes": 148780,
+        "dem_candidate": "Mark Ash",
+        "rep_candidate": "Michelle Slaughter",
+        "margin": 123204,
+        "margin_pct": 82.8095174082538,
+        "winner": "REP"
+      }
+    }
+  }
+}

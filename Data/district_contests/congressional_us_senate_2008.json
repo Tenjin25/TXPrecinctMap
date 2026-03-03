@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2008,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.45448227936068,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 10298,
+    "total_votes": 11512,
+    "generated_at": "2026-03-03T22:22:27.527928+00:00"
+  },
+  "general": {
+    "results": {
+      "27": {
+        "dem_votes": 1675,
+        "rep_votes": 2715,
+        "other_votes": 147,
+        "total_votes": 4537,
+        "dem_candidate": "RICHARD J (RICK) NORIEGA",
+        "rep_candidate": "JOHN CORNYN",
+        "margin": 1040,
+        "margin_pct": 22.922636103151863,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 3017,
+        "rep_votes": 2595,
+        "other_votes": 149,
+        "total_votes": 5761,
+        "dem_candidate": "RICHARD J (RICK) NORIEGA",
+        "rep_candidate": "JOHN CORNYN",
+        "margin": -422,
+        "margin_pct": -7.32511716715848,
+        "winner": "DEM"
+      }
+    }
+  }
+}

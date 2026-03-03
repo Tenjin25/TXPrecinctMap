@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "president",
+    "year": 2008,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.47143711040901,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 10478,
+    "total_votes": 11711,
+    "generated_at": "2026-03-03T22:22:27.516401+00:00"
+  },
+  "general": {
+    "results": {
+      "27": {
+        "dem_votes": 1711,
+        "rep_votes": 2811,
+        "other_votes": 91,
+        "total_votes": 4613,
+        "dem_candidate": "BARACK OBAMA / JOE BIDEN",
+        "rep_candidate": "JOHN MCCAIN / SARAH PALIN",
+        "margin": 1100,
+        "margin_pct": 23.84565358768697,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 3101,
+        "rep_votes": 2675,
+        "other_votes": 89,
+        "total_votes": 5865,
+        "dem_candidate": "BARACK OBAMA / JOE BIDEN",
+        "rep_candidate": "JOHN MCCAIN / SARAH PALIN",
+        "margin": -426,
+        "margin_pct": -7.263427109974424,
+        "winner": "DEM"
+      }
+    }
+  }
+}

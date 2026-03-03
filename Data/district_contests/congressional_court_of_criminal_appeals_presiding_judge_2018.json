@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_presiding_judge",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.93702298554653,
+    "matched_precinct_rows": 7037,
+    "total_precinct_rows": 7149,
+    "matched_total_votes": 7170902,
+    "total_votes": 7247946,
+    "generated_at": "2026-03-03T22:22:40.639717+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 21342,
+        "rep_votes": 58104,
+        "other_votes": 3288,
+        "total_votes": 82733,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 36762,
+        "margin_pct": 44.43403619251372,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 119150,
+        "rep_votes": 135856,
+        "other_votes": 10838,
+        "total_votes": 265844,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 16706,
+        "margin_pct": 6.284136561291584,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 133500,
+        "rep_votes": 167147,
+        "other_votes": 17312,
+        "total_votes": 317959,
+        "dem_candidate": "Maria T. Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 33647,
+        "margin_pct": 10.582213735331774,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 22609,
+        "rep_votes": 86499,
+        "other_votes": 3224,
+        "total_votes": 112332,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 63890,
+        "margin_pct": 56.87605003524262,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 73415,
+        "rep_votes": 107760,
+        "other_votes": 7638,
+        "total_votes": 188814,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 34345,
+        "margin_pct": 18.189797280372083,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 110766,
+        "rep_votes": 123681,
+        "other_votes": 9865,
+        "total_votes": 244311,
+        "dem_candidate": "Maria T.(Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 12915,
+        "margin_pct": 5.286295292415047,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 118974,
+        "rep_votes": 116400,
+        "other_votes": 10708,
+        "total_votes": 246082,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -2574,
+        "margin_pct": -1.0459927991482514,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 17187,
+        "rep_votes": 173932,
+        "other_votes": 8696,
+        "total_votes": 199815,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 156745,
+        "margin_pct": 78.44506168205591,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 136174,
+        "rep_votes": 32848,
+        "other_votes": 5425,
+        "total_votes": 174446,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -103327,
+        "margin_pct": -59.231222112940976,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 138793,
+        "rep_votes": 144703,
+        "other_votes": 9684,
+        "total_votes": 293180,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 5910,
+        "margin_pct": 2.0158264547377036,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 25524,
+        "rep_votes": 90502,
+        "other_votes": 5352,
+        "total_votes": 121378,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 64978,
+        "margin_pct": 53.53358928306612,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 85326,
+        "rep_votes": 120444,
+        "other_votes": 11494,
+        "total_votes": 217264,
+        "dem_candidate": "Maria T.(Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 35119,
+        "margin_pct": 16.16409523928518,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 34472,
+        "rep_votes": 143916,
+        "other_votes": 7302,
+        "total_votes": 185690,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 109444,
+        "margin_pct": 58.9390738391496,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 91965,
+        "rep_votes": 136159,
+        "other_votes": 5222,
+        "total_votes": 233346,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 44194,
+        "margin_pct": 18.939257583159772,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 86012,
+        "rep_votes": 61744,
+        "other_votes": 7072,
+        "total_votes": 154828,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -24268,
+        "margin_pct": -15.67416746324954,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 122103,
+        "rep_votes": 49036,
+        "other_votes": 6007,
+        "total_votes": 177146,
+        "dem_candidate": "MARIA T TERRI JACKSO",
+        "rep_candidate": "SHARON KELLER",
+        "margin": -73067,
+        "margin_pct": -41.24676820249963,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 93999,
+        "rep_votes": 119952,
+        "other_votes": 10603,
+        "total_votes": 224554,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 25953,
+        "margin_pct": 11.557576351345332,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 141522,
+        "rep_votes": 38674,
+        "other_votes": 6910,
+        "total_votes": 187106,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -102848,
+        "margin_pct": -54.96777977060587,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 46336,
+        "rep_votes": 129409,
+        "other_votes": 7742,
+        "total_votes": 183487,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 83073,
+        "margin_pct": 45.27459711042199,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 125176,
+        "rep_votes": 66797,
+        "other_votes": 10283,
+        "total_votes": 202256,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -58379,
+        "margin_pct": -28.863962662602127,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 144441,
+        "rep_votes": 156266,
+        "other_votes": 12685,
+        "total_votes": 313392,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 11826,
+        "margin_pct": 3.77344451855611,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 136967,
+        "rep_votes": 152985,
+        "other_votes": 11586,
+        "total_votes": 301539,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 16019,
+        "margin_pct": 5.312289266507823,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 76674,
+        "rep_votes": 64902,
+        "other_votes": 10140,
+        "total_votes": 151716,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -11772,
+        "margin_pct": -7.7593835191151355,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 121908,
+        "rep_votes": 131987,
+        "other_votes": 13935,
+        "total_votes": 267830,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 10079,
+        "margin_pct": 3.763092343569358,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 100593,
+        "rep_votes": 94425,
+        "other_votes": 6213,
+        "total_votes": 201231,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -6168,
+        "margin_pct": -3.065134099616858,
+        "winner": "DEM"
+      },
+      "26": {
+        "dem_votes": 117394,
+        "rep_votes": 183067,
+        "other_votes": 16307,
+        "total_votes": 316769,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 65673,
+        "margin_pct": 20.73220697999114,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 64212,
+        "rep_votes": 86978,
+        "other_votes": 17677,
+        "total_votes": 168867,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 22766,
+        "margin_pct": 13.481615709404442,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 43757,
+        "rep_votes": 30703,
+        "other_votes": 3509,
+        "total_votes": 77969,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -13054,
+        "margin_pct": -16.74262123252309,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 85104,
+        "rep_votes": 30085,
+        "other_votes": 4426,
+        "total_votes": 119615,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -55019,
+        "margin_pct": -45.996717897631626,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 163606,
+        "rep_votes": 36924,
+        "other_votes": 8111,
+        "total_votes": 208641,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -126682,
+        "margin_pct": -60.717656357568764,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 93628,
+        "rep_votes": 102629,
+        "other_votes": 12889,
+        "total_votes": 209146,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 9001,
+        "margin_pct": 4.303692157631511,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 134579,
+        "rep_votes": 128067,
+        "other_votes": 15876,
+        "total_votes": 278522,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -6512,
+        "margin_pct": -2.3379979145517944,
+        "winner": "DEM"
+      },
+      "33": {
+        "dem_votes": 89653,
+        "rep_votes": 26891,
+        "other_votes": 5823,
+        "total_votes": 122368,
+        "dem_candidate": "Maria T.(Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -62762,
+        "margin_pct": -51.28994430083148,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 65545,
+        "rep_votes": 38993,
+        "other_votes": 7241,
+        "total_votes": 111779,
+        "dem_candidate": "Maria T. \"Terri\" Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -26552,
+        "margin_pct": -23.754014618130416,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 110554,
+        "rep_votes": 43236,
+        "other_votes": 6952,
+        "total_votes": 160742,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": -67317,
+        "margin_pct": -41.87904142732013,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 45676,
+        "rep_votes": 97134,
+        "other_votes": 5396,
+        "total_votes": 148206,
+        "dem_candidate": "Maria T. (Terri) Jackson",
+        "rep_candidate": "Sharon Keller",
+        "margin": 51458,
+        "margin_pct": 34.72059160897669,
+        "winner": "REP"
+      }
+    }
+  }
+}

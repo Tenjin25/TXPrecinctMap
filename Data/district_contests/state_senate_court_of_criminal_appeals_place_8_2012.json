@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_place_8",
+    "year": 2012,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 88.75946424850855,
+    "matched_precinct_rows": 2642,
+    "total_precinct_rows": 2906,
+    "matched_total_votes": 2321739,
+    "total_votes": 2615765,
+    "generated_at": "2026-03-03T22:22:28.063691+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 39139,
+        "other_votes": 6768,
+        "total_votes": 45907,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 39139,
+        "margin_pct": 85.25715032565839,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 60075,
+        "other_votes": 8514,
+        "total_votes": 68589,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 60075,
+        "margin_pct": 87.58693084896994,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 67861,
+        "other_votes": 10100,
+        "total_votes": 77961,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 67861,
+        "margin_pct": 87.0448044535088,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 43035,
+        "other_votes": 5579,
+        "total_votes": 48614,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 43035,
+        "margin_pct": 88.52388200929774,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 16769,
+        "other_votes": 2459,
+        "total_votes": 19228,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 16769,
+        "margin_pct": 87.21135843561473,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 54941,
+        "other_votes": 23205,
+        "total_votes": 78146,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 54941,
+        "margin_pct": 70.30558185959615,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 201142,
+        "other_votes": 37150,
+        "total_votes": 238292,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 201142,
+        "margin_pct": 84.40988367213335,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 161365,
+        "other_votes": 36609,
+        "total_votes": 197974,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 161365,
+        "margin_pct": 81.508183567509,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 117537,
+        "other_votes": 22735,
+        "total_votes": 140272,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 117537,
+        "margin_pct": 83.79220737275904,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 44624,
+        "other_votes": 47928,
+        "total_votes": 92552,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 44624,
+        "margin_pct": 48.21504763333214,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 99228,
+        "other_votes": 42287,
+        "total_votes": 141515,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 99228,
+        "margin_pct": 70.11836201109422,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 183834,
+        "other_votes": 44223,
+        "total_votes": 228056,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 183834,
+        "margin_pct": 80.60883583679606,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 106092,
+        "other_votes": 24065,
+        "total_votes": 130157,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 106092,
+        "margin_pct": 81.51079081417058,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 79217,
+        "other_votes": 16585,
+        "total_votes": 95802,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 79217,
+        "margin_pct": 82.68825285484645,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 35842,
+        "other_votes": 9216,
+        "total_votes": 45058,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 35842,
+        "margin_pct": 79.54689115682461,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 86029,
+        "other_votes": 26709,
+        "total_votes": 112738,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 86029,
+        "margin_pct": 76.30878674448722,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 137487,
+        "other_votes": 26719,
+        "total_votes": 164206,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 137487,
+        "margin_pct": 83.72836546294607,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 37115,
+        "other_votes": 10869,
+        "total_votes": 47984,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 37115,
+        "margin_pct": 77.34819550380435,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 4160,
+        "other_votes": 977,
+        "total_votes": 5137,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 4160,
+        "margin_pct": 80.98111738368698,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 139550,
+        "other_votes": 24357,
+        "total_votes": 163907,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 139550,
+        "margin_pct": 85.13974290886578,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 75063,
+        "other_votes": 11047,
+        "total_votes": 86110,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 75063,
+        "margin_pct": 87.17105487487295,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 83525,
+        "other_votes": 10008,
+        "total_votes": 93533,
+        "dem_candidate": "",
+        "rep_candidate": "Elsa Alcala",
+        "margin": 83525,
+        "margin_pct": 89.30003314338255,
+        "winner": "REP"
+      }
+    }
+  }
+}

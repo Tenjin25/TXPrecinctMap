@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_5",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.50013252674752,
+    "matched_precinct_rows": 5002,
+    "total_precinct_rows": 5880,
+    "matched_total_votes": 3922139,
+    "total_votes": 4697165,
+    "generated_at": "2026-03-03T22:22:52.997473+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 33978,
+        "rep_votes": 107294,
+        "other_votes": 1894,
+        "total_votes": 143166,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 73316,
+        "margin_pct": 51.2104829358926,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 60357,
+        "rep_votes": 84995,
+        "other_votes": 1097,
+        "total_votes": 146449,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 24638,
+        "margin_pct": 16.823398532030545,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 26045,
+        "rep_votes": 113769,
+        "other_votes": 4160,
+        "total_votes": 143974,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 87724,
+        "margin_pct": 60.930445774931584,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 67974,
+        "rep_votes": 152902,
+        "other_votes": 1779,
+        "total_votes": 222655,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 84928,
+        "margin_pct": 38.143315892299746,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 77569,
+        "rep_votes": 113870,
+        "other_votes": 4056,
+        "total_votes": 195495,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebecca Huddle",
+        "margin": 36301,
+        "margin_pct": 18.568761349395125,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 132019,
+        "rep_votes": 150691,
+        "other_votes": 8766,
+        "total_votes": 291476,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 18672,
+        "margin_pct": 6.4060359143233105,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 100511,
+        "rep_votes": 123947,
+        "other_votes": 713,
+        "total_votes": 225171,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 23436,
+        "margin_pct": 10.408274526507395,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 129992,
+        "rep_votes": 130892,
+        "other_votes": 0,
+        "total_votes": 260884,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 899,
+        "margin_pct": 0.3446850668846553,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 29869,
+        "rep_votes": 40622,
+        "other_votes": 0,
+        "total_votes": 70491,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 10753,
+        "margin_pct": 15.25466833802146,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 37032,
+        "rep_votes": 59210,
+        "other_votes": 0,
+        "total_votes": 96243,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 22178,
+        "margin_pct": 23.043978627655342,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 19091,
+        "rep_votes": 3807,
+        "other_votes": 0,
+        "total_votes": 22898,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": -15284,
+        "margin_pct": -66.74818761463884,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 2847,
+        "rep_votes": 3457,
+        "other_votes": 176,
+        "total_votes": 6480,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 610,
+        "margin_pct": 9.41358024691358,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 91534,
+        "rep_votes": 88290,
+        "other_votes": 3470,
+        "total_votes": 183294,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": -3245,
+        "margin_pct": -1.7702769046695859,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 8950,
+        "rep_votes": 21810,
+        "other_votes": 0,
+        "total_votes": 30760,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 12860,
+        "margin_pct": 41.80725770162621,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 15932,
+        "rep_votes": 48139,
+        "other_votes": 1286,
+        "total_votes": 65357,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 32207,
+        "margin_pct": 49.27857765809324,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 86485,
+        "rep_votes": 71143,
+        "other_votes": 11529,
+        "total_votes": 169157,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": -15342,
+        "margin_pct": -9.069729969777754,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 38919,
+        "rep_votes": 45070,
+        "other_votes": 1829,
+        "total_votes": 85818,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 6151,
+        "margin_pct": 7.167493998927964,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 27638,
+        "rep_votes": 53149,
+        "other_votes": 4772,
+        "total_votes": 85560,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 25511,
+        "margin_pct": 29.816631889308916,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 41585,
+        "rep_votes": 57692,
+        "other_votes": 6413,
+        "total_votes": 105690,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 16107,
+        "margin_pct": 15.239852398523984,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 132190,
+        "rep_votes": 31363,
+        "other_votes": 2535,
+        "total_votes": 166088,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": -100827,
+        "margin_pct": -60.70683153093981,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 25082,
+        "rep_votes": 96705,
+        "other_votes": 4955,
+        "total_votes": 126742,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 71623,
+        "margin_pct": 56.510879433093976,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 104800,
+        "rep_votes": 131607,
+        "other_votes": 6127,
+        "total_votes": 242533,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 26807,
+        "margin_pct": 11.052907144546845,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 116001,
+        "rep_votes": 61901,
+        "other_votes": 7068,
+        "total_votes": 184970,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": -54100,
+        "margin_pct": -29.24798740121517,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 40149,
+        "rep_votes": 33273,
+        "other_votes": 3068,
+        "total_votes": 76490,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": -6876,
+        "margin_pct": -8.989410380441889,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 7734,
+        "rep_votes": 40322,
+        "other_votes": 89402,
+        "total_votes": 137458,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 32588,
+        "margin_pct": 23.707609102229735,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 100513,
+        "rep_votes": 57663,
+        "other_votes": 7833,
+        "total_votes": 166009,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": -42850,
+        "margin_pct": -25.81185357420381,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 28243,
+        "rep_votes": 75440,
+        "other_votes": 2498,
+        "total_votes": 106181,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 47197,
+        "margin_pct": 44.449565819754504,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 28863,
+        "rep_votes": 131538,
+        "other_votes": 4249,
+        "total_votes": 164650,
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
+        "margin": 102675,
+        "margin_pct": 62.35955056179775,
+        "winner": "REP"
+      }
+    }
+  }
+}

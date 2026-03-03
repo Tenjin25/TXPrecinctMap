@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "comptroller",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.78101708295829,
+    "matched_precinct_rows": 8536,
+    "total_precinct_rows": 8674,
+    "matched_total_votes": 8248290,
+    "total_votes": 8350076,
+    "generated_at": "2026-03-03T22:22:39.545080+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 62282,
+        "rep_votes": 195790,
+        "other_votes": 7112,
+        "total_votes": 265184,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 133508,
+        "margin_pct": 50.345420538192364,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 95117,
+        "rep_votes": 152767,
+        "other_votes": 18541,
+        "total_votes": 266425,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 57650,
+        "margin_pct": 21.638197896749997,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 51047,
+        "rep_votes": 200510,
+        "other_votes": 17022,
+        "total_votes": 268579,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 149463,
+        "margin_pct": 55.64954817763116,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 90093,
+        "rep_votes": 196278,
+        "other_votes": 11022,
+        "total_votes": 297393,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 106185,
+        "margin_pct": 35.70527887340994,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 125443,
+        "rep_votes": 183843,
+        "other_votes": 29062,
+        "total_votes": 338348,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 58400,
+        "margin_pct": 17.26033551254921,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 94717,
+        "rep_votes": 36014,
+        "other_votes": 7059,
+        "total_votes": 137790,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -58703,
+        "margin_pct": -42.603236809637856,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 119998,
+        "rep_votes": 179430,
+        "other_votes": 12398,
+        "total_votes": 311826,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 59432,
+        "margin_pct": 19.05934720004105,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 146778,
+        "rep_votes": 174554,
+        "other_votes": 21173,
+        "total_votes": 342505,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 27776,
+        "margin_pct": 8.109695363128312,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 106960,
+        "rep_votes": 129158,
+        "other_votes": 15184,
+        "total_votes": 251302,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 22198,
+        "margin_pct": 8.833046677923369,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 138053,
+        "rep_votes": 139002,
+        "other_votes": 16910,
+        "total_votes": 293965,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 949,
+        "margin_pct": 0.322831224217914,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 107143,
+        "rep_votes": 172338,
+        "other_votes": 11774,
+        "total_votes": 291255,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 65195,
+        "margin_pct": 22.384212929962832,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 126997,
+        "rep_votes": 200471,
+        "other_votes": 20672,
+        "total_votes": 348141,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 73474,
+        "margin_pct": 21.10472689903097,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 156603,
+        "rep_votes": 30989,
+        "other_votes": 8255,
+        "total_votes": 195847,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -125614,
+        "margin_pct": -64.13875482443584,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 255043,
+        "rep_votes": 111543,
+        "other_votes": 16039,
+        "total_votes": 382625,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -143500,
+        "margin_pct": -37.50408363279974,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 144376,
+        "rep_votes": 83612,
+        "other_votes": 11394,
+        "total_votes": 239382,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -60764,
+        "margin_pct": -25.38369635143829,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 140191,
+        "rep_votes": 141799,
+        "other_votes": 19170,
+        "total_votes": 301161,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 1608,
+        "margin_pct": 0.5340032338693526,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 138003,
+        "rep_votes": 161947,
+        "other_votes": 14857,
+        "total_votes": 314807,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 23943,
+        "margin_pct": 7.605725269310497,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 101942,
+        "rep_votes": 201859,
+        "other_votes": 17369,
+        "total_votes": 321170,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 99917,
+        "margin_pct": 31.1103154092848,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 111689,
+        "rep_votes": 82921,
+        "other_votes": 12344,
+        "total_votes": 206954,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -28768,
+        "margin_pct": -13.900724217528992,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 104407,
+        "rep_votes": 78824,
+        "other_votes": 13919,
+        "total_votes": 197150,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -25583,
+        "margin_pct": -12.976413898047173,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 112772,
+        "rep_votes": 80051,
+        "other_votes": 16649,
+        "total_votes": 209472,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -32721,
+        "margin_pct": -15.620655888269464,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 83794,
+        "rep_votes": 187024,
+        "other_votes": 11591,
+        "total_votes": 282409,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 103230,
+        "margin_pct": 36.55336763346777,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 177719,
+        "rep_votes": 38625,
+        "other_votes": 13231,
+        "total_votes": 229575,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -139094,
+        "margin_pct": -60.58743960303426,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 76381,
+        "rep_votes": 185278,
+        "other_votes": 12060,
+        "total_votes": 273719,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 108897,
+        "margin_pct": 39.784235130791515,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 159231,
+        "rep_votes": 235492,
+        "other_votes": 20097,
+        "total_votes": 414820,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 76261,
+        "margin_pct": 18.384136924359805,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 132182,
+        "rep_votes": 65177,
+        "other_votes": 13844,
+        "total_votes": 211203,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -67005,
+        "margin_pct": -31.72540056039971,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 82887,
+        "rep_votes": 43934,
+        "other_votes": 12859,
+        "total_votes": 139680,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -38953,
+        "margin_pct": -27.887313860252007,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 52699,
+        "rep_votes": 161592,
+        "other_votes": 13896,
+        "total_votes": 228187,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 108893,
+        "margin_pct": 47.720940772296274,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 131339,
+        "rep_votes": 53336,
+        "other_votes": 12548,
+        "total_votes": 197223,
+        "dem_candidate": "JOI CHEVALIER",
+        "rep_candidate": "GLENN HEGAR",
+        "margin": -78003,
+        "margin_pct": -39.55066092697099,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 67489,
+        "rep_votes": 187694,
+        "other_votes": 22425,
+        "total_votes": 277608,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 120205,
+        "margin_pct": 43.30025362749619,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 39190,
+        "rep_votes": 161875,
+        "other_votes": 11520,
+        "total_votes": 212585,
+        "dem_candidate": "Joi Chevalier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 122685,
+        "margin_pct": 57.71103323376532,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_place_7",
+    "year": 2012,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 88.7798058406532,
+    "matched_precinct_rows": 2640,
+    "total_precinct_rows": 2904,
+    "matched_total_votes": 2326774,
+    "total_votes": 2620837,
+    "generated_at": "2026-03-03T22:22:27.662201+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 44349,
+        "other_votes": 7183,
+        "total_votes": 51532,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 44349,
+        "margin_pct": 86.06108825584103,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 162681,
+        "other_votes": 38111,
+        "total_votes": 200792,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 162681,
+        "margin_pct": 81.01966213793378,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 172377,
+        "other_votes": 37899,
+        "total_votes": 210276,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Herve",
+        "margin": 172377,
+        "margin_pct": 81.97654999353827,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 53125,
+        "other_votes": 7175,
+        "total_votes": 60300,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 53125,
+        "margin_pct": 88.1011558768018,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 65558,
+        "other_votes": 7980,
+        "total_votes": 73538,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 65558,
+        "margin_pct": 89.14846745900078,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 38579,
+        "other_votes": 15690,
+        "total_votes": 54269,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 38579,
+        "margin_pct": 71.08846671211926,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 147351,
+        "other_votes": 36234,
+        "total_votes": 183585,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 147351,
+        "margin_pct": 80.26309338998284,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 25339,
+        "other_votes": 3918,
+        "total_votes": 29257,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 25339,
+        "margin_pct": 86.60833304850122,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 49621,
+        "other_votes": 42756,
+        "total_votes": 92377,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 49621,
+        "margin_pct": 53.71564995165913,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 83054,
+        "other_votes": 15405,
+        "total_votes": 98459,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 83054,
+        "margin_pct": 84.35389349881677,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 70673,
+        "other_votes": 9723,
+        "total_votes": 80396,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 70673,
+        "margin_pct": 87.90611473207622,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 21704,
+        "other_votes": 2216,
+        "total_votes": 23920,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 21704,
+        "margin_pct": 90.73771368994824,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 69300,
+        "other_votes": 7875,
+        "total_votes": 77175,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 69300,
+        "margin_pct": 89.79532213567896,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 33483,
+        "other_votes": 6462,
+        "total_votes": 39945,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 33483,
+        "margin_pct": 83.82275628989862,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 1620,
+        "other_votes": 567,
+        "total_votes": 2187,
+        "dem_candidate": "",
+        "rep_candidate": "B. Parker Hervey",
+        "margin": 1620,
+        "margin_pct": 74.07407407407408,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 56010,
+        "other_votes": 11117,
+        "total_votes": 67127,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 56010,
+        "margin_pct": 83.4388547082396,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 54735,
+        "other_votes": 39781,
+        "total_votes": 94516,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 54735,
+        "margin_pct": 57.91082688545725,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 142691,
+        "other_votes": 21900,
+        "total_votes": 164591,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 142691,
+        "margin_pct": 86.69429069633212,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 36646,
+        "other_votes": 6802,
+        "total_votes": 43449,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 36646,
+        "margin_pct": 84.34393184550659,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 165834,
+        "other_votes": 36399,
+        "total_votes": 202233,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 165834,
+        "margin_pct": 82.0014834439335,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 812,
+        "other_votes": 53,
+        "total_votes": 865,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 812,
+        "margin_pct": 93.87283236994219,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 48237,
+        "other_votes": 10863,
+        "total_votes": 59100,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 48237,
+        "margin_pct": 81.61927401370053,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 94576,
+        "other_votes": 20701,
+        "total_votes": 115277,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 94576,
+        "margin_pct": 82.04238486428342,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 13597,
+        "other_votes": 2948,
+        "total_votes": 16545,
+        "dem_candidate": "",
+        "rep_candidate": "B. Parker Hervey",
+        "margin": 13597,
+        "margin_pct": 82.18192807494712,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 44353,
+        "other_votes": 21919,
+        "total_votes": 66272,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 44353,
+        "margin_pct": 66.9257138405914,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 48490,
+        "other_votes": 12797,
+        "total_votes": 61287,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 48490,
+        "margin_pct": 79.11955227046519,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 10645,
+        "other_votes": 2493,
+        "total_votes": 13138,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Herve",
+        "margin": 10645,
+        "margin_pct": 81.02450905769524,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 15815,
+        "other_votes": 4396,
+        "total_votes": 20211,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 15815,
+        "margin_pct": 78.24946811142446,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 15730,
+        "other_votes": 5806,
+        "total_votes": 21536,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 15730,
+        "margin_pct": 73.04149099849975,
+        "winner": "REP"
+      },
+      "36": {
+        "dem_votes": 0,
+        "rep_votes": 88050,
+        "other_votes": 14570,
+        "total_votes": 102620,
+        "dem_candidate": "",
+        "rep_candidate": "Barbara Parker Hervey",
+        "margin": 88050,
+        "margin_pct": 85.80198791658546,
+        "winner": "REP"
+      }
+    }
+  }
+}

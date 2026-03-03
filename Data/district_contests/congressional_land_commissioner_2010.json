@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "land_commissioner",
+    "year": 2010,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.5615346287992,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 7190,
+    "total_votes": 8028,
+    "generated_at": "2026-03-03T22:22:27.554264+00:00"
+  },
+  "general": {
+    "results": {
+      "27": {
+        "dem_votes": 1052,
+        "rep_votes": 2096,
+        "other_votes": 136,
+        "total_votes": 3284,
+        "dem_candidate": "HECTOR URIBE",
+        "rep_candidate": "JERRY PATTERSON",
+        "margin": 1044,
+        "margin_pct": 31.790499390986604,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 1790,
+        "rep_votes": 1961,
+        "other_votes": 155,
+        "total_votes": 3906,
+        "dem_candidate": "HECTOR URIBE",
+        "rep_candidate": "JERRY PATTERSON",
+        "margin": 171,
+        "margin_pct": 4.377880184331797,
+        "winner": "REP"
+      }
+    }
+  }
+}

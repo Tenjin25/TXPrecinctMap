@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_4",
+    "year": 2012,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.08286188902174,
+    "matched_precinct_rows": 2819,
+    "total_precinct_rows": 3112,
+    "matched_total_votes": 2427157,
+    "total_votes": 2724606,
+    "generated_at": "2026-03-03T22:22:29.301219+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 42546,
+        "other_votes": 7033,
+        "total_votes": 49579,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 42546,
+        "margin_pct": 85.81455858327114,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 60173,
+        "other_votes": 8791,
+        "total_votes": 68964,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 60173,
+        "margin_pct": 87.25276956093035,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 68404,
+        "other_votes": 9846,
+        "total_votes": 78250,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 68404,
+        "margin_pct": 87.41725239616613,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 42912,
+        "other_votes": 17651,
+        "total_votes": 60563,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 42912,
+        "margin_pct": 70.85514257880224,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 21917,
+        "other_votes": 4982,
+        "total_votes": 26899,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 21917,
+        "margin_pct": 81.47886538533031,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 49458,
+        "other_votes": 29576,
+        "total_votes": 79034,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 49458,
+        "margin_pct": 62.578130930991726,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 198392,
+        "other_votes": 44138,
+        "total_votes": 242530,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 198392,
+        "margin_pct": 81.80101430750835,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 160503,
+        "other_votes": 43478,
+        "total_votes": 203981,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 160503,
+        "margin_pct": 78.68527699394313,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 115811,
+        "other_votes": 26475,
+        "total_votes": 142286,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 115811,
+        "margin_pct": 81.3931198200783,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 40706,
+        "other_votes": 56294,
+        "total_votes": 97000,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 40706,
+        "margin_pct": 41.964937007478206,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 94545,
+        "other_votes": 51241,
+        "total_votes": 145786,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 94545,
+        "margin_pct": 64.85190621870413,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 179314,
+        "other_votes": 54561,
+        "total_votes": 233874,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 179314,
+        "margin_pct": 76.67091203050018,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 104290,
+        "other_votes": 26062,
+        "total_votes": 130352,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 104290,
+        "margin_pct": 80.00644408984903,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 76790,
+        "other_votes": 19012,
+        "total_votes": 95802,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 76790,
+        "margin_pct": 80.15490282040041,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 23334,
+        "other_votes": 7725,
+        "total_votes": 31059,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 23334,
+        "margin_pct": 75.1274364025985,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 110972,
+        "other_votes": 34840,
+        "total_votes": 145812,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 110972,
+        "margin_pct": 76.10621896688887,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 135685,
+        "other_votes": 28758,
+        "total_votes": 164443,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 135685,
+        "margin_pct": 82.51187518834108,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 35147,
+        "other_votes": 15013,
+        "total_votes": 50160,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 35147,
+        "margin_pct": 70.07009794163883,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 3768,
+        "other_votes": 1369,
+        "total_votes": 5137,
+        "dem_candidate": "",
+        "rep_candidate": "Under Votes",
+        "margin": 3768,
+        "margin_pct": 73.35020439945494,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 138478,
+        "other_votes": 26215,
+        "total_votes": 164693,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 138478,
+        "margin_pct": 84.08250203885503,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 81620,
+        "other_votes": 12912,
+        "total_votes": 94532,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 81620,
+        "margin_pct": 86.34112711348297,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 83984,
+        "other_votes": 32436,
+        "total_votes": 116420,
+        "dem_candidate": "",
+        "rep_candidate": "John Devine",
+        "margin": 83984,
+        "margin_pct": 72.13880776498883,
+        "winner": "REP"
+      }
+    }
+  }
+}

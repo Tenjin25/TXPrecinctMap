@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_8",
+    "year": 2014,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.75381577991693,
+    "matched_precinct_rows": 6172,
+    "total_precinct_rows": 6313,
+    "matched_total_votes": 3276779,
+    "total_votes": 3318129,
+    "generated_at": "2026-03-03T22:22:35.515836+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 60579,
+        "other_votes": 46262,
+        "total_votes": 106841,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 60579,
+        "margin_pct": 56.70014320345187,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 65008,
+        "other_votes": 45574,
+        "total_votes": 110582,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 65008,
+        "margin_pct": 58.78700282036197,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 149,
+        "rep_votes": 109813,
+        "other_votes": 27307,
+        "total_votes": 137269,
+        "dem_candidate": "RS Roberto Koelsch",
+        "rep_candidate": "Phil Johnson",
+        "margin": 109664,
+        "margin_pct": 79.88985131384362,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 98991,
+        "other_votes": 26621,
+        "total_votes": 125612,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 98991,
+        "margin_pct": 78.80696111836448,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 23468,
+        "other_votes": 37829,
+        "total_votes": 61297,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 23468,
+        "margin_pct": 38.28572360800692,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 27358,
+        "other_votes": 12695,
+        "total_votes": 40053,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 27358,
+        "margin_pct": 68.30449654208174,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 124272,
+        "other_votes": 21281,
+        "total_votes": 145553,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 124272,
+        "margin_pct": 85.37920894794337,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 15249,
+        "other_votes": 10718,
+        "total_votes": 25967,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 15249,
+        "margin_pct": 58.724534986713905,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 90395,
+        "other_votes": 29172,
+        "total_votes": 119567,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 90395,
+        "margin_pct": 75.60186281343077,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 103856,
+        "other_votes": 28789,
+        "total_votes": 132645,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 103856,
+        "margin_pct": 78.29620128582532,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 71092,
+        "other_votes": 13535,
+        "total_votes": 84627,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 71092,
+        "margin_pct": 84.00629967543996,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 38515,
+        "other_votes": 8255,
+        "total_votes": 46770,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 38515,
+        "margin_pct": 82.34980260485936,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 24054,
+        "other_votes": 24210,
+        "total_votes": 48264,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 24054,
+        "margin_pct": 49.83805777331789,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 171032,
+        "total_votes": 171032,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 57427,
+        "other_votes": 26264,
+        "total_votes": 83691,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 57427,
+        "margin_pct": 68.61789200750378,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 105454,
+        "other_votes": 65115,
+        "total_votes": 170568,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 105454,
+        "margin_pct": 61.82484719401522,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 117043,
+        "other_votes": 27266,
+        "total_votes": 144309,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 117043,
+        "margin_pct": 81.1058990087955,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 99224,
+        "other_votes": 19871,
+        "total_votes": 119095,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 99224,
+        "margin_pct": 83.31500062974936,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 69045,
+        "other_votes": 58890,
+        "total_votes": 127935,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 69045,
+        "margin_pct": 53.96880453058329,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 55743,
+        "other_votes": 54430,
+        "total_votes": 110173,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 55743,
+        "margin_pct": 50.59588102348125,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 25870,
+        "other_votes": 47760,
+        "total_votes": 73630,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 25870,
+        "margin_pct": 35.134705954280214,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 2249,
+        "rep_votes": 36836,
+        "other_votes": 11611,
+        "total_votes": 50696,
+        "dem_candidate": "RS Roberto Koelsch",
+        "rep_candidate": "Phil Johnson",
+        "margin": 34587,
+        "margin_pct": 68.2243175003945,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 29591,
+        "other_votes": 97998,
+        "total_votes": 127589,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 29591,
+        "margin_pct": 23.192569431290742,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 95324,
+        "other_votes": 44870,
+        "total_votes": 140194,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 95324,
+        "margin_pct": 67.99434887495876,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 181688,
+        "other_votes": 115161,
+        "total_votes": 296849,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 181688,
+        "margin_pct": 61.20563233332517,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 86344,
+        "other_votes": 100942,
+        "total_votes": 187286,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 86344,
+        "margin_pct": 46.10275206566942,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 16031,
+        "other_votes": 25770,
+        "total_votes": 41801,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 16031,
+        "margin_pct": 38.35075715891964,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 62879,
+        "other_votes": 10682,
+        "total_votes": 73561,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 62879,
+        "margin_pct": 85.4787126643885,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 34940,
+        "other_votes": 21614,
+        "total_votes": 56554,
+        "dem_candidate": "",
+        "rep_candidate": "PHIL JOHNSON",
+        "margin": 34940,
+        "margin_pct": 61.7816600063656,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 42445,
+        "other_votes": 15937,
+        "total_votes": 58382,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 42445,
+        "margin_pct": 72.7022027337193,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 50825,
+        "other_votes": 7561,
+        "total_votes": 58386,
+        "dem_candidate": "",
+        "rep_candidate": "Phil Johnson",
+        "margin": 50825,
+        "margin_pct": 87.04997773438838,
+        "winner": "REP"
+      }
+    }
+  }
+}

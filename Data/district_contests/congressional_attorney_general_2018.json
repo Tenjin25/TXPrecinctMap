@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "attorney_general",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.67213422994308,
+    "matched_precinct_rows": 8538,
+    "total_precinct_rows": 8693,
+    "matched_total_votes": 8270497,
+    "total_votes": 8381796,
+    "generated_at": "2026-03-03T22:22:38.628840+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 62632,
+        "rep_votes": 159350,
+        "other_votes": 12642,
+        "total_votes": 234623,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 96718,
+        "margin_pct": 41.22268577156106,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 125446,
+        "rep_votes": 131542,
+        "other_votes": 8856,
+        "total_votes": 265844,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 6096,
+        "margin_pct": 2.293074133702472,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 143912,
+        "rep_votes": 160751,
+        "other_votes": 13296,
+        "total_votes": 317959,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 16839,
+        "margin_pct": 5.295998041678864,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 59547,
+        "rep_votes": 175485,
+        "other_votes": 12208,
+        "total_votes": 247240,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 115938,
+        "margin_pct": 46.89289450711433,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 80121,
+        "rep_votes": 120027,
+        "other_votes": 6612,
+        "total_votes": 206760,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 39906,
+        "margin_pct": 19.300615495984857,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 119861,
+        "rep_votes": 130413,
+        "other_votes": 8880,
+        "total_votes": 259153,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 10552,
+        "margin_pct": 4.071696000718063,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 126915,
+        "rep_votes": 110735,
+        "other_votes": 8432,
+        "total_votes": 246082,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -16180,
+        "margin_pct": -6.575044090994059,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 71481,
+        "rep_votes": 184511,
+        "other_votes": 16724,
+        "total_votes": 272716,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 113030,
+        "margin_pct": 41.446046436586045,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 136634,
+        "rep_votes": 32536,
+        "other_votes": 5276,
+        "total_votes": 174446,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -104098,
+        "margin_pct": -59.67336481016111,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 148850,
+        "rep_votes": 150889,
+        "other_votes": 9605,
+        "total_votes": 309344,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 2039,
+        "margin_pct": 0.6591367539050378,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 44632,
+        "rep_votes": 156570,
+        "other_votes": 18857,
+        "total_votes": 220058,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 111938,
+        "margin_pct": 50.86715577903148,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 91177,
+        "rep_votes": 116972,
+        "other_votes": 9115,
+        "total_votes": 217264,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 25796,
+        "margin_pct": 11.872997344103249,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 40004,
+        "rep_votes": 156406,
+        "other_votes": 9649,
+        "total_votes": 206059,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 116402,
+        "margin_pct": 56.48963276774537,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 95425,
+        "rep_votes": 133805,
+        "other_votes": 5438,
+        "total_votes": 234668,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 38380,
+        "margin_pct": 16.355020710109603,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 91688,
+        "rep_votes": 66614,
+        "other_votes": 12567,
+        "total_votes": 170869,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -25074,
+        "margin_pct": -14.674399686309394,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 122461,
+        "rep_votes": 50095,
+        "other_votes": 6194,
+        "total_votes": 178750,
+        "dem_candidate": "JUSTIN NELSON",
+        "rep_candidate": "KEN PAXTON",
+        "margin": -72366,
+        "margin_pct": -40.48447552447553,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 102748,
+        "rep_votes": 127323,
+        "other_votes": 9692,
+        "total_votes": 239763,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 24575,
+        "margin_pct": 10.24970491693881,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 143394,
+        "rep_votes": 37705,
+        "other_votes": 6007,
+        "total_votes": 187106,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -105689,
+        "margin_pct": -56.486168911663434,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 54913,
+        "rep_votes": 142260,
+        "other_votes": 6916,
+        "total_votes": 204090,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 87348,
+        "margin_pct": 42.79862511300189,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 128167,
+        "rep_votes": 65729,
+        "other_votes": 8360,
+        "total_votes": 202256,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -62438,
+        "margin_pct": -30.870825416247072,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 167471,
+        "rep_votes": 169200,
+        "other_votes": 11606,
+        "total_votes": 348277,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 1729,
+        "margin_pct": 0.4965626492659792,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 142413,
+        "rep_votes": 148668,
+        "other_votes": 10458,
+        "total_votes": 301539,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 6255,
+        "margin_pct": 2.074331583699771,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 99057,
+        "rep_votes": 85042,
+        "other_votes": 6992,
+        "total_votes": 191091,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -14015,
+        "margin_pct": -7.334111216179279,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 129785,
+        "rep_votes": 127033,
+        "other_votes": 11012,
+        "total_votes": 267830,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -2752,
+        "margin_pct": -1.0276021160687259,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 139593,
+        "rep_votes": 158684,
+        "other_votes": 9171,
+        "total_votes": 307448,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 19090,
+        "margin_pct": 6.209292086346076,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 126088,
+        "rep_votes": 177913,
+        "other_votes": 12767,
+        "total_votes": 316769,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 51825,
+        "margin_pct": 16.36054273096782,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 79213,
+        "rep_votes": 122815,
+        "other_votes": 7324,
+        "total_votes": 209352,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 43602,
+        "margin_pct": 20.827123695976155,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 95537,
+        "rep_votes": 62719,
+        "other_votes": 5804,
+        "total_votes": 164060,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -32818,
+        "margin_pct": -20.0036892022152,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 85301,
+        "rep_votes": 30159,
+        "other_votes": 4155,
+        "total_votes": 119615,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -55142,
+        "margin_pct": -46.09954859685754,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 164582,
+        "rep_votes": 36620,
+        "other_votes": 7439,
+        "total_votes": 208641,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -127962,
+        "margin_pct": -61.33116345880032,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 132228,
+        "rep_votes": 143404,
+        "other_votes": 13510,
+        "total_votes": 289142,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 11176,
+        "margin_pct": 3.8652288494926372,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 144654,
+        "rep_votes": 122052,
+        "other_votes": 11816,
+        "total_votes": 278522,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -22602,
+        "margin_pct": -8.114921729255212,
+        "winner": "DEM"
+      },
+      "33": {
+        "dem_votes": 90252,
+        "rep_votes": 26833,
+        "other_votes": 5282,
+        "total_votes": 122368,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -63419,
+        "margin_pct": -51.82681432862582,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 74041,
+        "rep_votes": 52241,
+        "other_votes": 13710,
+        "total_votes": 139992,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -21800,
+        "margin_pct": -15.572318418195325,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 135491,
+        "rep_votes": 53830,
+        "other_votes": 7624,
+        "total_votes": 196945,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": -81661,
+        "margin_pct": -41.46366676771428,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 60120,
+        "rep_votes": 148048,
+        "other_votes": 5690,
+        "total_votes": 213858,
+        "dem_candidate": "Justin Nelson",
+        "rep_candidate": "Ken Paxton",
+        "margin": 87928,
+        "margin_pct": 41.115132471078944,
+        "winner": "REP"
+      }
+    }
+  }
+}

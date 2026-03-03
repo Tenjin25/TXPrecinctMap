@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_6",
+    "year": 2014,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 99.0115751608838,
+    "matched_precinct_rows": 1804,
+    "total_precinct_rows": 1831,
+    "matched_total_votes": 841437,
+    "total_votes": 849837,
+    "generated_at": "2026-03-03T22:22:34.375610+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 792,
+        "rep_votes": 1668,
+        "other_votes": 388,
+        "total_votes": 2848,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 876,
+        "margin_pct": 30.758426966292134,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 5870,
+        "rep_votes": 23218,
+        "other_votes": 10920,
+        "total_votes": 40008,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 17348,
+        "margin_pct": 43.361327734453106,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 24547,
+        "rep_votes": 33338,
+        "other_votes": 3665,
+        "total_votes": 61550,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 8791,
+        "margin_pct": 14.282438807366226,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 6958,
+        "rep_votes": 23477,
+        "other_votes": 1888,
+        "total_votes": 32323,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 16519,
+        "margin_pct": 51.106023574544444,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 4508,
+        "rep_votes": 12047,
+        "other_votes": 1512,
+        "total_votes": 18067,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 7539,
+        "margin_pct": 41.728012398295235,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 3383,
+        "rep_votes": 13031,
+        "other_votes": 10747,
+        "total_votes": 27161,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 9648,
+        "margin_pct": 35.52151982622142,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 2501,
+        "rep_votes": 11721,
+        "other_votes": 1459,
+        "total_votes": 15681,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 9220,
+        "margin_pct": 58.797270582233274,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 757,
+        "rep_votes": 5781,
+        "other_votes": 6929,
+        "total_votes": 13467,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 5024,
+        "margin_pct": 37.3060072770476,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 33728,
+        "rep_votes": 17217,
+        "other_votes": 6056,
+        "total_votes": 57001,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": -16511,
+        "margin_pct": -28.96615848844757,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 39578,
+        "rep_votes": 27555,
+        "other_votes": 2825,
+        "total_votes": 69958,
+        "dem_candidate": "LAWRENCE EDWARD MEYE",
+        "rep_candidate": "JEFF BROWN",
+        "margin": -12023,
+        "margin_pct": -17.18602590125504,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 3936,
+        "rep_votes": 10522,
+        "other_votes": 1257,
+        "total_votes": 15715,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 6586,
+        "margin_pct": 41.909004136175625,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 84,
+        "rep_votes": 965,
+        "other_votes": 23,
+        "total_votes": 1072,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 881,
+        "margin_pct": 82.18283582089553,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 2799,
+        "total_votes": 2799,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "23": {
+        "dem_votes": 5186,
+        "rep_votes": 2116,
+        "other_votes": 336,
+        "total_votes": 7638,
+        "dem_candidate": "LAWRENCE EDWARD MEYE",
+        "rep_candidate": "JEFF BROWN",
+        "margin": -3070,
+        "margin_pct": -40.193768002094785,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 22001,
+        "rep_votes": 33413,
+        "other_votes": 4008,
+        "total_votes": 59422,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 11412,
+        "margin_pct": 19.20466476290897,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 33,
+        "rep_votes": 56,
+        "other_votes": 4,
+        "total_votes": 93,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 23,
+        "margin_pct": 24.794692028644995,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 6621,
+        "rep_votes": 20202,
+        "other_votes": 7556,
+        "total_votes": 34379,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 13581,
+        "margin_pct": 39.50376683440472,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 25209,
+        "rep_votes": 10817,
+        "other_votes": 4883,
+        "total_votes": 40909,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": -14392,
+        "margin_pct": -35.18052262338361,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 90864,
+        "rep_votes": 25637,
+        "other_votes": 5434,
+        "total_votes": 121935,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": -65227,
+        "margin_pct": -53.493212143548796,
+        "winner": "DEM"
+      },
+      "32": {
+        "dem_votes": 53029,
+        "rep_votes": 85851,
+        "other_votes": 10387,
+        "total_votes": 149267,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 32822,
+        "margin_pct": 21.98885859279093,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 15794,
+        "rep_votes": 10584,
+        "other_votes": 1945,
+        "total_votes": 28322,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": -5210,
+        "margin_pct": -18.395318238439966,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 7826,
+        "rep_votes": 4149,
+        "other_votes": 1758,
+        "total_votes": 13733,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": -3677,
+        "margin_pct": -26.774921721401007,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 5656,
+        "rep_votes": 20488,
+        "other_votes": 1944,
+        "total_votes": 28088,
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
+        "margin": 14832,
+        "margin_pct": 52.80546852748505,
+        "winner": "REP"
+      }
+    }
+  }
+}

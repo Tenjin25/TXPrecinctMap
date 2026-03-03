@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "us_senate",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.66864803689019,
+    "matched_precinct_rows": 8543,
+    "total_precinct_rows": 8704,
+    "matched_total_votes": 8302354,
+    "total_votes": 8414379,
+    "generated_at": "2026-03-03T22:22:45.222574+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 68777,
+        "rep_votes": 196681,
+        "other_votes": 2132,
+        "total_votes": 267590,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 127904,
+        "margin_pct": 47.798497701707845,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 107828,
+        "rep_votes": 150600,
+        "other_votes": 9015,
+        "total_votes": 267443,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 42772,
+        "margin_pct": 15.992780651704445,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 56766,
+        "rep_votes": 202892,
+        "other_votes": 10421,
+        "total_votes": 270079,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 146126,
+        "margin_pct": 54.104910044838725,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 102989,
+        "rep_votes": 197847,
+        "other_votes": 3969,
+        "total_votes": 304805,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 94858,
+        "margin_pct": 31.12088056298289,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 148425,
+        "rep_votes": 176740,
+        "other_votes": 13759,
+        "total_votes": 338924,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 28315,
+        "margin_pct": 8.354380333054017,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 100320,
+        "rep_votes": 34591,
+        "other_votes": 2921,
+        "total_votes": 137832,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -65729,
+        "margin_pct": -47.68776481513727,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 136013,
+        "rep_votes": 171330,
+        "other_votes": 4645,
+        "total_votes": 311988,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 35317,
+        "margin_pct": 11.319986666153827,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 172744,
+        "rep_votes": 165817,
+        "other_votes": 3944,
+        "total_votes": 342505,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -6927,
+        "margin_pct": -2.0224182017552437,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 122148,
+        "rep_votes": 125460,
+        "other_votes": 3789,
+        "total_votes": 251397,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 3312,
+        "margin_pct": 1.3172694605664144,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 155515,
+        "rep_votes": 133973,
+        "other_votes": 4630,
+        "total_votes": 294118,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -21542,
+        "margin_pct": -7.324265825505286,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 121142,
+        "rep_votes": 168516,
+        "other_votes": 3289,
+        "total_votes": 292947,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 47374,
+        "margin_pct": 16.171580054905142,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 150338,
+        "rep_votes": 193858,
+        "other_votes": 3981,
+        "total_votes": 348178,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 43520,
+        "margin_pct": 12.499385089818402,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 163656,
+        "rep_votes": 28519,
+        "other_votes": 3758,
+        "total_votes": 195933,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -135137,
+        "margin_pct": -68.97103832819317,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 289357,
+        "rep_votes": 98589,
+        "other_votes": 4241,
+        "total_votes": 392187,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -190768,
+        "margin_pct": -48.642101854472486,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 159508,
+        "rep_votes": 75831,
+        "other_votes": 4217,
+        "total_votes": 239556,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -83677,
+        "margin_pct": -34.93003723555244,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 167574,
+        "rep_votes": 129634,
+        "other_votes": 3952,
+        "total_votes": 301161,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -37940,
+        "margin_pct": -12.597807034221026,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 161741,
+        "rep_votes": 148420,
+        "other_votes": 4944,
+        "total_votes": 315105,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -13321,
+        "margin_pct": -4.227624381406982,
+        "winner": "DEM"
+      },
+      "18": {
+        "dem_votes": 115479,
+        "rep_votes": 196905,
+        "other_votes": 9889,
+        "total_votes": 322273,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 81426,
+        "margin_pct": 25.266156333295065,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 123509,
+        "rep_votes": 83245,
+        "other_votes": 2620,
+        "total_votes": 209374,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -40264,
+        "margin_pct": -19.23071342190699,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 114973,
+        "rep_votes": 79302,
+        "other_votes": 2943,
+        "total_votes": 197218,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -35671,
+        "margin_pct": -18.087091441957632,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 125290,
+        "rep_votes": 82415,
+        "other_votes": 7723,
+        "total_votes": 215428,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -42875,
+        "margin_pct": -19.90203066710378,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 96688,
+        "rep_votes": 185445,
+        "other_votes": 3315,
+        "total_votes": 285448,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 88757,
+        "margin_pct": 31.093929542333456,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 191086,
+        "rep_votes": 36011,
+        "other_votes": 2478,
+        "total_votes": 229575,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -155075,
+        "margin_pct": -67.54856531076916,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 88660,
+        "rep_votes": 182337,
+        "other_votes": 3735,
+        "total_votes": 274732,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 93677,
+        "margin_pct": 34.09759644653466,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 188036,
+        "rep_votes": 224435,
+        "other_votes": 4807,
+        "total_votes": 417278,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 36399,
+        "margin_pct": 8.722893174102078,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 145329,
+        "rep_votes": 62837,
+        "other_votes": 3037,
+        "total_votes": 211203,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -82492,
+        "margin_pct": -39.058158310115864,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 91290,
+        "rep_votes": 46381,
+        "other_votes": 3048,
+        "total_votes": 140719,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": -44909,
+        "margin_pct": -31.913956182178666,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 61558,
+        "rep_votes": 161897,
+        "other_votes": 6034,
+        "total_votes": 229489,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 100339,
+        "margin_pct": 43.72278569483278,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 151457,
+        "rep_votes": 51541,
+        "other_votes": 1220,
+        "total_votes": 204218,
+        "dem_candidate": "BETO OROURKE",
+        "rep_candidate": "TED CRUZ",
+        "margin": -99916,
+        "margin_pct": -48.926147548208284,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 78895,
+        "rep_votes": 187542,
+        "other_votes": 12564,
+        "total_votes": 279001,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 108647,
+        "margin_pct": 38.941429174818175,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 45686,
+        "rep_votes": 162721,
+        "other_votes": 6243,
+        "total_votes": 214650,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Ted Cruz",
+        "margin": 117035,
+        "margin_pct": 54.523643139995336,
+        "winner": "REP"
+      }
+    }
+  }
+}

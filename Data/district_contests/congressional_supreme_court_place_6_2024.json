@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_6",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 77.8009012404871,
+    "matched_precinct_rows": 4043,
+    "total_precinct_rows": 4922,
+    "matched_total_votes": 5145575,
+    "total_votes": 6613773,
+    "generated_at": "2026-03-03T22:22:55.993900+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 40689,
+        "rep_votes": 121893,
+        "other_votes": 5455,
+        "total_votes": 168037,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 81204,
+        "margin_pct": 48.32507126406684,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 129639,
+        "rep_votes": 158393,
+        "other_votes": 20976,
+        "total_votes": 309008,
+        "dem_candidate": "BONNIE LEE GOLDSTEIN",
+        "rep_candidate": "JANE BLAND",
+        "margin": 28754,
+        "margin_pct": 9.30526070522446,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 167757,
+        "rep_votes": 214836,
+        "other_votes": 36202,
+        "total_votes": 418795,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 47079,
+        "margin_pct": 11.241557554945045,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 48572,
+        "rep_votes": 175371,
+        "other_votes": 13497,
+        "total_votes": 237440,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 126799,
+        "margin_pct": 53.4025536535671,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 3922,
+        "rep_votes": 18855,
+        "other_votes": 1608,
+        "total_votes": 24385,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 14933,
+        "margin_pct": 61.238466270248104,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 118954,
+        "rep_votes": 141128,
+        "other_votes": 18810,
+        "total_votes": 278892,
+        "dem_candidate": "BONNIE LEE GOLDSTEIN",
+        "rep_candidate": "JANE BLAND",
+        "margin": 22174,
+        "margin_pct": 7.950747959783716,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 89514,
+        "rep_votes": 255928,
+        "other_votes": 20322,
+        "total_votes": 365764,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 166414,
+        "margin_pct": 45.49764328911539,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 109985,
+        "rep_votes": 40801,
+        "other_votes": 13609,
+        "total_votes": 164395,
+        "dem_candidate": "BONNIE LEE GOLDSTEIN",
+        "rep_candidate": "JANE BLAND",
+        "margin": -69184,
+        "margin_pct": -42.08400498798625,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 56283,
+        "rep_votes": 103963,
+        "other_votes": 9718,
+        "total_votes": 169964,
+        "dem_candidate": "BONNIE LEE GOLDSTEIN",
+        "rep_candidate": "JANE BLAND",
+        "margin": 47680,
+        "margin_pct": 28.052999458708904,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 19491,
+        "rep_votes": 93232,
+        "other_votes": 8117,
+        "total_votes": 120840,
+        "dem_candidate": "BONNIE LEE GOLDSTEIN",
+        "rep_candidate": "Jane Bland",
+        "margin": 73741,
+        "margin_pct": 61.02366765971533,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 13488,
+        "rep_votes": 77777,
+        "other_votes": 4796,
+        "total_votes": 96061,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 64289,
+        "margin_pct": 66.92520695861039,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 21077,
+        "rep_votes": 98512,
+        "other_votes": 7039,
+        "total_votes": 126628,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 77435,
+        "margin_pct": 61.15152478814927,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 15455,
+        "rep_votes": 41173,
+        "other_votes": 3576,
+        "total_votes": 60204,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 25718,
+        "margin_pct": 42.71809182114145,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 18908,
+        "rep_votes": 35914,
+        "other_votes": 6388,
+        "total_votes": 61210,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 17006,
+        "margin_pct": 27.783041986603497,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 62666,
+        "rep_votes": 136016,
+        "other_votes": 13094,
+        "total_votes": 211776,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 73350,
+        "margin_pct": 34.63565276518586,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 149439,
+        "rep_votes": 67188,
+        "other_votes": 18289,
+        "total_votes": 234916,
+        "dem_candidate": "BONNIE LEE GOLDSTEIN",
+        "rep_candidate": "JANE BLAND",
+        "margin": -82251,
+        "margin_pct": -35.012940618159675,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 17653,
+        "rep_votes": 73440,
+        "other_votes": 3312,
+        "total_votes": 94405,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 55787,
+        "margin_pct": 59.09326836502304,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 245848,
+        "total_votes": 245848,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "21": {
+        "dem_votes": 16229,
+        "rep_votes": 49403,
+        "other_votes": 137132,
+        "total_votes": 202763,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 33174,
+        "margin_pct": 16.360901655076614,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 56425,
+        "rep_votes": 69643,
+        "other_votes": 9274,
+        "total_votes": 135342,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 13218,
+        "margin_pct": 9.766369641353016,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 18319,
+        "rep_votes": 33649,
+        "other_votes": 169696,
+        "total_votes": 221664,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 15330,
+        "margin_pct": 6.915884944732817,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 3550,
+        "rep_votes": 5267,
+        "other_votes": 644,
+        "total_votes": 9461,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 1717,
+        "margin_pct": 18.148187295211923,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 16253,
+        "rep_votes": 37030,
+        "other_votes": 31516,
+        "total_votes": 84799,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 20777,
+        "margin_pct": 24.50146544575217,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 40044,
+        "rep_votes": 59299,
+        "other_votes": 7868,
+        "total_votes": 107211,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 19255,
+        "margin_pct": 17.959910830045427,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 62916,
+        "rep_votes": 103447,
+        "other_votes": 12497,
+        "total_votes": 178860,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 40531,
+        "margin_pct": 22.66074024376607,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 4302,
+        "rep_votes": 3789,
+        "other_votes": 78198,
+        "total_votes": 86289,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": -513,
+        "margin_pct": -0.594516158521848,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 75797,
+        "rep_votes": 55440,
+        "other_votes": 12895,
+        "total_votes": 144132,
+        "dem_candidate": "BONNIE LEE GOLDSTEIN",
+        "rep_candidate": "JANE BLAND",
+        "margin": -20357,
+        "margin_pct": -14.123852157522322,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 67950,
+        "rep_votes": 78399,
+        "other_votes": 15446,
+        "total_votes": 161795,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 10449,
+        "margin_pct": 6.458172378627275,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 10238,
+        "rep_votes": 15497,
+        "other_votes": 2644,
+        "total_votes": 28379,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 5259,
+        "margin_pct": 18.531308361816837,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 9973,
+        "rep_votes": 19618,
+        "other_votes": 2890,
+        "total_votes": 32481,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": 9645,
+        "margin_pct": 29.694282811489792,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 23104,
+        "rep_votes": 19208,
+        "other_votes": 102608,
+        "total_votes": 144920,
+        "dem_candidate": "Bonnie Lee Goldstein",
+        "rep_candidate": "Jane Bland",
+        "margin": -3896,
+        "margin_pct": -2.6882528241955104,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 54769,
+        "rep_votes": 151586,
+        "other_votes": 12556,
+        "total_votes": 218911,
+        "dem_candidate": "BONNIE LEE GOLDSTEIN",
+        "rep_candidate": "Jane Bland",
+        "margin": 96817,
+        "margin_pct": 44.226649186198955,
+        "winner": "REP"
+      }
+    }
+  }
+}

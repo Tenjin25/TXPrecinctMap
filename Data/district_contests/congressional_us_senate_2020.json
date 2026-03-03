@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2020,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 97.0809733462279,
+    "matched_precinct_rows": 8147,
+    "total_precinct_rows": 8580,
+    "matched_total_votes": 10283372,
+    "total_votes": 10592572,
+    "generated_at": "2026-03-03T22:22:48.364579+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 46328,
+        "rep_votes": 133998,
+        "other_votes": 50075,
+        "total_votes": 230401,
+        "dem_candidate": "Mary MJ Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 87670,
+        "margin_pct": 38.0510501256505,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 157925,
+        "rep_votes": 180504,
+        "other_votes": 15179,
+        "total_votes": 353608,
+        "dem_candidate": "Mary 'MJ' Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 22579,
+        "margin_pct": 6.385319336666591,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 188092,
+        "rep_votes": 224921,
+        "other_votes": 20893,
+        "total_votes": 433907,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 36829,
+        "margin_pct": 8.487827615868635,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 57990,
+        "rep_votes": 188806,
+        "other_votes": 21479,
+        "total_votes": 268274,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 130816,
+        "margin_pct": 48.76193487080038,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 96504,
+        "rep_votes": 154372,
+        "other_votes": 25860,
+        "total_votes": 276737,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 57868,
+        "margin_pct": 20.91072990964419,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 155023,
+        "rep_votes": 178306,
+        "other_votes": 9117,
+        "total_votes": 342446,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 23283,
+        "margin_pct": 6.79901879841964,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 154670,
+        "rep_votes": 152741,
+        "other_votes": 13318,
+        "total_votes": 320729,
+        "dem_candidate": "Mary 'MJ' Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -1929,
+        "margin_pct": -0.6014423391710759,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 99032,
+        "rep_votes": 267123,
+        "other_votes": 13911,
+        "total_votes": 380066,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 168091,
+        "margin_pct": 44.22679218872511,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 118424,
+        "rep_votes": 39404,
+        "other_votes": 10183,
+        "total_votes": 168011,
+        "dem_candidate": "Mary 'MJ' Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -79020,
+        "margin_pct": -47.032634767961625,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 188047,
+        "rep_votes": 206205,
+        "other_votes": 13615,
+        "total_votes": 407867,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 18158,
+        "margin_pct": 4.451941441695455,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 54634,
+        "rep_votes": 233508,
+        "other_votes": 7586,
+        "total_votes": 295728,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 178874,
+        "margin_pct": 60.485715783226844,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 129680,
+        "rep_votes": 228677,
+        "other_votes": 11222,
+        "total_votes": 369579,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 98997,
+        "margin_pct": 26.78644583065543,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 36815,
+        "rep_votes": 173948,
+        "other_votes": 54076,
+        "total_votes": 264839,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 137134,
+        "margin_pct": 51.77989637621535,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 73842,
+        "rep_votes": 138191,
+        "other_votes": 98382,
+        "total_votes": 310415,
+        "dem_candidate": "Mary 'MJ' Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 64349,
+        "margin_pct": 20.72999049659327,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 28299,
+        "rep_votes": 52787,
+        "other_votes": 3347,
+        "total_votes": 84433,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 24488,
+        "margin_pct": 29.002878021626614,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 148484,
+        "rep_votes": 73923,
+        "other_votes": 21715,
+        "total_votes": 244122,
+        "dem_candidate": "Mary MJ Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -74561,
+        "margin_pct": -30.542515627432188,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 126907,
+        "rep_votes": 173691,
+        "other_votes": 12192,
+        "total_votes": 312790,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 46784,
+        "margin_pct": 14.956999904089004,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 178680,
+        "rep_votes": 60111,
+        "other_votes": 14762,
+        "total_votes": 253553,
+        "dem_candidate": "Mary 'MJ' Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -118569,
+        "margin_pct": -46.763007866339365,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 27144,
+        "rep_votes": 105840,
+        "other_votes": 123284,
+        "total_votes": 256268,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 78696,
+        "margin_pct": 30.708732086589208,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 162597,
+        "rep_votes": 99433,
+        "other_votes": 16876,
+        "total_votes": 278906,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -63164,
+        "margin_pct": -22.64710417729206,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 199663,
+        "rep_votes": 230237,
+        "other_votes": 13476,
+        "total_votes": 443377,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 30574,
+        "margin_pct": 6.895739124870342,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 60294,
+        "rep_votes": 68806,
+        "other_votes": 4581,
+        "total_votes": 133681,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 8512,
+        "margin_pct": 6.367397012290453,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 130791,
+        "rep_votes": 144773,
+        "other_votes": 21281,
+        "total_votes": 296846,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 13982,
+        "margin_pct": 4.710063387341236,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 165215,
+        "rep_votes": 171826,
+        "other_votes": 8799,
+        "total_votes": 345841,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 6611,
+        "margin_pct": 1.9116108313406246,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 165518,
+        "rep_votes": 222329,
+        "other_votes": 9442,
+        "total_votes": 397289,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 56812,
+        "margin_pct": 14.299804731266457,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 168527,
+        "rep_votes": 256618,
+        "other_votes": 11954,
+        "total_votes": 437100,
+        "dem_candidate": "Mary ''MJ'' Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 88091,
+        "margin_pct": 20.153551327883363,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 36167,
+        "rep_votes": 91351,
+        "other_votes": 3293,
+        "total_votes": 130811,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 55184,
+        "margin_pct": 42.18605468959032,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 99687,
+        "rep_votes": 93071,
+        "other_votes": 11968,
+        "total_votes": 204726,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -6616,
+        "margin_pct": -3.231647963718719,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 99415,
+        "rep_votes": 51044,
+        "other_votes": 12463,
+        "total_votes": 162922,
+        "dem_candidate": "Mary 'MJ' Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -48371,
+        "margin_pct": -29.689638299363004,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 203819,
+        "rep_votes": 53549,
+        "other_votes": 7372,
+        "total_votes": 264740,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -150270,
+        "margin_pct": -56.76132711439852,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 180157,
+        "rep_votes": 207649,
+        "other_votes": 11849,
+        "total_votes": 399655,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 27492,
+        "margin_pct": 6.878933079781311,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 170654,
+        "rep_votes": 165157,
+        "other_votes": 9188,
+        "total_votes": 344998,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -5497,
+        "margin_pct": -1.5932836622569457,
+        "winner": "DEM"
+      },
+      "33": {
+        "dem_votes": 111621,
+        "rep_votes": 41936,
+        "other_votes": 4960,
+        "total_votes": 158517,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -69685,
+        "margin_pct": -43.96035705597486,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 76549,
+        "rep_votes": 70068,
+        "other_votes": 9236,
+        "total_votes": 155853,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -6481,
+        "margin_pct": -4.158405677144489,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 175440,
+        "rep_votes": 87119,
+        "other_votes": 13173,
+        "total_votes": 275732,
+        "dem_candidate": "Mary \"MJ\" Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": -88321,
+        "margin_pct": -32.03151599409754,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 73016,
+        "rep_votes": 194295,
+        "other_votes": 11296,
+        "total_votes": 278607,
+        "dem_candidate": "Mary 'MJ' Hegar",
+        "rep_candidate": "John Cornyn",
+        "margin": 121279,
+        "margin_pct": 43.530492772974114,
+        "winner": "REP"
+      }
+    }
+  }
+}

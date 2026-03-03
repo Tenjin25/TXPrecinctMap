@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "land_commissioner",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.67178162792835,
+    "matched_precinct_rows": 8542,
+    "total_precinct_rows": 8697,
+    "matched_total_votes": 8264186,
+    "total_votes": 8375430,
+    "generated_at": "2026-03-03T22:22:42.076611+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 62595,
+        "rep_votes": 194491,
+        "other_votes": 8551,
+        "total_votes": 265637,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 131896,
+        "margin_pct": 49.652721571166666,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 94347,
+        "rep_votes": 155853,
+        "other_votes": 16390,
+        "total_votes": 266590,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 61506,
+        "margin_pct": 23.071218396536807,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 51611,
+        "rep_votes": 199481,
+        "other_votes": 17881,
+        "total_votes": 268973,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 147870,
+        "margin_pct": 54.9757782379644,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 91870,
+        "rep_votes": 199757,
+        "other_votes": 12562,
+        "total_votes": 304189,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 107887,
+        "margin_pct": 35.46709447087173,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 125637,
+        "rep_votes": 184242,
+        "other_votes": 28581,
+        "total_votes": 338460,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 58605,
+        "margin_pct": 17.315192341783373,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 95629,
+        "rep_votes": 37043,
+        "other_votes": 5118,
+        "total_votes": 137790,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -58586,
+        "margin_pct": -42.518324987299515,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 122653,
+        "rep_votes": 177322,
+        "other_votes": 11851,
+        "total_votes": 311826,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 54669,
+        "margin_pct": 17.531892786361624,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 144460,
+        "rep_votes": 179708,
+        "other_votes": 18337,
+        "total_votes": 342505,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 35248,
+        "margin_pct": 10.29126810391367,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 106049,
+        "rep_votes": 132605,
+        "other_votes": 12648,
+        "total_votes": 251302,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 26556,
+        "margin_pct": 10.56722130951377,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 136667,
+        "rep_votes": 143603,
+        "other_votes": 13695,
+        "total_votes": 293965,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 6936,
+        "margin_pct": 2.3594652223164725,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 108188,
+        "rep_votes": 172191,
+        "other_votes": 11453,
+        "total_votes": 291832,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 64003,
+        "margin_pct": 21.93149942598219,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 124972,
+        "rep_votes": 206065,
+        "other_votes": 17103,
+        "total_votes": 348141,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 81093,
+        "margin_pct": 23.29321973682074,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 157307,
+        "rep_votes": 32048,
+        "other_votes": 6492,
+        "total_votes": 195847,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -125259,
+        "margin_pct": -63.95750621027424,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 255083,
+        "rep_votes": 113909,
+        "other_votes": 14749,
+        "total_votes": 383741,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -141174,
+        "margin_pct": -36.788875830312634,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 146747,
+        "rep_votes": 83072,
+        "other_votes": 9563,
+        "total_votes": 239382,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -63675,
+        "margin_pct": -26.599744341679827,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 137502,
+        "rep_votes": 149091,
+        "other_votes": 14567,
+        "total_votes": 301161,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 11589,
+        "margin_pct": 3.848164333987137,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 142448,
+        "rep_votes": 159017,
+        "other_votes": 13342,
+        "total_votes": 314807,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 16568,
+        "margin_pct": 5.263032829307861,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 103665,
+        "rep_votes": 199565,
+        "other_votes": 18123,
+        "total_votes": 321353,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 95900,
+        "margin_pct": 29.842571875787687,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 109511,
+        "rep_votes": 87140,
+        "other_votes": 10937,
+        "total_votes": 207588,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -22371,
+        "margin_pct": -10.776678192106399,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 102828,
+        "rep_votes": 84568,
+        "other_votes": 9765,
+        "total_votes": 197161,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -18260,
+        "margin_pct": -9.261466517211822,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 112271,
+        "rep_votes": 84888,
+        "other_votes": 13767,
+        "total_votes": 210926,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -27383,
+        "margin_pct": -12.982330895592014,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 83609,
+        "rep_votes": 188334,
+        "other_votes": 11396,
+        "total_votes": 283339,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 104725,
+        "margin_pct": 36.961025485372645,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 178116,
+        "rep_votes": 42254,
+        "other_votes": 9205,
+        "total_votes": 229575,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -135862,
+        "margin_pct": -59.1796174930149,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 76754,
+        "rep_votes": 184028,
+        "other_votes": 13163,
+        "total_votes": 273945,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 107274,
+        "margin_pct": 39.15895886267467,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 156545,
+        "rep_votes": 238104,
+        "other_votes": 20818,
+        "total_votes": 415467,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 81559,
+        "margin_pct": 19.630740981376466,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 129199,
+        "rep_votes": 69696,
+        "other_votes": 12308,
+        "total_votes": 211203,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -59503,
+        "margin_pct": -28.17336732207863,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 82056,
+        "rep_votes": 49566,
+        "other_votes": 8110,
+        "total_votes": 139732,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": -32490,
+        "margin_pct": -23.25165316462943,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 53137,
+        "rep_votes": 160111,
+        "other_votes": 15147,
+        "total_votes": 228395,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 106974,
+        "margin_pct": 46.83727053009471,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 132173,
+        "rep_votes": 59236,
+        "other_votes": 6896,
+        "total_votes": 198305,
+        "dem_candidate": "MIGUEL SUAZO",
+        "rep_candidate": "GEORGE P BUSH",
+        "margin": -72937,
+        "margin_pct": -36.78021229923603,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 67389,
+        "rep_votes": 188422,
+        "other_votes": 22211,
+        "total_votes": 278022,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 121033,
+        "margin_pct": 43.53359372088521,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 39276,
+        "rep_votes": 161356,
+        "other_votes": 12395,
+        "total_votes": 213027,
+        "dem_candidate": "Miguel Suazo",
+        "rep_candidate": "George P. Bush",
+        "margin": 122080,
+        "margin_pct": 57.3072896862839,
+        "winner": "REP"
+      }
+    }
+  }
+}

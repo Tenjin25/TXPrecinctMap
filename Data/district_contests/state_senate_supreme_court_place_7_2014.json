@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_7",
+    "year": 2014,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.78265623148354,
+    "matched_precinct_rows": 6182,
+    "total_precinct_rows": 6325,
+    "matched_total_votes": 3726065,
+    "total_votes": 3771983,
+    "generated_at": "2026-03-03T22:22:35.114963+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 16893,
+        "rep_votes": 58617,
+        "other_votes": 38208,
+        "total_votes": 113718,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 41724,
+        "margin_pct": 36.690761357041104,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 38073,
+        "rep_votes": 60662,
+        "other_votes": 15979,
+        "total_votes": 114714,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 22589,
+        "margin_pct": 19.69131698326117,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 24357,
+        "rep_votes": 105365,
+        "other_votes": 8506,
+        "total_votes": 138228,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 81008,
+        "margin_pct": 58.604624244002665,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 21380,
+        "rep_votes": 95175,
+        "other_votes": 53475,
+        "total_votes": 170030,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 73795,
+        "margin_pct": 43.401164500382286,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 16001,
+        "rep_votes": 22133,
+        "other_votes": 23821,
+        "total_votes": 61955,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 6132,
+        "margin_pct": 9.897506254539586,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 41545,
+        "rep_votes": 22878,
+        "other_votes": 1776,
+        "total_votes": 66199,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -18667,
+        "margin_pct": -28.198311152736444,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 47701,
+        "rep_votes": 117139,
+        "other_votes": 4366,
+        "total_votes": 169206,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 69438,
+        "margin_pct": 41.03755185986312,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 9934,
+        "rep_votes": 14117,
+        "other_votes": 1916,
+        "total_votes": 25967,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 4183,
+        "margin_pct": 16.108907459467787,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 47372,
+        "rep_votes": 84779,
+        "other_votes": 5991,
+        "total_votes": 138142,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 37407,
+        "margin_pct": 27.078620673913846,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 76817,
+        "rep_votes": 96316,
+        "other_votes": 5730,
+        "total_votes": 178863,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 19499,
+        "margin_pct": 10.901646955443807,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 30515,
+        "rep_votes": 66471,
+        "other_votes": 2985,
+        "total_votes": 99971,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 35956,
+        "margin_pct": 35.966495475567896,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 16312,
+        "rep_votes": 36231,
+        "other_votes": 2328,
+        "total_votes": 54871,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 19919,
+        "margin_pct": 36.30150236615182,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 91574,
+        "rep_votes": 18704,
+        "other_votes": 2156,
+        "total_votes": 112434,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -72871,
+        "margin_pct": -64.81179294838408,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 214994,
+        "total_votes": 214994,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "15": {
+        "dem_votes": 69655,
+        "rep_votes": 50635,
+        "other_votes": 3562,
+        "total_votes": 123852,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -19020,
+        "margin_pct": -15.357039046604012,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 60510,
+        "rep_votes": 97709,
+        "other_votes": 12350,
+        "total_votes": 170568,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 37199,
+        "margin_pct": 21.808787809564762,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 62961,
+        "rep_votes": 107177,
+        "other_votes": 4907,
+        "total_votes": 175045,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 44216,
+        "margin_pct": 25.26005183165801,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 36242,
+        "rep_votes": 93459,
+        "other_votes": 5182,
+        "total_votes": 134883,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 57217,
+        "margin_pct": 42.4197267261256,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 64223,
+        "rep_votes": 57823,
+        "other_votes": 7467,
+        "total_votes": 129513,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -6400,
+        "margin_pct": -4.941647234627259,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 56214,
+        "rep_votes": 44713,
+        "other_votes": 9246,
+        "total_votes": 110173,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -11501,
+        "margin_pct": -10.439036787597686,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 30045,
+        "rep_votes": 18231,
+        "other_votes": 34020,
+        "total_votes": 82296,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -11814,
+        "margin_pct": -14.356081097338116,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 18342,
+        "rep_votes": 34728,
+        "other_votes": 4130,
+        "total_votes": 57200,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 16386,
+        "margin_pct": 28.646853146853147,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 97168,
+        "rep_votes": 23828,
+        "other_votes": 6593,
+        "total_votes": 127589,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -73340,
+        "margin_pct": -57.48118865715448,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 27317,
+        "rep_votes": 91162,
+        "other_votes": 25893,
+        "total_votes": 144372,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 63845,
+        "margin_pct": 44.22256218397841,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 80308,
+        "rep_votes": 163534,
+        "other_votes": 62400,
+        "total_votes": 306242,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 83227,
+        "margin_pct": 27.176688545199358,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 108578,
+        "rep_votes": 66866,
+        "other_votes": 11842,
+        "total_votes": 187286,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -41712,
+        "margin_pct": -22.271815776747136,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 27369,
+        "rep_votes": 11302,
+        "other_votes": 4412,
+        "total_votes": 43083,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": -16067,
+        "margin_pct": -37.29313186175522,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 15277,
+        "rep_votes": 59697,
+        "other_votes": 3704,
+        "total_votes": 78678,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 44420,
+        "margin_pct": 56.45796515482922,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 46367,
+        "rep_votes": 27362,
+        "other_votes": 3264,
+        "total_votes": 76993,
+        "dem_candidate": "GINA BENAVIDES",
+        "rep_candidate": "JEFF BOYD",
+        "margin": -19005,
+        "margin_pct": -24.68406218747159,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 8555,
+        "rep_votes": 40984,
+        "other_votes": 9716,
+        "total_votes": 59255,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 32429,
+        "margin_pct": 54.72787106573285,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 7674,
+        "rep_votes": 49008,
+        "other_votes": 3062,
+        "total_votes": 59744,
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
+        "margin": 41334,
+        "margin_pct": 69.18519014461704,
+        "winner": "REP"
+      }
+    }
+  }
+}

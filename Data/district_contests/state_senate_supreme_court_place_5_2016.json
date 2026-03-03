@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_5",
+    "year": 2016,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 99.66607877533879,
+    "matched_precinct_rows": 2337,
+    "total_precinct_rows": 2352,
+    "matched_total_votes": 2532235,
+    "total_votes": 2540719,
+    "generated_at": "2026-03-03T22:22:37.714439+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 2640,
+        "rep_votes": 7193,
+        "other_votes": 74834,
+        "total_votes": 84667,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 4553,
+        "margin_pct": 5.3775378837091194,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 61547,
+        "rep_votes": 47398,
+        "other_votes": 48958,
+        "total_votes": 157903,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": -14150,
+        "margin_pct": -8.960891623651076,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 16220,
+        "rep_votes": 59261,
+        "other_votes": 5185,
+        "total_votes": 80666,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 43041,
+        "margin_pct": 53.357052537624284,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 41983,
+        "rep_votes": 40789,
+        "other_votes": 2808,
+        "total_votes": 85580,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": -1194,
+        "margin_pct": -1.3951857910726804,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 5582,
+        "rep_votes": 16162,
+        "other_votes": 1554,
+        "total_votes": 23298,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 10580,
+        "margin_pct": 45.41162331530603,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 130449,
+        "rep_votes": 191818,
+        "other_votes": 30892,
+        "total_votes": 353159,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 61369,
+        "margin_pct": 17.377183447060826,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 25327,
+        "rep_votes": 19802,
+        "other_votes": 221340,
+        "total_votes": 266468,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": -5525,
+        "margin_pct": -2.07341358688205,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 304697,
+        "total_votes": 304697,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "12": {
+        "dem_votes": 82186,
+        "rep_votes": 154598,
+        "other_votes": 123083,
+        "total_votes": 359867,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 72412,
+        "margin_pct": 20.121900034816452,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 132800,
+        "rep_votes": 153030,
+        "other_votes": 26663,
+        "total_votes": 312494,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 20230,
+        "margin_pct": 6.473729662081473,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 2808,
+        "rep_votes": 7965,
+        "other_votes": 31251,
+        "total_votes": 42024,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 5157,
+        "margin_pct": 12.271559109080526,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 4619,
+        "rep_votes": 11793,
+        "other_votes": 673,
+        "total_votes": 17085,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 7174,
+        "margin_pct": 41.99004975124378,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 34005,
+        "total_votes": 34005,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "23": {
+        "dem_votes": 185749,
+        "rep_votes": 42356,
+        "other_votes": 15559,
+        "total_votes": 243664,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": -143392,
+        "margin_pct": -58.848444049461754,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 3739,
+        "rep_votes": 16303,
+        "other_votes": 1406,
+        "total_votes": 21448,
+        "dem_candidate": "DORI CONTRERAS GARZA",
+        "rep_candidate": "Paul Green",
+        "margin": 12564,
+        "margin_pct": 58.57888847444983,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 31010,
+        "rep_votes": 69205,
+        "other_votes": 34709,
+        "total_votes": 134924,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 38195,
+        "margin_pct": 28.30847942576472,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 1690,
+        "rep_votes": 7763,
+        "other_votes": 833,
+        "total_votes": 10286,
+        "dem_candidate": "Dori Contreras Garza",
+        "rep_candidate": "Paul Green",
+        "margin": 6073,
+        "margin_pct": 59.04141551623566,
+        "winner": "REP"
+      }
+    }
+  }
+}

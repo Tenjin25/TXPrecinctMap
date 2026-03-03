@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_place_4",
+    "year": 2020,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 94.29370896417734,
+    "matched_precinct_rows": 3529,
+    "total_precinct_rows": 3937,
+    "matched_total_votes": 4790276,
+    "total_votes": 5080165,
+    "generated_at": "2026-03-03T22:22:45.728112+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 8502,
+        "rep_votes": 37622,
+        "other_votes": 579,
+        "total_votes": 46703,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 29120,
+        "margin_pct": 62.3514549386549,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 5350,
+        "rep_votes": 25048,
+        "other_votes": 0,
+        "total_votes": 30398,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "KEVIN PATRICK YEARY",
+        "margin": 19698,
+        "margin_pct": 64.80031581025068,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 9020,
+        "rep_votes": 46486,
+        "other_votes": 0,
+        "total_votes": 55506,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 37466,
+        "margin_pct": 67.49900911613159,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 34098,
+        "rep_votes": 58651,
+        "other_votes": 26,
+        "total_votes": 92775,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 24553,
+        "margin_pct": 26.46510374562113,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 175822,
+        "rep_votes": 199284,
+        "other_votes": 22348,
+        "total_votes": 397455,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 23462,
+        "margin_pct": 5.903128169122103,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 117612,
+        "rep_votes": 149755,
+        "other_votes": 0,
+        "total_votes": 267367,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 32143,
+        "margin_pct": 12.021891328406593,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 186725,
+        "rep_votes": 178705,
+        "other_votes": 0,
+        "total_votes": 365430,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": -8020,
+        "margin_pct": -2.1945945225696577,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 49022,
+        "rep_votes": 63450,
+        "other_votes": 0,
+        "total_votes": 112472,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 14428,
+        "margin_pct": 12.828283470089213,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 51034,
+        "rep_votes": 83676,
+        "other_votes": 335429,
+        "total_votes": 470140,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 32642,
+        "margin_pct": 6.943075849579635,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 306881,
+        "rep_votes": 122714,
+        "other_votes": 0,
+        "total_votes": 429595,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": -184167,
+        "margin_pct": -42.86991235931517,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 9896,
+        "rep_votes": 28033,
+        "other_votes": 0,
+        "total_votes": 37929,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 18137,
+        "margin_pct": 47.81807105693435,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 13519,
+        "rep_votes": 31029,
+        "other_votes": 8683,
+        "total_votes": 53231,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 17510,
+        "margin_pct": 32.894366064887,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 124147,
+        "rep_votes": 83988,
+        "other_votes": 16801,
+        "total_votes": 224936,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": -40159,
+        "margin_pct": -17.853593159668605,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 6179,
+        "rep_votes": 7686,
+        "other_votes": 0,
+        "total_votes": 13865,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 1507,
+        "margin_pct": 10.869094843130183,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 61224,
+        "rep_votes": 47059,
+        "other_votes": 993,
+        "total_votes": 109276,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": -14165,
+        "margin_pct": -12.962633534447646,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 64694,
+        "rep_votes": 86811,
+        "other_votes": 5546,
+        "total_votes": 157051,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 22117,
+        "margin_pct": 14.082686515845172,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 98947,
+        "rep_votes": 182677,
+        "other_votes": 17981,
+        "total_votes": 299605,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 83730,
+        "margin_pct": 27.9467966155438,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 186340,
+        "rep_votes": 257171,
+        "other_votes": 11834,
+        "total_votes": 455345,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 70831,
+        "margin_pct": 15.555466401829632,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 182392,
+        "rep_votes": 93708,
+        "other_votes": 13331,
+        "total_votes": 289431,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": -88684,
+        "margin_pct": -30.64080927847063,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 63456,
+        "rep_votes": 43477,
+        "other_votes": 11983,
+        "total_votes": 118916,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": -19979,
+        "margin_pct": -16.800935113861886,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 16175,
+        "rep_votes": 55005,
+        "other_votes": 2438,
+        "total_votes": 73618,
+        "dem_candidate": "TINA CLINTON",
+        "rep_candidate": "KEVIN PATRICK YEARY",
+        "margin": 38830,
+        "margin_pct": 52.745252519764186,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 169782,
+        "rep_votes": 84435,
+        "other_votes": 16023,
+        "total_votes": 270240,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": -85347,
+        "margin_pct": -31.581927175843695,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 46668,
+        "rep_votes": 168783,
+        "other_votes": 71569,
+        "total_votes": 287019,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 122115,
+        "margin_pct": 42.54582618776566,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 27006,
+        "rep_votes": 102091,
+        "other_votes": 2877,
+        "total_votes": 131974,
+        "dem_candidate": "Tina Clinton",
+        "rep_candidate": "Kevin Patrick Yeary",
+        "margin": 75085,
+        "margin_pct": 56.893782108597144,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_place_2",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.96443810474202,
+    "matched_precinct_rows": 7157,
+    "total_precinct_rows": 7269,
+    "matched_total_votes": 7362495,
+    "total_votes": 7439536,
+    "generated_at": "2026-03-03T22:22:43.713333+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 17630,
+        "rep_votes": 67888,
+        "other_votes": 1375,
+        "total_votes": 86893,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 50258,
+        "margin_pct": 57.83895135396408,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 99135,
+        "rep_votes": 134517,
+        "other_votes": 3987,
+        "total_votes": 237639,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 35382,
+        "margin_pct": 14.88879336334333,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 41091,
+        "rep_votes": 141576,
+        "other_votes": 3657,
+        "total_votes": 186324,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 100485,
+        "margin_pct": 53.93025053133251,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 97234,
+        "rep_votes": 195800,
+        "other_votes": 4350,
+        "total_votes": 297384,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 98566,
+        "margin_pct": 33.14435208350147,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 135420,
+        "rep_votes": 177475,
+        "other_votes": 8840,
+        "total_votes": 321735,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 42055,
+        "margin_pct": 13.071316456089638,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 98971,
+        "rep_votes": 35572,
+        "other_votes": 3247,
+        "total_votes": 137790,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -63399,
+        "margin_pct": -46.01132157631178,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 129589,
+        "rep_votes": 176693,
+        "other_votes": 5544,
+        "total_votes": 311826,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 47104,
+        "margin_pct": 15.105860319537179,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 157316,
+        "rep_votes": 173688,
+        "other_votes": 11501,
+        "total_votes": 342505,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 16372,
+        "margin_pct": 4.780110145736045,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 114830,
+        "rep_votes": 130072,
+        "other_votes": 6400,
+        "total_votes": 251302,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 15242,
+        "margin_pct": 6.065055764781394,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 146649,
+        "rep_votes": 139631,
+        "other_votes": 7685,
+        "total_votes": 293965,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -7018,
+        "margin_pct": -2.387354253462561,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 116055,
+        "rep_votes": 171791,
+        "other_votes": 3277,
+        "total_votes": 291123,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 55736,
+        "margin_pct": 19.14522414270275,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 138098,
+        "rep_votes": 201167,
+        "other_votes": 8875,
+        "total_votes": 348141,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 63069,
+        "margin_pct": 18.115986566322515,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 162494,
+        "rep_votes": 29550,
+        "other_votes": 3803,
+        "total_votes": 195847,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -132944,
+        "margin_pct": -67.8815248229137,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 261674,
+        "rep_votes": 92958,
+        "other_votes": 0,
+        "total_votes": 354632,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -168716,
+        "margin_pct": -47.5749509350538,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 154319,
+        "rep_votes": 79679,
+        "other_votes": 5384,
+        "total_votes": 239382,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -74640,
+        "margin_pct": -31.180289244805376,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 153125,
+        "rep_votes": 137894,
+        "other_votes": 10141,
+        "total_votes": 301161,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -15231,
+        "margin_pct": -5.057348639511919,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 151832,
+        "rep_votes": 155115,
+        "other_votes": 7860,
+        "total_votes": 314807,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 3282,
+        "margin_pct": 1.042685757854837,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 96304,
+        "rep_votes": 149813,
+        "other_votes": 15220,
+        "total_votes": 261337,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 53509,
+        "margin_pct": 20.47509537493734,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 98297,
+        "rep_votes": 60954,
+        "other_votes": 7045,
+        "total_votes": 166296,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -37343,
+        "margin_pct": -22.455813950273267,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 112177,
+        "rep_votes": 78245,
+        "other_votes": 5849,
+        "total_votes": 196271,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -33932,
+        "margin_pct": -17.288341120185866,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 56792,
+        "rep_votes": 46501,
+        "other_votes": 624,
+        "total_votes": 103917,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -10291,
+        "margin_pct": -9.903135547950384,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 71192,
+        "rep_votes": 111875,
+        "other_votes": 2635,
+        "total_votes": 185702,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 40683,
+        "margin_pct": 21.907680046526153,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 186230,
+        "rep_votes": 38112,
+        "other_votes": 5233,
+        "total_votes": 229575,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -148118,
+        "margin_pct": -64.51818526216987,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 80799,
+        "rep_votes": 175490,
+        "other_votes": 3966,
+        "total_votes": 260255,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 94691,
+        "margin_pct": 36.38393501924558,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 143747,
+        "rep_votes": 202708,
+        "other_votes": 6046,
+        "total_votes": 352501,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 58961,
+        "margin_pct": 16.726486568966127,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 141161,
+        "rep_votes": 64736,
+        "other_votes": 5306,
+        "total_votes": 211203,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -76425,
+        "margin_pct": -36.18556476974544,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 85181,
+        "rep_votes": 43104,
+        "other_votes": 5656,
+        "total_votes": 133941,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -42077,
+        "margin_pct": -31.41457806048932,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 50446,
+        "rep_votes": 130554,
+        "other_votes": 5249,
+        "total_votes": 186249,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 80108,
+        "margin_pct": 43.01122939529989,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 140044,
+        "rep_votes": 53309,
+        "other_votes": 0,
+        "total_votes": 193353,
+        "dem_candidate": "STEVE KIRKLAND",
+        "rep_candidate": "JIMMY BLACKLOCK",
+        "margin": -86735,
+        "margin_pct": -44.858367855683646,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 61263,
+        "rep_votes": 150140,
+        "other_votes": 4951,
+        "total_votes": 216354,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 88877,
+        "margin_pct": 41.07941913055274,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 32917,
+        "rep_votes": 118508,
+        "other_votes": 1660,
+        "total_votes": 153085,
+        "dem_candidate": "Steven Kirkland",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 85591,
+        "margin_pct": 55.91076852728876,
+        "winner": "REP"
+      }
+    }
+  }
+}

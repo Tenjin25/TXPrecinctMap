@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_6",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.96426978808542,
+    "matched_precinct_rows": 7157,
+    "total_precinct_rows": 7269,
+    "matched_total_votes": 7361286,
+    "total_votes": 7438327,
+    "generated_at": "2026-03-03T22:22:44.342574+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 22047,
+        "rep_votes": 58729,
+        "other_votes": 1932,
+        "total_votes": 82708,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 36681,
+        "margin_pct": 44.350584186069014,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 117902,
+        "rep_votes": 142286,
+        "other_votes": 5656,
+        "total_votes": 265844,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 24384,
+        "margin_pct": 9.172296534809888,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 136149,
+        "rep_votes": 170743,
+        "other_votes": 11067,
+        "total_votes": 317959,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 34594,
+        "margin_pct": 10.880051498135224,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 33793,
+        "rep_votes": 115289,
+        "other_votes": 1860,
+        "total_votes": 150942,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 81496,
+        "margin_pct": 53.99159630945582,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 74575,
+        "rep_votes": 109997,
+        "other_votes": 4142,
+        "total_votes": 188714,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 35421,
+        "margin_pct": 18.769894708108698,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 117081,
+        "rep_votes": 136484,
+        "other_votes": 4752,
+        "total_votes": 258316,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 19403,
+        "margin_pct": 7.5113421231851625,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 115630,
+        "rep_votes": 124638,
+        "other_votes": 5814,
+        "total_votes": 246082,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 9008,
+        "margin_pct": 3.660568428410042,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 66334,
+        "rep_votes": 183971,
+        "other_votes": 4295,
+        "total_votes": 254600,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 117637,
+        "margin_pct": 46.204634721131185,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 136245,
+        "rep_votes": 34733,
+        "other_votes": 3469,
+        "total_votes": 174446,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -101512,
+        "margin_pct": -58.19113670640663,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 134974,
+        "rep_votes": 143540,
+        "other_votes": 2858,
+        "total_votes": 281372,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 8566,
+        "margin_pct": 3.044368309568827,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 26356,
+        "rep_votes": 91857,
+        "other_votes": 3021,
+        "total_votes": 121234,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 65501,
+        "margin_pct": 54.02857284260191,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 88529,
+        "rep_votes": 122537,
+        "other_votes": 6198,
+        "total_votes": 217264,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 34009,
+        "margin_pct": 15.653196251941312,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 35946,
+        "rep_votes": 146221,
+        "other_votes": 3472,
+        "total_votes": 185639,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 110275,
+        "margin_pct": 59.402908131035005,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 93429,
+        "rep_votes": 139005,
+        "other_votes": 782,
+        "total_votes": 233216,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 45576,
+        "margin_pct": 19.542398463227222,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 86880,
+        "rep_votes": 65247,
+        "other_votes": 4224,
+        "total_votes": 156351,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -21633,
+        "margin_pct": -13.836176295642497,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 126058,
+        "rep_votes": 50831,
+        "other_votes": 0,
+        "total_votes": 176889,
+        "dem_candidate": "KATHY CHENG",
+        "rep_candidate": "JEFF BROWN",
+        "margin": -75227,
+        "margin_pct": -42.52779991972367,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 96503,
+        "rep_votes": 124650,
+        "other_votes": 4827,
+        "total_votes": 225980,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 28147,
+        "margin_pct": 12.455527037790954,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 140965,
+        "rep_votes": 42189,
+        "other_votes": 3952,
+        "total_votes": 187106,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -98776,
+        "margin_pct": -52.791474448465436,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 48271,
+        "rep_votes": 131696,
+        "other_votes": 3468,
+        "total_votes": 183435,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 83425,
+        "margin_pct": 45.4793251015346,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 127696,
+        "rep_votes": 69696,
+        "other_votes": 4864,
+        "total_votes": 202256,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -58000,
+        "margin_pct": -28.676581378328247,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 147350,
+        "rep_votes": 161902,
+        "other_votes": 4096,
+        "total_votes": 313349,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 14552,
+        "margin_pct": 4.64392173120743,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 138965,
+        "rep_votes": 156299,
+        "other_votes": 6274,
+        "total_votes": 301539,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 17334,
+        "margin_pct": 5.748588196699998,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 77868,
+        "rep_votes": 68078,
+        "other_votes": 6674,
+        "total_votes": 152620,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -9790,
+        "margin_pct": -6.414808568602782,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 125218,
+        "rep_votes": 135083,
+        "other_votes": 7529,
+        "total_votes": 267830,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 9865,
+        "margin_pct": 3.6831927000669964,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 108088,
+        "rep_votes": 99181,
+        "other_votes": 960,
+        "total_votes": 208229,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -8907,
+        "margin_pct": -4.2775021730882825,
+        "winner": "DEM"
+      },
+      "26": {
+        "dem_votes": 122137,
+        "rep_votes": 186259,
+        "other_votes": 8372,
+        "total_votes": 316769,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 64122,
+        "margin_pct": 20.242577486651275,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 61575,
+        "rep_votes": 82118,
+        "other_votes": 14222,
+        "total_votes": 157915,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 20543,
+        "margin_pct": 13.008897191527089,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 48533,
+        "rep_votes": 43488,
+        "other_votes": 1755,
+        "total_votes": 93776,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -5045,
+        "margin_pct": -5.37987310459946,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 85211,
+        "rep_votes": 31525,
+        "other_votes": 2879,
+        "total_votes": 119615,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -53686,
+        "margin_pct": -44.88230853508084,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 165104,
+        "rep_votes": 39075,
+        "other_votes": 4462,
+        "total_votes": 208641,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -126029,
+        "margin_pct": -60.40468029579321,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 128811,
+        "rep_votes": 152820,
+        "other_votes": 7511,
+        "total_votes": 289142,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 24009,
+        "margin_pct": 8.303532520353322,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 136122,
+        "rep_votes": 133144,
+        "other_votes": 9256,
+        "total_votes": 278522,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -2978,
+        "margin_pct": -1.0691554137519224,
+        "winner": "DEM"
+      },
+      "33": {
+        "dem_votes": 90667,
+        "rep_votes": 28036,
+        "other_votes": 3664,
+        "total_votes": 122368,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -62631,
+        "margin_pct": -51.18290191206968,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 65798,
+        "rep_votes": 40709,
+        "other_votes": 5264,
+        "total_votes": 111771,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -25089,
+        "margin_pct": -22.446788522962127,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 113039,
+        "rep_votes": 45327,
+        "other_votes": 2277,
+        "total_votes": 160643,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": -67712,
+        "margin_pct": -42.150662310665375,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 45757,
+        "rep_votes": 99440,
+        "other_votes": 3009,
+        "total_votes": 148206,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Jeff Brown",
+        "margin": 53683,
+        "margin_pct": 36.22188035572109,
+        "winner": "REP"
+      }
+    }
+  }
+}

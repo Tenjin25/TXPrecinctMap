@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "us_senate",
+    "year": 2014,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 96.87121096440579,
+    "matched_precinct_rows": 7246,
+    "total_precinct_rows": 7544,
+    "matched_total_votes": 5005381,
+    "total_votes": 5167047,
+    "generated_at": "2026-03-03T22:22:35.997846+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 24405,
+        "rep_votes": 89589,
+        "other_votes": 51289,
+        "total_votes": 165283,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 65184,
+        "margin_pct": 39.43781272121149,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 37372,
+        "rep_votes": 69290,
+        "other_votes": 16568,
+        "total_votes": 123230,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 31918,
+        "margin_pct": 25.900896266455874,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 28452,
+        "rep_votes": 123096,
+        "other_votes": 8004,
+        "total_votes": 159552,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 94644,
+        "margin_pct": 59.318592057761734,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 19979,
+        "rep_votes": 96552,
+        "other_votes": 4601,
+        "total_votes": 121132,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 76573,
+        "margin_pct": 63.21450979097183,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 48466,
+        "rep_votes": 86688,
+        "other_votes": 34779,
+        "total_votes": 169933,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 38222,
+        "margin_pct": 22.492394061188822,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 37973,
+        "rep_votes": 24872,
+        "other_votes": 3013,
+        "total_votes": 65858,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": -13101,
+        "margin_pct": -19.892799659874274,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 43193,
+        "rep_votes": 120350,
+        "other_votes": 5824,
+        "total_votes": 169367,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 77157,
+        "margin_pct": 45.55610006671902,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 53741,
+        "rep_votes": 114728,
+        "other_votes": 576447,
+        "total_votes": 744916,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 60987,
+        "margin_pct": 8.187101082527395,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 44720,
+        "rep_votes": 87909,
+        "other_votes": 6393,
+        "total_votes": 139022,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 43189,
+        "margin_pct": 31.06626625751091,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 73040,
+        "rep_votes": 100993,
+        "other_votes": 6247,
+        "total_votes": 180280,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 27953,
+        "margin_pct": 15.505328265671409,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 27826,
+        "rep_votes": 68476,
+        "other_votes": 3831,
+        "total_votes": 100133,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 40650,
+        "margin_pct": 40.59606521533779,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 15119,
+        "rep_votes": 37760,
+        "other_votes": 121580,
+        "total_votes": 174459,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 22641,
+        "margin_pct": 12.9778975295512,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 88006,
+        "rep_votes": 20673,
+        "other_votes": 2982,
+        "total_votes": 111661,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": -67333,
+        "margin_pct": -60.30165813715178,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 117444,
+        "rep_votes": 70782,
+        "other_votes": 30620,
+        "total_votes": 218846,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": -46662,
+        "margin_pct": -21.32184275700721,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 65421,
+        "rep_votes": 54006,
+        "other_votes": 4929,
+        "total_votes": 124356,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": -11415,
+        "margin_pct": -9.179291710894528,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 57401,
+        "rep_votes": 103525,
+        "other_votes": 9540,
+        "total_votes": 170465,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 46124,
+        "margin_pct": 27.057618265487584,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 57184,
+        "rep_votes": 113387,
+        "other_votes": 6343,
+        "total_votes": 176914,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 56203,
+        "margin_pct": 31.768784341496715,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 37084,
+        "rep_votes": 109610,
+        "other_votes": 19065,
+        "total_votes": 165759,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 72526,
+        "margin_pct": 43.75388365035986,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 63121,
+        "rep_votes": 72708,
+        "other_votes": 14432,
+        "total_votes": 150261,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 9587,
+        "margin_pct": 6.380181786430556,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 48677,
+        "rep_votes": 50734,
+        "other_votes": 10762,
+        "total_votes": 110173,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 2057,
+        "margin_pct": 1.8670636181278535,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 40988,
+        "rep_votes": 32501,
+        "other_votes": 19883,
+        "total_votes": 93372,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": -8487,
+        "margin_pct": -9.089531394856207,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 25714,
+        "rep_votes": 72320,
+        "other_votes": 5127,
+        "total_votes": 103161,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 46606,
+        "margin_pct": 45.177925766520296,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 94796,
+        "rep_votes": 25820,
+        "other_votes": 6888,
+        "total_votes": 127504,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": -68976,
+        "margin_pct": -54.096851893216005,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 32641,
+        "rep_votes": 120472,
+        "other_votes": 8301,
+        "total_votes": 161414,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 87831,
+        "margin_pct": 54.41349558562562,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 80164,
+        "rep_votes": 188589,
+        "other_votes": 38281,
+        "total_votes": 307034,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 108425,
+        "margin_pct": 35.31369603745826,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 95586,
+        "rep_votes": 78586,
+        "other_votes": 13114,
+        "total_votes": 187286,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": -17000,
+        "margin_pct": -9.077025831510575,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 24309,
+        "rep_votes": 13365,
+        "other_votes": 5437,
+        "total_votes": 43111,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": -10944,
+        "margin_pct": -25.385632437197003,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 15102,
+        "rep_votes": 75127,
+        "other_votes": 6661,
+        "total_votes": 96890,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 60025,
+        "margin_pct": 61.95169505649187,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 97,
+        "rep_votes": 216,
+        "other_votes": 36,
+        "total_votes": 349,
+        "dem_candidate": "DAVID ALAMEEL",
+        "rep_candidate": "JOHN CORNYN",
+        "margin": 119,
+        "margin_pct": 34.097421203438394,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 13758,
+        "rep_votes": 67018,
+        "other_votes": 145781,
+        "total_votes": 226557,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 53260,
+        "margin_pct": 23.508445347452277,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 13562,
+        "rep_votes": 98369,
+        "other_votes": 5171,
+        "total_votes": 117102,
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
+        "margin": 84807,
+        "margin_pct": 72.42147871086745,
+        "winner": "REP"
+      }
+    }
+  }
+}

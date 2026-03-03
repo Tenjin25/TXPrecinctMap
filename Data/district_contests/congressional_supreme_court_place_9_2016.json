@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_9",
+    "year": 2016,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 99.66601431806072,
+    "matched_precinct_rows": 2337,
+    "total_precinct_rows": 2352,
+    "matched_total_votes": 2530551,
+    "total_votes": 2539031,
+    "generated_at": "2026-03-03T22:22:37.760289+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7243,
+        "rep_votes": 21009,
+        "other_votes": 54389,
+        "total_votes": 82641,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 13766,
+        "margin_pct": 16.657591268256677,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 108218,
+        "rep_votes": 189307,
+        "other_votes": 28633,
+        "total_votes": 326158,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 81089,
+        "margin_pct": 24.86189939911577,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 6286,
+        "rep_votes": 20740,
+        "other_votes": 53976,
+        "total_votes": 81002,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 14454,
+        "margin_pct": 17.843896783468193,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 45749,
+        "rep_votes": 42707,
+        "other_votes": 18428,
+        "total_votes": 106885,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": -3042,
+        "margin_pct": -2.8463040366829238,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 193736,
+        "total_votes": 193736,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "8": {
+        "dem_votes": 2033,
+        "rep_votes": 7350,
+        "other_votes": 1070,
+        "total_votes": 10453,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 5317,
+        "margin_pct": 50.86578015880608,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 1761,
+        "rep_votes": 5573,
+        "other_votes": 595,
+        "total_votes": 7929,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 3812,
+        "margin_pct": 48.07668053979064,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 1203,
+        "rep_votes": 8169,
+        "other_votes": 689,
+        "total_votes": 10061,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 6966,
+        "margin_pct": 69.2376503329689,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 224672,
+        "total_votes": 224672,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "13": {
+        "dem_votes": 1560,
+        "rep_votes": 8807,
+        "other_votes": 16235,
+        "total_votes": 26602,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 7247,
+        "margin_pct": 27.242750801906997,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 41933,
+        "rep_votes": 41206,
+        "other_votes": 2363,
+        "total_votes": 85502,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": -727,
+        "margin_pct": -0.8502725082454211,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 5761,
+        "rep_votes": 15729,
+        "other_votes": 1791,
+        "total_votes": 23281,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 9968,
+        "margin_pct": 42.81603023925089,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 2330,
+        "rep_votes": 8035,
+        "other_votes": 1008,
+        "total_votes": 11373,
+        "dem_candidate": "SAVANNAH ROBINSON",
+        "rep_candidate": "EVA GUZMAN",
+        "margin": 5705,
+        "margin_pct": 50.16266596324629,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 4804,
+        "rep_votes": 13662,
+        "other_votes": 964,
+        "total_votes": 19430,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 8858,
+        "margin_pct": 45.589294904786414,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 70716,
+        "rep_votes": 80453,
+        "other_votes": 128421,
+        "total_votes": 279589,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 9737,
+        "margin_pct": 3.482429186588293,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 3007,
+        "total_votes": 3007,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "26": {
+        "dem_votes": 78737,
+        "rep_votes": 157213,
+        "other_votes": 88634,
+        "total_votes": 324585,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 78476,
+        "margin_pct": 24.177416049309517,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 30252,
+        "total_votes": 30252,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "30": {
+        "dem_votes": 163685,
+        "rep_votes": 47235,
+        "other_votes": 13077,
+        "total_votes": 223997,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": -116450,
+        "margin_pct": -51.987257375644106,
+        "winner": "DEM"
+      },
+      "32": {
+        "dem_votes": 110457,
+        "rep_votes": 149878,
+        "other_votes": 25659,
+        "total_votes": 285994,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 39421,
+        "margin_pct": 13.783910311087944,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 39812,
+        "rep_votes": 20476,
+        "other_votes": 69367,
+        "total_votes": 129655,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": -19336,
+        "margin_pct": -14.913155125866473,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 955,
+        "rep_votes": 2347,
+        "other_votes": 476,
+        "total_votes": 3778,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 1392,
+        "margin_pct": 36.84489147697194,
+        "winner": "REP"
+      },
+      "36": {
+        "dem_votes": 7313,
+        "rep_votes": 29945,
+        "other_votes": 2712,
+        "total_votes": 39970,
+        "dem_candidate": "Savannah Robinson",
+        "rep_candidate": "Eva Guzman",
+        "margin": 22632,
+        "margin_pct": 56.6224668501376,
+        "winner": "REP"
+      }
+    }
+  }
+}

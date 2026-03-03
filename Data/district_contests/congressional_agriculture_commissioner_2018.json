@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "agriculture_commissioner",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.67299015440811,
+    "matched_precinct_rows": 8403,
+    "total_precinct_rows": 8553,
+    "matched_total_votes": 8192623,
+    "total_votes": 8302802,
+    "generated_at": "2026-03-03T22:22:38.043413+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 60534,
+        "rep_votes": 156398,
+        "other_votes": 12885,
+        "total_votes": 229817,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 95864,
+        "margin_pct": 41.71343700526723,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 123153,
+        "rep_votes": 133184,
+        "other_votes": 9507,
+        "total_votes": 265844,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 10031,
+        "margin_pct": 3.7732655241419777,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 136971,
+        "rep_votes": 163980,
+        "other_votes": 17008,
+        "total_votes": 317959,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 27009,
+        "margin_pct": 8.49452406271412,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 56571,
+        "rep_votes": 177063,
+        "other_votes": 12636,
+        "total_votes": 246270,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 120492,
+        "margin_pct": 48.926782951289894,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 77734,
+        "rep_votes": 121294,
+        "other_votes": 7495,
+        "total_votes": 206523,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 43560,
+        "margin_pct": 21.092219926241583,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 117183,
+        "rep_votes": 132048,
+        "other_votes": 9533,
+        "total_votes": 258763,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 14865,
+        "margin_pct": 5.744633122556612,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 123811,
+        "rep_votes": 113064,
+        "other_votes": 9207,
+        "total_votes": 246082,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -10747,
+        "margin_pct": -4.367243439178811,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 69778,
+        "rep_votes": 185308,
+        "other_votes": 17347,
+        "total_votes": 272433,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 115530,
+        "margin_pct": 42.406756890685045,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 137222,
+        "rep_votes": 32031,
+        "other_votes": 5194,
+        "total_votes": 174446,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -105191,
+        "margin_pct": -60.29997789623135,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 145717,
+        "rep_votes": 152744,
+        "other_votes": 9469,
+        "total_votes": 307930,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 7027,
+        "margin_pct": 2.2820121456175104,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 43150,
+        "rep_votes": 159497,
+        "other_votes": 19157,
+        "total_votes": 221804,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 116348,
+        "margin_pct": 52.45521373648296,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 88513,
+        "rep_votes": 118537,
+        "other_votes": 10214,
+        "total_votes": 217264,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 30025,
+        "margin_pct": 13.819480421787503,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 38126,
+        "rep_votes": 152564,
+        "other_votes": 6350,
+        "total_votes": 197040,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 114438,
+        "margin_pct": 58.07854749001952,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 94663,
+        "rep_votes": 133749,
+        "other_votes": 5245,
+        "total_votes": 233657,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 39086,
+        "margin_pct": 16.727938816299105,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 89910,
+        "rep_votes": 66491,
+        "other_votes": 12092,
+        "total_votes": 168493,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -23419,
+        "margin_pct": -13.899093730896833,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 121689,
+        "rep_votes": 47917,
+        "other_votes": 7551,
+        "total_votes": 177157,
+        "dem_candidate": "KIM OLSON",
+        "rep_candidate": "SID MILLER",
+        "margin": -73772,
+        "margin_pct": -41.64215921470786,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 100958,
+        "rep_votes": 128443,
+        "other_votes": 9920,
+        "total_votes": 239321,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 27485,
+        "margin_pct": 11.484575110416554,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 142864,
+        "rep_votes": 37990,
+        "other_votes": 6252,
+        "total_votes": 187106,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -104874,
+        "margin_pct": -56.05058801479328,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 51434,
+        "rep_votes": 143349,
+        "other_votes": 7326,
+        "total_votes": 202108,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 91916,
+        "margin_pct": 45.47829507418045,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 126815,
+        "rep_votes": 65405,
+        "other_votes": 10036,
+        "total_votes": 202256,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -61410,
+        "margin_pct": -30.362559921683896,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 163415,
+        "rep_votes": 170536,
+        "other_votes": 12738,
+        "total_votes": 346689,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 7121,
+        "margin_pct": 2.0540884907317114,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 141721,
+        "rep_votes": 149057,
+        "other_votes": 10760,
+        "total_votes": 301539,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 7336,
+        "margin_pct": 2.432860129064755,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 97561,
+        "rep_votes": 82491,
+        "other_votes": 8239,
+        "total_votes": 188291,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -15070,
+        "margin_pct": -8.00353768305728,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 125750,
+        "rep_votes": 129104,
+        "other_votes": 12976,
+        "total_votes": 267830,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 3354,
+        "margin_pct": 1.2521964523787696,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 133886,
+        "rep_votes": 155551,
+        "other_votes": 8798,
+        "total_votes": 298235,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 21664,
+        "margin_pct": 7.264138547850505,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 121456,
+        "rep_votes": 180148,
+        "other_votes": 15164,
+        "total_votes": 316769,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 58692,
+        "margin_pct": 18.528374900667373,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 73729,
+        "rep_votes": 104956,
+        "other_votes": 7813,
+        "total_votes": 186498,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 31227,
+        "margin_pct": 16.74387929093073,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 93709,
+        "rep_votes": 62807,
+        "other_votes": 6858,
+        "total_votes": 163374,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -30902,
+        "margin_pct": -18.914917813528103,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 85986,
+        "rep_votes": 29442,
+        "other_votes": 4187,
+        "total_votes": 119615,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -56544,
+        "margin_pct": -47.27164249806648,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 164312,
+        "rep_votes": 36462,
+        "other_votes": 7867,
+        "total_votes": 208641,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -127850,
+        "margin_pct": -61.277476002314714,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 128088,
+        "rep_votes": 145559,
+        "other_votes": 15495,
+        "total_votes": 289142,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 17471,
+        "margin_pct": 6.042359809367024,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 138910,
+        "rep_votes": 124968,
+        "other_votes": 14644,
+        "total_votes": 278522,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -13942,
+        "margin_pct": -5.005649766966452,
+        "winner": "DEM"
+      },
+      "33": {
+        "dem_votes": 89832,
+        "rep_votes": 26628,
+        "other_votes": 5907,
+        "total_votes": 122368,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -63204,
+        "margin_pct": -51.65116176402883,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 73133,
+        "rep_votes": 52034,
+        "other_votes": 14672,
+        "total_votes": 139839,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -21099,
+        "margin_pct": -15.088065561109563,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 131538,
+        "rep_votes": 51555,
+        "other_votes": 7767,
+        "total_votes": 190860,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": -79983,
+        "margin_pct": -41.90675806504629,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 57160,
+        "rep_votes": 138859,
+        "other_votes": 6121,
+        "total_votes": 202140,
+        "dem_candidate": "Kim Olson",
+        "rep_candidate": "Sid Miller",
+        "margin": 81699,
+        "margin_pct": 40.41703769664589,
+        "winner": "REP"
+      }
+    }
+  }
+}

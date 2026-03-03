@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_place_3",
+    "year": 2020,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 94.29891963014026,
+    "matched_precinct_rows": 3529,
+    "total_precinct_rows": 3937,
+    "matched_total_votes": 4796077,
+    "total_votes": 5086036,
+    "generated_at": "2026-03-03T22:22:45.309730+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 986,
+        "rep_votes": 4209,
+        "other_votes": 0,
+        "total_votes": 5195,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 3223,
+        "margin_pct": 62.040423484119344,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 185714,
+        "rep_votes": 223851,
+        "other_votes": 24326,
+        "total_votes": 433892,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 38137,
+        "margin_pct": 8.789578910501298,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 20923,
+        "rep_votes": 80733,
+        "other_votes": 2220,
+        "total_votes": 103875,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 59810,
+        "margin_pct": 57.57840134633896,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 126690,
+        "rep_votes": 107280,
+        "other_votes": 0,
+        "total_votes": 233970,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -19410,
+        "margin_pct": -8.295979331807638,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 2887,
+        "rep_votes": 9607,
+        "other_votes": 25,
+        "total_votes": 12519,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 6720,
+        "margin_pct": 53.678408818595734,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 106915,
+        "rep_votes": 55064,
+        "other_votes": 0,
+        "total_votes": 161979,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -51851,
+        "margin_pct": -32.01093968971286,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 31152,
+        "rep_votes": 109781,
+        "other_votes": 16199,
+        "total_votes": 157132,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 78629,
+        "margin_pct": 50.04009367919965,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 131915,
+        "rep_votes": 229649,
+        "other_votes": 2144,
+        "total_votes": 363707,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 97734,
+        "margin_pct": 26.87155936211824,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 16775,
+        "rep_votes": 78978,
+        "other_votes": 4540,
+        "total_votes": 100292,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 62203,
+        "margin_pct": 62.02121808431591,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 19096,
+        "rep_votes": 44327,
+        "other_votes": 0,
+        "total_votes": 63423,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 25231,
+        "margin_pct": 39.782097977074564,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 21972,
+        "rep_votes": 41506,
+        "other_votes": 1798,
+        "total_votes": 65276,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 19534,
+        "margin_pct": 29.925240517188552,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 154338,
+        "rep_votes": 77053,
+        "other_votes": 12731,
+        "total_votes": 244122,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -77285,
+        "margin_pct": -31.658351152292706,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 114729,
+        "rep_votes": 129838,
+        "other_votes": 13177,
+        "total_votes": 257744,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 15109,
+        "margin_pct": 5.862018126513129,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 5369,
+        "rep_votes": 21787,
+        "other_votes": 54,
+        "total_votes": 27210,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 16418,
+        "margin_pct": 60.33811098860713,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 168267,
+        "rep_votes": 97651,
+        "other_votes": 12988,
+        "total_votes": 278906,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -70616,
+        "margin_pct": -25.318968611279313,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 178942,
+        "rep_votes": 188804,
+        "other_votes": 6912,
+        "total_votes": 374657,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 9862,
+        "margin_pct": 2.6322916129927543,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 40466,
+        "rep_votes": 46913,
+        "other_votes": 0,
+        "total_votes": 87379,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 6447,
+        "margin_pct": 7.378203000720997,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 95971,
+        "rep_votes": 87954,
+        "other_votes": 15398,
+        "total_votes": 199324,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -8017,
+        "margin_pct": -4.02224731334205,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 55535,
+        "rep_votes": 82102,
+        "other_votes": 59432,
+        "total_votes": 197069,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 26567,
+        "margin_pct": 13.481065007687661,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 127346,
+        "rep_votes": 117491,
+        "other_votes": 1422,
+        "total_votes": 246259,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -9855,
+        "margin_pct": -4.001884195095408,
+        "winner": "DEM"
+      },
+      "26": {
+        "dem_votes": 28828,
+        "rep_votes": 54662,
+        "other_votes": 341484,
+        "total_votes": 424974,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 25834,
+        "margin_pct": 6.078960124619388,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 5946,
+        "rep_votes": 16673,
+        "other_votes": 401,
+        "total_votes": 23020,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 10727,
+        "margin_pct": 46.59860990443093,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 46645,
+        "rep_votes": 51245,
+        "other_votes": 3252,
+        "total_votes": 101142,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 4600,
+        "margin_pct": 4.54806360605785,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 47241,
+        "rep_votes": 66451,
+        "other_votes": 2289,
+        "total_votes": 115981,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 19210,
+        "margin_pct": 16.563057742216397,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 11039,
+        "rep_votes": 15566,
+        "other_votes": 1842,
+        "total_votes": 28447,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 4527,
+        "margin_pct": 15.91380461911625,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 59200,
+        "rep_votes": 18997,
+        "other_votes": 0,
+        "total_votes": 78198,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -40203,
+        "margin_pct": -51.41261157639124,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 72011,
+        "rep_votes": 50815,
+        "other_votes": 9955,
+        "total_votes": 132781,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -21196,
+        "margin_pct": -15.963127254652399,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 149039,
+        "rep_votes": 67240,
+        "other_votes": 5698,
+        "total_votes": 221977,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": -81799,
+        "margin_pct": -36.849996305928876,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 9191,
+        "rep_votes": 46436,
+        "other_votes": 0,
+        "total_votes": 55627,
+        "dem_candidate": "Elizabeth Davis Frizell",
+        "rep_candidate": "Bert Richardson",
+        "margin": 37245,
+        "margin_pct": 66.9548960037392,
+        "winner": "REP"
+      }
+    }
+  }
+}

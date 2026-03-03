@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_place_9",
+    "year": 2020,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 94.2890293146977,
+    "matched_precinct_rows": 3529,
+    "total_precinct_rows": 3937,
+    "matched_total_votes": 4784908,
+    "total_votes": 5074724,
+    "generated_at": "2026-03-03T22:22:45.817855+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 975,
+        "rep_votes": 4212,
+        "other_votes": 0,
+        "total_votes": 5187,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 3237,
+        "margin_pct": 62.40601503759399,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 182303,
+        "rep_votes": 226176,
+        "other_votes": 25412,
+        "total_votes": 433892,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 43873,
+        "margin_pct": 10.11156924703734,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 20436,
+        "rep_votes": 81209,
+        "other_votes": 2233,
+        "total_votes": 103877,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 60773,
+        "margin_pct": 58.5043420129995,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 124091,
+        "rep_votes": 108771,
+        "other_votes": 0,
+        "total_votes": 232862,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -15320,
+        "margin_pct": -6.579040907726961,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 2816,
+        "rep_votes": 9626,
+        "other_votes": 25,
+        "total_votes": 12467,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 6810,
+        "margin_pct": 54.62420790887944,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 105350,
+        "rep_votes": 56069,
+        "other_votes": 0,
+        "total_votes": 161419,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -49281,
+        "margin_pct": -30.529863275079144,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 30443,
+        "rep_votes": 110266,
+        "other_votes": 16199,
+        "total_votes": 156908,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 79823,
+        "margin_pct": 50.87248578785021,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 128348,
+        "rep_votes": 231702,
+        "other_votes": 2351,
+        "total_votes": 362400,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 103354,
+        "margin_pct": 28.519245203479844,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 16013,
+        "rep_votes": 79428,
+        "other_votes": 4462,
+        "total_votes": 99902,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 63415,
+        "margin_pct": 63.476510914518336,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 18549,
+        "rep_votes": 44636,
+        "other_votes": 0,
+        "total_votes": 63185,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 26087,
+        "margin_pct": 41.286697792197515,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 21364,
+        "rep_votes": 41878,
+        "other_votes": 2014,
+        "total_votes": 65256,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 20514,
+        "margin_pct": 31.436189775652814,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 150932,
+        "rep_votes": 78926,
+        "other_votes": 14264,
+        "total_votes": 244122,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -72006,
+        "margin_pct": -29.495907783813013,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 112071,
+        "rep_votes": 131518,
+        "other_votes": 13590,
+        "total_votes": 257179,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 19447,
+        "margin_pct": 7.5616593889858805,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 5529,
+        "rep_votes": 20770,
+        "other_votes": 55,
+        "total_votes": 26354,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 15241,
+        "margin_pct": 57.831828185474684,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 165372,
+        "rep_votes": 99931,
+        "other_votes": 13603,
+        "total_votes": 278906,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -65441,
+        "margin_pct": -23.463511107758496,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 173732,
+        "rep_votes": 192773,
+        "other_votes": 7392,
+        "total_votes": 373897,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 19041,
+        "margin_pct": 5.092471574109234,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 39560,
+        "rep_votes": 47428,
+        "other_votes": 0,
+        "total_votes": 86988,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 7868,
+        "margin_pct": 9.044925736883249,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 93722,
+        "rep_votes": 89563,
+        "other_votes": 15934,
+        "total_votes": 199220,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -4160,
+        "margin_pct": -2.087923792601984,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 54005,
+        "rep_votes": 83012,
+        "other_votes": 59206,
+        "total_votes": 196223,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 29007,
+        "margin_pct": 14.782670736865708,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 125330,
+        "rep_votes": 119359,
+        "other_votes": 605,
+        "total_votes": 245294,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -5971,
+        "margin_pct": -2.4342217909936648,
+        "winner": "DEM"
+      },
+      "26": {
+        "dem_votes": 27940,
+        "rep_votes": 55237,
+        "other_votes": 340005,
+        "total_votes": 423182,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 27297,
+        "margin_pct": 6.450416133011329,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 5686,
+        "rep_votes": 16803,
+        "other_votes": 436,
+        "total_votes": 22925,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 11117,
+        "margin_pct": 48.49291166848419,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 45672,
+        "rep_votes": 52004,
+        "other_votes": 3323,
+        "total_votes": 100999,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 6332,
+        "margin_pct": 6.269371334510418,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 46531,
+        "rep_votes": 67135,
+        "other_votes": 2315,
+        "total_votes": 115981,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 20604,
+        "margin_pct": 17.764978746518825,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 10821,
+        "rep_votes": 15689,
+        "other_votes": 1937,
+        "total_votes": 28447,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 4868,
+        "margin_pct": 17.112525046577847,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 58279,
+        "rep_votes": 19414,
+        "other_votes": 0,
+        "total_votes": 77694,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -38865,
+        "margin_pct": -50.02398326372203,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 68251,
+        "rep_votes": 53009,
+        "other_votes": 11521,
+        "total_votes": 132781,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -15242,
+        "margin_pct": -11.479051972797313,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 146205,
+        "rep_votes": 69622,
+        "other_votes": 5961,
+        "total_votes": 221788,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": -76583,
+        "margin_pct": -34.529719982915445,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 8953,
+        "rep_votes": 46620,
+        "other_votes": 0,
+        "total_votes": 55573,
+        "dem_candidate": "Brandon Birmingham",
+        "rep_candidate": "David Newell",
+        "margin": 37667,
+        "margin_pct": 67.77931729436956,
+        "winner": "REP"
+      }
+    }
+  }
+}

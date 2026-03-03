@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "railroad_commissioner",
+    "year": 2018,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.67133539595612,
+    "matched_precinct_rows": 8533,
+    "total_precinct_rows": 8688,
+    "matched_total_votes": 8249788,
+    "total_votes": 8360876,
+    "generated_at": "2026-03-03T22:22:42.841766+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 57869,
+        "rep_votes": 161865,
+        "other_votes": 14117,
+        "total_votes": 233851,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 103996,
+        "margin_pct": 44.47091742046943,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 112632,
+        "rep_votes": 142442,
+        "other_votes": 10770,
+        "total_votes": 265844,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 29810,
+        "margin_pct": 11.213343163659891,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 128645,
+        "rep_votes": 170875,
+        "other_votes": 18439,
+        "total_votes": 317959,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 42230,
+        "margin_pct": 13.281618942089693,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 52441,
+        "rep_votes": 179668,
+        "other_votes": 13935,
+        "total_votes": 246044,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 127227,
+        "margin_pct": 51.709037732241036,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 73472,
+        "rep_votes": 124427,
+        "other_votes": 8652,
+        "total_votes": 206551,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 50955,
+        "margin_pct": 24.669383770478593,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 110738,
+        "rep_votes": 135650,
+        "other_votes": 12251,
+        "total_votes": 258638,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 24912,
+        "margin_pct": 9.632012833285373,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 110679,
+        "rep_votes": 125113,
+        "other_votes": 10290,
+        "total_votes": 246082,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 14434,
+        "margin_pct": 5.865524499963427,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 63575,
+        "rep_votes": 190306,
+        "other_votes": 18467,
+        "total_votes": 272348,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 126731,
+        "margin_pct": 46.532744870533286,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 133756,
+        "rep_votes": 34671,
+        "other_votes": 6019,
+        "total_votes": 174446,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -99085,
+        "margin_pct": -56.800031666895165,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 137172,
+        "rep_votes": 158751,
+        "other_votes": 11614,
+        "total_votes": 307537,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 21579,
+        "margin_pct": 7.016716687748141,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 38422,
+        "rep_votes": 158585,
+        "other_votes": 20329,
+        "total_votes": 217336,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 120164,
+        "margin_pct": 55.28940278969612,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 82929,
+        "rep_votes": 121827,
+        "other_votes": 12508,
+        "total_votes": 217264,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 38899,
+        "margin_pct": 17.903916011277904,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 34725,
+        "rep_votes": 159537,
+        "other_votes": 11187,
+        "total_votes": 205449,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 124812,
+        "margin_pct": 60.75082889156056,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 89448,
+        "rep_votes": 137612,
+        "other_votes": 6516,
+        "total_votes": 233576,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 48164,
+        "margin_pct": 20.620269205740314,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 90185,
+        "rep_votes": 66882,
+        "other_votes": 13682,
+        "total_votes": 170749,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -23303,
+        "margin_pct": -13.647517701421386,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 119836,
+        "rep_votes": 49806,
+        "other_votes": 7338,
+        "total_votes": 176980,
+        "dem_candidate": "ROMAN MCALLEN",
+        "rep_candidate": "CHRISTI CRADDICK",
+        "margin": -70030,
+        "margin_pct": -39.569442874901114,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 94108,
+        "rep_votes": 132357,
+        "other_votes": 12728,
+        "total_votes": 239193,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 38249,
+        "margin_pct": 15.990852575117165,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 137345,
+        "rep_votes": 42309,
+        "other_votes": 7452,
+        "total_votes": 187106,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -95036,
+        "margin_pct": -50.79260840762838,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 48478,
+        "rep_votes": 146602,
+        "other_votes": 8657,
+        "total_votes": 203736,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 98124,
+        "margin_pct": 48.16245493566445,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 121581,
+        "rep_votes": 69724,
+        "other_votes": 10951,
+        "total_votes": 202256,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -51857,
+        "margin_pct": -25.639339563507185,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 150708,
+        "rep_votes": 180698,
+        "other_votes": 14833,
+        "total_votes": 346240,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 29990,
+        "margin_pct": 8.66159747909831,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 131833,
+        "rep_votes": 157157,
+        "other_votes": 12549,
+        "total_votes": 301539,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 25324,
+        "margin_pct": 8.398419682513058,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 93447,
+        "rep_votes": 87549,
+        "other_votes": 9113,
+        "total_votes": 190108,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -5898,
+        "margin_pct": -3.1022509035978256,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 117291,
+        "rep_votes": 135746,
+        "other_votes": 14793,
+        "total_votes": 267830,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 18455,
+        "margin_pct": 6.890416504288284,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 126402,
+        "rep_votes": 166741,
+        "other_votes": 11423,
+        "total_votes": 304566,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 40340,
+        "margin_pct": 13.245077117729204,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 112615,
+        "rep_votes": 186857,
+        "other_votes": 17296,
+        "total_votes": 316769,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 74242,
+        "margin_pct": 23.437340444751225,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 74096,
+        "rep_votes": 125184,
+        "other_votes": 9618,
+        "total_votes": 208898,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 51088,
+        "margin_pct": 24.455954580704457,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 91756,
+        "rep_votes": 63999,
+        "other_votes": 7481,
+        "total_votes": 163236,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -27757,
+        "margin_pct": -17.004248088752686,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 83808,
+        "rep_votes": 31227,
+        "other_votes": 4580,
+        "total_votes": 119615,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -52581,
+        "margin_pct": -43.9585111156414,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 160156,
+        "rep_votes": 39164,
+        "other_votes": 9321,
+        "total_votes": 208641,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -120992,
+        "margin_pct": -57.99047744119632,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 120902,
+        "rep_votes": 149733,
+        "other_votes": 18507,
+        "total_votes": 289142,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 28831,
+        "margin_pct": 9.971225211141931,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 127938,
+        "rep_votes": 134217,
+        "other_votes": 16367,
+        "total_votes": 278522,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 6279,
+        "margin_pct": 2.254455177753178,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 87876,
+        "rep_votes": 27682,
+        "other_votes": 6809,
+        "total_votes": 122368,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -60194,
+        "margin_pct": -49.191333457397576,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 71993,
+        "rep_votes": 52321,
+        "other_votes": 15468,
+        "total_votes": 139782,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -19672,
+        "margin_pct": -14.073342776609291,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 129453,
+        "rep_votes": 56895,
+        "other_votes": 9511,
+        "total_votes": 195859,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": -72558,
+        "margin_pct": -37.045971751175834,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 54927,
+        "rep_votes": 151380,
+        "other_votes": 7422,
+        "total_votes": 213729,
+        "dem_candidate": "Roman McAllen",
+        "rep_candidate": "Christi Craddick",
+        "margin": 96453,
+        "margin_pct": 45.128644217677525,
+        "winner": "REP"
+      }
+    }
+  }
+}
