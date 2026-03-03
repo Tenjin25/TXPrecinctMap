@@ -2395,7 +2395,7 @@ document.addEventListener('DOMContentLoaded', function() {
         precincts: withBase('./Data/tl_2020_48_vtd20.geojson'),
         precinct_centroids: withBase('./Data/precinct_centroids_tx.geojson'),
         vtds_2000: withBase('./Data/vtd_2000s_tx.geojson'),
-        districts: withBase('./Data/tx_cd_2022.geojson'),
+        districts: withBase('./Data/tx_cd_2025.geojson'),
         state_house: withBase('./Data/tx_state_house_2022.geojson'),
         state_senate: withBase('./Data/tx_state_senate_2022.geojson'),
         county_demographics: withBase('./Data/tx_county_demographics_2020_dp1.json'),
@@ -3155,13 +3155,16 @@ document.addEventListener('DOMContentLoaded', function() {
       return map;
     }
 
-    function formatContestName(contestType, year) {
+	    function formatContestName(contestType, year) {
 	      const nameMap = {
 	        'president': 'President of the United States',
 	        'governor': 'Governor',
 	        'us_senate': 'United States Senator',
 	        'lieutenant_governor': 'Lieutenant Governor',
 	        'attorney_general': 'Attorney General',
+	        'comptroller': 'Comptroller of Public Accounts',
+	        'land_commissioner': 'Commissioner of the General Land Office',
+	        'railroad_commissioner': 'Railroad Commissioner',
 	        'auditor': 'State Auditor',
 	        'labor_commissioner': 'Commissioner of Labor',
 	        'insurance_commissioner': 'Commissioner of Insurance',
@@ -3180,6 +3183,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	      if (contestType.startsWith('d')) {
 	        return `Judicial Retention ${contestType.toUpperCase()}`;
+	      }
+
+	      const mSupreme = String(contestType || '').match(/^supreme_court_place_(\d+)(?:_unexpired)?$/i);
+	      if (mSupreme) {
+	        const place = Number(mSupreme[1]);
+	        const unexpired = /_unexpired$/i.test(contestType);
+	        return `TX Supreme Court Place ${place}${unexpired ? ' (Unexpired Term)' : ''}`;
+	      }
+
+	      const mCca = String(contestType || '').match(/^court_of_criminal_appeals_place_(\d+)$/i);
+	      if (mCca) {
+	        return `TX Court of Criminal Appeals Place ${Number(mCca[1])}`;
+	      }
+	      if (contestType === 'court_of_criminal_appeals_presiding_judge') {
+	        return 'TX Court of Criminal Appeals Presiding Judge';
 	      }
 
 	      if (contestType.startsWith('nc_court_of_appeals_judge_seat_')) {
@@ -3230,6 +3248,8 @@ document.addEventListener('DOMContentLoaded', function() {
           'governor',
           'lieutenant_governor',
           'attorney_general',
+          'comptroller',
+          'land_commissioner',
           'auditor',
           'secretary_of_state',
           'treasurer',
@@ -3261,7 +3281,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
           // Hide older judicial contests until we have reliable D/R-alignment (endorsement) data.
           // Older nonpartisan appellate races can otherwise render as "OTHER".
-          const isJudicial = contestType.startsWith('nc_supreme_court_') || contestType.startsWith('nc_court_of_appeals_');
+          const isJudicial =
+            contestType.startsWith('nc_supreme_court_') ||
+            contestType.startsWith('nc_court_of_appeals_') ||
+            contestType.startsWith('supreme_court_place_') ||
+            contestType.startsWith('court_of_criminal_appeals_');
           if (isJudicial && Number.isFinite(year) && year < 2018) return;
           if (councilOfStateTypes.has(contestType) && !parseMajorPartyContested(entry)) return;
 
@@ -3275,6 +3299,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        if (contestType === 'governor') return 'TX Governor';
 	        if (contestType === 'lieutenant_governor') return 'TX Lieutenant Governor';
 	        if (contestType === 'attorney_general') return 'TX Attorney General';
+	        if (contestType === 'comptroller') return 'TX Comptroller';
+	        if (contestType === 'land_commissioner') return 'TX Land Commissioner';
+	        if (contestType === 'railroad_commissioner') return 'TX Railroad Commissioner';
 	        if (contestType === 'secretary_of_state') return 'TX Secretary of State';
 	        if (contestType === 'treasurer') return 'TX Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
@@ -3282,13 +3309,15 @@ document.addEventListener('DOMContentLoaded', function() {
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
 	        if (contestType === 'agriculture_commissioner') return 'Agriculture Commissioner';
 	        if (contestType === 'superintendent') return 'Superintendent of Public Instruction';
+	        if (contestType.startsWith('supreme_court_place_')) return 'TX Supreme Court';
+	        if (contestType.startsWith('court_of_criminal_appeals_')) return 'TX Court of Criminal Appeals';
 	        if (contestType.startsWith('nc_supreme_court_')) return 'TX Supreme Court';
 	        if (contestType.startsWith('nc_court_of_appeals_')) return 'Court of Appeals';
 	        return formatContestName(contestType, '');
 	      }
 
 	      function extractSeatNumFromType(contestType) {
-	        const m = (contestType || '').match(/(?:seat_|seat)(\d+)/i);
+	        const m = (contestType || '').match(/(?:seat_|seat|place_)(\d+)/i);
 	        return m ? Number(m[1]) : null;
 	      }
 
@@ -3298,6 +3327,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'TX Governor',
 	        'TX Lieutenant Governor',
 	        'TX Attorney General',
+	        'TX Comptroller',
+	        'TX Land Commissioner',
+	        'TX Railroad Commissioner',
 	        'TX Secretary of State',
 	        'TX Treasurer',
 	        'Auditor',
@@ -3306,6 +3338,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'Agriculture Commissioner',
 	        'Superintendent of Public Instruction',
 	        'TX Supreme Court',
+	        'TX Court of Criminal Appeals',
 	        'Court of Appeals'
 	      ];
 
@@ -3327,7 +3360,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const fragment = document.createDocumentFragment();
 	      orderedLabels.forEach(label => {
 	        const items = (grouped.get(label) || []).slice();
-	        const isJudicial = (label === 'TX Supreme Court' || label === 'Court of Appeals');
+	        const isJudicial = (
+            label === 'TX Supreme Court' ||
+            label === 'TX Court of Criminal Appeals' ||
+            label === 'Court of Appeals'
+          );
 	        items.sort((a, b) => {
 	          const y = Number(a.year) - Number(b.year);
 	          if (y !== 0) return y;
@@ -3433,6 +3470,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'governor',
 	        'lieutenant_governor',
 	        'attorney_general',
+	        'comptroller',
+	        'land_commissioner',
+	        'railroad_commissioner',
 	        'secretary_of_state',
 	        'treasurer',
 	        'auditor',
@@ -3457,6 +3497,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        if (contestType === 'governor') return 'TX Governor';
 	        if (contestType === 'lieutenant_governor') return 'TX Lieutenant Governor';
 	        if (contestType === 'attorney_general') return 'TX Attorney General';
+	        if (contestType === 'comptroller') return 'TX Comptroller';
+	        if (contestType === 'land_commissioner') return 'TX Land Commissioner';
+	        if (contestType === 'railroad_commissioner') return 'TX Railroad Commissioner';
 	        if (contestType === 'secretary_of_state') return 'TX Secretary of State';
 	        if (contestType === 'treasurer') return 'TX Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
@@ -3473,6 +3516,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'TX Governor',
 	        'TX Lieutenant Governor',
 	        'TX Attorney General',
+	        'TX Comptroller',
+	        'TX Land Commissioner',
+	        'TX Railroad Commissioner',
 	        'TX Secretary of State',
 	        'TX Treasurer',
 	        'Auditor',
