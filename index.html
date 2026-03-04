@@ -7804,6 +7804,41 @@ document.addEventListener('DOMContentLoaded', function() {
       // Build county aggregates from precinct-level rows.
       const countyAgg = {};
       currentPrecinctResults = needsPrecinctDetail ? new Map() : null;
+      function applyCountyTotalsOverride(rows) {
+        (rows || []).forEach(row => {
+          const rowName = (row?.county || '').toString();
+          const countyOnly = rowName.includes(' - ') ? rowName.split(' - ')[0] : rowName;
+          const countyNorm = normalizeCountyName(countyOnly);
+          if (!countyNorm) return;
+
+          const demVotes = Number(row[`${contestType}_dem`] || 0);
+          const repVotes = Number(row[`${contestType}_rep`] || 0);
+          const otherVotes = Number(row[`${contestType}_other`] || 0);
+          const totalVotes = Number(row[`${contestType}_total`] || 0);
+          const demCand = (row[`${contestType}_dem_candidate`] || '').toString();
+          const repCand = (row[`${contestType}_rep_candidate`] || '').toString();
+
+          if (!countyAgg[countyNorm]) {
+            countyAgg[countyNorm] = {
+              year: Number(year),
+              county: countyOnly,
+              [`${contestType}_dem`]: 0,
+              [`${contestType}_rep`]: 0,
+              [`${contestType}_other`]: 0,
+              [`${contestType}_total`]: 0,
+              [`${contestType}_dem_candidate`]: demCand,
+              [`${contestType}_rep_candidate`]: repCand
+            };
+          }
+
+          countyAgg[countyNorm][`${contestType}_dem`] = demVotes;
+          countyAgg[countyNorm][`${contestType}_rep`] = repVotes;
+          countyAgg[countyNorm][`${contestType}_other`] = otherVotes;
+          countyAgg[countyNorm][`${contestType}_total`] = totalVotes;
+          if (demCand) countyAgg[countyNorm][`${contestType}_dem_candidate`] = demCand;
+          if (repCand) countyAgg[countyNorm][`${contestType}_rep_candidate`] = repCand;
+        });
+      }
       contestData.forEach(row => {
         const rowName = (row.county || '').toString();
         const countyOnly = rowName.includes(' - ') ? rowName.split(' - ')[0] : rowName;
@@ -7850,40 +7885,17 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
           const clarityByContest = await loadCountyClarityContestRowsByYear(2024);
           const clarityRows = clarityByContest?.[contestType] || [];
-          clarityRows.forEach(row => {
-            const countyOnly = (row?.county || '').toString().trim().toUpperCase();
-            const countyNorm = normalizeCountyName(countyOnly);
-            if (!countyNorm) return;
-
-            const demVotes = Number(row[`${contestType}_dem`] || 0);
-            const repVotes = Number(row[`${contestType}_rep`] || 0);
-            const otherVotes = Number(row[`${contestType}_other`] || 0);
-            const totalVotes = Number(row[`${contestType}_total`] || 0);
-            const demCand = (row[`${contestType}_dem_candidate`] || '').toString();
-            const repCand = (row[`${contestType}_rep_candidate`] || '').toString();
-
-            if (!countyAgg[countyNorm]) {
-              countyAgg[countyNorm] = {
-                year: Number(year),
-                county: countyOnly,
-                [`${contestType}_dem`]: 0,
-                [`${contestType}_rep`]: 0,
-                [`${contestType}_other`]: 0,
-                [`${contestType}_total`]: 0,
-                [`${contestType}_dem_candidate`]: demCand,
-                [`${contestType}_rep_candidate`]: repCand
-              };
-            }
-
-            countyAgg[countyNorm][`${contestType}_dem`] = demVotes;
-            countyAgg[countyNorm][`${contestType}_rep`] = repVotes;
-            countyAgg[countyNorm][`${contestType}_other`] = otherVotes;
-            countyAgg[countyNorm][`${contestType}_total`] = totalVotes;
-            if (demCand) countyAgg[countyNorm][`${contestType}_dem_candidate`] = demCand;
-            if (repCand) countyAgg[countyNorm][`${contestType}_rep_candidate`] = repCand;
-          });
+          applyCountyTotalsOverride(clarityRows);
         } catch (err) {
           console.warn('Failed to apply 2024 Clarity county override for', contestType, err?.message || err);
+        }
+      }
+      if (contestType === 'president' && PRESIDENT_OPEN_ELECTIONS_CSV[Number(year)]) {
+        try {
+          const presidentCountyRows = await loadPresidentSliceFromOpenElectionsCSV(Number(year));
+          applyCountyTotalsOverride(presidentCountyRows);
+        } catch (err) {
+          console.warn('Failed to apply county override from OpenElections president CSV for', year, err?.message || err);
         }
       }
       currentElectionResults = countyAgg;
