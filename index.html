@@ -2215,6 +2215,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="control-group" style="margin-bottom:10px;">
                 <div class="view-toggle-row" style="display:flex;gap:6px;flex-wrap:wrap;">
                   <button id="counties-view" class="view-toggle-btn active" onclick="setMapView('counties')">Counties</button>
+                  <button id="vtds-2000-view" class="view-toggle-btn" onclick="setMapView('vtds_2000')">2000s VTDs</button>
                   <button id="districts-view" class="view-toggle-btn" onclick="setMapView('districts')">Congress</button>
                   <button id="state-house-view" class="view-toggle-btn" onclick="setMapView('state_house')">State House</button>
                   <button id="state-senate-view" class="view-toggle-btn" onclick="setMapView('state_senate')">State Senate</button>
@@ -2393,6 +2394,7 @@ document.addEventListener('DOMContentLoaded', function() {
         counties: withBase('./Data/tl_2020_48_county20.geojson'),
         precincts: withBase('./Data/tl_2020_48_vtd20.geojson'),
         precinct_centroids: withBase('./Data/precinct_centroids_tx.geojson'),
+        vtds_2000: withBase('./Data/vtd_2000s_tx.geojson'),
         districts: withBase('./Data/tx_cd_2025.geojson'),
         state_house: withBase('./Data/tx_state_house_2022.geojson'),
         state_senate: withBase('./Data/tx_state_senate_2022.geojson'),
@@ -2492,6 +2494,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let congressionalData = []; // Optional legacy district-level table
     let candidateNameCache = new Map();
     let contestSliceCache = new Map();
+    let countyClarityContestCache = new Map(); // year -> Promise<Record<contestType, rows[]>>
     let districtSliceCache = new Map();
     let districtsInfo = null;
     let stateHouseInfo = null;
@@ -2803,131 +2806,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      2008: withBase('./Data/openelections-data-tx/2008/20081104__tx__general__county.csv'),
 	      2012: withBase('./Data/openelections-data-tx/2012/20121106__tx__general__county.csv')
 	    };
-
-      const COUNTY_CLARITY_FALLBACK_CSV = {
-        2024: withBase('./Data/20241105__tx__general__county__from_clarity.csv')
-      };
-      const countyClarityContestCache = new Map(); // year -> Map<contestType, rows[]>
-
-      function mapTxCountyOfficeToContestType(office) {
-        const o = (office || '').toString().trim().toUpperCase();
-        if (!o) return null;
-
-        if (o.includes('PRESIDENT')) return 'president';
-        if (/(U\.?\s*S\.?|US|UNITED STATES)\s*SENAT(?:E|OR)/i.test(o)) return 'us_senate';
-        if (/RAILROAD\s+COMMISSIONER/i.test(o)) return 'railroad_commissioner';
-        if (/LIEUTENANT\s+GOVERNOR|LT\.?\s*GOVERNOR/i.test(o)) return 'lieutenant_governor';
-        if (/ATTORNEY\s+GENERAL/i.test(o)) return 'attorney_general';
-        if (/COMPTROLLER/i.test(o)) return 'comptroller';
-        if (/GENERAL\s+LAND\s+OFFICE|LAND\s+OFFICE/i.test(o)) return 'land_commissioner';
-        if (/AGRICULTURE\s+COMMISSIONER|COMMISSIONER\s+OF\s+AGRICULTURE/i.test(o)) return 'agriculture_commissioner';
-        if (/\bGOVERNOR\b/i.test(o) && !/LIEUTENANT|LT\.?\s*GOVERNOR/i.test(o)) return 'governor';
-
-        if (/(COURT\s+OF\s+CRIMINAL\s+APPEALS|CRIMINAL\s+APPEALS)/i.test(o)) {
-          if (/PRESIDING\s+JUDGE/i.test(o)) return 'court_of_criminal_appeals_presiding_judge';
-          const mPlace = o.match(/\b(?:PLACE|PL\.?|P)\s*(?:NO\.?|NUMBER)?\s*([0-9]{1,2})\b/i);
-          if (mPlace) return `court_of_criminal_appeals_place_${Number(mPlace[1])}`;
-        }
-
-        if (/SUPREME\s+(?:COURT|CRT|CT)/i.test(o)) {
-          const mPlace = o.match(/\b(?:PLACE|PL\.?|P)\s*(?:NO\.?|NUMBER)?\s*([0-9]{1,2})\b/i);
-          if (mPlace) {
-            const place = Number(mPlace[1]);
-            const unexpired = /UNEXPIRED/i.test(o) ? '_unexpired' : '';
-            return `supreme_court_place_${place}${unexpired}`;
-          }
-        }
-
-        return null;
-      }
-
-      async function loadCountyClarityContestRowsByYear(year) {
-        const y = Number(year);
-        if (countyClarityContestCache.has(y)) return countyClarityContestCache.get(y);
-
-        const path = COUNTY_CLARITY_FALLBACK_CSV[y];
-        if (!path) {
-          const empty = new Map();
-          countyClarityContestCache.set(y, empty);
-          return empty;
-        }
-
-        const csvText = await loadCSV(path);
-        const rows = parseCSV(csvText) || [];
-        const bucket = new Map(); // contestType -> Map<countyNorm,node>
-
-        function countyNorm(s) {
-          return (s || '').toString().replace(/[^a-z0-9 .\-]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
-        }
-
-        rows.forEach(r => {
-          const contestType = mapTxCountyOfficeToContestType(r.office);
-          if (!contestType) return;
-
-          const county = countyNorm(r.county);
-          if (!county) return;
-
-          const party = (r.party || '').toString().trim().toUpperCase();
-          const cand = (r.candidate || '').toString().trim();
-          const votes = Number(r.votes) || 0;
-
-          if (!bucket.has(contestType)) bucket.set(contestType, new Map());
-          const byCounty = bucket.get(contestType);
-          if (!byCounty.has(county)) byCounty.set(county, { dem: 0, rep: 0, other: 0, demCand: '', repCand: '' });
-          const node = byCounty.get(county);
-
-          if (party.startsWith('DEM')) { node.dem += votes; if (!node.demCand && cand) node.demCand = cand; }
-          else if (party.startsWith('REP')) { node.rep += votes; if (!node.repCand && cand) node.repCand = cand; }
-          else { node.other += votes; }
-        });
-
-        const out = new Map();
-        bucket.forEach((byCounty, contestType) => {
-          const arr = Array.from(byCounty.entries()).map(([county, v]) => ({
-            year: y,
-            county,
-            [`${contestType}_dem`]: Number(v.dem) || 0,
-            [`${contestType}_rep`]: Number(v.rep) || 0,
-            [`${contestType}_other`]: Number(v.other) || 0,
-            [`${contestType}_total`]: (Number(v.dem) || 0) + (Number(v.rep) || 0) + (Number(v.other) || 0),
-            [`${contestType}_dem_candidate`]: v.demCand || '',
-            [`${contestType}_rep_candidate`]: v.repCand || '',
-            [`${contestType}_margin`]: (Number(v.rep) || 0) - (Number(v.dem) || 0),
-            [`${contestType}_margin_pct`]: 0,
-            [`${contestType}_winner`]: (Number(v.rep) || 0) > (Number(v.dem) || 0) ? 'REP' : ((Number(v.dem) || 0) > (Number(v.rep) || 0) ? 'DEM' : 'TIE'),
-            [`${contestType}_color`]: ''
-          }));
-          out.set(contestType, arr);
-        });
-
-        countyClarityContestCache.set(y, out);
-        return out;
-      }
-
-      async function mergeMissingCountiesFromClarity(contestType, year, existingRows) {
-        const y = Number(year);
-        if (!COUNTY_CLARITY_FALLBACK_CSV[y]) return existingRows;
-
-        const byContest = await loadCountyClarityContestRowsByYear(y);
-        const fallbackRows = byContest.get(contestType) || [];
-        if (!fallbackRows.length) return existingRows;
-
-        function countyNormFromRowKey(raw) {
-          const rowName = (raw || '').toString();
-          const countyOnly = rowName.includes(' - ') ? rowName.split(' - ')[0] : rowName;
-          return countyOnly.replace(/[^a-z0-9 .\-]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
-        }
-
-        const have = new Set((existingRows || []).map(r => countyNormFromRowKey(r.county)));
-        const merged = Array.isArray(existingRows) ? existingRows.slice() : [];
-        fallbackRows.forEach(r => {
-          const c = countyNormFromRowKey(r.county);
-          if (!c || have.has(c)) return;
-          merged.push(r);
-          have.add(c);
-        });
-        return merged;
-      }
+      const COUNTY_CLARITY_FALLBACK_CSV = withBase('./Data/20241105__tx__general__county__from_clarity.csv');
 
 	    async function loadPresidentSliceFromOpenElectionsCSV(year) {
 	      const y = Number(year);
@@ -3028,13 +2907,159 @@ document.addEventListener('DOMContentLoaded', function() {
 	      }));
 	    }
 
+      function extractOfficePlaceNumber(officeUpper) {
+        const patterns = [
+          /\bPLACE\s*(?:NO\.?|NUMBER)?\s*([0-9]{1,2})\b/i,
+          /\bPL(?:ACE)?\.?\s*([0-9]{1,2})\b/i,
+          /\bP[LI]\.?\s*([0-9]{1,2})\b/i,
+          /\bP([0-9]{1,2})\b/i
+        ];
+        for (const pat of patterns) {
+          const m = officeUpper.match(pat);
+          if (m) return Number(m[1]) || null;
+        }
+        const trailing = officeUpper.match(/CRIMINAL\s+APPEALS[^0-9]{0,16}([0-9]{1,2})\b/i);
+        if (trailing) return Number(trailing[1]) || null;
+        return null;
+      }
+
+      function mapTxCountyOfficeToContestType(officeRaw) {
+        const office = (officeRaw || '').toString().trim();
+        if (!office) return null;
+        const officeUpper = office.toUpperCase();
+
+        if (/PRESIDING\s+JUDGE/i.test(officeUpper) && /(COURT\s+OF\s+CRIMINAL\s+APPEALS|CRIMINAL\s+APPEALS)/i.test(officeUpper)) {
+          return 'court_of_criminal_appeals_presiding_judge';
+        }
+        if (/(COURT\s+OF\s+CRIMINAL\s+APPEALS|CRIMINAL\s+APPEALS)/i.test(officeUpper)) {
+          const place = extractOfficePlaceNumber(officeUpper);
+          if (place && place >= 1 && place <= 9) return `court_of_criminal_appeals_place_${place}`;
+        }
+        if (/SUPREME\s+(?:COURT|CRT|CT)\b/i.test(officeUpper)) {
+          const place = extractOfficePlaceNumber(officeUpper);
+          if (place && place >= 1 && place <= 9) {
+            return officeUpper.includes('UNEXPIRED')
+              ? `supreme_court_place_${place}_unexpired`
+              : `supreme_court_place_${place}`;
+          }
+        }
+
+        if (/PRESIDENT/i.test(officeUpper)) return 'president';
+        if (/(U\.?\s*S\.?|US|UNITED STATES)\s*SENAT(?:E|OR)\b/i.test(officeUpper)) return 'us_senate';
+        if (/LIEUTENANT\s+GOVERNOR|LT\.?\s*GOVERNOR/i.test(officeUpper)) return 'lieutenant_governor';
+        if (/\bGOVERNOR\b/i.test(officeUpper) && !/LIEUTENANT|LT\.?\s*GOVERNOR/i.test(officeUpper)) return 'governor';
+        if (/ATTORNEY\s+GENERAL/i.test(officeUpper)) return 'attorney_general';
+        if (/COMPTROLLER/i.test(officeUpper)) return 'comptroller';
+        if (/GENERAL\s+LAND\s+OFFICE|LAND\s+COMMISSIONER|COMMISSIONER\s+OF\s+THE\s+GENERAL\s+LAND\s+OFFICE/i.test(officeUpper)) return 'land_commissioner';
+        if (/AGRICULTURE\s+COMMISSIONER|COMMISSIONER\s+OF\s+AGRICULTURE/i.test(officeUpper)) return 'agriculture_commissioner';
+        if (/RAILROAD\s+COMMISSIONER/i.test(officeUpper)) return 'railroad_commissioner';
+        return null;
+      }
+
+      async function loadCountyClarityContestRowsByYear(year) {
+        const y = Number(year);
+        if (countyClarityContestCache.has(y)) return countyClarityContestCache.get(y);
+
+        const loader = (async () => {
+          if (y !== 2024) return {};
+          try {
+            const csvText = await loadCSV(COUNTY_CLARITY_FALLBACK_CSV);
+            const rows = parseCSV(csvText);
+            const buckets = new Map(); // contestType -> Map(county -> agg)
+
+            for (const row of rows) {
+              const contestType = mapTxCountyOfficeToContestType(row?.office);
+              if (!contestType) continue;
+              const countyRaw = (row?.county || '').toString().trim().toUpperCase();
+              const county = countyRaw === 'LASALLE' ? 'LA SALLE' : countyRaw;
+              if (!county) continue;
+
+              if (!buckets.has(contestType)) buckets.set(contestType, new Map());
+              const byCounty = buckets.get(contestType);
+              if (!byCounty.has(county)) {
+                byCounty.set(county, { dem: 0, rep: 0, other: 0, demCand: '', repCand: '' });
+              }
+              const agg = byCounty.get(county);
+
+              const party = (row?.party || '').toString().trim().toUpperCase();
+              const candidate = (row?.candidate || '').toString().trim();
+              const votes = Number(row?.votes) || 0;
+              if (party === 'DEM' || party === 'DEMOCRAT' || party === 'DEMOCRATIC') {
+                agg.dem += votes;
+                if (!agg.demCand && candidate) agg.demCand = candidate;
+              } else if (party === 'REP' || party === 'REPUBLICAN') {
+                agg.rep += votes;
+                if (!agg.repCand && candidate) agg.repCand = candidate;
+              } else {
+                agg.other += votes;
+              }
+            }
+
+            const out = {};
+            for (const [contestType, byCounty] of buckets.entries()) {
+              out[contestType] = Array.from(byCounty.entries()).map(([county, agg]) => {
+                const total = agg.dem + agg.rep + agg.other;
+                const margin = Math.abs(agg.rep - agg.dem);
+                return {
+                  year: y,
+                  county,
+                  [`${contestType}_dem`]: agg.dem,
+                  [`${contestType}_rep`]: agg.rep,
+                  [`${contestType}_other`]: agg.other,
+                  [`${contestType}_total`]: total,
+                  [`${contestType}_dem_candidate`]: agg.demCand,
+                  [`${contestType}_rep_candidate`]: agg.repCand,
+                  [`${contestType}_margin`]: margin,
+                  [`${contestType}_margin_pct`]: total > 0 ? (margin / total) * 100 : 0,
+                  [`${contestType}_winner`]: agg.dem > agg.rep ? 'DEM' : agg.rep > agg.dem ? 'REP' : 'TIE',
+                  [`${contestType}_color`]: ''
+                };
+              });
+            }
+            return out;
+          } catch (err) {
+            console.warn('County Clarity fallback load failed for', y, err?.message || err);
+            return {};
+          }
+        })();
+
+        countyClarityContestCache.set(y, loader);
+        return loader;
+      }
+
+      async function mergeMissingCountiesFromClarity(contestType, year, existingRows) {
+        const y = Number(year);
+        if (y !== 2024) return existingRows;
+
+        const fallbackByContest = await loadCountyClarityContestRowsByYear(y);
+        const fallbackRows = fallbackByContest?.[contestType] || [];
+        if (!fallbackRows.length) return existingRows;
+        const canonicalCounty = (value) => (value || '').toString().toUpperCase().replace(/[^A-Z0-9]/g, '');
+
+        const merged = Array.isArray(existingRows) ? existingRows.slice() : [];
+        const seenCounties = new Set(
+          merged
+            .map(r => canonicalCounty((r?.county || '').toString().split(' - ')[0].trim().toUpperCase()))
+            .filter(Boolean)
+        );
+
+        for (const row of fallbackRows) {
+          const county = canonicalCounty((row?.county || '').toString().trim().toUpperCase());
+          if (!county || seenCounties.has(county)) continue;
+          merged.push(row);
+          seenCounties.add(county);
+        }
+        return merged;
+      }
+
 	    async function loadContestSlice(contestType, year) {
 	      const key = `${contestType}_${year}`;
 	      if (contestSliceCache.has(key)) return contestSliceCache.get(key);
 
 	      try {
 	        const payload = await loadJSON(`${CONFIG.paths.contests_dir}/${key}.json`);
-	        let rows = (payload.rows || []).map(r => ({
+          const sourceRows = Array.isArray(payload) ? payload : (payload.rows || []);
+	        const rows = sourceRows.map(r => ({
 	          year: Number(year),
 	          county: r.county,
           [`${contestType}_dem`]: Number(r.dem_votes) || 0,
@@ -3048,25 +3073,25 @@ document.addEventListener('DOMContentLoaded', function() {
           [`${contestType}_winner`]: r.winner || '',
           [`${contestType}_color`]: r.color || ''
         }));
-          rows = await mergeMissingCountiesFromClarity(contestType, year, rows);
-	        contestSliceCache.set(key, rows);
-	        return rows;
+          const mergedRows = await mergeMissingCountiesFromClarity(contestType, year, rows);
+	        contestSliceCache.set(key, mergedRows);
+	        return mergedRows;
 	      } catch (_) {
 	        // CSV-backed presidential history (pre-2016) from OpenElections TX files.
 	        if (contestType === 'president' && PRESIDENT_OPEN_ELECTIONS_CSV[Number(year)]) {
 	          try {
-	            let rows = await loadPresidentSliceFromOpenElectionsCSV(Number(year));
-              rows = await mergeMissingCountiesFromClarity(contestType, year, rows);
-	            contestSliceCache.set(key, rows);
-	            return rows;
+	            const rows = await loadPresidentSliceFromOpenElectionsCSV(Number(year));
+              const mergedRows = await mergeMissingCountiesFromClarity(contestType, year, rows);
+	            contestSliceCache.set(key, mergedRows);
+	            return mergedRows;
 	          } catch (err) {
 	            console.warn('Failed to load OpenElections presidential CSV for', year, err?.message || err);
 	          }
 	        }
-	        let fallback = (electionData || []).filter(row => row.year == year);
-          fallback = await mergeMissingCountiesFromClarity(contestType, year, fallback);
-	        contestSliceCache.set(key, fallback);
-	        return fallback;
+	        const fallback = (electionData || []).filter(row => row.year == year);
+          const mergedFallback = await mergeMissingCountiesFromClarity(contestType, year, fallback);
+	        contestSliceCache.set(key, mergedFallback);
+	        return mergedFallback;
 	      }
 	    }
 
@@ -3542,7 +3567,7 @@ document.addEventListener('DOMContentLoaded', function() {
         (Array.isArray(districtManifest) && districtManifest.length > 0);
       let entries = null;
 
-      if (currentView === 'counties' || !currentView) {
+      if (currentView === 'counties' || currentView === 'vtds_2000' || !currentView) {
         entries = contestManifest || [];
       } else {
         const scope = currentView === 'districts'
@@ -3561,7 +3586,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       // If we have manifests but no matches for this view, don't fall back to county contests (they won't load here).
-      if (inManifestMode && currentView !== 'counties') {
+      if (inManifestMode && currentView !== 'counties' && currentView !== 'vtds_2000') {
         const sel = document.getElementById('contestSelect');
         if (sel) {
           sel.innerHTML = '<option value="">No contests available for this view</option>';
@@ -3922,19 +3947,26 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('state-house-view')?.classList.toggle('active', view === 'state_house');
       document.getElementById('state-senate-view')?.classList.toggle('active', view === 'state_senate');
       
+      // Update 2000 VTDs button if available
+      const vtds2000Button = document.getElementById('vtds-2000-view');
+      if (vtds2000Button) {
+        vtds2000Button.classList.toggle('active', view === 'vtds_2000');
+      }
+      
       // Update sidebar title
       const sidebarTitle = document.querySelector('.sidebar-header h3');
       const titles = {
         'counties': 'County Analysis',
         'districts': 'Congressional District Analysis', 
         'state_house': 'State House District Analysis',
-        'state_senate': 'State Senate District Analysis'
+        'state_senate': 'State Senate District Analysis',
+        'vtds_2000': '2000s VTD Analysis'
       };
       sidebarTitle.textContent = titles[view];
       
       // Clear all map layers for the active view.
       // Precincts are an overlay; don't destroy precinct layers when switching views.
-      const layerTypes = ['county', 'district', 'state-house', 'state-senate'];
+      const layerTypes = ['county', 'district', 'state-house', 'state-senate', 'vtds-2000'];
       layerTypes.forEach(type => {
         if (map.getLayer(`${type}-fill`)) {
           map.removeLayer(`${type}-fill`);
@@ -3960,6 +3992,8 @@ document.addEventListener('DOMContentLoaded', function() {
         addStateHouseLayers();
       } else if (view === 'state_senate') {
         addStateSenatelayers();
+      } else if (view === 'vtds_2000') {
+        add2000VTDLayers();
       }
       
       // Repopulate contest selector

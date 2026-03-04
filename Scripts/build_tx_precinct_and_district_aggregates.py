@@ -14,6 +14,15 @@ import geopandas as gpd
 import pandas as pd
 import pyogrio
 
+try:
+    from build_contests_from_tx_shapefiles import (
+        aggregate_contest_rows_from_shapefile,
+        load_existing_candidate_tokens,
+    )
+except Exception:
+    aggregate_contest_rows_from_shapefile = None
+    load_existing_candidate_tokens = None
+
 
 def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 .\-]", "", str(value).lower())).strip().upper()
@@ -683,9 +692,42 @@ def write_json(path: Path, payload: dict) -> None:
         json.dump(payload, f, ensure_ascii=True, indent=2)
 
 
+def build_contest_manifest_entry(year: int, contest_type: str, file_name: str, rows: List[dict]) -> dict:
+    dem_total = sum(float(r["dem_votes"]) for r in rows)
+    rep_total = sum(float(r["rep_votes"]) for r in rows)
+    other_total = sum(float(r["other_votes"]) for r in rows)
+    total_votes = sum(float(r["total_votes"]) for r in rows)
+    return {
+        "year": year,
+        "contest_type": contest_type,
+        "file": file_name,
+        "rows": len(rows),
+        "dem_total": round(dem_total),
+        "rep_total": round(rep_total),
+        "other_total": round(other_total),
+        "total_votes": round(total_votes),
+        "major_party_contested": bool(dem_total > 0 and rep_total > 0),
+    }
+
+
+def upsert_contest_manifest_entry(entries: List[dict], entry: dict) -> None:
+    year = int(entry.get("year", 0))
+    contest_type = str(entry.get("contest_type", ""))
+    for i, existing in enumerate(entries):
+        if int(existing.get("year", 0)) == year and str(existing.get("contest_type", "")) == contest_type:
+            entries[i] = entry
+            return
+    entries.append(entry)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build TX precinct layers and district aggregates from precinct CSVs.")
     parser.add_argument("--data-dir", default="Data", help="Data directory (default: Data)")
+    parser.add_argument(
+        "--skip-shapefile-contests",
+        action="store_true",
+        help="Skip overriding 2016/2018/2020 contest slices from tx_YYYY.zip shapefiles.",
+    )
     args = parser.parse_args()
 
     data_dir = Path(args.data_dir).resolve()
@@ -709,25 +751,45 @@ def main() -> None:
             out_path = contests_dir / f"{key}.json"
             write_json(out_path, {"rows": rows})
             contest_rows_by_key[(contest_type, year)] = rows
-
-            dem_total = sum(float(r["dem_votes"]) for r in rows)
-            rep_total = sum(float(r["rep_votes"]) for r in rows)
-            other_total = sum(float(r["other_votes"]) for r in rows)
-            total_votes = sum(float(r["total_votes"]) for r in rows)
-            contest_manifest_entries.append(
-                {
-                    "year": year,
-                    "contest_type": contest_type,
-                    "file": out_path.name,
-                    "rows": len(rows),
-                    "dem_total": round(dem_total),
-                    "rep_total": round(rep_total),
-                    "other_total": round(other_total),
-                    "total_votes": round(total_votes),
-                    "major_party_contested": bool(dem_total > 0 and rep_total > 0),
-                }
+            upsert_contest_manifest_entry(
+                contest_manifest_entries,
+                build_contest_manifest_entry(year, contest_type, out_path.name, rows),
             )
             print(f"[write] contests/{out_path.name}")
+
+    if not args.skip_shapefile_contests:
+        if aggregate_contest_rows_from_shapefile is None or load_existing_candidate_tokens is None:
+            print("[warn] shapefile contest module unavailable; skipping shapefile contest overrides")
+        else:
+            for shapefile_year in (2016, 2018, 2020):
+                shp_zip = data_dir / f"tx_{shapefile_year}.zip"
+                if not shp_zip.exists():
+                    print(f"[skip] missing {shp_zip.name}; no shapefile overrides for {shapefile_year}")
+                    continue
+
+                existing_tokens = load_existing_candidate_tokens(contests_dir, shapefile_year)
+                rows_by_type = aggregate_contest_rows_from_shapefile(
+                    shp_zip=shp_zip,
+                    year=shapefile_year,
+                    county_lookup=county_lookup,
+                    existing_tokens=existing_tokens,
+                )
+                if not rows_by_type:
+                    print(f"[skip] no shapefile contests parsed for {shapefile_year}")
+                    continue
+
+                for contest_type, rows in sorted(rows_by_type.items()):
+                    if not rows:
+                        continue
+                    key = f"{contest_type}_{shapefile_year}"
+                    out_path = contests_dir / f"{key}.json"
+                    write_json(out_path, {"rows": rows})
+                    contest_rows_by_key[(contest_type, shapefile_year)] = rows
+                    upsert_contest_manifest_entry(
+                        contest_manifest_entries,
+                        build_contest_manifest_entry(shapefile_year, contest_type, out_path.name, rows),
+                    )
+                    print(f"[write] contests/{out_path.name} [shapefile]")
 
     contest_manifest_entries.sort(key=lambda x: (x["contest_type"], x["year"]))
     write_json(contests_dir / "manifest.json", {"files": contest_manifest_entries})
