@@ -2982,6 +2982,7 @@ document.addEventListener('DOMContentLoaded', function() {
               const agg = byCounty.get(county);
 
               const party = (row?.party || '').toString().trim().toUpperCase();
+              if (!party) continue;
               const candidate = (row?.candidate || '').toString().trim();
               const votes = Number(row?.votes) || 0;
               if (party === 'DEM' || party === 'DEMOCRAT' || party === 'DEMOCRATIC') {
