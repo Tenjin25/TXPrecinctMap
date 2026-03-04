@@ -7842,6 +7842,49 @@ document.addEventListener('DOMContentLoaded', function() {
         countyAgg[countyNorm][`${contestType}_other`] += otherVotes;
         countyAgg[countyNorm][`${contestType}_total`] += totalVotes;
       });
+
+      // For 2024 county view, use Clarity county totals as authoritative statewide rollup.
+      // Precinct-level rendering still comes from contestData/currentPrecinctResults.
+      if (Number(year) === 2024) {
+        try {
+          const clarityByContest = await loadCountyClarityContestRowsByYear(2024);
+          const clarityRows = clarityByContest?.[contestType] || [];
+          clarityRows.forEach(row => {
+            const countyOnly = (row?.county || '').toString().trim().toUpperCase();
+            const countyNorm = normalizeCountyName(countyOnly);
+            if (!countyNorm) return;
+
+            const demVotes = Number(row[`${contestType}_dem`] || 0);
+            const repVotes = Number(row[`${contestType}_rep`] || 0);
+            const otherVotes = Number(row[`${contestType}_other`] || 0);
+            const totalVotes = Number(row[`${contestType}_total`] || 0);
+            const demCand = (row[`${contestType}_dem_candidate`] || '').toString();
+            const repCand = (row[`${contestType}_rep_candidate`] || '').toString();
+
+            if (!countyAgg[countyNorm]) {
+              countyAgg[countyNorm] = {
+                year: Number(year),
+                county: countyOnly,
+                [`${contestType}_dem`]: 0,
+                [`${contestType}_rep`]: 0,
+                [`${contestType}_other`]: 0,
+                [`${contestType}_total`]: 0,
+                [`${contestType}_dem_candidate`]: demCand,
+                [`${contestType}_rep_candidate`]: repCand
+              };
+            }
+
+            countyAgg[countyNorm][`${contestType}_dem`] = demVotes;
+            countyAgg[countyNorm][`${contestType}_rep`] = repVotes;
+            countyAgg[countyNorm][`${contestType}_other`] = otherVotes;
+            countyAgg[countyNorm][`${contestType}_total`] = totalVotes;
+            if (demCand) countyAgg[countyNorm][`${contestType}_dem_candidate`] = demCand;
+            if (repCand) countyAgg[countyNorm][`${contestType}_rep_candidate`] = repCand;
+          });
+        } catch (err) {
+          console.warn('Failed to apply 2024 Clarity county override for', contestType, err?.message || err);
+        }
+      }
       currentElectionResults = countyAgg;
 
       // Calculate statewide totals
@@ -7852,7 +7895,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let statewideDemCandidate = '';
       let statewideRepCandidate = '';
       
-      contestData.forEach(row => {
+      Object.values(countyAgg).forEach(row => {
         const demVotes = row[`${contestType}_dem`] || 0;
         const repVotes = row[`${contestType}_rep`] || 0;
         const otherVotes = row[`${contestType}_other`] || 0;
