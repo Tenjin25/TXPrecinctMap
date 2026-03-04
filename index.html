@@ -2804,6 +2804,131 @@ document.addEventListener('DOMContentLoaded', function() {
 	      2012: withBase('./Data/openelections-data-tx/2012/20121106__tx__general__county.csv')
 	    };
 
+      const COUNTY_CLARITY_FALLBACK_CSV = {
+        2024: withBase('./Data/20241105__tx__general__county__from_clarity.csv')
+      };
+      const countyClarityContestCache = new Map(); // year -> Map<contestType, rows[]>
+
+      function mapTxCountyOfficeToContestType(office) {
+        const o = (office || '').toString().trim().toUpperCase();
+        if (!o) return null;
+
+        if (o.includes('PRESIDENT')) return 'president';
+        if (/(U\.?\s*S\.?|US|UNITED STATES)\s*SENAT(?:E|OR)/i.test(o)) return 'us_senate';
+        if (/RAILROAD\s+COMMISSIONER/i.test(o)) return 'railroad_commissioner';
+        if (/LIEUTENANT\s+GOVERNOR|LT\.?\s*GOVERNOR/i.test(o)) return 'lieutenant_governor';
+        if (/ATTORNEY\s+GENERAL/i.test(o)) return 'attorney_general';
+        if (/COMPTROLLER/i.test(o)) return 'comptroller';
+        if (/GENERAL\s+LAND\s+OFFICE|LAND\s+OFFICE/i.test(o)) return 'land_commissioner';
+        if (/AGRICULTURE\s+COMMISSIONER|COMMISSIONER\s+OF\s+AGRICULTURE/i.test(o)) return 'agriculture_commissioner';
+        if (/\bGOVERNOR\b/i.test(o) && !/LIEUTENANT|LT\.?\s*GOVERNOR/i.test(o)) return 'governor';
+
+        if (/(COURT\s+OF\s+CRIMINAL\s+APPEALS|CRIMINAL\s+APPEALS)/i.test(o)) {
+          if (/PRESIDING\s+JUDGE/i.test(o)) return 'court_of_criminal_appeals_presiding_judge';
+          const mPlace = o.match(/\b(?:PLACE|PL\.?|P)\s*(?:NO\.?|NUMBER)?\s*([0-9]{1,2})\b/i);
+          if (mPlace) return `court_of_criminal_appeals_place_${Number(mPlace[1])}`;
+        }
+
+        if (/SUPREME\s+(?:COURT|CRT|CT)/i.test(o)) {
+          const mPlace = o.match(/\b(?:PLACE|PL\.?|P)\s*(?:NO\.?|NUMBER)?\s*([0-9]{1,2})\b/i);
+          if (mPlace) {
+            const place = Number(mPlace[1]);
+            const unexpired = /UNEXPIRED/i.test(o) ? '_unexpired' : '';
+            return `supreme_court_place_${place}${unexpired}`;
+          }
+        }
+
+        return null;
+      }
+
+      async function loadCountyClarityContestRowsByYear(year) {
+        const y = Number(year);
+        if (countyClarityContestCache.has(y)) return countyClarityContestCache.get(y);
+
+        const path = COUNTY_CLARITY_FALLBACK_CSV[y];
+        if (!path) {
+          const empty = new Map();
+          countyClarityContestCache.set(y, empty);
+          return empty;
+        }
+
+        const csvText = await loadCSV(path);
+        const rows = parseCSV(csvText) || [];
+        const bucket = new Map(); // contestType -> Map<countyNorm,node>
+
+        function countyNorm(s) {
+          return (s || '').toString().replace(/[^a-z0-9 .\-]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
+        }
+
+        rows.forEach(r => {
+          const contestType = mapTxCountyOfficeToContestType(r.office);
+          if (!contestType) return;
+
+          const county = countyNorm(r.county);
+          if (!county) return;
+
+          const party = (r.party || '').toString().trim().toUpperCase();
+          const cand = (r.candidate || '').toString().trim();
+          const votes = Number(r.votes) || 0;
+
+          if (!bucket.has(contestType)) bucket.set(contestType, new Map());
+          const byCounty = bucket.get(contestType);
+          if (!byCounty.has(county)) byCounty.set(county, { dem: 0, rep: 0, other: 0, demCand: '', repCand: '' });
+          const node = byCounty.get(county);
+
+          if (party.startsWith('DEM')) { node.dem += votes; if (!node.demCand && cand) node.demCand = cand; }
+          else if (party.startsWith('REP')) { node.rep += votes; if (!node.repCand && cand) node.repCand = cand; }
+          else { node.other += votes; }
+        });
+
+        const out = new Map();
+        bucket.forEach((byCounty, contestType) => {
+          const arr = Array.from(byCounty.entries()).map(([county, v]) => ({
+            year: y,
+            county,
+            [`${contestType}_dem`]: Number(v.dem) || 0,
+            [`${contestType}_rep`]: Number(v.rep) || 0,
+            [`${contestType}_other`]: Number(v.other) || 0,
+            [`${contestType}_total`]: (Number(v.dem) || 0) + (Number(v.rep) || 0) + (Number(v.other) || 0),
+            [`${contestType}_dem_candidate`]: v.demCand || '',
+            [`${contestType}_rep_candidate`]: v.repCand || '',
+            [`${contestType}_margin`]: (Number(v.rep) || 0) - (Number(v.dem) || 0),
+            [`${contestType}_margin_pct`]: 0,
+            [`${contestType}_winner`]: (Number(v.rep) || 0) > (Number(v.dem) || 0) ? 'REP' : ((Number(v.dem) || 0) > (Number(v.rep) || 0) ? 'DEM' : 'TIE'),
+            [`${contestType}_color`]: ''
+          }));
+          out.set(contestType, arr);
+        });
+
+        countyClarityContestCache.set(y, out);
+        return out;
+      }
+
+      async function mergeMissingCountiesFromClarity(contestType, year, existingRows) {
+        const y = Number(year);
+        if (!COUNTY_CLARITY_FALLBACK_CSV[y]) return existingRows;
+
+        const byContest = await loadCountyClarityContestRowsByYear(y);
+        const fallbackRows = byContest.get(contestType) || [];
+        if (!fallbackRows.length) return existingRows;
+
+        function countyNormFromRowKey(raw) {
+          const rowName = (raw || '').toString();
+          const countyOnly = rowName.includes(' - ') ? rowName.split(' - ')[0] : rowName;
+          return countyOnly.replace(/[^a-z0-9 .\-]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
+        }
+
+        const have = new Set((existingRows || []).map(r => countyNormFromRowKey(r.county)));
+        const merged = Array.isArray(existingRows) ? existingRows.slice() : [];
+        fallbackRows.forEach(r => {
+          const c = countyNormFromRowKey(r.county);
+          if (!c || have.has(c)) return;
+          merged.push(r);
+          have.add(c);
+        });
+        return merged;
+      }
+
 	    async function loadPresidentSliceFromOpenElectionsCSV(year) {
 	      const y = Number(year);
 	      const path = PRESIDENT_OPEN_ELECTIONS_CSV[y];
@@ -2909,7 +3034,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	      try {
 	        const payload = await loadJSON(`${CONFIG.paths.contests_dir}/${key}.json`);
-	        const rows = (payload.rows || []).map(r => ({
+	        let rows = (payload.rows || []).map(r => ({
 	          year: Number(year),
 	          county: r.county,
           [`${contestType}_dem`]: Number(r.dem_votes) || 0,
@@ -2923,20 +3048,23 @@ document.addEventListener('DOMContentLoaded', function() {
           [`${contestType}_winner`]: r.winner || '',
           [`${contestType}_color`]: r.color || ''
         }));
+          rows = await mergeMissingCountiesFromClarity(contestType, year, rows);
 	        contestSliceCache.set(key, rows);
 	        return rows;
 	      } catch (_) {
 	        // CSV-backed presidential history (pre-2016) from OpenElections TX files.
 	        if (contestType === 'president' && PRESIDENT_OPEN_ELECTIONS_CSV[Number(year)]) {
 	          try {
-	            const rows = await loadPresidentSliceFromOpenElectionsCSV(Number(year));
+	            let rows = await loadPresidentSliceFromOpenElectionsCSV(Number(year));
+              rows = await mergeMissingCountiesFromClarity(contestType, year, rows);
 	            contestSliceCache.set(key, rows);
 	            return rows;
 	          } catch (err) {
 	            console.warn('Failed to load OpenElections presidential CSV for', year, err?.message || err);
 	          }
 	        }
-	        const fallback = (electionData || []).filter(row => row.year == year);
+	        let fallback = (electionData || []).filter(row => row.year == year);
+          fallback = await mergeMissingCountiesFromClarity(contestType, year, fallback);
 	        contestSliceCache.set(key, fallback);
 	        return fallback;
 	      }
