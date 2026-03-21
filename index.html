@@ -7293,28 +7293,73 @@ document.addEventListener('DOMContentLoaded', function() {
 	    };
 
       // County-level general-election CSV fallback by year.
-      // 2024 uses the clarity-derived county file in project root Data/.
+      // Prefer root Data/ CSVs generated for this project; keep legacy OpenElections paths
+      // as secondary candidates for compatibility with older local layouts.
       const COUNTY_GENERAL_CSV = {
-        2000: withBase('./Data/openelections-data-tx/2000/20001107__tx__general__county.csv'),
-        2002: withBase('./Data/openelections-data-tx/2002/20021105__tx__general__county.csv'),
-        2004: withBase('./Data/openelections-data-tx/2004/20041102__tx__general__county.csv'),
-        2006: withBase('./Data/openelections-data-tx/2006/20061107__tx__general__county.csv'),
-        2008: withBase('./Data/openelections-data-tx/2008/20081104__tx__general__county.csv'),
-        2010: withBase('./Data/openelections-data-tx/2010/20101102__tx__general__county.csv'),
-        2012: withBase('./Data/openelections-data-tx/2012/20121106__tx__general__county.csv'),
-        2016: withBase('./Data/openelections-data-tx/2016/20161108__tx__general__county.csv'),
-        2018: withBase('./Data/openelections-data-tx/2018/20181106__tx__general__county.csv'),
-        2024: withBase('./Data/20241105__tx__general__county__from_clarity.csv')
+        2000: [
+          withBase('./Data/20001107__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2000/20001107__tx__general__county.csv')
+        ],
+        2002: [
+          withBase('./Data/20021105__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2002/20021105__tx__general__county.csv')
+        ],
+        2004: [
+          withBase('./Data/20041102__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2004/20041102__tx__general__county.csv')
+        ],
+        2006: [
+          withBase('./Data/20061107__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2006/20061107__tx__general__county.csv')
+        ],
+        2008: [
+          withBase('./Data/20081104__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2008/20081104__tx__general__county.csv')
+        ],
+        2010: [
+          withBase('./Data/20101102__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2010/20101102__tx__general__county.csv')
+        ],
+        2012: [
+          withBase('./Data/20121106__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2012/20121106__tx__general__county.csv')
+        ],
+        2016: [
+          withBase('./Data/20161108__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2016/20161108__tx__general__county.csv')
+        ],
+        2018: [
+          withBase('./Data/20181106__tx__general__county.csv'),
+          withBase('./Data/openelections-data-tx/2018/20181106__tx__general__county.csv')
+        ],
+        2020: [
+          withBase('./Data/20201103__tx__general__county__from_clarity.csv'),
+          withBase('./Data/20201103__tx__general__county_from_precinct.csv')
+        ],
+        2022: [
+          withBase('./Data/20221108__tx__general__county__from_clarity.csv'),
+          withBase('./Data/20221108__tx__general__county_from_precinct.csv')
+        ],
+        2024: [
+          withBase('./Data/20241105__tx__general__county__from_clarity.csv')
+        ]
       };
 
-	    function getOpenElectionsCsvPath(contestType, year) {
+      function getOpenElectionsCsvPath(contestType, year) {
 	      const y = Number(year);
 	      return OPEN_ELECTIONS_CSV?.[contestType]?.[y] || null;
 	    }
 
-      function getCountyGeneralCsvPath(year) {
+      function getCountyGeneralCsvPaths(year) {
         const y = Number(year);
-        return COUNTY_GENERAL_CSV?.[y] || null;
+        const configured = COUNTY_GENERAL_CSV?.[y];
+        if (!configured) return [];
+        return Array.isArray(configured) ? configured.filter(Boolean) : [configured];
+      }
+
+      function getCountyGeneralCsvPath(year) {
+        const paths = getCountyGeneralCsvPaths(year);
+        return paths.length ? paths[0] : null;
       }
 
       function normalizeOfficeForMatch(officeRaw) {
@@ -7483,70 +7528,82 @@ document.addEventListener('DOMContentLoaded', function() {
 
       async function loadCountySliceFromGeneralCountyCSV(contestType, year) {
         const y = Number(year);
-        const path = getCountyGeneralCsvPath(y);
-        if (!path) throw new Error(`No county CSV configured for ${year}`);
+        const paths = getCountyGeneralCsvPaths(y);
+        if (!paths.length) throw new Error(`No county CSV configured for ${year}`);
 
-        const csvText = await loadCSV(path);
-        const rows = parseCSV(csvText);
-        const byCounty = new Map();
+        let lastErr = null;
+        for (const path of paths) {
+          try {
+            const csvText = await loadCSV(path);
+            const rows = parseCSV(csvText);
+            const byCounty = new Map();
 
-        rows.forEach(r => {
-          const office = (r.office || '').toString();
-          if (!officeMatchesContestType(office, contestType)) return;
+            rows.forEach(r => {
+              const office = (r.office || '').toString();
+              if (!officeMatchesContestType(office, contestType)) return;
 
-          const county = canonicalCountyFromOpenElections(r.county);
-          if (!county) return;
+              const county = canonicalCountyFromOpenElections(r.county);
+              if (!county) return;
 
-          const candidate = (r.candidate || '').toString().trim();
-          if (/^TOTAL$/i.test(candidate)) return;
+              const candidate = (r.candidate || '').toString().trim();
+              if (/^TOTAL$/i.test(candidate)) return;
 
-          const partyRaw = (r.party || '').toString().trim().toUpperCase();
-          const party = partyRaw.startsWith('DEM') ? 'DEM' : (partyRaw.startsWith('REP') ? 'REP' : 'OTHER');
+              const partyRaw = (r.party || '').toString().trim().toUpperCase();
+              const party = partyRaw.startsWith('DEM') ? 'DEM' : (partyRaw.startsWith('REP') ? 'REP' : 'OTHER');
 
-          const votesRaw = (r.votes ?? '').toString().replace(/,/g, '').trim();
-          const votes = Number(votesRaw);
-          if (!Number.isFinite(votes)) return;
+              const votesRaw = (r.votes ?? '').toString().replace(/,/g, '').trim();
+              const votes = Number(votesRaw);
+              if (!Number.isFinite(votes)) return;
 
-          if (!byCounty.has(county)) {
-            byCounty.set(county, {
-              dem: 0,
-              rep: 0,
-              other: 0,
-              demCand: '',
-              repCand: '',
-              bestDemVotes: -1,
-              bestRepVotes: -1
+              if (!byCounty.has(county)) {
+                byCounty.set(county, {
+                  dem: 0,
+                  rep: 0,
+                  other: 0,
+                  demCand: '',
+                  repCand: '',
+                  bestDemVotes: -1,
+                  bestRepVotes: -1
+                });
+              }
+
+              const node = byCounty.get(county);
+              if (party === 'DEM') {
+                node.dem += votes;
+                if (votes >= node.bestDemVotes && candidate) {
+                  node.bestDemVotes = votes;
+                  node.demCand = candidate;
+                }
+              } else if (party === 'REP') {
+                node.rep += votes;
+                if (votes >= node.bestRepVotes && candidate) {
+                  node.bestRepVotes = votes;
+                  node.repCand = candidate;
+                }
+              } else {
+                node.other += votes;
+              }
             });
-          }
 
-          const node = byCounty.get(county);
-          if (party === 'DEM') {
-            node.dem += votes;
-            if (votes >= node.bestDemVotes && candidate) {
-              node.bestDemVotes = votes;
-              node.demCand = candidate;
-            }
-          } else if (party === 'REP') {
-            node.rep += votes;
-            if (votes >= node.bestRepVotes && candidate) {
-              node.bestRepVotes = votes;
-              node.repCand = candidate;
-            }
-          } else {
-            node.other += votes;
-          }
-        });
+            const out = Array.from(byCounty.entries()).map(([county, v]) => ({
+              year: y,
+              county,
+              [`${contestType}_dem`]: v.dem,
+              [`${contestType}_rep`]: v.rep,
+              [`${contestType}_other`]: v.other,
+              [`${contestType}_total`]: v.dem + v.rep + v.other,
+              [`${contestType}_dem_candidate`]: v.demCand || '',
+              [`${contestType}_rep_candidate`]: v.repCand || ''
+            }));
 
-        return Array.from(byCounty.entries()).map(([county, v]) => ({
-          year: y,
-          county,
-          [`${contestType}_dem`]: v.dem,
-          [`${contestType}_rep`]: v.rep,
-          [`${contestType}_other`]: v.other,
-          [`${contestType}_total`]: v.dem + v.rep + v.other,
-          [`${contestType}_dem_candidate`]: v.demCand || '',
-          [`${contestType}_rep_candidate`]: v.repCand || ''
-        }));
+            if (out.length > 0 || path === paths[paths.length - 1]) return out;
+          } catch (err) {
+            lastErr = err;
+          }
+        }
+
+        if (lastErr) throw lastErr;
+        return [];
       }
 
 	    async function loadPresidentSliceFromOpenElectionsCSV(year) {
