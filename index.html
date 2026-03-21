@@ -541,7 +541,8 @@
           .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
           .replace(/\s+/g, ' ')
           .trim()
-          .toUpperCase();
+          .toUpperCase()
+          .replace(/\bLA\s*SALLE\b/g, 'LA SALLE');
       }
       const normTarget = normalizeCountyName(countyName);
       const countyFeature = counties.find(f => {
@@ -7422,7 +7423,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const s0 = (raw || '').toString().trim().toUpperCase().replace(/&/g, ' AND ').replace(/\s+/g, ' ');
 	      if (!s0) return '';
 	      const m = s0.match(/^(.+?)\s+(COUNTY|CITY|TOWN)$/);
-	      return m ? m[1].trim() : s0;
+	      return (m ? m[1].trim() : s0).replace(/\bLA\s*SALLE\b/g, 'LA SALLE');
 	    }
 
 	    function canonicalCountyFromOpenElections(rawCounty) {
@@ -7872,7 +7873,8 @@ document.addEventListener('DOMContentLoaded', function() {
       .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
       .replace(/\s+/g, ' ')
       .trim()
-      .toUpperCase();
+      .toUpperCase()
+      .replace(/\bLA\s*SALLE\b/g, 'LA SALLE');
   }
   electionData.forEach(row => {
     let name = normalizeCountyName(row[countyNameKey]);
@@ -7897,7 +7899,8 @@ document.addEventListener('DOMContentLoaded', function() {
           .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
           .replace(/\s+/g, ' ')
           .trim()
-          .toUpperCase();
+          .toUpperCase()
+          .replace(/\bLA\s*SALLE\b/g, 'LA SALLE');
       }
       geojson.features.forEach(f => {
         const p = f.properties || {};
@@ -7914,6 +7917,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'us_senate': 'United States Senator',
 	        'lieutenant_governor': 'Lieutenant Governor',
 	        'attorney_general': 'Attorney General',
+	        'comptroller': 'Comptroller of Public Accounts',
+	        'land_commissioner': 'Commissioner of the General Land Office',
+	        'railroad_commissioner': 'Railroad Commissioner',
 	        'auditor': 'State Auditor',
 	        'labor_commissioner': 'Commissioner of Labor',
 	        'insurance_commissioner': 'Commissioner of Insurance',
@@ -8003,6 +8009,9 @@ document.addEventListener('DOMContentLoaded', function() {
           'governor',
           'lieutenant_governor',
           'attorney_general',
+          'comptroller',
+          'land_commissioner',
+          'railroad_commissioner',
           'auditor',
           'secretary_of_state',
           'treasurer',
@@ -8045,11 +8054,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	      function groupLabelForContestType(contestType) {
 	        if (contestType === 'president') return 'US President';
 	        if (contestType === 'us_senate') return 'US Senate';
-	        if (contestType.startsWith('supreme_court_')) return 'Supreme Court';
-	        if (contestType.startsWith('court_of_criminal_appeals_')) return 'Court of Criminal Appeals';
 	        if (contestType === 'governor') return 'Governor';
 	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
 	        if (contestType === 'attorney_general') return 'Attorney General';
+	        if (contestType === 'comptroller') return 'Comptroller of Public Accounts';
+	        if (contestType === 'land_commissioner') return 'Commissioner of the General Land Office';
+	        if (contestType === 'railroad_commissioner') return 'Railroad Commissioner';
 	        if (contestType === 'secretary_of_state') return 'Secretary of State';
 	        if (contestType === 'treasurer') return 'Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
@@ -8057,6 +8067,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
 	        if (contestType === 'agriculture_commissioner') return 'Agriculture Commissioner';
 	        if (contestType === 'superintendent') return 'Superintendent of Public Instruction';
+	        if (contestType.startsWith('supreme_court_')) return 'Supreme Court';
+	        if (contestType.startsWith('court_of_criminal_appeals_')) return 'Court of Criminal Appeals';
 	        if (contestType.startsWith('nc_supreme_court_')) return 'NC Supreme Court';
 	        if (contestType.startsWith('nc_court_of_appeals_')) return 'Court of Appeals';
 	        return formatContestName(contestType, '');
@@ -8074,11 +8086,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const groupOrder = [
 	        'US President',
 	        'US Senate',
-          'Supreme Court',
-          'Court of Criminal Appeals',
 	        'Governor',
 	        'Lieutenant Governor',
 	        'Attorney General',
+	        'Comptroller of Public Accounts',
+	        'Commissioner of the General Land Office',
 	        'Secretary of State',
 	        'Treasurer',
 	        'Auditor',
@@ -8086,6 +8098,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'Insurance Commissioner',
 	        'Agriculture Commissioner',
 	        'Superintendent of Public Instruction',
+	        'Railroad Commissioner',
+          'Supreme Court',
+          'Court of Criminal Appeals',
 	        'NC Supreme Court',
 	        'Court of Appeals'
 	      ];
@@ -8219,6 +8234,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'governor',
 	        'lieutenant_governor',
 	        'attorney_general',
+	        'comptroller',
+	        'land_commissioner',
+	        'railroad_commissioner',
 	        'secretary_of_state',
 	        'treasurer',
 	        'auditor',
@@ -8240,11 +8258,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	      function groupLabelForContestType(contestType) {
 	        if (contestType === 'president') return 'US President';
 	        if (contestType === 'us_senate') return 'US Senate';
-	        if (contestType.startsWith('supreme_court_')) return 'Supreme Court';
-	        if (contestType.startsWith('court_of_criminal_appeals_')) return 'Court of Criminal Appeals';
 	        if (contestType === 'governor') return 'Governor';
 	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
 	        if (contestType === 'attorney_general') return 'Attorney General';
+	        if (contestType === 'comptroller') return 'Comptroller of Public Accounts';
+	        if (contestType === 'land_commissioner') return 'Commissioner of the General Land Office';
+	        if (contestType === 'railroad_commissioner') return 'Railroad Commissioner';
 	        if (contestType === 'secretary_of_state') return 'Secretary of State';
 	        if (contestType === 'treasurer') return 'Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
@@ -8252,24 +8271,29 @@ document.addEventListener('DOMContentLoaded', function() {
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
 	        if (contestType === 'agriculture_commissioner') return 'Agriculture Commissioner';
 	        if (contestType === 'superintendent') return 'Superintendent of Public Instruction';
+	        if (contestType.startsWith('supreme_court_')) return 'Supreme Court';
+	        if (contestType.startsWith('court_of_criminal_appeals_')) return 'Court of Criminal Appeals';
 	        return formatContestName(contestType, '');
 	      }
 
 	      const groupOrder = [
 	        'US President',
 	        'US Senate',
-          'Supreme Court',
-          'Court of Criminal Appeals',
 	        'Governor',
 	        'Lieutenant Governor',
 	        'Attorney General',
+	        'Comptroller of Public Accounts',
+	        'Commissioner of the General Land Office',
 	        'Secretary of State',
 	        'Treasurer',
 	        'Auditor',
 	        'Labor Commissioner',
 	        'Insurance Commissioner',
 	        'Agriculture Commissioner',
-	        'Superintendent of Public Instruction'
+	        'Superintendent of Public Instruction',
+	        'Railroad Commissioner',
+          'Supreme Court',
+          'Court of Criminal Appeals'
 	      ];
 
 	      const grouped = new Map(); // label -> Array<{contestType, year}>
@@ -10501,7 +10525,8 @@ document.addEventListener('DOMContentLoaded', function() {
           .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
           .replace(/\s+/g, ' ')
           .trim()
-          .toUpperCase();
+          .toUpperCase()
+          .replace(/\bLA\s*SALLE\b/g, 'LA SALLE');
       }
       let norm = normalizeCountyName(countyName);
       let countyData = currentElectionResults[norm];
@@ -13565,7 +13590,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	          .replace(/[^a-z0-9 .\-]/gi, '')
 	          .replace(/\s+/g, ' ')
 	          .trim()
-	          .toUpperCase();
+	          .toUpperCase()
+	          .replace(/\bLA\s*SALLE\b/g, 'LA SALLE');
 	      }
 
       // Only build heavy precinct matching/color expressions when the overlay is enabled.
