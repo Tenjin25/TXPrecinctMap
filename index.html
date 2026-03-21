@@ -3003,7 +3003,7 @@ body { height: var(--app-height); }
   }
 
   .focus-bar-segment.dem {
-    background: linear-gradient(90deg, #002868, #5b7db8);
+    background: linear-gradient(90deg, #4f73ad, #8db0de);
   }
 
   .focus-bar-segment.other {
@@ -3011,7 +3011,7 @@ body { height: var(--app-height); }
   }
 
   .focus-bar-segment.rep {
-    background: linear-gradient(90deg, #d66a84, #bf0a30);
+    background: linear-gradient(90deg, #e08da1, #d45571);
   }
 
   .focus-bar-midpoint {
@@ -4844,8 +4844,8 @@ body { height: var(--app-height); }
     transition: width 240ms ease;
   }
 
-  .vote-share-fill.dem { background: linear-gradient(90deg, #5b7db8 0%, #002868 100%); }
-  .vote-share-fill.rep { background: linear-gradient(90deg, #d95a76 0%, #bf0a30 100%); }
+  .vote-share-fill.dem { background: linear-gradient(90deg, #8db0de 0%, #4f73ad 100%); }
+  .vote-share-fill.rep { background: linear-gradient(90deg, #ea9aab 0%, #d45571 100%); }
   .vote-share-fill.other { background: linear-gradient(90deg, #94a3b8 0%, #64748b 100%); }
 
   /* Safe fallback: if one-line layout overflows, JS adds .layout-stacked per card. */
@@ -6977,9 +6977,9 @@ document.addEventListener('DOMContentLoaded', function() {
                   <span class="rep">${escapeHtml(`${shortCandidateLabel(entry.item.rep_candidate, 'Rep')} ${entry.repPct.toFixed(2)}%`)}</span>
                 </div>
                 <div class="focus-trend-entry-bar" aria-hidden="true">
-                  <span style="width:${entry.demPct.toFixed(4)}%;background:#002868;"></span>
+                  <span style="width:${entry.demPct.toFixed(4)}%;background:#4f73ad;"></span>
                   ${entry.otherVotes > 0 ? `<span style="width:${entry.otherPct.toFixed(4)}%;background:#64748b;"></span>` : ''}
-                  <span style="width:${entry.repPct.toFixed(4)}%;background:#bf0a30;"></span>
+                  <span style="width:${entry.repPct.toFixed(4)}%;background:#d45571;"></span>
                 </div>
                 <div class="focus-trend-entry-footer">
                   <span class="focus-trend-chip">${escapeHtml(totalVotesLabel)}</span>
@@ -7280,25 +7280,99 @@ document.addEventListener('DOMContentLoaded', function() {
 	    const OPEN_ELECTIONS_CSV = {
 	      president: {
 	        2000: withBase('./Data/openelections-data-tx/2000/20001107__tx__general__county.csv'),
+	        2002: withBase('./Data/openelections-data-tx/2002/20021105__tx__general__county.csv'),
 	        2004: withBase('./Data/openelections-data-tx/2004/20041102__tx__general__county.csv'),
+	        2006: withBase('./Data/openelections-data-tx/2006/20061107__tx__general__county.csv'),
 	        2008: withBase('./Data/openelections-data-tx/2008/20081104__tx__general__county.csv'),
-	        2012: withBase('./Data/openelections-data-tx/2012/20121106__tx__general__county.csv')
+	        2010: withBase('./Data/openelections-data-tx/2010/20101102__tx__general__county.csv'),
+	        2012: withBase('./Data/openelections-data-tx/2012/20121106__tx__general__county.csv'),
+	        2016: withBase('./Data/openelections-data-tx/2016/20161108__tx__general__county.csv'),
+	        2018: withBase('./Data/openelections-data-tx/2018/20181106__tx__general__county.csv'),
+	        2024: withBase('./Data/20241105__tx__general__county__from_clarity.csv')
 	      }
 	    };
+
+      // County-level general-election CSV fallback by year.
+      // 2024 uses the clarity-derived county file in project root Data/.
+      const COUNTY_GENERAL_CSV = {
+        2000: withBase('./Data/openelections-data-tx/2000/20001107__tx__general__county.csv'),
+        2002: withBase('./Data/openelections-data-tx/2002/20021105__tx__general__county.csv'),
+        2004: withBase('./Data/openelections-data-tx/2004/20041102__tx__general__county.csv'),
+        2006: withBase('./Data/openelections-data-tx/2006/20061107__tx__general__county.csv'),
+        2008: withBase('./Data/openelections-data-tx/2008/20081104__tx__general__county.csv'),
+        2010: withBase('./Data/openelections-data-tx/2010/20101102__tx__general__county.csv'),
+        2012: withBase('./Data/openelections-data-tx/2012/20121106__tx__general__county.csv'),
+        2016: withBase('./Data/openelections-data-tx/2016/20161108__tx__general__county.csv'),
+        2018: withBase('./Data/openelections-data-tx/2018/20181106__tx__general__county.csv'),
+        2024: withBase('./Data/20241105__tx__general__county__from_clarity.csv')
+      };
 
 	    function getOpenElectionsCsvPath(contestType, year) {
 	      const y = Number(year);
 	      return OPEN_ELECTIONS_CSV?.[contestType]?.[y] || null;
 	    }
 
+      function getCountyGeneralCsvPath(year) {
+        const y = Number(year);
+        return COUNTY_GENERAL_CSV?.[y] || null;
+      }
+
+      function normalizeOfficeForMatch(officeRaw) {
+        return (officeRaw || '')
+          .toString()
+          .toUpperCase()
+          .replace(/[._/()-]+/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+      }
+
+      function parsePlaceNumberFromOffice(officeNorm) {
+        if (!officeNorm) return null;
+        const patterns = [
+          /\bPLACE\s*(?:NO\.?|NUMBER)?\s*([0-9]{1,2})\b/i,
+          /\bPL(?:ACE)?\.?\s*([0-9]{1,2})\b/i,
+          /\bP([0-9]{1,2})\b/i
+        ];
+        for (const pat of patterns) {
+          const m = officeNorm.match(pat);
+          if (m) {
+            const n = Number(m[1]);
+            if (Number.isFinite(n)) return n;
+          }
+        }
+        return null;
+      }
+
 	    function officeMatchesContestType(officeRaw, contestType) {
-	      const norm = (officeRaw || '').toString().toUpperCase().replace(/[^A-Z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
+	      const norm = normalizeOfficeForMatch(officeRaw);
 	      if (!norm) return false;
 	      if (contestType === 'president') return /\bPRESIDENT\b/.test(norm);
-	      if (contestType === 'us_senate') return norm === 'US SENATE' || norm === 'U S SENATE';
-	      if (contestType === 'governor') return norm === 'GOVERNOR';
-	      if (contestType === 'lieutenant_governor') return norm === 'LIEUTENANT GOVERNOR';
-	      if (contestType === 'attorney_general') return norm === 'ATTORNEY GENERAL';
+	      if (contestType === 'us_senate') return /\b(U S|US|UNITED STATES)\s*(SENATE|SENATOR)\b/.test(norm);
+	      if (contestType === 'governor') return /\bGOVERNOR\b/.test(norm) && !/\b(LIEUTENANT|LT)\b/.test(norm);
+	      if (contestType === 'lieutenant_governor') return /\b(LIEUTENANT|LT)\b.*\bGOVERNOR\b/.test(norm);
+	      if (contestType === 'attorney_general') return /\bATTORNEY\s+GENERAL\b/.test(norm);
+	      if (contestType === 'comptroller') return /\bCOMPTROLLER\b/.test(norm);
+	      if (contestType === 'land_commissioner') return /\b(GENERAL\s+LAND\s+OFFICE|LAND\s+COMMISSIONER|LAND\s+OFFICE)\b/.test(norm);
+	      if (contestType === 'agriculture_commissioner') return /\b(AGRICULTURE|AGRICULTURAL)\b/.test(norm);
+	      if (contestType === 'railroad_commissioner') return /\bRAILROAD\s+COMMISSIONER\b/.test(norm);
+        if (contestType === 'court_of_criminal_appeals_presiding_judge') {
+          return /\b(COURT\s+OF\s+CRIMINAL\s+APPEALS|CRIMINAL\s+APPEALS)\b/.test(norm) && /\bPRESIDING\s+JUDGE\b/.test(norm);
+        }
+        const ccaPlaceMatch = contestType.match(/^court_of_criminal_appeals_place_(\d{1,2})$/);
+        if (ccaPlaceMatch) {
+          if (!/\b(COURT\s+OF\s+CRIMINAL\s+APPEALS|CRIMINAL\s+APPEALS)\b/.test(norm)) return false;
+          if (/\bPRESIDING\s+JUDGE\b/.test(norm)) return false;
+          const expected = Number(ccaPlaceMatch[1]);
+          return parsePlaceNumberFromOffice(norm) === expected;
+        }
+        const scPlaceMatch = contestType.match(/^supreme_court_place_(\d{1,2})(_unexpired)?$/);
+        if (scPlaceMatch) {
+          if (!/\bSUPREME\s+(COURT|CRT|CT)\b/.test(norm)) return false;
+          const expected = Number(scPlaceMatch[1]);
+          const wantUnexpired = !!scPlaceMatch[2];
+          if (wantUnexpired && !/\bUNEXPIRED\b/.test(norm)) return false;
+          return parsePlaceNumberFromOffice(norm) === expected;
+        }
 	      return false;
 	    }
 
@@ -7376,15 +7450,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	          if (!officeMatchesContestType(office, contestType)) return;
 	          const county = canonicalCountyFromOpenElections(r.county);
 	          const precinctRaw = (r.precinct || '').toString().trim();
-	          if (!county || !precinctRaw) return;
+	          if (!county) return;
 	          const code = extractPrecinctCode(precinctRaw);
-	          if (!code) return;
-	          const key = `${county} - ${code}`.replace(/\s+/g, ' ').trim();
+	          const key = code
+	            ? `${county} - ${code}`.replace(/\s+/g, ' ').trim()
+	            : county;
 	          const party = (r.party || '').toString().trim().toUpperCase();
 	          const cand = (r.candidate || '').toString().trim();
 	          const votes = Number(r.votes) || 0;
 
-	          if (!byPrecinct.has(key)) byPrecinct.set(key, { dem: 0, rep: 0, other: 0, demCand: '', repCand: '', label: precinctRaw });
+	          if (!byPrecinct.has(key)) byPrecinct.set(key, { dem: 0, rep: 0, other: 0, demCand: '', repCand: '', label: precinctRaw || county });
 	          const node = byPrecinct.get(key);
 	          if (party === 'DEM') { node.dem += votes; if (!node.demCand && cand) node.demCand = cand; }
 	          else if (party === 'REP') { node.rep += votes; if (!node.repCand && cand) node.repCand = cand; }
@@ -7405,6 +7480,74 @@ document.addEventListener('DOMContentLoaded', function() {
 	        [`${contestType}_rep_candidate`]: v.repCand
 	      }));
 	    }
+
+      async function loadCountySliceFromGeneralCountyCSV(contestType, year) {
+        const y = Number(year);
+        const path = getCountyGeneralCsvPath(y);
+        if (!path) throw new Error(`No county CSV configured for ${year}`);
+
+        const csvText = await loadCSV(path);
+        const rows = parseCSV(csvText);
+        const byCounty = new Map();
+
+        rows.forEach(r => {
+          const office = (r.office || '').toString();
+          if (!officeMatchesContestType(office, contestType)) return;
+
+          const county = canonicalCountyFromOpenElections(r.county);
+          if (!county) return;
+
+          const candidate = (r.candidate || '').toString().trim();
+          if (/^TOTAL$/i.test(candidate)) return;
+
+          const partyRaw = (r.party || '').toString().trim().toUpperCase();
+          const party = partyRaw.startsWith('DEM') ? 'DEM' : (partyRaw.startsWith('REP') ? 'REP' : 'OTHER');
+
+          const votesRaw = (r.votes ?? '').toString().replace(/,/g, '').trim();
+          const votes = Number(votesRaw);
+          if (!Number.isFinite(votes)) return;
+
+          if (!byCounty.has(county)) {
+            byCounty.set(county, {
+              dem: 0,
+              rep: 0,
+              other: 0,
+              demCand: '',
+              repCand: '',
+              bestDemVotes: -1,
+              bestRepVotes: -1
+            });
+          }
+
+          const node = byCounty.get(county);
+          if (party === 'DEM') {
+            node.dem += votes;
+            if (votes >= node.bestDemVotes && candidate) {
+              node.bestDemVotes = votes;
+              node.demCand = candidate;
+            }
+          } else if (party === 'REP') {
+            node.rep += votes;
+            if (votes >= node.bestRepVotes && candidate) {
+              node.bestRepVotes = votes;
+              node.repCand = candidate;
+            }
+          } else {
+            node.other += votes;
+          }
+        });
+
+        return Array.from(byCounty.entries()).map(([county, v]) => ({
+          year: y,
+          county,
+          [`${contestType}_dem`]: v.dem,
+          [`${contestType}_rep`]: v.rep,
+          [`${contestType}_other`]: v.other,
+          [`${contestType}_total`]: v.dem + v.rep + v.other,
+          [`${contestType}_dem_candidate`]: v.demCand || '',
+          [`${contestType}_rep_candidate`]: v.repCand || ''
+        }));
+      }
 
 	    async function loadPresidentSliceFromOpenElectionsCSV(year) {
 	      return loadStatewideSliceFromOpenElectionsCSV('president', year);
@@ -7429,38 +7572,55 @@ document.addEventListener('DOMContentLoaded', function() {
 	      }
 
 	      const fileKey = `${contestType}_${year}`;
-	      try {
-	        const payload = await loadJSON(`${CONFIG.paths.contests_dir}/${fileKey}.json`);
-	        const rows = (payload.rows || []).map(r => ({
-	          year: Number(year),
-	          county: r.county,
-          [`${contestType}_dem`]: Number(r.dem_votes) || 0,
-          [`${contestType}_rep`]: Number(r.rep_votes) || 0,
-          [`${contestType}_other`]: Number(r.other_votes) || 0,
-          [`${contestType}_total`]: Number(r.total_votes) || 0,
-          [`${contestType}_dem_candidate`]: r.dem_candidate || '',
-          [`${contestType}_rep_candidate`]: r.rep_candidate || '',
-          [`${contestType}_margin`]: Number(r.margin) || 0,
-          [`${contestType}_margin_pct`]: Number(r.margin_pct) || 0,
-          [`${contestType}_winner`]: r.winner || '',
-          [`${contestType}_color`]: r.color || ''
-        }));
-	        contestSliceCache.set(cacheKey, rows);
-	        return rows;
-	      } catch (_) {
-	        if (getOpenElectionsCsvPath(contestType, Number(year))) {
-	          try {
-	            const rows = await loadStatewideSliceFromOpenElectionsCSV(contestType, Number(year));
-	            contestSliceCache.set(cacheKey, rows);
-	            return rows;
-	          } catch (err) {
-	            console.warn('Failed to load OpenElections CSV for', contestType, year, err?.message || err);
-	          }
-	        }
-	        const fallback = (electionData || []).filter(row => row.year == year);
-	        contestSliceCache.set(cacheKey, fallback);
-	        return fallback;
-	      }
+        try {
+          const payload = await loadJSON(`${CONFIG.paths.contests_dir}/${fileKey}.json`);
+          const rows = (payload.rows || []).map(r => ({
+            year: Number(year),
+            county: r.county,
+            [`${contestType}_dem`]: Number(r.dem_votes) || 0,
+            [`${contestType}_rep`]: Number(r.rep_votes) || 0,
+            [`${contestType}_other`]: Number(r.other_votes) || 0,
+            [`${contestType}_total`]: Number(r.total_votes) || 0,
+            [`${contestType}_dem_candidate`]: r.dem_candidate || '',
+            [`${contestType}_rep_candidate`]: r.rep_candidate || '',
+            [`${contestType}_margin`]: Number(r.margin) || 0,
+            [`${contestType}_margin_pct`]: Number(r.margin_pct) || 0,
+            [`${contestType}_winner`]: r.winner || '',
+            [`${contestType}_color`]: r.color || ''
+          }));
+          if (rows && rows.length) {
+            contestSliceCache.set(cacheKey, rows);
+            return rows;
+          }
+        } catch (_) {}
+
+        if (getCountyGeneralCsvPath(Number(year))) {
+          try {
+            const countyRows = await loadCountySliceFromGeneralCountyCSV(contestType, Number(year));
+            if (countyRows && countyRows.length) {
+              contestSliceCache.set(cacheKey, countyRows);
+              return countyRows;
+            }
+          } catch (err) {
+            console.warn('Failed county CSV fallback for', contestType, year, err?.message || err);
+          }
+        }
+
+        if (getOpenElectionsCsvPath(contestType, Number(year))) {
+          try {
+            const rows = await loadStatewideSliceFromOpenElectionsCSV(contestType, Number(year));
+            if (rows && rows.length) {
+              contestSliceCache.set(cacheKey, rows);
+              return rows;
+            }
+          } catch (err) {
+            console.warn('Failed to load OpenElections CSV for', contestType, year, err?.message || err);
+          }
+        }
+
+	      const fallback = (electionData || []).filter(row => row.year == year);
+	      contestSliceCache.set(cacheKey, fallback);
+	      return fallback;
 	    }
 
       // Candidate labels are sometimes blank in older district contest slices (notably US Senate pre-2008).
@@ -7485,6 +7645,24 @@ document.addEventListener('DOMContentLoaded', function() {
           contestCandidateCache.set(key, out);
           return out;
         } catch (_) {
+          try {
+            const countyRows = await loadCountySliceFromGeneralCountyCSV(contestType, Number(year));
+            if (countyRows && countyRows.length) {
+              let bestDem = { name: '', votes: -1 };
+              let bestRep = { name: '', votes: -1 };
+              countyRows.forEach(r => {
+                const dName = (r?.[`${contestType}_dem_candidate`] || '').toString().trim();
+                const rName = (r?.[`${contestType}_rep_candidate`] || '').toString().trim();
+                const dVotes = Number(r?.[`${contestType}_dem`] || 0);
+                const rVotes = Number(r?.[`${contestType}_rep`] || 0);
+                if (dName && dVotes >= bestDem.votes) bestDem = { name: dName, votes: dVotes };
+                if (rName && rVotes >= bestRep.votes) bestRep = { name: rName, votes: rVotes };
+              });
+              const out = { dem: bestDem.name || '', rep: bestRep.name || '' };
+              contestCandidateCache.set(key, out);
+              return out;
+            }
+          } catch (_) {}
           contestCandidateCache.set(key, empty);
           return empty;
         }
@@ -8179,9 +8357,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // On narrow screens, tiny Other shares can be visually invisible, so we add a marker.
         let barFlex = '';
         if (otherVotes > 0) {
-          barFlex = `<div style="width:${demPct}%;background:#002868;"></div><div style="width:${repPct}%;background:#bf0a30;"></div><div style="width:${otherPct}%;background:#6b7280;"></div>`;
+          barFlex = `<div style="width:${demPct}%;background:#4f73ad;"></div><div style="width:${repPct}%;background:#d45571;"></div><div style="width:${otherPct}%;background:#6b7280;"></div>`;
         } else {
-          barFlex = `<div style="width:${demPct}%;background:#002868;"></div><div style="width:${repPct}%;background:#bf0a30;"></div>`;
+          barFlex = `<div style="width:${demPct}%;background:#4f73ad;"></div><div style="width:${repPct}%;background:#d45571;"></div>`;
         }
         const tinyOtherMarker = (isMobile && otherVotes > 0 && otherPct > 0 && otherPct < 1.5)
           ? `<div style="position:absolute;top:0;right:0;width:3px;height:100%;background:#6b7280;border-left:1px solid rgba(255,255,255,0.75);" aria-hidden="true"></div>`
@@ -9081,9 +9259,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const shareChips = breakdownItems.map(item => (
           `<div class="statewide-share-chip ${item.key}">${item.label} <strong>${item.pct.toFixed(2)}%</strong></div>`
         )).join('');
-        const barSegments = [`<div style="width:${demPct.toFixed(4)}%;background:#002868;"></div>`];
+        const barSegments = [`<div style="width:${demPct.toFixed(4)}%;background:#4f73ad;"></div>`];
         if (otherVotes > 0) barSegments.push(`<div style="width:${otherPct.toFixed(4)}%;background:#6b7280;"></div>`);
-        barSegments.push(`<div style="width:${repPct.toFixed(4)}%;background:#bf0a30;"></div>`);
+        barSegments.push(`<div style="width:${repPct.toFixed(4)}%;background:#d45571;"></div>`);
         const breakdownGrid = breakdownItems.map(item => (
           `<div class="statewide-breakdown-item">` +
             `<div class="statewide-breakdown-head">` +
