@@ -3003,7 +3003,7 @@ body { height: var(--app-height); }
   }
 
   .focus-bar-segment.dem {
-    background: linear-gradient(90deg, #4f73ad, #8db0de);
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
   }
 
   .focus-bar-segment.other {
@@ -3011,7 +3011,7 @@ body { height: var(--app-height); }
   }
 
   .focus-bar-segment.rep {
-    background: linear-gradient(90deg, #e08da1, #d45571);
+    background: linear-gradient(90deg, #f87171, #dc2626);
   }
 
   .focus-bar-midpoint {
@@ -4844,8 +4844,8 @@ body { height: var(--app-height); }
     transition: width 240ms ease;
   }
 
-  .vote-share-fill.dem { background: linear-gradient(90deg, #8db0de 0%, #4f73ad 100%); }
-  .vote-share-fill.rep { background: linear-gradient(90deg, #ea9aab 0%, #d45571 100%); }
+  .vote-share-fill.dem { background: linear-gradient(90deg, #60a5fa 0%, #2563eb 100%); }
+  .vote-share-fill.rep { background: linear-gradient(90deg, #fb7185 0%, #dc2626 100%); }
   .vote-share-fill.other { background: linear-gradient(90deg, #94a3b8 0%, #64748b 100%); }
 
   /* Safe fallback: if one-line layout overflows, JS adds .layout-stacked per card. */
@@ -5980,28 +5980,28 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <div class="modal-body">
           <h3>Modes</h3>
-          <p><strong>Margins</strong>: colors show the <strong>two-party margin</strong> (absolute value of Rep% Ã¢Ë†â€™ Dem%). Darker = less competitive.</p>
+          <p><strong>Margins</strong>: colors show the <strong>two-party margin</strong> (absolute value of Rep% - Dem%). Darker = less competitive.</p>
           <p><strong>Winners</strong>: solid color by winner (D/R), regardless of margin size.</p>
-          <p><strong>Shift</strong>: change in <strong>signed</strong> margin vs the nearest available prior election for that contest (e.g. 2020Ã¢â€ â€™2024). Positive = more Republican; negative = more Democratic.</p>
+          <p><strong>Shift</strong>: change in <strong>signed</strong> margin vs the nearest available prior election for that contest (e.g. 2020-2024). Positive = more Republican; negative = more Democratic.</p>
 
           <h3>Political Categories</h3>
           <p>Category names are just shorthand for margin ranges:</p>
           <ul>
             <li><strong>Annihilation</strong>: &ge;40%</li>
-            <li><strong>Dominant</strong>: 30Ã¢â‚¬â€œ39.99%</li>
-            <li><strong>Stronghold</strong>: 20Ã¢â‚¬â€œ29.99%</li>
-            <li><strong>Safe</strong>: 10Ã¢â‚¬â€œ19.99%</li>
-            <li><strong>Likely</strong>: 5.50Ã¢â‚¬â€œ9.99%</li>
-            <li><strong>Lean</strong>: 1.00Ã¢â‚¬â€œ5.49%</li>
-            <li><strong>Tilt</strong>: 0.50Ã¢â‚¬â€œ0.99%</li>
+            <li><strong>Dominant</strong>: 30-39.99%</li>
+            <li><strong>Stronghold</strong>: 20-29.99%</li>
+            <li><strong>Safe</strong>: 10-19.99%</li>
+            <li><strong>Likely</strong>: 5.50-9.99%</li>
+            <li><strong>Lean</strong>: 1.00-5.49%</li>
+            <li><strong>Tilt</strong>: 0.50-0.99%</li>
             <li><strong>Tossup</strong>: &lt;0.50%</li>
           </ul>
-          <p class="meta-subtle">Example: Ã¢â‚¬Å“Safe Republican (10Ã¢â‚¬â€œ19.99%)Ã¢â‚¬Â means the Republican candidate leads by 10Ã¢â‚¬â€œ19.99 percentage points (two-party margin).</p>
+          <p class="meta-subtle">Example: "Safe Republican (10-19.99%)" means the Republican candidate leads by 10-19.99 percentage points (two-party margin).</p>
 
           <h3>Hover + Pin</h3>
           <ul>
             <li>Hover a shape to see a quick result card.</li>
-            <li>Click <strong>Pin</strong> in the tooltip to freeze it (so it wonÃ¢â‚¬â„¢t change while you move the mouse).</li>
+            <li>Click <strong>Pin</strong> in the tooltip to freeze it (so it won't change while you move the mouse).</li>
             <li>Use <strong>Close</strong> to dismiss a pinned tooltip.</li>
           </ul>
 
@@ -6009,12 +6009,12 @@ document.addEventListener('DOMContentLoaded', function() {
           <ul>
             <li><span class="kbd">P</span> toggles precinct overlay (dots at statewide zoom; polygons when zoomed in).</li>
             <li><span class="kbd">L</span> toggles county labels.</li>
-            <li><strong>Ã¢â„¢Â¿</strong> toggles colorblind-friendly colors.</li>
+            <li><strong>Accessibility button</strong> toggles colorblind-friendly colors.</li>
             <li><strong>Clear</strong> (in the vote counter) unpins a selected area.</li>
           </ul>
 
           <h3>Notes</h3>
-          <p class="meta-subtle">If Shift canÃ¢â‚¬â„¢t find a prior year for the selected contest, it falls back to Margins.</p>
+          <p class="meta-subtle">If Shift can't find a prior year for the selected contest, it falls back to Margins.</p>
         </div>
       </div>
     </div>
@@ -6388,7 +6388,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let districtsInfo = null;
     let stateHouseInfo = null;
     let stateSenateInfo = null;
-    let districtDescriptions = null; // Optional labels like "Sampson & Bladen Counties" or "ConcordÃ¢â‚¬â€œHarrisburg"
+    let districtDescriptions = null; // Optional labels like "Sampson & Bladen Counties" or "Concord-Harrisburg"
     let countyDemographics = null; // County-level VAP (18+) + total-pop race/ethnicity from DP1
     let countyNameMap = {};
     let currentView = 'counties'; // 'counties', 'districts', 'state_house', 'state_senate'
@@ -6545,7 +6545,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="legend-item"><div class="legend-color" style="background: ${colorForFlipMode('T')}; border: 1px solid rgba(15,23,42,0.20);"></div>No flip / No prior</div>
         `;
       } else if (mode === 'shift') {
-        const a = meta?.fromYear ? `${meta.fromYear} Ã¢â€ â€™ ${meta.toYear || ''}`.trim() : 'Shift';
+        const a = meta?.fromYear ? `${meta.fromYear} -> ${meta.toYear || ''}`.trim() : 'Shift';
         if (header) header.textContent = meta?.fromYear ? `Shift (${a})` : 'Shift';
         content.innerHTML = `
           <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(-15)};"></div>D +15%</div>
@@ -6977,9 +6977,9 @@ document.addEventListener('DOMContentLoaded', function() {
                   <span class="rep">${escapeHtml(`${shortCandidateLabel(entry.item.rep_candidate, 'Rep')} ${entry.repPct.toFixed(2)}%`)}</span>
                 </div>
                 <div class="focus-trend-entry-bar" aria-hidden="true">
-                  <span style="width:${entry.demPct.toFixed(4)}%;background:#4f73ad;"></span>
+                  <span style="width:${entry.demPct.toFixed(4)}%;background:#2563eb;"></span>
                   ${entry.otherVotes > 0 ? `<span style="width:${entry.otherPct.toFixed(4)}%;background:#64748b;"></span>` : ''}
-                  <span style="width:${entry.repPct.toFixed(4)}%;background:#d45571;"></span>
+                  <span style="width:${entry.repPct.toFixed(4)}%;background:#dc2626;"></span>
                 </div>
                 <div class="focus-trend-entry-footer">
                   <span class="focus-trend-chip">${escapeHtml(totalVotesLabel)}</span>
@@ -8449,9 +8449,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // On narrow screens, tiny Other shares can be visually invisible, so we add a marker.
         let barFlex = '';
         if (otherVotes > 0) {
-          barFlex = `<div style="width:${demPct}%;background:#4f73ad;"></div><div style="width:${repPct}%;background:#d45571;"></div><div style="width:${otherPct}%;background:#6b7280;"></div>`;
+          barFlex = `<div style="width:${demPct}%;background:#2563eb;"></div><div style="width:${repPct}%;background:#dc2626;"></div><div style="width:${otherPct}%;background:#6b7280;"></div>`;
         } else {
-          barFlex = `<div style="width:${demPct}%;background:#4f73ad;"></div><div style="width:${repPct}%;background:#d45571;"></div>`;
+          barFlex = `<div style="width:${demPct}%;background:#2563eb;"></div><div style="width:${repPct}%;background:#dc2626;"></div>`;
         }
         const tinyOtherMarker = (isMobile && otherVotes > 0 && otherPct > 0 && otherPct < 1.5)
           ? `<div style="position:absolute;top:0;right:0;width:3px;height:100%;background:#6b7280;border-left:1px solid rgba(255,255,255,0.75);" aria-hidden="true"></div>`
@@ -8915,7 +8915,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (lead) return lead;
       }
       // Common presidential ticket separators.
-      const seps = [' / ', '/', ' & ', '&', ' + ', '+', ' - ', ' Ã¢â‚¬â€œ ', ' Ã¢â‚¬â€ '];
+      const seps = [' / ', '/', ' & ', '&', ' + ', '+', ' - ', ' – ', ' — '];
       seps.unshift('|');
       seps.unshift(' | ');
       for (const sep of seps) {
@@ -9350,9 +9350,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const shareChips = breakdownItems.map(item => (
           `<div class="statewide-share-chip ${item.key}">${item.label} <strong>${item.pct.toFixed(2)}%</strong></div>`
         )).join('');
-        const barSegments = [`<div style="width:${demPct.toFixed(4)}%;background:#4f73ad;"></div>`];
+        const barSegments = [`<div style="width:${demPct.toFixed(4)}%;background:#2563eb;"></div>`];
         if (otherVotes > 0) barSegments.push(`<div style="width:${otherPct.toFixed(4)}%;background:#6b7280;"></div>`);
-        barSegments.push(`<div style="width:${repPct.toFixed(4)}%;background:#d45571;"></div>`);
+        barSegments.push(`<div style="width:${repPct.toFixed(4)}%;background:#dc2626;"></div>`);
         const breakdownGrid = breakdownItems.map(item => (
           `<div class="statewide-breakdown-item">` +
             `<div class="statewide-breakdown-head">` +
@@ -9432,9 +9432,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const bar = `
         <div class="rc-bar" aria-label="Vote share bar">
-          <div style="width:${demPct.toFixed(4)}%;background:#1f4f98;"></div>
+          <div style="width:${demPct.toFixed(4)}%;background:#3b82f6;"></div>
           <div style="width:${otherPct.toFixed(4)}%;background:#9ca3af;"></div>
-          <div style="width:${repPct.toFixed(4)}%;background:#c11d3f;"></div>
+          <div style="width:${repPct.toFixed(4)}%;background:#ef4444;"></div>
         </div>
       `;
 
@@ -9591,7 +9591,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const abs = Math.abs(s);
       const label = abs < 0.01 ? 'No change' : `${dir} + ${abs.toFixed(2)}%`;
       const dotColor = colorForShiftMode(s);
-      const years = (prevYear && year) ? `${prevYear}Ã¢â€ â€™${year}` : '';
+      const years = (prevYear && year) ? `${prevYear}->${year}` : '';
       return `<span class="meta-chip shift"><span class="dot" style="background:${dotColor};"></span>Shift: ${label}${years ? ` <span style="color:#64748b;font-weight:800;">(${years})</span>` : ''}</span>`;
     }
 
@@ -10689,7 +10689,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (buckets.size) {
         sidebarContent += `<div class="margin-section">`;
         sidebarContent += '<h3 class="sidebar-section-title">Non-geographic votes</h3>';
-        sidebarContent += `<p class="sidebar-margin-details" style="margin-top:0;">Included in totals; not shown as precincts (e.g., Early Vote Ã¢â‚¬Å“EVÃ¢â‚¬Â).</p>`;
+        sidebarContent += `<p class="sidebar-margin-details" style="margin-top:0;">Included in totals; not shown as precincts (e.g., Early Vote "EV").</p>`;
         Array.from(buckets.entries())
           .sort((a, b) => (b[1].total || 0) - (a[1].total || 0))
           .slice(0, 10)
@@ -12428,7 +12428,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (districtInfo) {
         demographicInfo = `
           <div style="margin-bottom: 16px;">
-            <h5>Ã°Å¸â€˜Â¥ Demographics (VAP)</h5>
+            <h5>Demographics (VAP)</h5>
             <p><strong>Total Population:</strong> ${districtInfo.total_population.toLocaleString()}</p>
             <p><strong>White:</strong> ${districtInfo.white_vap_pct}%</p>
             <p><strong>Black:</strong> ${districtInfo.black_vap_pct}%</p>
@@ -12543,7 +12543,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (districtInfo) {
         demographicInfo = `
           <div style="margin-bottom: 16px;">
-            <h5>Ã°Å¸â€˜Â¥ Demographics (VAP)</h5>
+            <h5>Demographics (VAP)</h5>
             <p><strong>Total Population:</strong> ${districtInfo.total_population.toLocaleString()}</p>
             <p><strong>White:</strong> ${districtInfo.white_vap_pct}%</p>
             <p><strong>Black:</strong> ${districtInfo.black_vap_pct}%</p>
