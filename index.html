@@ -8861,8 +8861,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function leadMarginPctLabel(repVotes, demVotes, totalVotes) {
       const margin = Number(repVotes || 0) - Number(demVotes || 0);
       if (!margin) return 'Tie';
-      const side = margin > 0 ? 'R' : 'D';
-      return `${side}+${marginPctValue(repVotes, demVotes, totalVotes).toFixed(2)}%`;
+      return `${marginPctValue(repVotes, demVotes, totalVotes).toFixed(2)}%`;
     }
 
     function compactWinnerMarginLabel(repVotes, demVotes, totalVotes, repCandidate, demCandidate) {
