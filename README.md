@@ -1,68 +1,55 @@
 ﻿# The Lone Star Atlas
 
-Interactive Texas election atlas focused on county, precinct, and district-level exploration from 2000 through 2024, with comparative modes for margins, winners, partisan shift, and flips.
+The Lone Star Atlas is an interactive Texas election map that supports county, precinct, and district analysis across modern election cycles. It is designed for fast exploratory analysis, detailed vote inspection, and year-over-year comparison inside a single-page web app.
 
-This project is a single-page map experience (`index.html`) backed by prebuilt JSON/CSV/GeoJSON assets in `Data/`.
+## Live Deployment
 
-## What This Project Delivers
+This project is published through GitHub Pages. Deployment is static and asset-based (`index.html` + `Data/`), so this README intentionally does not include local run instructions.
 
-- Multi-layer Texas map navigation
+## What The App Does
+
+- Renders multiple geography layers for Texas:
   - Counties
   - U.S. Congressional districts
   - Texas House districts
   - Texas Senate districts
   - Precinct overlays and precinct centroids
-- Multiple analysis modes
-  - `Margins` (two-party margin buckets)
-  - `Winners` (party winner by geography)
-  - `Shift` (signed change vs prior comparable cycle)
-  - `Flips` (party change between cycles)
-- Rich focus panels and summaries
-  - Live statewide vote split and competitiveness call
-  - County/district hover cards and pinned detail views
-  - Trend history cards across election years
-- Search and navigation tooling
-  - Fly-to for county/district/precinct-like tokens
-  - Region quick-jumps for major Texas areas (DFW, Houston, Central TX, RGV, etc.)
-- Accessibility and UX features
-  - Colorblind-friendly palette toggle
-  - Label toggles
-  - Mobile-aware layout, safe-area handling, compact controls
+- Supports multiple election visualization modes:
+  - `Margins`: two-party margin bucket coloring
+  - `Winners`: party winner by geography
+  - `Shift`: signed change versus prior comparable cycle
+  - `Flips`: party change between comparable cycles
+- Provides statewide and local context together:
+  - Statewide vote split panel
+  - Hover and pinned cards for county/district/precinct contexts
+  - Trend history cards for selected areas
+- Includes navigation tooling:
+  - Fly-to search for county, district, and precinct-like tokens
+  - Region quick jumps (DFW, Houston, Central Texas, RGV, etc.)
+  - Keyboard toggles for labels and precinct overlay
 
-## Current Branding and UI Theme
+## Technical Architecture
 
-- Product name: **The Lone Star Atlas**
-- Theme direction: Texas-inspired palette
-  - Texas blue: `#002868`
-  - Texas red: `#bf0a30`
-- These colors are applied across controls, badges, map UI accents, and party-forward visual elements.
-
-## Application Architecture
-
-The app is intentionally consolidated into a single document:
+The application is intentionally consolidated in one document:
 
 - `index.html`
-  - HTML structure for map, controls, legends, side panels, and modals
-  - CSS for responsive layout, panel systems, and thematic styling
-  - JavaScript for map rendering, data loading, contest transforms, interaction state, and UI synchronization
+  - Layout and UI structure
+  - CSS styling and responsive behavior
+  - Client-side data loading, transforms, and render logic
 
-Key architectural patterns:
+Core runtime patterns:
 
-- Static asset loading through `CONFIG.paths` (GeoJSON, JSON, CSV)
-- View-mode state machine (`counties`, `districts`, `state_house`, `state_senate`)
-- Viz-mode state machine (`margins`, `winners`, `shift`, `flips`)
-- Shared vote-counter and statewide summary rendering logic
-- Contest/year normalization and fallback handling for legacy election slices
+- Path-based static loading via `CONFIG.paths`
+- View state machine (`counties`, `districts`, `state_house`, `state_senate`, optional `vtds_2000`)
+- Visualization mode state machine (`margins`, `winners`, `shift`, `flips`)
+- Shared vote-counter context model (statewide, hover, pinned)
+- Contest/year normalization plus fallback loading from JSON and CSV sources
 
-## Data Model Overview
+## Data Architecture
 
-The project uses three major data groups:
+The app reads prebuilt assets from `Data/`.
 
-1. Geometry layers (map shapes / points)
-2. Election result payloads (contest slices and district aggregates)
-3. Reference metadata (district descriptors, manifests, county demos)
-
-### Core geometry assets
+### Geometry assets
 
 - `Data/tl_2020_48_county20.geojson`
 - `Data/tl_2020_48_vtd20.geojson`
@@ -71,30 +58,30 @@ The project uses three major data groups:
 - `Data/tx_state_house_2022.geojson`
 - `Data/tx_state_senate_2022.geojson`
 
-### Election payload directories
+### Contest payloads
 
-- `Data/contests/`
-  - Statewide/precinct-normalized contest files by `{contest_type}_{year}.json`
-  - Includes `manifest.json` with totals and row counts
-- `Data/district_contests/`
-  - District rollups by scope (`congressional`, `state_house`, `state_senate`)
-  - Includes `manifest.json` with district counts and match coverage
+- `Data/contests/*.json`
+  - County/statewide contest slices per `{contest_type}_{year}.json`
+- `Data/contests/manifest.json`
+  - Contest index used to populate selector options and totals
 
-### Raw and legacy election sources
+### District payloads
 
-- `Data/openelections-data-tx/`
-  - Historical TX election CSVs (county/precinct depending on year/source)
-- Shapefile bundles used by build scripts
-  - `Data/tx_2016.zip`, `Data/tx_2018.zip`, `Data/tx_2020.zip`
+- `Data/district_contests/*.json`
+  - Reallocated district-level contest slices by scope
+- `Data/district_contests/manifest.json`
+  - Scope/year/contest index and coverage metadata
 
-### Crosswalk and supporting bundles
+### Raw and intermediate sources
 
-- `Data/nhgis_blk*.zip`
-  - Used for block assignment/crosswalk weighting in district aggregation
+- Root-level county CSV snapshots (for backfilling and contest regeneration)
+- `Data/openelections-data-tx/` historical OpenElections files
+- TIGER/Line and election shapefile ZIP bundles
+- Crosswalk and block assignment inputs (NHGIS/block-based joins)
 
-## Contest Taxonomy (Examples)
+## Contest Taxonomy And Judicial Normalization
 
-The normalization layer maps source office names/codes into canonical contest keys such as:
+Canonical contest keys include statewide executive, federal, and judicial contests such as:
 
 - `president`
 - `us_senate`
@@ -106,92 +93,82 @@ The normalization layer maps source office names/codes into canonical contest ke
 - `agriculture_commissioner`
 - `railroad_commissioner`
 - `supreme_court_place_*`
-- `court_of_criminal_appeals_*`
+- `court_of_criminal_appeals_place_*`
+- `court_of_criminal_appeals_presiding_judge`
 
-## Build and Data-Prep Scripts
+Dropdown grouping is normalized so judicial contests appear under:
 
-All helper scripts are in `Scripts/` and are oriented around generating or normalizing the `Data/` assets consumed by `index.html`.
+- `Supreme Court`
+- `Court of Criminal Appeals`
+
+## Data Build And Maintenance Scripts
+
+Scripts are in `Scripts/` and are used to build or refresh map assets.
 
 ### `Scripts/convert_tx_district_shapefiles.py`
 
-Purpose:
-
-- Converts district TIGER/Line ZIP shapefiles into web-ready EPSG:4326 GeoJSON outputs.
-
-Main outputs:
-
-- `Data/tx_cd_2025.geojson`
-- `Data/tx_state_house_2022.geojson`
-- `Data/tx_state_senate_2022.geojson`
+- Converts district TIGER/Line ZIP inputs into web-ready EPSG:4326 GeoJSON.
+- Typical outputs:
+  - `Data/tx_cd_2025.geojson`
+  - `Data/tx_state_house_2022.geojson`
+  - `Data/tx_state_senate_2022.geojson`
 
 ### `Scripts/build_contests_from_tx_shapefiles.py`
 
-Purpose:
+- Extracts contest fields from shapefile election bundles.
+- Maps source office encodings to canonical contest keys.
+- Updates county/statewide contest slices and contest manifest.
 
-- Extracts contest vote fields from TX shapefile election bundles.
-- Maps encoded office fields to canonical contest types.
-- Produces normalized contest JSON slices and updates contest manifest records.
+### `Scripts/build_county_contests_from_csv.py`
 
-Main outputs:
-
-- `Data/contests/*.json`
-- `Data/contests/manifest.json`
+- Builds county contest JSON slices from county-level CSV files.
+- Updates or inserts manifest entries for each regenerated contest/year.
+- Used for backfilling years where source CSVs are the most complete source.
 
 ### `Scripts/build_tx_precinct_and_district_aggregates.py`
 
-Purpose:
-
-- Builds precinct-level and district-level aggregates from TX election CSVs and crosswalk weights.
-- Computes per-result totals, margins, winners, candidate labels, and metadata.
-- Produces district-contest payloads with match coverage metrics.
-
-Main outputs:
-
-- `Data/contests/*.json`
-- `Data/contests/manifest.json`
-- `Data/district_contests/*.json`
-- `Data/district_contests/manifest.json`
+- Builds precinct and district aggregates from contest sources and crosswalks.
+- Computes totals, margins, winners, candidate labels, and coverage stats.
+- Writes `Data/contests` and `Data/district_contests` outputs.
 
 ### `Scripts/get_tx_2000s_vtds.ps1`
 
-Purpose:
+- Fetches and prepares historical VTD boundary resources.
+- Supports legacy boundary workflows and 2000s alias handling.
 
-- Downloads and prepares Texas VTD boundary archives for historical/legacy layers.
-- Produces extracted and GeoJSON-converted VTD resources (including 2000s alias files when available).
+## Repository Layout
+
+- `index.html`: production app UI and runtime logic
+- `SCMap.html`: design/reference variant
+- `Data/`: geometry, contest slices, manifests, raw bundles, and intermediate artifacts
+- `Scripts/`: data prep and normalization scripts
 
 ## Interaction Model
 
-The map supports two complementary workflows:
+The map supports two complementary analyst workflows:
 
-- **Breadth-first exploration**
-  - Use region jumps, layer switches, and statewide panel context to scan macro patterns.
-- **Detail-first investigation**
-  - Hover or click a specific county/district, pin results, inspect vote split and trend cards, then compare in shift/flip modes.
+- Breadth-first scanning:
+  - jump regions, switch layers, compare statewide balance quickly
+- Detail-first drilldown:
+  - pin county/district context, inspect vote split, and review trend history
 
-This dual model makes it suitable for both narrative analysis and rapid diagnostics.
+This supports both narrative election analysis and technical diagnostics.
 
-## Known Data and Modeling Notes
+## Known Constraints
 
-- District aggregate files include a `match_coverage_pct` metric; some years/scopes are below 100% due to crosswalk and source-join constraints.
-- Legacy source formats vary between county-level and precinct-level records, so fallback paths and normalization heuristics are used.
-- Precinct key normalization handles many formatting variants, but ambiguous county-local naming conventions can still produce partial match loss.
-- Candidate naming may differ by source quality and office encoding, especially in older records.
-
-## Repository Structure
-
-- `index.html` — primary application UI, style, and logic
-- `SCMap.html` — source design reference file
-- `Data/` — geometry, election slices, manifests, and raw source bundles
-- `Scripts/` — conversion and aggregation scripts
-- `.venv/` — local Python environment (workspace-local)
+- District reallocation quality depends on crosswalk coverage and source key consistency.
+- Legacy source formats vary by year (county-level versus precinct-level granularity).
+- Precinct naming conventions vary by county and can cause partial match loss in edge cases.
+- Candidate labels vary by source quality; modern rendering applies case normalization for readability.
 
 ## Credits
 
-- U.S. Census TIGER/Line geography products
-- OpenElections Texas datasets
-- Mapbox GL JS for map rendering
-- Turf.js and Papa Parse for geospatial/data utility in the browser
+- U.S. Census TIGER/Line geography
+- OpenElections Texas data
+- Mapbox GL JS
+- Turf.js
+- Papa Parse
 
-## Project Status
+## Status
 
-Active working prototype with expanded UI/analytics, Texas-specific branding/theming, and data-pipeline-backed contest assets. The codebase is optimized for iteration speed in a single-file app architecture while preserving advanced map interactions.
+Active project with ongoing data backfills, contest normalization improvements, and UI iteration for county/district/precinct analysis.
