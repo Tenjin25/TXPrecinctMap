@@ -7185,6 +7185,101 @@ document.addEventListener('DOMContentLoaded', function() {
       updateVoteCounter(demVotes, repVotes, otherVotes, candidates, meta);
     }
 
+    function refreshPinnedCountyForContest(contestType, year) {
+      const pinned = voteCounterPinned || null;
+      const meta = pinned?.meta || null;
+      if (!meta || meta.kind !== 'county') return false;
+      if (!contestType || !currentElectionResults) return false;
+
+      const countyNorm = normalizeCountyToken(meta.county || window.lastSelectedCounty || '');
+      if (!countyNorm) return false;
+
+      let row = currentElectionResults[countyNorm] || null;
+      if (!row && currentElectionResults) {
+        for (const key of Object.keys(currentElectionResults)) {
+          if (normalizeCountyToken(key) === countyNorm) {
+            row = currentElectionResults[key];
+            break;
+          }
+        }
+      }
+      if (!row) return false;
+
+      const demVotes = Number(row[`${contestType}_dem`] || 0);
+      const repVotes = Number(row[`${contestType}_rep`] || 0);
+      const otherVotes = Number(row[`${contestType}_other`] || 0);
+      const countyDisplay = displayCountyName(row.county || meta.county || countyNorm);
+
+      pinVoteCounterState(
+        `Selected: ${countyDisplay} County`,
+        `${formatContestName(contestType, year)} ${year}`,
+        demVotes,
+        repVotes,
+        otherVotes,
+        {
+          ...meta,
+          kind: 'county',
+          county: countyDisplay.toUpperCase(),
+          contestType,
+          year: Number(year)
+        },
+        {
+          demCandidate: row[`${contestType}_dem_candidate`] || pinned?.candidates?.demCandidate || '',
+          repCandidate: row[`${contestType}_rep_candidate`] || pinned?.candidates?.repCandidate || ''
+        }
+      );
+      return true;
+    }
+
+    async function refreshPinnedDistrictForContest(contestType, year) {
+      if (!contestType || !year) return false;
+
+      const pinned = voteCounterPinned || null;
+      const meta = pinned?.meta || null;
+      let scope = '';
+      let districtNum = NaN;
+
+      if (meta && meta.kind === 'district') {
+        scope = (meta.scope || '').toString().trim();
+        districtNum = Number(meta.districtNum);
+      } else {
+        const selectedLabel = (window.lastSelectedCounty || '').toString().trim();
+        let m = selectedLabel.match(/^CONGRESSIONAL\s+DISTRICT\s+(\d+)$/i) || selectedLabel.match(/^DISTRICT\s+(\d+)$/i);
+        if (m) {
+          scope = 'congressional';
+          districtNum = Number(m[1]);
+        }
+        if (!Number.isFinite(districtNum)) {
+          m = selectedLabel.match(/^STATE\s+HOUSE\s+DISTRICT\s+(\d+)$/i);
+          if (m) {
+            scope = 'state_house';
+            districtNum = Number(m[1]);
+          }
+        }
+        if (!Number.isFinite(districtNum)) {
+          m = selectedLabel.match(/^STATE\s+SENATE\s+DISTRICT\s+(\d+)$/i);
+          if (m) {
+            scope = 'state_senate';
+            districtNum = Number(m[1]);
+          }
+        }
+      }
+
+      if (!scope || !Number.isFinite(districtNum)) return false;
+
+      const viewScope = getDistrictScopeForView(currentView);
+      if (!viewScope) return false;
+      if (scope !== viewScope) {
+        const mappedDistrict = await mapDistrictSelectionAcrossScopes(scope, districtNum, viewScope, Number(year));
+        districtNum = Number(mappedDistrict);
+        scope = viewScope;
+        if (!Number.isFinite(districtNum)) return false;
+      }
+
+      const contestValue = `${contestType}_${year}`;
+      return showAndPinDistrictSelection(scope, districtNum, contestValue);
+    }
+
     function clearVoteCounterHoverState() {
       if (voteCounterPinned) return;
       if (!voteCounterHoverActive) return;
@@ -8002,6 +8097,32 @@ document.addEventListener('DOMContentLoaded', function() {
     let queuedContestSelection = null;
     let contestSelectionSeq = 0;
     let lastCompletedContestSelection = '';
+    const contestSelectNavKeys = new Set(['ArrowUp', 'ArrowDown', 'Home', 'End', 'PageUp', 'PageDown']);
+
+    function wireContestSelectHandlers(sel) {
+      if (!sel) return;
+      const triggerContestSelection = () => {
+        handleContestSelectionChange(sel.value);
+      };
+      sel.onchange = triggerContestSelection;
+      sel.oninput = triggerContestSelection;
+      if (sel.dataset.keyboardContestNavWired === 'true') return;
+      sel.dataset.keyboardContestNavWired = 'true';
+      sel.addEventListener('keydown', function(ev) {
+        if (!contestSelectNavKeys.has(ev?.key)) return;
+        const before = (sel.value || '').toString();
+        const schedule = (typeof window.requestAnimationFrame === 'function')
+          ? window.requestAnimationFrame.bind(window)
+          : (cb => setTimeout(cb, 0));
+        schedule(() => {
+          const after = (sel.value || '').toString();
+          if (after !== before) {
+            handleContestSelectionChange(after);
+          }
+        });
+      });
+    }
+
     function shouldRefreshCountyDetailsOnContestChange() {
       if (!SIDEBAR_ENABLED) return false;
       const view = String(currentView || '').toLowerCase();
@@ -8225,9 +8346,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	      sel.appendChild(fragment);
 	      sel.dataset.populated = 'true';
-	      sel.onchange = () => {
-        handleContestSelectionChange(sel.value);
-      };
+	      wireContestSelectHandlers(sel);
 	    }
 
     function updateContestSelectForCurrentView() {
@@ -8261,7 +8380,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (sel) {
           sel.innerHTML = '<option value="">No contests available for this view</option>';
           sel.dataset.populated = 'true';
-          sel.onchange = () => { handleContestSelectionChange(sel.value); };
+          wireContestSelectHandlers(sel);
         }
         return;
       }
@@ -8388,9 +8507,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Hide loading spinner
   var spinner = document.getElementById('contest-loading-spinner');
   if (spinner) spinner.style.display = 'none';
-      sel.onchange = () => {
-        handleContestSelectionChange(sel.value);
-      };
+      wireContestSelectHandlers(sel);
 
     }
 
@@ -8410,7 +8527,7 @@ document.addEventListener('DOMContentLoaded', function() {
           sel.appendChild(opt);
         }
       });
-      sel.onchange = () => { handleContestSelectionChange(sel.value); };
+      wireContestSelectHandlers(sel);
     }
 
     function populateContestSelectForStateSenate(csvData) {
@@ -8429,7 +8546,7 @@ document.addEventListener('DOMContentLoaded', function() {
           sel.appendChild(opt);
         }
       });
-      sel.onchange = () => { handleContestSelectionChange(sel.value); };
+      wireContestSelectHandlers(sel);
     }
 
     function populateContestSelectFromCongressionalCSV(csvData) {
@@ -8448,7 +8565,7 @@ document.addEventListener('DOMContentLoaded', function() {
           sel.appendChild(opt);
         }
       });
-      sel.onchange = () => { handleContestSelectionChange(sel.value); };
+      wireContestSelectHandlers(sel);
     }
 
     function setAnalysisMode(mode) {
@@ -13598,6 +13715,8 @@ document.addEventListener('DOMContentLoaded', function() {
         await applyStatewideContestToDistricts(contestType, year);
       }
       if (isStaleSelection()) return;
+      try { await refreshPinnedDistrictForContest(contestType, year); } catch (_) {}
+      if (isStaleSelection()) return;
       if (previousRegionPinnedState?.meta?.regionKey) {
         const regionKey = previousRegionPinnedState.meta.regionKey;
         // Restore region context in the background so contest switching stays snappy.
@@ -13853,6 +13972,16 @@ document.addEventListener('DOMContentLoaded', function() {
         countyAgg[countyNorm][`${contestType}_total`] += totalVotes;
       });
       currentElectionResults = countyAgg;
+      if (staleCheck()) return;
+      const selectedCountyForFastRefresh = (window.lastSelectedCounty || '').toString().trim();
+      if (selectedCountyForFastRefresh && shouldRefreshCountyDetailsOnContestChange()) {
+        try { showCountyDetails(selectedCountyForFastRefresh); } catch (_) {}
+        if (staleCheck()) return;
+        await new Promise(resolve => setTimeout(resolve, 0));
+        if (staleCheck()) return;
+      }
+      try { refreshPinnedCountyForContest(contestType, year); } catch (_) {}
+      if (staleCheck()) return;
 
       // Calculate statewide totals
       let statewidedemVotes = 0;
