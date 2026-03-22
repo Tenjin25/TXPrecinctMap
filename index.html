@@ -7998,6 +7998,67 @@ document.addEventListener('DOMContentLoaded', function() {
       // Use only non-gerrymandered statewide contests for all views
       populateContestSelectFromCSV(electionData);
     }
+    let contestChangeInFlight = false;
+    let queuedContestSelection = null;
+    let contestSelectionSeq = 0;
+    let lastCompletedContestSelection = '';
+    function shouldRefreshCountyDetailsOnContestChange() {
+      if (!SIDEBAR_ENABLED) return false;
+      const view = String(currentView || '').toLowerCase();
+      if (!(view === 'counties' || view === 'vtds_2000')) return false;
+      const detailsDiv = document.getElementById('county-details');
+      if (detailsDiv && detailsDiv.style && detailsDiv.style.display === 'none') return false;
+      return true;
+    }
+    function queueCountyDetailsRefresh() {
+      if (!shouldRefreshCountyDetailsOnContestChange()) return;
+      const county = (window.lastSelectedCounty || '').toString().trim();
+      if (!county) return;
+      const refresh = () => {
+        try { showCountyDetails(county); } catch (_) {}
+      };
+      if (typeof window.requestAnimationFrame === 'function') {
+        window.requestAnimationFrame(refresh);
+      } else {
+        setTimeout(refresh, 0);
+      }
+    }
+    function queueContestSelection(contestKey) {
+      const key = (contestKey || '').toString().trim();
+      const seq = ++contestSelectionSeq;
+      const next = { key, seq };
+      queuedContestSelection = next;
+      return next;
+    }
+    async function handleContestSelectionChange(contestKey) {
+      const queued = queueContestSelection(contestKey);
+      // Skip duplicate re-applies when the selected contest is already active.
+      if (!contestChangeInFlight && queued.key && queued.key === lastCompletedContestSelection) {
+        queueCountyDetailsRefresh();
+        return;
+      }
+      if (contestChangeInFlight) return;
+      contestChangeInFlight = true;
+      try {
+        while (true) {
+          const next = queuedContestSelection;
+          queuedContestSelection = null;
+          if (!next) break;
+          await applyContest(next.key, { selectionSeq: next.seq });
+          // If users switched again while we were loading, apply the newest selection next.
+          if (queuedContestSelection && queuedContestSelection.seq !== next.seq) {
+            continue;
+          }
+          if (next.key) lastCompletedContestSelection = next.key;
+          queueCountyDetailsRefresh();
+          break;
+        }
+      } catch (err) {
+        console.warn('Contest change failed:', err?.message || err);
+      } finally {
+        contestChangeInFlight = false;
+      }
+    }
 
     function populateContestSelectFromManifest(manifestEntries) {
 	      const q = (contestSearchQuery || '').toString().trim().toUpperCase();
@@ -8165,12 +8226,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	      sel.appendChild(fragment);
 	      sel.dataset.populated = 'true';
 	      sel.onchange = () => {
-	        applyContest(sel.value);
-	        if (typeof lastSelectedCounty !== 'undefined' && lastSelectedCounty) {
-	          showCountyDetails(lastSelectedCounty);
-	        }
-	        saveUIState();
-	      };
+        handleContestSelectionChange(sel.value);
+      };
 	    }
 
     function updateContestSelectForCurrentView() {
@@ -8204,7 +8261,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (sel) {
           sel.innerHTML = '<option value="">No contests available for this view</option>';
           sel.dataset.populated = 'true';
-          sel.onchange = () => { applyContest(sel.value); };
+          sel.onchange = () => { handleContestSelectionChange(sel.value); };
         }
         return;
       }
@@ -8332,12 +8389,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var spinner = document.getElementById('contest-loading-spinner');
   if (spinner) spinner.style.display = 'none';
       sel.onchange = () => {
-        // Always use applyContest - it will check for colorblind mode automatically
-        applyContest(sel.value);
-        // Explicitly update sidebar for last selected county
-        if (typeof lastSelectedCounty !== 'undefined' && lastSelectedCounty) {
-          showCountyDetails(lastSelectedCounty);
-        }
+        handleContestSelectionChange(sel.value);
       };
 
     }
@@ -8358,7 +8410,7 @@ document.addEventListener('DOMContentLoaded', function() {
           sel.appendChild(opt);
         }
       });
-      sel.onchange = () => { applyContest(sel.value); };
+      sel.onchange = () => { handleContestSelectionChange(sel.value); };
     }
 
     function populateContestSelectForStateSenate(csvData) {
@@ -8377,7 +8429,7 @@ document.addEventListener('DOMContentLoaded', function() {
           sel.appendChild(opt);
         }
       });
-      sel.onchange = () => { applyContest(sel.value); };
+      sel.onchange = () => { handleContestSelectionChange(sel.value); };
     }
 
     function populateContestSelectFromCongressionalCSV(csvData) {
@@ -8396,7 +8448,7 @@ document.addEventListener('DOMContentLoaded', function() {
           sel.appendChild(opt);
         }
       });
-      sel.onchange = () => { applyContest(sel.value); };
+      sel.onchange = () => { handleContestSelectionChange(sel.value); };
     }
 
     function setAnalysisMode(mode) {
@@ -13513,9 +13565,14 @@ document.addEventListener('DOMContentLoaded', function() {
       return cached;
     }
 
-    async function applyContest(contestKey) {
+    async function applyContest(contestKey, opts = {}) {
       if (!contestKey) return setStatus('Select a contest');
-
+      const selectionSeq = Number(opts?.selectionSeq || 0);
+      const isStaleSelection = () => (
+        Number.isFinite(selectionSeq) &&
+        selectionSeq > 0 &&
+        selectionSeq !== contestSelectionSeq
+      );
       const previousRegionPinnedState = voteCounterPinned?.meta?.kind === 'region'
         ? {
             ...voteCounterPinned,
@@ -13527,14 +13584,12 @@ document.addEventListener('DOMContentLoaded', function() {
         voteCounterPinned = null;
         voteCounterHoverActive = false;
       }
-      
       // Split contest key properly - year is always the last part after final underscore
       const lastUnderscoreIndex = contestKey.lastIndexOf('_');
       const contestType = contestKey.substring(0, lastUnderscoreIndex);
       const year = contestKey.substring(lastUnderscoreIndex + 1);
-      
       if (currentView === 'counties') {
-        await applyCountyContest(contestType, year);
+        await applyCountyContest(contestType, year, { selectionSeq, isStaleSelection });
       } else if (currentView === 'districts' && contestType === 'us_house') {
         // US House races use district-specific data
         await applyDistrictContest(contestType, year);
@@ -13542,18 +13597,29 @@ document.addEventListener('DOMContentLoaded', function() {
         // All other contests (statewide) aggregate county data by district
         await applyStatewideContestToDistricts(contestType, year);
       }
+      if (isStaleSelection()) return;
       if (previousRegionPinnedState?.meta?.regionKey) {
-        try {
-          await focusRegionSummary(previousRegionPinnedState.meta.regionKey);
-        } catch (err) {
+        const regionKey = previousRegionPinnedState.meta.regionKey;
+        // Restore region context in the background so contest switching stays snappy.
+        focusRegionSummary(regionKey).catch(err => {
           console.warn('Failed to restore regional selection after contest change:', err?.message || err);
-        }
+        });
       }
+      if (isStaleSelection()) return;
+      lastCompletedContestSelection = contestKey;
       updateContextBanner();
-      await refreshHoverAtPointer();
+      // Keep switching responsive; hover refresh can run asynchronously.
+      refreshHoverAtPointer().catch(() => {});
     }
-
-    async function applyCountyContest(contestType, year) {
+    async function applyCountyContest(contestType, year, opts = {}) {
+      const selectionSeq = Number(opts?.selectionSeq || 0);
+      const staleCheck = typeof opts?.isStaleSelection === 'function' ? opts.isStaleSelection : (() => false);
+      function shouldDeferPrecinctDetail() {
+        if (!precinctsEnabled) return false;
+        if (staleCheck()) return true;
+        const queuedSeq = Number(queuedContestSelection?.seq || 0);
+        return contestChangeInFlight && queuedSeq > selectionSeq;
+      }
       // Always compute county colors/totals from county-level slices so margins are stable
       // regardless of precinct overlay state.
       const countyRowsRaw = await loadContestSlice(contestType, year, { preferCounty: true });
@@ -13562,7 +13628,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const countyRows = countySplit.countySummaryRows.length ? countySplit.countySummaryRows : (countyRowsRaw || []);
 
       // Precinct overlay can still use precinct-granularity rows when available.
-      const needsPrecinctDetail = !!precinctsEnabled;
+      let needsPrecinctDetail = !!precinctsEnabled;
+      if (needsPrecinctDetail && shouldDeferPrecinctDetail()) {
+        needsPrecinctDetail = false;
+      }
       let precinctRows = countySplit.precinctRows.slice();
       if (needsPrecinctDetail) {
         try {
@@ -13975,6 +14044,10 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (_) {}
       }
       // Optional precinct expression (detail overlay)
+      if (needsPrecinctDetail && shouldDeferPrecinctDetail()) {
+        needsPrecinctDetail = false;
+        currentPrecinctResults = null;
+      }
       if (needsPrecinctDetail) {
         // Build precinct lookup map from precinct rows (or county rows fallback).
         precinctRows.forEach(row => {
@@ -14273,6 +14346,4 @@ document.addEventListener('DOMContentLoaded', function() {
   </script>
 </body>
 </html>
-
-
 
