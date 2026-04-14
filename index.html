@@ -9231,6 +9231,14 @@ document.addEventListener('DOMContentLoaded', function() {
       return 'Tossup';
     }
 
+    function competitivenessChipHTML(signedMarginPct) {
+      const signed = Number(signedMarginPct) || 0;
+      const party = signed > 0 ? 'rep' : (signed < 0 ? 'dem' : 'tie');
+      const label = compactCompetitivenessLabel(Math.abs(signed), party);
+      const cls = party === 'tie' ? 'tie' : party;
+      return `<span class="meta-chip rating ${cls}"><span class="dot"></span>${label}</span>`;
+    }
+
     function buildLegendSpectrum(colors, className) {
       return `
         <div class="legend-spectrum ${className}">
@@ -10123,6 +10131,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         chips.push(winnerChipHTML(winner));
       }
+      chips.push(competitivenessChipHTML(signedMarginPct));
 
       if (prevSignedForFlip !== null) {
         const flipChip = flipChipHTML(prevSignedForFlip, signedMarginPct);
@@ -10199,6 +10208,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         chips.push(winnerChipHTML(winner));
       }
+      chips.push(competitivenessChipHTML(curSigned));
 
       if (prevSignedForFlip !== null) {
         const flipChip = flipChipHTML(prevSignedForFlip, curSigned);
@@ -10378,6 +10388,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         chips.push(winnerChipHTML(winner));
       }
+      chips.push(competitivenessChipHTML(signedMarginPct));
 
       if (prevSignedForFlip !== null) {
         const flipChip = flipChipHTML(prevSignedForFlip, signedMarginPct);
