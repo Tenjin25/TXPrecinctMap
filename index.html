@@ -726,6 +726,22 @@ body { height: var(--app-height); }
   display: none;
 }
 
+#hover-tooltip[data-context="votehub-results"] .vhr-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: #f8fafc;
+  margin-bottom: 2px;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-subtitle {
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #94a3b8;
+  margin-bottom: 8px;
+}
+
 #hover-tooltip[data-context="votehub-results"] .vhr-row {
   display: grid;
   grid-template-columns: 10px minmax(0, 1fr) auto auto;
@@ -797,6 +813,18 @@ body { height: var(--app-height); }
 #hover-tooltip[data-context="votehub-results"] .vhr-winner.rep { color: #fca5a5; }
 #hover-tooltip[data-context="votehub-results"] .vhr-winner.dem { color: #93c5fd; }
 #hover-tooltip[data-context="votehub-results"] .vhr-winner.tie { color: #cbd5e1; }
+
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.rep {
+  color: #fecaca;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.dem {
+  color: #bfdbfe;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.tie {
+  color: #e2e8f0;
+}
 
 #hover-tooltip[data-context="votehub-results"] .vhr-party {
   display: block;
@@ -9775,6 +9803,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const otherVotes = Number(row?.other_votes || row?.other || 0);
       // Keep denominator consistent with selected panel math.
       const totalVotes = demVotes + repVotes + otherVotes;
+      const title = (options?.title || '').toString().trim();
+      const subtitle = (options?.subtitle || '').toString().trim();
       const demName = cleanCandidateName(row?.dem_candidate || options.demCandidate || 'Democrat');
       const repName = cleanCandidateName(row?.rep_candidate || options.repCandidate || 'Republican');
       const safeTotal = totalVotes > 0 ? totalVotes : 0;
@@ -9794,10 +9824,16 @@ document.addEventListener('DOMContentLoaded', function() {
       const winnerClass = margin > 0 ? 'rep' : (margin < 0 ? 'dem' : 'tie');
       const winnerName = margin > 0 ? (repName || 'Republican') : (margin < 0 ? (demName || 'Democrat') : 'Tie');
       const marginPct = marginPctValue(repVotes, demVotes, safeTotal);
+      const leadVotes = Math.abs(Number(repVotes || 0) - Number(demVotes || 0)).toLocaleString();
 
       return `
         <div class="votehub-results-card">
-          <div class="vhr-winner ${winnerClass}">${escapeHtml(winnerName)} +${escapeHtml(Number(marginPct || 0).toFixed(2))}%</div>
+          ${title ? `<div class="vhr-title">${escapeHtml(title)}</div>` : ''}
+          ${subtitle ? `<div class="vhr-subtitle">${escapeHtml(subtitle)}</div>` : ''}
+          <div class="vhr-winner ${winnerClass}" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;">
+            <span>${escapeHtml(winnerName)} +${escapeHtml(Number(marginPct || 0).toFixed(2))}%</span>
+            <span class="vhr-raw-lead ${winnerClass}" style="font-size:12px;font-weight:800;opacity:0.96;font-family:'JetBrains Mono','Consolas','SFMono-Regular',monospace;">${escapeHtml(`${leadVotes} votes`)}</span>
+          </div>
           ${rows.map((r) => `
             <div class="vhr-row ${escapeHtml(r.key)}">
               <span class="vhr-dot"></span>
@@ -10283,11 +10319,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const inner = `
         <div class="hover-meta">${chips.join('')}</div>
-        ${buildResultCardHTML('', subtitle, demVotes, repVotes, otherVotes, demCandidate, repCandidate)}
+        ${renderCandidateResultsTooltipHTML({
+          dem_votes: demVotes,
+          rep_votes: repVotes,
+          other_votes: otherVotes,
+          total_votes: demVotes + repVotes + otherVotes,
+          dem_candidate: demCandidate,
+          rep_candidate: repCandidate
+        }, {
+          title: `${countyDisplay} County`,
+          subtitle: 'County',
+          demCandidate: demCandidate,
+          repCandidate: repCandidate
+        })}
         ${demoLine}
       `;
 
-      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell(`${countyDisplay} County`, inner));
+      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner));
+      const tooltip = document.getElementById('hover-tooltip');
+      if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
     }
 
@@ -10367,11 +10417,13 @@ document.addEventListener('DOMContentLoaded', function() {
           dem_candidate: demCandidate,
           rep_candidate: repCandidate
         }, {
+          title: title,
+          subtitle: 'Precinct',
           demCandidate: row.dem_candidate,
           repCandidate: row.rep_candidate
         })}
       `;
-      showHoverTooltip(point.x, point.y, buildTooltipShell(title, inner));
+      showHoverTooltip(point.x, point.y, buildTooltipShell('', inner));
       const tooltip = document.getElementById('hover-tooltip');
       if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
@@ -10564,11 +10616,13 @@ document.addEventListener('DOMContentLoaded', function() {
           dem_candidate: demCandidate,
           rep_candidate: repCandidate
         }, {
+          title: districtDisplayLabel,
+          subtitle: scope === 'congressional' ? 'Congressional' : (scope === 'state_house' ? 'State House' : 'State Senate'),
           demCandidate: demCandidate,
           repCandidate: repCandidate
         })}
       `;
-      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell(districtDisplayLabel, inner));
+      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner));
       const tooltip = document.getElementById('hover-tooltip');
       if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
@@ -11624,10 +11678,12 @@ document.addEventListener('DOMContentLoaded', function() {
               dem_candidate: demCandidate,
               rep_candidate: repCandidate
             }, {
+              title: title,
+              subtitle: 'Precinct',
               demCandidate: row.dem_candidate,
               repCandidate: row.rep_candidate
             });
-            showHoverTooltip(evt.point.x, evt.point.y, buildTooltipShell(title, inner));
+            showHoverTooltip(evt.point.x, evt.point.y, buildTooltipShell('', inner));
             const tooltip = document.getElementById('hover-tooltip');
             if (tooltip) tooltip.dataset.context = 'votehub-results';
             wireTooltipButtons();
