@@ -6620,7 +6620,26 @@ document.addEventListener('DOMContentLoaded', function() {
       const isVectorSource = !!src && src.type === 'vector';
       const sourceLayer = isVectorSource ? getVectorSourceLayer(layerDef.source) : null;
       if (sourceLayer) layerDef['source-layer'] = sourceLayer;
-      map.addLayer(layerDef);
+      const firstSymbolLayerId = (map?.getStyle?.()?.layers || []).find(l => l && l.type === 'symbol')?.id;
+      map.addLayer(layerDef, layerDef.beforeId || firstSymbolLayerId);
+    }
+
+    function keepDataLayersBelowPlaceLabels() {
+      try {
+        const firstSymbolLayerId = (map?.getStyle?.()?.layers || []).find(l => l && l.type === 'symbol')?.id;
+        if (!firstSymbolLayerId) return;
+        const dataLayerIds = [
+          'county-fill', 'county-stroke', 'county-stroke-hover',
+          'district-fill', 'district-stroke', 'district-stroke-hover',
+          'state-house-fill', 'state-house-stroke', 'state-house-stroke-hover',
+          'state-senate-fill', 'state-senate-stroke', 'state-senate-stroke-hover',
+          'precinct-fill', 'precinct-stroke', 'precinct-dot', 'precinct-dot-missing'
+        ];
+        dataLayerIds.forEach(id => {
+          if (!map.getLayer(id)) return;
+          try { map.moveLayer(id, firstSymbolLayerId); } catch (_) {}
+        });
+      } catch (_) {}
     }
 
 
@@ -9917,9 +9936,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const fromYearNum = Number(flipYearLabel);
       const toYearNum = Number(currentYearLabel);
       const hasFlipYears = Number.isFinite(fromYearNum) && Number.isFinite(toYearNum);
-      const flipYears = hasFlipYears ? ` (${String(fromYearNum).slice(-2)}→${String(toYearNum).slice(-2)})` : '';
       const flipLabel = (flipMeta && flipMeta.flipped)
-        ? `Flip: ${flipFrom}→${flipTo}${flipYears}`
+        ? `Flipped ${flipFrom}→${flipTo}${Number.isFinite(fromYearNum) ? ` since ${String(fromYearNum)}` : ''}`
         : '';
       const flipLine = flipLabel ? `<div class="vhr-flip ${flipToneClass}">${escapeHtml(flipLabel)}</div>` : '';
       const shiftTone = String(shiftToneClass || '').toLowerCase();
@@ -11529,6 +11547,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       }
       reinforceMapLabelHalos();
+      keepDataLayersBelowPlaceLabels();
       updatePrecinctVisibility();
     }
 
@@ -11630,6 +11649,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         } catch (_) {}
       });
+      keepDataLayersBelowPlaceLabels();
     }
 
 	    async function ensurePrecinctCentroidsLoaded() {
@@ -11770,6 +11790,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         });
       }
+      keepDataLayersBelowPlaceLabels();
 
       // If a contest was already applied before centroids loaded, apply cached colors.
       if (lastPrecinctDotExpr) {
@@ -12042,6 +12063,7 @@ document.addEventListener('DOMContentLoaded', function() {
           clearHoverOutline();
         });
       }
+      keepDataLayersBelowPlaceLabels();
     }
 
     function addStateHouseLayers() {
@@ -12134,6 +12156,7 @@ document.addEventListener('DOMContentLoaded', function() {
           clearHoverOutline();
         });
       }
+      keepDataLayersBelowPlaceLabels();
     }
 
     function addStateSenatelayers() {
@@ -12226,6 +12249,7 @@ document.addEventListener('DOMContentLoaded', function() {
           clearHoverOutline();
         });
       }
+      keepDataLayersBelowPlaceLabels();
     }
 
     function clearCountyDetails() {
@@ -14662,6 +14686,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
   setStatewideContestTitle(`${formatContestName(contestType, year)} (${year})`);
+      keepDataLayersBelowPlaceLabels();
       setStatus(`Applied contest: ${formatContestName(contestType, year)} ${year}`);
     }
 
