@@ -133,25 +133,41 @@
     }
   }
   @media (max-width: 768px) {
-    /* Mobile: dock hover tooltip above bottom legend for easier reading/taps. */
+    /* Mobile: dock hover tooltip above the dock controls for easier reading/taps. */
     #hover-tooltip {
       position: fixed !important;
       left: 8px !important;
       right: 8px !important;
       top: auto !important;
-      bottom: calc(var(--legend-h, 56px) + var(--safe-bottom, 0px) + 8px) !important;
+        bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px + var(--vote-counter-h, 0px) + 8px) !important;
       max-width: none !important;
       width: auto !important;
-      max-height: 42vh;
+      max-height: min(54vh, calc(100vh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
       overflow: auto;
       -webkit-overflow-scrolling: touch;
       touch-action: pan-y;
+      z-index: 10031 !important;
+    }
+    @supports (height: 100svh) {
+      #hover-tooltip {
+        max-height: min(54svh, calc(100svh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
+      }
     }
     #hover-tooltip .tooltip-btn {
       min-height: 44px;
       padding: 10px 12px;
       font-size: 13px;
       border-radius: 12px;
+    }
+    #hover-tooltip .tooltip-head {
+      flex-direction: column;
+      gap: 8px;
+    }
+    #hover-tooltip .tooltip-actions {
+      width: 100%;
+    }
+    #hover-tooltip .tooltip-btn {
+      flex: 1 1 auto;
     }
   }
     .spinner svg {
@@ -883,6 +899,35 @@ body { height: var(--app-height); }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-shift-value.tie {
   color: #cbd5e1;
+}
+
+
+/* Mobile refinement for the VoteHub-style results tooltip:
+   keep candidate rows readable when the tooltip is docked above the mobile controls. */
+@media (max-width: 768px) {
+  #hover-tooltip[data-context="votehub-results"] {
+    min-width: 0;
+    border-radius: 12px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .votehub-results-card {
+    padding: 12px 13px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-row {
+    grid-template-columns: 10px minmax(0, 1fr) auto auto;
+    gap: 7px;
+    font-size: 13.5px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-votes,
+  #hover-tooltip[data-context="votehub-results"] .vhr-pct {
+    font-size: 1.06em;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-winner {
+    font-size: 13px;
+  }
 }
 
 .sidebar {
