@@ -133,25 +133,41 @@
     }
   }
   @media (max-width: 768px) {
-    /* Mobile: dock hover tooltip above bottom legend for easier reading/taps. */
+    /* Mobile: dock hover tooltip above the dock controls for easier reading/taps. */
     #hover-tooltip {
       position: fixed !important;
       left: 8px !important;
       right: 8px !important;
       top: auto !important;
-      bottom: calc(var(--legend-h, 56px) + var(--safe-bottom, 0px) + 8px) !important;
+        bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px + var(--vote-counter-h, 0px) + 8px) !important;
       max-width: none !important;
       width: auto !important;
-      max-height: 42vh;
+      max-height: min(54vh, calc(100vh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
       overflow: auto;
       -webkit-overflow-scrolling: touch;
       touch-action: pan-y;
+      z-index: 10031 !important;
+    }
+    @supports (height: 100svh) {
+      #hover-tooltip {
+        max-height: min(54svh, calc(100svh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
+      }
     }
     #hover-tooltip .tooltip-btn {
       min-height: 44px;
       padding: 10px 12px;
       font-size: 13px;
       border-radius: 12px;
+    }
+    #hover-tooltip .tooltip-head {
+      flex-direction: column;
+      gap: 8px;
+    }
+    #hover-tooltip .tooltip-actions {
+      width: 100%;
+    }
+    #hover-tooltip .tooltip-btn {
+      flex: 1 1 auto;
     }
   }
     .spinner svg {
@@ -675,6 +691,55 @@ body { height: var(--app-height); }
   transition: opacity 0.15s ease;
 }
 
+/* UI hierarchy helpers: keep one dominant layer at a time. */
+body.hover-preview-active .main-controls,
+body.hover-preview-active .vote-counter,
+body.hover-preview-active .viz-modes,
+body.hover-preview-active .legend {
+  opacity: 0.94;
+}
+
+body.focus-active.hover-preview-active .vote-counter {
+  opacity: 1;
+}
+
+/* Desktop: keep the classic hover-card feel (no global UI dimming). */
+@media (min-width: 769px) {
+  body.hover-preview-active .main-controls,
+  body.hover-preview-active .vote-counter,
+  body.hover-preview-active .viz-modes,
+  body.hover-preview-active .legend {
+    opacity: 1;
+  }
+}
+
+#hover-tooltip[data-context="preview"] {
+  max-width: 252px;
+  opacity: 0.88;
+  border-color: rgba(148, 163, 184, 0.18);
+}
+
+body.focus-active #hover-tooltip[data-context="preview"] {
+  opacity: 0.82;
+}
+
+.hover-tooltip .tooltip-kicker {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(148, 163, 184, 0.92);
+  margin-bottom: 6px;
+}
+
+.hover-tooltip .tooltip-hint {
+  margin-top: 8px;
+  font-size: 11px;
+  font-weight: 750;
+  color: rgba(226, 232, 240, 0.92);
+  opacity: 0.95;
+}
+
 .hover-tooltip .tooltip-title {
   font-weight: 700;
   margin-bottom: 10px;
@@ -682,10 +747,156 @@ body { height: var(--app-height); }
   font-size: 14px;
   letter-spacing: 0.3px;
 }
+.hover-tooltip .tooltip-title-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.hover-tooltip .tooltip-title-main {
+  display: inline-flex;
+  align-items: center;
+}
+.hover-tooltip .tooltip-title-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.hover-tooltip .tooltip-title-badge:hover {
+  transform: translateY(-1px) scale(1.04);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.hover-tooltip .tooltip-title-badge.rep {
+  color: #fecaca;
+  background: rgba(239, 68, 68, 0.2);
+  border-color: rgba(248, 113, 113, 0.35);
+}
+.hover-tooltip .tooltip-title-badge.dem {
+  color: #bfdbfe;
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(96, 165, 250, 0.35);
+}
+.hover-tooltip .tooltip-title-badge.tie {
+  color: #e2e8f0;
+  background: rgba(148, 163, 184, 0.2);
+  border-color: rgba(148, 163, 184, 0.35);
+}
 
 .hover-tooltip .tooltip-trends {
   font-size: 12px;
   line-height: 1.6;
+}
+
+.hover-tooltip .tooltip-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.hover-tooltip .tooltip-head.is-compact {
+  margin-bottom: 6px;
+}
+
+.hover-tooltip .tooltip-title {
+  margin-bottom: 0;
+}
+
+.hover-tooltip .tooltip-quickline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.hover-tooltip .tooltip-quickline .rep { color: #fecaca; }
+.hover-tooltip .tooltip-quickline .dem { color: #bfdbfe; }
+.hover-tooltip .tooltip-quickline .tie { color: #e2e8f0; }
+
+		.hover-tooltip .tooltip-quickline .tier {
+		  font-size: 13px;
+		  font-weight: 900;
+		  letter-spacing: 0.01em;
+		  color: rgba(255, 255, 255, 0.92);
+		}
+	.hover-tooltip .tooltip-quickline .tier::before {
+	  content: "";
+	  margin: 0;
+	}
+	.hover-tooltip .tooltip-quickline .tier {
+	  margin-left: 4px;
+	}
+
+.hover-tooltip .tooltip-insight {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.hover-tooltip .tooltip-delta {
+  margin-top: 8px;
+  font-size: 11.5px;
+  line-height: 1.35;
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.hover-tooltip .tooltip-delta-line {
+  margin-top: 4px;
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.hover-tooltip .tooltip-flip {
+  margin-top: 6px;
+  font-size: 11.5px;
+  font-weight: 850;
+  letter-spacing: 0.01em;
+  color: rgba(226, 232, 240, 0.92);
+}
+.hover-tooltip .tooltip-flip.rep { color: #fecaca; }
+.hover-tooltip .tooltip-flip.dem { color: #bfdbfe; }
+
+.hover-tooltip .tooltip-more {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.hover-tooltip .tooltip-more summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.18);
+  color: rgba(226, 232, 240, 0.96);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hover-tooltip .tooltip-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.hover-tooltip .tooltip-more-body {
+  margin-top: 10px;
 }
 
 .quick-tooltip {
@@ -704,22 +915,29 @@ body { height: var(--app-height); }
   font-weight: 600;
 }
 
+/* VoteHub-style result tooltip: NCMap-sized hierarchy transplanted into the index. */
 #hover-tooltip[data-context="votehub-results"] {
-  background: rgba(3,7,18,0.96);
+  background: rgba(3, 7, 18, 0.96);
   color: #e5e7eb;
-  border: 1px solid rgba(148,163,184,0.24);
-  border-radius: 8px;
-  box-shadow: 0 8px 26px rgba(0,0,0,0.22);
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.42), 0 2px 10px rgba(0, 0, 0, 0.26);
   padding: 0;
-  max-width: 328px;
-  min-width: 264px;
+  max-width: 360px;
+  min-width: 292px;
+  line-height: 1.38;
   backdrop-filter: blur(10px);
   opacity: 1;
 }
 
 #hover-tooltip[data-context="votehub-results"] .votehub-results-card {
-  padding: 12px 14px;
+  padding: 13px 15px 12px;
   font-family: inherit;
+}
+
+#hover-tooltip[data-context="votehub-results"] .tooltip-trends {
+  font-size: inherit;
+  line-height: inherit;
 }
 
 #hover-tooltip[data-context="votehub-results"][data-pinned="0"] .tooltip-head {
@@ -727,71 +945,69 @@ body { height: var(--app-height); }
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-title {
-  font-size: 13px;
-  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.18;
+  font-weight: 900;
+  letter-spacing: 0.01em;
   color: #f8fafc;
   margin-bottom: 2px;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-subtitle {
-  font-size: 10.5px;
-  font-weight: 800;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
   color: #94a3b8;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-winner {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: baseline;
-  gap: 14px;
-  font-size: 16px;
-  line-height: 1.2;
-  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 950;
   color: #e2e8f0;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(148,163,184,0.22);
+  margin-bottom: 9px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.24);
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-winner.rep {
-  color: #fca5a5;
+#hover-tooltip[data-context="votehub-results"] .vhr-winner.rep,
+#hover-tooltip[data-context="votehub-results"] .vhr-row.rep .vhr-pct,
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.rep {
+  color: #fecaca !important;
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-winner.dem {
-  color: #93c5fd;
+#hover-tooltip[data-context="votehub-results"] .vhr-winner.dem,
+#hover-tooltip[data-context="votehub-results"] .vhr-row.dem .vhr-pct,
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.dem {
+  color: #bfdbfe !important;
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-winner.tie {
-  color: #cbd5e1;
-}
-
-#hover-tooltip[data-context="votehub-results"] .vhr-lead-margin {
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+#hover-tooltip[data-context="votehub-results"] .vhr-winner.tie,
+#hover-tooltip[data-context="votehub-results"] .vhr-row.other .vhr-pct,
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.tie {
+  color: #e2e8f0 !important;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-raw-lead {
-  justify-self: end;
-  text-align: right;
-  white-space: nowrap;
-  font-size: 0.95em;
-  font-weight: 900;
+  font-size: 13.5px !important;
+  font-weight: 950 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 0.005em;
+  opacity: 1 !important;
   font-variant-numeric: tabular-nums;
-  opacity: 0.98;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-row {
   display: grid;
   grid-template-columns: 10px minmax(0, 1fr) auto auto;
-  align-items: center;
-  gap: 8px;
-  padding: 5px 0;
-  font-size: 12.5px;
+  align-items: baseline;
+  gap: 9px;
+  padding: 6px 0;
+  font-size: 14px;
+  line-height: 1.3;
   color: #e2e8f0;
 }
 
@@ -800,99 +1016,162 @@ body { height: var(--app-height); }
   height: 9px;
   border-radius: 999px;
   display: inline-block;
+  transform: translateY(-1px);
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-row.rep .vhr-dot {
-  background: #dc2626;
-}
-
-#hover-tooltip[data-context="votehub-results"] .vhr-row.dem .vhr-dot {
-  background: #0284c7;
-}
-
-#hover-tooltip[data-context="votehub-results"] .vhr-row.other .vhr-dot {
-  background: #6b7280;
-}
+#hover-tooltip[data-context="votehub-results"] .vhr-row.rep .vhr-dot { background: #dc2626; }
+#hover-tooltip[data-context="votehub-results"] .vhr-row.dem .vhr-dot { background: #2563eb; }
+#hover-tooltip[data-context="votehub-results"] .vhr-row.other .vhr-dot { background: #6b7280; }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-weight: 600;
+  font-size: 13.75px;
+  font-weight: 780;
+  color: rgba(226, 232, 240, 0.94);
+  min-width: 0;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-votes,
-#hover-tooltip[data-context="votehub-results"] .vhr-pct {
+#hover-tooltip[data-context="votehub-results"] .vhr-pct,
+#hover-tooltip[data-context="votehub-results"] .vhr-total,
+#hover-tooltip[data-context="votehub-results"] .vhr-shift-value {
   font-variant-numeric: tabular-nums;
-  color: #cbd5e1;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-votes {
+  font-size: 14.25px;
+  line-height: 1.1;
+  font-weight: 850;
+  letter-spacing: 0;
+  color: #f8fafc;
+  text-align: right;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-pct {
+  font-size: 13.75px;
+  line-height: 1.1;
+  font-weight: 900;
+  color: #e2e8f0;
+  text-align: right;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-total {
-  margin-top: 8px;
-  padding-top: 8px;
-  border-top: 1px solid rgba(148,163,184,0.22);
-  font-size: 11.5px;
+  margin-top: 9px;
+  padding-top: 9px;
+  border-top: 1px solid rgba(148, 163, 184, 0.22);
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 800;
   color: #94a3b8;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-flip {
-  margin: 6px 0 8px;
-  font-size: 11.5px;
-  font-weight: 800;
-  color: #cbd5e1;
+  margin: 7px 0 9px;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 850;
+  letter-spacing: 0.01em;
+  color: rgba(226, 232, 240, 0.92);
 }
-
-#hover-tooltip[data-context="votehub-results"] .vhr-flip.rep {
-  color: #fca5a5;
-}
-
-#hover-tooltip[data-context="votehub-results"] .vhr-flip.dem {
-  color: #93c5fd;
-}
-
-#hover-tooltip[data-context="votehub-results"] .vhr-flip.tie {
-  color: #cbd5e1;
-}
+#hover-tooltip[data-context="votehub-results"] .vhr-flip.rep { color: #fecaca; }
+#hover-tooltip[data-context="votehub-results"] .vhr-flip.dem { color: #bfdbfe; }
+#hover-tooltip[data-context="votehub-results"] .vhr-flip.tie { color: #e2e8f0; }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-shift {
-  margin: 6px 0 8px;
+  margin: 7px 0 9px;
   padding: 7px 9px;
-  border-radius: 8px;
-  border: 1px solid rgba(148,163,184,0.20);
-  background: rgba(15,23,42,0.28);
+  border-radius: 9px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.30);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 10px;
-  font-size: 11.5px;
-  font-weight: 800;
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 850;
   color: #cbd5e1;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-shift-label {
   color: #94a3b8;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 10px;
+  letter-spacing: 0.055em;
+  font-size: 10.5px;
   font-weight: 900;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-shift-value {
-  font-variant-numeric: tabular-nums;
-  font-weight: 900;
+  font-weight: 950;
+  font-size: 12.5px;
+}
+#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.rep { color: #fecaca; }
+#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.dem { color: #bfdbfe; }
+#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.tie { color: #e2e8f0; }
+
+@media (max-width: 768px) {
+  #hover-tooltip[data-context="votehub-results"] {
+    min-width: 0;
+    max-width: none;
+    width: auto;
+    border-radius: 13px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .votehub-results-card {
+    padding: 14px 15px 13px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-title {
+    font-size: 14.5px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-subtitle {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-winner {
+    font-size: 14.5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-raw-lead {
+    font-size: 14px !important;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-row {
+    grid-template-columns: 11px minmax(0, 1fr) auto auto;
+    gap: 9px;
+    padding: 7px 0;
+    font-size: 14.25px;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-name {
+    font-size: 14px;
+    font-weight: 780;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-votes {
+    font-size: 14.75px;
+    font-weight: 850;
+    letter-spacing: 0;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-pct {
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  #hover-tooltip[data-context="votehub-results"] .vhr-total,
+  #hover-tooltip[data-context="votehub-results"] .vhr-flip,
+  #hover-tooltip[data-context="votehub-results"] .vhr-shift {
+    font-size: 12.25px;
+  }
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.rep {
-  color: #fca5a5;
-}
-
-#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.dem {
-  color: #93c5fd;
-}
-
-#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.tie {
-  color: #cbd5e1;
-}
 
 .sidebar {
   position: absolute;
@@ -10207,9 +10486,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="votehub-results-card">
           ${title ? `<div class="vhr-title">${escapeHtml(String(title))}</div>` : ''}
           ${subtitle ? `<div class="vhr-subtitle">${escapeHtml(String(subtitle))}</div>` : ''}
-          <div class="vhr-winner ${winnerToneClass}">
-            <span class="vhr-lead-margin">${escapeHtml(winnerText)} +${escapeHtml(Number(marginAbs || 0).toFixed(2))}%</span>
-            <span class="vhr-raw-lead ${winnerToneClass}">${escapeHtml(`${leadVotes} votes`)}</span>
+          <div class="vhr-winner ${winnerToneClass}" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;">
+            <span>${escapeHtml(winnerText)} +${escapeHtml(Number(marginAbs || 0).toFixed(2))}%</span>
+            <span class="vhr-raw-lead ${winnerToneClass}" style="font-size:12px;font-weight:800;opacity:0.96;font-family:'JetBrains Mono','Consolas','SFMono-Regular',monospace;">${escapeHtml(`${leadVotes} votes`)}</span>
           </div>
           ${flipLine}
           ${shiftLine}
@@ -10741,7 +11020,7 @@ document.addEventListener('DOMContentLoaded', function() {
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(countyShiftDelta) && !!vizShiftCache?.prevYear
       });
 
-      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner));
+      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner), { context: 'votehub-results' });
       const tooltip = document.getElementById('hover-tooltip');
       if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
@@ -10840,7 +11119,7 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (vizShiftCache?.prevYear && vizShiftCache?.year) ? `${vizShiftCache.prevYear}→${vizShiftCache.year}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(precinctShiftDelta) && !!vizShiftCache?.prevYear
       });
-      showHoverTooltip(point.x, point.y, buildTooltipShell('', inner));
+      showHoverTooltip(point.x, point.y, buildTooltipShell('', inner), { context: 'votehub-results' });
       const tooltip = document.getElementById('hover-tooltip');
       if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
@@ -11048,7 +11327,7 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (prevYearForFlip && Number(year)) ? `${prevYearForFlip}→${Number(year)}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(districtShiftDelta) && !!prevYearForFlip
       });
-      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner));
+      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner), { context: 'votehub-results' });
       const tooltip = document.getElementById('hover-tooltip');
       if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
@@ -12597,7 +12876,7 @@ document.addEventListener('DOMContentLoaded', function() {
               shiftYearLabel: (vizShiftCache?.prevYear && vizShiftCache?.year) ? `${vizShiftCache.prevYear}→${vizShiftCache.year}` : '',
               showShiftLine: currentVizMode === 'shift' && Number.isFinite(dotShiftDelta) && !!vizShiftCache?.prevYear
             });
-            showHoverTooltip(evt.point.x, evt.point.y, buildTooltipShell('', inner));
+            showHoverTooltip(evt.point.x, evt.point.y, buildTooltipShell('', inner), { context: 'votehub-results' });
             const tooltip = document.getElementById('hover-tooltip');
             if (tooltip) tooltip.dataset.context = 'votehub-results';
             wireTooltipButtons();
@@ -13683,13 +13962,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Hover Tooltip Functions - VoteHub Style
-    function showHoverTooltip(x, y, content, { force = false } = {}) {
+    function showHoverTooltip(x, y, content, { force = false, context = '' } = {}) {
       const tooltip = document.getElementById('hover-tooltip');
       if (!tooltip) return;
       if (tooltipPinned && !force) return;
       
       tooltip.setAttribute('data-pinned', tooltipPinned ? '1' : '0');
-      tooltip.removeAttribute('data-context');
+      if (context) tooltip.dataset.context = String(context);
+      else tooltip.removeAttribute('data-context');
       tooltip.innerHTML = content;
       tooltip.style.display = 'block';
       
