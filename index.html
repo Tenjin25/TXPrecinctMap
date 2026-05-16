@@ -142,16 +142,31 @@
         bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px + var(--vote-counter-h, 0px) + 8px) !important;
       max-width: none !important;
       width: auto !important;
-      max-height: min(54vh, calc(100vh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
+      max-height: min(58vh, calc(100vh - 12px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
       overflow: auto;
       -webkit-overflow-scrolling: touch;
       touch-action: pan-y;
+      overscroll-behavior: contain;
       z-index: 10031 !important;
+      padding: 12px 14px !important;
+      border-radius: 12px !important;
+      font-size: 13.5px !important;
+      line-height: 1.5 !important;
     }
     @supports (height: 100svh) {
       #hover-tooltip {
-        max-height: min(54svh, calc(100svh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
+        max-height: min(58svh, calc(100svh - 12px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
       }
+    }
+    #hover-tooltip .tooltip-trends {
+      font-size: 13.5px;
+    }
+    #hover-tooltip .tooltip-vote-line {
+      margin: 5px 0;
+    }
+    #hover-tooltip .tooltip-vote-pct {
+      padding: 1px 6px;
+      font-size: 0.94em;
     }
     #hover-tooltip .tooltip-btn {
       min-height: 44px;
@@ -915,29 +930,23 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   font-weight: 600;
 }
 
-/* VoteHub-style result tooltip: NCMap-sized hierarchy transplanted into the index. */
+/* VoteHub-style result tooltip: exact NCMap sizing + aesthetics alignment. */
 #hover-tooltip[data-context="votehub-results"] {
-  background: rgba(3, 7, 18, 0.96);
+  background: rgba(3,7,18,0.96);
   color: #e5e7eb;
-  border: 1px solid rgba(148, 163, 184, 0.24);
-  border-radius: 10px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.42), 0 2px 10px rgba(0, 0, 0, 0.26);
+  border: 1px solid rgba(148,163,184,0.24);
+  border-radius: 8px;
+  box-shadow: 0 8px 26px rgba(0,0,0,0.22);
   padding: 0;
-  max-width: 360px;
-  min-width: 292px;
-  line-height: 1.38;
+  max-width: 310px;
+  min-width: 250px;
   backdrop-filter: blur(10px);
   opacity: 1;
 }
 
 #hover-tooltip[data-context="votehub-results"] .votehub-results-card {
-  padding: 13px 15px 12px;
+  padding: 12px 14px;
   font-family: inherit;
-}
-
-#hover-tooltip[data-context="votehub-results"] .tooltip-trends {
-  font-size: inherit;
-  line-height: inherit;
 }
 
 #hover-tooltip[data-context="votehub-results"][data-pinned="0"] .tooltip-head {
@@ -945,69 +954,49 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-title {
-  font-size: 14px;
-  line-height: 1.18;
-  font-weight: 900;
-  letter-spacing: 0.01em;
+  font-size: 13px;
+  font-weight: 800;
   color: #f8fafc;
   margin-bottom: 2px;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-subtitle {
-  font-size: 11px;
-  line-height: 1.2;
-  font-weight: 900;
+  font-size: 10.5px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.06em;
   color: #94a3b8;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-winner {
-  font-size: 14px;
-  line-height: 1.25;
-  font-weight: 950;
+  font-size: 12.5px;
+  font-weight: 900;
   color: #e2e8f0;
-  margin-bottom: 9px;
-  padding-bottom: 9px;
-  border-bottom: 1px solid rgba(148, 163, 184, 0.24);
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(148,163,184,0.22);
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-winner.rep,
-#hover-tooltip[data-context="votehub-results"] .vhr-row.rep .vhr-pct,
-#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.rep {
-  color: #fecaca !important;
+#hover-tooltip[data-context="votehub-results"] .vhr-winner.rep {
+  color: #fca5a5;
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-winner.dem,
-#hover-tooltip[data-context="votehub-results"] .vhr-row.dem .vhr-pct,
-#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.dem {
-  color: #bfdbfe !important;
+#hover-tooltip[data-context="votehub-results"] .vhr-winner.dem {
+  color: #93c5fd;
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-winner.tie,
-#hover-tooltip[data-context="votehub-results"] .vhr-row.other .vhr-pct,
-#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.tie {
-  color: #e2e8f0 !important;
-}
-
-#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead {
-  font-size: 13.5px !important;
-  font-weight: 950 !important;
-  line-height: 1.1 !important;
-  letter-spacing: 0.005em;
-  opacity: 1 !important;
-  font-variant-numeric: tabular-nums;
+#hover-tooltip[data-context="votehub-results"] .vhr-winner.tie {
+  color: #cbd5e1;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-row {
   display: grid;
   grid-template-columns: 10px minmax(0, 1fr) auto auto;
-  align-items: baseline;
-  gap: 9px;
-  padding: 6px 0;
-  font-size: 14px;
-  line-height: 1.3;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  font-size: 12.5px;
   color: #e2e8f0;
 }
 
@@ -1016,160 +1005,132 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   height: 9px;
   border-radius: 999px;
   display: inline-block;
-  transform: translateY(-1px);
 }
 
-#hover-tooltip[data-context="votehub-results"] .vhr-row.rep .vhr-dot { background: #dc2626; }
-#hover-tooltip[data-context="votehub-results"] .vhr-row.dem .vhr-dot { background: #2563eb; }
-#hover-tooltip[data-context="votehub-results"] .vhr-row.other .vhr-dot { background: #6b7280; }
+#hover-tooltip[data-context="votehub-results"] .vhr-row.rep .vhr-dot {
+  background: #dc2626;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-row.dem .vhr-dot {
+  background: #0284c7;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-row.other .vhr-dot {
+  background: #6b7280;
+}
 
 #hover-tooltip[data-context="votehub-results"] .vhr-name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 13.75px;
-  font-weight: 780;
-  color: rgba(226, 232, 240, 0.94);
-  min-width: 0;
+  font-weight: 800;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-votes,
-#hover-tooltip[data-context="votehub-results"] .vhr-pct,
-#hover-tooltip[data-context="votehub-results"] .vhr-total,
-#hover-tooltip[data-context="votehub-results"] .vhr-shift-value {
+#hover-tooltip[data-context="votehub-results"] .vhr-pct {
   font-variant-numeric: tabular-nums;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-votes {
-  font-size: 14.25px;
-  line-height: 1.1;
-  font-weight: 850;
-  letter-spacing: 0;
-  color: #f8fafc;
-  text-align: right;
+  font-weight: 800;
+  color: #f1f5f9;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-pct {
-  font-size: 13.75px;
-  line-height: 1.1;
   font-weight: 900;
+  font-size: inherit;
   color: #e2e8f0;
-  text-align: right;
+  line-height: inherit;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-total {
-  margin-top: 9px;
-  padding-top: 9px;
-  border-top: 1px solid rgba(148, 163, 184, 0.22);
-  font-size: 12px;
-  line-height: 1.3;
-  font-weight: 800;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(148,163,184,0.22);
+  font-size: 11.5px;
   color: #94a3b8;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-flip {
-  margin: 7px 0 9px;
-  font-size: 12px;
-  line-height: 1.3;
-  font-weight: 850;
-  letter-spacing: 0.01em;
-  color: rgba(226, 232, 240, 0.92);
+  margin: 6px 0 8px;
+  font-size: 11.5px;
+  font-weight: 800;
+  color: #cbd5e1;
 }
-#hover-tooltip[data-context="votehub-results"] .vhr-flip.rep { color: #fecaca; }
-#hover-tooltip[data-context="votehub-results"] .vhr-flip.dem { color: #bfdbfe; }
-#hover-tooltip[data-context="votehub-results"] .vhr-flip.tie { color: #e2e8f0; }
+
+#hover-tooltip[data-context="votehub-results"] .vhr-flip.rep {
+  color: #fca5a5;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-flip.dem {
+  color: #93c5fd;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-flip.tie {
+  color: #cbd5e1;
+}
 
 #hover-tooltip[data-context="votehub-results"] .vhr-shift {
-  margin: 7px 0 9px;
+  margin: 6px 0 8px;
   padding: 7px 9px;
-  border-radius: 9px;
-  border: 1px solid rgba(148, 163, 184, 0.22);
-  background: rgba(15, 23, 42, 0.30);
+  border-radius: 8px;
+  border: 1px solid rgba(148,163,184,0.20);
+  background: rgba(15,23,42,0.28);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 10px;
-  font-size: 12px;
-  line-height: 1.25;
-  font-weight: 850;
+  font-size: 11.5px;
+  font-weight: 800;
   color: #cbd5e1;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-shift-label {
   color: #94a3b8;
   text-transform: uppercase;
-  letter-spacing: 0.055em;
-  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  font-size: 10px;
   font-weight: 900;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-shift-value {
-  font-weight: 950;
-  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 900;
 }
-#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.rep { color: #fecaca; }
-#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.dem { color: #bfdbfe; }
-#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.tie { color: #e2e8f0; }
 
-@media (max-width: 768px) {
-  #hover-tooltip[data-context="votehub-results"] {
-    min-width: 0;
-    max-width: none;
-    width: auto;
-    border-radius: 13px;
-  }
+#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.rep {
+  color: #fca5a5;
+}
 
-  #hover-tooltip[data-context="votehub-results"] .votehub-results-card {
-    padding: 14px 15px 13px;
-  }
+#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.dem {
+  color: #93c5fd;
+}
 
-  #hover-tooltip[data-context="votehub-results"] .vhr-title {
-    font-size: 14.5px;
-  }
+#hover-tooltip[data-context="votehub-results"] .vhr-shift-value.tie {
+  color: #cbd5e1;
+}
 
-  #hover-tooltip[data-context="votehub-results"] .vhr-subtitle {
-    font-size: 11px;
-    margin-bottom: 10px;
-  }
+/* Compatibility: this index includes a raw-vote lead span in the winner line.
+   Keep NCMap sizing, but restore the lighter raw-vote tone from the previous fix. */
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead {
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 0;
+  opacity: 1 !important;
+  font-variant-numeric: tabular-nums;
+}
 
-  #hover-tooltip[data-context="votehub-results"] .vhr-winner {
-    font-size: 14.5px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-  }
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.rep {
+  color: #fecaca !important;
+}
 
-  #hover-tooltip[data-context="votehub-results"] .vhr-raw-lead {
-    font-size: 14px !important;
-  }
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.dem {
+  color: #bfdbfe !important;
+}
 
-  #hover-tooltip[data-context="votehub-results"] .vhr-row {
-    grid-template-columns: 11px minmax(0, 1fr) auto auto;
-    gap: 9px;
-    padding: 7px 0;
-    font-size: 14.25px;
-  }
-
-  #hover-tooltip[data-context="votehub-results"] .vhr-name {
-    font-size: 14px;
-    font-weight: 780;
-  }
-
-  #hover-tooltip[data-context="votehub-results"] .vhr-votes {
-    font-size: 14.75px;
-    font-weight: 850;
-    letter-spacing: 0;
-  }
-
-  #hover-tooltip[data-context="votehub-results"] .vhr-pct {
-    font-size: 14px;
-    font-weight: 900;
-  }
-
-  #hover-tooltip[data-context="votehub-results"] .vhr-total,
-  #hover-tooltip[data-context="votehub-results"] .vhr-flip,
-  #hover-tooltip[data-context="votehub-results"] .vhr-shift {
-    font-size: 12.25px;
-  }
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.tie {
+  color: #e2e8f0 !important;
 }
 
 
@@ -10488,7 +10449,7 @@ document.addEventListener('DOMContentLoaded', function() {
           ${subtitle ? `<div class="vhr-subtitle">${escapeHtml(String(subtitle))}</div>` : ''}
           <div class="vhr-winner ${winnerToneClass}" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;">
             <span>${escapeHtml(winnerText)} +${escapeHtml(Number(marginAbs || 0).toFixed(2))}%</span>
-            <span class="vhr-raw-lead ${winnerToneClass}" style="font-size:12px;font-weight:800;opacity:0.96;font-family:'JetBrains Mono','Consolas','SFMono-Regular',monospace;">${escapeHtml(`${leadVotes} votes`)}</span>
+            <span class="vhr-raw-lead ${winnerToneClass}">${escapeHtml(`${leadVotes} votes`)}</span>
           </div>
           ${flipLine}
           ${shiftLine}
