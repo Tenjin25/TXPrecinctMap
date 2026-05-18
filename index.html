@@ -330,36 +330,7 @@
         } catch (_) {}
       }
 
-      function syncMobileThumbDock() {
-        try {
-          const dock = document.getElementById('mobile-thumb-dock');
-          const controlsFab = document.getElementById('mobile-controls-fab');
-          const searchFab = document.getElementById('mobile-search-fab');
-          const topbar = document.getElementById('map-topbar');
-          const controls = document.getElementById('main-controls');
-          if (!dock || !controlsFab) return;
-
-          if (!isMobileViewport()) {
-            dock.style.display = 'none';
-            dock.classList.remove('controls-open', 'details-open');
-            if (searchFab) searchFab.setAttribute('aria-expanded', 'false');
-            return;
-          }
-          dock.style.display = 'flex';
-
-          const controlsExpanded = !!(controls && !controls.classList.contains('minimized'));
-          dock.classList.toggle('controls-open', controlsExpanded);
-          controlsFab.textContent = controlsExpanded ? 'Hide' : 'Controls';
-          controlsFab.setAttribute('aria-expanded', controlsExpanded ? 'true' : 'false');
-
-          if (searchFab) {
-            const detailsOpen = !!(topbar && topbar.classList.contains('topbar-expanded'));
-            dock.classList.toggle('details-open', detailsOpen);
-            searchFab.textContent = detailsOpen ? 'Close' : 'Search';
-            searchFab.setAttribute('aria-expanded', detailsOpen ? 'true' : 'false');
-          }
-        } catch (_) {}
-      }
+      function syncMobileThumbDock() {}
 
       function collapseMobileTopbar() {
         try {
@@ -383,7 +354,6 @@
           const topbarHeight = Math.max(minTopbarHeight, Math.round(topbar.getBoundingClientRect().height || 0));
           document.documentElement.style.setProperty('--topbar-h', `${topbarHeight}px`);
           syncMobileTopbarToggle();
-          syncMobileThumbDock();
           if (typeof window.updateMobileOverlayOffsets === 'function') {
             window.updateMobileOverlayOffsets();
           }
@@ -415,56 +385,13 @@
       var statusExit = document.getElementById('status-exit');
       var mobileTopbarToggle = document.getElementById('mobile-topbar-toggle');
       var topbar = document.getElementById('map-topbar');
-      var mobileControlsFab = document.getElementById('mobile-controls-fab');
-      var mobileSearchFab = document.getElementById('mobile-search-fab');
 
       if (mobileTopbarToggle && topbar) {
         mobileTopbarToggle.addEventListener('click', function() {
           if (!isMobileViewport()) return;
           topbar.classList.toggle('topbar-expanded');
           syncMobileTopbarToggle();
-          syncMobileThumbDock();
           syncInitialTopbarOffset();
-        });
-      }
-
-      if (mobileControlsFab) {
-        mobileControlsFab.addEventListener('click', function() {
-          if (!isMobileViewport()) return;
-          const controls = document.getElementById('main-controls');
-          const willExpand = !!(controls && controls.classList.contains('minimized'));
-          if (willExpand && topbar && topbar.classList.contains('topbar-expanded')) {
-            topbar.classList.remove('topbar-expanded');
-            syncMobileTopbarToggle();
-          }
-          toggleMainControls();
-          syncMobileThumbDock();
-          try { updateMobileOverlayOffsets(); } catch (_) {}
-        });
-      }
-
-      if (mobileSearchFab) {
-        mobileSearchFab.addEventListener('click', function() {
-          if (!isMobileViewport()) return;
-          const searchInput = document.getElementById('county-search');
-          const controls = document.getElementById('main-controls');
-          if (!topbar) return;
-          const shouldOpen = !topbar.classList.contains('topbar-expanded');
-          if (shouldOpen && controls && !controls.classList.contains('minimized')) {
-            toggleMainControls();
-          }
-          topbar.classList.toggle('topbar-expanded', shouldOpen);
-          syncMobileTopbarToggle();
-          syncMobileThumbDock();
-          syncInitialTopbarOffset();
-          if (shouldOpen && searchInput) {
-            setTimeout(() => {
-              try { searchInput.focus({ preventScroll: true }); } catch (_) { try { searchInput.focus(); } catch (_) {} }
-              try { searchInput.select(); } catch (_) {}
-            }, 20);
-          } else if (searchInput) {
-            try { searchInput.blur(); } catch (_) {}
-          }
         });
       }
 
@@ -6095,6 +6022,65 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     padding-right: 0 !important;
     margin-right: 0 !important;
     scrollbar-gutter: auto !important;
+  }
+
+  /* NCMap mobile parity overrides (authoritative pass). */
+  @media (max-width: 768px) {
+    .map-topbar,
+    .main-controls,
+    .legend,
+    .vote-counter,
+    #status-panel {
+      left: 8px !important;
+      right: 8px !important;
+      width: auto !important;
+      max-width: none !important;
+    }
+
+    .main-controls {
+      top: calc(var(--safe-top, 0px) + 8px) !important;
+      max-height: min(52svh, calc(100svh - var(--safe-top, 0px) - var(--safe-bottom, 0px) - 148px)) !important;
+      overflow-y: auto !important;
+    }
+
+    .legend {
+      top: auto !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 8px) !important;
+      max-height: min(44svh, calc(100svh - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - 120px)) !important;
+      overflow-y: auto !important;
+    }
+
+    .vote-counter {
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px) !important;
+      max-height: min(62svh, 620px) !important;
+      overflow-y: auto !important;
+    }
+
+    .vote-counter.minimized {
+      max-height: 64px !important;
+      overflow: hidden !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 44px) !important;
+    }
+
+    #hover-tooltip {
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px + var(--vote-counter-h, 0px) + 8px) !important;
+      max-height: min(58svh, calc(100svh - 12px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px))) !important;
+    }
+
+    .contest-toolbar {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px !important;
+      align-items: stretch !important;
+    }
+
+    .contest-toolbar label,
+    #precinct-toggle,
+    #snapshot-variant {
+      grid-column: 1 / -1;
+      width: 100%;
+      min-width: 0 !important;
+    }
   }
     </style>
 </head>
@@ -15885,5 +15871,3 @@ document.addEventListener('DOMContentLoaded', function() {
   </script>
 </body>
 </html>
-
-
