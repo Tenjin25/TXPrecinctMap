@@ -133,25 +133,56 @@
     }
   }
   @media (max-width: 768px) {
-    /* Mobile: dock hover tooltip above bottom legend for easier reading/taps. */
+    /* Mobile: dock hover tooltip above the dock controls for easier reading/taps. */
     #hover-tooltip {
       position: fixed !important;
       left: 8px !important;
       right: 8px !important;
       top: auto !important;
-      bottom: calc(var(--legend-h, 56px) + var(--safe-bottom, 0px) + 8px) !important;
+        bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px + var(--vote-counter-h, 0px) + 8px) !important;
       max-width: none !important;
       width: auto !important;
-      max-height: 42vh;
+      max-height: min(58vh, calc(100vh - 12px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
       overflow: auto;
       -webkit-overflow-scrolling: touch;
       touch-action: pan-y;
+      overscroll-behavior: contain;
+      z-index: 10031 !important;
+      padding: 12px 14px !important;
+      border-radius: 12px !important;
+      font-size: 13.5px !important;
+      line-height: 1.5 !important;
+    }
+    @supports (height: 100svh) {
+      #hover-tooltip {
+        max-height: min(58svh, calc(100svh - 12px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
+      }
+    }
+    #hover-tooltip .tooltip-trends {
+      font-size: 13.5px;
+    }
+    #hover-tooltip .tooltip-vote-line {
+      margin: 5px 0;
+    }
+    #hover-tooltip .tooltip-vote-pct {
+      padding: 1px 6px;
+      font-size: 0.94em;
     }
     #hover-tooltip .tooltip-btn {
       min-height: 44px;
       padding: 10px 12px;
       font-size: 13px;
       border-radius: 12px;
+    }
+    #hover-tooltip .tooltip-head {
+      flex-direction: column;
+      gap: 8px;
+    }
+    #hover-tooltip .tooltip-actions {
+      width: 100%;
+    }
+    #hover-tooltip .tooltip-btn {
+      flex: 1 1 auto;
     }
   }
     .spinner svg {
@@ -299,36 +330,7 @@
         } catch (_) {}
       }
 
-      function syncMobileThumbDock() {
-        try {
-          const dock = document.getElementById('mobile-thumb-dock');
-          const controlsFab = document.getElementById('mobile-controls-fab');
-          const searchFab = document.getElementById('mobile-search-fab');
-          const topbar = document.getElementById('map-topbar');
-          const controls = document.getElementById('main-controls');
-          if (!dock || !controlsFab) return;
-
-          if (!isMobileViewport()) {
-            dock.style.display = 'none';
-            dock.classList.remove('controls-open', 'details-open');
-            if (searchFab) searchFab.setAttribute('aria-expanded', 'false');
-            return;
-          }
-          dock.style.display = 'flex';
-
-          const controlsExpanded = !!(controls && !controls.classList.contains('minimized'));
-          dock.classList.toggle('controls-open', controlsExpanded);
-          controlsFab.textContent = controlsExpanded ? 'Hide' : 'Controls';
-          controlsFab.setAttribute('aria-expanded', controlsExpanded ? 'true' : 'false');
-
-          if (searchFab) {
-            const detailsOpen = !!(topbar && topbar.classList.contains('topbar-expanded'));
-            dock.classList.toggle('details-open', detailsOpen);
-            searchFab.textContent = detailsOpen ? 'Close' : 'Search';
-            searchFab.setAttribute('aria-expanded', detailsOpen ? 'true' : 'false');
-          }
-        } catch (_) {}
-      }
+      function syncMobileThumbDock() {}
 
       function collapseMobileTopbar() {
         try {
@@ -352,7 +354,6 @@
           const topbarHeight = Math.max(minTopbarHeight, Math.round(topbar.getBoundingClientRect().height || 0));
           document.documentElement.style.setProperty('--topbar-h', `${topbarHeight}px`);
           syncMobileTopbarToggle();
-          syncMobileThumbDock();
           if (typeof window.updateMobileOverlayOffsets === 'function') {
             window.updateMobileOverlayOffsets();
           }
@@ -384,56 +385,13 @@
       var statusExit = document.getElementById('status-exit');
       var mobileTopbarToggle = document.getElementById('mobile-topbar-toggle');
       var topbar = document.getElementById('map-topbar');
-      var mobileControlsFab = document.getElementById('mobile-controls-fab');
-      var mobileSearchFab = document.getElementById('mobile-search-fab');
 
       if (mobileTopbarToggle && topbar) {
         mobileTopbarToggle.addEventListener('click', function() {
           if (!isMobileViewport()) return;
           topbar.classList.toggle('topbar-expanded');
           syncMobileTopbarToggle();
-          syncMobileThumbDock();
           syncInitialTopbarOffset();
-        });
-      }
-
-      if (mobileControlsFab) {
-        mobileControlsFab.addEventListener('click', function() {
-          if (!isMobileViewport()) return;
-          const controls = document.getElementById('main-controls');
-          const willExpand = !!(controls && controls.classList.contains('minimized'));
-          if (willExpand && topbar && topbar.classList.contains('topbar-expanded')) {
-            topbar.classList.remove('topbar-expanded');
-            syncMobileTopbarToggle();
-          }
-          toggleMainControls();
-          syncMobileThumbDock();
-          try { updateMobileOverlayOffsets(); } catch (_) {}
-        });
-      }
-
-      if (mobileSearchFab) {
-        mobileSearchFab.addEventListener('click', function() {
-          if (!isMobileViewport()) return;
-          const searchInput = document.getElementById('county-search');
-          const controls = document.getElementById('main-controls');
-          if (!topbar) return;
-          const shouldOpen = !topbar.classList.contains('topbar-expanded');
-          if (shouldOpen && controls && !controls.classList.contains('minimized')) {
-            toggleMainControls();
-          }
-          topbar.classList.toggle('topbar-expanded', shouldOpen);
-          syncMobileTopbarToggle();
-          syncMobileThumbDock();
-          syncInitialTopbarOffset();
-          if (shouldOpen && searchInput) {
-            setTimeout(() => {
-              try { searchInput.focus({ preventScroll: true }); } catch (_) { try { searchInput.focus(); } catch (_) {} }
-              try { searchInput.select(); } catch (_) {}
-            }, 20);
-          } else if (searchInput) {
-            try { searchInput.blur(); } catch (_) {}
-          }
         });
       }
 
@@ -675,6 +633,55 @@ body { height: var(--app-height); }
   transition: opacity 0.15s ease;
 }
 
+/* UI hierarchy helpers: keep one dominant layer at a time. */
+body.hover-preview-active .main-controls,
+body.hover-preview-active .vote-counter,
+body.hover-preview-active .viz-modes,
+body.hover-preview-active .legend {
+  opacity: 0.94;
+}
+
+body.focus-active.hover-preview-active .vote-counter {
+  opacity: 1;
+}
+
+/* Desktop: keep the classic hover-card feel (no global UI dimming). */
+@media (min-width: 769px) {
+  body.hover-preview-active .main-controls,
+  body.hover-preview-active .vote-counter,
+  body.hover-preview-active .viz-modes,
+  body.hover-preview-active .legend {
+    opacity: 1;
+  }
+}
+
+#hover-tooltip[data-context="preview"] {
+  max-width: 252px;
+  opacity: 0.88;
+  border-color: rgba(148, 163, 184, 0.18);
+}
+
+body.focus-active #hover-tooltip[data-context="preview"] {
+  opacity: 0.82;
+}
+
+.hover-tooltip .tooltip-kicker {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(148, 163, 184, 0.92);
+  margin-bottom: 6px;
+}
+
+.hover-tooltip .tooltip-hint {
+  margin-top: 8px;
+  font-size: 11px;
+  font-weight: 750;
+  color: rgba(226, 232, 240, 0.92);
+  opacity: 0.95;
+}
+
 .hover-tooltip .tooltip-title {
   font-weight: 700;
   margin-bottom: 10px;
@@ -682,10 +689,156 @@ body { height: var(--app-height); }
   font-size: 14px;
   letter-spacing: 0.3px;
 }
+.hover-tooltip .tooltip-title-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.hover-tooltip .tooltip-title-main {
+  display: inline-flex;
+  align-items: center;
+}
+.hover-tooltip .tooltip-title-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.hover-tooltip .tooltip-title-badge:hover {
+  transform: translateY(-1px) scale(1.04);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.hover-tooltip .tooltip-title-badge.rep {
+  color: #fecaca;
+  background: rgba(239, 68, 68, 0.2);
+  border-color: rgba(248, 113, 113, 0.35);
+}
+.hover-tooltip .tooltip-title-badge.dem {
+  color: #bfdbfe;
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(96, 165, 250, 0.35);
+}
+.hover-tooltip .tooltip-title-badge.tie {
+  color: #e2e8f0;
+  background: rgba(148, 163, 184, 0.2);
+  border-color: rgba(148, 163, 184, 0.35);
+}
 
 .hover-tooltip .tooltip-trends {
   font-size: 12px;
   line-height: 1.6;
+}
+
+.hover-tooltip .tooltip-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.hover-tooltip .tooltip-head.is-compact {
+  margin-bottom: 6px;
+}
+
+.hover-tooltip .tooltip-title {
+  margin-bottom: 0;
+}
+
+.hover-tooltip .tooltip-quickline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.hover-tooltip .tooltip-quickline .rep { color: #fecaca; }
+.hover-tooltip .tooltip-quickline .dem { color: #bfdbfe; }
+.hover-tooltip .tooltip-quickline .tie { color: #e2e8f0; }
+
+		.hover-tooltip .tooltip-quickline .tier {
+		  font-size: 13px;
+		  font-weight: 900;
+		  letter-spacing: 0.01em;
+		  color: rgba(255, 255, 255, 0.92);
+		}
+	.hover-tooltip .tooltip-quickline .tier::before {
+	  content: "";
+	  margin: 0;
+	}
+	.hover-tooltip .tooltip-quickline .tier {
+	  margin-left: 4px;
+	}
+
+.hover-tooltip .tooltip-insight {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.hover-tooltip .tooltip-delta {
+  margin-top: 8px;
+  font-size: 11.5px;
+  line-height: 1.35;
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.hover-tooltip .tooltip-delta-line {
+  margin-top: 4px;
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.hover-tooltip .tooltip-flip {
+  margin-top: 6px;
+  font-size: 11.5px;
+  font-weight: 850;
+  letter-spacing: 0.01em;
+  color: rgba(226, 232, 240, 0.92);
+}
+.hover-tooltip .tooltip-flip.rep { color: #fecaca; }
+.hover-tooltip .tooltip-flip.dem { color: #bfdbfe; }
+
+.hover-tooltip .tooltip-more {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.hover-tooltip .tooltip-more summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.18);
+  color: rgba(226, 232, 240, 0.96);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hover-tooltip .tooltip-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.hover-tooltip .tooltip-more-body {
+  margin-top: 10px;
 }
 
 .quick-tooltip {
@@ -704,6 +857,7 @@ body { height: var(--app-height); }
   font-weight: 600;
 }
 
+/* VoteHub-style result tooltip: exact NCMap sizing + aesthetics alignment. */
 #hover-tooltip[data-context="votehub-results"] {
   background: rgba(3,7,18,0.96);
   color: #e5e7eb;
@@ -882,6 +1036,30 @@ body { height: var(--app-height); }
 #hover-tooltip[data-context="votehub-results"] .vhr-shift-value.tie {
   color: #cbd5e1;
 }
+
+/* Compatibility: this index includes a raw-vote lead span in the winner line.
+   Keep NCMap sizing, but restore the lighter raw-vote tone from the previous fix. */
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead {
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 0;
+  opacity: 1 !important;
+  font-variant-numeric: tabular-nums;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.rep {
+  color: #fecaca !important;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.dem {
+  color: #bfdbfe !important;
+}
+
+#hover-tooltip[data-context="votehub-results"] .vhr-raw-lead.tie {
+  color: #e2e8f0 !important;
+}
+
 
 .sidebar {
   position: absolute;
@@ -1828,6 +2006,11 @@ body { height: var(--app-height); }
     --ui-muted: #475569;
     --ui-accent: #002868;
     --ui-accent-2: #bf0a30;
+    --state-blue: #002868;
+    --state-blue-strong: #001f52;
+    --state-red: #bf0a30;
+    --state-red-strong: #9f0828;
+    --state-accent-gradient: linear-gradient(135deg, var(--state-blue-strong) 0%, var(--state-red-strong) 100%);
   }
 
   body {
@@ -5580,6 +5763,239 @@ body { height: var(--app-height); }
     }
   }
 
+  .mobile-sheet-scrim,
+  .mobile-dock {
+    display: none;
+  }
+
+  .mobile-sheet-grab {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    :root {
+      --mobile-dock-h: 62px;
+      --mobile-sheet-gap: 10px;
+    }
+
+    .mobile-dock {
+      position: fixed;
+      left: 8px;
+      right: 8px;
+      bottom: calc(8px + var(--safe-bottom, 0px));
+      z-index: 10030;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      padding: 8px;
+      border-radius: 16px;
+      border: 1px solid rgba(15, 23, 42, 0.12);
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+    }
+
+    .mobile-dock-btn {
+      min-height: 44px;
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: 12px;
+      background: rgba(248, 250, 252, 0.92);
+      color: #0f172a;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+      cursor: pointer;
+      transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+    }
+
+    .mobile-dock-btn:focus-visible {
+      outline: 2px solid #1d4ed8;
+      outline-offset: 2px;
+    }
+
+    .mobile-dock-btn[aria-pressed="true"] {
+      background: var(--state-accent-gradient);
+      border-color: var(--state-blue-strong);
+      color: #fff;
+      box-shadow: 0 8px 16px rgba(37, 99, 235, 0.22), 0 4px 12px rgba(220, 38, 38, 0.16);
+    }
+
+    .mobile-sheet-scrim {
+      position: fixed;
+      inset: 0;
+      z-index: 10019;
+      display: block;
+      background: rgba(15, 23, 42, 0.2);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+
+    body.mobile-sheet-open .mobile-sheet-scrim {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-sheet-panel {
+      position: fixed !important;
+      top: auto !important;
+      left: 8px !important;
+      right: 8px !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + var(--mobile-sheet-gap, 10px)) !important;
+      width: auto !important;
+      max-width: none !important;
+      transform: translateY(calc(100% + 28px));
+      opacity: 0;
+      pointer-events: none;
+      z-index: 10020 !important;
+      overflow-y: auto !important;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+      scroll-padding-top: 28px;
+      transition: transform 0.22s ease, opacity 0.2s ease, max-height 0.2s ease;
+    }
+
+    .mobile-sheet-grab {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: -2px auto 6px;
+      padding: 6px 0 4px;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      touch-action: none;
+    }
+
+    .mobile-sheet-grab::before {
+      content: '';
+      width: 42px;
+      height: 5px;
+      border-radius: 999px;
+      background: rgba(100, 116, 139, 0.58);
+      box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.08);
+    }
+
+    .mobile-sheet-grab.is-dragging::before {
+      background: rgba(30, 64, 175, 0.66);
+      box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.14), 0 1px 0 rgba(30, 64, 175, 0.35);
+    }
+
+    .mobile-sheet-grab:focus-visible {
+      outline: 2px solid #1d4ed8;
+      outline-offset: 2px;
+      border-radius: 12px;
+    }
+
+    .mobile-sheet-panel.mobile-sheet-active {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-sheet-panel[data-mobile-snap="half"] {
+      max-height: min(56vh, 460px) !important;
+    }
+
+    .mobile-sheet-panel[data-mobile-snap="full"] {
+      max-height: min(84vh, 760px) !important;
+    }
+
+    .mobile-sheet-panel[data-mobile-snap="collapsed"] {
+      max-height: 58px !important;
+      overflow: hidden !important;
+    }
+
+    .map-topbar.mobile-sheet-panel {
+      border-radius: 18px !important;
+      padding: 12px !important;
+      min-height: 0 !important;
+    }
+
+    .map-topbar.mobile-sheet-panel .mobile-topbar-toggle {
+      display: none !important;
+    }
+
+    .map-topbar.mobile-sheet-panel .map-topbar-details {
+      display: block !important;
+    }
+
+    .map-topbar.mobile-sheet-panel[data-mobile-snap="collapsed"] .map-topbar-details,
+    .map-topbar.mobile-sheet-panel[data-mobile-snap="collapsed"] .map-topbar-copy span,
+    .map-topbar.mobile-sheet-panel[data-mobile-snap="collapsed"] .map-topbar-hints {
+      display: none !important;
+    }
+
+    .main-controls.mobile-sheet-panel,
+    .legend.mobile-sheet-panel {
+      border-radius: 18px !important;
+    }
+
+    .legend.mobile-sheet-panel .legend-header {
+      border-radius: 18px 18px 0 0 !important;
+    }
+
+    .vote-counter {
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px) !important;
+    }
+
+    #hover-tooltip {
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px + var(--vote-counter-h, 0px) + 8px) !important;
+    }
+
+    body.mobile-sheet-open #hover-tooltip {
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(6px) !important;
+    }
+
+    body.mobile-sheet-open .vote-counter,
+    body.mobile-sheet-open .viz-modes {
+      opacity: 0.22;
+      pointer-events: none;
+      transform: translateY(6px) !important;
+    }
+
+    body.mobile-input-active .vote-counter {
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px) !important;
+    }
+    body.mobile-input-active #hover-tooltip {
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px) !important;
+    }
+
+    .map-topbar,
+    .main-controls,
+    .legend,
+    .vote-counter,
+    #status-panel {
+      backdrop-filter: blur(8px) !important;
+      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.16) !important;
+    }
+  }
+
+
+  /* Texas index: retire older two-button thumb dock after NCMap sheet transplant. */
+  .mobile-thumb-dock { display: none !important; }
+  @media (max-width: 768px) {
+    .mobile-dock-btn[aria-pressed="true"] {
+      background: var(--state-accent-gradient, linear-gradient(135deg, #002868 0%, #bf0a30 100%));
+      border-color: var(--state-blue-strong, #001f52);
+    }
+    .map-topbar.mobile-sheet-panel,
+    .main-controls.mobile-sheet-panel,
+    .legend.mobile-sheet-panel {
+      background: rgba(255,255,255,0.96) !important;
+      border: 1px solid rgba(15,23,42,0.12) !important;
+    }
+  }
+
   .controls-content > .control-group-contest {
     order: -20;
   }
@@ -5606,6 +6022,65 @@ body { height: var(--app-height); }
     padding-right: 0 !important;
     margin-right: 0 !important;
     scrollbar-gutter: auto !important;
+  }
+
+  /* NCMap mobile parity overrides (authoritative pass). */
+  @media (max-width: 768px) {
+    .map-topbar,
+    .main-controls,
+    .legend,
+    .vote-counter,
+    #status-panel {
+      left: 8px !important;
+      right: 8px !important;
+      width: auto !important;
+      max-width: none !important;
+    }
+
+    .main-controls {
+      top: calc(var(--safe-top, 0px) + 8px) !important;
+      max-height: min(52svh, calc(100svh - var(--safe-top, 0px) - var(--safe-bottom, 0px) - 148px)) !important;
+      overflow-y: auto !important;
+    }
+
+    .legend {
+      top: auto !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 8px) !important;
+      max-height: min(44svh, calc(100svh - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - 120px)) !important;
+      overflow-y: auto !important;
+    }
+
+    .vote-counter {
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px) !important;
+      max-height: min(62svh, 620px) !important;
+      overflow-y: auto !important;
+    }
+
+    .vote-counter.minimized {
+      max-height: 64px !important;
+      overflow: hidden !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 44px) !important;
+    }
+
+    #hover-tooltip {
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 24px + var(--vote-counter-h, 0px) + 8px) !important;
+      max-height: min(58svh, calc(100svh - 12px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px))) !important;
+    }
+
+    .contest-toolbar {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px !important;
+      align-items: stretch !important;
+    }
+
+    .contest-toolbar label,
+    #precinct-toggle,
+    #snapshot-variant {
+      grid-column: 1 / -1;
+      width: 100%;
+      min-width: 0 !important;
+    }
   }
     </style>
 </head>
@@ -5756,10 +6231,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <div id="map"></div>
-<div class="mobile-thumb-dock" id="mobile-thumb-dock" aria-label="Quick mobile actions">
-  <button id="mobile-controls-fab" class="mobile-thumb-btn primary" type="button" aria-controls="main-controls" aria-expanded="false">Controls</button>
-  <button id="mobile-search-fab" class="mobile-thumb-btn" type="button" aria-controls="county-search">Search</button>
-</div>
+<div class="mobile-sheet-scrim" id="mobile-sheet-scrim" aria-hidden="true"></div>
+<nav class="mobile-dock" id="mobile-dock" aria-label="Mobile panel dock">
+  <button type="button" class="mobile-dock-btn" data-mobile-sheet-btn="search" aria-controls="map-topbar" aria-expanded="false" aria-pressed="false" title="Open search panel">Search</button>
+  <button type="button" class="mobile-dock-btn" data-mobile-sheet-btn="layers" aria-controls="main-controls" aria-expanded="false" aria-pressed="false" title="Open layers panel">Layers</button>
+  <button type="button" class="mobile-dock-btn" data-mobile-sheet-btn="legend" aria-controls="legend" aria-expanded="false" aria-pressed="false" title="Open legend panel">Legend</button>
+</nav>
 
   <div class="desktop-ui-left">
   <div class="map-topbar" id="map-topbar">
@@ -6484,6 +6961,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const IS_COARSE_POINTER = (() => {
       try { return window.matchMedia && window.matchMedia('(pointer: coarse)').matches; } catch (_) { return false; }
     })();
+
+    function isMobileViewportNow() {
+      try { return !!(window.matchMedia && window.matchMedia('(max-width: 768px)').matches); } catch (_) { return window.innerWidth <= 768; }
+    }
 
     function closeHoverUI({ force = false } = {}) {
       if (!force && tooltipPinned) return;
@@ -9954,7 +10435,7 @@ document.addEventListener('DOMContentLoaded', function() {
           ${subtitle ? `<div class="vhr-subtitle">${escapeHtml(String(subtitle))}</div>` : ''}
           <div class="vhr-winner ${winnerToneClass}" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;">
             <span>${escapeHtml(winnerText)} +${escapeHtml(Number(marginAbs || 0).toFixed(2))}%</span>
-            <span class="vhr-raw-lead ${winnerToneClass}" style="font-size:12px;font-weight:800;opacity:0.96;font-family:'JetBrains Mono','Consolas','SFMono-Regular',monospace;">${escapeHtml(`${leadVotes} votes`)}</span>
+            <span class="vhr-raw-lead ${winnerToneClass}">${escapeHtml(`${leadVotes} votes`)}</span>
           </div>
           ${flipLine}
           ${shiftLine}
@@ -10486,7 +10967,7 @@ document.addEventListener('DOMContentLoaded', function() {
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(countyShiftDelta) && !!vizShiftCache?.prevYear
       });
 
-      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner));
+      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner), { context: 'votehub-results' });
       const tooltip = document.getElementById('hover-tooltip');
       if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
@@ -10585,7 +11066,7 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (vizShiftCache?.prevYear && vizShiftCache?.year) ? `${vizShiftCache.prevYear}→${vizShiftCache.year}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(precinctShiftDelta) && !!vizShiftCache?.prevYear
       });
-      showHoverTooltip(point.x, point.y, buildTooltipShell('', inner));
+      showHoverTooltip(point.x, point.y, buildTooltipShell('', inner), { context: 'votehub-results' });
       const tooltip = document.getElementById('hover-tooltip');
       if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
@@ -10793,7 +11274,7 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (prevYearForFlip && Number(year)) ? `${prevYearForFlip}→${Number(year)}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(districtShiftDelta) && !!prevYearForFlip
       });
-      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner));
+      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell('', inner), { context: 'votehub-results' });
       const tooltip = document.getElementById('hover-tooltip');
       if (tooltip) tooltip.dataset.context = 'votehub-results';
       wireTooltipButtons();
@@ -10873,46 +11354,502 @@ document.addEventListener('DOMContentLoaded', function() {
         minimizeBtn.textContent = '+';
         minimizeBtn.title = 'Expand legend';
       }
+      if (isMobileViewportNow() && legend) {
+        legend.classList.add('mobile-sheet-panel');
+        if (legend.classList.contains('minimized')) {
+          legend.classList.remove('mobile-sheet-active');
+          setMobileSheetSnap(legend, 'collapsed');
+          if (activeMobileSheetKey === 'legend') activeMobileSheetKey = null;
+        } else {
+          legend.classList.add('mobile-sheet-active');
+          setMobileSheetSnap(legend, 'half');
+          activeMobileSheetKey = 'legend';
+        }
+        syncMobileDockButtons();
+      }
       try { updateMobileOverlayOffsets(); } catch (_) {}
     }
 
-    function elementIsLayoutVisible(el) {
-      if (!el) return false;
-      if (!el.getClientRects || !el.getClientRects().length) return false;
-      const cs = window.getComputedStyle ? window.getComputedStyle(el) : null;
-      if (!cs) return true;
-      return cs.display !== 'none' && cs.visibility !== 'hidden';
+    const MOBILE_SHEET_PANEL_IDS = Object.freeze({
+      search: 'map-topbar',
+      layers: 'main-controls',
+      legend: 'legend'
+    });
+    const MOBILE_SHEET_PANEL_LABELS = Object.freeze({
+      search: 'search',
+      layers: 'layers',
+      legend: 'legend'
+    });
+    const MOBILE_SHEET_SNAP_SEQUENCE = Object.freeze(['half', 'full', 'collapsed']);
+    const MOBILE_SHEET_SWIPE_THRESHOLD_PX = 24;
+    const MOBILE_SHEET_FLICK_VELOCITY_PX_PER_MS = 0.45;
+    const MOBILE_SHEET_FLICK_WINDOW_MS = 120;
+    const MOBILE_SHEET_FLICK_MIN_TRAVEL_PX = 10;
+    let activeMobileSheetKey = null;
+    let mobileSheetVoteCounterSnapshot = null; // null | boolean (was expanded when sheets opened)
+    let mobileSheetSystemReady = false;
+    let mobileInputFocusWired = false;
+    let mobileInputRestoreTimer = null;
+    let mobileInputFocusSnapshot = null;
+
+    function getMobileSheetPanel(key) {
+      const id = MOBILE_SHEET_PANEL_IDS[key];
+      return id ? document.getElementById(id) : null;
     }
 
-    function parseCssPx(value, fallback = 0) {
-      const n = Number.parseFloat(String(value || '').replace('px', '').trim());
-      return Number.isFinite(n) ? n : fallback;
+    function getMobileSheetSnap(key) {
+      const panel = getMobileSheetPanel(key);
+      return panel?.dataset?.mobileSnap || 'collapsed';
     }
 
-    let lastMapViewportPaddingKey = '';
-    function syncMapViewportPadding({ isMobile, topHeight = 0, legendHeight = 0, voteBottom = 0, voteHeight = 0, dockHeight = 0 } = {}) {
-      try {
-        if (!map || typeof map.setPadding !== 'function') return;
+    function setMobileSheetSnap(panel, snap) {
+      if (!panel) return;
+      panel.dataset.mobileSnap = snap || 'collapsed';
+    }
 
-        let padding;
-        if (!isMobile) {
-          padding = { top: 0, right: 0, bottom: 0, left: 0 };
-        } else {
-          const rootStyles = window.getComputedStyle ? window.getComputedStyle(document.documentElement) : null;
-          const safeBottom = parseCssPx(rootStyles ? rootStyles.getPropertyValue('--safe-bottom') : 0, 0);
-          const top = Math.max(0, Math.round(topHeight + 8));
-          const legendBottom = Math.max(0, Math.round(legendHeight + safeBottom + 8));
-          const counterBottom = voteHeight > 0 ? Math.max(0, Math.round(voteBottom + voteHeight + 8)) : 0;
-          const dockBottom = dockHeight > 0 ? Math.max(0, Math.round(legendHeight + safeBottom + dockHeight + 12)) : 0;
-          const bottom = Math.max(legendBottom, counterBottom, dockBottom);
-          padding = { top, right: 10, bottom, left: 10 };
+    function ensureMobileSheetGrab(panel, key) {
+      if (!panel || !key || panel.querySelector('.mobile-sheet-grab')) return;
+      const grab = document.createElement('button');
+      grab.type = 'button';
+      grab.className = 'mobile-sheet-grab';
+      grab.setAttribute('aria-label', 'Resize or close panel');
+      grab.title = 'Tap, swipe, or flick to resize panel';
+      let dragState = null;
+
+      function stampMs(rawTs) {
+        const t = Number(rawTs);
+        if (Number.isFinite(t) && t > 0) return t;
+        try {
+          if (typeof performance !== 'undefined' && performance && typeof performance.now === 'function') {
+            return performance.now();
+          }
+        } catch (_) {}
+        return Date.now();
+      }
+
+      function resetDragState() {
+        dragState = null;
+        grab.classList.remove('is-dragging');
+      }
+
+      function beginDrag(clientX, clientY, pointerId = null, rawTs = null) {
+        const t = stampMs(rawTs);
+        dragState = {
+          startX: Number(clientX) || 0,
+          startY: Number(clientY) || 0,
+          pointerId,
+          samples: [{ x: Number(clientX) || 0, y: Number(clientY) || 0, t }]
+        };
+        grab.classList.add('is-dragging');
+      }
+
+      function updateDrag(clientX, clientY, rawTs = null) {
+        if (!dragState) return;
+        const x = Number(clientX) || dragState.startX;
+        const y = Number(clientY) || dragState.startY;
+        const t = stampMs(rawTs);
+        dragState.lastX = x;
+        dragState.lastY = y;
+        dragState.samples.push({ x, y, t });
+        if (dragState.samples.length > 10) {
+          dragState.samples.splice(0, dragState.samples.length - 10);
         }
+      }
 
-        const key = `${padding.top}|${padding.right}|${padding.bottom}|${padding.left}`;
-        if (key === lastMapViewportPaddingKey) return;
-        lastMapViewportPaddingKey = key;
-        map.setPadding(padding);
+      function finishDrag(clientX, clientY, rawTs = null) {
+        if (!dragState) return;
+        const endX = Number(clientX) || dragState.lastX || dragState.startX;
+        const endY = Number(clientY) || dragState.lastY || dragState.startY;
+        const endT = stampMs(rawTs);
+        dragState.samples.push({ x: endX, y: endY, t: endT });
+        if (dragState.samples.length > 12) {
+          dragState.samples.splice(0, dragState.samples.length - 12);
+        }
+        const dy = endY - dragState.startY;
+        const dx = endX - dragState.startX;
+        const absDy = Math.abs(dy);
+        const absDx = Math.abs(dx);
+        const cutoff = endT - MOBILE_SHEET_FLICK_WINDOW_MS;
+        let ref = dragState.samples[0];
+        for (let i = dragState.samples.length - 1; i >= 0; i -= 1) {
+          const sample = dragState.samples[i];
+          if (sample.t <= cutoff) break;
+          ref = sample;
+        }
+        const refT = Number.isFinite(Number(ref?.t)) ? Number(ref.t) : endT;
+        const refY = Number.isFinite(Number(ref?.y)) ? Number(ref.y) : endY;
+        const vDt = Math.max(1, endT - refT);
+        const vy = (endY - refY) / vDt;
+        const absVy = Math.abs(vy);
+        const distanceSwipe = absDy >= MOBILE_SHEET_SWIPE_THRESHOLD_PX && absDy > absDx * 1.1;
+        const velocityFlick =
+          absVy >= MOBILE_SHEET_FLICK_VELOCITY_PX_PER_MS &&
+          absDy >= MOBILE_SHEET_FLICK_MIN_TRAVEL_PX &&
+          absDy > absDx * 0.65;
+        resetDragState();
+        if (!distanceSwipe && !velocityFlick) return;
+        grab.dataset.swiped = 'true';
+        if (dy < 0) {
+          swipeMobileSheet(key, 'up');
+        } else {
+          swipeMobileSheet(key, 'down');
+        }
+        window.setTimeout(() => {
+          if (grab) grab.dataset.swiped = '';
+        }, 160);
+      }
+
+      if (typeof window.PointerEvent !== 'undefined') {
+        grab.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'mouse' && event.button !== 0) return;
+          event.preventDefault();
+          beginDrag(event.clientX, event.clientY, event.pointerId, event.timeStamp);
+          try { grab.setPointerCapture(event.pointerId); } catch (_) {}
+        });
+        grab.addEventListener('pointermove', (event) => {
+          if (!dragState) return;
+          if (dragState.pointerId !== null && event.pointerId !== dragState.pointerId) return;
+          updateDrag(event.clientX, event.clientY, event.timeStamp);
+        });
+        grab.addEventListener('pointerup', (event) => {
+          if (!dragState) return;
+          if (dragState.pointerId !== null && event.pointerId !== dragState.pointerId) return;
+          finishDrag(event.clientX, event.clientY, event.timeStamp);
+          try { grab.releasePointerCapture(event.pointerId); } catch (_) {}
+        });
+        grab.addEventListener('pointercancel', () => {
+          resetDragState();
+        });
+      } else {
+        grab.addEventListener('touchstart', (event) => {
+          const touch = event.changedTouches && event.changedTouches[0];
+          if (!touch) return;
+          beginDrag(touch.clientX, touch.clientY, touch.identifier, event.timeStamp);
+        }, { passive: true });
+        grab.addEventListener('touchmove', (event) => {
+          if (!dragState) return;
+          const touches = event.changedTouches;
+          if (!touches || !touches.length) return;
+          let matched = false;
+          for (let i = 0; i < touches.length; i += 1) {
+            const touch = touches[i];
+            if (dragState.pointerId !== null && touch.identifier !== dragState.pointerId) continue;
+            updateDrag(touch.clientX, touch.clientY, event.timeStamp);
+            matched = true;
+            break;
+          }
+          if (!matched) resetDragState();
+        }, { passive: true });
+        grab.addEventListener('touchend', (event) => {
+          if (!dragState) return;
+          const touches = event.changedTouches;
+          if (!touches || !touches.length) {
+            resetDragState();
+            return;
+          }
+          let matched = false;
+          for (let i = 0; i < touches.length; i += 1) {
+            const touch = touches[i];
+            if (dragState.pointerId !== null && touch.identifier !== dragState.pointerId) continue;
+            finishDrag(touch.clientX, touch.clientY, event.timeStamp);
+            matched = true;
+            break;
+          }
+          if (!matched) resetDragState();
+        }, { passive: true });
+        grab.addEventListener('touchcancel', () => {
+          resetDragState();
+        }, { passive: true });
+      }
+
+      grab.addEventListener('click', (event) => {
+        if (grab.dataset.swiped === 'true') {
+          event.preventDefault();
+          event.stopPropagation();
+          return;
+        }
+        event.preventDefault();
+        event.stopPropagation();
+        toggleMobileSheet(key);
+      });
+      panel.insertBefore(grab, panel.firstChild);
+    }
+
+    function syncMobileDockButtons() {
+      const buttons = document.querySelectorAll('[data-mobile-sheet-btn]');
+      buttons.forEach(btn => {
+        const key = btn.getAttribute('data-mobile-sheet-btn') || '';
+        const pressed = key && key === activeMobileSheetKey;
+        btn.setAttribute('aria-pressed', pressed ? 'true' : 'false');
+        btn.setAttribute('aria-expanded', pressed ? 'true' : 'false');
+        const panelId = MOBILE_SHEET_PANEL_IDS[key];
+        if (panelId) btn.setAttribute('aria-controls', panelId);
+        const panelLabel = MOBILE_SHEET_PANEL_LABELS[key] || 'panel';
+        btn.title = pressed ? `Collapse ${panelLabel} panel` : `Open ${panelLabel} panel`;
+      });
+      document.body.classList.toggle('mobile-sheet-open', !!activeMobileSheetKey && isMobileViewportNow());
+      try {
+        if (!activeMobileSheetKey && mobileSheetVoteCounterSnapshot !== null) {
+          const blocked = !!(document.body.classList.contains('mobile-input-active') || mobileInputFocusSnapshot);
+          if (!blocked && mobileSheetVoteCounterSnapshot) {
+            setVoteCounterMinimizedState(false);
+          }
+          mobileSheetVoteCounterSnapshot = null;
+        }
       } catch (_) {}
+    }
+
+    function expandLegendOnMobile() {
+      const legend = document.getElementById('legend');
+      const legendContent = document.getElementById('legend-content');
+      const minimizeBtn = document.getElementById('legend-minimize-btn');
+      if (!legend || !legendContent || !minimizeBtn) return;
+      legend.classList.remove('minimized');
+      legendContent.style.display = 'block';
+      minimizeBtn.textContent = '-';
+      minimizeBtn.title = 'Minimize legend';
+    }
+
+    function expandMainControlsOnMobile() {
+      const controls = document.getElementById('main-controls');
+      const controlsContent = document.getElementById('controls-content');
+      const minimizeBtn = document.getElementById('controls-minimize-btn');
+      if (!controls || !controlsContent || !minimizeBtn) return;
+      controls.classList.remove('minimized');
+      controlsContent.style.display = 'block';
+      minimizeBtn.textContent = '-';
+      minimizeBtn.title = 'Minimize controls';
+    }
+
+    function closeMobileSheet(key) {
+      const panel = getMobileSheetPanel(key);
+      if (!panel) return;
+      panel.classList.remove('mobile-sheet-active');
+      setMobileSheetSnap(panel, 'collapsed');
+      if (key === 'search') {
+        try {
+          const topbar = document.getElementById('map-topbar');
+          if (topbar) topbar.classList.remove('topbar-expanded');
+          if (typeof window.syncMobileTopbarToggle === 'function') window.syncMobileTopbarToggle();
+        } catch (_) {}
+      } else if (key === 'layers') {
+        try { minimizeMainControlsOnMobile(); } catch (_) {}
+      } else if (key === 'legend') {
+        try { minimizeLegendOnMobile(); } catch (_) {}
+      }
+    }
+
+    function openMobileSheet(key, snap = 'half') {
+      if (!isMobileViewportNow()) return;
+      const panel = getMobileSheetPanel(key);
+      if (!panel) return;
+      try {
+        if (mobileSheetVoteCounterSnapshot === null) {
+          const counter = document.getElementById('vote-counter');
+          mobileSheetVoteCounterSnapshot = !!(counter && !counter.classList.contains('minimized'));
+        }
+        setVoteCounterMinimizedState(true);
+      } catch (_) {}
+      try { closeHoverUI({ force: true }); } catch (_) {}
+      Object.keys(MOBILE_SHEET_PANEL_IDS).forEach(otherKey => {
+        if (otherKey === key) return;
+        closeMobileSheet(otherKey);
+      });
+      panel.classList.add('mobile-sheet-panel', 'mobile-sheet-active');
+      setMobileSheetSnap(panel, snap);
+      if (key === 'search') {
+        try {
+          const topbar = document.getElementById('map-topbar');
+          if (topbar) topbar.classList.add('topbar-expanded');
+          if (typeof window.syncMobileTopbarToggle === 'function') window.syncMobileTopbarToggle();
+        } catch (_) {}
+      } else if (key === 'layers') {
+        expandMainControlsOnMobile();
+      } else if (key === 'legend') {
+        expandLegendOnMobile();
+      }
+      if (snap === 'collapsed') {
+        closeMobileSheet(key);
+        activeMobileSheetKey = null;
+      } else {
+        activeMobileSheetKey = key;
+      }
+      syncMobileDockButtons();
+      try { updateMobileOverlayOffsets(); } catch (_) {}
+    }
+
+    function closeAllMobileSheets() {
+      Object.keys(MOBILE_SHEET_PANEL_IDS).forEach(key => closeMobileSheet(key));
+      activeMobileSheetKey = null;
+      syncMobileDockButtons();
+      try { updateMobileOverlayOffsets(); } catch (_) {}
+    }
+
+    function swipeMobileSheet(key, direction = 'up') {
+      if (!isMobileViewportNow()) return;
+      if (!MOBILE_SHEET_PANEL_IDS[key]) return;
+      if (activeMobileSheetKey !== key) {
+        if (direction === 'up') openMobileSheet(key, 'half');
+        return;
+      }
+      const current = getMobileSheetSnap(key);
+      let next = current;
+      if (direction === 'up') {
+        next = current === 'collapsed' ? 'half' : 'full';
+      } else {
+        next = current === 'full' ? 'half' : 'collapsed';
+      }
+      if (next === 'collapsed') {
+        closeMobileSheet(key);
+        activeMobileSheetKey = null;
+        syncMobileDockButtons();
+        try { updateMobileOverlayOffsets(); } catch (_) {}
+        return;
+      }
+      openMobileSheet(key, next);
+    }
+
+    function toggleMobileSheet(key) {
+      if (!isMobileViewportNow()) return;
+      if (!MOBILE_SHEET_PANEL_IDS[key]) return;
+      if (activeMobileSheetKey !== key) {
+        openMobileSheet(key, 'half');
+        return;
+      }
+      const current = getMobileSheetSnap(key);
+      const idx = MOBILE_SHEET_SNAP_SEQUENCE.indexOf(current);
+      const next = MOBILE_SHEET_SNAP_SEQUENCE[(idx + 1) % MOBILE_SHEET_SNAP_SEQUENCE.length];
+      if (next === 'collapsed') {
+        closeMobileSheet(key);
+        activeMobileSheetKey = null;
+        syncMobileDockButtons();
+        try { updateMobileOverlayOffsets(); } catch (_) {}
+        return;
+      }
+      openMobileSheet(key, next);
+    }
+
+    function setupMobileDockAndSheets() {
+      if (mobileSheetSystemReady) return;
+      mobileSheetSystemReady = true;
+      try {
+        Object.keys(MOBILE_SHEET_PANEL_IDS).forEach(key => {
+          const panel = getMobileSheetPanel(key);
+          if (!panel) return;
+          panel.classList.add('mobile-sheet-panel');
+          setMobileSheetSnap(panel, 'collapsed');
+          panel.classList.remove('mobile-sheet-active');
+          ensureMobileSheetGrab(panel, key);
+        });
+        document.querySelectorAll('[data-mobile-sheet-btn]').forEach(btn => {
+          if (btn.dataset.mobileSheetReady === 'true') return;
+          btn.dataset.mobileSheetReady = 'true';
+          btn.addEventListener('click', () => {
+            const key = btn.getAttribute('data-mobile-sheet-btn') || '';
+            toggleMobileSheet(key);
+          });
+        });
+        const scrim = document.getElementById('mobile-sheet-scrim');
+        if (scrim && scrim.dataset.mobileSheetReady !== 'true') {
+          scrim.dataset.mobileSheetReady = 'true';
+          scrim.addEventListener('click', () => { closeAllMobileSheets(); });
+        }
+        if (!window.__mobileSheetEscapeReady) {
+          window.__mobileSheetEscapeReady = true;
+          document.addEventListener('keydown', (event) => {
+            if (event.key !== 'Escape') return;
+            if (!isMobileViewportNow()) return;
+            if (!activeMobileSheetKey) return;
+            event.preventDefault();
+            closeAllMobileSheets();
+          });
+        }
+        window.addEventListener('resize', () => {
+          try {
+            if (!isMobileViewportNow()) {
+              closeAllMobileSheets();
+              document.body.classList.remove('mobile-sheet-open', 'mobile-input-active');
+              mobileInputFocusSnapshot = null;
+              if (mobileInputRestoreTimer) {
+                clearTimeout(mobileInputRestoreTimer);
+                mobileInputRestoreTimer = null;
+              }
+              Object.keys(MOBILE_SHEET_PANEL_IDS).forEach(key => {
+                const panel = getMobileSheetPanel(key);
+                if (!panel) return;
+                panel.classList.remove('mobile-sheet-active');
+                setMobileSheetSnap(panel, 'collapsed');
+              });
+            } else {
+              Object.keys(MOBILE_SHEET_PANEL_IDS).forEach(key => {
+                const panel = getMobileSheetPanel(key);
+                if (!panel) return;
+                panel.classList.add('mobile-sheet-panel');
+                ensureMobileSheetGrab(panel, key);
+                if (!panel.dataset.mobileSnap) setMobileSheetSnap(panel, 'collapsed');
+              });
+            }
+          } catch (_) {}
+        }, { passive: true });
+      } catch (_) {}
+      closeAllMobileSheets();
+    }
+
+    function isMobileEditableField(node) {
+      if (!node || !node.tagName) return false;
+      const tag = node.tagName.toLowerCase();
+      if (tag !== 'input' && tag !== 'textarea' && tag !== 'select') return false;
+      return !!(node.closest && (node.closest('#map-topbar') || node.closest('#main-controls')));
+    }
+
+    function restoreMobileInputFocusMode() {
+      if (!mobileInputFocusSnapshot) return;
+      const snap = mobileInputFocusSnapshot;
+      mobileInputFocusSnapshot = null;
+      document.body.classList.remove('mobile-input-active');
+      if (!isMobileViewportNow()) return;
+      try {
+        if (!snap.voteCounterWasMinimized) setVoteCounterMinimizedState(false);
+      } catch (_) {}
+      if (snap.activeSheetKey) {
+        openMobileSheet(snap.activeSheetKey, snap.activeSheetSnap || 'half');
+      } else {
+        closeAllMobileSheets();
+      }
+    }
+
+    function setupMobileInputFocusBehavior() {
+      if (mobileInputFocusWired) return;
+      mobileInputFocusWired = true;
+      document.addEventListener('focusin', (event) => {
+        const target = event.target;
+        if (!isMobileViewportNow()) return;
+        if (!isMobileEditableField(target)) return;
+        if (!mobileInputFocusSnapshot) {
+          const counter = document.getElementById('vote-counter');
+          mobileInputFocusSnapshot = {
+            voteCounterWasMinimized: !!(counter && counter.classList.contains('minimized')),
+            activeSheetKey: activeMobileSheetKey,
+            activeSheetSnap: activeMobileSheetKey ? getMobileSheetSnap(activeMobileSheetKey) : 'collapsed'
+          };
+        }
+        document.body.classList.add('mobile-input-active');
+        try { minimizeLegendOnMobile(); } catch (_) {}
+        try { setVoteCounterMinimizedState(true); } catch (_) {}
+        if (target.closest && target.closest('#map-topbar')) {
+          openMobileSheet('search', 'half');
+        }
+      }, true);
+      document.addEventListener('focusout', () => {
+        if (!isMobileViewportNow()) return;
+        if (mobileInputRestoreTimer) clearTimeout(mobileInputRestoreTimer);
+        mobileInputRestoreTimer = setTimeout(() => {
+          const active = document.activeElement;
+          if (isMobileEditableField(active)) return;
+          restoreMobileInputFocusMode();
+          mobileInputRestoreTimer = null;
+        }, 140);
+      }, true);
     }
 
     function updateMobileOverlayOffsets() {
@@ -10922,49 +11859,39 @@ document.addEventListener('DOMContentLoaded', function() {
         const isDesktop = window.matchMedia && window.matchMedia('(min-width: 769px)').matches;
         const root = document.documentElement;
         const topbar = document.getElementById('map-topbar');
-        const legend = document.getElementById('legend');
-        const controls = document.getElementById('main-controls');
         const voteCounter = document.getElementById('vote-counter');
-        const thumbDock = document.getElementById('mobile-thumb-dock');
-        const topbarVisible = elementIsLayoutVisible(topbar);
-        const legendVisible = elementIsLayoutVisible(legend);
-        const controlsVisible = elementIsLayoutVisible(controls);
-        const counterVisible = elementIsLayoutVisible(voteCounter);
-        const dockVisible = elementIsLayoutVisible(thumbDock);
-
-        const th = topbarVisible ? Math.round(topbar.getBoundingClientRect().height) : 0;
-        const lh = legendVisible ? Math.round(legend.getBoundingClientRect().height) : 0;
-        const ch = controlsVisible ? Math.round(controls.getBoundingClientRect().height) : 0;
-        const vh = counterVisible ? Math.round(voteCounter.getBoundingClientRect().height) : 0;
-        const dh = dockVisible ? Math.round(thumbDock.getBoundingClientRect().height) : 0;
-        const voteBottom = counterVisible ? parseCssPx(window.getComputedStyle(voteCounter).bottom, 0) : 0;
+        const mobileDock = document.getElementById('mobile-dock');
+        const topbarVisible = !!(topbar && (!isMobile || topbar.classList.contains('mobile-sheet-active')));
+        const th = topbarVisible ? Math.round(topbar.getBoundingClientRect().height || 0) : 0;
+        const dockVisible = !!(isMobile && mobileDock && mobileDock.getClientRects().length);
+        const dh = dockVisible ? Math.round(mobileDock.getBoundingClientRect().height || 0) : 0;
         root.style.setProperty('--topbar-h', `${Math.max(0, th)}px`);
-
+        root.style.setProperty('--mobile-dock-h', `${Math.max(0, dh)}px`);
         if (isDesktop) {
+          const counterVisible = !!(voteCounter && voteCounter.style.display !== 'none' && voteCounter.getClientRects().length);
+          const vh = counterVisible ? Math.round(voteCounter.getBoundingClientRect().height) : 0;
           root.style.setProperty('--desktop-vote-counter-h', `${Math.max(0, vh)}px`);
         } else {
           root.style.removeProperty('--desktop-vote-counter-h');
         }
-
         if (!isMobile) {
           root.style.removeProperty('--legend-h');
           root.style.removeProperty('--controls-h');
-          root.style.removeProperty('--thumb-dock-h');
-          syncMapViewportPadding({ isMobile: false });
+          root.style.removeProperty('--mobile-dock-h');
+          root.style.removeProperty('--vote-counter-h');
           return;
         }
-
+        const counterVisibleMobile = !!(voteCounter && voteCounter.style.display !== 'none' && voteCounter.getClientRects().length);
+        const vhm = counterVisibleMobile ? Math.round(voteCounter.getBoundingClientRect().height || 0) : 0;
+        root.style.setProperty('--vote-counter-h', `${Math.max(0, vhm)}px`);
+        const legend = document.getElementById('legend');
+        const controls = document.getElementById('main-controls');
+        const legendVisible = !!(legend && legend.classList.contains('mobile-sheet-active'));
+        const controlsVisible = !!(controls && controls.classList.contains('mobile-sheet-active'));
+        const lh = legendVisible ? Math.round(legend.getBoundingClientRect().height) : 56;
+        const ch = controlsVisible ? Math.round(controls.getBoundingClientRect().height) : 0;
         root.style.setProperty('--legend-h', `${Math.max(0, lh)}px`);
         root.style.setProperty('--controls-h', `${Math.max(0, ch)}px`);
-        root.style.setProperty('--thumb-dock-h', `${Math.max(0, dh)}px`);
-        syncMapViewportPadding({
-          isMobile: true,
-          topHeight: th,
-          legendHeight: lh,
-          voteBottom,
-          voteHeight: vh,
-          dockHeight: dh
-        });
       } catch (_) {}
     }
 
@@ -10977,7 +11904,7 @@ document.addEventListener('DOMContentLoaded', function() {
         window.addEventListener('resize', () => { try { updateMobileOverlayOffsets(); } catch (_) {} }, { passive: true });
         window.addEventListener('orientationchange', () => { try { updateMobileOverlayOffsets(); } catch (_) {} }, { passive: true });
         if (typeof ResizeObserver !== 'undefined') {
-          const targets = ['map-topbar', 'main-controls', 'legend', 'vote-counter', 'mobile-thumb-dock']
+          const targets = ['map-topbar', 'main-controls', 'legend', 'vote-counter', 'mobile-dock']
             .map(id => document.getElementById(id))
             .filter(Boolean);
           if (targets.length) {
@@ -11005,9 +11932,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!legend || !legendContent || !minimizeBtn) return;
         if (legend.classList.contains('minimized')) return;
         legend.classList.add('minimized');
+        legend.classList.remove('mobile-sheet-active');
+        setMobileSheetSnap(legend, 'collapsed');
+        if (activeMobileSheetKey === 'legend') activeMobileSheetKey = null;
         legendContent.style.display = 'none';
         minimizeBtn.textContent = '+';
         minimizeBtn.title = 'Expand legend';
+        syncMobileDockButtons();
         try { updateMobileOverlayOffsets(); } catch (_) {}
       } catch (_) {}
     }
@@ -11022,11 +11953,14 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!controls || !controlsContent || !minimizeBtn) return;
         if (controls.classList.contains('minimized')) return;
         controls.classList.add('minimized');
+        controls.classList.remove('mobile-sheet-active');
+        setMobileSheetSnap(controls, 'collapsed');
+        if (activeMobileSheetKey === 'layers') activeMobileSheetKey = null;
         controlsContent.style.display = 'none';
         minimizeBtn.textContent = '+';
         minimizeBtn.title = 'Expand controls';
+        syncMobileDockButtons();
         try { updateMobileOverlayOffsets(); } catch (_) {}
-        try { if (typeof window.syncMobileThumbDock === 'function') window.syncMobileThumbDock(); } catch (_) {}
       } catch (_) {}
     }
 
@@ -11051,8 +11985,20 @@ document.addEventListener('DOMContentLoaded', function() {
         minimizeBtn.title = 'Expand controls';
       }
       saveUIState();
+      if (isMobileViewportNow() && controls) {
+        controls.classList.add('mobile-sheet-panel');
+        if (controls.classList.contains('minimized')) {
+          controls.classList.remove('mobile-sheet-active');
+          setMobileSheetSnap(controls, 'collapsed');
+          if (activeMobileSheetKey === 'layers') activeMobileSheetKey = null;
+        } else {
+          controls.classList.add('mobile-sheet-active');
+          setMobileSheetSnap(controls, 'half');
+          activeMobileSheetKey = 'layers';
+        }
+        syncMobileDockButtons();
+      }
       try { updateMobileOverlayOffsets(); } catch (_) {}
-      try { if (typeof window.syncMobileThumbDock === 'function') window.syncMobileThumbDock(); } catch (_) {}
     }
 
     function showCountyDetails(countyName) {
@@ -11877,7 +12823,7 @@ document.addEventListener('DOMContentLoaded', function() {
               shiftYearLabel: (vizShiftCache?.prevYear && vizShiftCache?.year) ? `${vizShiftCache.prevYear}→${vizShiftCache.year}` : '',
               showShiftLine: currentVizMode === 'shift' && Number.isFinite(dotShiftDelta) && !!vizShiftCache?.prevYear
             });
-            showHoverTooltip(evt.point.x, evt.point.y, buildTooltipShell('', inner));
+            showHoverTooltip(evt.point.x, evt.point.y, buildTooltipShell('', inner), { context: 'votehub-results' });
             const tooltip = document.getElementById('hover-tooltip');
             if (tooltip) tooltip.dataset.context = 'votehub-results';
             wireTooltipButtons();
@@ -12963,13 +13909,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Hover Tooltip Functions - VoteHub Style
-    function showHoverTooltip(x, y, content, { force = false } = {}) {
+    function showHoverTooltip(x, y, content, { force = false, context = '' } = {}) {
       const tooltip = document.getElementById('hover-tooltip');
       if (!tooltip) return;
       if (tooltipPinned && !force) return;
       
       tooltip.setAttribute('data-pinned', tooltipPinned ? '1' : '0');
-      tooltip.removeAttribute('data-context');
+      if (context) tooltip.dataset.context = String(context);
+      else tooltip.removeAttribute('data-context');
       tooltip.innerHTML = content;
       tooltip.style.display = 'block';
       
@@ -13785,6 +14732,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Setup visualization mode switcher
         setupVizModes();
         try { wireMobileOverlayOffsets(); } catch (_) {}
+        try { setupMobileDockAndSheets(); } catch (_) {}
+        try { setupMobileInputFocusBehavior(); } catch (_) {}
         try { minimizeLegendOnMobile(); } catch (_) {}
         try { minimizeMainControlsOnMobile(); } catch (_) {}
         appReady = true;
@@ -14922,5 +15871,3 @@ document.addEventListener('DOMContentLoaded', function() {
   </script>
 </body>
 </html>
-
-
