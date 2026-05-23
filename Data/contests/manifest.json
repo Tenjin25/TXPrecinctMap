@@ -1325,8 +1325,8 @@
       "contest_type": "us_senate",
       "file": "us_senate_2018.json",
       "rows": 254,
-      "dem_total": 4260553,
-      "rep_total": 4045632,
+      "dem_total": 4045632,
+      "rep_total": 4260553,
       "other_total": 65470,
       "total_votes": 8371655,
       "major_party_contested": true
