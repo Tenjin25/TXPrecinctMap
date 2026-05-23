@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 16114,
-      "rep_votes": 41213,
-      "other_votes": 2142,
-      "total_votes": 59469,
-      "dem_candidate": "Joi Chevalier",
-      "rep_candidate": "Glenn Hegar",
-      "margin": 25099,
-      "margin_pct": 42.20518253207553,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 131288,
       "rep_votes": 52799,
       "other_votes": 12571,
@@ -921,6 +908,19 @@
       "margin": -78489,
       "margin_pct": -39.91141982528043,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 16114,
+      "rep_votes": 41213,
+      "other_votes": 2142,
+      "total_votes": 59469,
+      "dem_candidate": "Joi Chevalier",
+      "rep_candidate": "Glenn Hegar",
+      "margin": 25099,
+      "margin_pct": 42.20518253207553,
+      "winner": "REP",
       "color": ""
     },
     {

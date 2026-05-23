@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 17043,
-      "rep_votes": 41103,
-      "other_votes": 1381,
-      "total_votes": 59527,
-      "dem_candidate": "Maria T. (Terri) Jackson",
-      "rep_candidate": "Sharon Keller",
-      "margin": 24060,
-      "margin_pct": 40.418633561241116,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 137322,
       "rep_votes": 52539,
       "other_votes": 6539,
@@ -921,6 +908,19 @@
       "margin": -84783,
       "margin_pct": -43.16853360488798,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 17043,
+      "rep_votes": 41103,
+      "other_votes": 1381,
+      "total_votes": 59527,
+      "dem_candidate": "Maria T. (Terri) Jackson",
+      "rep_candidate": "Sharon Keller",
+      "margin": 24060,
+      "margin_pct": 40.418633561241116,
+      "winner": "REP",
       "color": ""
     },
     {

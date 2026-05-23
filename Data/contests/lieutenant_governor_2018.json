@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 18647,
-      "rep_votes": 40204,
-      "other_votes": 1336,
-      "total_votes": 60187,
-      "dem_candidate": "Mike Collier",
-      "rep_candidate": "Dan Patrick",
-      "margin": 21557,
-      "margin_pct": 35.81670460398425,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 135773,
       "rep_votes": 56526,
       "other_votes": 5955,
@@ -921,6 +908,19 @@
       "margin": -79247,
       "margin_pct": -39.97245957206412,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 18647,
+      "rep_votes": 40204,
+      "other_votes": 1336,
+      "total_votes": 60187,
+      "dem_candidate": "Mike Collier",
+      "rep_candidate": "Dan Patrick",
+      "margin": 21557,
+      "margin_pct": 35.81670460398425,
+      "winner": "REP",
       "color": ""
     },
     {
