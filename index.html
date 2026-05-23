@@ -14735,9 +14735,22 @@ document.addEventListener('DOMContentLoaded', function() {
 	      }
 	    }
 
-    async function getPreviousContestSlice(contestType, year) {
+    function getPreviousComparableYears(contestType, year) {
       const y = Number(year);
-      const candidates = [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
+      const type = (contestType || '').toString().toLowerCase();
+
+      // U.S. Senate races are six-year seat cycles. Texas has Senate races in
+      // different classes, so comparing 2024 to 2020 (or 2020 to 2018) makes the
+      // hover flip chip look wrong. Prefer the same Senate seat/class first.
+      if (type === 'us_senate') {
+        return [y - 6, y - 12, y - 18, y - 4, y - 2, y - 8].filter(v => v >= 2000);
+      }
+
+      return [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
+    }
+
+    async function getPreviousContestSlice(contestType, year) {
+      const candidates = getPreviousComparableYears(contestType, year);
       for (const cy of candidates) {
         const rows = await tryLoadContestSliceStrict(contestType, cy);
         if (rows && rows.length) return { year: cy, rows };
@@ -14922,8 +14935,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function getPreviousDistrictSlice(scope, contestType, year) {
-      const y = Number(year);
-      const candidates = [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
+      const candidates = getPreviousComparableYears(contestType, year);
       for (const cy of candidates) {
         const node = await tryLoadDistrictSliceStrict(scope, contestType, cy);
         const results = node?.general?.results || null;
