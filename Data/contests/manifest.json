@@ -499,11 +499,11 @@
       "year": 2014,
       "contest_type": "governor",
       "file": "governor_2014.json",
-      "rows": 7803,
-      "dem_total": 1730132,
-      "rep_total": 2435578,
-      "other_total": 678461,
-      "total_votes": 4844171,
+      "rows": 254,
+      "dem_total": 1835458,
+      "rep_total": 2796251,
+      "other_total": 0,
+      "total_votes": 4631709,
       "major_party_contested": true
     },
     {
@@ -1313,11 +1313,11 @@
       "year": 2014,
       "contest_type": "us_senate",
       "file": "us_senate_2014.json",
-      "rows": 7544,
-      "dem_total": 1459818,
-      "rep_total": 2474683,
-      "other_total": 1232546,
-      "total_votes": 5167047,
+      "rows": 254,
+      "dem_total": 1597272,
+      "rep_total": 2861244,
+      "other_total": 0,
+      "total_votes": 4458516,
       "major_party_contested": true
     },
     {
