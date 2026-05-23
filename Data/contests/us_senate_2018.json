@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 19106,
-      "rep_votes": 41022,
-      "other_votes": 461,
-      "total_votes": 60589,
-      "dem_candidate": "Beto O'Rourke",
-      "rep_candidate": "Ted Cruz",
-      "margin": 21916,
-      "margin_pct": 36.17158230041756,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 151482,
       "rep_votes": 50943,
       "other_votes": 1189,
@@ -921,6 +908,19 @@
       "margin": -100539,
       "margin_pct": -49.37725303761038,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 19106,
+      "rep_votes": 41022,
+      "other_votes": 461,
+      "total_votes": 60589,
+      "dem_candidate": "Beto O'Rourke",
+      "rep_candidate": "Ted Cruz",
+      "margin": 21916,
+      "margin_pct": 36.17158230041756,
+      "winner": "REP",
       "color": ""
     },
     {

@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 18586,
-      "rep_votes": 39882,
-      "other_votes": 1551,
-      "total_votes": 60019,
-      "dem_candidate": "Justin Nelson",
-      "rep_candidate": "Ken Paxton",
-      "margin": 21296,
-      "margin_pct": 35.48209733584365,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 137561,
       "rep_votes": 53742,
       "other_votes": 6831,
@@ -921,6 +908,19 @@
       "margin": -83819,
       "margin_pct": -42.30419816891599,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 18586,
+      "rep_votes": 39882,
+      "other_votes": 1551,
+      "total_votes": 60019,
+      "dem_candidate": "Justin Nelson",
+      "rep_candidate": "Ken Paxton",
+      "margin": 21296,
+      "margin_pct": 35.48209733584365,
+      "winner": "REP",
       "color": ""
     },
     {

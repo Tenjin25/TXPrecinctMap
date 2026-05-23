@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 17787,
-      "rep_votes": 41646,
-      "other_votes": 0,
-      "total_votes": 59433,
-      "dem_candidate": "Steven Kirkland",
-      "rep_candidate": "Jimmy Blacklock",
-      "margin": 23859,
-      "margin_pct": 40.144364242087725,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 141983,
       "rep_votes": 54223,
       "other_votes": 0,
@@ -921,6 +908,19 @@
       "margin": -87760,
       "margin_pct": -44.728499638135425,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 17787,
+      "rep_votes": 41646,
+      "other_votes": 0,
+      "total_votes": 59433,
+      "dem_candidate": "Steven Kirkland",
+      "rep_candidate": "Jimmy Blacklock",
+      "margin": 23859,
+      "margin_pct": 40.144364242087725,
+      "winner": "REP",
       "color": ""
     },
     {

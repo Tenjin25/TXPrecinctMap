@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 17588,
-      "rep_votes": 41705,
-      "other_votes": 0,
-      "total_votes": 59293,
-      "dem_candidate": "Kathy Cheng",
-      "rep_candidate": "Jeff Brown",
-      "margin": 24117,
-      "margin_pct": 40.67427858263201,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 141533,
       "rep_votes": 54594,
       "other_votes": 0,
@@ -921,6 +908,19 @@
       "margin": -86939,
       "margin_pct": -44.32790997669877,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 17588,
+      "rep_votes": 41705,
+      "other_votes": 0,
+      "total_votes": 59293,
+      "dem_candidate": "Kathy Cheng",
+      "rep_candidate": "Jeff Brown",
+      "margin": 24117,
+      "margin_pct": 40.67427858263201,
+      "winner": "REP",
       "color": ""
     },
     {

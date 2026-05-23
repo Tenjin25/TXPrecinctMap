@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 17379,
-      "rep_votes": 41846,
-      "other_votes": 0,
-      "total_votes": 59225,
-      "dem_candidate": "R.K. Sandill",
-      "rep_candidate": "John Devine",
-      "margin": 24467,
-      "margin_pct": 41.31194596876319,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 139329,
       "rep_votes": 56482,
       "other_votes": 0,
@@ -921,6 +908,19 @@
       "margin": -82847,
       "margin_pct": -42.30967616732461,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 17379,
+      "rep_votes": 41846,
+      "other_votes": 0,
+      "total_votes": 59225,
+      "dem_candidate": "R.K. Sandill",
+      "rep_candidate": "John Devine",
+      "margin": 24467,
+      "margin_pct": 41.31194596876319,
+      "winner": "REP",
       "color": ""
     },
     {

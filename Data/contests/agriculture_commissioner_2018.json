@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 17716,
-      "rep_votes": 40575,
-      "other_votes": 1393,
-      "total_votes": 59684,
-      "dem_candidate": "Kim Olson",
-      "rep_candidate": "Sid Miller",
-      "margin": 22859,
-      "margin_pct": 38.300046913745724,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 136738,
       "rep_votes": 51432,
       "other_votes": 8290,
@@ -921,6 +908,19 @@
       "margin": -85306,
       "margin_pct": -43.42156164104652,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 17716,
+      "rep_votes": 40575,
+      "other_votes": 1393,
+      "total_votes": 59684,
+      "dem_candidate": "Kim Olson",
+      "rep_candidate": "Sid Miller",
+      "margin": 22859,
+      "margin_pct": 38.300046913745724,
+      "winner": "REP",
       "color": ""
     },
     {

@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 15958,
-      "rep_votes": 41958,
-      "other_votes": 1937,
-      "total_votes": 59853,
-      "dem_candidate": "Miguel Suazo",
-      "rep_candidate": "George P. Bush",
-      "margin": 26000,
-      "margin_pct": 43.43976074716389,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 132083,
       "rep_votes": 58796,
       "other_votes": 6840,
@@ -921,6 +908,19 @@
       "margin": -73287,
       "margin_pct": -37.06624047258989,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 15958,
+      "rep_votes": 41958,
+      "other_votes": 1937,
+      "total_votes": 59853,
+      "dem_candidate": "Miguel Suazo",
+      "rep_candidate": "George P. Bush",
+      "margin": 26000,
+      "margin_pct": 43.43976074716389,
+      "winner": "REP",
       "color": ""
     },
     {

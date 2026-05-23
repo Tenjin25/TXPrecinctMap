@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 15879,
-      "rep_votes": 43647,
-      "other_votes": 975,
-      "total_votes": 60501,
-      "dem_candidate": "Lupe Valdez",
-      "rep_candidate": "Greg Abbott",
-      "margin": 27768,
-      "margin_pct": 45.89676203699112,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 134181,
       "rep_votes": 62749,
       "other_votes": 3699,
@@ -921,6 +908,19 @@
       "margin": -71432,
       "margin_pct": -35.60402534030474,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 15879,
+      "rep_votes": 43647,
+      "other_votes": 975,
+      "total_votes": 60501,
+      "dem_candidate": "Lupe Valdez",
+      "rep_candidate": "Greg Abbott",
+      "margin": 27768,
+      "margin_pct": 45.89676203699112,
+      "winner": "REP",
       "color": ""
     },
     {

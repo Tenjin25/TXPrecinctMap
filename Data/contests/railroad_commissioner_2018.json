@@ -899,19 +899,6 @@
     },
     {
       "county": "EL PASO",
-      "dem_votes": 16166,
-      "rep_votes": 41359,
-      "other_votes": 2043,
-      "total_votes": 59568,
-      "dem_candidate": "Roman McAllen",
-      "rep_candidate": "Christi Craddick",
-      "margin": 25193,
-      "margin_pct": 42.29284179425194,
-      "winner": "REP",
-      "color": ""
-    },
-    {
-      "county": "ELLIS",
       "dem_votes": 134850,
       "rep_votes": 53401,
       "other_votes": 8019,
@@ -921,6 +908,19 @@
       "margin": -81449,
       "margin_pct": -41.49844601824018,
       "winner": "DEM",
+      "color": ""
+    },
+    {
+      "county": "ELLIS",
+      "dem_votes": 16166,
+      "rep_votes": 41359,
+      "other_votes": 2043,
+      "total_votes": 59568,
+      "dem_candidate": "Roman McAllen",
+      "rep_candidate": "Christi Craddick",
+      "margin": 25193,
+      "margin_pct": 42.29284179425194,
+      "winner": "REP",
       "color": ""
     },
     {
