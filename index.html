@@ -6950,9 +6950,8 @@ document.addEventListener('DOMContentLoaded', function() {
       return totals;
     }
 
-    async function getRegionTrendSeries(contestType, regionKey) {
-      const entries = (contestManifest || [])
-        .filter(f => f && f.contest_type === contestType && Number.isFinite(Number(f.year)))
+    async function getRegionTrendSeries(contestType, regionKey, referenceYear) {
+      const entries = getTrendEntriesForContest(contestManifest || [], contestType, referenceYear)
         .slice()
         .sort((a, b) => Number(a.year) - Number(b.year));
 
@@ -7592,8 +7591,22 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       return {
         cls: shift > 0 ? 'rep' : 'dem',
-        text: `Shift: ${shift > 0 ? 'R' : 'D'}+${Math.abs(shift).toFixed(2)} since ${prevYear}`
+        text: `Shift: ${shift > 0 ? 'R' : 'D'}+${Math.abs(shift).toFixed(2)}% since ${prevYear}`
       };
+    }
+
+    function getTrendEntriesForContest(manifestEntries, contestType, referenceYear) {
+      const base = (manifestEntries || [])
+        .filter(f => f && f.contest_type === contestType && Number.isFinite(Number(f.year)));
+      // Keep US Senate trends aligned to the selected election class cadence (6-year cycle).
+      if (contestType === 'us_senate' && Number.isFinite(Number(referenceYear))) {
+        const anchor = Number(referenceYear);
+        return base.filter(f => {
+          const y = Number(f.year);
+          return Number.isFinite(y) && ((y - anchor) % 6 === 0);
+        });
+      }
+      return base;
     }
 
     function renderFocusTrendSeries(series, caption = 'Trend history') {
@@ -7753,9 +7766,8 @@ document.addEventListener('DOMContentLoaded', function() {
       try { updateMobileOverlayOffsets(); } catch (_) {}
     }
 
-    async function getStatewideTrendSeries(contestType) {
-      const entries = (contestManifest || [])
-        .filter(f => f && f.contest_type === contestType && Number.isFinite(Number(f.year)))
+    async function getStatewideTrendSeries(contestType, referenceYear) {
+      const entries = getTrendEntriesForContest(contestManifest || [], contestType, referenceYear)
         .slice()
         .sort((a, b) => Number(a.year) - Number(b.year));
 
@@ -7848,15 +7860,15 @@ document.addEventListener('DOMContentLoaded', function() {
       try {
         let series = [];
         if (meta.kind === 'county' && meta.county) {
-          series = await getCountyTrendSeries(contestType, meta.county);
+          series = await getCountyTrendSeries(contestType, meta.county, year);
         } else if (meta.kind === 'region' && meta.regionKey) {
-          series = await getRegionTrendSeries(contestType, meta.regionKey);
+          series = await getRegionTrendSeries(contestType, meta.regionKey, year);
         } else if (meta.kind === 'district' && meta.scope && meta.districtNum !== undefined) {
-          series = await getDistrictTrendSeries(meta.scope, contestType, meta.districtNum);
+          series = await getDistrictTrendSeries(meta.scope, contestType, meta.districtNum, year);
         } else if (meta.kind === 'precinct' && meta.county) {
-          series = await getCountyTrendSeries(contestType, meta.county);
+          series = await getCountyTrendSeries(contestType, meta.county, year);
         } else {
-          series = await getStatewideTrendSeries(contestType);
+          series = await getStatewideTrendSeries(contestType, year);
         }
         if (reqId !== voteCounterTrendRequestId) return;
         renderFocusTrendSeries(series, baseCaption);
@@ -10522,9 +10534,12 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
 
-    async function getDistrictTrendSeries(scope, contestType, districtNum) {
-      const entries = (districtManifest || [])
-        .filter(f => f && f.scope === scope && f.contest_type === contestType && Number.isFinite(Number(f.year)))
+    async function getDistrictTrendSeries(scope, contestType, districtNum, referenceYear) {
+      const entries = getTrendEntriesForContest(
+        (districtManifest || []).filter(f => f && f.scope === scope),
+        contestType,
+        referenceYear
+      )
         .slice()
         .sort((a, b) => Number(a.year) - Number(b.year));
 
@@ -10565,9 +10580,8 @@ document.addEventListener('DOMContentLoaded', function() {
       return out;
     }
 
-    async function getCountyTrendSeries(contestType, countyName) {
-      const entries = (contestManifest || [])
-        .filter(f => f && f.contest_type === contestType && Number.isFinite(Number(f.year)))
+    async function getCountyTrendSeries(contestType, countyName, referenceYear) {
+      const entries = getTrendEntriesForContest(contestManifest || [], contestType, referenceYear)
         .slice()
         .sort((a, b) => Number(a.year) - Number(b.year));
 
@@ -12370,7 +12384,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Populate trends asynchronously from manifest slices (does not block UI).
   (async () => {
     try {
-      const series = await getCountyTrendSeries(contestType, countyName);
+      const series = await getCountyTrendSeries(contestType, countyName, year);
       const el = document.getElementById('county-trends');
       if (!el) return;
       if (!series.length) {
@@ -14415,7 +14429,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         try {
-          const series = await getDistrictTrendSeries('congressional', contestType, districtNum);
+          const series = await getDistrictTrendSeries('congressional', contestType, districtNum, year);
           if (reqId !== districtSidebarRequestId) return;
           const el = document.getElementById('district-trends');
           if (el) el.innerHTML = renderDistrictTrendLinesHTML(series);
@@ -14501,7 +14515,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         try {
-          const series = await getDistrictTrendSeries(scope, contestType, districtNum);
+          const series = await getDistrictTrendSeries(scope, contestType, districtNum, year);
           if (reqId !== districtSidebarRequestId) return;
           const el = document.getElementById('district-trends');
           if (el) el.innerHTML = renderDistrictTrendLinesHTML(series);
