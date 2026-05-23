@@ -9682,9 +9682,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function marginPctValue(repVotes, demVotes, totalVotes) {
       const t = Number(totalVotes) || 0;
       if (t <= 0) return 0;
-      const repPct = partyPctValue(repVotes, t);
-      const demPct = partyPctValue(demVotes, t);
-      return Math.abs(repPct - demPct);
+      return Math.abs((Number(repVotes || 0) - Number(demVotes || 0)) / t * 100.0);
     }
 
     function leadMarginPctLabel(repVotes, demVotes, totalVotes) {
