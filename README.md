@@ -130,10 +130,6 @@ Scripts are in `Scripts/` and are used to build or refresh map assets.
 - Builds precinct and district aggregates from contest sources and crosswalks.
 - Computes totals, margins, winners, candidate labels, and coverage stats.
 - Writes `Data/contests` and `Data/district_contests` outputs.
-- Accepts either Census VTD files or Texas 2020 VTD GeoJSON ZIPs from DRA's GitHub repository:
-  - [dra2020/vtd_data](https://github.com/dra2020/vtd_data)
-- Prefers block-assignment + 2020 tabblock weighting when those inputs are present.
-- Falls back to geometry-derived VTD-to-district weights when block assignment inputs are unavailable.
 
 ### `Scripts/get_tx_2000s_vtds.ps1`
 
@@ -161,7 +157,6 @@ This supports both narrative election analysis and technical diagnostics.
 ## Known Constraints
 
 - District reallocation quality depends on crosswalk coverage and source key consistency.
-- Geometry fallback crosswalks are area-weighted, so they are less precise than the block-assignment path for split precincts.
 - Legacy source formats vary by year (county-level versus precinct-level granularity).
 - Precinct naming conventions vary by county and can cause partial match loss in edge cases.
 - Candidate labels vary by source quality; modern rendering applies case normalization for readability.

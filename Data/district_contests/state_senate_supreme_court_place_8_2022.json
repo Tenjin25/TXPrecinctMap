@@ -3,27 +3,18 @@
     "scope": "state_senate",
     "contest_type": "supreme_court_place_8",
     "year": 2022,
-    "method": "vtd_geometry_area_weighted",
+    "method": "block_assignment_vtd_population_weighted",
     "crosswalk_files_available": [
-      "Demographic_Data_TX.v06.zip",
-      "Demographic_Data_TX.v06.zip::demographic_data_TX.v06.csv",
-      "Election_Data_TX.v07.zip",
-      "Election_Data_TX.v07.zip::election_data_TX.v07.csv",
-      "Geojson_TX.v07.zip",
-      "Geojson_TX.v07.zip::TX_2020_VD_tabblock.vtd.datasets.geojson",
-      "Geojson_TX.v07.zip::TX_2020_graph.json",
-      "precinct_centroids_tx.geojson",
-      "tl_2020_48_vtd20.geojson",
-      "tx_cd_2025.geojson",
-      "tx_state_house_2022.geojson",
-      "tx_state_senate_2022.geojson"
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
     ],
     "match_coverage_pct": 70.33248081841433,
     "matched_precinct_rows": 2,
     "total_precinct_rows": 3,
     "matched_total_votes": 1925,
     "total_votes": 2737,
-    "generated_at": "2026-05-25T04:19:02.638199+00:00"
+    "generated_at": "2026-03-03T22:22:53.007672+00:00"
   },
   "general": {
     "results": {
