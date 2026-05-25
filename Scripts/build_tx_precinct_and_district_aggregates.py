@@ -263,11 +263,25 @@ def map_office_to_contest(office: str) -> Optional[str]:
     return None
 
 
-def choose_general_file_set(openelections_root: Path) -> Dict[int, List[Path]]:
+def choose_general_file_set(openelections_root: Path, data_dir: Optional[Path] = None) -> Dict[int, List[Path]]:
     groups: Dict[Tuple[int, str], List[Path]] = defaultdict(list)
-    pattern = re.compile(r"^(\d{8})__tx__general__.+__precinct\.csv$", re.I)
+    pattern = re.compile(r"^(\d{8})__tx__general(?:__.+)?__precinct\.csv$", re.I)
 
-    for p in openelections_root.rglob("*__precinct.csv"):
+    candidates: List[Path] = []
+    if openelections_root.exists():
+        candidates.extend(openelections_root.rglob("*__precinct.csv"))
+    if data_dir is not None and data_dir.exists():
+        candidates.extend(data_dir.glob("*__precinct.csv"))
+
+    seen: Set[Path] = set()
+    for p in candidates:
+        try:
+            resolved = p.resolve()
+        except Exception:
+            resolved = p
+        if resolved in seen:
+            continue
+        seen.add(resolved)
         name = p.name
         if "__special__" in name.lower():
             continue
@@ -433,37 +447,134 @@ def load_county_lookup(counties_geojson: Path) -> Dict[str, str]:
     return mapping
 
 
-def enrich_vtd(vtd_zip: Path, county_lookup: Dict[str, str], year_code: str) -> gpd.GeoDataFrame:
-    src = f"zip://{vtd_zip.resolve()}"
-    gdf = gpd.read_file(src).to_crs("EPSG:4326")
+def read_geodataframe(source_path: Path) -> gpd.GeoDataFrame:
+    if source_path.suffix.lower() != ".zip":
+        return gpd.read_file(source_path)
 
-    county_col = f"COUNTYFP{year_code}"
-    vtd_col = f"VTDST{year_code}"
-    if county_col not in gdf.columns or vtd_col not in gdf.columns:
-        raise RuntimeError(f"Missing expected fields in {vtd_zip.name}: {county_col}, {vtd_col}")
+    src = f"zip://{source_path.resolve()}"
+    try:
+        return gpd.read_file(src)
+    except Exception:
+        with zipfile.ZipFile(source_path) as z:
+            members = [
+                name
+                for name in z.namelist()
+                if not name.endswith("/") and name.lower().endswith((".geojson", ".json", ".shp"))
+            ]
+        if not members:
+            raise
+        preferred = sorted(members, key=lambda name: (0 if name.lower().endswith((".geojson", ".json")) else 1, name))[0]
+        return gpd.read_file(f"{src}!{preferred}")
 
-    county_names = [county_lookup.get(str(v).zfill(3), str(v).zfill(3)) for v in gdf[county_col]]
-    codes = [str(v).strip() for v in gdf[vtd_col]]
-    norms = [normalize_text(f"{c} - {p}") for c, p in zip(county_names, codes)]
+
+def standardize_vtd_frame(
+    raw_gdf: gpd.GeoDataFrame,
+    county_lookup: Dict[str, str],
+    year_code: str = "20",
+) -> gpd.GeoDataFrame:
+    gdf = raw_gdf.copy()
+    if gdf.crs is not None:
+        gdf = gdf.to_crs("EPSG:4326")
+
+    county_col_candidates = [f"COUNTYFP{year_code}", "COUNTYFP20", "COUNTYFP10", "COUNTYFP"]
+    vtd_col_candidates = [f"VTDST{year_code}", "VTDST20", "VTDST10", "precinct", "PRECINCT", "name", "Name"]
+    geoid_col_candidates = ["GEOID20", "GEOID10", "GEOID", "id", "ID"]
+
+    county_col = next((col for col in county_col_candidates if col in gdf.columns), None)
+    vtd_col = next((col for col in vtd_col_candidates if col in gdf.columns), None)
+    geoid_col = next((col for col in geoid_col_candidates if col in gdf.columns), None)
+
+    county_fps: List[str] = []
+    precinct_codes: List[str] = []
+    county_names: List[str] = []
+
+    if county_col and vtd_col:
+        county_fps = [str(v).strip().zfill(3) for v in gdf[county_col]]
+        precinct_codes = [str(v).strip() for v in gdf[vtd_col]]
+    elif geoid_col:
+        geoids = [re.sub(r"[^0-9]", "", str(v).strip()) for v in gdf[geoid_col]]
+        county_fps = [g[2:5] if len(g) >= 11 else "" for g in geoids]
+        precinct_codes = [g[-6:] if len(g) >= 11 else "" for g in geoids]
+    else:
+        raise RuntimeError(
+            "Unable to determine county/VTD columns. Expected COUNTYFP*/VTDST* fields or a GEOID field."
+        )
+
+    county_names = [county_lookup.get(fp, fp) for fp in county_fps]
+    norms = [normalize_text(f"{county} - {code}") for county, code in zip(county_names, precinct_codes)]
 
     gdf["county_nam"] = county_names
     gdf["COUNTYNAME"] = county_names
-    gdf["precinct"] = codes
-    gdf["PRECINCT"] = codes
-    gdf["precinct_name"] = [f"{c} - {p}" for c, p in zip(county_names, codes)]
+    gdf["precinct"] = precinct_codes
+    gdf["PRECINCT"] = precinct_codes
+    gdf["precinct_name"] = [f"{county} - {code}" for county, code in zip(county_names, precinct_codes)]
     gdf["precinct_norm"] = norms
     return gdf
 
 
-def write_precinct_layers(data_dir: Path, county_lookup: Dict[str, str]) -> None:
-    vtd10 = enrich_vtd(data_dir / "tl_2012_48_vtd10.zip", county_lookup, "10")
-    vtd20 = enrich_vtd(data_dir / "tl_2020_48_vtd20.zip", county_lookup, "20")
+def enrich_vtd(vtd_source: Path, county_lookup: Dict[str, str], year_code: str) -> gpd.GeoDataFrame:
+    raw = read_geodataframe(vtd_source)
+    gdf = standardize_vtd_frame(raw, county_lookup, year_code=year_code)
 
-    out10 = data_dir / "tl_2012_48_vtd10.geojson"
+    county_col = f"COUNTYFP{year_code}"
+    vtd_col = f"VTDST{year_code}"
+    if county_col in gdf.columns and vtd_col in gdf.columns:
+        return gdf
+    return gdf
+
+
+def resolve_first_existing(paths: Iterable[Path]) -> Optional[Path]:
+    for path in paths:
+        if path.exists():
+            return path
+    return None
+
+
+def resolve_vtd20_source(data_dir: Path, explicit_source: Optional[Path] = None) -> Optional[Path]:
+    candidates: List[Path] = []
+    if explicit_source is not None:
+        candidates.append(explicit_source)
+    candidates.extend(
+        [
+            data_dir / "tl_2020_48_vtd20.geojson",
+            data_dir / "tl_2020_48_vtd20.zip",
+        ]
+    )
+    candidates.extend(sorted(data_dir.glob("Geojson_TX.v*.zip"), reverse=True))
+    return resolve_first_existing(candidates)
+
+
+def write_precinct_layers(
+    data_dir: Path,
+    county_lookup: Dict[str, str],
+    vtd20_source: Optional[Path] = None,
+) -> Optional[Path]:
+    vtd10_source = resolve_first_existing(
+        [
+            data_dir / "tl_2012_48_vtd10.geojson",
+            data_dir / "tl_2012_48_vtd10.zip",
+            data_dir / "tl_2010_48_vtd10.zip",
+        ]
+    )
+    if vtd10_source is not None:
+        vtd10 = enrich_vtd(vtd10_source, county_lookup, "10")
+        out10 = data_dir / "tl_2012_48_vtd10.geojson"
+        vtd10.to_file(out10, driver="GeoJSON")
+        print(f"[layers] wrote {out10}")
+    else:
+        print("[warn] no 2010 VTD source found; skipping tl_2012_48_vtd10.geojson")
+
+    resolved_vtd20_source = resolve_vtd20_source(data_dir, explicit_source=vtd20_source)
+    if resolved_vtd20_source is None:
+        raise FileNotFoundError(
+            "Missing 2020 VTD source. Provide --vtd20-source, add tl_2020_48_vtd20.zip/geojson, "
+            "or place a DRA Geojson_TX.v*.zip file in Data/."
+        )
+
+    vtd20 = enrich_vtd(resolved_vtd20_source, county_lookup, "20")
+
     out20 = data_dir / "tl_2020_48_vtd20.geojson"
-    vtd10.to_file(out10, driver="GeoJSON")
     vtd20.to_file(out20, driver="GeoJSON")
-    print(f"[layers] wrote {out10}")
     print(f"[layers] wrote {out20}")
 
     # Build centroids for map dot-mode.
@@ -475,6 +586,7 @@ def write_precinct_layers(data_dir: Path, county_lookup: Dict[str, str]) -> None
     centroids_out = data_dir / "precinct_centroids_tx.geojson"
     centroid_src.to_file(centroids_out, driver="GeoJSON")
     print(f"[layers] wrote {centroids_out}")
+    return out20
 
 
 def build_alias_index_from_norms(norms: Iterable[str]) -> Dict[str, Dict[str, Set[str]]]:
@@ -566,6 +678,148 @@ def build_block_assignment_weights(
     return weights_by_scope, alias_index
 
 
+def district_source_path(data_dir: Path, scope: str) -> Path:
+    mapping = {
+        "congressional": data_dir / "tx_cd_2025.geojson",
+        "state_house": data_dir / "tx_state_house_2022.geojson",
+        "state_senate": data_dir / "tx_state_senate_2022.geojson",
+    }
+    if scope not in mapping:
+        raise KeyError(f"Unknown district scope: {scope}")
+    return mapping[scope]
+
+
+def load_district_geometries(data_dir: Path, scope: str) -> gpd.GeoDataFrame:
+    path = district_source_path(data_dir, scope)
+    if not path.exists():
+        raise FileNotFoundError(f"Missing district geometry source: {path}")
+
+    gdf = gpd.read_file(path)
+    id_candidates = {
+        "congressional": ["CD119FP", "CD118FP", "CD116FP", "DISTRICT", "GEOID"],
+        "state_house": ["SLDLST", "DISTRICT", "GEOID"],
+        "state_senate": ["SLDUST", "DISTRICT", "GEOID"],
+    }[scope]
+    id_col = next((col for col in id_candidates if col in gdf.columns), None)
+    if id_col is None:
+        raise RuntimeError(f"Unable to determine district id field for {scope} from {path.name}")
+
+    out = gdf[[id_col, "geometry"]].copy()
+    out["district_id"] = out[id_col].map(normalize_district_id)
+    out = out[out["district_id"] != ""].copy()
+    out = out.to_crs("EPSG:3083")
+    out["geometry"] = out.geometry.buffer(0)
+    return out[["district_id", "geometry"]]
+
+
+def companion_dra_files(data_dir: Path) -> List[str]:
+    patterns = [
+        "Geojson_TX.v*.zip",
+        "Election_Data_TX.v*.zip",
+        "Demographic_Data_TX.v*.zip",
+        "precinct_centroids_tx.geojson",
+        "tl_*_vtd*.geojson",
+        "tl_*_vtd*.zip",
+    ]
+    files: Set[str] = set()
+    for pattern in patterns:
+        for path in data_dir.glob(pattern):
+            if path.is_file():
+                files.add(path.name)
+    return sorted(files)
+
+
+def dra_archive_members(data_dir: Path) -> List[str]:
+    out: Set[str] = set()
+    for pattern in ("Geojson_TX.v*.zip", "Election_Data_TX.v*.zip", "Demographic_Data_TX.v*.zip"):
+        for path in data_dir.glob(pattern):
+            if not path.is_file():
+                continue
+            try:
+                with zipfile.ZipFile(path) as z:
+                    for member in z.namelist():
+                        if member.endswith("/") or member.upper() in {"LICENSE", "README"}:
+                            continue
+                        out.add(f"{path.name}::{member}")
+            except Exception:
+                continue
+    return sorted(out)
+
+
+def build_geometry_assignment_weights(
+    data_dir: Path,
+    county_lookup: Dict[str, str],
+    vtd20_source: Path,
+) -> Tuple[Dict[str, Dict[str, List[Tuple[str, float]]]], Dict[str, Dict[str, Set[str]]], List[str]]:
+    vtd = enrich_vtd(vtd20_source, county_lookup, "20")[["precinct_norm", "geometry"]].copy()
+    vtd = vtd[vtd["precinct_norm"].astype(str).str.strip() != ""].copy()
+    vtd = vtd[vtd.geometry.notna()].copy()
+    vtd = vtd.to_crs("EPSG:3083")
+    vtd["geometry"] = vtd.geometry.buffer(0)
+
+    alias_index = build_alias_index_from_norms(vtd["precinct_norm"].unique().tolist())
+    weights_by_scope: Dict[str, Dict[str, List[Tuple[str, float]]]] = {}
+    source_files = set(companion_dra_files(data_dir))
+    source_files.update(dra_archive_members(data_dir))
+    source_files.add(Path(vtd20_source).name)
+    source_files.add("tl_2020_48_vtd20.geojson")
+
+    for scope in ("congressional", "state_house", "state_senate"):
+        districts = load_district_geometries(data_dir, scope)
+        source_files.add(district_source_path(data_dir, scope).name)
+
+        try:
+            district_sindex = districts.sindex
+        except Exception:
+            district_sindex = None
+
+        overlaps: List[Tuple[str, str, float]] = []
+        for vtd_row in vtd.itertuples(index=False):
+            geom = vtd_row.geometry
+            if geom is None or geom.is_empty:
+                continue
+
+            if district_sindex is not None:
+                try:
+                    candidate_idx = district_sindex.query(geom, predicate="intersects")
+                    candidates = districts.iloc[list(candidate_idx)]
+                except Exception:
+                    candidates = districts
+            else:
+                candidates = districts
+
+            for district_row in candidates.itertuples(index=False):
+                d_geom = district_row.geometry
+                if d_geom is None or d_geom.is_empty or not geom.intersects(d_geom):
+                    continue
+                area = float(geom.intersection(d_geom).area)
+                if area <= 0:
+                    continue
+                overlaps.append((str(vtd_row.precinct_norm), str(district_row.district_id), area))
+
+        grouped = pd.DataFrame(overlaps, columns=["precinct_norm", "district_id", "w"])
+        if grouped.empty:
+            print(f"[weights] {scope}: no geometry overlaps found")
+            weights_by_scope[scope] = {}
+            continue
+
+        grouped = grouped.groupby(["precinct_norm", "district_id"], as_index=False)["w"].sum()
+        grouped["sum_w"] = grouped.groupby("precinct_norm")["w"].transform("sum")
+        grouped["weight"] = grouped["w"] / grouped["sum_w"]
+
+        scope_weights: Dict[str, List[Tuple[str, float]]] = defaultdict(list)
+        for _, row in grouped.iterrows():
+            wt = float(row["weight"])
+            if wt <= 0:
+                continue
+            scope_weights[str(row["precinct_norm"])].append((str(row["district_id"]), wt))
+
+        weights_by_scope[scope] = scope_weights
+        print(f"[weights] {scope}: {len(scope_weights)} precincts [geometry]")
+
+    return weights_by_scope, alias_index, sorted(source_files)
+
+
 def parse_precinct_row_key(row_key: str) -> Tuple[str, str]:
     s = str(row_key or "").strip().upper()
     if " - " in s:
@@ -596,6 +850,7 @@ def build_district_payload(
     year: int,
     alias_index: Dict[str, Dict[str, Set[str]]],
     weights_by_precinct: Dict[str, List[Tuple[str, float]]],
+    crosswalk_method: str,
     crosswalk_files: List[str],
 ) -> dict:
     district_votes: Dict[str, Dict[str, float]] = defaultdict(lambda: {"dem": 0.0, "rep": 0.0, "other": 0.0})
@@ -672,7 +927,7 @@ def build_district_payload(
             "scope": scope,
             "contest_type": contest_type,
             "year": year,
-            "method": "block_assignment_vtd_population_weighted",
+            "method": crosswalk_method,
             "crosswalk_files_available": crosswalk_files,
             "match_coverage_pct": coverage,
             "matched_precinct_rows": matched_rows,
@@ -724,6 +979,23 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build TX precinct layers and district aggregates from precinct CSVs.")
     parser.add_argument("--data-dir", default="Data", help="Data directory (default: Data)")
     parser.add_argument(
+        "--vtd20-source",
+        default="",
+        help=(
+            "Optional 2020 VTD source path. Supports Census geojson/zip or a DRA Geojson_TX.v*.zip from "
+            "https://github.com/dra2020/vtd_data."
+        ),
+    )
+    parser.add_argument(
+        "--crosswalk-method",
+        choices=("auto", "block", "geometry"),
+        default="auto",
+        help=(
+            "District crosswalk method. 'block' uses BlockAssign_ST48_TX.zip + 2020 tabblocks when present; "
+            "'geometry' overlays VTD and district polygons; 'auto' prefers block and falls back to geometry."
+        ),
+    )
+    parser.add_argument(
         "--skip-shapefile-contests",
         action="store_true",
         help="Skip overriding 2016/2018/2020 contest slices from tx_YYYY.zip shapefiles.",
@@ -734,11 +1006,12 @@ def main() -> None:
     openelections_root = data_dir / "openelections-data-tx"
     contests_dir = data_dir / "contests"
     district_contests_dir = data_dir / "district_contests"
+    vtd20_source = Path(args.vtd20_source).resolve() if args.vtd20_source else None
 
     county_lookup = load_county_lookup(data_dir / "tl_2020_48_county20.geojson")
-    write_precinct_layers(data_dir, county_lookup)
+    vtd20_layer_path = write_precinct_layers(data_dir, county_lookup, vtd20_source=vtd20_source)
 
-    files_by_year = choose_general_file_set(openelections_root)
+    files_by_year = choose_general_file_set(openelections_root, data_dir=data_dir)
     contest_manifest_entries: List[dict] = []
     contest_rows_by_key: Dict[Tuple[str, int], List[dict]] = {}
 
@@ -795,8 +1068,41 @@ def main() -> None:
     write_json(contests_dir / "manifest.json", {"files": contest_manifest_entries})
     print(f"[write] contests/manifest.json ({len(contest_manifest_entries)} entries)")
 
-    weights_by_scope, alias_index = build_block_assignment_weights(data_dir, county_lookup)
-    crosswalk_files = sorted([p.name for p in data_dir.glob("nhgis_blk*_48.zip")])
+    block_inputs_available = (data_dir / "BlockAssign_ST48_TX.zip").exists() and (
+        data_dir / "tl_2020_48_tabblock20.zip"
+    ).exists()
+    if args.crosswalk_method == "block":
+        if not block_inputs_available:
+            raise FileNotFoundError(
+                "crosswalk-method=block requires BlockAssign_ST48_TX.zip and tl_2020_48_tabblock20.zip in Data/."
+            )
+        weights_by_scope, alias_index = build_block_assignment_weights(data_dir, county_lookup)
+        crosswalk_method = "block_assignment_vtd_population_weighted"
+        crosswalk_files = ["BlockAssign_ST48_TX.zip", "tl_2020_48_tabblock20.zip"]
+    elif args.crosswalk_method == "geometry":
+        if vtd20_layer_path is None:
+            raise FileNotFoundError("crosswalk-method=geometry requires a 2020 VTD source.")
+        weights_by_scope, alias_index, crosswalk_files = build_geometry_assignment_weights(
+            data_dir,
+            county_lookup,
+            vtd20_layer_path,
+        )
+        crosswalk_method = "vtd_geometry_area_weighted"
+    elif block_inputs_available:
+        weights_by_scope, alias_index = build_block_assignment_weights(data_dir, county_lookup)
+        crosswalk_method = "block_assignment_vtd_population_weighted"
+        crosswalk_files = ["BlockAssign_ST48_TX.zip", "tl_2020_48_tabblock20.zip"]
+    else:
+        if vtd20_layer_path is None:
+            raise FileNotFoundError("crosswalk-method=auto could not find block inputs or a 2020 VTD source.")
+        print("[warn] block assignment inputs missing; falling back to geometry-based district crosswalks")
+        weights_by_scope, alias_index, crosswalk_files = build_geometry_assignment_weights(
+            data_dir,
+            county_lookup,
+            vtd20_layer_path,
+        )
+        crosswalk_method = "vtd_geometry_area_weighted"
+
     district_manifest_entries: List[dict] = []
 
     for (contest_type, year), rows in sorted(contest_rows_by_key.items(), key=lambda x: (x[0][1], x[0][0])):
@@ -808,6 +1114,7 @@ def main() -> None:
                 year=year,
                 alias_index=alias_index,
                 weights_by_precinct=scope_weights,
+                crosswalk_method=crosswalk_method,
                 crosswalk_files=crosswalk_files,
             )
             result_count = len(payload.get("general", {}).get("results", {}))
