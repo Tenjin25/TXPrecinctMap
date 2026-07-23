@@ -10,6 +10,16 @@
       .sort((a, b) => Number(a.year) - Number(b.year));
   }
 
+  function filterSeriesForContestCadence(series, contestType, selectedYear) {
+    const sorted = normalizeSeries(series);
+    const type = String(contestType || '').trim().toLowerCase();
+    const year = Number(selectedYear);
+    if (type !== 'us_senate' || !Number.isFinite(year)) return sorted;
+    // A Senate seat returns every six years. Filtering by six-year congruence
+    // keeps Class 1 and Class 2 elections in separate timelines.
+    return sorted.filter(row => Math.abs(Number(row.year) - year) % 6 === 0);
+  }
+
   function analyzeSeries(series, options = {}) {
     const signedMargin = typeof options.signedMargin === 'function'
       ? options.signedMargin
@@ -129,6 +139,7 @@
 
   return {
     normalizeSeries,
+    filterSeriesForContestCadence,
     analyzeSeries
   };
 }));

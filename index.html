@@ -15293,6 +15293,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
           series = await getStatewideTrendSeries(contestType);
         }
+        series = window.AtlasTrends.filterSeriesForContestCadence(series, contestType, year);
 
         if ((meta.kind === 'county' || meta.kind === 'precinct') && meta.county) {
           try {
