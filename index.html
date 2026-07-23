@@ -15293,7 +15293,6 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
           series = await getStatewideTrendSeries(contestType);
         }
-        series = window.AtlasTrends.filterSeriesForContestCadence(series, contestType, year);
 
         if ((meta.kind === 'county' || meta.kind === 'precinct') && meta.county) {
           try {
@@ -21268,19 +21267,115 @@ document.addEventListener('DOMContentLoaded', function() {
       return `${nick} ${after}`.replace(/\s+/g, ' ').trim();
     }
 
+    function splitCamelCaseNameToken(token) {
+      const raw = (token || '').toString().trim();
+      if (!raw || !/[a-z][A-Z]/.test(raw)) return raw;
+      // Keep Irish/Scottish prefixes intact (McDonald, MacArthur, O'Brien).
+      if (/^(?:Mc|Mac|O')[A-Z]/i.test(raw)) return raw;
+      // OpenElections-style mashed surnames: ChavezThompson -> Chavez-Thompson.
+      return raw.replace(/([a-z])([A-Z])/g, '$1-$2');
+    }
+
+    function normalizeCandidateNameSpacing(name) {
+      return (name || '')
+        .toString()
+        .split(/\s+/)
+        .filter(Boolean)
+        .map(splitCamelCaseNameToken)
+        .join(' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
     function shortCandidateLabel(name, fallback) {
       const raw = (name || '').toString().trim();
       if (!raw) return fallback;
       const ticketLead = stripRunningMateName(raw);
       const nickPreferred = applyParentheticalNickname(ticketLead);
-      const cleaned = nickPreferred.replace(/\([^)]*\)/g, ' ').replace(/[^A-Za-z .'-]/g, ' ').replace(/\s+/g, ' ').trim();
+      const spaced = normalizeCandidateNameSpacing(nickPreferred);
+      const cleaned = spaced.replace(/\([^)]*\)/g, ' ').replace(/[^A-Za-z .'-]/g, ' ').replace(/\s+/g, ' ').trim();
       if (!cleaned) return fallback;
+      // Hyphenated compounds stay one surname token for compact labels
+      // (Chavez-Thompson), while spaced particles use extractSurnameLabel
+      // (Van de Putte).
       const parts = cleaned.split(' ').filter(Boolean);
       if (!parts.length) return fallback;
-      // Prefer the surname in compact labels; ignore trailing suffixes like Jr./III.
-      let idx = parts.length - 1;
-      while (idx > 0 && isNameSuffixToken(parts[idx])) idx -= 1;
-      return toTitleCaseName(parts[idx]);
+      return toTitleCaseName(extractSurnameLabel(parts));
+    }
+
+    function isSurnameParticleToken(token) {
+      const normalized = (token || '')
+        .toString()
+        .replace(/\./g, '')
+        .trim()
+        .toLowerCase();
+      if (!normalized) return false;
+      return (
+        normalized === 'van' ||
+        normalized === 'von' ||
+        normalized === 'der' ||
+        normalized === 'den' ||
+        normalized === 'ter' ||
+        normalized === 'ten' ||
+        normalized === 'de' ||
+        normalized === 'da' ||
+        normalized === 'di' ||
+        normalized === 'do' ||
+        normalized === 'du' ||
+        normalized === 'del' ||
+        normalized === 'dela' ||
+        normalized === 'della' ||
+        normalized === 'des' ||
+        normalized === 'dos' ||
+        normalized === 'das' ||
+        normalized === 'la' ||
+        normalized === 'las' ||
+        normalized === 'le' ||
+        normalized === 'les' ||
+        normalized === 'los' ||
+        normalized === 'y' ||
+        normalized === 'san' ||
+        normalized === 'santa' ||
+        normalized === 'st' ||
+        normalized === 'ste' ||
+        normalized === 'al' ||
+        normalized === 'el' ||
+        normalized === 'bin' ||
+        normalized === 'ibn' ||
+        normalized === 'abu' ||
+        normalized === 'mac' ||
+        normalized === 'mc'
+      );
+    }
+
+    function isMiddleInitialToken(token) {
+      const raw = (token || '').toString().trim();
+      if (!raw) return false;
+      // "R", "R.", "J.R" style initials should not become part of the surname.
+      return /^[A-Za-z](?:\.[A-Za-z])*\.?$/.test(raw) && raw.replace(/\./g, '').length <= 2;
+    }
+
+    function extractSurnameLabel(parts) {
+      const tokens = Array.isArray(parts) ? parts.filter(Boolean) : [];
+      if (!tokens.length) return '';
+      let end = tokens.length - 1;
+      while (end > 0 && isNameSuffixToken(tokens[end])) end -= 1;
+      let start = end;
+      while (start > 0 && isSurnameParticleToken(tokens[start - 1])) start -= 1;
+      // Particle-less compound surnames (e.g. "Cortez Masto"): keep the last two
+      // tokens when the penultimate is a full word, not a middle initial.
+      if (
+        start === end &&
+        start > 0 &&
+        !isMiddleInitialToken(tokens[start - 1]) &&
+        !isNameSuffixToken(tokens[start - 1]) &&
+        String(tokens[start - 1]).replace(/\./g, '').length > 1
+      ) {
+        // Only treat as a two-token surname when there is still a given name
+        // to the left (avoid turning "Greg Abbott" into "Greg Abbott").
+        if (start - 1 > 0) start -= 1;
+      }
+      return tokens.slice(start, end + 1).join(' ');
     }
 
     // Shared candidate/last-name resolver for hover, selected results, county trend + timeline, and trajectory.
@@ -21409,7 +21504,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!raw) return fallback;
       const ticketLead = stripRunningMateName(raw);
       const nickPreferred = applyParentheticalNickname(ticketLead);
-      const cleaned = nickPreferred.replace(/\([^)]*\)/g, ' ').replace(/[^A-Za-z .,\'-]/g, ' ').replace(/\s+/g, ' ').trim();
+      const spaced = normalizeCandidateNameSpacing(nickPreferred);
+      const cleaned = spaced.replace(/\([^)]*\)/g, ' ').replace(/[^A-Za-z .,\'-]/g, ' ').replace(/\s+/g, ' ').trim();
       if (!cleaned) return fallback;
       return toTitleCaseName(cleaned);
     }
@@ -21428,9 +21524,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const lower = s.toLowerCase();
       const parts = lower.split(/(\s+|-)/); // keep separators
-      const titled = parts.map(p => {
+      const titled = parts.map((p, idx) => {
         if (p === ' ' || p === '-' || /^\s+$/.test(p)) return p;
         if (p === "of" || p === "and" || p === "the") return p;
+        // Keep internal surname particles lowercase: Van de Putte, De la Cruz.
+        if (idx > 0 && typeof isSurnameParticleToken === 'function' && isSurnameParticleToken(p)) return p;
         if (p.startsWith("mc") && p.length > 2) return "Mc" + p[2].toUpperCase() + p.slice(3);
         if (p.startsWith("o'") && p.length > 2) return "O'" + p[2].toUpperCase() + p.slice(3);
         return p.charAt(0).toUpperCase() + p.slice(1);

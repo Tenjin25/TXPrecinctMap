@@ -1,0 +1,763 @@
+county,office,district,candidate,party,votes
+ANDERSON,Governor,,Wendy R. Davis,DEM,2286
+ANDERSON,Governor,,Greg Abbott,REP,7732
+ANDERSON,Governor,,OTHER,OTH,195
+ANDREWS,Governor,,Wendy R. Davis,DEM,203
+ANDREWS,Governor,,Greg Abbott,REP,1988
+ANDREWS,Governor,,OTHER,OTH,30
+ANGELINA,Governor,,Wendy R. Davis,DEM,3686
+ANGELINA,Governor,,Greg Abbott,REP,12940
+ANGELINA,Governor,,OTHER,OTH,176
+ARANSAS,Governor,,Wendy R. Davis,DEM,1480
+ARANSAS,Governor,,Greg Abbott,REP,4460
+ARANSAS,Governor,,OTHER,OTH,130
+ARCHER,Governor,,Wendy R. Davis,DEM,302
+ARCHER,Governor,,Greg Abbott,REP,2297
+ARCHER,Governor,,OTHER,OTH,37
+ARMSTRONG,Governor,,Wendy R. Davis,DEM,59
+ARMSTRONG,Governor,,Greg Abbott,REP,502
+ARMSTRONG,Governor,,OTHER,OTH,10
+ATASCOSA,Governor,,Wendy R. Davis,DEM,2589
+ATASCOSA,Governor,,Greg Abbott,REP,4760
+ATASCOSA,Governor,,OTHER,OTH,116
+AUSTIN,Governor,,Wendy R. Davis,DEM,1252
+AUSTIN,Governor,,Greg Abbott,REP,5813
+AUSTIN,Governor,,OTHER,OTH,117
+BAILEY,Governor,,Wendy R. Davis,DEM,130
+BAILEY,Governor,,Greg Abbott,REP,868
+BAILEY,Governor,,OTHER,OTH,6
+BANDERA,Governor,,Wendy R. Davis,DEM,1257
+BANDERA,Governor,,Greg Abbott,REP,4911
+BANDERA,Governor,,OTHER,OTH,178
+BASTROP,Governor,,Wendy R. Davis,DEM,6566
+BASTROP,Governor,,Greg Abbott,REP,9803
+BASTROP,Governor,,OTHER,OTH,592
+BAYLOR,Governor,,Wendy R. Davis,DEM,134
+BAYLOR,Governor,,Greg Abbott,REP,700
+BAYLOR,Governor,,OTHER,OTH,10
+BEE,Governor,,Wendy R. Davis,DEM,2128
+BEE,Governor,,Greg Abbott,REP,2972
+BEE,Governor,,OTHER,OTH,126
+BELL,Governor,,Wendy R. Davis,DEM,14412
+BELL,Governor,,Greg Abbott,REP,28778
+BELL,Governor,,OTHER,OTH,793
+BEXAR,Governor,,Wendy R. Davis,DEM,145711
+BEXAR,Governor,,Greg Abbott,REP,149697
+BEXAR,Governor,,OTHER,OTH,5542
+BLANCO,Governor,,Wendy R. Davis,DEM,874
+BLANCO,Governor,,Greg Abbott,REP,2622
+BLANCO,Governor,,OTHER,OTH,112
+BORDEN,Governor,,Wendy R. Davis,DEM,18
+BORDEN,Governor,,Greg Abbott,REP,240
+BORDEN,Governor,,OTHER,OTH,2
+BOSQUE,Governor,,Wendy R. Davis,DEM,933
+BOSQUE,Governor,,Greg Abbott,REP,3881
+BOSQUE,Governor,,OTHER,OTH,94
+BOWIE,Governor,,Wendy R. Davis,DEM,5564
+BOWIE,Governor,,Greg Abbott,REP,15583
+BOWIE,Governor,,OTHER,OTH,385
+BRAZORIA,Governor,,Wendy R. Davis,DEM,19703
+BRAZORIA,Governor,,Greg Abbott,REP,41373
+BRAZORIA,Governor,,OTHER,OTH,1204
+BRAZOS,Governor,,Wendy R. Davis,DEM,9125
+BRAZOS,Governor,,Greg Abbott,REP,21859
+BRAZOS,Governor,,OTHER,OTH,624
+BREWSTER,Governor,,Wendy R. Davis,DEM,1311
+BREWSTER,Governor,,Greg Abbott,REP,1499
+BREWSTER,Governor,,OTHER,OTH,98
+BRISCOE,Governor,,Wendy R. Davis,DEM,75
+BRISCOE,Governor,,Greg Abbott,REP,431
+BRISCOE,Governor,,OTHER,OTH,4
+BROOKS,Governor,,Wendy R. Davis,DEM,1478
+BROOKS,Governor,,Greg Abbott,REP,588
+BROOKS,Governor,,OTHER,OTH,80
+BROWN,Governor,,Wendy R. Davis,DEM,901
+BROWN,Governor,,Greg Abbott,REP,7176
+BROWN,Governor,,OTHER,OTH,124
+BURLESON,Governor,,Wendy R. Davis,DEM,959
+BURLESON,Governor,,Greg Abbott,REP,3199
+BURLESON,Governor,,OTHER,OTH,50
+BURNET,Governor,,Wendy R. Davis,DEM,2571
+BURNET,Governor,,Greg Abbott,REP,8995
+BURNET,Governor,,OTHER,OTH,317
+CALDWELL,Governor,,Wendy R. Davis,DEM,3578
+CALDWELL,Governor,,Greg Abbott,REP,5037
+CALDWELL,Governor,,OTHER,OTH,291
+CALHOUN,Governor,,Wendy R. Davis,DEM,1326
+CALHOUN,Governor,,Greg Abbott,REP,2737
+CALHOUN,Governor,,OTHER,OTH,92
+CALLAHAN,Governor,,Wendy R. Davis,DEM,285
+CALLAHAN,Governor,,Greg Abbott,REP,2636
+CALLAHAN,Governor,,OTHER,OTH,48
+CAMERON,Governor,,Wendy R. Davis,DEM,21859
+CAMERON,Governor,,Greg Abbott,REP,16556
+CAMERON,Governor,,OTHER,OTH,992
+CAMP,Governor,,Wendy R. Davis,DEM,718
+CAMP,Governor,,Greg Abbott,REP,1862
+CAMP,Governor,,OTHER,OTH,33
+CARSON,Governor,,Wendy R. Davis,DEM,193
+CARSON,Governor,,Greg Abbott,REP,1634
+CARSON,Governor,,OTHER,OTH,30
+CASS,Governor,,Wendy R. Davis,DEM,1687
+CASS,Governor,,Greg Abbott,REP,5185
+CASS,Governor,,OTHER,OTH,75
+CASTRO,Governor,,Wendy R. Davis,DEM,217
+CASTRO,Governor,,Greg Abbott,REP,917
+CASTRO,Governor,,OTHER,OTH,18
+CHAMBERS,Governor,,Wendy R. Davis,DEM,1490
+CHAMBERS,Governor,,Greg Abbott,REP,6778
+CHAMBERS,Governor,,OTHER,OTH,147
+CHEROKEE,Governor,,Wendy R. Davis,DEM,1862
+CHEROKEE,Governor,,Greg Abbott,REP,7709
+CHEROKEE,Governor,,OTHER,OTH,117
+CHILDRESS,Governor,,Wendy R. Davis,DEM,134
+CHILDRESS,Governor,,Greg Abbott,REP,944
+CHILDRESS,Governor,,OTHER,OTH,17
+CLAY,Governor,,Wendy R. Davis,DEM,363
+CLAY,Governor,,Greg Abbott,REP,2436
+CLAY,Governor,,OTHER,OTH,43
+COCHRAN,Governor,,Wendy R. Davis,DEM,65
+COCHRAN,Governor,,Greg Abbott,REP,423
+COCHRAN,Governor,,OTHER,OTH,7
+COKE,Governor,,Wendy R. Davis,DEM,67
+COKE,Governor,,Greg Abbott,REP,696
+COKE,Governor,,OTHER,OTH,7
+COLEMAN,Governor,,Wendy R. Davis,DEM,234
+COLEMAN,Governor,,Greg Abbott,REP,1974
+COLEMAN,Governor,,OTHER,OTH,32
+COLLIN,Governor,,Wendy R. Davis,DEM,57757
+COLLIN,Governor,,Greg Abbott,REP,116365
+COLLIN,Governor,,OTHER,OTH,3009
+COLLINGSWORTH,Governor,,Wendy R. Davis,DEM,132
+COLLINGSWORTH,Governor,,Greg Abbott,REP,651
+COLLINGSWORTH,Governor,,OTHER,OTH,19
+COLORADO,Governor,,Wendy R. Davis,DEM,1192
+COLORADO,Governor,,Greg Abbott,REP,3881
+COLORADO,Governor,,OTHER,OTH,84
+COMAL,Governor,,Wendy R. Davis,DEM,7428
+COMAL,Governor,,Greg Abbott,REP,26642
+COMAL,Governor,,OTHER,OTH,650
+COMANCHE,Governor,,Wendy R. Davis,DEM,544
+COMANCHE,Governor,,Greg Abbott,REP,2447
+COMANCHE,Governor,,OTHER,OTH,78
+CONCHO,Governor,,Wendy R. Davis,DEM,77
+CONCHO,Governor,,Greg Abbott,REP,511
+CONCHO,Governor,,OTHER,OTH,10
+COOKE,Governor,,Wendy R. Davis,DEM,1273
+COOKE,Governor,,Greg Abbott,REP,7402
+COOKE,Governor,,OTHER,OTH,144
+CORYELL,Governor,,Wendy R. Davis,DEM,2017
+CORYELL,Governor,,Greg Abbott,REP,6465
+CORYELL,Governor,,OTHER,OTH,203
+COTTLE,Governor,,Wendy R. Davis,DEM,48
+COTTLE,Governor,,Greg Abbott,REP,310
+COTTLE,Governor,,OTHER,OTH,4
+CRANE,Governor,,Wendy R. Davis,DEM,127
+CRANE,Governor,,Greg Abbott,REP,713
+CRANE,Governor,,OTHER,OTH,11
+CROCKETT,Governor,,Wendy R. Davis,DEM,203
+CROCKETT,Governor,,Greg Abbott,REP,624
+CROCKETT,Governor,,OTHER,OTH,8
+CROSBY,Governor,,Wendy R. Davis,DEM,239
+CROSBY,Governor,,Greg Abbott,REP,813
+CROSBY,Governor,,OTHER,OTH,20
+CULBERSON,Governor,,Wendy R. Davis,DEM,146
+CULBERSON,Governor,,Greg Abbott,REP,172
+CULBERSON,Governor,,OTHER,OTH,10
+DALLAM,Governor,,Wendy R. Davis,DEM,100
+DALLAM,Governor,,Greg Abbott,REP,727
+DALLAM,Governor,,OTHER,OTH,17
+DALLAS,Governor,,Wendy R. Davis,DEM,223136
+DALLAS,Governor,,Greg Abbott,REP,178273
+DALLAS,Governor,,OTHER,OTH,5851
+DAWSON,Governor,,Wendy R. Davis,DEM,335
+DAWSON,Governor,,Greg Abbott,REP,1687
+DAWSON,Governor,,OTHER,OTH,22
+DEAF SMITH,Governor,,Wendy R. Davis,DEM,503
+DEAF SMITH,Governor,,Greg Abbott,REP,2182
+DEAF SMITH,Governor,,OTHER,OTH,43
+DELTA,Governor,,Wendy R. Davis,DEM,351
+DELTA,Governor,,Greg Abbott,REP,984
+DELTA,Governor,,OTHER,OTH,43
+DENTON,Governor,,Wendy R. Davis,DEM,47238
+DENTON,Governor,,Greg Abbott,REP,93683
+DENTON,Governor,,OTHER,OTH,3089
+DEWITT,Governor,,Wendy R. Davis,DEM,695
+DEWITT,Governor,,Greg Abbott,REP,3269
+DEWITT,Governor,,OTHER,OTH,54
+DICKENS,Governor,,Wendy R. Davis,DEM,60
+DICKENS,Governor,,Greg Abbott,REP,452
+DICKENS,Governor,,OTHER,OTH,5
+DIMMIT,Governor,,Wendy R. Davis,DEM,1245
+DIMMIT,Governor,,Greg Abbott,REP,599
+DIMMIT,Governor,,OTHER,OTH,33
+DONLEY,Governor,,Wendy R. Davis,DEM,120
+DONLEY,Governor,,Greg Abbott,REP,803
+DONLEY,Governor,,OTHER,OTH,20
+DUVAL,Governor,,Wendy R. Davis,DEM,2251
+DUVAL,Governor,,Greg Abbott,REP,750
+DUVAL,Governor,,OTHER,OTH,83
+EASTLAND,Governor,,Wendy R. Davis,DEM,372
+EASTLAND,Governor,,Greg Abbott,REP,3503
+EASTLAND,Governor,,OTHER,OTH,56
+ECTOR,Governor,,Wendy R. Davis,DEM,2478
+ECTOR,Governor,,Greg Abbott,REP,12139
+ECTOR,Governor,,OTHER,OTH,210
+EDWARDS,Governor,,Wendy R. Davis,DEM,222
+EDWARDS,Governor,,Greg Abbott,REP,540
+EDWARDS,Governor,,OTHER,OTH,24
+ELLIS,Governor,,Wendy R. Davis,DEM,7963
+ELLIS,Governor,,Greg Abbott,REP,23604
+ELLIS,Governor,,OTHER,OTH,608
+EL PASO,Governor,,Wendy R. Davis,DEM,48506
+EL PASO,Governor,,Greg Abbott,REP,29953
+EL PASO,Governor,,OTHER,OTH,1949
+ERATH,Governor,,Wendy R. Davis,DEM,1301
+ERATH,Governor,,Greg Abbott,REP,5953
+ERATH,Governor,,OTHER,OTH,139
+FALLS,Governor,,Wendy R. Davis,DEM,877
+FALLS,Governor,,Greg Abbott,REP,2147
+FALLS,Governor,,OTHER,OTH,40
+FANNIN,Governor,,Wendy R. Davis,DEM,1449
+FANNIN,Governor,,Greg Abbott,REP,4897
+FANNIN,Governor,,OTHER,OTH,144
+FAYETTE,Governor,,Wendy R. Davis,DEM,1547
+FAYETTE,Governor,,Greg Abbott,REP,5885
+FAYETTE,Governor,,OTHER,OTH,108
+FISHER,Governor,,Wendy R. Davis,DEM,334
+FISHER,Governor,,Greg Abbott,REP,891
+FISHER,Governor,,OTHER,OTH,20
+FLOYD,Governor,,Wendy R. Davis,DEM,133
+FLOYD,Governor,,Greg Abbott,REP,955
+FLOYD,Governor,,OTHER,OTH,7
+FOARD,Governor,,Wendy R. Davis,DEM,102
+FOARD,Governor,,Greg Abbott,REP,205
+FOARD,Governor,,OTHER,OTH,3
+FORT BEND,Governor,,Wendy R. Davis,DEM,56825
+FORT BEND,Governor,,Greg Abbott,REP,73749
+FORT BEND,Governor,,OTHER,OTH,1894
+FRANKLIN,Governor,,Wendy R. Davis,DEM,353
+FRANKLIN,Governor,,Greg Abbott,REP,2197
+FRANKLIN,Governor,,OTHER,OTH,44
+FREESTONE,Governor,,Wendy R. Davis,DEM,902
+FREESTONE,Governor,,Greg Abbott,REP,3473
+FREESTONE,Governor,,OTHER,OTH,75
+FRIO,Governor,,Wendy R. Davis,DEM,953
+FRIO,Governor,,Greg Abbott,REP,863
+FRIO,Governor,,OTHER,OTH,27
+GAINES,Governor,,Wendy R. Davis,DEM,235
+GAINES,Governor,,Greg Abbott,REP,2235
+GAINES,Governor,,OTHER,OTH,42
+GALVESTON,Governor,,Wendy R. Davis,DEM,23201
+GALVESTON,Governor,,Greg Abbott,REP,40422
+GALVESTON,Governor,,OTHER,OTH,1231
+GARZA,Governor,,Wendy R. Davis,DEM,80
+GARZA,Governor,,Greg Abbott,REP,752
+GARZA,Governor,,OTHER,OTH,8
+GILLESPIE,Governor,,Wendy R. Davis,DEM,1502
+GILLESPIE,Governor,,Greg Abbott,REP,7168
+GILLESPIE,Governor,,OTHER,OTH,178
+GLASSCOCK,Governor,,Wendy R. Davis,DEM,15
+GLASSCOCK,Governor,,Greg Abbott,REP,377
+GLASSCOCK,Governor,,OTHER,OTH,8
+GOLIAD,Governor,,Wendy R. Davis,DEM,873
+GOLIAD,Governor,,Greg Abbott,REP,1873
+GOLIAD,Governor,,OTHER,OTH,42
+GONZALES,Governor,,Wendy R. Davis,DEM,840
+GONZALES,Governor,,Greg Abbott,REP,2789
+GONZALES,Governor,,OTHER,OTH,83
+GRAY,Governor,,Wendy R. Davis,DEM,302
+GRAY,Governor,,Greg Abbott,REP,3358
+GRAY,Governor,,OTHER,OTH,65
+GRAYSON,Governor,,Wendy R. Davis,DEM,5067
+GRAYSON,Governor,,Greg Abbott,REP,18103
+GRAYSON,Governor,,OTHER,OTH,339
+GREGG,Governor,,Wendy R. Davis,DEM,5808
+GREGG,Governor,,Greg Abbott,REP,17210
+GREGG,Governor,,OTHER,OTH,222
+GRIMES,Governor,,Wendy R. Davis,DEM,1125
+GRIMES,Governor,,Greg Abbott,REP,3716
+GRIMES,Governor,,OTHER,OTH,114
+GUADALUPE,Governor,,Wendy R. Davis,DEM,8788
+GUADALUPE,Governor,,Greg Abbott,REP,21235
+GUADALUPE,Governor,,OTHER,OTH,556
+HALE,Governor,,Wendy R. Davis,DEM,567
+HALE,Governor,,Greg Abbott,REP,3703
+HALE,Governor,,OTHER,OTH,50
+HALL,Governor,,Wendy R. Davis,DEM,74
+HALL,Governor,,Greg Abbott,REP,485
+HALL,Governor,,OTHER,OTH,11
+HAMILTON,Governor,,Wendy R. Davis,DEM,491
+HAMILTON,Governor,,Greg Abbott,REP,1891
+HAMILTON,Governor,,OTHER,OTH,48
+HANSFORD,Governor,,Wendy R. Davis,DEM,55
+HANSFORD,Governor,,Greg Abbott,REP,1105
+HANSFORD,Governor,,OTHER,OTH,16
+HARDEMAN,Governor,,Wendy R. Davis,DEM,130
+HARDEMAN,Governor,,Greg Abbott,REP,523
+HARDEMAN,Governor,,OTHER,OTH,13
+HARDIN,Governor,,Wendy R. Davis,DEM,1494
+HARDIN,Governor,,Greg Abbott,REP,9923
+HARDIN,Governor,,OTHER,OTH,159
+HARRIS,Governor,,Wendy R. Davis,DEM,320160
+HARRIS,Governor,,Greg Abbott,REP,349639
+HARRIS,Governor,,OTHER,OTH,10277
+HARRISON,Governor,,Wendy R. Davis,DEM,4086
+HARRISON,Governor,,Greg Abbott,REP,10384
+HARRISON,Governor,,OTHER,OTH,190
+HARTLEY,Governor,,Wendy R. Davis,DEM,87
+HARTLEY,Governor,,Greg Abbott,REP,1006
+HARTLEY,Governor,,OTHER,OTH,15
+HASKELL,Governor,,Wendy R. Davis,DEM,230
+HASKELL,Governor,,Greg Abbott,REP,821
+HASKELL,Governor,,OTHER,OTH,14
+HAYS,Governor,,Wendy R. Davis,DEM,17300
+HAYS,Governor,,Greg Abbott,REP,21002
+HAYS,Governor,,OTHER,OTH,1029
+HEMPHILL,Governor,,Wendy R. Davis,DEM,100
+HEMPHILL,Governor,,Greg Abbott,REP,715
+HEMPHILL,Governor,,OTHER,OTH,15
+HENDERSON,Governor,,Wendy R. Davis,DEM,3689
+HENDERSON,Governor,,Greg Abbott,REP,13118
+HENDERSON,Governor,,OTHER,OTH,318
+HIDALGO,Governor,,Wendy R. Davis,DEM,50303
+HIDALGO,Governor,,Greg Abbott,REP,27909
+HIDALGO,Governor,,OTHER,OTH,2007
+HILL,Governor,,Wendy R. Davis,DEM,1887
+HILL,Governor,,Greg Abbott,REP,6855
+HILL,Governor,,OTHER,OTH,177
+HOCKLEY,Governor,,Wendy R. Davis,DEM,425
+HOCKLEY,Governor,,Greg Abbott,REP,3222
+HOCKLEY,Governor,,OTHER,OTH,50
+HOOD,Governor,,Wendy R. Davis,DEM,2577
+HOOD,Governor,,Greg Abbott,REP,10784
+HOOD,Governor,,OTHER,OTH,278
+HOPKINS,Governor,,Wendy R. Davis,DEM,1759
+HOPKINS,Governor,,Greg Abbott,REP,5745
+HOPKINS,Governor,,OTHER,OTH,133
+HOUSTON,Governor,,Wendy R. Davis,DEM,901
+HOUSTON,Governor,,Greg Abbott,REP,3696
+HOUSTON,Governor,,OTHER,OTH,53
+HOWARD,Governor,,Wendy R. Davis,DEM,664
+HOWARD,Governor,,Greg Abbott,REP,3492
+HOWARD,Governor,,OTHER,OTH,123
+HUDSPETH,Governor,,Wendy R. Davis,DEM,151
+HUDSPETH,Governor,,Greg Abbott,REP,267
+HUDSPETH,Governor,,OTHER,OTH,19
+HUNT,Governor,,Wendy R. Davis,DEM,3688
+HUNT,Governor,,Greg Abbott,REP,12294
+HUNT,Governor,,OTHER,OTH,342
+HUTCHINSON,Governor,,Wendy R. Davis,DEM,462
+HUTCHINSON,Governor,,Greg Abbott,REP,3956
+HUTCHINSON,Governor,,OTHER,OTH,76
+IRION,Governor,,Wendy R. Davis,DEM,43
+IRION,Governor,,Greg Abbott,REP,383
+IRION,Governor,,OTHER,OTH,9
+JACK,Governor,,Wendy R. Davis,DEM,225
+JACK,Governor,,Greg Abbott,REP,1473
+JACK,Governor,,OTHER,OTH,29
+JACKSON,Governor,,Wendy R. Davis,DEM,488
+JACKSON,Governor,,Greg Abbott,REP,2420
+JACKSON,Governor,,OTHER,OTH,37
+JASPER,Governor,,Wendy R. Davis,DEM,1415
+JASPER,Governor,,Greg Abbott,REP,5644
+JASPER,Governor,,OTHER,OTH,76
+JEFF DAVIS,Governor,,Wendy R. Davis,DEM,366
+JEFF DAVIS,Governor,,Greg Abbott,REP,623
+JEFF DAVIS,Governor,,OTHER,OTH,40
+JEFFERSON,Governor,,Wendy R. Davis,DEM,25799
+JEFFERSON,Governor,,Greg Abbott,REP,26876
+JEFFERSON,Governor,,OTHER,OTH,540
+JIM HOGG,Governor,,Wendy R. Davis,DEM,521
+JIM HOGG,Governor,,Greg Abbott,REP,190
+JIM HOGG,Governor,,OTHER,OTH,9
+JIM WELLS,Governor,,Wendy R. Davis,DEM,3016
+JIM WELLS,Governor,,Greg Abbott,REP,2589
+JIM WELLS,Governor,,OTHER,OTH,106
+JOHNSON,Governor,,Wendy R. Davis,DEM,5978
+JOHNSON,Governor,,Greg Abbott,REP,22715
+JOHNSON,Governor,,OTHER,OTH,579
+JONES,Governor,,Wendy R. Davis,DEM,534
+JONES,Governor,,Greg Abbott,REP,2745
+JONES,Governor,,OTHER,OTH,62
+KARNES,Governor,,Wendy R. Davis,DEM,715
+KARNES,Governor,,Greg Abbott,REP,1770
+KARNES,Governor,,OTHER,OTH,36
+KAUFMAN,Governor,,Wendy R. Davis,DEM,5449
+KAUFMAN,Governor,,Greg Abbott,REP,14590
+KAUFMAN,Governor,,OTHER,OTH,314
+KENDALL,Governor,,Wendy R. Davis,DEM,1989
+KENDALL,Governor,,Greg Abbott,REP,9713
+KENDALL,Governor,,OTHER,OTH,173
+KENEDY,Governor,,Wendy R. Davis,DEM,59
+KENEDY,Governor,,Greg Abbott,REP,64
+KENEDY,Governor,,OTHER,OTH,2
+KENT,Governor,,Wendy R. Davis,DEM,49
+KENT,Governor,,Greg Abbott,REP,251
+KENT,Governor,,OTHER,OTH,10
+KERR,Governor,,Wendy R. Davis,DEM,2901
+KERR,Governor,,Greg Abbott,REP,11740
+KERR,Governor,,OTHER,OTH,292
+KIMBLE,Governor,,Wendy R. Davis,DEM,113
+KIMBLE,Governor,,Greg Abbott,REP,1096
+KIMBLE,Governor,,OTHER,OTH,15
+KING,Governor,,Wendy R. Davis,DEM,1
+KING,Governor,,Greg Abbott,REP,90
+KING,Governor,,OTHER,OTH,2
+KINNEY,Governor,,Wendy R. Davis,DEM,375
+KINNEY,Governor,,Greg Abbott,REP,747
+KINNEY,Governor,,OTHER,OTH,26
+KLEBERG,Governor,,Wendy R. Davis,DEM,2804
+KLEBERG,Governor,,Greg Abbott,REP,2836
+KLEBERG,Governor,,OTHER,OTH,119
+KNOX,Governor,,Wendy R. Davis,DEM,159
+KNOX,Governor,,Greg Abbott,REP,726
+KNOX,Governor,,OTHER,OTH,14
+LAMAR,Governor,,Wendy R. Davis,DEM,2869
+LAMAR,Governor,,Greg Abbott,REP,7785
+LAMAR,Governor,,OTHER,OTH,245
+LAMB,Governor,,Wendy R. Davis,DEM,251
+LAMB,Governor,,Greg Abbott,REP,1841
+LAMB,Governor,,OTHER,OTH,20
+LAMPASAS,Governor,,Wendy R. Davis,DEM,787
+LAMPASAS,Governor,,Greg Abbott,REP,3745
+LAMPASAS,Governor,,OTHER,OTH,96
+LA SALLE,Governor,,Wendy R. Davis,DEM,422
+LA SALLE,Governor,,Greg Abbott,REP,434
+LA SALLE,Governor,,OTHER,OTH,9
+LAVACA,Governor,,Wendy R. Davis,DEM,784
+LAVACA,Governor,,Greg Abbott,REP,4180
+LAVACA,Governor,,OTHER,OTH,62
+LEE,Governor,,Wendy R. Davis,DEM,963
+LEE,Governor,,Greg Abbott,REP,3199
+LEE,Governor,,OTHER,OTH,122
+LEON,Governor,,Wendy R. Davis,DEM,511
+LEON,Governor,,Greg Abbott,REP,3694
+LEON,Governor,,OTHER,OTH,46
+LIBERTY,Governor,,Wendy R. Davis,DEM,2681
+LIBERTY,Governor,,Greg Abbott,REP,9576
+LIBERTY,Governor,,OTHER,OTH,245
+LIMESTONE,Governor,,Wendy R. Davis,DEM,979
+LIMESTONE,Governor,,Greg Abbott,REP,3278
+LIMESTONE,Governor,,OTHER,OTH,49
+LIPSCOMB,Governor,,Wendy R. Davis,DEM,93
+LIPSCOMB,Governor,,Greg Abbott,REP,740
+LIPSCOMB,Governor,,OTHER,OTH,20
+LIVE OAK,Governor,,Wendy R. Davis,DEM,400
+LIVE OAK,Governor,,Greg Abbott,REP,2007
+LIVE OAK,Governor,,OTHER,OTH,48
+LLANO,Governor,,Wendy R. Davis,DEM,1363
+LLANO,Governor,,Greg Abbott,REP,5552
+LLANO,Governor,,OTHER,OTH,138
+LOVING,Governor,,Wendy R. Davis,DEM,4
+LOVING,Governor,,Greg Abbott,REP,35
+LOVING,Governor,,OTHER,OTH,2
+LUBBOCK,Governor,,Wendy R. Davis,DEM,10438
+LUBBOCK,Governor,,Greg Abbott,REP,36038
+LUBBOCK,Governor,,OTHER,OTH,717
+LYNN,Governor,,Wendy R. Davis,DEM,180
+LYNN,Governor,,Greg Abbott,REP,1013
+LYNN,Governor,,OTHER,OTH,16
+MADISON,Governor,,Wendy R. Davis,DEM,462
+MADISON,Governor,,Greg Abbott,REP,1941
+MADISON,Governor,,OTHER,OTH,26
+MARION,Governor,,Wendy R. Davis,DEM,705
+MARION,Governor,,Greg Abbott,REP,1480
+MARION,Governor,,OTHER,OTH,28
+MARTIN,Governor,,Wendy R. Davis,DEM,116
+MARTIN,Governor,,Greg Abbott,REP,1016
+MARTIN,Governor,,OTHER,OTH,23
+MASON,Governor,,Wendy R. Davis,DEM,243
+MASON,Governor,,Greg Abbott,REP,1104
+MASON,Governor,,OTHER,OTH,24
+MATAGORDA,Governor,,Wendy R. Davis,DEM,2115
+MATAGORDA,Governor,,Greg Abbott,REP,4691
+MATAGORDA,Governor,,OTHER,OTH,146
+MAVERICK,Governor,,Wendy R. Davis,DEM,3723
+MAVERICK,Governor,,Greg Abbott,REP,1392
+MAVERICK,Governor,,OTHER,OTH,183
+MCCULLOCH,Governor,,Wendy R. Davis,DEM,258
+MCCULLOCH,Governor,,Greg Abbott,REP,1456
+MCCULLOCH,Governor,,OTHER,OTH,34
+MCLENNAN,Governor,,Wendy R. Davis,DEM,13092
+MCLENNAN,Governor,,Greg Abbott,REP,30507
+MCLENNAN,Governor,,OTHER,OTH,699
+MCMULLEN,Governor,,Wendy R. Davis,DEM,34
+MCMULLEN,Governor,,Greg Abbott,REP,222
+MCMULLEN,Governor,,OTHER,OTH,7
+MEDINA,Governor,,Wendy R. Davis,DEM,2506
+MEDINA,Governor,,Greg Abbott,REP,7194
+MEDINA,Governor,,OTHER,OTH,153
+MENARD,Governor,,Wendy R. Davis,DEM,65
+MENARD,Governor,,Greg Abbott,REP,411
+MENARD,Governor,,OTHER,OTH,6
+MIDLAND,Governor,,Wendy R. Davis,DEM,3012
+MIDLAND,Governor,,Greg Abbott,REP,20204
+MIDLAND,Governor,,OTHER,OTH,361
+MILAM,Governor,,Wendy R. Davis,DEM,1293
+MILAM,Governor,,Greg Abbott,REP,3576
+MILAM,Governor,,OTHER,OTH,95
+MILLS,Governor,,Wendy R. Davis,DEM,134
+MILLS,Governor,,Greg Abbott,REP,1194
+MILLS,Governor,,OTHER,OTH,25
+MITCHELL,Governor,,Wendy R. Davis,DEM,176
+MITCHELL,Governor,,Greg Abbott,REP,1020
+MITCHELL,Governor,,OTHER,OTH,15
+MONTAGUE,Governor,,Wendy R. Davis,DEM,916
+MONTAGUE,Governor,,Greg Abbott,REP,5691
+MONTAGUE,Governor,,OTHER,OTH,136
+MONTGOMERY,Governor,,Wendy R. Davis,DEM,19179
+MONTGOMERY,Governor,,Greg Abbott,REP,83938
+MONTGOMERY,Governor,,OTHER,OTH,1778
+MOORE,Governor,,Wendy R. Davis,DEM,301
+MOORE,Governor,,Greg Abbott,REP,2421
+MOORE,Governor,,OTHER,OTH,44
+MORRIS,Governor,,Wendy R. Davis,DEM,1031
+MORRIS,Governor,,Greg Abbott,REP,2033
+MORRIS,Governor,,OTHER,OTH,44
+MOTLEY,Governor,,Wendy R. Davis,DEM,20
+MOTLEY,Governor,,Greg Abbott,REP,344
+MOTLEY,Governor,,OTHER,OTH,8
+NACOGDOCHES,Governor,,Wendy R. Davis,DEM,2845
+NACOGDOCHES,Governor,,Greg Abbott,REP,9021
+NACOGDOCHES,Governor,,OTHER,OTH,176
+NAVARRO,Governor,,Wendy R. Davis,DEM,2376
+NAVARRO,Governor,,Greg Abbott,REP,6983
+NAVARRO,Governor,,OTHER,OTH,173
+NEWTON,Governor,,Wendy R. Davis,DEM,703
+NEWTON,Governor,,Greg Abbott,REP,2161
+NEWTON,Governor,,OTHER,OTH,41
+NOLAN,Governor,,Wendy R. Davis,DEM,474
+NOLAN,Governor,,Greg Abbott,REP,2117
+NOLAN,Governor,,OTHER,OTH,54
+NUECES,Governor,,Wendy R. Davis,DEM,24746
+NUECES,Governor,,Greg Abbott,REP,30854
+NUECES,Governor,,OTHER,OTH,1405
+OCHILTREE,Governor,,Wendy R. Davis,DEM,70
+OCHILTREE,Governor,,Greg Abbott,REP,1500
+OCHILTREE,Governor,,OTHER,OTH,20
+OLDHAM,Governor,,Wendy R. Davis,DEM,33
+OLDHAM,Governor,,Greg Abbott,REP,519
+OLDHAM,Governor,,OTHER,OTH,7
+ORANGE,Governor,,Wendy R. Davis,DEM,3600
+ORANGE,Governor,,Greg Abbott,REP,13400
+ORANGE,Governor,,OTHER,OTH,266
+PALO PINTO,Governor,,Wendy R. Davis,DEM,1141
+PALO PINTO,Governor,,Greg Abbott,REP,4410
+PALO PINTO,Governor,,OTHER,OTH,120
+PANOLA,Governor,,Wendy R. Davis,DEM,1069
+PANOLA,Governor,,Greg Abbott,REP,4614
+PANOLA,Governor,,OTHER,OTH,69
+PARKER,Governor,,Wendy R. Davis,DEM,5540
+PARKER,Governor,,Greg Abbott,REP,25683
+PARKER,Governor,,OTHER,OTH,636
+PARMER,Governor,,Wendy R. Davis,DEM,153
+PARMER,Governor,,Greg Abbott,REP,1234
+PARMER,Governor,,OTHER,OTH,13
+PECOS,Governor,,Wendy R. Davis,DEM,817
+PECOS,Governor,,Greg Abbott,REP,2146
+PECOS,Governor,,OTHER,OTH,68
+POLK,Governor,,Wendy R. Davis,DEM,2410
+POLK,Governor,,Greg Abbott,REP,7858
+POLK,Governor,,OTHER,OTH,228
+POTTER,Governor,,Wendy R. Davis,DEM,2925
+POTTER,Governor,,Greg Abbott,REP,10584
+POTTER,Governor,,OTHER,OTH,246
+PRESIDIO,Governor,,Wendy R. Davis,DEM,613
+PRESIDIO,Governor,,Greg Abbott,REP,364
+PRESIDIO,Governor,,OTHER,OTH,27
+RAINS,Governor,,Wendy R. Davis,DEM,440
+RAINS,Governor,,Greg Abbott,REP,1976
+RAINS,Governor,,OTHER,OTH,35
+RANDALL,Governor,,Wendy R. Davis,DEM,3650
+RANDALL,Governor,,Greg Abbott,REP,24134
+RANDALL,Governor,,OTHER,OTH,433
+REAGAN,Governor,,Wendy R. Davis,DEM,68
+REAGAN,Governor,,Greg Abbott,REP,425
+REAGAN,Governor,,OTHER,OTH,13
+REAL,Governor,,Wendy R. Davis,DEM,175
+REAL,Governor,,Greg Abbott,REP,862
+REAL,Governor,,OTHER,OTH,18
+RED RIVER,Governor,,Wendy R. Davis,DEM,730
+RED RIVER,Governor,,Greg Abbott,REP,1993
+RED RIVER,Governor,,OTHER,OTH,45
+REEVES,Governor,,Wendy R. Davis,DEM,510
+REEVES,Governor,,Greg Abbott,REP,695
+REEVES,Governor,,OTHER,OTH,17
+REFUGIO,Governor,,Wendy R. Davis,DEM,750
+REFUGIO,Governor,,Greg Abbott,REP,1238
+REFUGIO,Governor,,OTHER,OTH,52
+ROBERTS,Governor,,Wendy R. Davis,DEM,15
+ROBERTS,Governor,,Greg Abbott,REP,324
+ROBERTS,Governor,,OTHER,OTH,6
+ROBERTSON,Governor,,Wendy R. Davis,DEM,1768
+ROBERTSON,Governor,,Greg Abbott,REP,3270
+ROBERTSON,Governor,,OTHER,OTH,67
+ROCKWALL,Governor,,Wendy R. Davis,DEM,4670
+ROCKWALL,Governor,,Greg Abbott,REP,16100
+ROCKWALL,Governor,,OTHER,OTH,316
+RUNNELS,Governor,,Wendy R. Davis,DEM,230
+RUNNELS,Governor,,Greg Abbott,REP,2057
+RUNNELS,Governor,,OTHER,OTH,25
+RUSK,Governor,,Wendy R. Davis,DEM,1906
+RUSK,Governor,,Greg Abbott,REP,8517
+RUSK,Governor,,OTHER,OTH,105
+SABINE,Governor,,Wendy R. Davis,DEM,355
+SABINE,Governor,,Greg Abbott,REP,2372
+SABINE,Governor,,OTHER,OTH,35
+SAN AUGUSTINE,Governor,,Wendy R. Davis,DEM,756
+SAN AUGUSTINE,Governor,,Greg Abbott,REP,1920
+SAN AUGUSTINE,Governor,,OTHER,OTH,48
+SAN JACINTO,Governor,,Wendy R. Davis,DEM,1632
+SAN JACINTO,Governor,,Greg Abbott,REP,4641
+SAN JACINTO,Governor,,OTHER,OTH,161
+SAN PATRICIO,Governor,,Wendy R. Davis,DEM,4071
+SAN PATRICIO,Governor,,Greg Abbott,REP,7202
+SAN PATRICIO,Governor,,OTHER,OTH,258
+SAN SABA,Governor,,Wendy R. Davis,DEM,145
+SAN SABA,Governor,,Greg Abbott,REP,1280
+SAN SABA,Governor,,OTHER,OTH,20
+SCHLEICHER,Governor,,Wendy R. Davis,DEM,213
+SCHLEICHER,Governor,,Greg Abbott,REP,635
+SCHLEICHER,Governor,,OTHER,OTH,11
+SCURRY,Governor,,Wendy R. Davis,DEM,298
+SCURRY,Governor,,Greg Abbott,REP,2518
+SCURRY,Governor,,OTHER,OTH,46
+SHACKELFORD,Governor,,Wendy R. Davis,DEM,50
+SHACKELFORD,Governor,,Greg Abbott,REP,751
+SHACKELFORD,Governor,,OTHER,OTH,9
+SHELBY,Governor,,Wendy R. Davis,DEM,1116
+SHELBY,Governor,,Greg Abbott,REP,4330
+SHELBY,Governor,,OTHER,OTH,58
+SHERMAN,Governor,,Wendy R. Davis,DEM,52
+SHERMAN,Governor,,Greg Abbott,REP,538
+SHERMAN,Governor,,OTHER,OTH,10
+SMITH,Governor,,Wendy R. Davis,DEM,10846
+SMITH,Governor,,Greg Abbott,REP,37360
+SMITH,Governor,,OTHER,OTH,628
+SOMERVELL,Governor,,Wendy R. Davis,DEM,405
+SOMERVELL,Governor,,Greg Abbott,REP,1796
+SOMERVELL,Governor,,OTHER,OTH,44
+STARR,Governor,,Wendy R. Davis,DEM,4008
+STARR,Governor,,Greg Abbott,REP,1104
+STARR,Governor,,OTHER,OTH,73
+STEPHENS,Governor,,Wendy R. Davis,DEM,169
+STEPHENS,Governor,,Greg Abbott,REP,1737
+STEPHENS,Governor,,OTHER,OTH,29
+STERLING,Governor,,Wendy R. Davis,DEM,33
+STERLING,Governor,,Greg Abbott,REP,429
+STERLING,Governor,,OTHER,OTH,8
+STONEWALL,Governor,,Wendy R. Davis,DEM,76
+STONEWALL,Governor,,Greg Abbott,REP,297
+STONEWALL,Governor,,OTHER,OTH,8
+SUTTON,Governor,,Wendy R. Davis,DEM,113
+SUTTON,Governor,,Greg Abbott,REP,619
+SUTTON,Governor,,OTHER,OTH,11
+SWISHER,Governor,,Wendy R. Davis,DEM,362
+SWISHER,Governor,,Greg Abbott,REP,1029
+SWISHER,Governor,,OTHER,OTH,33
+TARRANT,Governor,,Wendy R. Davis,DEM,153214
+TARRANT,Governor,,Greg Abbott,REP,213120
+TARRANT,Governor,,OTHER,OTH,6639
+TAYLOR,Governor,,Wendy R. Davis,DEM,3876
+TAYLOR,Governor,,Greg Abbott,REP,19100
+TAYLOR,Governor,,OTHER,OTH,425
+TERRELL,Governor,,Wendy R. Davis,DEM,108
+TERRELL,Governor,,Greg Abbott,REP,273
+TERRELL,Governor,,OTHER,OTH,17
+TERRY,Governor,,Wendy R. Davis,DEM,366
+TERRY,Governor,,Greg Abbott,REP,1896
+TERRY,Governor,,OTHER,OTH,31
+THROCKMORTON,Governor,,Wendy R. Davis,DEM,66
+THROCKMORTON,Governor,,Greg Abbott,REP,456
+THROCKMORTON,Governor,,OTHER,OTH,13
+TITUS,Governor,,Wendy R. Davis,DEM,1288
+TITUS,Governor,,Greg Abbott,REP,3802
+TITUS,Governor,,OTHER,OTH,72
+TOM GREEN,Governor,,Wendy R. Davis,DEM,3559
+TOM GREEN,Governor,,Greg Abbott,REP,14670
+TOM GREEN,Governor,,OTHER,OTH,304
+TRAVIS,Governor,,Wendy R. Davis,DEM,169141
+TRAVIS,Governor,,Greg Abbott,REP,91301
+TRAVIS,Governor,,OTHER,OTH,7353
+TRINITY,Governor,,Wendy R. Davis,DEM,996
+TRINITY,Governor,,Greg Abbott,REP,2837
+TRINITY,Governor,,OTHER,OTH,97
+TYLER,Governor,,Wendy R. Davis,DEM,885
+TYLER,Governor,,Greg Abbott,REP,3788
+TYLER,Governor,,OTHER,OTH,96
+UPSHUR,Governor,,Wendy R. Davis,DEM,1426
+UPSHUR,Governor,,Greg Abbott,REP,7294
+UPSHUR,Governor,,OTHER,OTH,128
+UPTON,Governor,,Wendy R. Davis,DEM,106
+UPTON,Governor,,Greg Abbott,REP,555
+UPTON,Governor,,OTHER,OTH,9
+UVALDE,Governor,,Wendy R. Davis,DEM,2101
+UVALDE,Governor,,Greg Abbott,REP,2967
+UVALDE,Governor,,OTHER,OTH,75
+VAL VERDE,Governor,,Wendy R. Davis,DEM,3608
+VAL VERDE,Governor,,Greg Abbott,REP,3306
+VAL VERDE,Governor,,OTHER,OTH,168
+VAN ZANDT,Governor,,Wendy R. Davis,DEM,1938
+VAN ZANDT,Governor,,Greg Abbott,REP,9751
+VAN ZANDT,Governor,,OTHER,OTH,232
+VICTORIA,Governor,,Wendy R. Davis,DEM,4233
+VICTORIA,Governor,,Greg Abbott,REP,12657
+VICTORIA,Governor,,OTHER,OTH,258
+WALKER,Governor,,Wendy R. Davis,DEM,3476
+WALKER,Governor,,Greg Abbott,REP,7669
+WALKER,Governor,,OTHER,OTH,242
+WALLER,Governor,,Wendy R. Davis,DEM,2741
+WALLER,Governor,,Greg Abbott,REP,6329
+WALLER,Governor,,OTHER,OTH,125
+WARD,Governor,,Wendy R. Davis,DEM,411
+WARD,Governor,,Greg Abbott,REP,1535
+WARD,Governor,,OTHER,OTH,34
+WASHINGTON,Governor,,Wendy R. Davis,DEM,1952
+WASHINGTON,Governor,,Greg Abbott,REP,6886
+WASHINGTON,Governor,,OTHER,OTH,153
+WEBB,Governor,,Wendy R. Davis,DEM,17963
+WEBB,Governor,,Greg Abbott,REP,7622
+WEBB,Governor,,OTHER,OTH,819
+WHARTON,Governor,,Wendy R. Davis,DEM,2075
+WHARTON,Governor,,Greg Abbott,REP,6215
+WHARTON,Governor,,OTHER,OTH,109
+WHEELER,Governor,,Wendy R. Davis,DEM,120
+WHEELER,Governor,,Greg Abbott,REP,1185
+WHEELER,Governor,,OTHER,OTH,17
+WICHITA,Governor,,Wendy R. Davis,DEM,4822
+WICHITA,Governor,,Greg Abbott,REP,16130
+WICHITA,Governor,,OTHER,OTH,304
+WILBARGER,Governor,,Wendy R. Davis,DEM,574
+WILBARGER,Governor,,Greg Abbott,REP,2141
+WILBARGER,Governor,,OTHER,OTH,36
+WILLACY,Governor,,Wendy R. Davis,DEM,1274
+WILLACY,Governor,,Greg Abbott,REP,854
+WILLACY,Governor,,OTHER,OTH,57
+WILLIAMSON,Governor,,Wendy R. Davis,DEM,39516
+WILLIAMSON,Governor,,Greg Abbott,REP,61496
+WILLIAMSON,Governor,,OTHER,OTH,2898
+WILSON,Governor,,Wendy R. Davis,DEM,2707
+WILSON,Governor,,Greg Abbott,REP,7506
+WILSON,Governor,,OTHER,OTH,216
+WINKLER,Governor,,Wendy R. Davis,DEM,136
+WINKLER,Governor,,Greg Abbott,REP,829
+WINKLER,Governor,,OTHER,OTH,20
+WISE,Governor,,Wendy R. Davis,DEM,2178
+WISE,Governor,,Greg Abbott,REP,10181
+WISE,Governor,,OTHER,OTH,280
+WOOD,Governor,,Wendy R. Davis,DEM,1403
+WOOD,Governor,,Greg Abbott,REP,9778
+WOOD,Governor,,OTHER,OTH,129
+YOAKUM,Governor,,Wendy R. Davis,DEM,93
+YOAKUM,Governor,,Greg Abbott,REP,1046
+YOAKUM,Governor,,OTHER,OTH,10
+YOUNG,Governor,,Wendy R. Davis,DEM,679
+YOUNG,Governor,,Greg Abbott,REP,4497
+YOUNG,Governor,,OTHER,OTH,127
+ZAPATA,Governor,,Wendy R. Davis,DEM,788
+ZAPATA,Governor,,Greg Abbott,REP,372
+ZAPATA,Governor,,OTHER,OTH,17
+ZAVALA,Governor,,Wendy R. Davis,DEM,1110
+ZAVALA,Governor,,Greg Abbott,REP,350
+ZAVALA,Governor,,OTHER,OTH,24

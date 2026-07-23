@@ -21280,10 +21280,84 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!cleaned) return fallback;
       const parts = cleaned.split(' ').filter(Boolean);
       if (!parts.length) return fallback;
-      // Prefer the surname in compact labels; ignore trailing suffixes like Jr./III.
-      let idx = parts.length - 1;
-      while (idx > 0 && isNameSuffixToken(parts[idx])) idx -= 1;
-      return toTitleCaseName(parts[idx]);
+      // Prefer the surname in compact labels; keep multi-word surnames
+      // (Van de Putte, De La Cruz) and ignore trailing suffixes like Jr./III.
+      return toTitleCaseName(extractSurnameLabel(parts));
+    }
+
+    function isSurnameParticleToken(token) {
+      const normalized = (token || '')
+        .toString()
+        .replace(/\./g, '')
+        .trim()
+        .toLowerCase();
+      if (!normalized) return false;
+      return (
+        normalized === 'van' ||
+        normalized === 'von' ||
+        normalized === 'der' ||
+        normalized === 'den' ||
+        normalized === 'ter' ||
+        normalized === 'ten' ||
+        normalized === 'de' ||
+        normalized === 'da' ||
+        normalized === 'di' ||
+        normalized === 'do' ||
+        normalized === 'du' ||
+        normalized === 'del' ||
+        normalized === 'dela' ||
+        normalized === 'della' ||
+        normalized === 'des' ||
+        normalized === 'dos' ||
+        normalized === 'das' ||
+        normalized === 'la' ||
+        normalized === 'las' ||
+        normalized === 'le' ||
+        normalized === 'les' ||
+        normalized === 'los' ||
+        normalized === 'y' ||
+        normalized === 'san' ||
+        normalized === 'santa' ||
+        normalized === 'st' ||
+        normalized === 'ste' ||
+        normalized === 'al' ||
+        normalized === 'el' ||
+        normalized === 'bin' ||
+        normalized === 'ibn' ||
+        normalized === 'abu' ||
+        normalized === 'mac' ||
+        normalized === 'mc'
+      );
+    }
+
+    function isMiddleInitialToken(token) {
+      const raw = (token || '').toString().trim();
+      if (!raw) return false;
+      // "R", "R.", "J.R" style initials should not become part of the surname.
+      return /^[A-Za-z](?:\.[A-Za-z])*\.?$/.test(raw) && raw.replace(/\./g, '').length <= 2;
+    }
+
+    function extractSurnameLabel(parts) {
+      const tokens = Array.isArray(parts) ? parts.filter(Boolean) : [];
+      if (!tokens.length) return '';
+      let end = tokens.length - 1;
+      while (end > 0 && isNameSuffixToken(tokens[end])) end -= 1;
+      let start = end;
+      while (start > 0 && isSurnameParticleToken(tokens[start - 1])) start -= 1;
+      // Particle-less compound surnames (e.g. "Cortez Masto"): keep the last two
+      // tokens when the penultimate is a full word, not a middle initial.
+      if (
+        start === end &&
+        start > 0 &&
+        !isMiddleInitialToken(tokens[start - 1]) &&
+        !isNameSuffixToken(tokens[start - 1]) &&
+        String(tokens[start - 1]).replace(/\./g, '').length > 1
+      ) {
+        // Only treat as a two-token surname when there is still a given name
+        // to the left (avoid turning "Greg Abbott" into "Greg Abbott").
+        if (start - 1 > 0) start -= 1;
+      }
+      return tokens.slice(start, end + 1).join(' ');
     }
 
     // Shared candidate/last-name resolver for hover, selected results, county trend + timeline, and trajectory.

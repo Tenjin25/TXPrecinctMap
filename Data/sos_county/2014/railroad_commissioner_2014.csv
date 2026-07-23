@@ -1,0 +1,763 @@
+county,office,district,candidate,party,votes
+ANDERSON,Railroad Commissioner,,Steve Brown,DEM,2221
+ANDERSON,Railroad Commissioner,,Ryan Sitton,REP,7404
+ANDERSON,Railroad Commissioner,,OTHER,OTH,450
+ANDREWS,Railroad Commissioner,,Steve Brown,DEM,226
+ANDREWS,Railroad Commissioner,,Ryan Sitton,REP,1831
+ANDREWS,Railroad Commissioner,,OTHER,OTH,106
+ANGELINA,Railroad Commissioner,,Steve Brown,DEM,3694
+ANGELINA,Railroad Commissioner,,Ryan Sitton,REP,12344
+ANGELINA,Railroad Commissioner,,OTHER,OTH,496
+ARANSAS,Railroad Commissioner,,Steve Brown,DEM,1291
+ARANSAS,Railroad Commissioner,,Ryan Sitton,REP,4290
+ARANSAS,Railroad Commissioner,,OTHER,OTH,336
+ARCHER,Railroad Commissioner,,Steve Brown,DEM,311
+ARCHER,Railroad Commissioner,,Ryan Sitton,REP,2144
+ARCHER,Railroad Commissioner,,OTHER,OTH,85
+ARMSTRONG,Railroad Commissioner,,Steve Brown,DEM,55
+ARMSTRONG,Railroad Commissioner,,Ryan Sitton,REP,477
+ARMSTRONG,Railroad Commissioner,,OTHER,OTH,22
+ATASCOSA,Railroad Commissioner,,Steve Brown,DEM,2486
+ATASCOSA,Railroad Commissioner,,Ryan Sitton,REP,4345
+ATASCOSA,Railroad Commissioner,,OTHER,OTH,398
+AUSTIN,Railroad Commissioner,,Steve Brown,DEM,1121
+AUSTIN,Railroad Commissioner,,Ryan Sitton,REP,5712
+AUSTIN,Railroad Commissioner,,OTHER,OTH,227
+BAILEY,Railroad Commissioner,,Steve Brown,DEM,152
+BAILEY,Railroad Commissioner,,Ryan Sitton,REP,793
+BAILEY,Railroad Commissioner,,OTHER,OTH,29
+BANDERA,Railroad Commissioner,,Steve Brown,DEM,1063
+BANDERA,Railroad Commissioner,,Ryan Sitton,REP,4779
+BANDERA,Railroad Commissioner,,OTHER,OTH,401
+BASTROP,Railroad Commissioner,,Steve Brown,DEM,6106
+BASTROP,Railroad Commissioner,,Ryan Sitton,REP,9016
+BASTROP,Railroad Commissioner,,OTHER,OTH,1438
+BAYLOR,Railroad Commissioner,,Steve Brown,DEM,135
+BAYLOR,Railroad Commissioner,,Ryan Sitton,REP,616
+BAYLOR,Railroad Commissioner,,OTHER,OTH,35
+BEE,Railroad Commissioner,,Steve Brown,DEM,1997
+BEE,Railroad Commissioner,,Ryan Sitton,REP,2635
+BEE,Railroad Commissioner,,OTHER,OTH,361
+BELL,Railroad Commissioner,,Steve Brown,DEM,13817
+BELL,Railroad Commissioner,,Ryan Sitton,REP,26906
+BELL,Railroad Commissioner,,OTHER,OTH,2233
+BEXAR,Railroad Commissioner,,Steve Brown,DEM,135348
+BEXAR,Railroad Commissioner,,Ryan Sitton,REP,140256
+BEXAR,Railroad Commissioner,,OTHER,OTH,19006
+BLANCO,Railroad Commissioner,,Steve Brown,DEM,766
+BLANCO,Railroad Commissioner,,Ryan Sitton,REP,2494
+BLANCO,Railroad Commissioner,,OTHER,OTH,267
+BORDEN,Railroad Commissioner,,Steve Brown,DEM,16
+BORDEN,Railroad Commissioner,,Ryan Sitton,REP,225
+BORDEN,Railroad Commissioner,,OTHER,OTH,4
+BOSQUE,Railroad Commissioner,,Steve Brown,DEM,895
+BOSQUE,Railroad Commissioner,,Ryan Sitton,REP,3664
+BOSQUE,Railroad Commissioner,,OTHER,OTH,230
+BOWIE,Railroad Commissioner,,Steve Brown,DEM,5580
+BOWIE,Railroad Commissioner,,Ryan Sitton,REP,14165
+BOWIE,Railroad Commissioner,,OTHER,OTH,957
+BRAZORIA,Railroad Commissioner,,Steve Brown,DEM,18085
+BRAZORIA,Railroad Commissioner,,Ryan Sitton,REP,40607
+BRAZORIA,Railroad Commissioner,,OTHER,OTH,2611
+BRAZOS,Railroad Commissioner,,Steve Brown,DEM,8086
+BRAZOS,Railroad Commissioner,,Ryan Sitton,REP,20939
+BRAZOS,Railroad Commissioner,,OTHER,OTH,1667
+BREWSTER,Railroad Commissioner,,Steve Brown,DEM,1244
+BREWSTER,Railroad Commissioner,,Ryan Sitton,REP,1273
+BREWSTER,Railroad Commissioner,,OTHER,OTH,277
+BRISCOE,Railroad Commissioner,,Steve Brown,DEM,84
+BRISCOE,Railroad Commissioner,,Ryan Sitton,REP,397
+BRISCOE,Railroad Commissioner,,OTHER,OTH,16
+BROOKS,Railroad Commissioner,,Steve Brown,DEM,1391
+BROOKS,Railroad Commissioner,,Ryan Sitton,REP,350
+BROOKS,Railroad Commissioner,,OTHER,OTH,258
+BROWN,Railroad Commissioner,,Steve Brown,DEM,967
+BROWN,Railroad Commissioner,,Ryan Sitton,REP,6753
+BROWN,Railroad Commissioner,,OTHER,OTH,320
+BURLESON,Railroad Commissioner,,Steve Brown,DEM,988
+BURLESON,Railroad Commissioner,,Ryan Sitton,REP,2981
+BURLESON,Railroad Commissioner,,OTHER,OTH,133
+BURNET,Railroad Commissioner,,Steve Brown,DEM,2254
+BURNET,Railroad Commissioner,,Ryan Sitton,REP,8740
+BURNET,Railroad Commissioner,,OTHER,OTH,662
+CALDWELL,Railroad Commissioner,,Steve Brown,DEM,3389
+CALDWELL,Railroad Commissioner,,Ryan Sitton,REP,4509
+CALDWELL,Railroad Commissioner,,OTHER,OTH,706
+CALHOUN,Railroad Commissioner,,Steve Brown,DEM,1287
+CALHOUN,Railroad Commissioner,,Ryan Sitton,REP,2426
+CALHOUN,Railroad Commissioner,,OTHER,OTH,265
+CALLAHAN,Railroad Commissioner,,Steve Brown,DEM,322
+CALLAHAN,Railroad Commissioner,,Ryan Sitton,REP,2481
+CALLAHAN,Railroad Commissioner,,OTHER,OTH,127
+CAMERON,Railroad Commissioner,,Steve Brown,DEM,19990
+CAMERON,Railroad Commissioner,,Ryan Sitton,REP,13867
+CAMERON,Railroad Commissioner,,OTHER,OTH,4073
+CAMP,Railroad Commissioner,,Steve Brown,DEM,761
+CAMP,Railroad Commissioner,,Ryan Sitton,REP,1700
+CAMP,Railroad Commissioner,,OTHER,OTH,90
+CARSON,Railroad Commissioner,,Steve Brown,DEM,217
+CARSON,Railroad Commissioner,,Ryan Sitton,REP,1500
+CARSON,Railroad Commissioner,,OTHER,OTH,82
+CASS,Railroad Commissioner,,Steve Brown,DEM,1754
+CASS,Railroad Commissioner,,Ryan Sitton,REP,4855
+CASS,Railroad Commissioner,,OTHER,OTH,200
+CASTRO,Railroad Commissioner,,Steve Brown,DEM,245
+CASTRO,Railroad Commissioner,,Ryan Sitton,REP,826
+CASTRO,Railroad Commissioner,,OTHER,OTH,53
+CHAMBERS,Railroad Commissioner,,Steve Brown,DEM,1337
+CHAMBERS,Railroad Commissioner,,Ryan Sitton,REP,6684
+CHAMBERS,Railroad Commissioner,,OTHER,OTH,277
+CHEROKEE,Railroad Commissioner,,Steve Brown,DEM,1942
+CHEROKEE,Railroad Commissioner,,Ryan Sitton,REP,7157
+CHEROKEE,Railroad Commissioner,,OTHER,OTH,334
+CHILDRESS,Railroad Commissioner,,Steve Brown,DEM,135
+CHILDRESS,Railroad Commissioner,,Ryan Sitton,REP,905
+CHILDRESS,Railroad Commissioner,,OTHER,OTH,35
+CLAY,Railroad Commissioner,,Steve Brown,DEM,402
+CLAY,Railroad Commissioner,,Ryan Sitton,REP,2211
+CLAY,Railroad Commissioner,,OTHER,OTH,118
+COCHRAN,Railroad Commissioner,,Steve Brown,DEM,74
+COCHRAN,Railroad Commissioner,,Ryan Sitton,REP,381
+COCHRAN,Railroad Commissioner,,OTHER,OTH,26
+COKE,Railroad Commissioner,,Steve Brown,DEM,74
+COKE,Railroad Commissioner,,Ryan Sitton,REP,637
+COKE,Railroad Commissioner,,OTHER,OTH,28
+COLEMAN,Railroad Commissioner,,Steve Brown,DEM,253
+COLEMAN,Railroad Commissioner,,Ryan Sitton,REP,1816
+COLEMAN,Railroad Commissioner,,OTHER,OTH,103
+COLLIN,Railroad Commissioner,,Steve Brown,DEM,49744
+COLLIN,Railroad Commissioner,,Ryan Sitton,REP,114401
+COLLIN,Railroad Commissioner,,OTHER,OTH,7865
+COLLINGSWORTH,Railroad Commissioner,,Steve Brown,DEM,152
+COLLINGSWORTH,Railroad Commissioner,,Ryan Sitton,REP,553
+COLLINGSWORTH,Railroad Commissioner,,OTHER,OTH,43
+COLORADO,Railroad Commissioner,,Steve Brown,DEM,1070
+COLORADO,Railroad Commissioner,,Ryan Sitton,REP,3735
+COLORADO,Railroad Commissioner,,OTHER,OTH,171
+COMAL,Railroad Commissioner,,Steve Brown,DEM,6611
+COMAL,Railroad Commissioner,,Ryan Sitton,REP,25801
+COMAL,Railroad Commissioner,,OTHER,OTH,1840
+COMANCHE,Railroad Commissioner,,Steve Brown,DEM,484
+COMANCHE,Railroad Commissioner,,Ryan Sitton,REP,2369
+COMANCHE,Railroad Commissioner,,OTHER,OTH,149
+CONCHO,Railroad Commissioner,,Steve Brown,DEM,86
+CONCHO,Railroad Commissioner,,Ryan Sitton,REP,470
+CONCHO,Railroad Commissioner,,OTHER,OTH,28
+COOKE,Railroad Commissioner,,Steve Brown,DEM,1171
+COOKE,Railroad Commissioner,,Ryan Sitton,REP,7140
+COOKE,Railroad Commissioner,,OTHER,OTH,327
+CORYELL,Railroad Commissioner,,Steve Brown,DEM,1986
+CORYELL,Railroad Commissioner,,Ryan Sitton,REP,6065
+CORYELL,Railroad Commissioner,,OTHER,OTH,488
+COTTLE,Railroad Commissioner,,Steve Brown,DEM,58
+COTTLE,Railroad Commissioner,,Ryan Sitton,REP,272
+COTTLE,Railroad Commissioner,,OTHER,OTH,14
+CRANE,Railroad Commissioner,,Steve Brown,DEM,147
+CRANE,Railroad Commissioner,,Ryan Sitton,REP,609
+CRANE,Railroad Commissioner,,OTHER,OTH,56
+CROCKETT,Railroad Commissioner,,Steve Brown,DEM,182
+CROCKETT,Railroad Commissioner,,Ryan Sitton,REP,546
+CROCKETT,Railroad Commissioner,,OTHER,OTH,52
+CROSBY,Railroad Commissioner,,Steve Brown,DEM,290
+CROSBY,Railroad Commissioner,,Ryan Sitton,REP,673
+CROSBY,Railroad Commissioner,,OTHER,OTH,57
+CULBERSON,Railroad Commissioner,,Steve Brown,DEM,130
+CULBERSON,Railroad Commissioner,,Ryan Sitton,REP,127
+CULBERSON,Railroad Commissioner,,OTHER,OTH,32
+DALLAM,Railroad Commissioner,,Steve Brown,DEM,105
+DALLAM,Railroad Commissioner,,Ryan Sitton,REP,671
+DALLAM,Railroad Commissioner,,OTHER,OTH,45
+DALLAS,Railroad Commissioner,,Steve Brown,DEM,203016
+DALLAS,Railroad Commissioner,,Ryan Sitton,REP,175848
+DALLAS,Railroad Commissioner,,OTHER,OTH,18112
+DAWSON,Railroad Commissioner,,Steve Brown,DEM,383
+DAWSON,Railroad Commissioner,,Ryan Sitton,REP,1499
+DAWSON,Railroad Commissioner,,OTHER,OTH,74
+DEAF SMITH,Railroad Commissioner,,Steve Brown,DEM,472
+DEAF SMITH,Railroad Commissioner,,Ryan Sitton,REP,2013
+DEAF SMITH,Railroad Commissioner,,OTHER,OTH,158
+DELTA,Railroad Commissioner,,Steve Brown,DEM,305
+DELTA,Railroad Commissioner,,Ryan Sitton,REP,936
+DELTA,Railroad Commissioner,,OTHER,OTH,76
+DENTON,Railroad Commissioner,,Steve Brown,DEM,40674
+DENTON,Railroad Commissioner,,Ryan Sitton,REP,92051
+DENTON,Railroad Commissioner,,OTHER,OTH,8063
+DEWITT,Railroad Commissioner,,Steve Brown,DEM,687
+DEWITT,Railroad Commissioner,,Ryan Sitton,REP,3100
+DEWITT,Railroad Commissioner,,OTHER,OTH,135
+DICKENS,Railroad Commissioner,,Steve Brown,DEM,74
+DICKENS,Railroad Commissioner,,Ryan Sitton,REP,407
+DICKENS,Railroad Commissioner,,OTHER,OTH,19
+DIMMIT,Railroad Commissioner,,Steve Brown,DEM,1151
+DIMMIT,Railroad Commissioner,,Ryan Sitton,REP,467
+DIMMIT,Railroad Commissioner,,OTHER,OTH,146
+DONLEY,Railroad Commissioner,,Steve Brown,DEM,117
+DONLEY,Railroad Commissioner,,Ryan Sitton,REP,741
+DONLEY,Railroad Commissioner,,OTHER,OTH,53
+DUVAL,Railroad Commissioner,,Steve Brown,DEM,2275
+DUVAL,Railroad Commissioner,,Ryan Sitton,REP,494
+DUVAL,Railroad Commissioner,,OTHER,OTH,199
+EASTLAND,Railroad Commissioner,,Steve Brown,DEM,435
+EASTLAND,Railroad Commissioner,,Ryan Sitton,REP,3295
+EASTLAND,Railroad Commissioner,,OTHER,OTH,150
+ECTOR,Railroad Commissioner,,Steve Brown,DEM,2626
+ECTOR,Railroad Commissioner,,Ryan Sitton,REP,11489
+ECTOR,Railroad Commissioner,,OTHER,OTH,596
+EDWARDS,Railroad Commissioner,,Steve Brown,DEM,172
+EDWARDS,Railroad Commissioner,,Ryan Sitton,REP,473
+EDWARDS,Railroad Commissioner,,OTHER,OTH,67
+ELLIS,Railroad Commissioner,,Steve Brown,DEM,7186
+ELLIS,Railroad Commissioner,,Ryan Sitton,REP,22902
+ELLIS,Railroad Commissioner,,OTHER,OTH,1431
+EL PASO,Railroad Commissioner,,Steve Brown,DEM,43261
+EL PASO,Railroad Commissioner,,Ryan Sitton,REP,27377
+EL PASO,Railroad Commissioner,,OTHER,OTH,7429
+ERATH,Railroad Commissioner,,Steve Brown,DEM,1159
+ERATH,Railroad Commissioner,,Ryan Sitton,REP,5784
+ERATH,Railroad Commissioner,,OTHER,OTH,330
+FALLS,Railroad Commissioner,,Steve Brown,DEM,910
+FALLS,Railroad Commissioner,,Ryan Sitton,REP,1914
+FALLS,Railroad Commissioner,,OTHER,OTH,108
+FANNIN,Railroad Commissioner,,Steve Brown,DEM,1369
+FANNIN,Railroad Commissioner,,Ryan Sitton,REP,4692
+FANNIN,Railroad Commissioner,,OTHER,OTH,307
+FAYETTE,Railroad Commissioner,,Steve Brown,DEM,1520
+FAYETTE,Railroad Commissioner,,Ryan Sitton,REP,5404
+FAYETTE,Railroad Commissioner,,OTHER,OTH,286
+FISHER,Railroad Commissioner,,Steve Brown,DEM,413
+FISHER,Railroad Commissioner,,Ryan Sitton,REP,681
+FISHER,Railroad Commissioner,,OTHER,OTH,67
+FLOYD,Railroad Commissioner,,Steve Brown,DEM,149
+FLOYD,Railroad Commissioner,,Ryan Sitton,REP,874
+FLOYD,Railroad Commissioner,,OTHER,OTH,36
+FOARD,Railroad Commissioner,,Steve Brown,DEM,117
+FOARD,Railroad Commissioner,,Ryan Sitton,REP,166
+FOARD,Railroad Commissioner,,OTHER,OTH,8
+FORT BEND,Railroad Commissioner,,Steve Brown,DEM,53077
+FORT BEND,Railroad Commissioner,,Ryan Sitton,REP,73493
+FORT BEND,Railroad Commissioner,,OTHER,OTH,3997
+FRANKLIN,Railroad Commissioner,,Steve Brown,DEM,366
+FRANKLIN,Railroad Commissioner,,Ryan Sitton,REP,2056
+FRANKLIN,Railroad Commissioner,,OTHER,OTH,99
+FREESTONE,Railroad Commissioner,,Steve Brown,DEM,892
+FREESTONE,Railroad Commissioner,,Ryan Sitton,REP,3344
+FREESTONE,Railroad Commissioner,,OTHER,OTH,145
+FRIO,Railroad Commissioner,,Steve Brown,DEM,928
+FRIO,Railroad Commissioner,,Ryan Sitton,REP,794
+FRIO,Railroad Commissioner,,OTHER,OTH,87
+GAINES,Railroad Commissioner,,Steve Brown,DEM,263
+GAINES,Railroad Commissioner,,Ryan Sitton,REP,2092
+GAINES,Railroad Commissioner,,OTHER,OTH,98
+GALVESTON,Railroad Commissioner,,Steve Brown,DEM,21114
+GALVESTON,Railroad Commissioner,,Ryan Sitton,REP,39788
+GALVESTON,Railroad Commissioner,,OTHER,OTH,2872
+GARZA,Railroad Commissioner,,Steve Brown,DEM,94
+GARZA,Railroad Commissioner,,Ryan Sitton,REP,690
+GARZA,Railroad Commissioner,,OTHER,OTH,38
+GILLESPIE,Railroad Commissioner,,Steve Brown,DEM,1254
+GILLESPIE,Railroad Commissioner,,Ryan Sitton,REP,6903
+GILLESPIE,Railroad Commissioner,,OTHER,OTH,506
+GLASSCOCK,Railroad Commissioner,,Steve Brown,DEM,26
+GLASSCOCK,Railroad Commissioner,,Ryan Sitton,REP,336
+GLASSCOCK,Railroad Commissioner,,OTHER,OTH,14
+GOLIAD,Railroad Commissioner,,Steve Brown,DEM,839
+GOLIAD,Railroad Commissioner,,Ryan Sitton,REP,1702
+GOLIAD,Railroad Commissioner,,OTHER,OTH,109
+GONZALES,Railroad Commissioner,,Steve Brown,DEM,842
+GONZALES,Railroad Commissioner,,Ryan Sitton,REP,2574
+GONZALES,Railroad Commissioner,,OTHER,OTH,164
+GRAY,Railroad Commissioner,,Steve Brown,DEM,293
+GRAY,Railroad Commissioner,,Ryan Sitton,REP,3249
+GRAY,Railroad Commissioner,,OTHER,OTH,137
+GRAYSON,Railroad Commissioner,,Steve Brown,DEM,4896
+GRAYSON,Railroad Commissioner,,Ryan Sitton,REP,17290
+GRAYSON,Railroad Commissioner,,OTHER,OTH,955
+GREGG,Railroad Commissioner,,Steve Brown,DEM,5678
+GREGG,Railroad Commissioner,,Ryan Sitton,REP,16739
+GREGG,Railroad Commissioner,,OTHER,OTH,651
+GRIMES,Railroad Commissioner,,Steve Brown,DEM,1087
+GRIMES,Railroad Commissioner,,Ryan Sitton,REP,3576
+GRIMES,Railroad Commissioner,,OTHER,OTH,210
+GUADALUPE,Railroad Commissioner,,Steve Brown,DEM,7964
+GUADALUPE,Railroad Commissioner,,Ryan Sitton,REP,20417
+GUADALUPE,Railroad Commissioner,,OTHER,OTH,1589
+HALE,Railroad Commissioner,,Steve Brown,DEM,585
+HALE,Railroad Commissioner,,Ryan Sitton,REP,3491
+HALE,Railroad Commissioner,,OTHER,OTH,188
+HALL,Railroad Commissioner,,Steve Brown,DEM,98
+HALL,Railroad Commissioner,,Ryan Sitton,REP,444
+HALL,Railroad Commissioner,,OTHER,OTH,15
+HAMILTON,Railroad Commissioner,,Steve Brown,DEM,441
+HAMILTON,Railroad Commissioner,,Ryan Sitton,REP,1770
+HAMILTON,Railroad Commissioner,,OTHER,OTH,130
+HANSFORD,Railroad Commissioner,,Steve Brown,DEM,53
+HANSFORD,Railroad Commissioner,,Ryan Sitton,REP,1062
+HANSFORD,Railroad Commissioner,,OTHER,OTH,47
+HARDEMAN,Railroad Commissioner,,Steve Brown,DEM,138
+HARDEMAN,Railroad Commissioner,,Ryan Sitton,REP,477
+HARDEMAN,Railroad Commissioner,,OTHER,OTH,26
+HARDIN,Railroad Commissioner,,Steve Brown,DEM,1552
+HARDIN,Railroad Commissioner,,Ryan Sitton,REP,9451
+HARDIN,Railroad Commissioner,,OTHER,OTH,323
+HARRIS,Railroad Commissioner,,Steve Brown,DEM,292690
+HARRIS,Railroad Commissioner,,Ryan Sitton,REP,351743
+HARRIS,Railroad Commissioner,,OTHER,OTH,25165
+HARRISON,Railroad Commissioner,,Steve Brown,DEM,3984
+HARRISON,Railroad Commissioner,,Ryan Sitton,REP,9974
+HARRISON,Railroad Commissioner,,OTHER,OTH,460
+HARTLEY,Railroad Commissioner,,Steve Brown,DEM,92
+HARTLEY,Railroad Commissioner,,Ryan Sitton,REP,945
+HARTLEY,Railroad Commissioner,,OTHER,OTH,43
+HASKELL,Railroad Commissioner,,Steve Brown,DEM,288
+HASKELL,Railroad Commissioner,,Ryan Sitton,REP,693
+HASKELL,Railroad Commissioner,,OTHER,OTH,32
+HAYS,Railroad Commissioner,,Steve Brown,DEM,15340
+HAYS,Railroad Commissioner,,Ryan Sitton,REP,19888
+HAYS,Railroad Commissioner,,OTHER,OTH,3164
+HEMPHILL,Railroad Commissioner,,Steve Brown,DEM,73
+HEMPHILL,Railroad Commissioner,,Ryan Sitton,REP,675
+HEMPHILL,Railroad Commissioner,,OTHER,OTH,40
+HENDERSON,Railroad Commissioner,,Steve Brown,DEM,3431
+HENDERSON,Railroad Commissioner,,Ryan Sitton,REP,12801
+HENDERSON,Railroad Commissioner,,OTHER,OTH,634
+HIDALGO,Railroad Commissioner,,Steve Brown,DEM,47376
+HIDALGO,Railroad Commissioner,,Ryan Sitton,REP,23358
+HIDALGO,Railroad Commissioner,,OTHER,OTH,6419
+HILL,Railroad Commissioner,,Steve Brown,DEM,1744
+HILL,Railroad Commissioner,,Ryan Sitton,REP,6632
+HILL,Railroad Commissioner,,OTHER,OTH,360
+HOCKLEY,Railroad Commissioner,,Steve Brown,DEM,450
+HOCKLEY,Railroad Commissioner,,Ryan Sitton,REP,3006
+HOCKLEY,Railroad Commissioner,,OTHER,OTH,175
+HOOD,Railroad Commissioner,,Steve Brown,DEM,2234
+HOOD,Railroad Commissioner,,Ryan Sitton,REP,10575
+HOOD,Railroad Commissioner,,OTHER,OTH,600
+HOPKINS,Railroad Commissioner,,Steve Brown,DEM,1693
+HOPKINS,Railroad Commissioner,,Ryan Sitton,REP,5263
+HOPKINS,Railroad Commissioner,,OTHER,OTH,312
+HOUSTON,Railroad Commissioner,,Steve Brown,DEM,953
+HOUSTON,Railroad Commissioner,,Ryan Sitton,REP,3480
+HOUSTON,Railroad Commissioner,,OTHER,OTH,133
+HOWARD,Railroad Commissioner,,Steve Brown,DEM,707
+HOWARD,Railroad Commissioner,,Ryan Sitton,REP,3234
+HOWARD,Railroad Commissioner,,OTHER,OTH,250
+HUDSPETH,Railroad Commissioner,,Steve Brown,DEM,131
+HUDSPETH,Railroad Commissioner,,Ryan Sitton,REP,225
+HUDSPETH,Railroad Commissioner,,OTHER,OTH,52
+HUNT,Railroad Commissioner,,Steve Brown,DEM,3242
+HUNT,Railroad Commissioner,,Ryan Sitton,REP,11859
+HUNT,Railroad Commissioner,,OTHER,OTH,764
+HUTCHINSON,Railroad Commissioner,,Steve Brown,DEM,461
+HUTCHINSON,Railroad Commissioner,,Ryan Sitton,REP,3752
+HUTCHINSON,Railroad Commissioner,,OTHER,OTH,233
+IRION,Railroad Commissioner,,Steve Brown,DEM,43
+IRION,Railroad Commissioner,,Ryan Sitton,REP,366
+IRION,Railroad Commissioner,,OTHER,OTH,20
+JACK,Railroad Commissioner,,Steve Brown,DEM,218
+JACK,Railroad Commissioner,,Ryan Sitton,REP,1439
+JACK,Railroad Commissioner,,OTHER,OTH,43
+JACKSON,Railroad Commissioner,,Steve Brown,DEM,504
+JACKSON,Railroad Commissioner,,Ryan Sitton,REP,2265
+JACKSON,Railroad Commissioner,,OTHER,OTH,75
+JASPER,Railroad Commissioner,,Steve Brown,DEM,1548
+JASPER,Railroad Commissioner,,Ryan Sitton,REP,5232
+JASPER,Railroad Commissioner,,OTHER,OTH,185
+JEFF DAVIS,Railroad Commissioner,,Steve Brown,DEM,345
+JEFF DAVIS,Railroad Commissioner,,Ryan Sitton,REP,511
+JEFF DAVIS,Railroad Commissioner,,OTHER,OTH,102
+JEFFERSON,Railroad Commissioner,,Steve Brown,DEM,25606
+JEFFERSON,Railroad Commissioner,,Ryan Sitton,REP,25133
+JEFFERSON,Railroad Commissioner,,OTHER,OTH,1299
+JIM HOGG,Railroad Commissioner,,Steve Brown,DEM,533
+JIM HOGG,Railroad Commissioner,,Ryan Sitton,REP,129
+JIM HOGG,Railroad Commissioner,,OTHER,OTH,44
+JIM WELLS,Railroad Commissioner,,Steve Brown,DEM,2853
+JIM WELLS,Railroad Commissioner,,Ryan Sitton,REP,2281
+JIM WELLS,Railroad Commissioner,,OTHER,OTH,370
+JOHNSON,Railroad Commissioner,,Steve Brown,DEM,5331
+JOHNSON,Railroad Commissioner,,Ryan Sitton,REP,22056
+JOHNSON,Railroad Commissioner,,OTHER,OTH,1462
+JONES,Railroad Commissioner,,Steve Brown,DEM,620
+JONES,Railroad Commissioner,,Ryan Sitton,REP,2436
+JONES,Railroad Commissioner,,OTHER,OTH,191
+KARNES,Railroad Commissioner,,Steve Brown,DEM,736
+KARNES,Railroad Commissioner,,Ryan Sitton,REP,1566
+KARNES,Railroad Commissioner,,OTHER,OTH,108
+KAUFMAN,Railroad Commissioner,,Steve Brown,DEM,4985
+KAUFMAN,Railroad Commissioner,,Ryan Sitton,REP,14252
+KAUFMAN,Railroad Commissioner,,OTHER,OTH,805
+KENDALL,Railroad Commissioner,,Steve Brown,DEM,1736
+KENDALL,Railroad Commissioner,,Ryan Sitton,REP,9353
+KENDALL,Railroad Commissioner,,OTHER,OTH,569
+KENEDY,Railroad Commissioner,,Steve Brown,DEM,50
+KENEDY,Railroad Commissioner,,Ryan Sitton,REP,50
+KENEDY,Railroad Commissioner,,OTHER,OTH,7
+KENT,Railroad Commissioner,,Steve Brown,DEM,59
+KENT,Railroad Commissioner,,Ryan Sitton,REP,200
+KENT,Railroad Commissioner,,OTHER,OTH,21
+KERR,Railroad Commissioner,,Steve Brown,DEM,2510
+KERR,Railroad Commissioner,,Ryan Sitton,REP,11297
+KERR,Railroad Commissioner,,OTHER,OTH,800
+KIMBLE,Railroad Commissioner,,Steve Brown,DEM,113
+KIMBLE,Railroad Commissioner,,Ryan Sitton,REP,1029
+KIMBLE,Railroad Commissioner,,OTHER,OTH,36
+KING,Railroad Commissioner,,Steve Brown,DEM,3
+KING,Railroad Commissioner,,Ryan Sitton,REP,81
+KING,Railroad Commissioner,,OTHER,OTH,5
+KINNEY,Railroad Commissioner,,Steve Brown,DEM,338
+KINNEY,Railroad Commissioner,,Ryan Sitton,REP,649
+KINNEY,Railroad Commissioner,,OTHER,OTH,93
+KLEBERG,Railroad Commissioner,,Steve Brown,DEM,2600
+KLEBERG,Railroad Commissioner,,Ryan Sitton,REP,2394
+KLEBERG,Railroad Commissioner,,OTHER,OTH,513
+KNOX,Railroad Commissioner,,Steve Brown,DEM,195
+KNOX,Railroad Commissioner,,Ryan Sitton,REP,612
+KNOX,Railroad Commissioner,,OTHER,OTH,41
+LAMAR,Railroad Commissioner,,Steve Brown,DEM,2654
+LAMAR,Railroad Commissioner,,Ryan Sitton,REP,7365
+LAMAR,Railroad Commissioner,,OTHER,OTH,463
+LAMB,Railroad Commissioner,,Steve Brown,DEM,283
+LAMB,Railroad Commissioner,,Ryan Sitton,REP,1694
+LAMB,Railroad Commissioner,,OTHER,OTH,85
+LAMPASAS,Railroad Commissioner,,Steve Brown,DEM,777
+LAMPASAS,Railroad Commissioner,,Ryan Sitton,REP,3557
+LAMPASAS,Railroad Commissioner,,OTHER,OTH,234
+LA SALLE,Railroad Commissioner,,Steve Brown,DEM,399
+LA SALLE,Railroad Commissioner,,Ryan Sitton,REP,361
+LA SALLE,Railroad Commissioner,,OTHER,OTH,46
+LAVACA,Railroad Commissioner,,Steve Brown,DEM,829
+LAVACA,Railroad Commissioner,,Ryan Sitton,REP,3947
+LAVACA,Railroad Commissioner,,OTHER,OTH,138
+LEE,Railroad Commissioner,,Steve Brown,DEM,998
+LEE,Railroad Commissioner,,Ryan Sitton,REP,2830
+LEE,Railroad Commissioner,,OTHER,OTH,246
+LEON,Railroad Commissioner,,Steve Brown,DEM,496
+LEON,Railroad Commissioner,,Ryan Sitton,REP,3607
+LEON,Railroad Commissioner,,OTHER,OTH,112
+LIBERTY,Railroad Commissioner,,Steve Brown,DEM,2628
+LIBERTY,Railroad Commissioner,,Ryan Sitton,REP,9139
+LIBERTY,Railroad Commissioner,,OTHER,OTH,447
+LIMESTONE,Railroad Commissioner,,Steve Brown,DEM,1024
+LIMESTONE,Railroad Commissioner,,Ryan Sitton,REP,3091
+LIMESTONE,Railroad Commissioner,,OTHER,OTH,120
+LIPSCOMB,Railroad Commissioner,,Steve Brown,DEM,78
+LIPSCOMB,Railroad Commissioner,,Ryan Sitton,REP,713
+LIPSCOMB,Railroad Commissioner,,OTHER,OTH,34
+LIVE OAK,Railroad Commissioner,,Steve Brown,DEM,391
+LIVE OAK,Railroad Commissioner,,Ryan Sitton,REP,1924
+LIVE OAK,Railroad Commissioner,,OTHER,OTH,103
+LLANO,Railroad Commissioner,,Steve Brown,DEM,1213
+LLANO,Railroad Commissioner,,Ryan Sitton,REP,5438
+LLANO,Railroad Commissioner,,OTHER,OTH,300
+LOVING,Railroad Commissioner,,Steve Brown,DEM,7
+LOVING,Railroad Commissioner,,Ryan Sitton,REP,28
+LOVING,Railroad Commissioner,,OTHER,OTH,3
+LUBBOCK,Railroad Commissioner,,Steve Brown,DEM,9661
+LUBBOCK,Railroad Commissioner,,Ryan Sitton,REP,34263
+LUBBOCK,Railroad Commissioner,,OTHER,OTH,2582
+LYNN,Railroad Commissioner,,Steve Brown,DEM,224
+LYNN,Railroad Commissioner,,Ryan Sitton,REP,883
+LYNN,Railroad Commissioner,,OTHER,OTH,50
+MADISON,Railroad Commissioner,,Steve Brown,DEM,478
+MADISON,Railroad Commissioner,,Ryan Sitton,REP,1858
+MADISON,Railroad Commissioner,,OTHER,OTH,54
+MARION,Railroad Commissioner,,Steve Brown,DEM,699
+MARION,Railroad Commissioner,,Ryan Sitton,REP,1448
+MARION,Railroad Commissioner,,OTHER,OTH,62
+MARTIN,Railroad Commissioner,,Steve Brown,DEM,149
+MARTIN,Railroad Commissioner,,Ryan Sitton,REP,887
+MARTIN,Railroad Commissioner,,OTHER,OTH,67
+MASON,Railroad Commissioner,,Steve Brown,DEM,226
+MASON,Railroad Commissioner,,Ryan Sitton,REP,1036
+MASON,Railroad Commissioner,,OTHER,OTH,81
+MATAGORDA,Railroad Commissioner,,Steve Brown,DEM,1990
+MATAGORDA,Railroad Commissioner,,Ryan Sitton,REP,4448
+MATAGORDA,Railroad Commissioner,,OTHER,OTH,326
+MAVERICK,Railroad Commissioner,,Steve Brown,DEM,3499
+MAVERICK,Railroad Commissioner,,Ryan Sitton,REP,976
+MAVERICK,Railroad Commissioner,,OTHER,OTH,655
+MCCULLOCH,Railroad Commissioner,,Steve Brown,DEM,258
+MCCULLOCH,Railroad Commissioner,,Ryan Sitton,REP,1365
+MCCULLOCH,Railroad Commissioner,,OTHER,OTH,82
+MCLENNAN,Railroad Commissioner,,Steve Brown,DEM,12656
+MCLENNAN,Railroad Commissioner,,Ryan Sitton,REP,28731
+MCLENNAN,Railroad Commissioner,,OTHER,OTH,1798
+MCMULLEN,Railroad Commissioner,,Steve Brown,DEM,39
+MCMULLEN,Railroad Commissioner,,Ryan Sitton,REP,193
+MCMULLEN,Railroad Commissioner,,OTHER,OTH,9
+MEDINA,Railroad Commissioner,,Steve Brown,DEM,2375
+MEDINA,Railroad Commissioner,,Ryan Sitton,REP,6853
+MEDINA,Railroad Commissioner,,OTHER,OTH,475
+MENARD,Railroad Commissioner,,Steve Brown,DEM,62
+MENARD,Railroad Commissioner,,Ryan Sitton,REP,389
+MENARD,Railroad Commissioner,,OTHER,OTH,18
+MIDLAND,Railroad Commissioner,,Steve Brown,DEM,2879
+MIDLAND,Railroad Commissioner,,Ryan Sitton,REP,19441
+MIDLAND,Railroad Commissioner,,OTHER,OTH,973
+MILAM,Railroad Commissioner,,Steve Brown,DEM,1329
+MILAM,Railroad Commissioner,,Ryan Sitton,REP,3275
+MILAM,Railroad Commissioner,,OTHER,OTH,202
+MILLS,Railroad Commissioner,,Steve Brown,DEM,147
+MILLS,Railroad Commissioner,,Ryan Sitton,REP,1110
+MILLS,Railroad Commissioner,,OTHER,OTH,54
+MITCHELL,Railroad Commissioner,,Steve Brown,DEM,221
+MITCHELL,Railroad Commissioner,,Ryan Sitton,REP,877
+MITCHELL,Railroad Commissioner,,OTHER,OTH,63
+MONTAGUE,Railroad Commissioner,,Steve Brown,DEM,878
+MONTAGUE,Railroad Commissioner,,Ryan Sitton,REP,5382
+MONTAGUE,Railroad Commissioner,,OTHER,OTH,330
+MONTGOMERY,Railroad Commissioner,,Steve Brown,DEM,16132
+MONTGOMERY,Railroad Commissioner,,Ryan Sitton,REP,83621
+MONTGOMERY,Railroad Commissioner,,OTHER,OTH,3567
+MOORE,Railroad Commissioner,,Steve Brown,DEM,306
+MOORE,Railroad Commissioner,,Ryan Sitton,REP,2315
+MOORE,Railroad Commissioner,,OTHER,OTH,113
+MORRIS,Railroad Commissioner,,Steve Brown,DEM,1064
+MORRIS,Railroad Commissioner,,Ryan Sitton,REP,1801
+MORRIS,Railroad Commissioner,,OTHER,OTH,125
+MOTLEY,Railroad Commissioner,,Steve Brown,DEM,20
+MOTLEY,Railroad Commissioner,,Ryan Sitton,REP,326
+MOTLEY,Railroad Commissioner,,OTHER,OTH,10
+NACOGDOCHES,Railroad Commissioner,,Steve Brown,DEM,2666
+NACOGDOCHES,Railroad Commissioner,,Ryan Sitton,REP,8664
+NACOGDOCHES,Railroad Commissioner,,OTHER,OTH,400
+NAVARRO,Railroad Commissioner,,Steve Brown,DEM,2186
+NAVARRO,Railroad Commissioner,,Ryan Sitton,REP,6793
+NAVARRO,Railroad Commissioner,,OTHER,OTH,354
+NEWTON,Railroad Commissioner,,Steve Brown,DEM,818
+NEWTON,Railroad Commissioner,,Ryan Sitton,REP,1887
+NEWTON,Railroad Commissioner,,OTHER,OTH,103
+NOLAN,Railroad Commissioner,,Steve Brown,DEM,557
+NOLAN,Railroad Commissioner,,Ryan Sitton,REP,1797
+NOLAN,Railroad Commissioner,,OTHER,OTH,165
+NUECES,Railroad Commissioner,,Steve Brown,DEM,23050
+NUECES,Railroad Commissioner,,Ryan Sitton,REP,28447
+NUECES,Railroad Commissioner,,OTHER,OTH,3955
+OCHILTREE,Railroad Commissioner,,Steve Brown,DEM,73
+OCHILTREE,Railroad Commissioner,,Ryan Sitton,REP,1460
+OCHILTREE,Railroad Commissioner,,OTHER,OTH,41
+OLDHAM,Railroad Commissioner,,Steve Brown,DEM,47
+OLDHAM,Railroad Commissioner,,Ryan Sitton,REP,482
+OLDHAM,Railroad Commissioner,,OTHER,OTH,21
+ORANGE,Railroad Commissioner,,Steve Brown,DEM,3869
+ORANGE,Railroad Commissioner,,Ryan Sitton,REP,12414
+ORANGE,Railroad Commissioner,,OTHER,OTH,591
+PALO PINTO,Railroad Commissioner,,Steve Brown,DEM,1027
+PALO PINTO,Railroad Commissioner,,Ryan Sitton,REP,4283
+PALO PINTO,Railroad Commissioner,,OTHER,OTH,264
+PANOLA,Railroad Commissioner,,Steve Brown,DEM,1098
+PANOLA,Railroad Commissioner,,Ryan Sitton,REP,4453
+PANOLA,Railroad Commissioner,,OTHER,OTH,149
+PARKER,Railroad Commissioner,,Steve Brown,DEM,4833
+PARKER,Railroad Commissioner,,Ryan Sitton,REP,25148
+PARKER,Railroad Commissioner,,OTHER,OTH,1459
+PARMER,Railroad Commissioner,,Steve Brown,DEM,152
+PARMER,Railroad Commissioner,,Ryan Sitton,REP,1175
+PARMER,Railroad Commissioner,,OTHER,OTH,57
+PECOS,Railroad Commissioner,,Steve Brown,DEM,1023
+PECOS,Railroad Commissioner,,Ryan Sitton,REP,1517
+PECOS,Railroad Commissioner,,OTHER,OTH,287
+POLK,Railroad Commissioner,,Steve Brown,DEM,2122
+POLK,Railroad Commissioner,,Ryan Sitton,REP,7607
+POLK,Railroad Commissioner,,OTHER,OTH,448
+POTTER,Railroad Commissioner,,Steve Brown,DEM,2743
+POTTER,Railroad Commissioner,,Ryan Sitton,REP,10041
+POTTER,Railroad Commissioner,,OTHER,OTH,812
+PRESIDIO,Railroad Commissioner,,Steve Brown,DEM,584
+PRESIDIO,Railroad Commissioner,,Ryan Sitton,REP,244
+PRESIDIO,Railroad Commissioner,,OTHER,OTH,78
+RAINS,Railroad Commissioner,,Steve Brown,DEM,400
+RAINS,Railroad Commissioner,,Ryan Sitton,REP,1901
+RAINS,Railroad Commissioner,,OTHER,OTH,94
+RANDALL,Railroad Commissioner,,Steve Brown,DEM,3366
+RANDALL,Railroad Commissioner,,Ryan Sitton,REP,23362
+RANDALL,Railroad Commissioner,,OTHER,OTH,1200
+REAGAN,Railroad Commissioner,,Steve Brown,DEM,74
+REAGAN,Railroad Commissioner,,Ryan Sitton,REP,379
+REAGAN,Railroad Commissioner,,OTHER,OTH,23
+REAL,Railroad Commissioner,,Steve Brown,DEM,145
+REAL,Railroad Commissioner,,Ryan Sitton,REP,812
+REAL,Railroad Commissioner,,OTHER,OTH,53
+RED RIVER,Railroad Commissioner,,Steve Brown,DEM,712
+RED RIVER,Railroad Commissioner,,Ryan Sitton,REP,1779
+RED RIVER,Railroad Commissioner,,OTHER,OTH,113
+REEVES,Railroad Commissioner,,Steve Brown,DEM,559
+REEVES,Railroad Commissioner,,Ryan Sitton,REP,481
+REEVES,Railroad Commissioner,,OTHER,OTH,105
+REFUGIO,Railroad Commissioner,,Steve Brown,DEM,747
+REFUGIO,Railroad Commissioner,,Ryan Sitton,REP,1095
+REFUGIO,Railroad Commissioner,,OTHER,OTH,104
+ROBERTS,Railroad Commissioner,,Steve Brown,DEM,18
+ROBERTS,Railroad Commissioner,,Ryan Sitton,REP,300
+ROBERTS,Railroad Commissioner,,OTHER,OTH,13
+ROBERTSON,Railroad Commissioner,,Steve Brown,DEM,1906
+ROBERTSON,Railroad Commissioner,,Ryan Sitton,REP,2807
+ROBERTSON,Railroad Commissioner,,OTHER,OTH,178
+ROCKWALL,Railroad Commissioner,,Steve Brown,DEM,3951
+ROCKWALL,Railroad Commissioner,,Ryan Sitton,REP,15864
+ROCKWALL,Railroad Commissioner,,OTHER,OTH,858
+RUNNELS,Railroad Commissioner,,Steve Brown,DEM,288
+RUNNELS,Railroad Commissioner,,Ryan Sitton,REP,1861
+RUNNELS,Railroad Commissioner,,OTHER,OTH,102
+RUSK,Railroad Commissioner,,Steve Brown,DEM,1932
+RUSK,Railroad Commissioner,,Ryan Sitton,REP,8101
+RUSK,Railroad Commissioner,,OTHER,OTH,300
+SABINE,Railroad Commissioner,,Steve Brown,DEM,419
+SABINE,Railroad Commissioner,,Ryan Sitton,REP,2174
+SABINE,Railroad Commissioner,,OTHER,OTH,78
+SAN AUGUSTINE,Railroad Commissioner,,Steve Brown,DEM,853
+SAN AUGUSTINE,Railroad Commissioner,,Ryan Sitton,REP,1638
+SAN AUGUSTINE,Railroad Commissioner,,OTHER,OTH,94
+SAN JACINTO,Railroad Commissioner,,Steve Brown,DEM,1613
+SAN JACINTO,Railroad Commissioner,,Ryan Sitton,REP,4314
+SAN JACINTO,Railroad Commissioner,,OTHER,OTH,276
+SAN PATRICIO,Railroad Commissioner,,Steve Brown,DEM,3779
+SAN PATRICIO,Railroad Commissioner,,Ryan Sitton,REP,6744
+SAN PATRICIO,Railroad Commissioner,,OTHER,OTH,728
+SAN SABA,Railroad Commissioner,,Steve Brown,DEM,150
+SAN SABA,Railroad Commissioner,,Ryan Sitton,REP,1186
+SAN SABA,Railroad Commissioner,,OTHER,OTH,65
+SCHLEICHER,Railroad Commissioner,,Steve Brown,DEM,236
+SCHLEICHER,Railroad Commissioner,,Ryan Sitton,REP,543
+SCHLEICHER,Railroad Commissioner,,OTHER,OTH,51
+SCURRY,Railroad Commissioner,,Steve Brown,DEM,329
+SCURRY,Railroad Commissioner,,Ryan Sitton,REP,2354
+SCURRY,Railroad Commissioner,,OTHER,OTH,112
+SHACKELFORD,Railroad Commissioner,,Steve Brown,DEM,55
+SHACKELFORD,Railroad Commissioner,,Ryan Sitton,REP,703
+SHACKELFORD,Railroad Commissioner,,OTHER,OTH,30
+SHELBY,Railroad Commissioner,,Steve Brown,DEM,1167
+SHELBY,Railroad Commissioner,,Ryan Sitton,REP,3997
+SHELBY,Railroad Commissioner,,OTHER,OTH,155
+SHERMAN,Railroad Commissioner,,Steve Brown,DEM,53
+SHERMAN,Railroad Commissioner,,Ryan Sitton,REP,468
+SHERMAN,Railroad Commissioner,,OTHER,OTH,42
+SMITH,Railroad Commissioner,,Steve Brown,DEM,10569
+SMITH,Railroad Commissioner,,Ryan Sitton,REP,35847
+SMITH,Railroad Commissioner,,OTHER,OTH,1635
+SOMERVELL,Railroad Commissioner,,Steve Brown,DEM,338
+SOMERVELL,Railroad Commissioner,,Ryan Sitton,REP,1729
+SOMERVELL,Railroad Commissioner,,OTHER,OTH,100
+STARR,Railroad Commissioner,,Steve Brown,DEM,3810
+STARR,Railroad Commissioner,,Ryan Sitton,REP,808
+STARR,Railroad Commissioner,,OTHER,OTH,307
+STEPHENS,Railroad Commissioner,,Steve Brown,DEM,205
+STEPHENS,Railroad Commissioner,,Ryan Sitton,REP,1650
+STEPHENS,Railroad Commissioner,,OTHER,OTH,52
+STERLING,Railroad Commissioner,,Steve Brown,DEM,35
+STERLING,Railroad Commissioner,,Ryan Sitton,REP,395
+STERLING,Railroad Commissioner,,OTHER,OTH,19
+STONEWALL,Railroad Commissioner,,Steve Brown,DEM,108
+STONEWALL,Railroad Commissioner,,Ryan Sitton,REP,237
+STONEWALL,Railroad Commissioner,,OTHER,OTH,15
+SUTTON,Railroad Commissioner,,Steve Brown,DEM,108
+SUTTON,Railroad Commissioner,,Ryan Sitton,REP,590
+SUTTON,Railroad Commissioner,,OTHER,OTH,33
+SWISHER,Railroad Commissioner,,Steve Brown,DEM,396
+SWISHER,Railroad Commissioner,,Ryan Sitton,REP,889
+SWISHER,Railroad Commissioner,,OTHER,OTH,81
+TARRANT,Railroad Commissioner,,Steve Brown,DEM,138025
+TARRANT,Railroad Commissioner,,Ryan Sitton,REP,209754
+TARRANT,Railroad Commissioner,,OTHER,OTH,17503
+TAYLOR,Railroad Commissioner,,Steve Brown,DEM,3784
+TAYLOR,Railroad Commissioner,,Ryan Sitton,REP,18034
+TAYLOR,Railroad Commissioner,,OTHER,OTH,1184
+TERRELL,Railroad Commissioner,,Steve Brown,DEM,142
+TERRELL,Railroad Commissioner,,Ryan Sitton,REP,205
+TERRELL,Railroad Commissioner,,OTHER,OTH,38
+TERRY,Railroad Commissioner,,Steve Brown,DEM,412
+TERRY,Railroad Commissioner,,Ryan Sitton,REP,1650
+TERRY,Railroad Commissioner,,OTHER,OTH,134
+THROCKMORTON,Railroad Commissioner,,Steve Brown,DEM,79
+THROCKMORTON,Railroad Commissioner,,Ryan Sitton,REP,417
+THROCKMORTON,Railroad Commissioner,,OTHER,OTH,18
+TITUS,Railroad Commissioner,,Steve Brown,DEM,1343
+TITUS,Railroad Commissioner,,Ryan Sitton,REP,3422
+TITUS,Railroad Commissioner,,OTHER,OTH,199
+TOM GREEN,Railroad Commissioner,,Steve Brown,DEM,3504
+TOM GREEN,Railroad Commissioner,,Ryan Sitton,REP,13930
+TOM GREEN,Railroad Commissioner,,OTHER,OTH,849
+TRAVIS,Railroad Commissioner,,Steve Brown,DEM,150726
+TRAVIS,Railroad Commissioner,,Ryan Sitton,REP,86523
+TRAVIS,Railroad Commissioner,,OTHER,OTH,22691
+TRINITY,Railroad Commissioner,,Steve Brown,DEM,973
+TRINITY,Railroad Commissioner,,Ryan Sitton,REP,2645
+TRINITY,Railroad Commissioner,,OTHER,OTH,154
+TYLER,Railroad Commissioner,,Steve Brown,DEM,1021
+TYLER,Railroad Commissioner,,Ryan Sitton,REP,3371
+TYLER,Railroad Commissioner,,OTHER,OTH,183
+UPSHUR,Railroad Commissioner,,Steve Brown,DEM,1444
+UPSHUR,Railroad Commissioner,,Ryan Sitton,REP,6746
+UPSHUR,Railroad Commissioner,,OTHER,OTH,400
+UPTON,Railroad Commissioner,,Steve Brown,DEM,107
+UPTON,Railroad Commissioner,,Ryan Sitton,REP,471
+UPTON,Railroad Commissioner,,OTHER,OTH,53
+UVALDE,Railroad Commissioner,,Steve Brown,DEM,2003
+UVALDE,Railroad Commissioner,,Ryan Sitton,REP,2694
+UVALDE,Railroad Commissioner,,OTHER,OTH,268
+VAL VERDE,Railroad Commissioner,,Steve Brown,DEM,3447
+VAL VERDE,Railroad Commissioner,,Ryan Sitton,REP,2843
+VAL VERDE,Railroad Commissioner,,OTHER,OTH,602
+VAN ZANDT,Railroad Commissioner,,Steve Brown,DEM,1746
+VAN ZANDT,Railroad Commissioner,,Ryan Sitton,REP,9457
+VAN ZANDT,Railroad Commissioner,,OTHER,OTH,464
+VICTORIA,Railroad Commissioner,,Steve Brown,DEM,4134
+VICTORIA,Railroad Commissioner,,Ryan Sitton,REP,11962
+VICTORIA,Railroad Commissioner,,OTHER,OTH,714
+WALKER,Railroad Commissioner,,Steve Brown,DEM,3112
+WALKER,Railroad Commissioner,,Ryan Sitton,REP,7434
+WALKER,Railroad Commissioner,,OTHER,OTH,531
+WALLER,Railroad Commissioner,,Steve Brown,DEM,2523
+WALLER,Railroad Commissioner,,Ryan Sitton,REP,6316
+WALLER,Railroad Commissioner,,OTHER,OTH,234
+WARD,Railroad Commissioner,,Steve Brown,DEM,496
+WARD,Railroad Commissioner,,Ryan Sitton,REP,1310
+WARD,Railroad Commissioner,,OTHER,OTH,100
+WASHINGTON,Railroad Commissioner,,Steve Brown,DEM,1785
+WASHINGTON,Railroad Commissioner,,Ryan Sitton,REP,6698
+WASHINGTON,Railroad Commissioner,,OTHER,OTH,327
+WEBB,Railroad Commissioner,,Steve Brown,DEM,15909
+WEBB,Railroad Commissioner,,Ryan Sitton,REP,4971
+WEBB,Railroad Commissioner,,OTHER,OTH,4709
+WHARTON,Railroad Commissioner,,Steve Brown,DEM,1995
+WHARTON,Railroad Commissioner,,Ryan Sitton,REP,5935
+WHARTON,Railroad Commissioner,,OTHER,OTH,274
+WHEELER,Railroad Commissioner,,Steve Brown,DEM,134
+WHEELER,Railroad Commissioner,,Ryan Sitton,REP,1101
+WHEELER,Railroad Commissioner,,OTHER,OTH,47
+WICHITA,Railroad Commissioner,,Steve Brown,DEM,4615
+WICHITA,Railroad Commissioner,,Ryan Sitton,REP,15343
+WICHITA,Railroad Commissioner,,OTHER,OTH,899
+WILBARGER,Railroad Commissioner,,Steve Brown,DEM,669
+WILBARGER,Railroad Commissioner,,Ryan Sitton,REP,1854
+WILBARGER,Railroad Commissioner,,OTHER,OTH,86
+WILLACY,Railroad Commissioner,,Steve Brown,DEM,1185
+WILLACY,Railroad Commissioner,,Ryan Sitton,REP,663
+WILLACY,Railroad Commissioner,,OTHER,OTH,210
+WILLIAMSON,Railroad Commissioner,,Steve Brown,DEM,35028
+WILLIAMSON,Railroad Commissioner,,Ryan Sitton,REP,58950
+WILLIAMSON,Railroad Commissioner,,OTHER,OTH,7476
+WILSON,Railroad Commissioner,,Steve Brown,DEM,2563
+WILSON,Railroad Commissioner,,Ryan Sitton,REP,7025
+WILSON,Railroad Commissioner,,OTHER,OTH,574
+WINKLER,Railroad Commissioner,,Steve Brown,DEM,191
+WINKLER,Railroad Commissioner,,Ryan Sitton,REP,698
+WINKLER,Railroad Commissioner,,OTHER,OTH,48
+WISE,Railroad Commissioner,,Steve Brown,DEM,1902
+WISE,Railroad Commissioner,,Ryan Sitton,REP,9937
+WISE,Railroad Commissioner,,OTHER,OTH,593
+WOOD,Railroad Commissioner,,Steve Brown,DEM,1446
+WOOD,Railroad Commissioner,,Ryan Sitton,REP,9372
+WOOD,Railroad Commissioner,,OTHER,OTH,361
+YOAKUM,Railroad Commissioner,,Steve Brown,DEM,110
+YOAKUM,Railroad Commissioner,,Ryan Sitton,REP,948
+YOAKUM,Railroad Commissioner,,OTHER,OTH,42
+YOUNG,Railroad Commissioner,,Steve Brown,DEM,652
+YOUNG,Railroad Commissioner,,Ryan Sitton,REP,4310
+YOUNG,Railroad Commissioner,,OTHER,OTH,224
+ZAPATA,Railroad Commissioner,,Steve Brown,DEM,757
+ZAPATA,Railroad Commissioner,,Ryan Sitton,REP,268
+ZAPATA,Railroad Commissioner,,OTHER,OTH,89
+ZAVALA,Railroad Commissioner,,Steve Brown,DEM,1053
+ZAVALA,Railroad Commissioner,,Ryan Sitton,REP,266
+ZAVALA,Railroad Commissioner,,OTHER,OTH,105
