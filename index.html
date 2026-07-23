@@ -797,7 +797,6 @@ body.focus-active.hover-preview-active .vote-counter {
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-winner-name {
-  font-weight: 500;
   min-width: 0;
   flex: 1 1 auto;
   overflow: hidden;
@@ -29743,7 +29742,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const winnerText = normalizeCandidateLabel(winnerName || winnerShort, winnerShort || 'Tie');
       const winnerToneClass = winnerPartyKey === 'rep' ? 'rep' : (winnerPartyKey === 'dem' ? 'dem' : 'tie');
       // Match the panel top call (e.g. "Timmons-Goodson +16.58%"); full first+last live in the vote rows below.
-      const winnerDisplayText = (winnerLineText || '').toString().trim() || `${winnerText} +${marginFormatter(marginAbs)}%`;
+      const rawWinnerDisplayText = (winnerLineText || '').toString().trim() || `${winnerText} +${marginFormatter(marginAbs)}%`;
+      const winnerDisplayText = rawWinnerDisplayText.replace(/^(\S+)(?=\s+\+)/, (candidateToken) => {
+        if (!/[A-Z]/.test(candidateToken) || candidateToken !== candidateToken.toUpperCase()) return candidateToken;
+        return candidateToken.toLowerCase().replace(/(^|[-'])([a-z])/g, (_, separator, letter) => `${separator}${letter.toUpperCase()}`);
+      });
       const voteLeadStyle = winnerToneClass === 'rep'
         ? 'font-size:12px;font-weight:800;opacity:0.96;color:#fecaca;font-family:"JetBrains Mono","Consolas","SFMono-Regular",monospace;'
         : (winnerToneClass === 'dem'
