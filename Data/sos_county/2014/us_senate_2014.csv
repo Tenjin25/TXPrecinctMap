@@ -1,0 +1,763 @@
+county,office,district,candidate,party,votes
+ANDERSON,U. S. Senator,,David M. Alameel,DEM,2017
+ANDERSON,U. S. Senator,,John Cornyn,REP,7791
+ANDERSON,U. S. Senator,,OTHER,OTH,326
+ANDREWS,U. S. Senator,,David M. Alameel,DEM,178
+ANDREWS,U. S. Senator,,John Cornyn,REP,1943
+ANDREWS,U. S. Senator,,OTHER,OTH,72
+ANGELINA,U. S. Senator,,David M. Alameel,DEM,3414
+ANGELINA,U. S. Senator,,John Cornyn,REP,12867
+ANGELINA,U. S. Senator,,OTHER,OTH,375
+ARANSAS,U. S. Senator,,David M. Alameel,DEM,1165
+ARANSAS,U. S. Senator,,John Cornyn,REP,4512
+ARANSAS,U. S. Senator,,OTHER,OTH,212
+ARCHER,U. S. Senator,,David M. Alameel,DEM,252
+ARCHER,U. S. Senator,,John Cornyn,REP,2202
+ARCHER,U. S. Senator,,OTHER,OTH,67
+ARMSTRONG,U. S. Senator,,David M. Alameel,DEM,44
+ARMSTRONG,U. S. Senator,,John Cornyn,REP,497
+ARMSTRONG,U. S. Senator,,OTHER,OTH,22
+ATASCOSA,U. S. Senator,,David M. Alameel,DEM,2103
+ATASCOSA,U. S. Senator,,John Cornyn,REP,4834
+ATASCOSA,U. S. Senator,,OTHER,OTH,302
+AUSTIN,U. S. Senator,,David M. Alameel,DEM,995
+AUSTIN,U. S. Senator,,John Cornyn,REP,5919
+AUSTIN,U. S. Senator,,OTHER,OTH,224
+BAILEY,U. S. Senator,,David M. Alameel,DEM,115
+BAILEY,U. S. Senator,,John Cornyn,REP,853
+BAILEY,U. S. Senator,,OTHER,OTH,19
+BANDERA,U. S. Senator,,David M. Alameel,DEM,920
+BANDERA,U. S. Senator,,John Cornyn,REP,4994
+BANDERA,U. S. Senator,,OTHER,OTH,364
+BASTROP,U. S. Senator,,David M. Alameel,DEM,5580
+BASTROP,U. S. Senator,,John Cornyn,REP,10027
+BASTROP,U. S. Senator,,OTHER,OTH,1156
+BAYLOR,U. S. Senator,,David M. Alameel,DEM,107
+BAYLOR,U. S. Senator,,John Cornyn,REP,688
+BAYLOR,U. S. Senator,,OTHER,OTH,23
+BEE,U. S. Senator,,David M. Alameel,DEM,1827
+BEE,U. S. Senator,,John Cornyn,REP,2981
+BEE,U. S. Senator,,OTHER,OTH,196
+BELL,U. S. Senator,,David M. Alameel,DEM,13124
+BELL,U. S. Senator,,John Cornyn,REP,28838
+BELL,U. S. Senator,,OTHER,OTH,1629
+BEXAR,U. S. Senator,,David M. Alameel,DEM,124030
+BEXAR,U. S. Senator,,John Cornyn,REP,160577
+BEXAR,U. S. Senator,,OTHER,OTH,12553
+BLANCO,U. S. Senator,,David M. Alameel,DEM,699
+BLANCO,U. S. Senator,,John Cornyn,REP,2671
+BLANCO,U. S. Senator,,OTHER,OTH,211
+BORDEN,U. S. Senator,,David M. Alameel,DEM,12
+BORDEN,U. S. Senator,,John Cornyn,REP,236
+BORDEN,U. S. Senator,,OTHER,OTH,5
+BOSQUE,U. S. Senator,,David M. Alameel,DEM,734
+BOSQUE,U. S. Senator,,John Cornyn,REP,3908
+BOSQUE,U. S. Senator,,OTHER,OTH,194
+BOWIE,U. S. Senator,,David M. Alameel,DEM,4801
+BOWIE,U. S. Senator,,John Cornyn,REP,15687
+BOWIE,U. S. Senator,,OTHER,OTH,741
+BRAZORIA,U. S. Senator,,David M. Alameel,DEM,16853
+BRAZORIA,U. S. Senator,,John Cornyn,REP,41752
+BRAZORIA,U. S. Senator,,OTHER,OTH,2605
+BRAZOS,U. S. Senator,,David M. Alameel,DEM,7438
+BRAZOS,U. S. Senator,,John Cornyn,REP,22174
+BRAZOS,U. S. Senator,,OTHER,OTH,1456
+BREWSTER,U. S. Senator,,David M. Alameel,DEM,1169
+BREWSTER,U. S. Senator,,John Cornyn,REP,1437
+BREWSTER,U. S. Senator,,OTHER,OTH,232
+BRISCOE,U. S. Senator,,David M. Alameel,DEM,59
+BRISCOE,U. S. Senator,,John Cornyn,REP,432
+BRISCOE,U. S. Senator,,OTHER,OTH,10
+BROOKS,U. S. Senator,,David M. Alameel,DEM,1319
+BROOKS,U. S. Senator,,John Cornyn,REP,455
+BROOKS,U. S. Senator,,OTHER,OTH,206
+BROWN,U. S. Senator,,David M. Alameel,DEM,788
+BROWN,U. S. Senator,,John Cornyn,REP,7079
+BROWN,U. S. Senator,,OTHER,OTH,257
+BURLESON,U. S. Senator,,David M. Alameel,DEM,858
+BURLESON,U. S. Senator,,John Cornyn,REP,3121
+BURLESON,U. S. Senator,,OTHER,OTH,111
+BURNET,U. S. Senator,,David M. Alameel,DEM,1980
+BURNET,U. S. Senator,,John Cornyn,REP,9263
+BURNET,U. S. Senator,,OTHER,OTH,487
+CALDWELL,U. S. Senator,,David M. Alameel,DEM,3076
+CALDWELL,U. S. Senator,,John Cornyn,REP,5171
+CALDWELL,U. S. Senator,,OTHER,OTH,535
+CALHOUN,U. S. Senator,,David M. Alameel,DEM,1130
+CALHOUN,U. S. Senator,,John Cornyn,REP,2750
+CALHOUN,U. S. Senator,,OTHER,OTH,188
+CALLAHAN,U. S. Senator,,David M. Alameel,DEM,244
+CALLAHAN,U. S. Senator,,John Cornyn,REP,2579
+CALLAHAN,U. S. Senator,,OTHER,OTH,96
+CAMERON,U. S. Senator,,David M. Alameel,DEM,19188
+CAMERON,U. S. Senator,,John Cornyn,REP,16747
+CAMERON,U. S. Senator,,OTHER,OTH,2527
+CAMP,U. S. Senator,,David M. Alameel,DEM,693
+CAMP,U. S. Senator,,John Cornyn,REP,1818
+CAMP,U. S. Senator,,OTHER,OTH,77
+CARSON,U. S. Senator,,David M. Alameel,DEM,163
+CARSON,U. S. Senator,,John Cornyn,REP,1627
+CARSON,U. S. Senator,,OTHER,OTH,44
+CASS,U. S. Senator,,David M. Alameel,DEM,1538
+CASS,U. S. Senator,,John Cornyn,REP,5082
+CASS,U. S. Senator,,OTHER,OTH,220
+CASTRO,U. S. Senator,,David M. Alameel,DEM,200
+CASTRO,U. S. Senator,,John Cornyn,REP,903
+CASTRO,U. S. Senator,,OTHER,OTH,40
+CHAMBERS,U. S. Senator,,David M. Alameel,DEM,1227
+CHAMBERS,U. S. Senator,,John Cornyn,REP,6818
+CHAMBERS,U. S. Senator,,OTHER,OTH,300
+CHEROKEE,U. S. Senator,,David M. Alameel,DEM,1724
+CHEROKEE,U. S. Senator,,John Cornyn,REP,7440
+CHEROKEE,U. S. Senator,,OTHER,OTH,255
+CHILDRESS,U. S. Senator,,David M. Alameel,DEM,107
+CHILDRESS,U. S. Senator,,John Cornyn,REP,959
+CHILDRESS,U. S. Senator,,OTHER,OTH,19
+CLAY,U. S. Senator,,David M. Alameel,DEM,319
+CLAY,U. S. Senator,,John Cornyn,REP,2375
+CLAY,U. S. Senator,,OTHER,OTH,99
+COCHRAN,U. S. Senator,,David M. Alameel,DEM,57
+COCHRAN,U. S. Senator,,John Cornyn,REP,411
+COCHRAN,U. S. Senator,,OTHER,OTH,17
+COKE,U. S. Senator,,David M. Alameel,DEM,53
+COKE,U. S. Senator,,John Cornyn,REP,675
+COKE,U. S. Senator,,OTHER,OTH,24
+COLEMAN,U. S. Senator,,David M. Alameel,DEM,200
+COLEMAN,U. S. Senator,,John Cornyn,REP,1934
+COLEMAN,U. S. Senator,,OTHER,OTH,74
+COLLIN,U. S. Senator,,David M. Alameel,DEM,49145
+COLLIN,U. S. Senator,,John Cornyn,REP,120164
+COLLIN,U. S. Senator,,OTHER,OTH,6308
+COLLINGSWORTH,U. S. Senator,,David M. Alameel,DEM,101
+COLLINGSWORTH,U. S. Senator,,John Cornyn,REP,649
+COLLINGSWORTH,U. S. Senator,,OTHER,OTH,30
+COLORADO,U. S. Senator,,David M. Alameel,DEM,952
+COLORADO,U. S. Senator,,John Cornyn,REP,3978
+COLORADO,U. S. Senator,,OTHER,OTH,144
+COMAL,U. S. Senator,,David M. Alameel,DEM,5936
+COMAL,U. S. Senator,,John Cornyn,REP,27211
+COMAL,U. S. Senator,,OTHER,OTH,1374
+COMANCHE,U. S. Senator,,David M. Alameel,DEM,425
+COMANCHE,U. S. Senator,,John Cornyn,REP,2453
+COMANCHE,U. S. Senator,,OTHER,OTH,119
+CONCHO,U. S. Senator,,David M. Alameel,DEM,65
+CONCHO,U. S. Senator,,John Cornyn,REP,500
+CONCHO,U. S. Senator,,OTHER,OTH,23
+COOKE,U. S. Senator,,David M. Alameel,DEM,990
+COOKE,U. S. Senator,,John Cornyn,REP,7460
+COOKE,U. S. Senator,,OTHER,OTH,294
+CORYELL,U. S. Senator,,David M. Alameel,DEM,1779
+CORYELL,U. S. Senator,,John Cornyn,REP,6445
+CORYELL,U. S. Senator,,OTHER,OTH,334
+COTTLE,U. S. Senator,,David M. Alameel,DEM,45
+COTTLE,U. S. Senator,,John Cornyn,REP,295
+COTTLE,U. S. Senator,,OTHER,OTH,12
+CRANE,U. S. Senator,,David M. Alameel,DEM,120
+CRANE,U. S. Senator,,John Cornyn,REP,664
+CRANE,U. S. Senator,,OTHER,OTH,38
+CROCKETT,U. S. Senator,,David M. Alameel,DEM,167
+CROCKETT,U. S. Senator,,John Cornyn,REP,600
+CROCKETT,U. S. Senator,,OTHER,OTH,49
+CROSBY,U. S. Senator,,David M. Alameel,DEM,198
+CROSBY,U. S. Senator,,John Cornyn,REP,802
+CROSBY,U. S. Senator,,OTHER,OTH,45
+CULBERSON,U. S. Senator,,David M. Alameel,DEM,113
+CULBERSON,U. S. Senator,,John Cornyn,REP,158
+CULBERSON,U. S. Senator,,OTHER,OTH,19
+DALLAM,U. S. Senator,,David M. Alameel,DEM,77
+DALLAM,U. S. Senator,,John Cornyn,REP,718
+DALLAM,U. S. Senator,,OTHER,OTH,39
+DALLAS,U. S. Senator,,David M. Alameel,DEM,199021
+DALLAS,U. S. Senator,,John Cornyn,REP,187981
+DALLAS,U. S. Senator,,OTHER,OTH,13901
+DAWSON,U. S. Senator,,David M. Alameel,DEM,290
+DAWSON,U. S. Senator,,John Cornyn,REP,1626
+DAWSON,U. S. Senator,,OTHER,OTH,70
+DEAF SMITH,U. S. Senator,,David M. Alameel,DEM,412
+DEAF SMITH,U. S. Senator,,John Cornyn,REP,2161
+DEAF SMITH,U. S. Senator,,OTHER,OTH,111
+DELTA,U. S. Senator,,David M. Alameel,DEM,248
+DELTA,U. S. Senator,,John Cornyn,REP,1030
+DELTA,U. S. Senator,,OTHER,OTH,53
+DENTON,U. S. Senator,,David M. Alameel,DEM,39488
+DENTON,U. S. Senator,,John Cornyn,REP,96561
+DENTON,U. S. Senator,,OTHER,OTH,6634
+DEWITT,U. S. Senator,,David M. Alameel,DEM,517
+DEWITT,U. S. Senator,,John Cornyn,REP,3270
+DEWITT,U. S. Senator,,OTHER,OTH,123
+DICKENS,U. S. Senator,,David M. Alameel,DEM,49
+DICKENS,U. S. Senator,,John Cornyn,REP,434
+DICKENS,U. S. Senator,,OTHER,OTH,16
+DIMMIT,U. S. Senator,,David M. Alameel,DEM,1120
+DIMMIT,U. S. Senator,,John Cornyn,REP,595
+DIMMIT,U. S. Senator,,OTHER,OTH,82
+DONLEY,U. S. Senator,,David M. Alameel,DEM,94
+DONLEY,U. S. Senator,,John Cornyn,REP,801
+DONLEY,U. S. Senator,,OTHER,OTH,32
+DUVAL,U. S. Senator,,David M. Alameel,DEM,2183
+DUVAL,U. S. Senator,,John Cornyn,REP,578
+DUVAL,U. S. Senator,,OTHER,OTH,164
+EASTLAND,U. S. Senator,,David M. Alameel,DEM,338
+EASTLAND,U. S. Senator,,John Cornyn,REP,3402
+EASTLAND,U. S. Senator,,OTHER,OTH,121
+ECTOR,U. S. Senator,,David M. Alameel,DEM,2234
+ECTOR,U. S. Senator,,John Cornyn,REP,11929
+ECTOR,U. S. Senator,,OTHER,OTH,512
+EDWARDS,U. S. Senator,,David M. Alameel,DEM,154
+EDWARDS,U. S. Senator,,John Cornyn,REP,523
+EDWARDS,U. S. Senator,,OTHER,OTH,53
+ELLIS,U. S. Senator,,David M. Alameel,DEM,6703
+ELLIS,U. S. Senator,,John Cornyn,REP,24106
+ELLIS,U. S. Senator,,OTHER,OTH,1110
+EL PASO,U. S. Senator,,David M. Alameel,DEM,43038
+EL PASO,U. S. Senator,,John Cornyn,REP,31744
+EL PASO,U. S. Senator,,OTHER,OTH,4907
+ERATH,U. S. Senator,,David M. Alameel,DEM,961
+ERATH,U. S. Senator,,John Cornyn,REP,6053
+ERATH,U. S. Senator,,OTHER,OTH,240
+FALLS,U. S. Senator,,David M. Alameel,DEM,770
+FALLS,U. S. Senator,,John Cornyn,REP,2125
+FALLS,U. S. Senator,,OTHER,OTH,75
+FANNIN,U. S. Senator,,David M. Alameel,DEM,1128
+FANNIN,U. S. Senator,,John Cornyn,REP,4991
+FANNIN,U. S. Senator,,OTHER,OTH,233
+FAYETTE,U. S. Senator,,David M. Alameel,DEM,1184
+FAYETTE,U. S. Senator,,John Cornyn,REP,6017
+FAYETTE,U. S. Senator,,OTHER,OTH,226
+FISHER,U. S. Senator,,David M. Alameel,DEM,359
+FISHER,U. S. Senator,,John Cornyn,REP,808
+FISHER,U. S. Senator,,OTHER,OTH,36
+FLOYD,U. S. Senator,,David M. Alameel,DEM,110
+FLOYD,U. S. Senator,,John Cornyn,REP,947
+FLOYD,U. S. Senator,,OTHER,OTH,24
+FOARD,U. S. Senator,,David M. Alameel,DEM,90
+FOARD,U. S. Senator,,John Cornyn,REP,196
+FOARD,U. S. Senator,,OTHER,OTH,9
+FORT BEND,U. S. Senator,,David M. Alameel,DEM,51162
+FORT BEND,U. S. Senator,,John Cornyn,REP,76027
+FORT BEND,U. S. Senator,,OTHER,OTH,3872
+FRANKLIN,U. S. Senator,,David M. Alameel,DEM,295
+FRANKLIN,U. S. Senator,,John Cornyn,REP,2189
+FRANKLIN,U. S. Senator,,OTHER,OTH,72
+FREESTONE,U. S. Senator,,David M. Alameel,DEM,775
+FREESTONE,U. S. Senator,,John Cornyn,REP,3519
+FREESTONE,U. S. Senator,,OTHER,OTH,99
+FRIO,U. S. Senator,,David M. Alameel,DEM,883
+FRIO,U. S. Senator,,John Cornyn,REP,880
+FRIO,U. S. Senator,,OTHER,OTH,55
+GAINES,U. S. Senator,,David M. Alameel,DEM,224
+GAINES,U. S. Senator,,John Cornyn,REP,2137
+GAINES,U. S. Senator,,OTHER,OTH,79
+GALVESTON,U. S. Senator,,David M. Alameel,DEM,19857
+GALVESTON,U. S. Senator,,John Cornyn,REP,41407
+GALVESTON,U. S. Senator,,OTHER,OTH,2793
+GARZA,U. S. Senator,,David M. Alameel,DEM,66
+GARZA,U. S. Senator,,John Cornyn,REP,742
+GARZA,U. S. Senator,,OTHER,OTH,18
+GILLESPIE,U. S. Senator,,David M. Alameel,DEM,1153
+GILLESPIE,U. S. Senator,,John Cornyn,REP,7217
+GILLESPIE,U. S. Senator,,OTHER,OTH,400
+GLASSCOCK,U. S. Senator,,David M. Alameel,DEM,10
+GLASSCOCK,U. S. Senator,,John Cornyn,REP,372
+GLASSCOCK,U. S. Senator,,OTHER,OTH,12
+GOLIAD,U. S. Senator,,David M. Alameel,DEM,741
+GOLIAD,U. S. Senator,,John Cornyn,REP,1865
+GOLIAD,U. S. Senator,,OTHER,OTH,92
+GONZALES,U. S. Senator,,David M. Alameel,DEM,689
+GONZALES,U. S. Senator,,John Cornyn,REP,2840
+GONZALES,U. S. Senator,,OTHER,OTH,129
+GRAY,U. S. Senator,,David M. Alameel,DEM,243
+GRAY,U. S. Senator,,John Cornyn,REP,3314
+GRAY,U. S. Senator,,OTHER,OTH,93
+GRAYSON,U. S. Senator,,David M. Alameel,DEM,4522
+GRAYSON,U. S. Senator,,John Cornyn,REP,18146
+GRAYSON,U. S. Senator,,OTHER,OTH,681
+GREGG,U. S. Senator,,David M. Alameel,DEM,5275
+GREGG,U. S. Senator,,John Cornyn,REP,16939
+GREGG,U. S. Senator,,OTHER,OTH,532
+GRIMES,U. S. Senator,,David M. Alameel,DEM,958
+GRIMES,U. S. Senator,,John Cornyn,REP,3698
+GRIMES,U. S. Senator,,OTHER,OTH,194
+GUADALUPE,U. S. Senator,,David M. Alameel,DEM,7267
+GUADALUPE,U. S. Senator,,John Cornyn,REP,21885
+GUADALUPE,U. S. Senator,,OTHER,OTH,1179
+HALE,U. S. Senator,,David M. Alameel,DEM,492
+HALE,U. S. Senator,,John Cornyn,REP,3675
+HALE,U. S. Senator,,OTHER,OTH,110
+HALL,U. S. Senator,,David M. Alameel,DEM,70
+HALL,U. S. Senator,,John Cornyn,REP,486
+HALL,U. S. Senator,,OTHER,OTH,9
+HAMILTON,U. S. Senator,,David M. Alameel,DEM,356
+HAMILTON,U. S. Senator,,John Cornyn,REP,1933
+HAMILTON,U. S. Senator,,OTHER,OTH,88
+HANSFORD,U. S. Senator,,David M. Alameel,DEM,42
+HANSFORD,U. S. Senator,,John Cornyn,REP,1124
+HANSFORD,U. S. Senator,,OTHER,OTH,38
+HARDEMAN,U. S. Senator,,David M. Alameel,DEM,112
+HARDEMAN,U. S. Senator,,John Cornyn,REP,536
+HARDEMAN,U. S. Senator,,OTHER,OTH,17
+HARDIN,U. S. Senator,,David M. Alameel,DEM,1304
+HARDIN,U. S. Senator,,John Cornyn,REP,9610
+HARDIN,U. S. Senator,,OTHER,OTH,299
+HARRIS,U. S. Senator,,David M. Alameel,DEM,281407
+HARRIS,U. S. Senator,,John Cornyn,REP,362887
+HARRIS,U. S. Senator,,OTHER,OTH,24168
+HARRISON,U. S. Senator,,David M. Alameel,DEM,3714
+HARRISON,U. S. Senator,,John Cornyn,REP,10473
+HARRISON,U. S. Senator,,OTHER,OTH,358
+HARTLEY,U. S. Senator,,David M. Alameel,DEM,75
+HARTLEY,U. S. Senator,,John Cornyn,REP,1004
+HARTLEY,U. S. Senator,,OTHER,OTH,26
+HASKELL,U. S. Senator,,David M. Alameel,DEM,234
+HASKELL,U. S. Senator,,John Cornyn,REP,787
+HASKELL,U. S. Senator,,OTHER,OTH,23
+HAYS,U. S. Senator,,David M. Alameel,DEM,14567
+HAYS,U. S. Senator,,John Cornyn,REP,21633
+HAYS,U. S. Senator,,OTHER,OTH,2570
+HEMPHILL,U. S. Senator,,David M. Alameel,DEM,70
+HEMPHILL,U. S. Senator,,John Cornyn,REP,717
+HEMPHILL,U. S. Senator,,OTHER,OTH,35
+HENDERSON,U. S. Senator,,David M. Alameel,DEM,3027
+HENDERSON,U. S. Senator,,John Cornyn,REP,13264
+HENDERSON,U. S. Senator,,OTHER,OTH,485
+HIDALGO,U. S. Senator,,David M. Alameel,DEM,46112
+HIDALGO,U. S. Senator,,John Cornyn,REP,27303
+HIDALGO,U. S. Senator,,OTHER,OTH,4517
+HILL,U. S. Senator,,David M. Alameel,DEM,1533
+HILL,U. S. Senator,,John Cornyn,REP,7023
+HILL,U. S. Senator,,OTHER,OTH,284
+HOCKLEY,U. S. Senator,,David M. Alameel,DEM,370
+HOCKLEY,U. S. Senator,,John Cornyn,REP,3194
+HOCKLEY,U. S. Senator,,OTHER,OTH,109
+HOOD,U. S. Senator,,David M. Alameel,DEM,2007
+HOOD,U. S. Senator,,John Cornyn,REP,11090
+HOOD,U. S. Senator,,OTHER,OTH,450
+HOPKINS,U. S. Senator,,David M. Alameel,DEM,1384
+HOPKINS,U. S. Senator,,John Cornyn,REP,5728
+HOPKINS,U. S. Senator,,OTHER,OTH,184
+HOUSTON,U. S. Senator,,David M. Alameel,DEM,851
+HOUSTON,U. S. Senator,,John Cornyn,REP,3646
+HOUSTON,U. S. Senator,,OTHER,OTH,118
+HOWARD,U. S. Senator,,David M. Alameel,DEM,644
+HOWARD,U. S. Senator,,John Cornyn,REP,3433
+HOWARD,U. S. Senator,,OTHER,OTH,157
+HUDSPETH,U. S. Senator,,David M. Alameel,DEM,170
+HUDSPETH,U. S. Senator,,John Cornyn,REP,265
+HUDSPETH,U. S. Senator,,OTHER,OTH,45
+HUNT,U. S. Senator,,David M. Alameel,DEM,2879
+HUNT,U. S. Senator,,John Cornyn,REP,12635
+HUNT,U. S. Senator,,OTHER,OTH,589
+HUTCHINSON,U. S. Senator,,David M. Alameel,DEM,376
+HUTCHINSON,U. S. Senator,,John Cornyn,REP,3978
+HUTCHINSON,U. S. Senator,,OTHER,OTH,122
+IRION,U. S. Senator,,David M. Alameel,DEM,37
+IRION,U. S. Senator,,John Cornyn,REP,375
+IRION,U. S. Senator,,OTHER,OTH,15
+JACK,U. S. Senator,,David M. Alameel,DEM,170
+JACK,U. S. Senator,,John Cornyn,REP,1493
+JACK,U. S. Senator,,OTHER,OTH,39
+JACKSON,U. S. Senator,,David M. Alameel,DEM,405
+JACKSON,U. S. Senator,,John Cornyn,REP,2411
+JACKSON,U. S. Senator,,OTHER,OTH,71
+JASPER,U. S. Senator,,David M. Alameel,DEM,1349
+JASPER,U. S. Senator,,John Cornyn,REP,5522
+JASPER,U. S. Senator,,OTHER,OTH,175
+JEFF DAVIS,U. S. Senator,,David M. Alameel,DEM,328
+JEFF DAVIS,U. S. Senator,,John Cornyn,REP,571
+JEFF DAVIS,U. S. Senator,,OTHER,OTH,87
+JEFFERSON,U. S. Senator,,David M. Alameel,DEM,24553
+JEFFERSON,U. S. Senator,,John Cornyn,REP,26687
+JEFFERSON,U. S. Senator,,OTHER,OTH,1057
+JIM HOGG,U. S. Senator,,David M. Alameel,DEM,514
+JIM HOGG,U. S. Senator,,John Cornyn,REP,160
+JIM HOGG,U. S. Senator,,OTHER,OTH,24
+JIM WELLS,U. S. Senator,,David M. Alameel,DEM,2762
+JIM WELLS,U. S. Senator,,John Cornyn,REP,2481
+JIM WELLS,U. S. Senator,,OTHER,OTH,223
+JOHNSON,U. S. Senator,,David M. Alameel,DEM,4784
+JOHNSON,U. S. Senator,,John Cornyn,REP,23153
+JOHNSON,U. S. Senator,,OTHER,OTH,1120
+JONES,U. S. Senator,,David M. Alameel,DEM,491
+JONES,U. S. Senator,,John Cornyn,REP,2644
+JONES,U. S. Senator,,OTHER,OTH,136
+KARNES,U. S. Senator,,David M. Alameel,DEM,559
+KARNES,U. S. Senator,,John Cornyn,REP,1832
+KARNES,U. S. Senator,,OTHER,OTH,74
+KAUFMAN,U. S. Senator,,David M. Alameel,DEM,4619
+KAUFMAN,U. S. Senator,,John Cornyn,REP,14930
+KAUFMAN,U. S. Senator,,OTHER,OTH,603
+KENDALL,U. S. Senator,,David M. Alameel,DEM,1477
+KENDALL,U. S. Senator,,John Cornyn,REP,9854
+KENDALL,U. S. Senator,,OTHER,OTH,424
+KENEDY,U. S. Senator,,David M. Alameel,DEM,52
+KENEDY,U. S. Senator,,John Cornyn,REP,59
+KENEDY,U. S. Senator,,OTHER,OTH,5
+KENT,U. S. Senator,,David M. Alameel,DEM,42
+KENT,U. S. Senator,,John Cornyn,REP,250
+KENT,U. S. Senator,,OTHER,OTH,11
+KERR,U. S. Senator,,David M. Alameel,DEM,2242
+KERR,U. S. Senator,,John Cornyn,REP,11866
+KERR,U. S. Senator,,OTHER,OTH,682
+KIMBLE,U. S. Senator,,David M. Alameel,DEM,87
+KIMBLE,U. S. Senator,,John Cornyn,REP,1071
+KIMBLE,U. S. Senator,,OTHER,OTH,30
+KING,U. S. Senator,,David M. Alameel,DEM,1
+KING,U. S. Senator,,John Cornyn,REP,87
+KING,U. S. Senator,,OTHER,OTH,2
+KINNEY,U. S. Senator,,David M. Alameel,DEM,299
+KINNEY,U. S. Senator,,John Cornyn,REP,738
+KINNEY,U. S. Senator,,OTHER,OTH,77
+KLEBERG,U. S. Senator,,David M. Alameel,DEM,2463
+KLEBERG,U. S. Senator,,John Cornyn,REP,2805
+KLEBERG,U. S. Senator,,OTHER,OTH,338
+KNOX,U. S. Senator,,David M. Alameel,DEM,141
+KNOX,U. S. Senator,,John Cornyn,REP,703
+KNOX,U. S. Senator,,OTHER,OTH,23
+LAMAR,U. S. Senator,,David M. Alameel,DEM,2274
+LAMAR,U. S. Senator,,John Cornyn,REP,8062
+LAMAR,U. S. Senator,,OTHER,OTH,344
+LAMB,U. S. Senator,,David M. Alameel,DEM,244
+LAMB,U. S. Senator,,John Cornyn,REP,1785
+LAMB,U. S. Senator,,OTHER,OTH,53
+LAMPASAS,U. S. Senator,,David M. Alameel,DEM,689
+LAMPASAS,U. S. Senator,,John Cornyn,REP,3714
+LAMPASAS,U. S. Senator,,OTHER,OTH,143
+LA SALLE,U. S. Senator,,David M. Alameel,DEM,369
+LA SALLE,U. S. Senator,,John Cornyn,REP,400
+LA SALLE,U. S. Senator,,OTHER,OTH,44
+LAVACA,U. S. Senator,,David M. Alameel,DEM,595
+LAVACA,U. S. Senator,,John Cornyn,REP,4242
+LAVACA,U. S. Senator,,OTHER,OTH,119
+LEE,U. S. Senator,,David M. Alameel,DEM,797
+LEE,U. S. Senator,,John Cornyn,REP,3212
+LEE,U. S. Senator,,OTHER,OTH,188
+LEON,U. S. Senator,,David M. Alameel,DEM,432
+LEON,U. S. Senator,,John Cornyn,REP,3688
+LEON,U. S. Senator,,OTHER,OTH,87
+LIBERTY,U. S. Senator,,David M. Alameel,DEM,2161
+LIBERTY,U. S. Senator,,John Cornyn,REP,9493
+LIBERTY,U. S. Senator,,OTHER,OTH,417
+LIMESTONE,U. S. Senator,,David M. Alameel,DEM,903
+LIMESTONE,U. S. Senator,,John Cornyn,REP,3257
+LIMESTONE,U. S. Senator,,OTHER,OTH,97
+LIPSCOMB,U. S. Senator,,David M. Alameel,DEM,73
+LIPSCOMB,U. S. Senator,,John Cornyn,REP,743
+LIPSCOMB,U. S. Senator,,OTHER,OTH,26
+LIVE OAK,U. S. Senator,,David M. Alameel,DEM,313
+LIVE OAK,U. S. Senator,,John Cornyn,REP,2030
+LIVE OAK,U. S. Senator,,OTHER,OTH,88
+LLANO,U. S. Senator,,David M. Alameel,DEM,1057
+LLANO,U. S. Senator,,John Cornyn,REP,5662
+LLANO,U. S. Senator,,OTHER,OTH,243
+LOVING,U. S. Senator,,David M. Alameel,DEM,3
+LOVING,U. S. Senator,,John Cornyn,REP,34
+LOVING,U. S. Senator,,OTHER,OTH,1
+LUBBOCK,U. S. Senator,,David M. Alameel,DEM,8956
+LUBBOCK,U. S. Senator,,John Cornyn,REP,35927
+LUBBOCK,U. S. Senator,,OTHER,OTH,1836
+LYNN,U. S. Senator,,David M. Alameel,DEM,164
+LYNN,U. S. Senator,,John Cornyn,REP,979
+LYNN,U. S. Senator,,OTHER,OTH,36
+MADISON,U. S. Senator,,David M. Alameel,DEM,402
+MADISON,U. S. Senator,,John Cornyn,REP,1923
+MADISON,U. S. Senator,,OTHER,OTH,48
+MARION,U. S. Senator,,David M. Alameel,DEM,657
+MARION,U. S. Senator,,John Cornyn,REP,1461
+MARION,U. S. Senator,,OTHER,OTH,54
+MARTIN,U. S. Senator,,David M. Alameel,DEM,111
+MARTIN,U. S. Senator,,John Cornyn,REP,959
+MARTIN,U. S. Senator,,OTHER,OTH,50
+MASON,U. S. Senator,,David M. Alameel,DEM,201
+MASON,U. S. Senator,,John Cornyn,REP,1100
+MASON,U. S. Senator,,OTHER,OTH,60
+MATAGORDA,U. S. Senator,,David M. Alameel,DEM,1793
+MATAGORDA,U. S. Senator,,John Cornyn,REP,4820
+MATAGORDA,U. S. Senator,,OTHER,OTH,275
+MAVERICK,U. S. Senator,,David M. Alameel,DEM,3479
+MAVERICK,U. S. Senator,,John Cornyn,REP,1284
+MAVERICK,U. S. Senator,,OTHER,OTH,423
+MCCULLOCH,U. S. Senator,,David M. Alameel,DEM,206
+MCCULLOCH,U. S. Senator,,John Cornyn,REP,1446
+MCCULLOCH,U. S. Senator,,OTHER,OTH,73
+MCLENNAN,U. S. Senator,,David M. Alameel,DEM,11276
+MCLENNAN,U. S. Senator,,John Cornyn,REP,31117
+MCLENNAN,U. S. Senator,,OTHER,OTH,1394
+MCMULLEN,U. S. Senator,,David M. Alameel,DEM,17
+MCMULLEN,U. S. Senator,,John Cornyn,REP,216
+MCMULLEN,U. S. Senator,,OTHER,OTH,16
+MEDINA,U. S. Senator,,David M. Alameel,DEM,2024
+MEDINA,U. S. Senator,,John Cornyn,REP,7405
+MEDINA,U. S. Senator,,OTHER,OTH,335
+MENARD,U. S. Senator,,David M. Alameel,DEM,43
+MENARD,U. S. Senator,,John Cornyn,REP,408
+MENARD,U. S. Senator,,OTHER,OTH,14
+MIDLAND,U. S. Senator,,David M. Alameel,DEM,2624
+MIDLAND,U. S. Senator,,John Cornyn,REP,19939
+MIDLAND,U. S. Senator,,OTHER,OTH,840
+MILAM,U. S. Senator,,David M. Alameel,DEM,1098
+MILAM,U. S. Senator,,John Cornyn,REP,3584
+MILAM,U. S. Senator,,OTHER,OTH,169
+MILLS,U. S. Senator,,David M. Alameel,DEM,105
+MILLS,U. S. Senator,,John Cornyn,REP,1186
+MILLS,U. S. Senator,,OTHER,OTH,32
+MITCHELL,U. S. Senator,,David M. Alameel,DEM,166
+MITCHELL,U. S. Senator,,John Cornyn,REP,964
+MITCHELL,U. S. Senator,,OTHER,OTH,48
+MONTAGUE,U. S. Senator,,David M. Alameel,DEM,716
+MONTAGUE,U. S. Senator,,John Cornyn,REP,5700
+MONTAGUE,U. S. Senator,,OTHER,OTH,232
+MONTGOMERY,U. S. Senator,,David M. Alameel,DEM,15338
+MONTGOMERY,U. S. Senator,,John Cornyn,REP,84512
+MONTGOMERY,U. S. Senator,,OTHER,OTH,3688
+MOORE,U. S. Senator,,David M. Alameel,DEM,249
+MOORE,U. S. Senator,,John Cornyn,REP,2414
+MOORE,U. S. Senator,,OTHER,OTH,85
+MORRIS,U. S. Senator,,David M. Alameel,DEM,978
+MORRIS,U. S. Senator,,John Cornyn,REP,1990
+MORRIS,U. S. Senator,,OTHER,OTH,77
+MOTLEY,U. S. Senator,,David M. Alameel,DEM,12
+MOTLEY,U. S. Senator,,John Cornyn,REP,346
+MOTLEY,U. S. Senator,,OTHER,OTH,5
+NACOGDOCHES,U. S. Senator,,David M. Alameel,DEM,2497
+NACOGDOCHES,U. S. Senator,,John Cornyn,REP,8867
+NACOGDOCHES,U. S. Senator,,OTHER,OTH,371
+NAVARRO,U. S. Senator,,David M. Alameel,DEM,1960
+NAVARRO,U. S. Senator,,John Cornyn,REP,7129
+NAVARRO,U. S. Senator,,OTHER,OTH,287
+NEWTON,U. S. Senator,,David M. Alameel,DEM,680
+NEWTON,U. S. Senator,,John Cornyn,REP,2073
+NEWTON,U. S. Senator,,OTHER,OTH,102
+NOLAN,U. S. Senator,,David M. Alameel,DEM,419
+NOLAN,U. S. Senator,,John Cornyn,REP,2072
+NOLAN,U. S. Senator,,OTHER,OTH,104
+NUECES,U. S. Senator,,David M. Alameel,DEM,21239
+NUECES,U. S. Senator,,John Cornyn,REP,31828
+NUECES,U. S. Senator,,OTHER,OTH,2691
+OCHILTREE,U. S. Senator,,David M. Alameel,DEM,53
+OCHILTREE,U. S. Senator,,John Cornyn,REP,1483
+OCHILTREE,U. S. Senator,,OTHER,OTH,45
+OLDHAM,U. S. Senator,,David M. Alameel,DEM,24
+OLDHAM,U. S. Senator,,John Cornyn,REP,518
+OLDHAM,U. S. Senator,,OTHER,OTH,15
+ORANGE,U. S. Senator,,David M. Alameel,DEM,3378
+ORANGE,U. S. Senator,,John Cornyn,REP,13192
+ORANGE,U. S. Senator,,OTHER,OTH,495
+PALO PINTO,U. S. Senator,,David M. Alameel,DEM,900
+PALO PINTO,U. S. Senator,,John Cornyn,REP,4529
+PALO PINTO,U. S. Senator,,OTHER,OTH,181
+PANOLA,U. S. Senator,,David M. Alameel,DEM,986
+PANOLA,U. S. Senator,,John Cornyn,REP,4615
+PANOLA,U. S. Senator,,OTHER,OTH,125
+PARKER,U. S. Senator,,David M. Alameel,DEM,4218
+PARKER,U. S. Senator,,John Cornyn,REP,25880
+PARKER,U. S. Senator,,OTHER,OTH,1180
+PARMER,U. S. Senator,,David M. Alameel,DEM,121
+PARMER,U. S. Senator,,John Cornyn,REP,1242
+PARMER,U. S. Senator,,OTHER,OTH,32
+PECOS,U. S. Senator,,David M. Alameel,DEM,855
+PECOS,U. S. Senator,,John Cornyn,REP,1857
+PECOS,U. S. Senator,,OTHER,OTH,213
+POLK,U. S. Senator,,David M. Alameel,DEM,1932
+POLK,U. S. Senator,,John Cornyn,REP,8019
+POLK,U. S. Senator,,OTHER,OTH,372
+POTTER,U. S. Senator,,David M. Alameel,DEM,2497
+POTTER,U. S. Senator,,John Cornyn,REP,10592
+POTTER,U. S. Senator,,OTHER,OTH,570
+PRESIDIO,U. S. Senator,,David M. Alameel,DEM,533
+PRESIDIO,U. S. Senator,,John Cornyn,REP,318
+PRESIDIO,U. S. Senator,,OTHER,OTH,71
+RAINS,U. S. Senator,,David M. Alameel,DEM,347
+RAINS,U. S. Senator,,John Cornyn,REP,1966
+RAINS,U. S. Senator,,OTHER,OTH,74
+RANDALL,U. S. Senator,,David M. Alameel,DEM,2885
+RANDALL,U. S. Senator,,John Cornyn,REP,23990
+RANDALL,U. S. Senator,,OTHER,OTH,963
+REAGAN,U. S. Senator,,David M. Alameel,DEM,51
+REAGAN,U. S. Senator,,John Cornyn,REP,421
+REAGAN,U. S. Senator,,OTHER,OTH,22
+REAL,U. S. Senator,,David M. Alameel,DEM,127
+REAL,U. S. Senator,,John Cornyn,REP,868
+REAL,U. S. Senator,,OTHER,OTH,40
+RED RIVER,U. S. Senator,,David M. Alameel,DEM,597
+RED RIVER,U. S. Senator,,John Cornyn,REP,1953
+RED RIVER,U. S. Senator,,OTHER,OTH,65
+REEVES,U. S. Senator,,David M. Alameel,DEM,519
+REEVES,U. S. Senator,,John Cornyn,REP,599
+REEVES,U. S. Senator,,OTHER,OTH,70
+REFUGIO,U. S. Senator,,David M. Alameel,DEM,653
+REFUGIO,U. S. Senator,,John Cornyn,REP,1228
+REFUGIO,U. S. Senator,,OTHER,OTH,85
+ROBERTS,U. S. Senator,,David M. Alameel,DEM,12
+ROBERTS,U. S. Senator,,John Cornyn,REP,318
+ROBERTS,U. S. Senator,,OTHER,OTH,8
+ROBERTSON,U. S. Senator,,David M. Alameel,DEM,1643
+ROBERTSON,U. S. Senator,,John Cornyn,REP,3165
+ROBERTSON,U. S. Senator,,OTHER,OTH,151
+ROCKWALL,U. S. Senator,,David M. Alameel,DEM,3793
+ROCKWALL,U. S. Senator,,John Cornyn,REP,16510
+ROCKWALL,U. S. Senator,,OTHER,OTH,613
+RUNNELS,U. S. Senator,,David M. Alameel,DEM,198
+RUNNELS,U. S. Senator,,John Cornyn,REP,2000
+RUNNELS,U. S. Senator,,OTHER,OTH,63
+RUSK,U. S. Senator,,David M. Alameel,DEM,1759
+RUSK,U. S. Senator,,John Cornyn,REP,8437
+RUSK,U. S. Senator,,OTHER,OTH,233
+SABINE,U. S. Senator,,David M. Alameel,DEM,348
+SABINE,U. S. Senator,,John Cornyn,REP,2307
+SABINE,U. S. Senator,,OTHER,OTH,63
+SAN AUGUSTINE,U. S. Senator,,David M. Alameel,DEM,740
+SAN AUGUSTINE,U. S. Senator,,John Cornyn,REP,1805
+SAN AUGUSTINE,U. S. Senator,,OTHER,OTH,80
+SAN JACINTO,U. S. Senator,,David M. Alameel,DEM,1342
+SAN JACINTO,U. S. Senator,,John Cornyn,REP,4671
+SAN JACINTO,U. S. Senator,,OTHER,OTH,270
+SAN PATRICIO,U. S. Senator,,David M. Alameel,DEM,3487
+SAN PATRICIO,U. S. Senator,,John Cornyn,REP,7159
+SAN PATRICIO,U. S. Senator,,OTHER,OTH,487
+SAN SABA,U. S. Senator,,David M. Alameel,DEM,125
+SAN SABA,U. S. Senator,,John Cornyn,REP,1262
+SAN SABA,U. S. Senator,,OTHER,OTH,43
+SCHLEICHER,U. S. Senator,,David M. Alameel,DEM,181
+SCHLEICHER,U. S. Senator,,John Cornyn,REP,610
+SCHLEICHER,U. S. Senator,,OTHER,OTH,52
+SCURRY,U. S. Senator,,David M. Alameel,DEM,278
+SCURRY,U. S. Senator,,John Cornyn,REP,2471
+SCURRY,U. S. Senator,,OTHER,OTH,75
+SHACKELFORD,U. S. Senator,,David M. Alameel,DEM,45
+SHACKELFORD,U. S. Senator,,John Cornyn,REP,735
+SHACKELFORD,U. S. Senator,,OTHER,OTH,18
+SHELBY,U. S. Senator,,David M. Alameel,DEM,997
+SHELBY,U. S. Senator,,John Cornyn,REP,4293
+SHELBY,U. S. Senator,,OTHER,OTH,128
+SHERMAN,U. S. Senator,,David M. Alameel,DEM,30
+SHERMAN,U. S. Senator,,John Cornyn,REP,545
+SHERMAN,U. S. Senator,,OTHER,OTH,17
+SMITH,U. S. Senator,,David M. Alameel,DEM,10110
+SMITH,U. S. Senator,,John Cornyn,REP,36935
+SMITH,U. S. Senator,,OTHER,OTH,1364
+SOMERVELL,U. S. Senator,,David M. Alameel,DEM,302
+SOMERVELL,U. S. Senator,,John Cornyn,REP,1841
+SOMERVELL,U. S. Senator,,OTHER,OTH,72
+STARR,U. S. Senator,,David M. Alameel,DEM,3795
+STARR,U. S. Senator,,John Cornyn,REP,961
+STARR,U. S. Senator,,OTHER,OTH,212
+STEPHENS,U. S. Senator,,David M. Alameel,DEM,159
+STEPHENS,U. S. Senator,,John Cornyn,REP,1725
+STEPHENS,U. S. Senator,,OTHER,OTH,31
+STERLING,U. S. Senator,,David M. Alameel,DEM,20
+STERLING,U. S. Senator,,John Cornyn,REP,433
+STERLING,U. S. Senator,,OTHER,OTH,12
+STONEWALL,U. S. Senator,,David M. Alameel,DEM,72
+STONEWALL,U. S. Senator,,John Cornyn,REP,284
+STONEWALL,U. S. Senator,,OTHER,OTH,13
+SUTTON,U. S. Senator,,David M. Alameel,DEM,91
+SUTTON,U. S. Senator,,John Cornyn,REP,626
+SUTTON,U. S. Senator,,OTHER,OTH,16
+SWISHER,U. S. Senator,,David M. Alameel,DEM,288
+SWISHER,U. S. Senator,,John Cornyn,REP,1033
+SWISHER,U. S. Senator,,OTHER,OTH,56
+TARRANT,U. S. Senator,,David M. Alameel,DEM,132713
+TARRANT,U. S. Senator,,John Cornyn,REP,220424
+TARRANT,U. S. Senator,,OTHER,OTH,14133
+TAYLOR,U. S. Senator,,David M. Alameel,DEM,3376
+TAYLOR,U. S. Senator,,John Cornyn,REP,18916
+TAYLOR,U. S. Senator,,OTHER,OTH,864
+TERRELL,U. S. Senator,,David M. Alameel,DEM,118
+TERRELL,U. S. Senator,,John Cornyn,REP,240
+TERRELL,U. S. Senator,,OTHER,OTH,25
+TERRY,U. S. Senator,,David M. Alameel,DEM,307
+TERRY,U. S. Senator,,John Cornyn,REP,1818
+TERRY,U. S. Senator,,OTHER,OTH,99
+THROCKMORTON,U. S. Senator,,David M. Alameel,DEM,53
+THROCKMORTON,U. S. Senator,,John Cornyn,REP,445
+THROCKMORTON,U. S. Senator,,OTHER,OTH,18
+TITUS,U. S. Senator,,David M. Alameel,DEM,1146
+TITUS,U. S. Senator,,John Cornyn,REP,3812
+TITUS,U. S. Senator,,OTHER,OTH,137
+TOM GREEN,U. S. Senator,,David M. Alameel,DEM,2961
+TOM GREEN,U. S. Senator,,John Cornyn,REP,14631
+TOM GREEN,U. S. Senator,,OTHER,OTH,691
+TRAVIS,U. S. Senator,,David M. Alameel,DEM,147783
+TRAVIS,U. S. Senator,,John Cornyn,REP,98018
+TRAVIS,U. S. Senator,,OTHER,OTH,18271
+TRINITY,U. S. Senator,,David M. Alameel,DEM,827
+TRINITY,U. S. Senator,,John Cornyn,REP,2878
+TRINITY,U. S. Senator,,OTHER,OTH,125
+TYLER,U. S. Senator,,David M. Alameel,DEM,814
+TYLER,U. S. Senator,,John Cornyn,REP,3652
+TYLER,U. S. Senator,,OTHER,OTH,178
+UPSHUR,U. S. Senator,,David M. Alameel,DEM,1271
+UPSHUR,U. S. Senator,,John Cornyn,REP,6979
+UPSHUR,U. S. Senator,,OTHER,OTH,310
+UPTON,U. S. Senator,,David M. Alameel,DEM,92
+UPTON,U. S. Senator,,John Cornyn,REP,505
+UPTON,U. S. Senator,,OTHER,OTH,31
+UVALDE,U. S. Senator,,David M. Alameel,DEM,1856
+UVALDE,U. S. Senator,,John Cornyn,REP,2979
+UVALDE,U. S. Senator,,OTHER,OTH,184
+VAL VERDE,U. S. Senator,,David M. Alameel,DEM,3237
+VAL VERDE,U. S. Senator,,John Cornyn,REP,3333
+VAL VERDE,U. S. Senator,,OTHER,OTH,415
+VAN ZANDT,U. S. Senator,,David M. Alameel,DEM,1547
+VAN ZANDT,U. S. Senator,,John Cornyn,REP,9864
+VAN ZANDT,U. S. Senator,,OTHER,OTH,374
+VICTORIA,U. S. Senator,,David M. Alameel,DEM,3701
+VICTORIA,U. S. Senator,,John Cornyn,REP,12706
+VICTORIA,U. S. Senator,,OTHER,OTH,564
+WALKER,U. S. Senator,,David M. Alameel,DEM,2785
+WALKER,U. S. Senator,,John Cornyn,REP,7926
+WALKER,U. S. Senator,,OTHER,OTH,508
+WALLER,U. S. Senator,,David M. Alameel,DEM,2352
+WALLER,U. S. Senator,,John Cornyn,REP,6426
+WALLER,U. S. Senator,,OTHER,OTH,292
+WARD,U. S. Senator,,David M. Alameel,DEM,416
+WARD,U. S. Senator,,John Cornyn,REP,1447
+WARD,U. S. Senator,,OTHER,OTH,86
+WASHINGTON,U. S. Senator,,David M. Alameel,DEM,1582
+WASHINGTON,U. S. Senator,,John Cornyn,REP,7052
+WASHINGTON,U. S. Senator,,OTHER,OTH,287
+WEBB,U. S. Senator,,David M. Alameel,DEM,15223
+WEBB,U. S. Senator,,John Cornyn,REP,7488
+WEBB,U. S. Senator,,OTHER,OTH,3003
+WHARTON,U. S. Senator,,David M. Alameel,DEM,1749
+WHARTON,U. S. Senator,,John Cornyn,REP,6315
+WHARTON,U. S. Senator,,OTHER,OTH,220
+WHEELER,U. S. Senator,,David M. Alameel,DEM,97
+WHEELER,U. S. Senator,,John Cornyn,REP,1168
+WHEELER,U. S. Senator,,OTHER,OTH,32
+WICHITA,U. S. Senator,,David M. Alameel,DEM,4133
+WICHITA,U. S. Senator,,John Cornyn,REP,16039
+WICHITA,U. S. Senator,,OTHER,OTH,685
+WILBARGER,U. S. Senator,,David M. Alameel,DEM,481
+WILBARGER,U. S. Senator,,John Cornyn,REP,2098
+WILBARGER,U. S. Senator,,OTHER,OTH,72
+WILLACY,U. S. Senator,,David M. Alameel,DEM,1093
+WILLACY,U. S. Senator,,John Cornyn,REP,804
+WILLACY,U. S. Senator,,OTHER,OTH,145
+WILLIAMSON,U. S. Senator,,David M. Alameel,DEM,33857
+WILLIAMSON,U. S. Senator,,John Cornyn,REP,63387
+WILLIAMSON,U. S. Senator,,OTHER,OTH,5826
+WILSON,U. S. Senator,,David M. Alameel,DEM,2182
+WILSON,U. S. Senator,,John Cornyn,REP,7755
+WILSON,U. S. Senator,,OTHER,OTH,402
+WINKLER,U. S. Senator,,David M. Alameel,DEM,129
+WINKLER,U. S. Senator,,John Cornyn,REP,787
+WINKLER,U. S. Senator,,OTHER,OTH,43
+WISE,U. S. Senator,,David M. Alameel,DEM,1670
+WISE,U. S. Senator,,John Cornyn,REP,10330
+WISE,U. S. Senator,,OTHER,OTH,485
+WOOD,U. S. Senator,,David M. Alameel,DEM,1249
+WOOD,U. S. Senator,,John Cornyn,REP,9564
+WOOD,U. S. Senator,,OTHER,OTH,246
+YOAKUM,U. S. Senator,,David M. Alameel,DEM,75
+YOAKUM,U. S. Senator,,John Cornyn,REP,1017
+YOAKUM,U. S. Senator,,OTHER,OTH,32
+YOUNG,U. S. Senator,,David M. Alameel,DEM,524
+YOUNG,U. S. Senator,,John Cornyn,REP,4431
+YOUNG,U. S. Senator,,OTHER,OTH,192
+ZAPATA,U. S. Senator,,David M. Alameel,DEM,745
+ZAPATA,U. S. Senator,,John Cornyn,REP,313
+ZAPATA,U. S. Senator,,OTHER,OTH,64
+ZAVALA,U. S. Senator,,David M. Alameel,DEM,1037
+ZAVALA,U. S. Senator,,John Cornyn,REP,322
+ZAVALA,U. S. Senator,,OTHER,OTH,64

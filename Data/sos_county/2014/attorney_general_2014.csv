@@ -1,0 +1,763 @@
+county,office,district,candidate,party,votes
+ANDERSON,Attorney General,,Sam Houston,DEM,2244
+ANDERSON,Attorney General,,Ken Paxton,REP,7686
+ANDERSON,Attorney General,,OTHER,OTH,223
+ANDREWS,Attorney General,,Sam Houston,DEM,245
+ANDREWS,Attorney General,,Ken Paxton,REP,1898
+ANDREWS,Attorney General,,OTHER,OTH,45
+ANGELINA,Attorney General,,Sam Houston,DEM,3879
+ANGELINA,Attorney General,,Ken Paxton,REP,12513
+ANGELINA,Attorney General,,OTHER,OTH,258
+ARANSAS,Attorney General,,Sam Houston,DEM,1416
+ARANSAS,Attorney General,,Ken Paxton,REP,4396
+ARANSAS,Attorney General,,OTHER,OTH,177
+ARCHER,Attorney General,,Sam Houston,DEM,346
+ARCHER,Attorney General,,Ken Paxton,REP,2187
+ARCHER,Attorney General,,OTHER,OTH,51
+ARMSTRONG,Attorney General,,Sam Houston,DEM,58
+ARMSTRONG,Attorney General,,Ken Paxton,REP,498
+ARMSTRONG,Attorney General,,OTHER,OTH,11
+ATASCOSA,Attorney General,,Sam Houston,DEM,2507
+ATASCOSA,Attorney General,,Ken Paxton,REP,4637
+ATASCOSA,Attorney General,,OTHER,OTH,197
+AUSTIN,Attorney General,,Sam Houston,DEM,1178
+AUSTIN,Attorney General,,Ken Paxton,REP,5805
+AUSTIN,Attorney General,,OTHER,OTH,124
+BAILEY,Attorney General,,Sam Houston,DEM,142
+BAILEY,Attorney General,,Ken Paxton,REP,827
+BAILEY,Attorney General,,OTHER,OTH,12
+BANDERA,Attorney General,,Sam Houston,DEM,1154
+BANDERA,Attorney General,,Ken Paxton,REP,4899
+BANDERA,Attorney General,,OTHER,OTH,238
+BASTROP,Attorney General,,Sam Houston,DEM,6269
+BASTROP,Attorney General,,Ken Paxton,REP,9395
+BASTROP,Attorney General,,OTHER,OTH,1082
+BAYLOR,Attorney General,,Sam Houston,DEM,154
+BAYLOR,Attorney General,,Ken Paxton,REP,634
+BAYLOR,Attorney General,,OTHER,OTH,21
+BEE,Attorney General,,Sam Houston,DEM,2286
+BEE,Attorney General,,Ken Paxton,REP,2614
+BEE,Attorney General,,OTHER,OTH,155
+BELL,Attorney General,,Sam Houston,DEM,14340
+BELL,Attorney General,,Ken Paxton,REP,27917
+BELL,Attorney General,,OTHER,OTH,1297
+BEXAR,Attorney General,,Sam Houston,DEM,138211
+BEXAR,Attorney General,,Ken Paxton,REP,147256
+BEXAR,Attorney General,,OTHER,OTH,11363
+BLANCO,Attorney General,,Sam Houston,DEM,836
+BLANCO,Attorney General,,Ken Paxton,REP,2562
+BLANCO,Attorney General,,OTHER,OTH,169
+BORDEN,Attorney General,,Sam Houston,DEM,22
+BORDEN,Attorney General,,Ken Paxton,REP,229
+BORDEN,Attorney General,,OTHER,OTH,2
+BOSQUE,Attorney General,,Sam Houston,DEM,929
+BOSQUE,Attorney General,,Ken Paxton,REP,3786
+BOSQUE,Attorney General,,OTHER,OTH,113
+BOWIE,Attorney General,,Sam Houston,DEM,5751
+BOWIE,Attorney General,,Ken Paxton,REP,14834
+BOWIE,Attorney General,,OTHER,OTH,422
+BRAZORIA,Attorney General,,Sam Houston,DEM,18798
+BRAZORIA,Attorney General,,Ken Paxton,REP,41505
+BRAZORIA,Attorney General,,OTHER,OTH,1693
+BRAZOS,Attorney General,,Sam Houston,DEM,9142
+BRAZOS,Attorney General,,Ken Paxton,REP,20936
+BRAZOS,Attorney General,,OTHER,OTH,1145
+BREWSTER,Attorney General,,Sam Houston,DEM,1363
+BREWSTER,Attorney General,,Ken Paxton,REP,1339
+BREWSTER,Attorney General,,OTHER,OTH,150
+BRISCOE,Attorney General,,Sam Houston,DEM,76
+BRISCOE,Attorney General,,Ken Paxton,REP,418
+BRISCOE,Attorney General,,OTHER,OTH,4
+BROOKS,Attorney General,,Sam Houston,DEM,1458
+BROOKS,Attorney General,,Ken Paxton,REP,396
+BROOKS,Attorney General,,OTHER,OTH,148
+BROWN,Attorney General,,Sam Houston,DEM,1017
+BROWN,Attorney General,,Ken Paxton,REP,6929
+BROWN,Attorney General,,OTHER,OTH,177
+BURLESON,Attorney General,,Sam Houston,DEM,1003
+BURLESON,Attorney General,,Ken Paxton,REP,3081
+BURLESON,Attorney General,,OTHER,OTH,81
+BURNET,Attorney General,,Sam Houston,DEM,2350
+BURNET,Attorney General,,Ken Paxton,REP,8933
+BURNET,Attorney General,,OTHER,OTH,484
+CALDWELL,Attorney General,,Sam Houston,DEM,3475
+CALDWELL,Attorney General,,Ken Paxton,REP,4799
+CALDWELL,Attorney General,,OTHER,OTH,487
+CALHOUN,Attorney General,,Sam Houston,DEM,1316
+CALHOUN,Attorney General,,Ken Paxton,REP,2600
+CALHOUN,Attorney General,,OTHER,OTH,124
+CALLAHAN,Attorney General,,Sam Houston,DEM,345
+CALLAHAN,Attorney General,,Ken Paxton,REP,2547
+CALLAHAN,Attorney General,,OTHER,OTH,72
+CAMERON,Attorney General,,Sam Houston,DEM,21566
+CAMERON,Attorney General,,Ken Paxton,REP,14585
+CAMERON,Attorney General,,OTHER,OTH,1996
+CAMP,Attorney General,,Sam Houston,DEM,762
+CAMP,Attorney General,,Ken Paxton,REP,1765
+CAMP,Attorney General,,OTHER,OTH,55
+CARSON,Attorney General,,Sam Houston,DEM,223
+CARSON,Attorney General,,Ken Paxton,REP,1567
+CARSON,Attorney General,,OTHER,OTH,33
+CASS,Attorney General,,Sam Houston,DEM,1812
+CASS,Attorney General,,Ken Paxton,REP,4938
+CASS,Attorney General,,OTHER,OTH,111
+CASTRO,Attorney General,,Sam Houston,DEM,251
+CASTRO,Attorney General,,Ken Paxton,REP,855
+CASTRO,Attorney General,,OTHER,OTH,24
+CHAMBERS,Attorney General,,Sam Houston,DEM,1437
+CHAMBERS,Attorney General,,Ken Paxton,REP,6775
+CHAMBERS,Attorney General,,OTHER,OTH,142
+CHEROKEE,Attorney General,,Sam Houston,DEM,1983
+CHEROKEE,Attorney General,,Ken Paxton,REP,7419
+CHEROKEE,Attorney General,,OTHER,OTH,185
+CHILDRESS,Attorney General,,Sam Houston,DEM,133
+CHILDRESS,Attorney General,,Ken Paxton,REP,932
+CHILDRESS,Attorney General,,OTHER,OTH,15
+CLAY,Attorney General,,Sam Houston,DEM,425
+CLAY,Attorney General,,Ken Paxton,REP,2281
+CLAY,Attorney General,,OTHER,OTH,65
+COCHRAN,Attorney General,,Sam Houston,DEM,77
+COCHRAN,Attorney General,,Ken Paxton,REP,392
+COCHRAN,Attorney General,,OTHER,OTH,15
+COKE,Attorney General,,Sam Houston,DEM,90
+COKE,Attorney General,,Ken Paxton,REP,653
+COKE,Attorney General,,OTHER,OTH,14
+COLEMAN,Attorney General,,Sam Houston,DEM,256
+COLEMAN,Attorney General,,Ken Paxton,REP,1896
+COLEMAN,Attorney General,,OTHER,OTH,48
+COLLIN,Attorney General,,Sam Houston,DEM,54836
+COLLIN,Attorney General,,Ken Paxton,REP,115885
+COLLIN,Attorney General,,OTHER,OTH,4790
+COLLINGSWORTH,Attorney General,,Sam Houston,DEM,138
+COLLINGSWORTH,Attorney General,,Ken Paxton,REP,612
+COLLINGSWORTH,Attorney General,,OTHER,OTH,15
+COLORADO,Attorney General,,Sam Houston,DEM,1106
+COLORADO,Attorney General,,Ken Paxton,REP,3871
+COLORADO,Attorney General,,OTHER,OTH,79
+COMAL,Attorney General,,Sam Houston,DEM,6939
+COMAL,Attorney General,,Ken Paxton,REP,26510
+COMAL,Attorney General,,OTHER,OTH,1073
+COMANCHE,Attorney General,,Sam Houston,DEM,518
+COMANCHE,Attorney General,,Ken Paxton,REP,2452
+COMANCHE,Attorney General,,OTHER,OTH,84
+CONCHO,Attorney General,,Sam Houston,DEM,92
+CONCHO,Attorney General,,Ken Paxton,REP,485
+CONCHO,Attorney General,,OTHER,OTH,13
+COOKE,Attorney General,,Sam Houston,DEM,1256
+COOKE,Attorney General,,Ken Paxton,REP,7334
+COOKE,Attorney General,,OTHER,OTH,168
+CORYELL,Attorney General,,Sam Houston,DEM,2074
+CORYELL,Attorney General,,Ken Paxton,REP,6296
+CORYELL,Attorney General,,OTHER,OTH,279
+COTTLE,Attorney General,,Sam Houston,DEM,60
+COTTLE,Attorney General,,Ken Paxton,REP,279
+COTTLE,Attorney General,,OTHER,OTH,10
+CRANE,Attorney General,,Sam Houston,DEM,153
+CRANE,Attorney General,,Ken Paxton,REP,650
+CRANE,Attorney General,,OTHER,OTH,26
+CROCKETT,Attorney General,,Sam Houston,DEM,214
+CROCKETT,Attorney General,,Ken Paxton,REP,543
+CROCKETT,Attorney General,,OTHER,OTH,30
+CROSBY,Attorney General,,Sam Houston,DEM,316
+CROSBY,Attorney General,,Ken Paxton,REP,719
+CROSBY,Attorney General,,OTHER,OTH,15
+CULBERSON,Attorney General,,Sam Houston,DEM,142
+CULBERSON,Attorney General,,Ken Paxton,REP,147
+CULBERSON,Attorney General,,OTHER,OTH,16
+DALLAM,Attorney General,,Sam Houston,DEM,104
+DALLAM,Attorney General,,Ken Paxton,REP,700
+DALLAM,Attorney General,,OTHER,OTH,29
+DALLAS,Attorney General,,Sam Houston,DEM,216030
+DALLAS,Attorney General,,Ken Paxton,REP,175141
+DALLAS,Attorney General,,OTHER,OTH,10911
+DAWSON,Attorney General,,Sam Houston,DEM,385
+DAWSON,Attorney General,,Ken Paxton,REP,1569
+DAWSON,Attorney General,,OTHER,OTH,42
+DEAF SMITH,Attorney General,,Sam Houston,DEM,506
+DEAF SMITH,Attorney General,,Ken Paxton,REP,2111
+DEAF SMITH,Attorney General,,OTHER,OTH,56
+DELTA,Attorney General,,Sam Houston,DEM,311
+DELTA,Attorney General,,Ken Paxton,REP,995
+DELTA,Attorney General,,OTHER,OTH,35
+DENTON,Attorney General,,Sam Houston,DEM,43877
+DENTON,Attorney General,,Ken Paxton,REP,93644
+DENTON,Attorney General,,OTHER,OTH,5158
+DEWITT,Attorney General,,Sam Houston,DEM,652
+DEWITT,Attorney General,,Ken Paxton,REP,3227
+DEWITT,Attorney General,,OTHER,OTH,67
+DICKENS,Attorney General,,Sam Houston,DEM,75
+DICKENS,Attorney General,,Ken Paxton,REP,419
+DICKENS,Attorney General,,OTHER,OTH,13
+DIMMIT,Attorney General,,Sam Houston,DEM,1206
+DIMMIT,Attorney General,,Ken Paxton,REP,508
+DIMMIT,Attorney General,,OTHER,OTH,74
+DONLEY,Attorney General,,Sam Houston,DEM,117
+DONLEY,Attorney General,,Ken Paxton,REP,786
+DONLEY,Attorney General,,OTHER,OTH,23
+DUVAL,Attorney General,,Sam Houston,DEM,2368
+DUVAL,Attorney General,,Ken Paxton,REP,511
+DUVAL,Attorney General,,OTHER,OTH,121
+EASTLAND,Attorney General,,Sam Houston,DEM,441
+EASTLAND,Attorney General,,Ken Paxton,REP,3388
+EASTLAND,Attorney General,,OTHER,OTH,87
+ECTOR,Attorney General,,Sam Houston,DEM,2603
+ECTOR,Attorney General,,Ken Paxton,REP,11838
+ECTOR,Attorney General,,OTHER,OTH,353
+EDWARDS,Attorney General,,Sam Houston,DEM,198
+EDWARDS,Attorney General,,Ken Paxton,REP,497
+EDWARDS,Attorney General,,OTHER,OTH,30
+ELLIS,Attorney General,,Sam Houston,DEM,7598
+ELLIS,Attorney General,,Ken Paxton,REP,23439
+ELLIS,Attorney General,,OTHER,OTH,784
+EL PASO,Attorney General,,Sam Houston,DEM,46022
+EL PASO,Attorney General,,Ken Paxton,REP,28858
+EL PASO,Attorney General,,OTHER,OTH,4046
+ERATH,Attorney General,,Sam Houston,DEM,1197
+ERATH,Attorney General,,Ken Paxton,REP,5980
+ERATH,Attorney General,,OTHER,OTH,182
+FALLS,Attorney General,,Sam Houston,DEM,910
+FALLS,Attorney General,,Ken Paxton,REP,2034
+FALLS,Attorney General,,OTHER,OTH,54
+FANNIN,Attorney General,,Sam Houston,DEM,1433
+FANNIN,Attorney General,,Ken Paxton,REP,4856
+FANNIN,Attorney General,,OTHER,OTH,166
+FAYETTE,Attorney General,,Sam Houston,DEM,1479
+FAYETTE,Attorney General,,Ken Paxton,REP,5709
+FAYETTE,Attorney General,,OTHER,OTH,164
+FISHER,Attorney General,,Sam Houston,DEM,429
+FISHER,Attorney General,,Ken Paxton,REP,742
+FISHER,Attorney General,,OTHER,OTH,20
+FLOYD,Attorney General,,Sam Houston,DEM,166
+FLOYD,Attorney General,,Ken Paxton,REP,916
+FLOYD,Attorney General,,OTHER,OTH,10
+FOARD,Attorney General,,Sam Houston,DEM,116
+FOARD,Attorney General,,Ken Paxton,REP,176
+FOARD,Attorney General,,OTHER,OTH,6
+FORT BEND,Attorney General,,Sam Houston,DEM,54967
+FORT BEND,Attorney General,,Ken Paxton,REP,73752
+FORT BEND,Attorney General,,OTHER,OTH,2770
+FRANKLIN,Attorney General,,Sam Houston,DEM,393
+FRANKLIN,Attorney General,,Ken Paxton,REP,2116
+FRANKLIN,Attorney General,,OTHER,OTH,47
+FREESTONE,Attorney General,,Sam Houston,DEM,920
+FREESTONE,Attorney General,,Ken Paxton,REP,3412
+FREESTONE,Attorney General,,OTHER,OTH,72
+FRIO,Attorney General,,Sam Houston,DEM,931
+FRIO,Attorney General,,Ken Paxton,REP,844
+FRIO,Attorney General,,OTHER,OTH,45
+GAINES,Attorney General,,Sam Houston,DEM,294
+GAINES,Attorney General,,Ken Paxton,REP,2125
+GAINES,Attorney General,,OTHER,OTH,65
+GALVESTON,Attorney General,,Sam Houston,DEM,22079
+GALVESTON,Attorney General,,Ken Paxton,REP,40476
+GALVESTON,Attorney General,,OTHER,OTH,1768
+GARZA,Attorney General,,Sam Houston,DEM,105
+GARZA,Attorney General,,Ken Paxton,REP,707
+GARZA,Attorney General,,OTHER,OTH,17
+GILLESPIE,Attorney General,,Sam Houston,DEM,1407
+GILLESPIE,Attorney General,,Ken Paxton,REP,7109
+GILLESPIE,Attorney General,,OTHER,OTH,245
+GLASSCOCK,Attorney General,,Sam Houston,DEM,19
+GLASSCOCK,Attorney General,,Ken Paxton,REP,364
+GLASSCOCK,Attorney General,,OTHER,OTH,6
+GOLIAD,Attorney General,,Sam Houston,DEM,867
+GOLIAD,Attorney General,,Ken Paxton,REP,1758
+GOLIAD,Attorney General,,OTHER,OTH,46
+GONZALES,Attorney General,,Sam Houston,DEM,803
+GONZALES,Attorney General,,Ken Paxton,REP,2737
+GONZALES,Attorney General,,OTHER,OTH,80
+GRAY,Attorney General,,Sam Houston,DEM,303
+GRAY,Attorney General,,Ken Paxton,REP,3349
+GRAY,Attorney General,,OTHER,OTH,76
+GRAYSON,Attorney General,,Sam Houston,DEM,5180
+GRAYSON,Attorney General,,Ken Paxton,REP,17633
+GRAYSON,Attorney General,,OTHER,OTH,521
+GREGG,Attorney General,,Sam Houston,DEM,5940
+GREGG,Attorney General,,Ken Paxton,REP,16832
+GREGG,Attorney General,,OTHER,OTH,435
+GRIMES,Attorney General,,Sam Houston,DEM,1127
+GRIMES,Attorney General,,Ken Paxton,REP,3674
+GRIMES,Attorney General,,OTHER,OTH,130
+GUADALUPE,Attorney General,,Sam Houston,DEM,8132
+GUADALUPE,Attorney General,,Ken Paxton,REP,21255
+GUADALUPE,Attorney General,,OTHER,OTH,918
+HALE,Attorney General,,Sam Houston,DEM,649
+HALE,Attorney General,,Ken Paxton,REP,3560
+HALE,Attorney General,,OTHER,OTH,79
+HALL,Attorney General,,Sam Houston,DEM,96
+HALL,Attorney General,,Ken Paxton,REP,463
+HALL,Attorney General,,OTHER,OTH,7
+HAMILTON,Attorney General,,Sam Houston,DEM,449
+HAMILTON,Attorney General,,Ken Paxton,REP,1866
+HAMILTON,Attorney General,,OTHER,OTH,44
+HANSFORD,Attorney General,,Sam Houston,DEM,64
+HANSFORD,Attorney General,,Ken Paxton,REP,1094
+HANSFORD,Attorney General,,OTHER,OTH,23
+HARDEMAN,Attorney General,,Sam Houston,DEM,137
+HARDEMAN,Attorney General,,Ken Paxton,REP,511
+HARDEMAN,Attorney General,,OTHER,OTH,9
+HARDIN,Attorney General,,Sam Houston,DEM,1666
+HARDIN,Attorney General,,Ken Paxton,REP,9614
+HARDIN,Attorney General,,OTHER,OTH,184
+HARRIS,Attorney General,,Sam Houston,DEM,309926
+HARRIS,Attorney General,,Ken Paxton,REP,349023
+HARRIS,Attorney General,,OTHER,OTH,17457
+HARRISON,Attorney General,,Sam Houston,DEM,4104
+HARRISON,Attorney General,,Ken Paxton,REP,10134
+HARRISON,Attorney General,,OTHER,OTH,262
+HARTLEY,Attorney General,,Sam Houston,DEM,92
+HARTLEY,Attorney General,,Ken Paxton,REP,996
+HARTLEY,Attorney General,,OTHER,OTH,15
+HASKELL,Attorney General,,Sam Houston,DEM,277
+HASKELL,Attorney General,,Ken Paxton,REP,755
+HASKELL,Attorney General,,OTHER,OTH,12
+HAYS,Attorney General,,Sam Houston,DEM,16121
+HAYS,Attorney General,,Ken Paxton,REP,20359
+HAYS,Attorney General,,OTHER,OTH,2366
+HEMPHILL,Attorney General,,Sam Houston,DEM,91
+HEMPHILL,Attorney General,,Ken Paxton,REP,691
+HEMPHILL,Attorney General,,OTHER,OTH,30
+HENDERSON,Attorney General,,Sam Houston,DEM,3570
+HENDERSON,Attorney General,,Ken Paxton,REP,13132
+HENDERSON,Attorney General,,OTHER,OTH,369
+HIDALGO,Attorney General,,Sam Houston,DEM,49935
+HIDALGO,Attorney General,,Ken Paxton,REP,24107
+HIDALGO,Attorney General,,OTHER,OTH,3313
+HILL,Attorney General,,Sam Houston,DEM,1917
+HILL,Attorney General,,Ken Paxton,REP,6777
+HILL,Attorney General,,OTHER,OTH,143
+HOCKLEY,Attorney General,,Sam Houston,DEM,504
+HOCKLEY,Attorney General,,Ken Paxton,REP,3088
+HOCKLEY,Attorney General,,OTHER,OTH,64
+HOOD,Attorney General,,Sam Houston,DEM,2368
+HOOD,Attorney General,,Ken Paxton,REP,10785
+HOOD,Attorney General,,OTHER,OTH,347
+HOPKINS,Attorney General,,Sam Houston,DEM,1732
+HOPKINS,Attorney General,,Ken Paxton,REP,5597
+HOPKINS,Attorney General,,OTHER,OTH,132
+HOUSTON,Attorney General,,Sam Houston,DEM,974
+HOUSTON,Attorney General,,Ken Paxton,REP,3567
+HOUSTON,Attorney General,,OTHER,OTH,64
+HOWARD,Attorney General,,Sam Houston,DEM,763
+HOWARD,Attorney General,,Ken Paxton,REP,3343
+HOWARD,Attorney General,,OTHER,OTH,126
+HUDSPETH,Attorney General,,Sam Houston,DEM,146
+HUDSPETH,Attorney General,,Ken Paxton,REP,233
+HUDSPETH,Attorney General,,OTHER,OTH,26
+HUNT,Attorney General,,Sam Houston,DEM,3412
+HUNT,Attorney General,,Ken Paxton,REP,12320
+HUNT,Attorney General,,OTHER,OTH,423
+HUTCHINSON,Attorney General,,Sam Houston,DEM,492
+HUTCHINSON,Attorney General,,Ken Paxton,REP,3892
+HUTCHINSON,Attorney General,,OTHER,OTH,88
+IRION,Attorney General,,Sam Houston,DEM,59
+IRION,Attorney General,,Ken Paxton,REP,361
+IRION,Attorney General,,OTHER,OTH,11
+JACK,Attorney General,,Sam Houston,DEM,224
+JACK,Attorney General,,Ken Paxton,REP,1460
+JACK,Attorney General,,OTHER,OTH,35
+JACKSON,Attorney General,,Sam Houston,DEM,539
+JACKSON,Attorney General,,Ken Paxton,REP,2303
+JACKSON,Attorney General,,OTHER,OTH,45
+JASPER,Attorney General,,Sam Houston,DEM,1593
+JASPER,Attorney General,,Ken Paxton,REP,5342
+JASPER,Attorney General,,OTHER,OTH,104
+JEFF DAVIS,Attorney General,,Sam Houston,DEM,387
+JEFF DAVIS,Attorney General,,Ken Paxton,REP,536
+JEFF DAVIS,Attorney General,,OTHER,OTH,60
+JEFFERSON,Attorney General,,Sam Houston,DEM,26044
+JEFFERSON,Attorney General,,Ken Paxton,REP,25682
+JEFFERSON,Attorney General,,OTHER,OTH,745
+JIM HOGG,Attorney General,,Sam Houston,DEM,540
+JIM HOGG,Attorney General,,Ken Paxton,REP,143
+JIM HOGG,Attorney General,,OTHER,OTH,27
+JIM WELLS,Attorney General,,Sam Houston,DEM,3029
+JIM WELLS,Attorney General,,Ken Paxton,REP,2345
+JIM WELLS,Attorney General,,OTHER,OTH,193
+JOHNSON,Attorney General,,Sam Houston,DEM,5594
+JOHNSON,Attorney General,,Ken Paxton,REP,22666
+JOHNSON,Attorney General,,OTHER,OTH,769
+JONES,Attorney General,,Sam Houston,DEM,643
+JONES,Attorney General,,Ken Paxton,REP,2550
+JONES,Attorney General,,OTHER,OTH,83
+KARNES,Attorney General,,Sam Houston,DEM,683
+KARNES,Attorney General,,Ken Paxton,REP,1717
+KARNES,Attorney General,,OTHER,OTH,44
+KAUFMAN,Attorney General,,Sam Houston,DEM,5117
+KAUFMAN,Attorney General,,Ken Paxton,REP,14655
+KAUFMAN,Attorney General,,OTHER,OTH,451
+KENDALL,Attorney General,,Sam Houston,DEM,1835
+KENDALL,Attorney General,,Ken Paxton,REP,9621
+KENDALL,Attorney General,,OTHER,OTH,314
+KENEDY,Attorney General,,Sam Houston,DEM,62
+KENEDY,Attorney General,,Ken Paxton,REP,51
+KENEDY,Attorney General,,OTHER,OTH,2
+KENT,Attorney General,,Sam Houston,DEM,67
+KENT,Attorney General,,Ken Paxton,REP,218
+KENT,Attorney General,,OTHER,OTH,9
+KERR,Attorney General,,Sam Houston,DEM,2665
+KERR,Attorney General,,Ken Paxton,REP,11673
+KERR,Attorney General,,OTHER,OTH,451
+KIMBLE,Attorney General,,Sam Houston,DEM,129
+KIMBLE,Attorney General,,Ken Paxton,REP,1063
+KIMBLE,Attorney General,,OTHER,OTH,15
+KING,Attorney General,,Sam Houston,DEM,3
+KING,Attorney General,,Ken Paxton,REP,84
+KING,Attorney General,,OTHER,OTH,1
+KINNEY,Attorney General,,Sam Houston,DEM,366
+KINNEY,Attorney General,,Ken Paxton,REP,690
+KINNEY,Attorney General,,OTHER,OTH,46
+KLEBERG,Attorney General,,Sam Houston,DEM,2836
+KLEBERG,Attorney General,,Ken Paxton,REP,2519
+KLEBERG,Attorney General,,OTHER,OTH,202
+KNOX,Attorney General,,Sam Houston,DEM,189
+KNOX,Attorney General,,Ken Paxton,REP,655
+KNOX,Attorney General,,OTHER,OTH,14
+LAMAR,Attorney General,,Sam Houston,DEM,2750
+LAMAR,Attorney General,,Ken Paxton,REP,7698
+LAMAR,Attorney General,,OTHER,OTH,226
+LAMB,Attorney General,,Sam Houston,DEM,319
+LAMB,Attorney General,,Ken Paxton,REP,1734
+LAMB,Attorney General,,OTHER,OTH,32
+LAMPASAS,Attorney General,,Sam Houston,DEM,830
+LAMPASAS,Attorney General,,Ken Paxton,REP,3673
+LAMPASAS,Attorney General,,OTHER,OTH,128
+LA SALLE,Attorney General,,Sam Houston,DEM,418
+LA SALLE,Attorney General,,Ken Paxton,REP,390
+LA SALLE,Attorney General,,OTHER,OTH,19
+LAVACA,Attorney General,,Sam Houston,DEM,783
+LAVACA,Attorney General,,Ken Paxton,REP,4071
+LAVACA,Attorney General,,OTHER,OTH,76
+LEE,Attorney General,,Sam Houston,DEM,988
+LEE,Attorney General,,Ken Paxton,REP,3025
+LEE,Attorney General,,OTHER,OTH,160
+LEON,Attorney General,,Sam Houston,DEM,526
+LEON,Attorney General,,Ken Paxton,REP,3651
+LEON,Attorney General,,OTHER,OTH,56
+LIBERTY,Attorney General,,Sam Houston,DEM,2621
+LIBERTY,Attorney General,,Ken Paxton,REP,9514
+LIBERTY,Attorney General,,OTHER,OTH,230
+LIMESTONE,Attorney General,,Sam Houston,DEM,1032
+LIMESTONE,Attorney General,,Ken Paxton,REP,3193
+LIMESTONE,Attorney General,,OTHER,OTH,54
+LIPSCOMB,Attorney General,,Sam Houston,DEM,86
+LIPSCOMB,Attorney General,,Ken Paxton,REP,744
+LIPSCOMB,Attorney General,,OTHER,OTH,17
+LIVE OAK,Attorney General,,Sam Houston,DEM,417
+LIVE OAK,Attorney General,,Ken Paxton,REP,1957
+LIVE OAK,Attorney General,,OTHER,OTH,50
+LLANO,Attorney General,,Sam Houston,DEM,1262
+LLANO,Attorney General,,Ken Paxton,REP,5524
+LLANO,Attorney General,,OTHER,OTH,227
+LOVING,Attorney General,,Sam Houston,DEM,8
+LOVING,Attorney General,,Ken Paxton,REP,31
+LOVING,Attorney General,,OTHER,OTH,1
+LUBBOCK,Attorney General,,Sam Houston,DEM,10739
+LUBBOCK,Attorney General,,Ken Paxton,REP,34805
+LUBBOCK,Attorney General,,OTHER,OTH,1320
+LYNN,Attorney General,,Sam Houston,DEM,240
+LYNN,Attorney General,,Ken Paxton,REP,918
+LYNN,Attorney General,,OTHER,OTH,19
+MADISON,Attorney General,,Sam Houston,DEM,493
+MADISON,Attorney General,,Ken Paxton,REP,1895
+MADISON,Attorney General,,OTHER,OTH,29
+MARION,Attorney General,,Sam Houston,DEM,728
+MARION,Attorney General,,Ken Paxton,REP,1442
+MARION,Attorney General,,OTHER,OTH,40
+MARTIN,Attorney General,,Sam Houston,DEM,157
+MARTIN,Attorney General,,Ken Paxton,REP,941
+MARTIN,Attorney General,,OTHER,OTH,35
+MASON,Attorney General,,Sam Houston,DEM,232
+MASON,Attorney General,,Ken Paxton,REP,1072
+MASON,Attorney General,,OTHER,OTH,47
+MATAGORDA,Attorney General,,Sam Houston,DEM,2062
+MATAGORDA,Attorney General,,Ken Paxton,REP,4641
+MATAGORDA,Attorney General,,OTHER,OTH,178
+MAVERICK,Attorney General,,Sam Houston,DEM,3715
+MAVERICK,Attorney General,,Ken Paxton,REP,1109
+MAVERICK,Attorney General,,OTHER,OTH,289
+MCCULLOCH,Attorney General,,Sam Houston,DEM,275
+MCCULLOCH,Attorney General,,Ken Paxton,REP,1396
+MCCULLOCH,Attorney General,,OTHER,OTH,50
+MCLENNAN,Attorney General,,Sam Houston,DEM,13107
+MCLENNAN,Attorney General,,Ken Paxton,REP,29662
+MCLENNAN,Attorney General,,OTHER,OTH,988
+MCMULLEN,Attorney General,,Sam Houston,DEM,34
+MCMULLEN,Attorney General,,Ken Paxton,REP,194
+MCMULLEN,Attorney General,,OTHER,OTH,5
+MEDINA,Attorney General,,Sam Houston,DEM,2331
+MEDINA,Attorney General,,Ken Paxton,REP,7200
+MEDINA,Attorney General,,OTHER,OTH,260
+MENARD,Attorney General,,Sam Houston,DEM,61
+MENARD,Attorney General,,Ken Paxton,REP,402
+MENARD,Attorney General,,OTHER,OTH,11
+MIDLAND,Attorney General,,Sam Houston,DEM,3050
+MIDLAND,Attorney General,,Ken Paxton,REP,19810
+MIDLAND,Attorney General,,OTHER,OTH,542
+MILAM,Attorney General,,Sam Houston,DEM,1319
+MILAM,Attorney General,,Ken Paxton,REP,3390
+MILAM,Attorney General,,OTHER,OTH,163
+MILLS,Attorney General,,Sam Houston,DEM,161
+MILLS,Attorney General,,Ken Paxton,REP,1151
+MILLS,Attorney General,,OTHER,OTH,26
+MITCHELL,Attorney General,,Sam Houston,DEM,454
+MITCHELL,Attorney General,,Ken Paxton,REP,729
+MITCHELL,Attorney General,,OTHER,OTH,22
+MONTAGUE,Attorney General,,Sam Houston,DEM,907
+MONTAGUE,Attorney General,,Ken Paxton,REP,5604
+MONTAGUE,Attorney General,,OTHER,OTH,148
+MONTGOMERY,Attorney General,,Sam Houston,DEM,17886
+MONTGOMERY,Attorney General,,Ken Paxton,REP,84004
+MONTGOMERY,Attorney General,,OTHER,OTH,2308
+MOORE,Attorney General,,Sam Houston,DEM,316
+MOORE,Attorney General,,Ken Paxton,REP,2368
+MOORE,Attorney General,,OTHER,OTH,69
+MORRIS,Attorney General,,Sam Houston,DEM,1109
+MORRIS,Attorney General,,Ken Paxton,REP,1852
+MORRIS,Attorney General,,OTHER,OTH,67
+MOTLEY,Attorney General,,Sam Houston,DEM,19
+MOTLEY,Attorney General,,Ken Paxton,REP,331
+MOTLEY,Attorney General,,OTHER,OTH,8
+NACOGDOCHES,Attorney General,,Sam Houston,DEM,2812
+NACOGDOCHES,Attorney General,,Ken Paxton,REP,8803
+NACOGDOCHES,Attorney General,,OTHER,OTH,274
+NAVARRO,Attorney General,,Sam Houston,DEM,2247
+NAVARRO,Attorney General,,Ken Paxton,REP,7000
+NAVARRO,Attorney General,,OTHER,OTH,184
+NEWTON,Attorney General,,Sam Houston,DEM,818
+NEWTON,Attorney General,,Ken Paxton,REP,1964
+NEWTON,Attorney General,,OTHER,OTH,57
+NOLAN,Attorney General,,Sam Houston,DEM,597
+NOLAN,Attorney General,,Ken Paxton,REP,1903
+NOLAN,Attorney General,,OTHER,OTH,83
+NUECES,Attorney General,,Sam Houston,DEM,24863
+NUECES,Attorney General,,Ken Paxton,REP,29204
+NUECES,Attorney General,,OTHER,OTH,2176
+OCHILTREE,Attorney General,,Sam Houston,DEM,87
+OCHILTREE,Attorney General,,Ken Paxton,REP,1460
+OCHILTREE,Attorney General,,OTHER,OTH,25
+OLDHAM,Attorney General,,Sam Houston,DEM,50
+OLDHAM,Attorney General,,Ken Paxton,REP,502
+OLDHAM,Attorney General,,OTHER,OTH,5
+ORANGE,Attorney General,,Sam Houston,DEM,3912
+ORANGE,Attorney General,,Ken Paxton,REP,12786
+ORANGE,Attorney General,,OTHER,OTH,325
+PALO PINTO,Attorney General,,Sam Houston,DEM,1080
+PALO PINTO,Attorney General,,Ken Paxton,REP,4395
+PALO PINTO,Attorney General,,OTHER,OTH,135
+PANOLA,Attorney General,,Sam Houston,DEM,1145
+PANOLA,Attorney General,,Ken Paxton,REP,4502
+PANOLA,Attorney General,,OTHER,OTH,70
+PARKER,Attorney General,,Sam Houston,DEM,4985
+PARKER,Attorney General,,Ken Paxton,REP,25895
+PARKER,Attorney General,,OTHER,OTH,886
+PARMER,Attorney General,,Sam Houston,DEM,161
+PARMER,Attorney General,,Ken Paxton,REP,1217
+PARMER,Attorney General,,OTHER,OTH,14
+PECOS,Attorney General,,Sam Houston,DEM,1086
+PECOS,Attorney General,,Ken Paxton,REP,1685
+PECOS,Attorney General,,OTHER,OTH,123
+POLK,Attorney General,,Sam Houston,DEM,2298
+POLK,Attorney General,,Ken Paxton,REP,7798
+POLK,Attorney General,,OTHER,OTH,244
+POTTER,Attorney General,,Sam Houston,DEM,2917
+POTTER,Attorney General,,Ken Paxton,REP,10430
+POTTER,Attorney General,,OTHER,OTH,354
+PRESIDIO,Attorney General,,Sam Houston,DEM,615
+PRESIDIO,Attorney General,,Ken Paxton,REP,259
+PRESIDIO,Attorney General,,OTHER,OTH,51
+RAINS,Attorney General,,Sam Houston,DEM,412
+RAINS,Attorney General,,Ken Paxton,REP,1972
+RAINS,Attorney General,,OTHER,OTH,47
+RANDALL,Attorney General,,Sam Houston,DEM,3613
+RANDALL,Attorney General,,Ken Paxton,REP,23865
+RANDALL,Attorney General,,OTHER,OTH,661
+REAGAN,Attorney General,,Sam Houston,DEM,70
+REAGAN,Attorney General,,Ken Paxton,REP,404
+REAGAN,Attorney General,,OTHER,OTH,16
+REAL,Attorney General,,Sam Houston,DEM,171
+REAL,Attorney General,,Ken Paxton,REP,839
+REAL,Attorney General,,OTHER,OTH,25
+RED RIVER,Attorney General,,Sam Houston,DEM,716
+RED RIVER,Attorney General,,Ken Paxton,REP,1929
+RED RIVER,Attorney General,,OTHER,OTH,44
+REEVES,Attorney General,,Sam Houston,DEM,607
+REEVES,Attorney General,,Ken Paxton,REP,537
+REEVES,Attorney General,,OTHER,OTH,31
+REFUGIO,Attorney General,,Sam Houston,DEM,774
+REFUGIO,Attorney General,,Ken Paxton,REP,1143
+REFUGIO,Attorney General,,OTHER,OTH,70
+ROBERTS,Attorney General,,Sam Houston,DEM,18
+ROBERTS,Attorney General,,Ken Paxton,REP,312
+ROBERTS,Attorney General,,OTHER,OTH,7
+ROBERTSON,Attorney General,,Sam Houston,DEM,1874
+ROBERTSON,Attorney General,,Ken Paxton,REP,2956
+ROBERTSON,Attorney General,,OTHER,OTH,110
+ROCKWALL,Attorney General,,Sam Houston,DEM,4371
+ROCKWALL,Attorney General,,Ken Paxton,REP,16051
+ROCKWALL,Attorney General,,OTHER,OTH,459
+RUNNELS,Attorney General,,Sam Houston,DEM,268
+RUNNELS,Attorney General,,Ken Paxton,REP,1957
+RUNNELS,Attorney General,,OTHER,OTH,63
+RUSK,Attorney General,,Sam Houston,DEM,1945
+RUSK,Attorney General,,Ken Paxton,REP,8285
+RUSK,Attorney General,,OTHER,OTH,164
+SABINE,Attorney General,,Sam Houston,DEM,447
+SABINE,Attorney General,,Ken Paxton,REP,2232
+SABINE,Attorney General,,OTHER,OTH,36
+SAN AUGUSTINE,Attorney General,,Sam Houston,DEM,857
+SAN AUGUSTINE,Attorney General,,Ken Paxton,REP,1713
+SAN AUGUSTINE,Attorney General,,OTHER,OTH,46
+SAN JACINTO,Attorney General,,Sam Houston,DEM,1764
+SAN JACINTO,Attorney General,,Ken Paxton,REP,4426
+SAN JACINTO,Attorney General,,OTHER,OTH,121
+SAN PATRICIO,Attorney General,,Sam Houston,DEM,4131
+SAN PATRICIO,Attorney General,,Ken Paxton,REP,6868
+SAN PATRICIO,Attorney General,,OTHER,OTH,369
+SAN SABA,Attorney General,,Sam Houston,DEM,167
+SAN SABA,Attorney General,,Ken Paxton,REP,1232
+SAN SABA,Attorney General,,OTHER,OTH,24
+SCHLEICHER,Attorney General,,Sam Houston,DEM,252
+SCHLEICHER,Attorney General,,Ken Paxton,REP,556
+SCHLEICHER,Attorney General,,OTHER,OTH,23
+SCURRY,Attorney General,,Sam Houston,DEM,396
+SCURRY,Attorney General,,Ken Paxton,REP,2380
+SCURRY,Attorney General,,OTHER,OTH,57
+SHACKELFORD,Attorney General,,Sam Houston,DEM,59
+SHACKELFORD,Attorney General,,Ken Paxton,REP,735
+SHACKELFORD,Attorney General,,OTHER,OTH,10
+SHELBY,Attorney General,,Sam Houston,DEM,1259
+SHELBY,Attorney General,,Ken Paxton,REP,4037
+SHELBY,Attorney General,,OTHER,OTH,73
+SHERMAN,Attorney General,,Sam Houston,DEM,58
+SHERMAN,Attorney General,,Ken Paxton,REP,510
+SHERMAN,Attorney General,,OTHER,OTH,14
+SMITH,Attorney General,,Sam Houston,DEM,10923
+SMITH,Attorney General,,Ken Paxton,REP,36596
+SMITH,Attorney General,,OTHER,OTH,915
+SOMERVELL,Attorney General,,Sam Houston,DEM,381
+SOMERVELL,Attorney General,,Ken Paxton,REP,1782
+SOMERVELL,Attorney General,,OTHER,OTH,45
+STARR,Attorney General,,Sam Houston,DEM,3989
+STARR,Attorney General,,Ken Paxton,REP,799
+STARR,Attorney General,,OTHER,OTH,152
+STEPHENS,Attorney General,,Sam Houston,DEM,210
+STEPHENS,Attorney General,,Ken Paxton,REP,1688
+STEPHENS,Attorney General,,OTHER,OTH,22
+STERLING,Attorney General,,Sam Houston,DEM,45
+STERLING,Attorney General,,Ken Paxton,REP,415
+STERLING,Attorney General,,OTHER,OTH,6
+STONEWALL,Attorney General,,Sam Houston,DEM,102
+STONEWALL,Attorney General,,Ken Paxton,REP,258
+STONEWALL,Attorney General,,OTHER,OTH,5
+SUTTON,Attorney General,,Sam Houston,DEM,125
+SUTTON,Attorney General,,Ken Paxton,REP,602
+SUTTON,Attorney General,,OTHER,OTH,9
+SWISHER,Attorney General,,Sam Houston,DEM,392
+SWISHER,Attorney General,,Ken Paxton,REP,969
+SWISHER,Attorney General,,OTHER,OTH,26
+TARRANT,Attorney General,,Sam Houston,DEM,143632
+TARRANT,Attorney General,,Ken Paxton,REP,214529
+TARRANT,Attorney General,,OTHER,OTH,10931
+TAYLOR,Attorney General,,Sam Houston,DEM,4133
+TAYLOR,Attorney General,,Ken Paxton,REP,18463
+TAYLOR,Attorney General,,OTHER,OTH,608
+TERRELL,Attorney General,,Sam Houston,DEM,141
+TERRELL,Attorney General,,Ken Paxton,REP,213
+TERRELL,Attorney General,,OTHER,OTH,27
+TERRY,Attorney General,,Sam Houston,DEM,436
+TERRY,Attorney General,,Ken Paxton,REP,1742
+TERRY,Attorney General,,OTHER,OTH,58
+THROCKMORTON,Attorney General,,Sam Houston,DEM,85
+THROCKMORTON,Attorney General,,Ken Paxton,REP,431
+THROCKMORTON,Attorney General,,OTHER,OTH,11
+TITUS,Attorney General,,Sam Houston,DEM,1412
+TITUS,Attorney General,,Ken Paxton,REP,3545
+TITUS,Attorney General,,OTHER,OTH,89
+TOM GREEN,Attorney General,,Sam Houston,DEM,3756
+TOM GREEN,Attorney General,,Ken Paxton,REP,14079
+TOM GREEN,Attorney General,,OTHER,OTH,537
+TRAVIS,Attorney General,,Sam Houston,DEM,158115
+TRAVIS,Attorney General,,Ken Paxton,REP,87310
+TRAVIS,Attorney General,,OTHER,OTH,18491
+TRINITY,Attorney General,,Sam Houston,DEM,1011
+TRINITY,Attorney General,,Ken Paxton,REP,2747
+TRINITY,Attorney General,,OTHER,OTH,76
+TYLER,Attorney General,,Sam Houston,DEM,1013
+TYLER,Attorney General,,Ken Paxton,REP,3530
+TYLER,Attorney General,,OTHER,OTH,107
+UPSHUR,Attorney General,,Sam Houston,DEM,1540
+UPSHUR,Attorney General,,Ken Paxton,REP,7019
+UPSHUR,Attorney General,,OTHER,OTH,186
+UPTON,Attorney General,,Sam Houston,DEM,110
+UPTON,Attorney General,,Ken Paxton,REP,500
+UPTON,Attorney General,,OTHER,OTH,28
+UVALDE,Attorney General,,Sam Houston,DEM,2069
+UVALDE,Attorney General,,Ken Paxton,REP,2867
+UVALDE,Attorney General,,OTHER,OTH,123
+VAL VERDE,Attorney General,,Sam Houston,DEM,3639
+VAL VERDE,Attorney General,,Ken Paxton,REP,3029
+VAL VERDE,Attorney General,,OTHER,OTH,280
+VAN ZANDT,Attorney General,,Sam Houston,DEM,1871
+VAN ZANDT,Attorney General,,Ken Paxton,REP,9667
+VAN ZANDT,Attorney General,,OTHER,OTH,246
+VICTORIA,Attorney General,,Sam Houston,DEM,4444
+VICTORIA,Attorney General,,Ken Paxton,REP,12085
+VICTORIA,Attorney General,,OTHER,OTH,386
+WALKER,Attorney General,,Sam Houston,DEM,3317
+WALKER,Attorney General,,Ken Paxton,REP,7586
+WALKER,Attorney General,,OTHER,OTH,319
+WALLER,Attorney General,,Sam Houston,DEM,2589
+WALLER,Attorney General,,Ken Paxton,REP,6350
+WALLER,Attorney General,,OTHER,OTH,156
+WARD,Attorney General,,Sam Houston,DEM,510
+WARD,Attorney General,,Ken Paxton,REP,1378
+WARD,Attorney General,,OTHER,OTH,49
+WASHINGTON,Attorney General,,Sam Houston,DEM,1891
+WASHINGTON,Attorney General,,Ken Paxton,REP,6819
+WASHINGTON,Attorney General,,OTHER,OTH,211
+WEBB,Attorney General,,Sam Houston,DEM,18304
+WEBB,Attorney General,,Ken Paxton,REP,5611
+WEBB,Attorney General,,OTHER,OTH,1748
+WHARTON,Attorney General,,Sam Houston,DEM,2011
+WHARTON,Attorney General,,Ken Paxton,REP,6136
+WHARTON,Attorney General,,OTHER,OTH,136
+WHEELER,Attorney General,,Sam Houston,DEM,142
+WHEELER,Attorney General,,Ken Paxton,REP,1147
+WHEELER,Attorney General,,OTHER,OTH,16
+WICHITA,Attorney General,,Sam Houston,DEM,4908
+WICHITA,Attorney General,,Ken Paxton,REP,15706
+WICHITA,Attorney General,,OTHER,OTH,522
+WILBARGER,Attorney General,,Sam Houston,DEM,622
+WILBARGER,Attorney General,,Ken Paxton,REP,1962
+WILBARGER,Attorney General,,OTHER,OTH,53
+WILLACY,Attorney General,,Sam Houston,DEM,1237
+WILLACY,Attorney General,,Ken Paxton,REP,715
+WILLACY,Attorney General,,OTHER,OTH,135
+WILLIAMSON,Attorney General,,Sam Houston,DEM,36973
+WILLIAMSON,Attorney General,,Ken Paxton,REP,59998
+WILLIAMSON,Attorney General,,OTHER,OTH,5899
+WILSON,Attorney General,,Sam Houston,DEM,2526
+WILSON,Attorney General,,Ken Paxton,REP,7454
+WILSON,Attorney General,,OTHER,OTH,289
+WINKLER,Attorney General,,Sam Houston,DEM,184
+WINKLER,Attorney General,,Ken Paxton,REP,747
+WINKLER,Attorney General,,OTHER,OTH,26
+WISE,Attorney General,,Sam Houston,DEM,2020
+WISE,Attorney General,,Ken Paxton,REP,10171
+WISE,Attorney General,,OTHER,OTH,334
+WOOD,Attorney General,,Sam Houston,DEM,1464
+WOOD,Attorney General,,Ken Paxton,REP,9638
+WOOD,Attorney General,,OTHER,OTH,203
+YOAKUM,Attorney General,,Sam Houston,DEM,123
+YOAKUM,Attorney General,,Ken Paxton,REP,981
+YOAKUM,Attorney General,,OTHER,OTH,18
+YOUNG,Attorney General,,Sam Houston,DEM,687
+YOUNG,Attorney General,,Ken Paxton,REP,4444
+YOUNG,Attorney General,,OTHER,OTH,140
+ZAPATA,Attorney General,,Sam Houston,DEM,806
+ZAPATA,Attorney General,,Ken Paxton,REP,290
+ZAPATA,Attorney General,,OTHER,OTH,34
+ZAVALA,Attorney General,,Sam Houston,DEM,1077
+ZAVALA,Attorney General,,Ken Paxton,REP,287
+ZAVALA,Attorney General,,OTHER,OTH,58
