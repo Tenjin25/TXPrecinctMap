@@ -15,12 +15,16 @@
   ]);
 
   function normalizeCountyToken(name) {
-    return (name || '')
+    const normalized = (name || '')
       .toString()
+      .replace(/\s+COUNTY$/i, '')
       .replace(/[^a-z0-9 .\-]/gi, '')
       .replace(/\s+/g, ' ')
       .trim()
       .toUpperCase();
+    // Historical Texas exports commonly spell La Salle County as "LASALLE",
+    // while Census geometry uses "LA SALLE".
+    return normalized.replace(/[^A-Z0-9]/g, '') === 'LASALLE' ? 'LA SALLE' : normalized;
   }
 
   function normalizePrecinctAliasToken(value) {

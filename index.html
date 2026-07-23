@@ -516,11 +516,11 @@
       const counties = countiesSource._data.features;
       // Normalize county names for matching
       function normalizeCountyName(name) {
-        return (name || '')
-          .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
-          .replace(/\s+/g, ' ')
-          .trim()
-          .toUpperCase();
+        if (window.AtlasCore && typeof window.AtlasCore.normalizeCountyToken === 'function') {
+          return window.AtlasCore.normalizeCountyToken(name);
+        }
+        const normalized = (name || '').toString().replace(/\s+COUNTY$/i, '').replace(/[^a-z0-9 .\-]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
+        return normalized.replace(/[^A-Z0-9]/g, '') === 'LASALLE' ? 'LA SALLE' : normalized;
       }
       const normTarget = normalizeCountyName(countyName);
       const countyFeature = counties.find(f => {
@@ -20045,11 +20045,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!boundaryGeoJSON || !boundaryGeoJSON.features || !electionData) return boundaryGeoJSON;
   const electionMap = {};
   function normalizeCountyName(name) {
-    return (name || '')
-      .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
-      .replace(/\s+/g, ' ')
-      .trim()
-      .toUpperCase();
+    return normalizeCountyToken(name);
   }
   electionData.forEach(row => {
     let name = normalizeCountyName(row[countyNameKey]);
@@ -20070,11 +20066,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const map = {};
       if (!geojson || !geojson.features) return map;
       function normalizeCountyName(name) {
-        return (name || '')
-          .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
-          .replace(/\s+/g, ' ')
-          .trim()
-          .toUpperCase();
+        return normalizeCountyToken(name);
       }
       geojson.features.forEach(f => {
         const p = f.properties || {};
@@ -20092,7 +20084,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'lieutenant_governor': 'Lieutenant Governor',
 	        'attorney_general': 'Attorney General',
 	        'comptroller': 'Comptroller of Public Accounts',
-	        'land_commissioner': 'Commissioner of the General Land Office',
+	        'land_commissioner': 'Land Commissioner',
 	        'railroad_commissioner': 'Railroad Commissioner',
 	        'auditor': 'State Auditor',
 	        'labor_commissioner': 'Commissioner of Labor',
@@ -20375,16 +20367,16 @@ document.addEventListener('DOMContentLoaded', function() {
           if (modeledDef?.groupLabel) return modeledDef.groupLabel;
 	        if (contestType === 'president') return 'US President';
 	        if (contestType === 'us_senate') return 'US Senate';
-	        if (contestType === 'governor') return 'Texas Governor';
-	        if (contestType === 'lieutenant_governor') return 'Texas Lieutenant Governor';
-	        if (contestType === 'attorney_general') return 'Texas Attorney General';
+	        if (contestType === 'governor') return 'Governor';
+	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
+	        if (contestType === 'attorney_general') return 'Attorney General';
 	        if (contestType === 'comptroller') return 'Comptroller of Public Accounts';
-	        if (contestType === 'land_commissioner') return 'Commissioner of the General Land Office';
+	        if (contestType === 'land_commissioner') return 'Land Commissioner';
 	        if (contestType === 'railroad_commissioner') return 'Railroad Commissioner';
 	        if (contestType.startsWith('supreme_court_')) return 'Supreme Court';
 	        if (contestType.startsWith('court_of_criminal_appeals_')) return 'Court of Criminal Appeals';
-	        if (contestType === 'secretary_of_state') return 'Texas Secretary of State';
-	        if (contestType === 'treasurer') return 'Texas Treasurer';
+	        if (contestType === 'secretary_of_state') return 'Secretary of State';
+	        if (contestType === 'treasurer') return 'Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
 	        if (contestType === 'labor_commissioner') return 'Labor Commissioner';
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
@@ -20394,6 +20386,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	      }
 
 	      function extractSeatNumFromType(contestType) {
+          if ((contestType || '') === 'court_of_criminal_appeals_presiding_judge') return 0;
+          if ((contestType || '').startsWith('supreme_court_chief_justice')) return 0;
+          const placeMatch = (contestType || '').match(/(?:place_|place)(\d+)/i);
+          if (placeMatch) return Number(placeMatch[1]);
 	        const m = (contestType || '').match(/(?:seat_|seat)(\d+)/i);
 	        return m ? Number(m[1]) : null;
 	      }
@@ -20401,21 +20397,21 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const groupOrder = [
 	        'US President',
 	        'US Senate',
-	        'Texas Governor',
-	        'Texas Lieutenant Governor',
-	        'Texas Attorney General',
+	        'Governor',
+	        'Lieutenant Governor',
+	        'Attorney General',
 	        'Comptroller of Public Accounts',
-	        'Commissioner of the General Land Office',
-	        'Railroad Commissioner',
-	        'Supreme Court',
-	        'Court of Criminal Appeals',
-	        'Texas Secretary of State',
-	        'Texas Treasurer',
+	        'Land Commissioner',
+	        'Secretary of State',
+	        'Treasurer',
 	        'Auditor',
 	        'Labor Commissioner',
 	        'Insurance Commissioner',
 	        'Agriculture Commissioner',
-	        'Superintendent of Public Instruction'
+	        'Superintendent of Public Instruction',
+	        'Railroad Commissioner',
+	        'Supreme Court',
+	        'Court of Criminal Appeals'
 	      ];
 
 	      const grouped = new Map(); // label -> Array<{contestType, year}>
@@ -20568,16 +20564,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	      function groupLabelForContestType(contestType) {
 	        if (contestType === 'president') return 'US President';
 	        if (contestType === 'us_senate') return 'US Senate';
-	        if (contestType === 'governor') return 'Texas Governor';
-	        if (contestType === 'lieutenant_governor') return 'Texas Lieutenant Governor';
-	        if (contestType === 'attorney_general') return 'Texas Attorney General';
+	        if (contestType === 'governor') return 'Governor';
+	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
+	        if (contestType === 'attorney_general') return 'Attorney General';
 	        if (contestType === 'comptroller') return 'Comptroller of Public Accounts';
-	        if (contestType === 'land_commissioner') return 'Commissioner of the General Land Office';
+	        if (contestType === 'land_commissioner') return 'Land Commissioner';
 	        if (contestType === 'railroad_commissioner') return 'Railroad Commissioner';
 	        if (contestType.startsWith('supreme_court_')) return 'Supreme Court';
 	        if (contestType.startsWith('court_of_criminal_appeals_')) return 'Court of Criminal Appeals';
-	        if (contestType === 'secretary_of_state') return 'Texas Secretary of State';
-	        if (contestType === 'treasurer') return 'Texas Treasurer';
+	        if (contestType === 'secretary_of_state') return 'Secretary of State';
+	        if (contestType === 'treasurer') return 'Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
 	        if (contestType === 'labor_commissioner') return 'Labor Commissioner';
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
@@ -20589,21 +20585,21 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const groupOrder = [
 	        'US President',
 	        'US Senate',
-	        'Texas Governor',
-	        'Texas Lieutenant Governor',
-	        'Texas Attorney General',
+	        'Governor',
+	        'Lieutenant Governor',
+	        'Attorney General',
 	        'Comptroller of Public Accounts',
-	        'Commissioner of the General Land Office',
-	        'Railroad Commissioner',
-	        'Supreme Court',
-	        'Court of Criminal Appeals',
-	        'Texas Secretary of State',
-	        'Texas Treasurer',
+	        'Land Commissioner',
+	        'Secretary of State',
+	        'Treasurer',
 	        'Auditor',
 	        'Labor Commissioner',
 	        'Insurance Commissioner',
 	        'Agriculture Commissioner',
-	        'Superintendent of Public Instruction'
+	        'Superintendent of Public Instruction',
+	        'Railroad Commissioner',
+	        'Supreme Court',
+	        'Court of Criminal Appeals'
 	      ];
 
 	      const grouped = new Map(); // label -> Array<{contestType, year}>
@@ -21447,7 +21443,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const s = (raw || '').toString().trim();
       if (!s) return 'Unknown County';
       // Remove any trailing "COUNTY" if present; UI will add "County".
-      const cleaned = s.replace(/\s+COUNTY$/i, '').trim();
+      const normalized = normalizeCountyToken(s);
+      const cleaned = normalized || s.replace(/\s+COUNTY$/i, '').trim();
       return toTitleCaseName(cleaned);
     }
 
@@ -28497,11 +28494,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       // Normalize and find county data
       function normalizeCountyName(name) {
-        return (name || '')
-          .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
-          .replace(/\s+/g, ' ')
-          .trim()
-          .toUpperCase();
+        return normalizeCountyToken(name);
       }
       let norm = normalizeCountyName(countyName);
       let countyData = currentElectionResults[norm];
@@ -34289,11 +34282,7 @@ document.addEventListener('DOMContentLoaded', function() {
       lastContestSliceMeta = { contestType, year: Number(year), rows: contestData };
 
 	      function normalizeCountyName(name) {
-	        return (name || '')
-	          .replace(/[^a-z0-9 .\-]/gi, '')
-	          .replace(/\s+/g, ' ')
-	          .trim()
-	          .toUpperCase();
+	        return normalizeCountyToken(name);
 	      }
 
       // Precinct key matching needs to tolerate (a) non-geographic buckets in results
