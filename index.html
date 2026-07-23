@@ -548,12 +548,12 @@
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     <meta charset='utf-8'>
-    <title>Texas Election Atlas (2000-2024)</title>
+    <title>Lone Star Vote Atlas (2000-2024)</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover'>
     <meta name="author" content="Shamar Davis">
     <meta name="copyright" content="© 2026 Shamar Does Elections. All Rights Reserved.">
     <!-- Watermark: SDE Creator Attribution | Created by Shamar Davis | Copyright 2026 Shamar Does Elections -->
-    <meta property="og:title" content="Texas Election Atlas (2000-2024)">
+    <meta property="og:title" content="Lone Star Vote Atlas (2000-2024)">
     <meta property="og:description" content="Interactive visualization of Texas election trends from 2000 to 2024, with county, precinct, and district views.">
     <meta property="og:image" content="preview.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -3679,12 +3679,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .map-topbar-badge .badge-state-name {
-    color: #174f92;
+    color: var(--state-blue);
     text-shadow: 0 1px 0 rgba(15, 23, 42, 0.55);
   }
 
   .map-topbar-badge .badge-atlas-name {
-    color: #ef4444;
+    color: var(--state-red);
     text-shadow: 0 1px 0 rgba(15, 23, 42, 0.55);
   }
 
@@ -3883,8 +3883,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .mobile-topbar-toggle:hover {
-    background: rgba(96, 165, 250, 0.18);
-    border-color: rgba(147, 197, 253, 0.42);
+    background: rgba(0, 40, 104, 0.14);
+    border-color: rgba(0, 40, 104, 0.34);
   }
 
   .fly-search-chip {
@@ -3902,8 +3902,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .fly-search-chip:hover {
-    background: rgba(96, 165, 250, 0.18);
-    border-color: rgba(147, 197, 253, 0.42);
+    background: rgba(0, 40, 104, 0.14);
+    border-color: rgba(0, 40, 104, 0.34);
   }
 
   .context-banner {
@@ -4407,7 +4407,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-pill-value.dem {
-    color: #1d4ed8;
+    color: #2563eb;
   }
 
   .focus-pill-value.rep {
@@ -6051,7 +6051,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     margin: 0;
     padding: 0 14px;
     border-radius: 999px;
-    background: linear-gradient(135deg, rgba(143, 8, 36, 0.96) 0%, rgba(29, 78, 216, 0.92) 100%);
+    background: var(--tx-control-active-strong);
     border: 1px solid rgba(148, 163, 184, 0.18);
     box-shadow: 0 14px 30px rgba(0, 40, 104, 0.16), 0 8px 22px rgba(143, 8, 36, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.16);
     color: #f8fafc !important;
@@ -6148,7 +6148,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .control-summary-mode {
-    background: rgba(96, 165, 250, 0.16);
+    background: rgba(0, 40, 104, 0.20);
     color: #bfdbfe;
   }
 
@@ -9057,21 +9057,21 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   /* Ribbon + UI aesthetic polish */
   :root {
-    --state-ribbon: linear-gradient(92deg, #8f2433 0%, #cd4a44 24%, #f6f4ef 50%, #3b67a6 76%, #1b3d74 100%);
-    --state-accent-gradient: linear-gradient(136deg, #8f2433 0%, #305f98 100%);
+    --state-ribbon: linear-gradient(92deg, #8f0824 0%, #bf0a30 24%, #f8fafc 50%, #002868 76%, #001f4d 100%);
+    --state-accent-gradient: linear-gradient(136deg, #8f0824 0%, #001f4d 100%);
     --ui-bg: rgba(255, 255, 255, 0.95);
     --ui-border: rgba(18, 33, 52, 0.15);
     --ui-shadow: 0 18px 42px rgba(16, 30, 49, 0.2);
     --ui-text: #122236;
     --ui-muted: #4a5f77;
-    --ui-accent: #2f5f98;
-    --ui-accent-2: #204672;
+    --ui-accent: #002868;
+    --ui-accent-2: #001f4d;
   }
 
   body {
     background:
-      radial-gradient(circle at 16% 10%, rgba(48, 95, 152, 0.17) 0%, rgba(48, 95, 152, 0) 44%),
-      radial-gradient(circle at 86% 9%, rgba(143, 36, 51, 0.14) 0%, rgba(143, 36, 51, 0) 40%),
+      radial-gradient(circle at 16% 10%, rgba(0, 40, 104, 0.18) 0%, rgba(0, 40, 104, 0) 44%),
+      radial-gradient(circle at 86% 9%, rgba(191, 10, 48, 0.14) 0%, rgba(191, 10, 48, 0) 40%),
       #f3f6fb;
   }
 
@@ -9080,8 +9080,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       position: relative;
       overflow: hidden;
       background:
-        radial-gradient(circle at 14% 12%, rgba(120, 164, 216, 0.22) 0%, rgba(120, 164, 216, 0) 50%),
-        linear-gradient(145deg, rgba(13, 31, 52, 0.95) 0%, rgba(35, 76, 121, 0.84) 58%, rgba(120, 42, 54, 0.76) 100%);
+        radial-gradient(circle at 14% 12%, rgba(0, 40, 104, 0.24) 0%, rgba(0, 40, 104, 0) 50%),
+        linear-gradient(145deg, rgba(0, 31, 77, 0.97) 0%, rgba(0, 40, 104, 0.9) 58%, rgba(143, 8, 36, 0.82) 100%);
       border: 1px solid rgba(199, 217, 241, 0.3);
       box-shadow: 0 20px 52px rgba(15, 26, 41, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.18);
     }
@@ -9102,7 +9102,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     .map-topbar-badge {
       border: 1px solid rgba(206, 226, 247, 0.32);
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 8px 18px rgba(15, 23, 42, 0.24);
-      background: linear-gradient(130deg, rgba(205, 74, 68, 0.3) 0%, rgba(59, 103, 166, 0.3) 100%);
+      background: linear-gradient(130deg, rgba(191, 10, 48, 0.32) 0%, rgba(0, 40, 104, 0.34) 100%);
     }
 
     .fly-search-submit {
@@ -9145,8 +9145,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
     .controls-title-pill,
     .legend-badge {
-      background: linear-gradient(125deg, #8f2433 0%, #305f98 100%);
-      border-color: rgba(234, 220, 197, 0.62);
+      background: var(--tx-control-active-strong);
+      border-color: rgba(191, 10, 48, 0.34);
       color: #f8fafc;
       box-shadow: 0 10px 22px rgba(23, 45, 70, 0.28);
       text-shadow: 0 1px 0 rgba(15, 23, 42, 0.24);
@@ -9155,8 +9155,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     .view-toggle-btn.active,
     .viz-mode-btn.active,
     .mode-toggle.active {
-      background: linear-gradient(180deg, #295a92 0%, #1e426b 100%);
-      border-color: rgba(224, 190, 142, 0.78);
+      background: linear-gradient(180deg, #002868 0%, #001f4d 100%);
+      border-color: rgba(191, 10, 48, 0.58);
       color: #ffffff;
       box-shadow: 0 10px 22px rgba(19, 42, 68, 0.28);
     }
@@ -9183,8 +9183,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     #contestSelect:focus,
     #scenario-scope:focus,
     #overlay-opacity-preset:focus {
-      border-color: rgba(47, 95, 152, 0.78) !important;
-      box-shadow: 0 0 0 3px rgba(70, 120, 186, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
+      border-color: rgba(0, 40, 104, 0.78) !important;
+      box-shadow: 0 0 0 3px rgba(191, 10, 48, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
       outline: none;
     }
   }
@@ -9876,11 +9876,11 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="controls-header">
             <div class="controls-heading">
               <span class="controls-kicker">Atlas controls</span>
-              <h3 class="controls-title-pill">Texas Election Atlas</h3>
+              <h3 class="controls-title-pill">Lone Star Vote Atlas</h3>
               <p class="controls-subtitle">Switch layers, jump to major regions, and compare contests without leaving the map.</p>
             </div>
             <div class="controls-actions">
-              <span class="controls-title-pill controls-collapsed-label">Texas Election Atlas</span>
+              <span class="controls-title-pill controls-collapsed-label">Lone Star Vote Atlas</span>
               <button id="help-btn" title="Help" type="button">?</button>
               <button class="minimize-btn" onclick="toggleMainControls()" id="controls-minimize-btn" title="Minimize controls">-</button>
             </div>
@@ -10068,7 +10068,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label for="model-bonus">Candidate overperformance</label>
                 <input id="model-bonus" type="range" min="0" max="1.5" step="0.1" value="1" data-testid="model-bonus" aria-label="Model candidate bonus scale" />
                 <span class="scenario-value" id="model-bonus-value">1.0x</span>
-                <div class="scenario-help">Scales county-level overperformance effects (for example, Cooper crossover strength) with guardrails.</div>
+                <div class="scenario-help">Scales county-level candidate overperformance effects with guardrails.</div>
               </div>
               <div class="scenario-row scenario-row-actions" id="model-reset-row" style="display:none;">
                 <span></span>
@@ -10380,7 +10380,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <script src="./js/atlas-data.js"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
-    <script src="./js/atlas-manifest.js"></script>
+    <script src="./js/atlas-manifest.js?v=2026-07-22-texas-manifest"></script>
     <script src="./js/atlas-modeling.js"></script>
     <script src="./js/atlas-regions.js"></script>
     <script src="./js/atlas-trends.js"></script>
@@ -10392,7 +10392,7 @@ document.addEventListener('DOMContentLoaded', function() {
       creator: 'Shamar Davis',
       studio: 'Shamar Does Elections',
       year: 2026,
-      project: 'Texas Election Atlas',
+      project: 'Lone Star Vote Atlas',
       signature: 'SDE-TXEA-2026-SD'
     });
     try {
@@ -20135,29 +20135,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	        return `Judicial Retention ${contestType.toUpperCase()}`;
 	      }
 
-	      if (contestType.startsWith('nc_court_of_appeals_judge_seat_')) {
-	        const seat = contestType.replace('nc_court_of_appeals_judge_seat_', '').replace(/^0+/, '');
-	        return `NC Court of Appeals Judge Seat ${seat || contestType}`;
-	      }
-	      if (contestType.startsWith('nc_court_of_appeals_judge_') && contestType.endsWith('_seat')) {
-	        const who = contestType.replace('nc_court_of_appeals_judge_', '').replace(/_seat$/i, '').replace(/_/g, ' ').trim();
-	        const label = who ? (typeof toTitleCaseName === 'function' ? toTitleCaseName(who) : who) : contestType;
-	        return `NC Court of Appeals Judge (${label})`;
-	      }
-	      if (contestType.startsWith('nc_supreme_court_associate_justice_seat_')) {
-	        const seat = contestType.replace('nc_supreme_court_associate_justice_seat_', '').replace(/^0+/, '');
-	        return `NC Supreme Court Associate Justice Seat ${seat || contestType}`;
-	      }
-	      if (contestType.startsWith('nc_supreme_court_chief_justice_seat_')) {
-	        const seat = contestType.replace('nc_supreme_court_chief_justice_seat_', '').replace(/^0+/, '');
-	        return `NC Supreme Court Chief Justice Seat ${seat || contestType}`;
-	      }
-	      if (contestType.startsWith('nc_supreme_court_chief_justice_') && contestType.endsWith('_seat')) {
-	        const who = contestType.replace('nc_supreme_court_chief_justice_', '').replace(/_seat$/i, '').replace(/_/g, ' ').trim();
-	        const label = who ? (typeof toTitleCaseName === 'function' ? toTitleCaseName(who) : who) : contestType;
-	        return `NC Supreme Court Chief Justice (${label})`;
-	      }
-
 	      return nameMap[contestType] || contestType.toUpperCase();
 	    }
 
@@ -20413,8 +20390,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
 	        if (contestType === 'agriculture_commissioner') return 'Agriculture Commissioner';
 	        if (contestType === 'superintendent') return 'Superintendent of Public Instruction';
-	        if (contestType.startsWith('nc_supreme_court_')) return 'NC Supreme Court';
-	        if (contestType.startsWith('nc_court_of_appeals_')) return 'Court of Appeals';
 	        return formatContestName(contestType, '');
 	      }
 
@@ -20440,9 +20415,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'Labor Commissioner',
 	        'Insurance Commissioner',
 	        'Agriculture Commissioner',
-	        'Superintendent of Public Instruction',
-	        'NC Supreme Court',
-	        'Court of Appeals'
+	        'Superintendent of Public Instruction'
 	      ];
 
 	      const grouped = new Map(); // label -> Array<{contestType, year}>
@@ -20463,7 +20436,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const fragment = document.createDocumentFragment();
 	      orderedLabels.forEach(label => {
 	        const items = (grouped.get(label) || []).slice();
-	        const isJudicial = (label === 'NC Supreme Court' || label === 'Court of Appeals');
+	        const isJudicial = (label === 'Supreme Court' || label === 'Court of Criminal Appeals');
 	        items.sort((a, b) => {
 	          const y = Number(a.year) - Number(b.year);
 	          if (y !== 0) return y;
@@ -21406,13 +21379,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (isGovernor) {
           const map = {
-            2024: { dem: 'Josh Stein', rep: 'Mark Robinson' },
-            2020: { dem: 'Roy Cooper', rep: 'Dan Forest' },
-            2016: { dem: 'Roy Cooper', rep: 'Pat McCrory' },
-            2012: { dem: 'Walter Dalton', rep: 'Pat McCrory' },
-            2008: { dem: 'Bev Perdue', rep: 'Pat McCrory' },
-            2004: { dem: 'Mike Easley', rep: 'Patrick Ballantine' },
-            2000: { dem: 'Mike Easley', rep: 'Richard Vinson' }
+            2022: { dem: "Beto O'Rourke", rep: 'Greg Abbott' },
+            2018: { dem: 'Lupe Valdez', rep: 'Greg Abbott' },
+            2014: { dem: 'Wendy Davis', rep: 'Greg Abbott' },
+            2010: { dem: 'Bill White', rep: 'Rick Perry' },
+            2006: { dem: 'Chris Bell', rep: 'Rick Perry' },
+            2002: { dem: 'Tony Sanchez', rep: 'Rick Perry' }
           };
           const entry = map[year];
           return entry ? (partyNorm === 'dem' ? entry.dem : (partyNorm === 'rep' ? entry.rep : '')) : '';
@@ -26566,7 +26538,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ctx.textBaseline = 'alphabetic';
       ctx.fillStyle = '#f8fafc';
       ctx.font = '800 34px "Manrope", "Segoe UI", Arial, sans-serif';
-      ctx.fillText('Texas Election Atlas', 54, variant.brandY);
+      ctx.fillText('Lone Star Vote Atlas', 54, variant.brandY);
 
       ctx.font = `800 ${variant.headlineFont}px "Manrope", "Segoe UI", Arial, sans-serif`;
       ctx.fillStyle = '#ffffff';
