@@ -784,7 +784,7 @@ body.focus-active.hover-preview-active .vote-counter {
 
 #hover-tooltip[data-context="votehub-results"] .vhr-winner {
   font-size: 12.5px;
-  font-weight: 500;
+  font-weight: 900;
   color: #e2e8f0;
   margin-bottom: 8px;
   padding-bottom: 8px;
@@ -797,7 +797,6 @@ body.focus-active.hover-preview-active .vote-counter {
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-winner-name {
-  font-weight: 500;
   min-width: 0;
   flex: 1 1 auto;
   overflow: hidden;
@@ -4394,8 +4393,17 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   /* Winner stays half-grid beside Lead (Mecklenburg-style 2-line clamp, not full-width). */
   #focus-winner.focus-pill-value {
-    font-size: 14px;
+    margin-top: 5px;
+    font-size: 15px;
     line-height: 1.2;
+  }
+
+  .focus-pill-winner {
+    padding: 10px 12px;
+  }
+
+  .focus-pill-winner .focus-pill-label {
+    font-size: 10px;
   }
 
   .focus-pill-value.dem {
@@ -10234,7 +10242,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     <div class="focus-card visible" id="focus-card">
       <div class="focus-summary">
-        <div class="focus-pill">
+        <div class="focus-pill focus-pill-winner">
           <span class="focus-pill-label">Winner</span>
           <span class="focus-pill-value tie" id="focus-winner" data-testid="focus-winner">Choose a contest</span>
         </div>
