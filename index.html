@@ -9269,6 +9269,21 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     }
   }
 
+  /* Minimized controls must be a true collapsed shell. Later desktop/mobile
+     layout rules intentionally use flex/grid, so make this state authoritative. */
+  #main-controls.minimized > #controls-content,
+  #main-controls.minimized .controls-content {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
 </style>
 </head>
 <body>
@@ -28086,6 +28101,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const minimizeBtn = document.getElementById('controls-minimize-btn');
       if (!controls || !controlsContent || !minimizeBtn) return;
       controls.classList.remove('minimized');
+      controlsContent.hidden = false;
       controlsContent.style.display = 'block';
       minimizeBtn.textContent = '-';
       minimizeBtn.title = 'Minimize controls';
@@ -28428,6 +28444,7 @@ document.addEventListener('DOMContentLoaded', function() {
         controls.classList.remove('mobile-sheet-active');
         setMobileSheetSnap(controls, 'collapsed');
         if (activeMobileSheetKey === 'layers') activeMobileSheetKey = null;
+        controlsContent.hidden = true;
         controlsContent.style.display = 'none';
         minimizeBtn.textContent = '+';
         minimizeBtn.title = 'Expand controls';
@@ -28445,6 +28462,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (controls.classList.contains('minimized')) {
         // Expand controls
         controls.classList.remove('minimized');
+        controlsContent.hidden = false;
         controlsContent.style.display = 'block';
         controls.scrollTop = 0;
         minimizeBtn.textContent = '-';
@@ -28452,6 +28470,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         // Minimize controls
         controls.classList.add('minimized');
+        controlsContent.hidden = true;
         controlsContent.style.display = 'none';
         minimizeBtn.textContent = '+';
         minimizeBtn.title = 'Expand controls';
