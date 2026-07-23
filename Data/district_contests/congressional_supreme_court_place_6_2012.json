@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_6",
+    "year": 2012,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 90.68658289492888,
+    "matched_precinct_rows": 2828,
+    "total_precinct_rows": 3122,
+    "matched_total_votes": 2939251,
+    "total_votes": 3241109,
+    "generated_at": "2026-03-03T22:22:29.371148+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 15847,
+        "rep_votes": 33775,
+        "other_votes": 1910,
+        "total_votes": 51532,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 17928,
+        "margin_pct": 34.79003337731895,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 84043,
+        "rep_votes": 147026,
+        "other_votes": 8945,
+        "total_votes": 240014,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 62983,
+        "margin_pct": 26.241385919154713,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 85368,
+        "rep_votes": 161072,
+        "other_votes": 11008,
+        "total_votes": 257448,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 75704,
+        "margin_pct": 29.40556792755072,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 18133,
+        "rep_votes": 48669,
+        "other_votes": 3176,
+        "total_votes": 69978,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 30536,
+        "margin_pct": 43.636531175252514,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 19022,
+        "rep_votes": 51784,
+        "other_votes": 2722,
+        "total_votes": 73528,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 32762,
+        "margin_pct": 44.557175497769556,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 14337,
+        "rep_votes": 35465,
+        "other_votes": 4483,
+        "total_votes": 54285,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 21128,
+        "margin_pct": 38.920512112001475,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 83925,
+        "rep_votes": 131433,
+        "other_votes": 7730,
+        "total_votes": 223088,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 47508,
+        "margin_pct": 21.295632216883025,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 9626,
+        "rep_votes": 23013,
+        "other_votes": 1282,
+        "total_votes": 33921,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 13387,
+        "margin_pct": 39.46522802983402,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 140147,
+        "rep_votes": 36650,
+        "other_votes": 3533,
+        "total_votes": 180330,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -103497,
+        "margin_pct": -57.39304508449966,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 28425,
+        "rep_votes": 77620,
+        "other_votes": 4721,
+        "total_votes": 110766,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 49195,
+        "margin_pct": 44.41344817001607,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 24449,
+        "rep_votes": 77347,
+        "other_votes": 5835,
+        "total_votes": 107631,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 52898,
+        "margin_pct": 49.14755042692161,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 3823,
+        "rep_votes": 19114,
+        "other_votes": 984,
+        "total_votes": 23920,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 15291,
+        "margin_pct": 63.92693697214903,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 14338,
+        "rep_votes": 66233,
+        "other_votes": 30778,
+        "total_votes": 111350,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 51895,
+        "margin_pct": 46.605024299909466,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 13669,
+        "rep_votes": 31139,
+        "other_votes": 48181,
+        "total_votes": 92989,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 17470,
+        "margin_pct": 18.787168374754003,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 1264,
+        "rep_votes": 233,
+        "other_votes": 39,
+        "total_votes": 1536,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -1031,
+        "margin_pct": -67.12239583333334,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 30978,
+        "rep_votes": 53160,
+        "other_votes": 3842,
+        "total_votes": 87980,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 22182,
+        "margin_pct": 25.21254830643328,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 143982,
+        "rep_votes": 42669,
+        "other_votes": 5458,
+        "total_votes": 192109,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -101313,
+        "margin_pct": -52.7372586191459,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 41265,
+        "rep_votes": 116488,
+        "other_votes": 8271,
+        "total_votes": 166024,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 75223,
+        "margin_pct": 45.30850961306799,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 12164,
+        "rep_votes": 29205,
+        "other_votes": 6328,
+        "total_votes": 47698,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 17040,
+        "margin_pct": 35.72558689246192,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 91698,
+        "rep_votes": 149127,
+        "other_votes": 8047,
+        "total_votes": 248872,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 57429,
+        "margin_pct": 23.07576851597947,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 146,
+        "rep_votes": 684,
+        "other_votes": 35,
+        "total_votes": 865,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 538,
+        "margin_pct": 62.19653179190752,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 22657,
+        "rep_votes": 44029,
+        "other_votes": 4567,
+        "total_votes": 71253,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 21372,
+        "margin_pct": 29.99397754643559,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 51266,
+        "rep_votes": 62143,
+        "other_votes": 4811,
+        "total_votes": 118220,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 10877,
+        "margin_pct": 9.200642869226865,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 2268,
+        "rep_votes": 1234,
+        "other_votes": 140,
+        "total_votes": 3642,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -1034,
+        "margin_pct": -28.390993959362987,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 74161,
+        "rep_votes": 33398,
+        "other_votes": 3560,
+        "total_votes": 111119,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -40763,
+        "margin_pct": -36.684055077876735,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 30409,
+        "rep_votes": 42161,
+        "other_votes": 3706,
+        "total_votes": 76276,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 11752,
+        "margin_pct": 15.407205411925116,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 5105,
+        "rep_votes": 9882,
+        "other_votes": 753,
+        "total_votes": 15740,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 4777,
+        "margin_pct": 30.349428208386275,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 9568,
+        "rep_votes": 11732,
+        "other_votes": 1258,
+        "total_votes": 22558,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 2164,
+        "margin_pct": 9.593049029169253,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 10940,
+        "rep_votes": 9140,
+        "other_votes": 1455,
+        "total_votes": 21536,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -1800,
+        "margin_pct": -8.357124747187239,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 37519,
+        "rep_votes": 81106,
+        "other_votes": 4419,
+        "total_votes": 123044,
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 43587,
+        "margin_pct": 35.42391339683365,
+        "winner": "REP"
+      }
+    }
+  }
+}

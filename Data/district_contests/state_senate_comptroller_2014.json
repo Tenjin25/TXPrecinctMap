@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "comptroller",
+    "year": 2014,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 96.59631116081287,
+    "matched_precinct_rows": 7530,
+    "total_precinct_rows": 7830,
+    "matched_total_votes": 4649761,
+    "total_votes": 4813601,
+    "generated_at": "2026-03-03T22:22:31.137890+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 27305,
+        "rep_votes": 85334,
+        "other_votes": 51970,
+        "total_votes": 164609,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 58029,
+        "margin_pct": 35.252628957104406,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 40685,
+        "rep_votes": 65302,
+        "other_votes": 17724,
+        "total_votes": 123711,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 24617,
+        "margin_pct": 19.89855718266042,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 33234,
+        "rep_votes": 117583,
+        "other_votes": 8689,
+        "total_votes": 159506,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 84349,
+        "margin_pct": 52.88139631111055,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 23295,
+        "rep_votes": 97497,
+        "other_votes": 54136,
+        "total_votes": 174928,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 74202,
+        "margin_pct": 42.41859507911826,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 53130,
+        "rep_votes": 81285,
+        "other_votes": 34478,
+        "total_votes": 168893,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 28155,
+        "margin_pct": 16.67031789357759,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 41064,
+        "rep_votes": 23213,
+        "other_votes": 2250,
+        "total_votes": 66527,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -17851,
+        "margin_pct": -26.83271453695492,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 48704,
+        "rep_votes": 116833,
+        "other_votes": 4707,
+        "total_votes": 170244,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 68129,
+        "margin_pct": 40.018444115504806,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 57473,
+        "rep_votes": 107938,
+        "other_votes": 163430,
+        "total_votes": 328841,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 50465,
+        "margin_pct": 15.346331357149213,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 47844,
+        "rep_votes": 84293,
+        "other_votes": 6516,
+        "total_votes": 138653,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 36449,
+        "margin_pct": 26.287897533960514,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 77742,
+        "rep_votes": 95701,
+        "other_votes": 6235,
+        "total_votes": 179678,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 17959,
+        "margin_pct": 9.995102843159094,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 31034,
+        "rep_votes": 66186,
+        "other_votes": 3282,
+        "total_votes": 100502,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 35152,
+        "margin_pct": 34.97648244617043,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 16506,
+        "rep_votes": 36085,
+        "other_votes": 120717,
+        "total_votes": 173308,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 19579,
+        "margin_pct": 11.297275718864782,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 91883,
+        "rep_votes": 18537,
+        "other_votes": 2425,
+        "total_votes": 112845,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -73347,
+        "margin_pct": -64.99756427433682,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 123046,
+        "rep_votes": 63734,
+        "other_votes": 30464,
+        "total_votes": 217244,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -59312,
+        "margin_pct": -27.302019848649444,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 70267,
+        "rep_votes": 50583,
+        "other_votes": 3823,
+        "total_votes": 124673,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -19684,
+        "margin_pct": -15.788502723123694,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 63729,
+        "rep_votes": 94652,
+        "other_votes": 12188,
+        "total_votes": 170568,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 30923,
+        "margin_pct": 18.12933513088374,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 64777,
+        "rep_votes": 106275,
+        "other_votes": 5352,
+        "total_votes": 176404,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 41498,
+        "margin_pct": 23.524679619064433,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 39084,
+        "rep_votes": 102972,
+        "other_votes": 24099,
+        "total_votes": 166155,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 63888,
+        "margin_pct": 38.45084409136047,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 68600,
+        "rep_votes": 65067,
+        "other_votes": 15498,
+        "total_votes": 149165,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -3533,
+        "margin_pct": -2.3685926952089633,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 53611,
+        "rep_votes": 45394,
+        "other_votes": 11168,
+        "total_votes": 110173,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -8217,
+        "margin_pct": -7.458270175088271,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 50239,
+        "rep_votes": 35859,
+        "other_votes": 19013,
+        "total_votes": 105111,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -14380,
+        "margin_pct": -13.681170415910843,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 28201,
+        "rep_votes": 68798,
+        "other_votes": 5929,
+        "total_votes": 102928,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 40597,
+        "margin_pct": 39.442134307477076,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 97252,
+        "rep_votes": 23547,
+        "other_votes": 6790,
+        "total_votes": 127589,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -73705,
+        "margin_pct": -57.76726861812554,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 36876,
+        "rep_votes": 114770,
+        "other_votes": 9470,
+        "total_votes": 161116,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 77894,
+        "margin_pct": 48.34653272783073,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 91057,
+        "rep_votes": 173480,
+        "other_votes": 42088,
+        "total_votes": 306625,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 82423,
+        "margin_pct": 26.8808526267242,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 103896,
+        "rep_votes": 67840,
+        "other_votes": 15550,
+        "total_votes": 187286,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -36056,
+        "margin_pct": -19.251834966409863,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 25987,
+        "rep_votes": 11752,
+        "other_votes": 5248,
+        "total_votes": 42987,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -14235,
+        "margin_pct": -33.114662572405614,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 17870,
+        "rep_votes": 68611,
+        "other_votes": 6826,
+        "total_votes": 93307,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 50741,
+        "margin_pct": 54.38069813915002,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 44597,
+        "rep_votes": 27801,
+        "other_votes": 4775,
+        "total_votes": 77173,
+        "dem_candidate": "MIKE COLLIER",
+        "rep_candidate": "GLENN HEGAR",
+        "margin": -16796,
+        "margin_pct": -21.764088476539722,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 15635,
+        "rep_votes": 64177,
+        "other_votes": 73397,
+        "total_votes": 153209,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 48542,
+        "margin_pct": 31.683514240305776,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 16340,
+        "rep_votes": 94203,
+        "other_votes": 5259,
+        "total_votes": 115802,
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 77863,
+        "margin_pct": 67.23804424794045,
+        "winner": "REP"
+      }
+    }
+  }
+}

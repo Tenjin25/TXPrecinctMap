@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "comptroller",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.43703695683136,
+    "matched_precinct_rows": 5057,
+    "total_precinct_rows": 5948,
+    "matched_total_votes": 4007037,
+    "total_votes": 4802468,
+    "generated_at": "2026-03-03T22:22:49.939140+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 32530,
+        "rep_votes": 107020,
+        "other_votes": 3749,
+        "total_votes": 143299,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 74490,
+        "margin_pct": 51.98221899664338,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 57316,
+        "rep_votes": 84460,
+        "other_votes": 4985,
+        "total_votes": 146761,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 27144,
+        "margin_pct": 18.495176266722336,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 25000,
+        "rep_votes": 113240,
+        "other_votes": 6006,
+        "total_votes": 144246,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 88240,
+        "margin_pct": 61.17327343565853,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 65508,
+        "rep_votes": 151730,
+        "other_votes": 5694,
+        "total_votes": 222932,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 86222,
+        "margin_pct": 38.67636768162489,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 74320,
+        "rep_votes": 113599,
+        "other_votes": 7911,
+        "total_votes": 195830,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 39279,
+        "margin_pct": 20.057703109840165,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 126734,
+        "rep_votes": 152081,
+        "other_votes": 12661,
+        "total_votes": 291476,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 25347,
+        "margin_pct": 8.696104154240896,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 95541,
+        "rep_votes": 122665,
+        "other_votes": 7590,
+        "total_votes": 225796,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 27124,
+        "margin_pct": 12.012789354596727,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 125148,
+        "rep_votes": 130163,
+        "other_votes": 6484,
+        "total_votes": 261795,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 5014,
+        "margin_pct": 1.915339191229271,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 28818,
+        "rep_votes": 40048,
+        "other_votes": 1733,
+        "total_votes": 70599,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 11230,
+        "margin_pct": 15.90697874909541,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 35175,
+        "rep_votes": 58870,
+        "other_votes": 2609,
+        "total_votes": 96655,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 23695,
+        "margin_pct": 24.515260352521885,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 18844,
+        "rep_votes": 3585,
+        "other_votes": 546,
+        "total_votes": 22975,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -15259,
+        "margin_pct": -66.41566920565832,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 2730,
+        "rep_votes": 3433,
+        "other_votes": 317,
+        "total_votes": 6480,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 703,
+        "margin_pct": 10.848765432098766,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 86815,
+        "rep_votes": 89576,
+        "other_votes": 6903,
+        "total_votes": 183294,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 2760,
+        "margin_pct": 1.5058682660263183,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 8617,
+        "rep_votes": 21544,
+        "other_votes": 693,
+        "total_votes": 30854,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 12927,
+        "margin_pct": 41.89703636630583,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 15037,
+        "rep_votes": 48351,
+        "other_votes": 2081,
+        "total_votes": 65469,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 33314,
+        "margin_pct": 50.8851517512105,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 84055,
+        "rep_votes": 71709,
+        "other_votes": 13499,
+        "total_votes": 169263,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -12346,
+        "margin_pct": -7.294006949677177,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 37678,
+        "rep_votes": 45372,
+        "other_votes": 3100,
+        "total_votes": 86150,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 7694,
+        "margin_pct": 8.930934416715033,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 26065,
+        "rep_votes": 52878,
+        "other_votes": 6870,
+        "total_votes": 85812,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 26813,
+        "margin_pct": 31.246215574046982,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 39954,
+        "rep_votes": 57471,
+        "other_votes": 8625,
+        "total_votes": 106050,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 17517,
+        "margin_pct": 16.51768033946252,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 126947,
+        "rep_votes": 30690,
+        "other_votes": 8451,
+        "total_votes": 166088,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -96257,
+        "margin_pct": -57.955281654451255,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 50077,
+        "rep_votes": 141144,
+        "other_votes": 4450,
+        "total_votes": 195671,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 91067,
+        "margin_pct": 46.54088230914716,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 100476,
+        "rep_votes": 131490,
+        "other_votes": 10701,
+        "total_votes": 242667,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 31013,
+        "margin_pct": 12.780072096475573,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 111172,
+        "rep_votes": 60197,
+        "other_votes": 13601,
+        "total_votes": 184970,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -50975,
+        "margin_pct": -27.558524576891013,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 37984,
+        "rep_votes": 31686,
+        "other_votes": 6822,
+        "total_votes": 76492,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -6298,
+        "margin_pct": -8.233540762432673,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 7081,
+        "rep_votes": 40287,
+        "other_votes": 90637,
+        "total_votes": 138005,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 33206,
+        "margin_pct": 24.06145204592115,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 94883,
+        "rep_votes": 56286,
+        "other_votes": 14842,
+        "total_votes": 166011,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": -38597,
+        "margin_pct": -23.249664178879712,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 26994,
+        "rep_votes": 85319,
+        "other_votes": 4083,
+        "total_votes": 116396,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 58325,
+        "margin_pct": 50.10910913839376,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 26906,
+        "rep_votes": 131543,
+        "other_votes": 6552,
+        "total_votes": 165001,
+        "dem_candidate": "Janet T. Dudding",
+        "rep_candidate": "Glenn Hegar",
+        "margin": 104637,
+        "margin_pct": 63.41597929709517,
+        "winner": "REP"
+      }
+    }
+  }
+}

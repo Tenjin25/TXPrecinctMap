@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 80.27134503448738,
+    "matched_precinct_rows": 7311,
+    "total_precinct_rows": 8734,
+    "matched_total_votes": 8587638,
+    "total_votes": 10698261,
+    "generated_at": "2026-03-03T22:22:56.407275+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 66412,
+        "rep_votes": 183153,
+        "other_votes": 5205,
+        "total_votes": 254770,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 116741,
+        "margin_pct": 45.82211406366527,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 152339,
+        "rep_votes": 145800,
+        "other_votes": 10699,
+        "total_votes": 308838,
+        "dem_candidate": "COLIN ALLRED",
+        "rep_candidate": "TED CRUZ",
+        "margin": -6539,
+        "margin_pct": -2.1172912659711565,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 198566,
+        "rep_votes": 203923,
+        "other_votes": 15915,
+        "total_votes": 418404,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 5357,
+        "margin_pct": 1.2803608881738502,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 76370,
+        "rep_votes": 235884,
+        "other_votes": 8153,
+        "total_votes": 320407,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 159514,
+        "margin_pct": 49.78481708829525,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 78660,
+        "rep_votes": 121224,
+        "other_votes": 4945,
+        "total_votes": 204830,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 42564,
+        "margin_pct": 20.78002020664681,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 116916,
+        "rep_votes": 91660,
+        "other_votes": 4915,
+        "total_votes": 213491,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -25256,
+        "margin_pct": -11.83011806023717,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 143774,
+        "rep_votes": 125578,
+        "other_votes": 9388,
+        "total_votes": 278740,
+        "dem_candidate": "COLIN ALLRED",
+        "rep_candidate": "TED CRUZ",
+        "margin": -18196,
+        "margin_pct": -6.527947190930616,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 110063,
+        "rep_votes": 259984,
+        "other_votes": 10410,
+        "total_votes": 380457,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 149921,
+        "margin_pct": 39.40550443282684,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 118856,
+        "rep_votes": 38548,
+        "other_votes": 6909,
+        "total_votes": 164313,
+        "dem_candidate": "COLIN ALLRED",
+        "rep_candidate": "TED CRUZ",
+        "margin": -80308,
+        "margin_pct": -48.87501293263467,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 73538,
+        "rep_votes": 124226,
+        "other_votes": 118832,
+        "total_votes": 316596,
+        "dem_candidate": "COLIN ALLRED",
+        "rep_candidate": "TED CRUZ",
+        "margin": 50688,
+        "margin_pct": 16.010309669105105,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 38262,
+        "rep_votes": 155290,
+        "other_votes": 5598,
+        "total_votes": 199148,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 117028,
+        "margin_pct": 58.76418853267788,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 137384,
+        "rep_votes": 215074,
+        "other_votes": 9237,
+        "total_votes": 361694,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 77690,
+        "margin_pct": 21.479466846722843,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 32497,
+        "rep_votes": 142976,
+        "other_votes": 4840,
+        "total_votes": 180313,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 110479,
+        "margin_pct": 61.2706697806776,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 57662,
+        "rep_votes": 84020,
+        "other_votes": 3537,
+        "total_votes": 145219,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 26358,
+        "margin_pct": 18.15051749426728,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 22851,
+        "rep_votes": 40165,
+        "other_votes": 152868,
+        "total_votes": 215884,
+        "dem_candidate": "Collin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 17314,
+        "margin_pct": 8.02004780345,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 127535,
+        "rep_votes": 83086,
+        "other_votes": 9100,
+        "total_votes": 219721,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -44449,
+        "margin_pct": -20.22974590503411,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 77432,
+        "rep_votes": 153006,
+        "other_votes": 50416,
+        "total_votes": 280854,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 75574,
+        "margin_pct": 26.908642924793664,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 166171,
+        "rep_votes": 59679,
+        "other_votes": 8902,
+        "total_votes": 234752,
+        "dem_candidate": "COLIN ALLRED",
+        "rep_candidate": "TED CRUZ",
+        "margin": -106492,
+        "margin_pct": -45.363617142520006,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 60212,
+        "rep_votes": 166996,
+        "other_votes": 6132,
+        "total_votes": 233340,
+        "dem_candidate": "Collin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 106783,
+        "margin_pct": 45.7629334081885,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 145983,
+        "rep_votes": 86585,
+        "other_votes": 13290,
+        "total_votes": 245858,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -59398,
+        "margin_pct": -24.159517540437612,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 90826,
+        "rep_votes": 124756,
+        "other_votes": 162771,
+        "total_votes": 378354,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 33930,
+        "margin_pct": 8.967711720046937,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 64619,
+        "rep_votes": 65495,
+        "other_votes": 5254,
+        "total_votes": 135368,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 876,
+        "margin_pct": 0.6471248744164056,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 113981,
+        "rep_votes": 119129,
+        "other_votes": 11158,
+        "total_votes": 244269,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 5147,
+        "margin_pct": 2.1072054228672386,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 131761,
+        "rep_votes": 125861,
+        "other_votes": 6796,
+        "total_votes": 264417,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -5900,
+        "margin_pct": -2.2313358049112963,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 44801,
+        "rep_votes": 109368,
+        "other_votes": 114103,
+        "total_votes": 268272,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 64567,
+        "margin_pct": 24.067836655454506,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 78113,
+        "rep_votes": 109260,
+        "other_votes": 5078,
+        "total_votes": 192452,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 31147,
+        "margin_pct": 16.18433360746309,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 85527,
+        "rep_votes": 139088,
+        "other_votes": 7654,
+        "total_votes": 232269,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 53561,
+        "margin_pct": 23.05990037413516,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 50890,
+        "rep_votes": 50356,
+        "other_votes": 36787,
+        "total_votes": 138033,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -534,
+        "margin_pct": -0.38686463486431466,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 85784,
+        "rep_votes": 51032,
+        "other_votes": 7231,
+        "total_votes": 144047,
+        "dem_candidate": "COLIN ALLRED",
+        "rep_candidate": "TED CRUZ",
+        "margin": -34752,
+        "margin_pct": -24.125453147674094,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 168687,
+        "rep_votes": 44913,
+        "other_votes": 5358,
+        "total_votes": 218957,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -123774,
+        "margin_pct": -56.52865158061823,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 115470,
+        "rep_votes": 126050,
+        "other_votes": 9315,
+        "total_votes": 250835,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 10580,
+        "margin_pct": 4.217912173341041,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 89751,
+        "rep_votes": 82217,
+        "other_votes": 3817,
+        "total_votes": 175785,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -7534,
+        "margin_pct": -4.285917455983161,
+        "winner": "DEM"
+      },
+      "33": {
+        "dem_votes": 98487,
+        "rep_votes": 40912,
+        "other_votes": 4244,
+        "total_votes": 143643,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -57574,
+        "margin_pct": -40.081687570276685,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 68362,
+        "rep_votes": 73192,
+        "other_votes": 35253,
+        "total_votes": 176807,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": 4830,
+        "margin_pct": 2.731792293291555,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 88531,
+        "rep_votes": 49245,
+        "other_votes": 79071,
+        "total_votes": 216848,
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
+        "margin": -39286,
+        "margin_pct": -18.116804708139227,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 65896,
+        "rep_votes": 156638,
+        "other_votes": 7121,
+        "total_votes": 229655,
+        "dem_candidate": "COLIN ALLRED",
+        "rep_candidate": "Ted Cruz",
+        "margin": 90742,
+        "margin_pct": 39.51231194618014,
+        "winner": "REP"
+      }
+    }
+  }
+}

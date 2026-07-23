@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "agriculture_commissioner",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.4498515364503,
+    "matched_precinct_rows": 5057,
+    "total_precinct_rows": 5948,
+    "matched_total_votes": 4004609,
+    "total_votes": 4798821,
+    "generated_at": "2026-03-03T22:22:49.151881+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 34256,
+        "rep_votes": 107151,
+        "other_votes": 1853,
+        "total_votes": 143260,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 72895,
+        "margin_pct": 50.883009912048024,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 61453,
+        "rep_votes": 84141,
+        "other_votes": 885,
+        "total_votes": 146479,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 22688,
+        "margin_pct": 15.488701719877968,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 26534,
+        "rep_votes": 113479,
+        "other_votes": 4109,
+        "total_votes": 144122,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 86945,
+        "margin_pct": 60.327361540916726,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 68889,
+        "rep_votes": 151949,
+        "other_votes": 1701,
+        "total_votes": 222539,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 83060,
+        "margin_pct": 37.32379493032682,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 78673,
+        "rep_votes": 113198,
+        "other_votes": 3753,
+        "total_votes": 195624,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 34525,
+        "margin_pct": 17.64865251707357,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 134344,
+        "rep_votes": 149124,
+        "other_votes": 8008,
+        "total_votes": 291476,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 14780,
+        "margin_pct": 5.070764143445585,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 101367,
+        "rep_votes": 123015,
+        "other_votes": 1050,
+        "total_votes": 225432,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 21648,
+        "margin_pct": 9.603072175949428,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 131506,
+        "rep_votes": 129806,
+        "other_votes": 0,
+        "total_votes": 261312,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": -1701,
+        "margin_pct": -0.650854788006078,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 30170,
+        "rep_votes": 40354,
+        "other_votes": 0,
+        "total_votes": 70524,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 10184,
+        "margin_pct": 14.440717247179071,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 37255,
+        "rep_votes": 59212,
+        "other_votes": 0,
+        "total_votes": 96468,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 21957,
+        "margin_pct": 22.76113415197122,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 19321,
+        "rep_votes": 3576,
+        "other_votes": 0,
+        "total_votes": 22897,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": -15745,
+        "margin_pct": -68.76446696073721,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 2898,
+        "rep_votes": 3424,
+        "other_votes": 158,
+        "total_votes": 6480,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 526,
+        "margin_pct": 8.117283950617283,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 95050,
+        "rep_votes": 85405,
+        "other_votes": 2839,
+        "total_votes": 183294,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": -9646,
+        "margin_pct": -5.262474828220229,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 9096,
+        "rep_votes": 21713,
+        "other_votes": 0,
+        "total_votes": 30809,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 12617,
+        "margin_pct": 40.95202600253439,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 16347,
+        "rep_votes": 47975,
+        "other_votes": 1082,
+        "total_votes": 65404,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 31628,
+        "margin_pct": 48.357898599474034,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 90241,
+        "rep_votes": 71854,
+        "other_votes": 7172,
+        "total_votes": 169267,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": -18387,
+        "margin_pct": -10.86275215080764,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 40748,
+        "rep_votes": 45275,
+        "other_votes": 0,
+        "total_votes": 86023,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 4527,
+        "margin_pct": 5.262546063262151,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 28098,
+        "rep_votes": 53033,
+        "other_votes": 4609,
+        "total_votes": 85740,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 24934,
+        "margin_pct": 29.081148929325,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 41835,
+        "rep_votes": 57612,
+        "other_votes": 7061,
+        "total_votes": 106508,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 15777,
+        "margin_pct": 14.812971795545874,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 133185,
+        "rep_votes": 30392,
+        "other_votes": 2511,
+        "total_votes": 166088,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": -102793,
+        "margin_pct": -61.890539175407774,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 53692,
+        "rep_votes": 141676,
+        "other_votes": 123,
+        "total_votes": 195491,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 87984,
+        "margin_pct": 45.006680283276765,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 109397,
+        "rep_votes": 127883,
+        "other_votes": 5350,
+        "total_votes": 242629,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 18486,
+        "margin_pct": 7.618978378278167,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 118848,
+        "rep_votes": 59912,
+        "other_votes": 6210,
+        "total_votes": 184970,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": -58936,
+        "margin_pct": -31.86246638796374,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 40953,
+        "rep_votes": 32515,
+        "other_votes": 3026,
+        "total_votes": 76494,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": -8438,
+        "margin_pct": -11.030930530499123,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 8003,
+        "rep_votes": 40437,
+        "other_votes": 89533,
+        "total_votes": 137973,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 32434,
+        "margin_pct": 23.50750246448828,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 100777,
+        "rep_votes": 56575,
+        "other_votes": 8666,
+        "total_votes": 166018,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": -44202,
+        "margin_pct": -26.624823814285197,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 28706,
+        "rep_votes": 85446,
+        "other_votes": 2182,
+        "total_votes": 116334,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 56740,
+        "margin_pct": 48.773357552714685,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 29724,
+        "rep_votes": 132441,
+        "other_votes": 2789,
+        "total_votes": 164954,
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
+        "margin": 102717,
+        "margin_pct": 62.27008741831056,
+        "winner": "REP"
+      }
+    }
+  }
+}

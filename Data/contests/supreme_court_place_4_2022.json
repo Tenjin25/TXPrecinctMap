@@ -1,0 +1,17 @@
+{
+  "rows": [
+    {
+      "county": "COOKE - 1C",
+      "dem_votes": 0,
+      "rep_votes": 1249,
+      "other_votes": 0,
+      "total_votes": 1249,
+      "dem_candidate": "",
+      "rep_candidate": "Debra Lehrmann",
+      "margin": 1249,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": ""
+    }
+  ]
+}

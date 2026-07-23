@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "railroad_commissioner",
+    "year": 2014,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 96.59202233930128,
+    "matched_precinct_rows": 7500,
+    "total_precinct_rows": 7800,
+    "matched_total_votes": 4633103,
+    "total_votes": 4796569,
+    "generated_at": "2026-03-03T22:22:34.334536+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 26799,
+        "rep_votes": 85138,
+        "other_votes": 52746,
+        "total_votes": 164683,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 58339,
+        "margin_pct": 35.42502869148606,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 37801,
+        "rep_votes": 59815,
+        "other_votes": 18418,
+        "total_votes": 116034,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 22014,
+        "margin_pct": 18.97176197078404,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 32297,
+        "rep_votes": 118019,
+        "other_votes": 9217,
+        "total_votes": 159533,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 85722,
+        "margin_pct": 53.733083437282566,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 21035,
+        "rep_votes": 98658,
+        "other_votes": 54385,
+        "total_votes": 174078,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 77623,
+        "margin_pct": 44.59093050241846,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 51369,
+        "rep_votes": 80686,
+        "other_votes": 36251,
+        "total_votes": 168306,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 29317,
+        "margin_pct": 17.418868014212208,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 39597,
+        "rep_votes": 23120,
+        "other_votes": 3634,
+        "total_votes": 66351,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -16477,
+        "margin_pct": -24.83308465584543,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 45482,
+        "rep_votes": 118512,
+        "other_votes": 5739,
+        "total_votes": 169733,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 73030,
+        "margin_pct": 43.026400287510384,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 54485,
+        "rep_votes": 108829,
+        "other_votes": 165527,
+        "total_votes": 328841,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 54344,
+        "margin_pct": 16.525928545148062,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 46401,
+        "rep_votes": 84069,
+        "other_votes": 7930,
+        "total_votes": 138400,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 37668,
+        "margin_pct": 27.21672769541124,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 75783,
+        "rep_votes": 95608,
+        "other_votes": 7833,
+        "total_votes": 179224,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 19825,
+        "margin_pct": 11.061582824502832,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 29306,
+        "rep_votes": 66960,
+        "other_votes": 4044,
+        "total_votes": 100310,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 37654,
+        "margin_pct": 37.537690306781,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 16027,
+        "rep_votes": 35975,
+        "other_votes": 120651,
+        "total_votes": 172653,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 19948,
+        "margin_pct": 11.553866934810262,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 90947,
+        "rep_votes": 18747,
+        "other_votes": 3013,
+        "total_votes": 112707,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -72201,
+        "margin_pct": -64.0603277592777,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 119448,
+        "rep_votes": 62109,
+        "other_votes": 33760,
+        "total_votes": 215317,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -57339,
+        "margin_pct": -26.630038501372393,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 67614,
+        "rep_votes": 51735,
+        "other_votes": 5031,
+        "total_votes": 124380,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -15879,
+        "margin_pct": -12.766521948866377,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 58802,
+        "rep_votes": 97482,
+        "other_votes": 14285,
+        "total_votes": 170568,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 38680,
+        "margin_pct": 22.67705652878091,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 59590,
+        "rep_votes": 109361,
+        "other_votes": 6671,
+        "total_votes": 175622,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 49771,
+        "margin_pct": 28.34010259803893,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 39348,
+        "rep_votes": 99738,
+        "other_votes": 26187,
+        "total_votes": 165273,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 60390,
+        "margin_pct": 36.539543664119364,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 68206,
+        "rep_votes": 62466,
+        "other_votes": 17914,
+        "total_votes": 148586,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -5740,
+        "margin_pct": -3.863148134003743,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 51269,
+        "rep_votes": 44742,
+        "other_votes": 14162,
+        "total_votes": 110173,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -6527,
+        "margin_pct": -5.924319025532571,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 47648,
+        "rep_votes": 34133,
+        "other_votes": 23248,
+        "total_votes": 105029,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -13515,
+        "margin_pct": -12.867432511557913,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 27712,
+        "rep_votes": 68464,
+        "other_votes": 6730,
+        "total_votes": 102906,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 40752,
+        "margin_pct": 39.60118943501836,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 95938,
+        "rep_votes": 23375,
+        "other_votes": 8276,
+        "total_votes": 127589,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -72563,
+        "margin_pct": -56.872199893810624,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 35547,
+        "rep_votes": 113974,
+        "other_votes": 11361,
+        "total_votes": 160882,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 78427,
+        "margin_pct": 48.74815184602224,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 89920,
+        "rep_votes": 171176,
+        "other_votes": 45197,
+        "total_votes": 306292,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 81257,
+        "margin_pct": 26.529103518578307,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 102465,
+        "rep_votes": 65807,
+        "other_votes": 19014,
+        "total_votes": 187286,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -36658,
+        "margin_pct": -19.573270845841588,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 25059,
+        "rep_votes": 11360,
+        "other_votes": 6584,
+        "total_votes": 43003,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": -13699,
+        "margin_pct": -31.855917029044484,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 16948,
+        "rep_votes": 68052,
+        "other_votes": 8195,
+        "total_votes": 93195,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 51104,
+        "margin_pct": 54.83555556532414,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 42868,
+        "rep_votes": 27051,
+        "other_votes": 7332,
+        "total_votes": 77251,
+        "dem_candidate": "STEVE BROWN",
+        "rep_candidate": "RYAN SITTON",
+        "margin": -15817,
+        "margin_pct": -20.47481585998887,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 15000,
+        "rep_votes": 64307,
+        "other_votes": 73855,
+        "total_votes": 153162,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 49307,
+        "margin_pct": 32.19270780252822,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 15804,
+        "rep_votes": 93740,
+        "other_votes": 6191,
+        "total_votes": 115735,
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
+        "margin": 77936,
+        "margin_pct": 67.34004406618568,
+        "winner": "REP"
+      }
+    }
+  }
+}

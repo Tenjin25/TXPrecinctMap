@@ -1,0 +1,69 @@
+{
+  "rows": [
+    {
+      "county": "THROCKMORTON - 1",
+      "dem_votes": 0,
+      "rep_votes": 218,
+      "other_votes": 0,
+      "total_votes": 218,
+      "dem_candidate": "",
+      "rep_candidate": "Bruce Williams",
+      "margin": 218,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": ""
+    },
+    {
+      "county": "THROCKMORTON - 2",
+      "dem_votes": 0,
+      "rep_votes": 191,
+      "other_votes": 0,
+      "total_votes": 191,
+      "dem_candidate": "",
+      "rep_candidate": "Bruce Williams",
+      "margin": 191,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": ""
+    },
+    {
+      "county": "THROCKMORTON - 3003",
+      "dem_votes": 0,
+      "rep_votes": 202,
+      "other_votes": 0,
+      "total_votes": 202,
+      "dem_candidate": "",
+      "rep_candidate": "Bruce Williams",
+      "margin": 202,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": ""
+    },
+    {
+      "county": "THROCKMORTON - 4005",
+      "dem_votes": 0,
+      "rep_votes": 47,
+      "other_votes": 0,
+      "total_votes": 47,
+      "dem_candidate": "",
+      "rep_candidate": "Bruce Williams",
+      "margin": 47,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": ""
+    },
+    {
+      "county": "THROCKMORTON - 4006",
+      "dem_votes": 0,
+      "rep_votes": 133,
+      "other_votes": 0,
+      "total_votes": 133,
+      "dem_candidate": "",
+      "rep_candidate": "Bruce Williams",
+      "margin": 133,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": ""
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "railroad_commissioner",
+    "year": 2020,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [],
+    "match_coverage_pct": 99.86047248108288,
+    "matched_precinct_rows": 8730,
+    "total_precinct_rows": 8747,
+    "matched_total_votes": 10986064,
+    "total_votes": 11001414,
+    "generated_at": "2026-03-04T02:00:35.909030+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 82480,
+        "rep_votes": 258739,
+        "other_votes": 8405,
+        "total_votes": 349624,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 176259,
+        "margin_pct": 50.413873189483574,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 129910,
+        "rep_votes": 206398,
+        "other_votes": 10776,
+        "total_votes": 347084,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 76487,
+        "margin_pct": 22.037151439908833,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 69027,
+        "rep_votes": 283250,
+        "other_votes": 7951,
+        "total_votes": 360228,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 214223,
+        "margin_pct": 59.46872536282577,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 128303,
+        "rep_votes": 277874,
+        "other_votes": 12443,
+        "total_votes": 418620,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 149571,
+        "margin_pct": 35.72953991686971,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 176569,
+        "rep_votes": 250608,
+        "other_votes": 18725,
+        "total_votes": 445902,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 74039,
+        "margin_pct": 16.60432112885791,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 118636,
+        "rep_votes": 54732,
+        "other_votes": 6140,
+        "total_votes": 179508,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -63904,
+        "margin_pct": -35.599527597655815,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 169832,
+        "rep_votes": 232729,
+        "other_votes": 13986,
+        "total_votes": 416547,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 62897,
+        "margin_pct": 15.09961660989036,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 201585,
+        "rep_votes": 218164,
+        "other_votes": 14409,
+        "total_votes": 434159,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 16579,
+        "margin_pct": 3.818709792493081,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 145783,
+        "rep_votes": 168765,
+        "other_votes": 12209,
+        "total_votes": 326757,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 22981,
+        "margin_pct": 7.033103127832304,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 181064,
+        "rep_votes": 175963,
+        "other_votes": 12178,
+        "total_votes": 369205,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -5101,
+        "margin_pct": -1.3815404341051638,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 148236,
+        "rep_votes": 228403,
+        "other_votes": 13452,
+        "total_votes": 390091,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 80167,
+        "margin_pct": 20.55089014682145,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 182343,
+        "rep_votes": 275039,
+        "other_votes": 18395,
+        "total_votes": 475778,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 92696,
+        "margin_pct": 19.483083756062374,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 196549,
+        "rep_votes": 45226,
+        "other_votes": 8176,
+        "total_votes": 249951,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -151323,
+        "margin_pct": -60.5409840220101,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 312900,
+        "rep_votes": 137674,
+        "other_votes": 23079,
+        "total_votes": 473653,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -175226,
+        "margin_pct": -36.994593088189035,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 192351,
+        "rep_votes": 111109,
+        "other_votes": 11180,
+        "total_votes": 314640,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -81242,
+        "margin_pct": -25.820620391558606,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 188492,
+        "rep_votes": 169321,
+        "other_votes": 12589,
+        "total_votes": 370402,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -19171,
+        "margin_pct": -5.175624513973127,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 187147,
+        "rep_votes": 198011,
+        "other_votes": 12467,
+        "total_votes": 397625,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 10863,
+        "margin_pct": 2.7320726456865905,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 147131,
+        "rep_votes": 267173,
+        "other_votes": 10646,
+        "total_votes": 424950,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 120042,
+        "margin_pct": 28.24849982350865,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 166706,
+        "rep_votes": 140741,
+        "other_votes": 11018,
+        "total_votes": 318465,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -25965,
+        "margin_pct": -8.15321335937597,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 136487,
+        "rep_votes": 115961,
+        "other_votes": 9060,
+        "total_votes": 261508,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -20526,
+        "margin_pct": -7.849090658794378,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 148587,
+        "rep_votes": 119177,
+        "other_votes": 10763,
+        "total_votes": 278527,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -29410,
+        "margin_pct": -10.559217715095967,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 115720,
+        "rep_votes": 250879,
+        "other_votes": 11858,
+        "total_votes": 378457,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 135159,
+        "margin_pct": 35.713172170154074,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 228467,
+        "rep_votes": 52635,
+        "other_votes": 9917,
+        "total_votes": 291019,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -175831,
+        "margin_pct": -60.41927192961127,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 111963,
+        "rep_votes": 257762,
+        "other_votes": 13088,
+        "total_votes": 382813,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 145799,
+        "margin_pct": 38.08622583699873,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 229231,
+        "rep_votes": 304849,
+        "other_votes": 20743,
+        "total_votes": 554823,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 75618,
+        "margin_pct": 13.62928563771779,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 179638,
+        "rep_votes": 88409,
+        "other_votes": 11512,
+        "total_votes": 279559,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -91229,
+        "margin_pct": -32.63318407876646,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 121903,
+        "rep_votes": 76745,
+        "other_votes": 6773,
+        "total_votes": 205421,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -45158,
+        "margin_pct": -21.98314680582803,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 68062,
+        "rep_votes": 218911,
+        "other_votes": 8930,
+        "total_votes": 295903,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 150849,
+        "margin_pct": 50.97919129819368,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 163304,
+        "rep_votes": 83952,
+        "other_votes": 13382,
+        "total_votes": 260638,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": -79352,
+        "margin_pct": -30.445291937476497,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 105743,
+        "rep_votes": 326119,
+        "other_votes": 14596,
+        "total_votes": 446457,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 220376,
+        "margin_pct": 49.36098460227349,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 54556,
+        "rep_votes": 225105,
+        "other_votes": 8090,
+        "total_votes": 287751,
+        "dem_candidate": "Chrysta Castaneda",
+        "rep_candidate": "James \"Jim\" Wright",
+        "margin": 170549,
+        "margin_pct": 59.26964632616394,
+        "winner": "REP"
+      }
+    }
+  }
+}

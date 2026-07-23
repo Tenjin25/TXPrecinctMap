@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_place_5",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.17208995759032,
+    "matched_precinct_rows": 4308,
+    "total_precinct_rows": 5109,
+    "matched_total_votes": 3457522,
+    "total_votes": 4157070,
+    "generated_at": "2026-03-03T22:22:50.058310+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 14526,
+        "rep_votes": 41246,
+        "other_votes": 2809,
+        "total_votes": 58581,
+        "dem_candidate": "DANA HUFFMAN",
+        "rep_candidate": "SCOTT WALKER",
+        "margin": 26720,
+        "margin_pct": 45.61205851726669,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 133458,
+        "rep_votes": 163145,
+        "other_votes": 10319,
+        "total_votes": 306922,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 29687,
+        "margin_pct": 9.67250692623373,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 8823,
+        "rep_votes": 30935,
+        "other_votes": 771,
+        "total_votes": 40529,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 22112,
+        "margin_pct": 54.55848439348333,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 31451,
+        "rep_votes": 22243,
+        "other_votes": 957,
+        "total_votes": 54651,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -9208,
+        "margin_pct": -16.849034389780066,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 83924,
+        "rep_votes": 75154,
+        "other_votes": 0,
+        "total_votes": 159077,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -8770,
+        "margin_pct": -5.513123211950073,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 47010,
+        "rep_votes": 151486,
+        "other_votes": 0,
+        "total_votes": 198496,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 104476,
+        "margin_pct": 52.63380622279542,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 19201,
+        "rep_votes": 3654,
+        "other_votes": 0,
+        "total_votes": 22855,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -15547,
+        "margin_pct": -68.02450229709035,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 10198,
+        "rep_votes": 44524,
+        "other_votes": 8621,
+        "total_votes": 63343,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 34326,
+        "margin_pct": 54.190676159954535,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 84144,
+        "rep_votes": 113434,
+        "other_votes": 0,
+        "total_votes": 197578,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 29290,
+        "margin_pct": 14.824395107859651,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 14506,
+        "rep_votes": 68610,
+        "other_votes": 1966,
+        "total_votes": 85082,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 54104,
+        "margin_pct": 63.59041865494465,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 38567,
+        "rep_votes": 64725,
+        "other_votes": 1766,
+        "total_votes": 105058,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 26158,
+        "margin_pct": 24.898627424851036,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 10429,
+        "rep_votes": 23390,
+        "other_votes": 6499,
+        "total_votes": 40318,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 12961,
+        "margin_pct": 32.14693189146287,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 91581,
+        "rep_votes": 52976,
+        "other_votes": 7480,
+        "total_votes": 152037,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -38605,
+        "margin_pct": -25.391845406052475,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 41336,
+        "rep_votes": 78663,
+        "other_votes": 2513,
+        "total_votes": 122512,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 37327,
+        "margin_pct": 30.468035784249707,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 11593,
+        "rep_votes": 46032,
+        "other_votes": 83537,
+        "total_votes": 141162,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 34439,
+        "margin_pct": 24.396792337881298,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 106689,
+        "rep_votes": 63684,
+        "other_votes": 6632,
+        "total_votes": 177005,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -43005,
+        "margin_pct": -24.295978127871315,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 58163,
+        "rep_votes": 81732,
+        "other_votes": 4713,
+        "total_votes": 144609,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 23569,
+        "margin_pct": 16.298657676233223,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 32797,
+        "rep_votes": 39820,
+        "other_votes": 0,
+        "total_votes": 72617,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 7023,
+        "margin_pct": 9.671289092085875,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 63771,
+        "rep_votes": 64714,
+        "other_votes": 12383,
+        "total_votes": 140867,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 943,
+        "margin_pct": 0.6697693602107136,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 90799,
+        "rep_votes": 101442,
+        "other_votes": 1882,
+        "total_votes": 194123,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 10643,
+        "margin_pct": 5.482386765550442,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 17591,
+        "rep_votes": 39716,
+        "other_votes": 3893,
+        "total_votes": 61200,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 22124,
+        "margin_pct": 36.15111575257331,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 21871,
+        "rep_votes": 42257,
+        "other_votes": 1,
+        "total_votes": 64129,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 20386,
+        "margin_pct": 31.788906640932733,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 45439,
+        "rep_votes": 65214,
+        "other_votes": 156,
+        "total_votes": 110809,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 19775,
+        "margin_pct": 17.84602333745454,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 25711,
+        "rep_votes": 23899,
+        "other_votes": 1755,
+        "total_votes": 51365,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -1812,
+        "margin_pct": -3.527715664945984,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 123722,
+        "rep_votes": 32336,
+        "other_votes": 2358,
+        "total_votes": 158416,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -91386,
+        "margin_pct": -57.68736159814247,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 55646,
+        "rep_votes": 61430,
+        "other_votes": 3665,
+        "total_votes": 120741,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 5784,
+        "margin_pct": 4.790419161676647,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 64413,
+        "rep_votes": 71102,
+        "other_votes": 3299,
+        "total_votes": 138814,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 6689,
+        "margin_pct": 4.818678231302318,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 68763,
+        "rep_votes": 27104,
+        "other_votes": 1094,
+        "total_votes": 96962,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -41659,
+        "margin_pct": -42.96481464631775,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 44312,
+        "rep_votes": 39409,
+        "other_votes": 3692,
+        "total_votes": 87413,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -4903,
+        "margin_pct": -5.609005525493919,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 57082,
+        "rep_votes": 30114,
+        "other_votes": 3054,
+        "total_votes": 90250,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": -26968,
+        "margin_pct": -29.88134625089978,
+        "winner": "DEM"
+      }
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_presiding_judge",
+    "year": 2012,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 90.08314571839706,
+    "matched_precinct_rows": 2612,
+    "total_precinct_rows": 2895,
+    "matched_total_votes": 2714443,
+    "total_votes": 3013264,
+    "generated_at": "2026-03-03T22:22:28.278424+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 13225,
+        "rep_votes": 31390,
+        "other_votes": 1292,
+        "total_votes": 45907,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 18165,
+        "margin_pct": 39.5691288910188,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 18705,
+        "rep_votes": 51466,
+        "other_votes": 2181,
+        "total_votes": 72352,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 32761,
+        "margin_pct": 45.28001990269792,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 20945,
+        "rep_votes": 57687,
+        "other_votes": 2296,
+        "total_votes": 80928,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 36742,
+        "margin_pct": 45.400850138394624,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 11740,
+        "rep_votes": 41042,
+        "other_votes": 46887,
+        "total_votes": 99669,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 29302,
+        "margin_pct": 29.399311721799155,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 6234,
+        "rep_votes": 13959,
+        "other_votes": 564,
+        "total_votes": 20757,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 7725,
+        "margin_pct": 37.21636074577251,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 87719,
+        "rep_votes": 41307,
+        "other_votes": 2680,
+        "total_votes": 131706,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": -46412,
+        "margin_pct": -35.23909313167206,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 90169,
+        "rep_votes": 186484,
+        "other_votes": 6962,
+        "total_votes": 283615,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 96315,
+        "margin_pct": 33.95976940570844,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 82555,
+        "rep_votes": 153202,
+        "other_votes": 8759,
+        "total_votes": 244516,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 70647,
+        "margin_pct": 28.89260774923445,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 54150,
+        "rep_votes": 109499,
+        "other_votes": 4820,
+        "total_votes": 168469,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 55349,
+        "margin_pct": 32.85416169672279,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 172405,
+        "rep_votes": 31481,
+        "other_votes": 2709,
+        "total_votes": 206596,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": -140924,
+        "margin_pct": -68.21268150807799,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 125989,
+        "rep_votes": 84186,
+        "other_votes": 5398,
+        "total_votes": 215573,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": -41803,
+        "margin_pct": -19.39157501171297,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 109992,
+        "rep_votes": 164318,
+        "other_votes": 7757,
+        "total_votes": 282066,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 54326,
+        "margin_pct": 19.260080505772052,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 48850,
+        "rep_votes": 92379,
+        "other_votes": 4305,
+        "total_votes": 145534,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 43529,
+        "margin_pct": 29.90984924485,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 3677,
+        "rep_votes": 4069,
+        "other_votes": 230,
+        "total_votes": 7976,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 392,
+        "margin_pct": 4.914744232698094,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 42357,
+        "rep_votes": 50228,
+        "other_votes": 3217,
+        "total_votes": 95802,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 7871,
+        "margin_pct": 8.215903634579654,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 17191,
+        "rep_votes": 17503,
+        "other_votes": 1419,
+        "total_votes": 36113,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 312,
+        "margin_pct": 0.8634042458880444,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 24921,
+        "rep_votes": 44918,
+        "other_votes": 2112,
+        "total_votes": 71951,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 19997,
+        "margin_pct": 27.792525468721767,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 20020,
+        "rep_votes": 71510,
+        "other_votes": 3446,
+        "total_votes": 94976,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 51490,
+        "margin_pct": 54.21371789845838,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 17575,
+        "rep_votes": 27586,
+        "other_votes": 6390,
+        "total_votes": 51551,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 10011,
+        "margin_pct": 19.420049362946983,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 2959,
+        "rep_votes": 2020,
+        "other_votes": 158,
+        "total_votes": 5137,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": -939,
+        "margin_pct": -18.279151255596652,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 44203,
+        "rep_votes": 117786,
+        "other_votes": 6618,
+        "total_votes": 168607,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 73583,
+        "margin_pct": 43.64171876545748,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 17126,
+        "rep_votes": 70460,
+        "other_votes": 3524,
+        "total_votes": 91110,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 53334,
+        "margin_pct": 58.538019152163955,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 17267,
+        "rep_votes": 73264,
+        "other_votes": 3001,
+        "total_votes": 93532,
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
+        "margin": 55997,
+        "margin_pct": 59.86934952743446,
+        "winner": "REP"
+      }
+    }
+  }
+}

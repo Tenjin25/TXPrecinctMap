@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2012,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 90.0600945157109,
+    "matched_precinct_rows": 1189,
+    "total_precinct_rows": 1318,
+    "matched_total_votes": 931705,
+    "total_votes": 1034537,
+    "generated_at": "2026-03-03T22:22:29.546421+00:00"
+  },
+  "general": {
+    "results": {
+      "3": {
+        "dem_votes": 88929,
+        "rep_votes": 168511,
+        "other_votes": 7847,
+        "total_votes": 265287,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 79582,
+        "margin_pct": 29.99847266571868,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 15902,
+        "rep_votes": 45814,
+        "other_votes": 2481,
+        "total_votes": 64197,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 29912,
+        "margin_pct": 46.5940365900484,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 4154,
+        "rep_votes": 11487,
+        "other_votes": 368,
+        "total_votes": 16009,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 7333,
+        "margin_pct": 45.80548441501655,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 18426,
+        "rep_votes": 48066,
+        "other_votes": 3297,
+        "total_votes": 69789,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 29640,
+        "margin_pct": 42.47087649916176,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 6088,
+        "rep_votes": 11328,
+        "other_votes": 942,
+        "total_votes": 18358,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 5240,
+        "margin_pct": 28.54341431528489,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 14052,
+        "rep_votes": 31916,
+        "other_votes": 1374,
+        "total_votes": 47342,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 17864,
+        "margin_pct": 37.73393603988002,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 7234,
+        "rep_votes": 29673,
+        "other_votes": 2020,
+        "total_votes": 38927,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 22439,
+        "margin_pct": 57.64379479538624,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 3664,
+        "rep_votes": 15972,
+        "other_votes": 1155,
+        "total_votes": 20791,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 12308,
+        "margin_pct": 59.19869174161897,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 26117,
+        "rep_votes": 45623,
+        "other_votes": 46269,
+        "total_votes": 118009,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 19506,
+        "margin_pct": 16.52924776923794,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 4989,
+        "rep_votes": 3843,
+        "other_votes": 232,
+        "total_votes": 9064,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": -1146,
+        "margin_pct": -12.64342453662842,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 18993,
+        "rep_votes": 42168,
+        "other_votes": 3884,
+        "total_votes": 65045,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 23175,
+        "margin_pct": 35.629179798600966,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 1662,
+        "rep_votes": 5793,
+        "other_votes": 394,
+        "total_votes": 7849,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 4131,
+        "margin_pct": 52.63090839597401,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 15870,
+        "rep_votes": 16176,
+        "other_votes": 1196,
+        "total_votes": 33242,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 306,
+        "margin_pct": 0.9205222309127008,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 4131,
+        "rep_votes": 13535,
+        "other_votes": 649,
+        "total_votes": 18315,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 9404,
+        "margin_pct": 51.345891345891346,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 6683,
+        "rep_votes": 17361,
+        "other_votes": 1283,
+        "total_votes": 25327,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 10678,
+        "margin_pct": 42.160540135033756,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 44429,
+        "rep_votes": 24145,
+        "other_votes": 5017,
+        "total_votes": 73591,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": -20284,
+        "margin_pct": -27.563153102960957,
+        "winner": "DEM"
+      },
+      "32": {
+        "dem_votes": 5148,
+        "rep_votes": 10456,
+        "other_votes": 548,
+        "total_votes": 16152,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 5308,
+        "margin_pct": 32.86280336800396,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 2079,
+        "rep_votes": 2631,
+        "other_votes": 420,
+        "total_votes": 5130,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 552,
+        "margin_pct": 10.760233918128655,
+        "winner": "REP"
+      },
+      "36": {
+        "dem_votes": 4905,
+        "rep_votes": 13258,
+        "other_votes": 1118,
+        "total_votes": 19281,
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
+        "margin": 8353,
+        "margin_pct": 43.32244178206525,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,2794 @@
+{
+  "files": [
+    {
+      "scope": "congressional",
+      "year": 2010,
+      "contest_type": "agriculture_commissioner",
+      "file": "congressional_agriculture_commissioner_2010.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.54851583936144,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "agriculture_commissioner",
+      "file": "congressional_agriculture_commissioner_2014.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 96.5991307288517,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "agriculture_commissioner",
+      "file": "congressional_agriculture_commissioner_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.67299015440811,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "agriculture_commissioner",
+      "file": "congressional_agriculture_commissioner_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.4498515364503,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2010,
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2010.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.57618814306713,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2014.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 96.61061730105094,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.67213422994308,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.43864426509793,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2010,
+      "contest_type": "comptroller",
+      "file": "congressional_comptroller_2010.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.26678445229682,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "comptroller",
+      "file": "congressional_comptroller_2014.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 96.59631116081287,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "comptroller",
+      "file": "congressional_comptroller_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.78101708295829,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "comptroller",
+      "file": "congressional_comptroller_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.43703695683136,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_1",
+      "file": "congressional_court_of_criminal_appeals_place_1_2014.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 91.65152432868967,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "congressional_court_of_criminal_appeals_place_2_2016.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 99.66573838084648,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "congressional_court_of_criminal_appeals_place_2_2020.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "congressional_court_of_criminal_appeals_place_2_2024.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_3",
+      "file": "congressional_court_of_criminal_appeals_place_3_2014.json",
+      "rows": 35,
+      "districts": 35,
+      "match_coverage_pct": 98.7847734241079,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_3",
+      "file": "congressional_court_of_criminal_appeals_place_3_2020.json",
+      "rows": 29,
+      "districts": 29,
+      "match_coverage_pct": 94.29891963014026,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_4",
+      "file": "congressional_court_of_criminal_appeals_place_4_2014.json",
+      "rows": 35,
+      "districts": 35,
+      "match_coverage_pct": 98.7599489445546,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_4",
+      "file": "congressional_court_of_criminal_appeals_place_4_2020.json",
+      "rows": 29,
+      "districts": 29,
+      "match_coverage_pct": 94.29370896417734,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_5",
+      "file": "congressional_court_of_criminal_appeals_place_5_2016.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 99.6658966387177,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "court_of_criminal_appeals_place_5",
+      "file": "congressional_court_of_criminal_appeals_place_5_2022.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 83.17208995759032,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_6",
+      "file": "congressional_court_of_criminal_appeals_place_6_2016.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 99.66407643014227,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "court_of_criminal_appeals_place_6",
+      "file": "congressional_court_of_criminal_appeals_place_6_2022.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 83.16691624012805,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "congressional_court_of_criminal_appeals_place_7_2012.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 88.7798058406532,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "congressional_court_of_criminal_appeals_place_7_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.9525877810927,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "congressional_court_of_criminal_appeals_place_7_2024.json",
+      "rows": 27,
+      "districts": 27,
+      "match_coverage_pct": 74.00277391384908,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "congressional_court_of_criminal_appeals_place_8_2012.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 88.75946424850855,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "congressional_court_of_criminal_appeals_place_8_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.91649352115037,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "congressional_court_of_criminal_appeals_place_8_2024.json",
+      "rows": 27,
+      "districts": 27,
+      "match_coverage_pct": 73.80381629870023,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_9",
+      "file": "congressional_court_of_criminal_appeals_place_9_2014.json",
+      "rows": 35,
+      "districts": 35,
+      "match_coverage_pct": 98.75565145910399,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_9",
+      "file": "congressional_court_of_criminal_appeals_place_9_2020.json",
+      "rows": 29,
+      "districts": 29,
+      "match_coverage_pct": 94.2890293146977,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "congressional_court_of_criminal_appeals_presiding_judge_2012.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 90.08314571839706,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "congressional_court_of_criminal_appeals_presiding_judge_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.93702298554653,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "congressional_court_of_criminal_appeals_presiding_judge_2024.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 74.5691217656357,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2010,
+      "contest_type": "governor",
+      "file": "congressional_governor_2010.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.67384763509448,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "governor",
+      "file": "congressional_governor_2014.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 96.58249058507637,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "governor",
+      "file": "congressional_governor_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.67169881571427,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "governor",
+      "file": "congressional_governor_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.42647689614569,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2010,
+      "contest_type": "land_commissioner",
+      "file": "congressional_land_commissioner_2010.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.5615346287992,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "land_commissioner",
+      "file": "congressional_land_commissioner_2014.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 96.96096243565567,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "land_commissioner",
+      "file": "congressional_land_commissioner_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.67178162792835,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "land_commissioner",
+      "file": "congressional_land_commissioner_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.43973027021347,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2010,
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2010.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.57235632888127,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2014.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 96.59564585063785,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.67281589697564,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.43566650755939,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2008,
+      "contest_type": "president",
+      "file": "congressional_president_2008.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.47143711040901,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "president",
+      "file": "congressional_president_2012.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 90.30753799831933,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2016,
+      "contest_type": "president",
+      "file": "congressional_president_2016.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.77228497016603,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "president",
+      "file": "congressional_president_2020.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 97.1067825212907,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "president",
+      "file": "congressional_president_2024.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 79.79603742390664,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2008,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2008.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.4468313641246,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2010,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2010.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.48692152917505,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2012.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 89.50097302123493,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2014.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 96.59202233930128,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2016,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2016.json",
+      "rows": 34,
+      "districts": 34,
+      "match_coverage_pct": 99.11303960081986,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.67133539595612,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2020.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 97.10846393521321,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.43973019990182,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "railroad_commissioner",
+      "file": "congressional_railroad_commissioner_2024.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 79.96657786888424,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "supreme_court_place_2",
+      "file": "congressional_supreme_court_place_2_2012.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 88.99086955683694,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "supreme_court_place_2",
+      "file": "congressional_supreme_court_place_2_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.96443810474202,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "supreme_court_place_2",
+      "file": "congressional_supreme_court_place_2_2024.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 77.70181053213973,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2016,
+      "contest_type": "supreme_court_place_3",
+      "file": "congressional_supreme_court_place_3_2016.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 99.66552804151101,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "supreme_court_place_3",
+      "file": "congressional_supreme_court_place_3_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.51854846603314,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "supreme_court_place_4",
+      "file": "congressional_supreme_court_place_4_2012.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 89.08286188902174,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "supreme_court_place_4",
+      "file": "congressional_supreme_court_place_4_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.964149930063,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "supreme_court_place_4",
+      "file": "congressional_supreme_court_place_4_2024.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 78.62205774785755,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2016,
+      "contest_type": "supreme_court_place_5",
+      "file": "congressional_supreme_court_place_5_2016.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 99.66607877533879,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "supreme_court_place_5",
+      "file": "congressional_supreme_court_place_5_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.50013252674752,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "supreme_court_place_6",
+      "file": "congressional_supreme_court_place_6_2012.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 90.68658289492888,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "supreme_court_place_6",
+      "file": "congressional_supreme_court_place_6_2014.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 99.0115751608838,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "supreme_court_place_6",
+      "file": "congressional_supreme_court_place_6_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.96426978808542,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "supreme_court_place_6",
+      "file": "congressional_supreme_court_place_6_2020.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 98.99887041823007,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "supreme_court_place_6",
+      "file": "congressional_supreme_court_place_6_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "supreme_court_place_6",
+      "file": "congressional_supreme_court_place_6_2024.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 77.8009012404871,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "supreme_court_place_6_unexpired",
+      "file": "congressional_supreme_court_place_6_unexpired_2014.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 98.71990067475053,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "supreme_court_place_6_unexpired",
+      "file": "congressional_supreme_court_place_6_unexpired_2020.json",
+      "rows": 27,
+      "districts": 27,
+      "match_coverage_pct": 94.05341542087096,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "supreme_court_place_7",
+      "file": "congressional_supreme_court_place_7_2014.json",
+      "rows": 35,
+      "districts": 35,
+      "match_coverage_pct": 98.78265623148354,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "supreme_court_place_7",
+      "file": "congressional_supreme_court_place_7_2020.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 95.39001413283262,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "supreme_court_place_7",
+      "file": "congressional_supreme_court_place_7_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 31.08108108108108,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "supreme_court_place_8",
+      "file": "congressional_supreme_court_place_8_2014.json",
+      "rows": 35,
+      "districts": 35,
+      "match_coverage_pct": 98.75381577991693,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "supreme_court_place_8",
+      "file": "congressional_supreme_court_place_8_2020.json",
+      "rows": 30,
+      "districts": 30,
+      "match_coverage_pct": 95.3868631640881,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "supreme_court_place_8",
+      "file": "congressional_supreme_court_place_8_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 70.33248081841433,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2016,
+      "contest_type": "supreme_court_place_9",
+      "file": "congressional_supreme_court_place_9_2016.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 99.66601431806072,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2022,
+      "contest_type": "supreme_court_place_9",
+      "file": "congressional_supreme_court_place_9_2022.json",
+      "rows": 32,
+      "districts": 32,
+      "match_coverage_pct": 83.52722069911552,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2008,
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2008.json",
+      "rows": 2,
+      "districts": 2,
+      "match_coverage_pct": 89.45448227936068,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2012,
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2012.json",
+      "rows": 19,
+      "districts": 19,
+      "match_coverage_pct": 90.0600945157109,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2014,
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2014.json",
+      "rows": 35,
+      "districts": 35,
+      "match_coverage_pct": 96.87121096440579,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2018,
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2018.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 98.66864803689019,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2020,
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2020.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 97.0809733462279,
+      "major_party_contested": true
+    },
+    {
+      "scope": "congressional",
+      "year": 2024,
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2024.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 80.27134503448738,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2010,
+      "contest_type": "agriculture_commissioner",
+      "file": "state_house_agriculture_commissioner_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.54851583936144,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "agriculture_commissioner",
+      "file": "state_house_agriculture_commissioner_2014.json",
+      "rows": 146,
+      "districts": 146,
+      "match_coverage_pct": 96.5991307288517,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "agriculture_commissioner",
+      "file": "state_house_agriculture_commissioner_2018.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.67299015440811,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "agriculture_commissioner",
+      "file": "state_house_agriculture_commissioner_2022.json",
+      "rows": 104,
+      "districts": 104,
+      "match_coverage_pct": 83.4498515364503,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2010,
+      "contest_type": "attorney_general",
+      "file": "state_house_attorney_general_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.57618814306713,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "attorney_general",
+      "file": "state_house_attorney_general_2014.json",
+      "rows": 146,
+      "districts": 146,
+      "match_coverage_pct": 96.61061730105094,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "attorney_general",
+      "file": "state_house_attorney_general_2018.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.67213422994308,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "attorney_general",
+      "file": "state_house_attorney_general_2022.json",
+      "rows": 104,
+      "districts": 104,
+      "match_coverage_pct": 83.43864426509793,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2010,
+      "contest_type": "comptroller",
+      "file": "state_house_comptroller_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.26678445229682,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "comptroller",
+      "file": "state_house_comptroller_2014.json",
+      "rows": 146,
+      "districts": 146,
+      "match_coverage_pct": 96.59631116081287,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "comptroller",
+      "file": "state_house_comptroller_2018.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.78101708295829,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "comptroller",
+      "file": "state_house_comptroller_2022.json",
+      "rows": 104,
+      "districts": 104,
+      "match_coverage_pct": 83.43703695683136,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_1",
+      "file": "state_house_court_of_criminal_appeals_place_1_2014.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 91.65152432868967,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "state_house_court_of_criminal_appeals_place_2_2016.json",
+      "rows": 56,
+      "districts": 56,
+      "match_coverage_pct": 99.66573838084648,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "state_house_court_of_criminal_appeals_place_2_2020.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "state_house_court_of_criminal_appeals_place_2_2024.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_3",
+      "file": "state_house_court_of_criminal_appeals_place_3_2014.json",
+      "rows": 134,
+      "districts": 134,
+      "match_coverage_pct": 98.7847734241079,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_3",
+      "file": "state_house_court_of_criminal_appeals_place_3_2020.json",
+      "rows": 82,
+      "districts": 82,
+      "match_coverage_pct": 94.29891963014026,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_4",
+      "file": "state_house_court_of_criminal_appeals_place_4_2014.json",
+      "rows": 134,
+      "districts": 134,
+      "match_coverage_pct": 98.7599489445546,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_4",
+      "file": "state_house_court_of_criminal_appeals_place_4_2020.json",
+      "rows": 82,
+      "districts": 82,
+      "match_coverage_pct": 94.29370896417734,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_5",
+      "file": "state_house_court_of_criminal_appeals_place_5_2016.json",
+      "rows": 56,
+      "districts": 56,
+      "match_coverage_pct": 99.6658966387177,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "court_of_criminal_appeals_place_5",
+      "file": "state_house_court_of_criminal_appeals_place_5_2022.json",
+      "rows": 96,
+      "districts": 96,
+      "match_coverage_pct": 83.17208995759032,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_6",
+      "file": "state_house_court_of_criminal_appeals_place_6_2016.json",
+      "rows": 56,
+      "districts": 56,
+      "match_coverage_pct": 99.66407643014227,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "court_of_criminal_appeals_place_6",
+      "file": "state_house_court_of_criminal_appeals_place_6_2022.json",
+      "rows": 96,
+      "districts": 96,
+      "match_coverage_pct": 83.16691624012805,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "state_house_court_of_criminal_appeals_place_7_2012.json",
+      "rows": 74,
+      "districts": 74,
+      "match_coverage_pct": 88.7798058406532,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "state_house_court_of_criminal_appeals_place_7_2018.json",
+      "rows": 145,
+      "districts": 145,
+      "match_coverage_pct": 98.9525877810927,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "state_house_court_of_criminal_appeals_place_7_2024.json",
+      "rows": 66,
+      "districts": 66,
+      "match_coverage_pct": 74.00277391384908,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "state_house_court_of_criminal_appeals_place_8_2012.json",
+      "rows": 74,
+      "districts": 74,
+      "match_coverage_pct": 88.75946424850855,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "state_house_court_of_criminal_appeals_place_8_2018.json",
+      "rows": 145,
+      "districts": 145,
+      "match_coverage_pct": 98.91649352115037,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "state_house_court_of_criminal_appeals_place_8_2024.json",
+      "rows": 66,
+      "districts": 66,
+      "match_coverage_pct": 73.80381629870023,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_9",
+      "file": "state_house_court_of_criminal_appeals_place_9_2014.json",
+      "rows": 134,
+      "districts": 134,
+      "match_coverage_pct": 98.75565145910399,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_9",
+      "file": "state_house_court_of_criminal_appeals_place_9_2020.json",
+      "rows": 82,
+      "districts": 82,
+      "match_coverage_pct": 94.2890293146977,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "state_house_court_of_criminal_appeals_presiding_judge_2012.json",
+      "rows": 72,
+      "districts": 72,
+      "match_coverage_pct": 90.08314571839706,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "state_house_court_of_criminal_appeals_presiding_judge_2018.json",
+      "rows": 144,
+      "districts": 144,
+      "match_coverage_pct": 98.93702298554653,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "state_house_court_of_criminal_appeals_presiding_judge_2024.json",
+      "rows": 67,
+      "districts": 67,
+      "match_coverage_pct": 74.5691217656357,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2010,
+      "contest_type": "governor",
+      "file": "state_house_governor_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.67384763509448,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "governor",
+      "file": "state_house_governor_2014.json",
+      "rows": 146,
+      "districts": 146,
+      "match_coverage_pct": 96.58249058507637,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "governor",
+      "file": "state_house_governor_2018.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.67169881571427,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "governor",
+      "file": "state_house_governor_2022.json",
+      "rows": 104,
+      "districts": 104,
+      "match_coverage_pct": 83.42647689614569,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2010,
+      "contest_type": "land_commissioner",
+      "file": "state_house_land_commissioner_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.5615346287992,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "land_commissioner",
+      "file": "state_house_land_commissioner_2014.json",
+      "rows": 146,
+      "districts": 146,
+      "match_coverage_pct": 96.96096243565567,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "land_commissioner",
+      "file": "state_house_land_commissioner_2018.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.67178162792835,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "land_commissioner",
+      "file": "state_house_land_commissioner_2022.json",
+      "rows": 104,
+      "districts": 104,
+      "match_coverage_pct": 83.43973027021347,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2010,
+      "contest_type": "lieutenant_governor",
+      "file": "state_house_lieutenant_governor_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.57235632888127,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "lieutenant_governor",
+      "file": "state_house_lieutenant_governor_2014.json",
+      "rows": 146,
+      "districts": 146,
+      "match_coverage_pct": 96.59564585063785,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "lieutenant_governor",
+      "file": "state_house_lieutenant_governor_2018.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.67281589697564,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "lieutenant_governor",
+      "file": "state_house_lieutenant_governor_2022.json",
+      "rows": 104,
+      "districts": 104,
+      "match_coverage_pct": 83.43566650755939,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2008,
+      "contest_type": "president",
+      "file": "state_house_president_2008.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.47143711040901,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "president",
+      "file": "state_house_president_2012.json",
+      "rows": 91,
+      "districts": 91,
+      "match_coverage_pct": 90.30753799831933,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2016,
+      "contest_type": "president",
+      "file": "state_house_president_2016.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.77228497016603,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "president",
+      "file": "state_house_president_2020.json",
+      "rows": 140,
+      "districts": 140,
+      "match_coverage_pct": 97.1067825212907,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "president",
+      "file": "state_house_president_2024.json",
+      "rows": 148,
+      "districts": 148,
+      "match_coverage_pct": 79.79603742390664,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2008,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2008.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.4468313641246,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2010,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.48692152917505,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2012.json",
+      "rows": 90,
+      "districts": 90,
+      "match_coverage_pct": 89.50097302123493,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2014.json",
+      "rows": 146,
+      "districts": 146,
+      "match_coverage_pct": 96.59202233930128,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2016,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2016.json",
+      "rows": 118,
+      "districts": 118,
+      "match_coverage_pct": 99.11303960081986,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2018.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.67133539595612,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2020.json",
+      "rows": 141,
+      "districts": 141,
+      "match_coverage_pct": 97.10846393521321,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2022.json",
+      "rows": 104,
+      "districts": 104,
+      "match_coverage_pct": 83.43973019990182,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "railroad_commissioner",
+      "file": "state_house_railroad_commissioner_2024.json",
+      "rows": 148,
+      "districts": 148,
+      "match_coverage_pct": 79.96657786888424,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "supreme_court_place_2",
+      "file": "state_house_supreme_court_place_2_2012.json",
+      "rows": 77,
+      "districts": 77,
+      "match_coverage_pct": 88.99086955683694,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "supreme_court_place_2",
+      "file": "state_house_supreme_court_place_2_2018.json",
+      "rows": 145,
+      "districts": 145,
+      "match_coverage_pct": 98.96443810474202,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "supreme_court_place_2",
+      "file": "state_house_supreme_court_place_2_2024.json",
+      "rows": 99,
+      "districts": 99,
+      "match_coverage_pct": 77.70181053213973,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2016,
+      "contest_type": "supreme_court_place_3",
+      "file": "state_house_supreme_court_place_3_2016.json",
+      "rows": 56,
+      "districts": 56,
+      "match_coverage_pct": 99.66552804151101,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "supreme_court_place_3",
+      "file": "state_house_supreme_court_place_3_2022.json",
+      "rows": 103,
+      "districts": 103,
+      "match_coverage_pct": 83.51854846603314,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "supreme_court_place_4",
+      "file": "state_house_supreme_court_place_4_2012.json",
+      "rows": 77,
+      "districts": 77,
+      "match_coverage_pct": 89.08286188902174,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "supreme_court_place_4",
+      "file": "state_house_supreme_court_place_4_2018.json",
+      "rows": 145,
+      "districts": 145,
+      "match_coverage_pct": 98.964149930063,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "supreme_court_place_4",
+      "file": "state_house_supreme_court_place_4_2024.json",
+      "rows": 99,
+      "districts": 99,
+      "match_coverage_pct": 78.62205774785755,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2016,
+      "contest_type": "supreme_court_place_5",
+      "file": "state_house_supreme_court_place_5_2016.json",
+      "rows": 56,
+      "districts": 56,
+      "match_coverage_pct": 99.66607877533879,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "supreme_court_place_5",
+      "file": "state_house_supreme_court_place_5_2022.json",
+      "rows": 103,
+      "districts": 103,
+      "match_coverage_pct": 83.50013252674752,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_house_supreme_court_place_6_2012.json",
+      "rows": 77,
+      "districts": 77,
+      "match_coverage_pct": 90.68658289492888,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_house_supreme_court_place_6_2014.json",
+      "rows": 48,
+      "districts": 48,
+      "match_coverage_pct": 99.0115751608838,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_house_supreme_court_place_6_2018.json",
+      "rows": 145,
+      "districts": 145,
+      "match_coverage_pct": 98.96426978808542,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_house_supreme_court_place_6_2020.json",
+      "rows": 46,
+      "districts": 46,
+      "match_coverage_pct": 98.99887041823007,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_house_supreme_court_place_6_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_house_supreme_court_place_6_2024.json",
+      "rows": 100,
+      "districts": 100,
+      "match_coverage_pct": 77.8009012404871,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "supreme_court_place_6_unexpired",
+      "file": "state_house_supreme_court_place_6_unexpired_2014.json",
+      "rows": 102,
+      "districts": 102,
+      "match_coverage_pct": 98.71990067475053,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "supreme_court_place_6_unexpired",
+      "file": "state_house_supreme_court_place_6_unexpired_2020.json",
+      "rows": 73,
+      "districts": 73,
+      "match_coverage_pct": 94.05341542087096,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "supreme_court_place_7",
+      "file": "state_house_supreme_court_place_7_2014.json",
+      "rows": 134,
+      "districts": 134,
+      "match_coverage_pct": 98.78265623148354,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "supreme_court_place_7",
+      "file": "state_house_supreme_court_place_7_2020.json",
+      "rows": 101,
+      "districts": 101,
+      "match_coverage_pct": 95.39001413283262,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "supreme_court_place_7",
+      "file": "state_house_supreme_court_place_7_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 31.08108108108108,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "supreme_court_place_8",
+      "file": "state_house_supreme_court_place_8_2014.json",
+      "rows": 134,
+      "districts": 134,
+      "match_coverage_pct": 98.75381577991693,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "supreme_court_place_8",
+      "file": "state_house_supreme_court_place_8_2020.json",
+      "rows": 101,
+      "districts": 101,
+      "match_coverage_pct": 95.3868631640881,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "supreme_court_place_8",
+      "file": "state_house_supreme_court_place_8_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 70.33248081841433,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2016,
+      "contest_type": "supreme_court_place_9",
+      "file": "state_house_supreme_court_place_9_2016.json",
+      "rows": 56,
+      "districts": 56,
+      "match_coverage_pct": 99.66601431806072,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2022,
+      "contest_type": "supreme_court_place_9",
+      "file": "state_house_supreme_court_place_9_2022.json",
+      "rows": 103,
+      "districts": 103,
+      "match_coverage_pct": 83.52722069911552,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2008,
+      "contest_type": "us_senate",
+      "file": "state_house_us_senate_2008.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.45448227936068,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2012,
+      "contest_type": "us_senate",
+      "file": "state_house_us_senate_2012.json",
+      "rows": 36,
+      "districts": 36,
+      "match_coverage_pct": 90.0600945157109,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2014,
+      "contest_type": "us_senate",
+      "file": "state_house_us_senate_2014.json",
+      "rows": 140,
+      "districts": 140,
+      "match_coverage_pct": 96.87121096440579,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2018,
+      "contest_type": "us_senate",
+      "file": "state_house_us_senate_2018.json",
+      "rows": 150,
+      "districts": 150,
+      "match_coverage_pct": 98.66864803689019,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2020,
+      "contest_type": "us_senate",
+      "file": "state_house_us_senate_2020.json",
+      "rows": 141,
+      "districts": 141,
+      "match_coverage_pct": 97.0809733462279,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_house",
+      "year": 2024,
+      "contest_type": "us_senate",
+      "file": "state_house_us_senate_2024.json",
+      "rows": 147,
+      "districts": 147,
+      "match_coverage_pct": 80.27134503448738,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2010,
+      "contest_type": "agriculture_commissioner",
+      "file": "state_senate_agriculture_commissioner_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.54851583936144,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "agriculture_commissioner",
+      "file": "state_senate_agriculture_commissioner_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 96.5991307288517,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "agriculture_commissioner",
+      "file": "state_senate_agriculture_commissioner_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.67299015440811,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "agriculture_commissioner",
+      "file": "state_senate_agriculture_commissioner_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.4498515364503,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2010,
+      "contest_type": "attorney_general",
+      "file": "state_senate_attorney_general_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.57618814306713,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "attorney_general",
+      "file": "state_senate_attorney_general_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 96.61061730105094,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "attorney_general",
+      "file": "state_senate_attorney_general_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.67213422994308,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "attorney_general",
+      "file": "state_senate_attorney_general_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.43864426509793,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2010,
+      "contest_type": "comptroller",
+      "file": "state_senate_comptroller_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.26678445229682,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "comptroller",
+      "file": "state_senate_comptroller_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 96.59631116081287,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "comptroller",
+      "file": "state_senate_comptroller_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.78101708295829,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "comptroller",
+      "file": "state_senate_comptroller_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.43703695683136,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_1",
+      "file": "state_senate_court_of_criminal_appeals_place_1_2014.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 91.65152432868967,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "state_senate_court_of_criminal_appeals_place_2_2016.json",
+      "rows": 17,
+      "districts": 17,
+      "match_coverage_pct": 99.66573838084648,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "state_senate_court_of_criminal_appeals_place_2_2020.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_2",
+      "file": "state_senate_court_of_criminal_appeals_place_2_2024.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_3",
+      "file": "state_senate_court_of_criminal_appeals_place_3_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.7847734241079,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_3",
+      "file": "state_senate_court_of_criminal_appeals_place_3_2020.json",
+      "rows": 24,
+      "districts": 24,
+      "match_coverage_pct": 94.29891963014026,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_4",
+      "file": "state_senate_court_of_criminal_appeals_place_4_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.7599489445546,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_4",
+      "file": "state_senate_court_of_criminal_appeals_place_4_2020.json",
+      "rows": 24,
+      "districts": 24,
+      "match_coverage_pct": 94.29370896417734,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_5",
+      "file": "state_senate_court_of_criminal_appeals_place_5_2016.json",
+      "rows": 17,
+      "districts": 17,
+      "match_coverage_pct": 99.6658966387177,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "court_of_criminal_appeals_place_5",
+      "file": "state_senate_court_of_criminal_appeals_place_5_2022.json",
+      "rows": 27,
+      "districts": 27,
+      "match_coverage_pct": 83.17208995759032,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2016,
+      "contest_type": "court_of_criminal_appeals_place_6",
+      "file": "state_senate_court_of_criminal_appeals_place_6_2016.json",
+      "rows": 17,
+      "districts": 17,
+      "match_coverage_pct": 99.66407643014227,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "court_of_criminal_appeals_place_6",
+      "file": "state_senate_court_of_criminal_appeals_place_6_2022.json",
+      "rows": 27,
+      "districts": 27,
+      "match_coverage_pct": 83.16691624012805,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "state_senate_court_of_criminal_appeals_place_7_2012.json",
+      "rows": 22,
+      "districts": 22,
+      "match_coverage_pct": 88.7798058406532,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "state_senate_court_of_criminal_appeals_place_7_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.9525877810927,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_7",
+      "file": "state_senate_court_of_criminal_appeals_place_7_2024.json",
+      "rows": 21,
+      "districts": 21,
+      "match_coverage_pct": 74.00277391384908,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "state_senate_court_of_criminal_appeals_place_8_2012.json",
+      "rows": 22,
+      "districts": 22,
+      "match_coverage_pct": 88.75946424850855,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "state_senate_court_of_criminal_appeals_place_8_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.91649352115037,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_place_8",
+      "file": "state_senate_court_of_criminal_appeals_place_8_2024.json",
+      "rows": 21,
+      "districts": 21,
+      "match_coverage_pct": 73.80381629870023,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "court_of_criminal_appeals_place_9",
+      "file": "state_senate_court_of_criminal_appeals_place_9_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.75565145910399,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "court_of_criminal_appeals_place_9",
+      "file": "state_senate_court_of_criminal_appeals_place_9_2020.json",
+      "rows": 24,
+      "districts": 24,
+      "match_coverage_pct": 94.2890293146977,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "state_senate_court_of_criminal_appeals_presiding_judge_2012.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 90.08314571839706,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "state_senate_court_of_criminal_appeals_presiding_judge_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.93702298554653,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "court_of_criminal_appeals_presiding_judge",
+      "file": "state_senate_court_of_criminal_appeals_presiding_judge_2024.json",
+      "rows": 21,
+      "districts": 21,
+      "match_coverage_pct": 74.5691217656357,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2010,
+      "contest_type": "governor",
+      "file": "state_senate_governor_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.67384763509448,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "governor",
+      "file": "state_senate_governor_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 96.58249058507637,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "governor",
+      "file": "state_senate_governor_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.67169881571427,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "governor",
+      "file": "state_senate_governor_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.42647689614569,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2010,
+      "contest_type": "land_commissioner",
+      "file": "state_senate_land_commissioner_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.5615346287992,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "land_commissioner",
+      "file": "state_senate_land_commissioner_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 96.96096243565567,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "land_commissioner",
+      "file": "state_senate_land_commissioner_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.67178162792835,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "land_commissioner",
+      "file": "state_senate_land_commissioner_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.43973027021347,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2010,
+      "contest_type": "lieutenant_governor",
+      "file": "state_senate_lieutenant_governor_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.57235632888127,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "lieutenant_governor",
+      "file": "state_senate_lieutenant_governor_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 96.59564585063785,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "lieutenant_governor",
+      "file": "state_senate_lieutenant_governor_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.67281589697564,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "lieutenant_governor",
+      "file": "state_senate_lieutenant_governor_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.43566650755939,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2008,
+      "contest_type": "president",
+      "file": "state_senate_president_2008.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.47143711040901,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "president",
+      "file": "state_senate_president_2012.json",
+      "rows": 24,
+      "districts": 24,
+      "match_coverage_pct": 90.30753799831933,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2016,
+      "contest_type": "president",
+      "file": "state_senate_president_2016.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.77228497016603,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "president",
+      "file": "state_senate_president_2020.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 97.1067825212907,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "president",
+      "file": "state_senate_president_2024.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 79.79603742390664,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2008,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2008.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.4468313641246,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2010,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2010.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.48692152917505,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2012.json",
+      "rows": 24,
+      "districts": 24,
+      "match_coverage_pct": 89.50097302123493,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 96.59202233930128,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2016,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2016.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 99.11303960081986,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.67133539595612,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2020.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 97.10846393521321,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.43973019990182,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "railroad_commissioner",
+      "file": "state_senate_railroad_commissioner_2024.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 79.96657786888424,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "supreme_court_place_2",
+      "file": "state_senate_supreme_court_place_2_2012.json",
+      "rows": 22,
+      "districts": 22,
+      "match_coverage_pct": 88.99086955683694,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "supreme_court_place_2",
+      "file": "state_senate_supreme_court_place_2_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.96443810474202,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "supreme_court_place_2",
+      "file": "state_senate_supreme_court_place_2_2024.json",
+      "rows": 25,
+      "districts": 25,
+      "match_coverage_pct": 77.70181053213973,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2016,
+      "contest_type": "supreme_court_place_3",
+      "file": "state_senate_supreme_court_place_3_2016.json",
+      "rows": 17,
+      "districts": 17,
+      "match_coverage_pct": 99.66552804151101,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "supreme_court_place_3",
+      "file": "state_senate_supreme_court_place_3_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.51854846603314,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "supreme_court_place_4",
+      "file": "state_senate_supreme_court_place_4_2012.json",
+      "rows": 22,
+      "districts": 22,
+      "match_coverage_pct": 89.08286188902174,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "supreme_court_place_4",
+      "file": "state_senate_supreme_court_place_4_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.964149930063,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "supreme_court_place_4",
+      "file": "state_senate_supreme_court_place_4_2024.json",
+      "rows": 25,
+      "districts": 25,
+      "match_coverage_pct": 78.62205774785755,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2016,
+      "contest_type": "supreme_court_place_5",
+      "file": "state_senate_supreme_court_place_5_2016.json",
+      "rows": 17,
+      "districts": 17,
+      "match_coverage_pct": 99.66607877533879,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "supreme_court_place_5",
+      "file": "state_senate_supreme_court_place_5_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.50013252674752,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_senate_supreme_court_place_6_2012.json",
+      "rows": 22,
+      "districts": 22,
+      "match_coverage_pct": 90.68658289492888,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_senate_supreme_court_place_6_2014.json",
+      "rows": 19,
+      "districts": 19,
+      "match_coverage_pct": 99.0115751608838,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_senate_supreme_court_place_6_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.96426978808542,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_senate_supreme_court_place_6_2020.json",
+      "rows": 19,
+      "districts": 19,
+      "match_coverage_pct": 98.99887041823007,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_senate_supreme_court_place_6_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 100.0,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "supreme_court_place_6",
+      "file": "state_senate_supreme_court_place_6_2024.json",
+      "rows": 25,
+      "districts": 25,
+      "match_coverage_pct": 77.8009012404871,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "supreme_court_place_6_unexpired",
+      "file": "state_senate_supreme_court_place_6_unexpired_2014.json",
+      "rows": 27,
+      "districts": 27,
+      "match_coverage_pct": 98.71990067475053,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "supreme_court_place_6_unexpired",
+      "file": "state_senate_supreme_court_place_6_unexpired_2020.json",
+      "rows": 23,
+      "districts": 23,
+      "match_coverage_pct": 94.05341542087096,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "supreme_court_place_7",
+      "file": "state_senate_supreme_court_place_7_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.78265623148354,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "supreme_court_place_7",
+      "file": "state_senate_supreme_court_place_7_2020.json",
+      "rows": 26,
+      "districts": 26,
+      "match_coverage_pct": 95.39001413283262,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "supreme_court_place_7",
+      "file": "state_senate_supreme_court_place_7_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 31.08108108108108,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "supreme_court_place_8",
+      "file": "state_senate_supreme_court_place_8_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.75381577991693,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "supreme_court_place_8",
+      "file": "state_senate_supreme_court_place_8_2020.json",
+      "rows": 26,
+      "districts": 26,
+      "match_coverage_pct": 95.3868631640881,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "supreme_court_place_8",
+      "file": "state_senate_supreme_court_place_8_2022.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 70.33248081841433,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2016,
+      "contest_type": "supreme_court_place_9",
+      "file": "state_senate_supreme_court_place_9_2016.json",
+      "rows": 17,
+      "districts": 17,
+      "match_coverage_pct": 99.66601431806072,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2022,
+      "contest_type": "supreme_court_place_9",
+      "file": "state_senate_supreme_court_place_9_2022.json",
+      "rows": 28,
+      "districts": 28,
+      "match_coverage_pct": 83.52722069911552,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2008,
+      "contest_type": "us_senate",
+      "file": "state_senate_us_senate_2008.json",
+      "rows": 1,
+      "districts": 1,
+      "match_coverage_pct": 89.45448227936068,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2012,
+      "contest_type": "us_senate",
+      "file": "state_senate_us_senate_2012.json",
+      "rows": 17,
+      "districts": 17,
+      "match_coverage_pct": 90.0600945157109,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2014,
+      "contest_type": "us_senate",
+      "file": "state_senate_us_senate_2014.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 96.87121096440579,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2018,
+      "contest_type": "us_senate",
+      "file": "state_senate_us_senate_2018.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 98.66864803689019,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2020,
+      "contest_type": "us_senate",
+      "file": "state_senate_us_senate_2020.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 97.0809733462279,
+      "major_party_contested": true
+    },
+    {
+      "scope": "state_senate",
+      "year": 2024,
+      "contest_type": "us_senate",
+      "file": "state_senate_us_senate_2024.json",
+      "rows": 31,
+      "districts": 31,
+      "match_coverage_pct": 80.27134503448738,
+      "major_party_contested": true
+    }
+  ]
+}

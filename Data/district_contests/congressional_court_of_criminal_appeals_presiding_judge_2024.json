@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_presiding_judge",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 74.5691217656357,
+    "matched_precinct_rows": 2727,
+    "total_precinct_rows": 3371,
+    "matched_total_votes": 3423015,
+    "total_votes": 4590392,
+    "generated_at": "2026-03-03T22:22:53.914221+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 18456,
+        "rep_votes": 61104,
+        "other_votes": 1556,
+        "total_votes": 81116,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 42648,
+        "margin_pct": 52.57655702943932,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 173954,
+        "rep_votes": 220697,
+        "other_votes": 24144,
+        "total_votes": 418795,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 46743,
+        "margin_pct": 11.161326808592808,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 32473,
+        "rep_votes": 123726,
+        "other_votes": 6065,
+        "total_votes": 162264,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 91253,
+        "margin_pct": 56.23738658273331,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 3610,
+        "rep_votes": 16338,
+        "other_votes": 619,
+        "total_votes": 20567,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 12728,
+        "margin_pct": 61.88554480478437,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 71570,
+        "rep_votes": 219429,
+        "other_votes": 9634,
+        "total_votes": 300633,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 147859,
+        "margin_pct": 49.18255813566708,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 25264,
+        "rep_votes": 6204,
+        "other_votes": 2006,
+        "total_votes": 33474,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": -19060,
+        "margin_pct": -56.93971440521002,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 9142,
+        "rep_votes": 20540,
+        "other_votes": 635,
+        "total_votes": 30317,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 11398,
+        "margin_pct": 37.596068212554016,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 21799,
+        "rep_votes": 103352,
+        "other_votes": 5111,
+        "total_votes": 130262,
+        "dem_candidate": "HOLLY TAYLOR",
+        "rep_candidate": "David J. Schenck",
+        "margin": 81553,
+        "margin_pct": 62.60689994012068,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 14258,
+        "rep_votes": 79689,
+        "other_votes": 2103,
+        "total_votes": 96050,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 65431,
+        "margin_pct": 68.12183325647054,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 22298,
+        "rep_votes": 98096,
+        "other_votes": 3522,
+        "total_votes": 123916,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 75798,
+        "margin_pct": 61.16881603007494,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 16157,
+        "rep_votes": 42451,
+        "other_votes": 1596,
+        "total_votes": 60204,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 26294,
+        "margin_pct": 43.67483888113747,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 20477,
+        "rep_votes": 41328,
+        "other_votes": 4520,
+        "total_votes": 66325,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 20851,
+        "margin_pct": 31.437617791179797,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 68272,
+        "rep_votes": 148029,
+        "other_votes": 6767,
+        "total_votes": 223068,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 79757,
+        "margin_pct": 35.754568113759035,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 18808,
+        "rep_votes": 78170,
+        "other_votes": 988,
+        "total_votes": 97966,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 59362,
+        "margin_pct": 60.594491966600664,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 245848,
+        "total_votes": 245848,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "21": {
+        "dem_votes": 16938,
+        "rep_votes": 50385,
+        "other_votes": 135440,
+        "total_votes": 202763,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 33447,
+        "margin_pct": 16.49550820961326,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 45804,
+        "rep_votes": 56450,
+        "other_votes": 3846,
+        "total_votes": 106100,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 10646,
+        "margin_pct": 10.033930254476909,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 9910,
+        "rep_votes": 24094,
+        "other_votes": 165988,
+        "total_votes": 199992,
+        "dem_candidate": "HOLLY TAYLOR",
+        "rep_candidate": "DAVID J. SCHENCK",
+        "margin": 14184,
+        "margin_pct": 7.092297640814883,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 3627,
+        "rep_votes": 5415,
+        "other_votes": 419,
+        "total_votes": 9461,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 1788,
+        "margin_pct": 18.898636507768735,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 13531,
+        "rep_votes": 22769,
+        "other_votes": 29584,
+        "total_votes": 65884,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 9238,
+        "margin_pct": 14.021691732652236,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 41345,
+        "rep_votes": 60654,
+        "other_votes": 5212,
+        "total_votes": 107211,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 19309,
+        "margin_pct": 18.010278796019065,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 59043,
+        "rep_votes": 91487,
+        "other_votes": 7084,
+        "total_votes": 157614,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 32444,
+        "margin_pct": 20.584465846942532,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 104,
+        "rep_votes": 108,
+        "other_votes": 77743,
+        "total_votes": 77955,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 4,
+        "margin_pct": 0.005131188090875155,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 70808,
+        "rep_votes": 80912,
+        "other_votes": 10075,
+        "total_votes": 161795,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 10104,
+        "margin_pct": 6.244939584041534,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 10755,
+        "rep_votes": 15913,
+        "other_votes": 1711,
+        "total_votes": 28379,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 5158,
+        "margin_pct": 18.17541139575038,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 9556,
+        "rep_votes": 17070,
+        "other_votes": 1857,
+        "total_votes": 28483,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 7514,
+        "margin_pct": 26.380648105887722,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 20489,
+        "rep_votes": 16813,
+        "other_votes": 100749,
+        "total_votes": 138051,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": -3676,
+        "margin_pct": -2.6626596646545084,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 8466,
+        "rep_votes": 38259,
+        "other_votes": 1797,
+        "total_votes": 48522,
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
+        "margin": 29793,
+        "margin_pct": 61.40101397304315,
+        "winner": "REP"
+      }
+    }
+  }
+}

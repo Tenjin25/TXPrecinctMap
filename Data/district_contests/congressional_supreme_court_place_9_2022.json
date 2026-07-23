@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_9",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.52722069911552,
+    "matched_precinct_rows": 5002,
+    "total_precinct_rows": 5880,
+    "matched_total_votes": 3934163,
+    "total_votes": 4710037,
+    "generated_at": "2026-03-03T22:22:53.136405+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 37632,
+        "rep_votes": 112260,
+        "other_votes": 4833,
+        "total_votes": 154725,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 74628,
+        "margin_pct": 48.23267086766844,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 133713,
+        "rep_votes": 163696,
+        "other_votes": 9513,
+        "total_votes": 306922,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 29983,
+        "margin_pct": 9.768948709362418,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 24471,
+        "rep_votes": 82376,
+        "other_votes": 1220,
+        "total_votes": 108067,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 57905,
+        "margin_pct": 53.58250498332121,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 46946,
+        "rep_votes": 70214,
+        "other_votes": 1371,
+        "total_votes": 118531,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 23268,
+        "margin_pct": 19.630038071612073,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 84122,
+        "rep_votes": 74997,
+        "other_votes": 0,
+        "total_votes": 159118,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": -9125,
+        "margin_pct": -5.734813741510006,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 48440,
+        "rep_votes": 153489,
+        "other_votes": 0,
+        "total_votes": 201929,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 105049,
+        "margin_pct": 52.02274066627379,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 19223,
+        "rep_votes": 3665,
+        "other_votes": 0,
+        "total_votes": 22888,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": -15558,
+        "margin_pct": -67.9744844459979,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 7419,
+        "rep_votes": 25376,
+        "other_votes": 903,
+        "total_votes": 33698,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 17957,
+        "margin_pct": 53.288028963143205,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 18188,
+        "rep_votes": 80822,
+        "other_votes": 10030,
+        "total_votes": 109040,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 62634,
+        "margin_pct": 57.44130594277329,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 85002,
+        "rep_votes": 112572,
+        "other_votes": 0,
+        "total_votes": 197574,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 27570,
+        "margin_pct": 13.954126080934678,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 17487,
+        "rep_votes": 94949,
+        "other_votes": 2278,
+        "total_votes": 114714,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 77462,
+        "margin_pct": 67.52619558205625,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 38786,
+        "rep_votes": 64509,
+        "other_votes": 1733,
+        "total_votes": 105028,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 25723,
+        "margin_pct": 24.491564154320752,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 10838,
+        "rep_votes": 24540,
+        "other_votes": 6525,
+        "total_votes": 41903,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 13702,
+        "margin_pct": 32.69932940362265,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 93696,
+        "rep_votes": 52007,
+        "other_votes": 6334,
+        "total_votes": 152037,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": -41689,
+        "margin_pct": -27.420299006162974,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 45808,
+        "rep_votes": 96838,
+        "other_votes": 2769,
+        "total_votes": 145415,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 51030,
+        "margin_pct": 35.09266581851941,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 14649,
+        "rep_votes": 62232,
+        "other_votes": 83729,
+        "total_votes": 160610,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 47583,
+        "margin_pct": 29.626424257518213,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 108425,
+        "rep_votes": 62152,
+        "other_votes": 6428,
+        "total_votes": 177005,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": -46273,
+        "margin_pct": -26.142254641069496,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 59005,
+        "rep_votes": 80826,
+        "other_votes": 4612,
+        "total_votes": 144444,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 21821,
+        "margin_pct": 15.10702561037365,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 33307,
+        "rep_votes": 39380,
+        "other_votes": 0,
+        "total_votes": 72687,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 6073,
+        "margin_pct": 8.355001582126102,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 67000,
+        "rep_votes": 68218,
+        "other_votes": 12342,
+        "total_votes": 147560,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 1218,
+        "margin_pct": 0.8251870503451015,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 90955,
+        "rep_votes": 101506,
+        "other_votes": 1727,
+        "total_votes": 194188,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 10551,
+        "margin_pct": 5.433167778979512,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 19235,
+        "rep_votes": 46168,
+        "other_votes": 4092,
+        "total_votes": 69495,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 26932,
+        "margin_pct": 38.754435323990315,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 22080,
+        "rep_votes": 42049,
+        "other_votes": 1,
+        "total_votes": 64130,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 19969,
+        "margin_pct": 31.13820840187424,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 51056,
+        "rep_votes": 72451,
+        "other_votes": 372,
+        "total_votes": 123879,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 21395,
+        "margin_pct": 17.270885299364704,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 33938,
+        "rep_votes": 45674,
+        "other_votes": 2592,
+        "total_votes": 82204,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 11736,
+        "margin_pct": 14.276713872933572,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 123179,
+        "rep_votes": 32689,
+        "other_votes": 2548,
+        "total_votes": 158416,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": -90490,
+        "margin_pct": -57.1217630827203,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 55718,
+        "rep_votes": 61045,
+        "other_votes": 3978,
+        "total_votes": 120741,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 5327,
+        "margin_pct": 4.411923041883039,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 64114,
+        "rep_votes": 71757,
+        "other_votes": 2943,
+        "total_votes": 138814,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 7643,
+        "margin_pct": 5.505928796807239,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 69317,
+        "rep_votes": 26604,
+        "other_votes": 1018,
+        "total_votes": 96939,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": -42713,
+        "margin_pct": -44.06182234538721,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 47028,
+        "rep_votes": 40386,
+        "other_votes": 3417,
+        "total_votes": 90831,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": -6642,
+        "margin_pct": -7.312481421541103,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 60729,
+        "rep_votes": 31643,
+        "other_votes": 2995,
+        "total_votes": 95367,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": -29086,
+        "margin_pct": -30.49886004574577,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 3904,
+        "rep_votes": 20860,
+        "other_votes": 498,
+        "total_votes": 25262,
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
+        "margin": 16956,
+        "margin_pct": 67.12057635974982,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_place_8",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 73.80381629870023,
+    "matched_precinct_rows": 2553,
+    "total_precinct_rows": 3186,
+    "matched_total_votes": 3707810,
+    "total_votes": 5023873,
+    "generated_at": "2026-03-03T22:22:53.835243+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 13361,
+        "rep_votes": 55266,
+        "other_votes": 2144,
+        "total_votes": 70771,
+        "dem_candidate": "CHIKA ANYIAM",
+        "rep_candidate": "Lee Finley",
+        "margin": 41905,
+        "margin_pct": 59.212106653855386,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 11924,
+        "rep_votes": 55018,
+        "other_votes": 3140,
+        "total_votes": 70082,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 43094,
+        "margin_pct": 61.49082503353215,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 22023,
+        "rep_votes": 93234,
+        "other_votes": 3757,
+        "total_votes": 119014,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 71211,
+        "margin_pct": 59.83413716033408,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 66520,
+        "rep_votes": 202105,
+        "other_votes": 9858,
+        "total_votes": 278483,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 135585,
+        "margin_pct": 48.68699346100121,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 158402,
+        "rep_votes": 221348,
+        "other_votes": 23926,
+        "total_votes": 403676,
+        "dem_candidate": "Raquel Saenz Ortiz",
+        "rep_candidate": "Lee Finley",
+        "margin": 62946,
+        "margin_pct": 15.59319850573232,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 154268,
+        "rep_votes": 186275,
+        "other_votes": 23354,
+        "total_votes": 363897,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 32007,
+        "margin_pct": 8.795644867048964,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 42497,
+        "rep_votes": 65459,
+        "other_votes": 3410,
+        "total_votes": 111366,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 22962,
+        "margin_pct": 20.618138779857166,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 35702,
+        "rep_votes": 48538,
+        "other_votes": 4798,
+        "total_votes": 89038,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 12836,
+        "margin_pct": 14.416316628855094,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 25006,
+        "rep_votes": 6420,
+        "other_votes": 2048,
+        "total_votes": 33474,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": -18586,
+        "margin_pct": -55.5236900280815,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 20284,
+        "rep_votes": 58445,
+        "other_votes": 2607,
+        "total_votes": 81336,
+        "dem_candidate": "Kathy Cheng",
+        "rep_candidate": "Lee Finley",
+        "margin": 38161,
+        "margin_pct": 46.91816523050101,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 25112,
+        "rep_votes": 65010,
+        "other_votes": 3558,
+        "total_votes": 93680,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 39898,
+        "margin_pct": 42.58966695132366,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 8038,
+        "rep_votes": 19854,
+        "other_votes": 217062,
+        "total_votes": 244954,
+        "dem_candidate": "CHIKA ANYIAM",
+        "rep_candidate": "LEE FINLEY",
+        "margin": 11816,
+        "margin_pct": 4.8237604786271255,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 119470,
+        "rep_votes": 87196,
+        "other_votes": 38783,
+        "total_votes": 245449,
+        "dem_candidate": "Juan \"Chuy\" Hinojosa",
+        "rep_candidate": "Lee Finley",
+        "margin": -32274,
+        "margin_pct": -13.148963735847365,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 35151,
+        "rep_votes": 57351,
+        "other_votes": 10938,
+        "total_votes": 103440,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 22200,
+        "margin_pct": 21.461925986221004,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 31131,
+        "rep_votes": 68546,
+        "other_votes": 4239,
+        "total_votes": 103916,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 37415,
+        "margin_pct": 36.00504253435467,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 27383,
+        "rep_votes": 125231,
+        "other_votes": 32809,
+        "total_votes": 185423,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 97848,
+        "margin_pct": 52.770157336975146,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 35469,
+        "rep_votes": 50857,
+        "other_votes": 248792,
+        "total_votes": 335118,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 15388,
+        "margin_pct": 4.591753596779098,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 254925,
+        "total_votes": 254925,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "28": {
+        "dem_votes": 16934,
+        "rep_votes": 61981,
+        "other_votes": 3608,
+        "total_votes": 82523,
+        "dem_candidate": "CHIKA ANYIAM",
+        "rep_candidate": "LEE FINLEY",
+        "margin": 45047,
+        "margin_pct": 54.587191808042824,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 69869,
+        "rep_votes": 257933,
+        "other_votes": 12109,
+        "total_votes": 339911,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 188064,
+        "margin_pct": 55.32743199662158,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 18171,
+        "rep_votes": 75654,
+        "other_votes": 3509,
+        "total_votes": 97334,
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
+        "margin": 57483,
+        "margin_pct": 59.05747220909446,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "county": "COOKE - 4",
+      "dem_votes": 0,
+      "rep_votes": 368,
+      "other_votes": 0,
+      "total_votes": 368,
+      "dem_candidate": "",
+      "rep_candidate": "Debra Lehrmann",
+      "margin": 368,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": ""
+    },
+    {
+      "county": "COOKE - 4C",
+      "dem_votes": 0,
+      "rep_votes": 816,
+      "other_votes": 0,
+      "total_votes": 816,
+      "dem_candidate": "",
+      "rep_candidate": "Rebeca Huddle",
+      "margin": 816,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": ""
+    }
+  ]
+}

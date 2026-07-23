@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_4",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 78.62205774785755,
+    "matched_precinct_rows": 4009,
+    "total_precinct_rows": 4840,
+    "matched_total_votes": 5109929,
+    "total_votes": 6499358,
+    "generated_at": "2026-03-03T22:22:55.661760+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 42560,
+        "rep_votes": 123611,
+        "other_votes": 1504,
+        "total_votes": 167675,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 81051,
+        "margin_pct": 48.338154167287904,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 140045,
+        "rep_votes": 157674,
+        "other_votes": 11289,
+        "total_votes": 309008,
+        "dem_candidate": "CHRISTINE VINH WEEMS",
+        "rep_candidate": "JOHN DEVINE",
+        "margin": 17629,
+        "margin_pct": 5.705030290477916,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 176751,
+        "rep_votes": 215663,
+        "other_votes": 26381,
+        "total_votes": 418795,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 38912,
+        "margin_pct": 9.29143794499991,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 51292,
+        "rep_votes": 177981,
+        "other_votes": 8217,
+        "total_votes": 237490,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 126689,
+        "margin_pct": 53.344996210360726,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 4180,
+        "rep_votes": 19124,
+        "other_votes": 1081,
+        "total_votes": 24385,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 14944,
+        "margin_pct": 61.283575968833304,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 131384,
+        "rep_votes": 136540,
+        "other_votes": 10968,
+        "total_votes": 278892,
+        "dem_candidate": "CHRISTINE VINH WEEMS",
+        "rep_candidate": "JOHN DEVINE",
+        "margin": 5156,
+        "margin_pct": 1.848744316796466,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 95777,
+        "rep_votes": 259784,
+        "other_votes": 10736,
+        "total_votes": 366297,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 164007,
+        "margin_pct": 44.774322476023556,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 113816,
+        "rep_votes": 41768,
+        "other_votes": 8811,
+        "total_votes": 164395,
+        "dem_candidate": "CHRISTINE VINH WEEMS",
+        "rep_candidate": "JOHN DEVINE",
+        "margin": -72048,
+        "margin_pct": -43.826150430365885,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 59956,
+        "rep_votes": 105154,
+        "other_votes": 4859,
+        "total_votes": 169969,
+        "dem_candidate": "CHRISTINE VINH WEEMS",
+        "rep_candidate": "JOHN DEVINE",
+        "margin": 45198,
+        "margin_pct": 26.591907936153063,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 20874,
+        "rep_votes": 94953,
+        "other_votes": 5001,
+        "total_votes": 120828,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 74079,
+        "margin_pct": 61.30946469361406,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 14482,
+        "rep_votes": 79534,
+        "other_votes": 2045,
+        "total_votes": 96061,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 65052,
+        "margin_pct": 67.71948991380188,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 22758,
+        "rep_votes": 100574,
+        "other_votes": 3217,
+        "total_votes": 126549,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 77816,
+        "margin_pct": 61.49077003426072,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 16475,
+        "rep_votes": 42113,
+        "other_votes": 1616,
+        "total_votes": 60204,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 25638,
+        "margin_pct": 42.5852102850309,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 19833,
+        "rep_votes": 36855,
+        "other_votes": 4522,
+        "total_votes": 61210,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 17022,
+        "margin_pct": 27.80918150628982,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 66204,
+        "rep_votes": 138623,
+        "other_votes": 6888,
+        "total_votes": 211715,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 72419,
+        "margin_pct": 34.2058899936235,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 157160,
+        "rep_votes": 67584,
+        "other_votes": 10172,
+        "total_votes": 234916,
+        "dem_candidate": "CHRISTINE VINH WEEMS",
+        "rep_candidate": "JOHN DEVINE",
+        "margin": -89576,
+        "margin_pct": -38.1310760665118,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 18959,
+        "rep_votes": 74614,
+        "other_votes": 633,
+        "total_votes": 94206,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 55655,
+        "margin_pct": 59.07797804810734,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 245848,
+        "total_votes": 245848,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "21": {
+        "dem_votes": 17187,
+        "rep_votes": 49941,
+        "other_votes": 135635,
+        "total_votes": 202763,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 32754,
+        "margin_pct": 16.153645717599225,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 59739,
+        "rep_votes": 70675,
+        "other_votes": 4928,
+        "total_votes": 135342,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 10936,
+        "margin_pct": 8.080270721579407,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 18918,
+        "rep_votes": 34664,
+        "other_votes": 167837,
+        "total_votes": 221419,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 15746,
+        "margin_pct": 7.111416803898693,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 3781,
+        "rep_votes": 5287,
+        "other_votes": 393,
+        "total_votes": 9461,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 1506,
+        "margin_pct": 15.917979071979707,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 17032,
+        "rep_votes": 37681,
+        "other_votes": 29851,
+        "total_votes": 84564,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 20649,
+        "margin_pct": 24.418347708600837,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 42383,
+        "rep_votes": 60249,
+        "other_votes": 4579,
+        "total_votes": 107211,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 17866,
+        "margin_pct": 16.66433481639011,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 65693,
+        "rep_votes": 106342,
+        "other_votes": 6744,
+        "total_votes": 178779,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 40649,
+        "margin_pct": 22.737010498995964,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 4269,
+        "rep_votes": 4113,
+        "other_votes": 77744,
+        "total_votes": 86126,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": -156,
+        "margin_pct": -0.1811306968517018,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 79089,
+        "rep_votes": 57424,
+        "other_votes": 7619,
+        "total_votes": 144132,
+        "dem_candidate": "CHRISTINE VINH WEEMS",
+        "rep_candidate": "JOHN DEVINE",
+        "margin": -21665,
+        "margin_pct": -15.031353538420303,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 72196,
+        "rep_votes": 80892,
+        "other_votes": 8707,
+        "total_votes": 161795,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 8696,
+        "margin_pct": 5.374702555703205,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 10796,
+        "rep_votes": 15643,
+        "other_votes": 1940,
+        "total_votes": 28379,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 4847,
+        "margin_pct": 17.07953063885267,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 10239,
+        "rep_votes": 20093,
+        "other_votes": 2149,
+        "total_votes": 32481,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": 9854,
+        "margin_pct": 30.337735907145717,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 24344,
+        "rep_votes": 19838,
+        "other_votes": 100738,
+        "total_votes": 144920,
+        "dem_candidate": "Christine Vinh Weems",
+        "rep_candidate": "John Devine",
+        "margin": -4506,
+        "margin_pct": -3.1091012373362084,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 52503,
+        "rep_votes": 124925,
+        "other_votes": 6686,
+        "total_votes": 184114,
+        "dem_candidate": "CHRISTINE VINH WEEMS",
+        "rep_candidate": "JOHN DEVINE",
+        "margin": 72422,
+        "margin_pct": 39.33541175576002,
+        "winner": "REP"
+      }
+    }
+  }
+}

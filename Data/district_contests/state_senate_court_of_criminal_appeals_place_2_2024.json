@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "court_of_criminal_appeals_place_2",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 100.0,
+    "matched_precinct_rows": 26,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 30215,
+    "total_votes": 30215,
+    "generated_at": "2026-03-03T22:22:53.411827+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 24060,
+        "other_votes": 6155,
+        "total_votes": 30215,
+        "dem_candidate": "",
+        "rep_candidate": "JEFF RAMBIN",
+        "margin": 24060,
+        "margin_pct": 79.62932318384908,
+        "winner": "REP"
+      }
+    }
+  }
+}

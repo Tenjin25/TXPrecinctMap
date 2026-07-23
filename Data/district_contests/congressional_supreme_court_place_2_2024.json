@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_2",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 77.70181053213973,
+    "matched_precinct_rows": 4009,
+    "total_precinct_rows": 4888,
+    "matched_total_votes": 5112006,
+    "total_votes": 6579005,
+    "generated_at": "2026-03-03T22:22:55.334992+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 41748,
+        "rep_votes": 125124,
+        "other_votes": 1296,
+        "total_votes": 168168,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 83376,
+        "margin_pct": 49.578992436135294,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 134427,
+        "rep_votes": 163994,
+        "other_votes": 10587,
+        "total_votes": 309008,
+        "dem_candidate": "DASEAN JONES",
+        "rep_candidate": "JIMMY BLACKLOCK",
+        "margin": 29567,
+        "margin_pct": 9.568360689690882,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 174145,
+        "rep_votes": 221767,
+        "other_votes": 22883,
+        "total_votes": 418795,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 47622,
+        "margin_pct": 11.371214506854091,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 50109,
+        "rep_votes": 180485,
+        "other_votes": 7094,
+        "total_votes": 237688,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 130376,
+        "margin_pct": 54.85175096320383,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 3998,
+        "rep_votes": 19372,
+        "other_votes": 1015,
+        "total_votes": 24385,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 15374,
+        "margin_pct": 63.0469550953455,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 122822,
+        "rep_votes": 145763,
+        "other_votes": 10307,
+        "total_votes": 278892,
+        "dem_candidate": "DASEAN JONES",
+        "rep_candidate": "JIMMY BLACKLOCK",
+        "margin": 22941,
+        "margin_pct": 8.225764812185362,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 93383,
+        "rep_votes": 262502,
+        "other_votes": 9970,
+        "total_votes": 365855,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 169119,
+        "margin_pct": 46.22569050580148,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 113640,
+        "rep_votes": 42821,
+        "other_votes": 7934,
+        "total_votes": 164395,
+        "dem_candidate": "DASEAN JONES",
+        "rep_candidate": "JIMMY BLACKLOCK",
+        "margin": -70819,
+        "margin_pct": -43.078560783478814,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 58555,
+        "rep_votes": 106977,
+        "other_votes": 4515,
+        "total_votes": 170047,
+        "dem_candidate": "DASEAN JONES",
+        "rep_candidate": "JIMMY BLACKLOCK",
+        "margin": 48422,
+        "margin_pct": 28.475656730198125,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 20068,
+        "rep_votes": 95908,
+        "other_votes": 4690,
+        "total_votes": 120666,
+        "dem_candidate": "DASEAN JONES",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 75840,
+        "margin_pct": 62.851175973347914,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 14042,
+        "rep_votes": 80143,
+        "other_votes": 1906,
+        "total_votes": 96091,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 66101,
+        "margin_pct": 68.79002146379511,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 22204,
+        "rep_votes": 101435,
+        "other_votes": 3056,
+        "total_votes": 126695,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 79231,
+        "margin_pct": 62.53676487702303,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 15994,
+        "rep_votes": 42776,
+        "other_votes": 1434,
+        "total_votes": 60204,
+        "dem_candidate": "Dasean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 26782,
+        "margin_pct": 44.48541625141187,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 19431,
+        "rep_votes": 37549,
+        "other_votes": 4230,
+        "total_votes": 61210,
+        "dem_candidate": "DeSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 18118,
+        "margin_pct": 29.59973860480314,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 64813,
+        "rep_votes": 140669,
+        "other_votes": 6308,
+        "total_votes": 211790,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 75856,
+        "margin_pct": 35.81661079371075,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 154930,
+        "rep_votes": 70751,
+        "other_votes": 9235,
+        "total_votes": 234916,
+        "dem_candidate": "DASEAN JONES",
+        "rep_candidate": "JIMMY BLACKLOCK",
+        "margin": -84179,
+        "margin_pct": -35.83365936812341,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 18366,
+        "rep_votes": 75618,
+        "other_votes": 561,
+        "total_votes": 94545,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 57252,
+        "margin_pct": 60.555291131207355,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 245848,
+        "total_votes": 245848,
+        "dem_candidate": "",
+        "rep_candidate": "",
+        "margin": 0,
+        "margin_pct": 0.0,
+        "winner": "TIE"
+      },
+      "21": {
+        "dem_votes": 16842,
+        "rep_votes": 50642,
+        "other_votes": 135279,
+        "total_votes": 202763,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 33800,
+        "margin_pct": 16.669569651311736,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 58568,
+        "rep_votes": 72167,
+        "other_votes": 4607,
+        "total_votes": 135342,
+        "dem_candidate": "Dasean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 13599,
+        "margin_pct": 10.047878707274903,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 19643,
+        "rep_votes": 35145,
+        "other_votes": 167656,
+        "total_votes": 222444,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 15502,
+        "margin_pct": 6.96895731629296,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 3653,
+        "rep_votes": 5399,
+        "other_votes": 409,
+        "total_votes": 9461,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 1746,
+        "margin_pct": 18.454708804566113,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 16656,
+        "rep_votes": 38229,
+        "other_votes": 29749,
+        "total_votes": 84634,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 21573,
+        "margin_pct": 25.489875473089267,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 41493,
+        "rep_votes": 60938,
+        "other_votes": 4780,
+        "total_votes": 107211,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 19445,
+        "margin_pct": 18.13713145106379,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 64553,
+        "rep_votes": 108087,
+        "other_votes": 6262,
+        "total_votes": 178902,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 43534,
+        "margin_pct": 24.333992912320713,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 4250,
+        "rep_votes": 4201,
+        "other_votes": 77741,
+        "total_votes": 86192,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -49,
+        "margin_pct": -0.056850050863950126,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 78657,
+        "rep_votes": 58654,
+        "other_votes": 6821,
+        "total_votes": 144132,
+        "dem_candidate": "DASEAN JONES",
+        "rep_candidate": "JIMMY BLACKLOCK",
+        "margin": -20003,
+        "margin_pct": -13.878243853855249,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 70254,
+        "rep_votes": 80064,
+        "other_votes": 11477,
+        "total_votes": 161795,
+        "dem_candidate": "Dasean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 9810,
+        "margin_pct": 6.063228159090206,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 10787,
+        "rep_votes": 15972,
+        "other_votes": 1620,
+        "total_votes": 28379,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 5185,
+        "margin_pct": 18.270552168857254,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 10127,
+        "rep_votes": 20402,
+        "other_votes": 1952,
+        "total_votes": 32481,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": 10275,
+        "margin_pct": 31.633878267294723,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 24144,
+        "rep_votes": 20154,
+        "other_votes": 100660,
+        "total_votes": 144958,
+        "dem_candidate": "DaSean Jones",
+        "rep_candidate": "Jimmy Blacklock",
+        "margin": -3990,
+        "margin_pct": -2.7523710017125,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 50941,
+        "rep_votes": 126865,
+        "other_votes": 6308,
+        "total_votes": 184114,
+        "dem_candidate": "DASEAN JONES",
+        "rep_candidate": "JIMMY BLACKLOCK",
+        "margin": 75924,
+        "margin_pct": 41.237494161226195,
+        "winner": "REP"
+      }
+    }
+  }
+}

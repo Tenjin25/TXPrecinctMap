@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "railroad_commissioner",
+    "year": 2024,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 79.96657786888424,
+    "matched_precinct_rows": 7347,
+    "total_precinct_rows": 8817,
+    "matched_total_votes": 8763223,
+    "total_votes": 10958607,
+    "generated_at": "2026-03-03T22:22:54.834338+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 62313,
+        "rep_votes": 330598,
+        "other_votes": 12428,
+        "total_votes": 405339,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christa Crownover",
+        "margin": 268285,
+        "margin_pct": 66.18780822965469,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 128493,
+        "rep_votes": 154290,
+        "other_votes": 26129,
+        "total_votes": 308912,
+        "dem_candidate": "KATHERINE CULBERT",
+        "rep_candidate": "CHRISTI CRADDICK",
+        "margin": 25797,
+        "margin_pct": 8.350921945408402,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 163361,
+        "rep_votes": 214864,
+        "other_votes": 40251,
+        "total_votes": 418476,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 51503,
+        "margin_pct": 12.307295738204669,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 62674,
+        "rep_votes": 235594,
+        "other_votes": 19206,
+        "total_votes": 317474,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 172920,
+        "margin_pct": 54.4674604666192,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 67762,
+        "rep_votes": 123322,
+        "other_votes": 10237,
+        "total_votes": 201322,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 55560,
+        "margin_pct": 27.597485604222,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 101848,
+        "rep_votes": 95894,
+        "other_votes": 10302,
+        "total_votes": 208044,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": -5954,
+        "margin_pct": -2.8619432637362743,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 120896,
+        "rep_votes": 135165,
+        "other_votes": 22747,
+        "total_votes": 278808,
+        "dem_candidate": "KATHERINE CULBERT",
+        "rep_candidate": "CHRISTI CRADDICK",
+        "margin": 14269,
+        "margin_pct": 5.117858884967433,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 89206,
+        "rep_votes": 265068,
+        "other_votes": 24754,
+        "total_votes": 379028,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 175862,
+        "margin_pct": 46.398155281404016,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 108520,
+        "rep_votes": 39574,
+        "other_votes": 15522,
+        "total_votes": 163616,
+        "dem_candidate": "KATHERINE CULBERT",
+        "rep_candidate": "CHRISTI CRADDICK",
+        "margin": -68946,
+        "margin_pct": -42.138910619988266,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 61342,
+        "rep_votes": 128438,
+        "other_votes": 122379,
+        "total_votes": 312159,
+        "dem_candidate": "KATHERINE CULBERT",
+        "rep_candidate": "CHRISTI CRADDICK",
+        "margin": 67096,
+        "margin_pct": 21.494174443152367,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 29870,
+        "rep_votes": 159162,
+        "other_votes": 15900,
+        "total_votes": 204932,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 129292,
+        "margin_pct": 63.0902858258207,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 113911,
+        "rep_votes": 222360,
+        "other_votes": 18951,
+        "total_votes": 355221,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 108449,
+        "margin_pct": 30.530011512964233,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 26004,
+        "rep_votes": 143271,
+        "other_votes": 12761,
+        "total_votes": 182036,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 117267,
+        "margin_pct": 64.41965477554544,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 68952,
+        "rep_votes": 126437,
+        "other_votes": 10049,
+        "total_votes": 205438,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 57485,
+        "margin_pct": 27.98167817054294,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 18539,
+        "rep_votes": 39707,
+        "other_votes": 151687,
+        "total_votes": 209933,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 21168,
+        "margin_pct": 10.083217026384608,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 105424,
+        "rep_votes": 76647,
+        "other_votes": 24506,
+        "total_votes": 206577,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": -28777,
+        "margin_pct": -13.93039883433296,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 69677,
+        "rep_votes": 174913,
+        "other_votes": 58620,
+        "total_votes": 303210,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 105236,
+        "margin_pct": 34.707298571946836,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 146550,
+        "rep_votes": 64338,
+        "other_votes": 23932,
+        "total_votes": 234820,
+        "dem_candidate": "KATHERINE CULBERT",
+        "rep_candidate": "CHRISTI CRADDICK",
+        "margin": -82212,
+        "margin_pct": -35.01064619912458,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 50957,
+        "rep_votes": 189862,
+        "other_votes": 15580,
+        "total_votes": 256398,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 138904,
+        "margin_pct": 54.17523893470516,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 128826,
+        "rep_votes": 89575,
+        "other_votes": 27451,
+        "total_votes": 245852,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": -39251,
+        "margin_pct": -15.96534010460864,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 76566,
+        "rep_votes": 129041,
+        "other_votes": 167898,
+        "total_votes": 373506,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 52474,
+        "margin_pct": 14.049146930139568,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 55253,
+        "rep_votes": 68638,
+        "other_votes": 10627,
+        "total_votes": 134518,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 13385,
+        "margin_pct": 9.950341218275621,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 98063,
+        "rep_votes": 119648,
+        "other_votes": 25785,
+        "total_votes": 243497,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 21585,
+        "margin_pct": 8.864495917814935,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 111495,
+        "rep_votes": 133649,
+        "other_votes": 13714,
+        "total_votes": 258857,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 22154,
+        "margin_pct": 8.558209714382302,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 36874,
+        "rep_votes": 110634,
+        "other_votes": 114047,
+        "total_votes": 261555,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 73760,
+        "margin_pct": 28.200559285028536,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 64184,
+        "rep_votes": 113130,
+        "other_votes": 13232,
+        "total_votes": 190547,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 48946,
+        "margin_pct": 25.68719746515257,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 72051,
+        "rep_votes": 139679,
+        "other_votes": 18847,
+        "total_votes": 230577,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 67628,
+        "margin_pct": 29.32989847209392,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 44025,
+        "rep_votes": 49715,
+        "other_votes": 40869,
+        "total_votes": 134609,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 5690,
+        "margin_pct": 4.227037285769303,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 73489,
+        "rep_votes": 53392,
+        "other_votes": 17196,
+        "total_votes": 144077,
+        "dem_candidate": "KATHERINE CULBERT",
+        "rep_candidate": "CHRISTI CRADDICK",
+        "margin": -20097,
+        "margin_pct": -13.948784808250553,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 156141,
+        "rep_votes": 47885,
+        "other_votes": 11141,
+        "total_votes": 215166,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": -108256,
+        "margin_pct": -50.3125592272362,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 99607,
+        "rep_votes": 128802,
+        "other_votes": 19641,
+        "total_votes": 248050,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 29195,
+        "margin_pct": 11.769804474904253,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 74563,
+        "rep_votes": 88897,
+        "other_votes": 8655,
+        "total_votes": 172115,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 14334,
+        "margin_pct": 8.328152688609359,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 87374,
+        "rep_votes": 42714,
+        "other_votes": 10329,
+        "total_votes": 140418,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": -44660,
+        "margin_pct": -31.805284263376876,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 58355,
+        "rep_votes": 69295,
+        "other_votes": 47749,
+        "total_votes": 175399,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": 10940,
+        "margin_pct": 6.237207737786418,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 77925,
+        "rep_votes": 50920,
+        "other_votes": 85214,
+        "total_votes": 214059,
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
+        "margin": -27005,
+        "margin_pct": -12.615582952482216,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 54834,
+        "rep_votes": 157611,
+        "other_votes": 16234,
+        "total_votes": 228679,
+        "dem_candidate": "KATHERINE CULBERT",
+        "rep_candidate": "Christi Craddick",
+        "margin": 102777,
+        "margin_pct": 44.94378583079338,
+        "winner": "REP"
+      }
+    }
+  }
+}

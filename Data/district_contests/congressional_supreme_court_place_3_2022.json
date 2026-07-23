@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "supreme_court_place_3",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.51854846603314,
+    "matched_precinct_rows": 5002,
+    "total_precinct_rows": 5880,
+    "matched_total_votes": 3925021,
+    "total_votes": 4699580,
+    "generated_at": "2026-03-03T22:22:52.337883+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 36423,
+        "rep_votes": 111606,
+        "other_votes": 6919,
+        "total_votes": 154948,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 75183,
+        "margin_pct": 48.52143945065441,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 130183,
+        "rep_votes": 162904,
+        "other_votes": 13835,
+        "total_votes": 306922,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 32721,
+        "margin_pct": 10.661031396523178,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 23682,
+        "rep_votes": 81618,
+        "other_votes": 2865,
+        "total_votes": 108165,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 57936,
+        "margin_pct": 53.56261860979006,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 45603,
+        "rep_votes": 69774,
+        "other_votes": 3330,
+        "total_votes": 118707,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 24171,
+        "margin_pct": 20.361629034701796,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 81889,
+        "rep_votes": 74606,
+        "other_votes": 3021,
+        "total_votes": 159515,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -7283,
+        "margin_pct": -4.565790761075103,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 46352,
+        "rep_votes": 152461,
+        "other_votes": 3511,
+        "total_votes": 202324,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 106109,
+        "margin_pct": 52.44508807655048,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 18966,
+        "rep_votes": 3626,
+        "other_votes": 363,
+        "total_votes": 22955,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -15340,
+        "margin_pct": -66.82639947723807,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 7052,
+        "rep_votes": 25321,
+        "other_votes": 1325,
+        "total_votes": 33698,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 18269,
+        "margin_pct": 54.21389993471423,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 16928,
+        "rep_votes": 80425,
+        "other_votes": 11745,
+        "total_votes": 109098,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 63497,
+        "margin_pct": 58.20180021631928,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 81816,
+        "rep_votes": 111969,
+        "other_votes": 4380,
+        "total_votes": 198165,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 30153,
+        "margin_pct": 15.215980273638415,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 16460,
+        "rep_votes": 80907,
+        "other_votes": 4350,
+        "total_votes": 101717,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 64447,
+        "margin_pct": 63.35912384360529,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 37585,
+        "rep_votes": 63927,
+        "other_votes": 3587,
+        "total_votes": 105099,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 26342,
+        "margin_pct": 25.06398728817591,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 10203,
+        "rep_votes": 24503,
+        "other_votes": 7180,
+        "total_votes": 41886,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 14300,
+        "margin_pct": 34.140285536933575,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 89268,
+        "rep_votes": 51959,
+        "other_votes": 10810,
+        "total_votes": 152037,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -37309,
+        "margin_pct": -24.539421325072187,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 44167,
+        "rep_votes": 95868,
+        "other_votes": 5769,
+        "total_votes": 145804,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 51701,
+        "margin_pct": 35.45924665989959,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 13695,
+        "rep_votes": 61873,
+        "other_votes": 85333,
+        "total_votes": 160901,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 48178,
+        "margin_pct": 29.942635533651128,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 103793,
+        "rep_votes": 63698,
+        "other_votes": 9514,
+        "total_votes": 177005,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -40095,
+        "margin_pct": -22.65196033513147,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 56733,
+        "rep_votes": 81207,
+        "other_votes": 6778,
+        "total_votes": 144719,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 24474,
+        "margin_pct": 16.91177468225873,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 32313,
+        "rep_votes": 39148,
+        "other_votes": 1347,
+        "total_votes": 72808,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 6835,
+        "margin_pct": 9.387704647840897,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 63665,
+        "rep_votes": 69153,
+        "other_votes": 14673,
+        "total_votes": 147490,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 5488,
+        "margin_pct": 3.7211477237134907,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 88197,
+        "rep_votes": 100723,
+        "other_votes": 5540,
+        "total_votes": 194460,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 12526,
+        "margin_pct": 6.441199892837279,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 18520,
+        "rep_votes": 45607,
+        "other_votes": 5548,
+        "total_votes": 69675,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 27086,
+        "margin_pct": 38.87534922726696,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 21255,
+        "rep_votes": 41661,
+        "other_votes": 1370,
+        "total_votes": 64286,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 20406,
+        "margin_pct": 31.74239539756954,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 48089,
+        "rep_votes": 72893,
+        "other_votes": 2955,
+        "total_votes": 123937,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 24804,
+        "margin_pct": 20.0133939017404,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 32274,
+        "rep_votes": 45999,
+        "other_votes": 3931,
+        "total_votes": 82204,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 13725,
+        "margin_pct": 16.696295414047764,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 121567,
+        "rep_votes": 32047,
+        "other_votes": 4802,
+        "total_votes": 158416,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -89520,
+        "margin_pct": -56.50945060618474,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 54038,
+        "rep_votes": 60693,
+        "other_votes": 6010,
+        "total_votes": 120741,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 6655,
+        "margin_pct": 5.511797980801882,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 62515,
+        "rep_votes": 71317,
+        "other_votes": 4982,
+        "total_votes": 138814,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 8802,
+        "margin_pct": 6.340858991168037,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 66951,
+        "rep_votes": 27009,
+        "other_votes": 3084,
+        "total_votes": 97044,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -39942,
+        "margin_pct": -41.15877736450715,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 43437,
+        "rep_votes": 42034,
+        "other_votes": 5357,
+        "total_votes": 90828,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -1403,
+        "margin_pct": -1.544677852644559,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 58265,
+        "rep_votes": 32209,
+        "other_votes": 4915,
+        "total_votes": 95389,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": -26056,
+        "margin_pct": -27.315402585589,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 3753,
+        "rep_votes": 20752,
+        "other_votes": 757,
+        "total_votes": 25262,
+        "dem_candidate": "Erin A. Nowell",
+        "rep_candidate": "Debra Lehrmann",
+        "margin": 16999,
+        "margin_pct": 67.290792494656,
+        "winner": "REP"
+      }
+    }
+  }
+}

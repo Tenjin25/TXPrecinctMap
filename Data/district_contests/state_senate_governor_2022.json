@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "governor",
+    "year": 2022,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 83.42647689614569,
+    "matched_precinct_rows": 5057,
+    "total_precinct_rows": 5947,
+    "matched_total_votes": 4029946,
+    "total_votes": 4830536,
+    "generated_at": "2026-03-03T22:22:50.996201+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 33983,
+        "rep_votes": 107798,
+        "other_votes": 1931,
+        "total_votes": 143712,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 73815,
+        "margin_pct": 51.363142952571806,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 62133,
+        "rep_votes": 83086,
+        "other_votes": 2233,
+        "total_votes": 147452,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 20953,
+        "margin_pct": 14.209842875911551,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 26436,
+        "rep_votes": 113781,
+        "other_votes": 4746,
+        "total_votes": 144963,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 87345,
+        "margin_pct": 60.25330601601788,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 70400,
+        "rep_votes": 150792,
+        "other_votes": 3373,
+        "total_votes": 224565,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 80392,
+        "margin_pct": 35.79898915681429,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 80899,
+        "rep_votes": 111867,
+        "other_votes": 3955,
+        "total_votes": 196721,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 30968,
+        "margin_pct": 15.74209159164502,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 140765,
+        "rep_votes": 145617,
+        "other_votes": 5094,
+        "total_votes": 291476,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 4852,
+        "margin_pct": 1.664651914510105,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 103546,
+        "rep_votes": 120125,
+        "other_votes": 4111,
+        "total_votes": 227782,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 16580,
+        "margin_pct": 7.278657141560934,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 134310,
+        "rep_votes": 126859,
+        "other_votes": 3678,
+        "total_votes": 264847,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": -7452,
+        "margin_pct": -2.8136324134115576,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 31007,
+        "rep_votes": 39145,
+        "other_votes": 1064,
+        "total_votes": 71216,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 8138,
+        "margin_pct": 11.427448385926155,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 38465,
+        "rep_votes": 57553,
+        "other_votes": 1601,
+        "total_votes": 97620,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 19088,
+        "margin_pct": 19.55355076235201,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 19495,
+        "rep_votes": 3531,
+        "other_votes": 417,
+        "total_votes": 23443,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": -15964,
+        "margin_pct": -68.09708655035618,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 2924,
+        "rep_votes": 3406,
+        "other_votes": 150,
+        "total_votes": 6480,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 482,
+        "margin_pct": 7.438271604938272,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 97247,
+        "rep_votes": 82808,
+        "other_votes": 3239,
+        "total_votes": 183294,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": -14440,
+        "margin_pct": -7.877936023867364,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 9277,
+        "rep_votes": 21376,
+        "other_votes": 517,
+        "total_votes": 31170,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 12099,
+        "margin_pct": 38.815888891616694,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 16517,
+        "rep_votes": 47959,
+        "other_votes": 1296,
+        "total_votes": 65772,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 31442,
+        "margin_pct": 47.80453688499666,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 92322,
+        "rep_votes": 72100,
+        "other_votes": 5535,
+        "total_votes": 169957,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": -20222,
+        "margin_pct": -11.898352707955365,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 40563,
+        "rep_votes": 46245,
+        "other_votes": 1225,
+        "total_votes": 88033,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 5682,
+        "margin_pct": 6.454397782649688,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 27905,
+        "rep_votes": 53427,
+        "other_votes": 5246,
+        "total_votes": 86579,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 25522,
+        "margin_pct": 29.478350329582515,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 42617,
+        "rep_votes": 56811,
+        "other_votes": 7782,
+        "total_votes": 107210,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 14194,
+        "margin_pct": 13.239436619718308,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 133023,
+        "rep_votes": 29820,
+        "other_votes": 3245,
+        "total_votes": 166088,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": -103203,
+        "margin_pct": -62.137397034327876,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 53856,
+        "rep_votes": 141196,
+        "other_votes": 2840,
+        "total_votes": 197892,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 87340,
+        "margin_pct": 44.1351898322272,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 112133,
+        "rep_votes": 126681,
+        "other_votes": 4129,
+        "total_votes": 242942,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 14548,
+        "margin_pct": 5.988263468517332,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 121772,
+        "rep_votes": 59549,
+        "other_votes": 3663,
+        "total_votes": 184984,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": -62223,
+        "margin_pct": -33.636964113174,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 40809,
+        "rep_votes": 33749,
+        "other_votes": 1960,
+        "total_votes": 76518,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": -7060,
+        "margin_pct": -9.226587208238584,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 7572,
+        "rep_votes": 40989,
+        "other_votes": 91310,
+        "total_votes": 139871,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 33417,
+        "margin_pct": 23.891303553720984,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 103874,
+        "rep_votes": 57369,
+        "other_votes": 4883,
+        "total_votes": 166126,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": -46505,
+        "margin_pct": -27.99381192588758,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 30092,
+        "rep_votes": 84862,
+        "other_votes": 1760,
+        "total_votes": 116714,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 54770,
+        "margin_pct": 46.926675064710956,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 29293,
+        "rep_votes": 133331,
+        "other_votes": 3895,
+        "total_votes": 166519,
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
+        "margin": 104038,
+        "margin_pct": 62.47815564590227,
+        "winner": "REP"
+      }
+    }
+  }
+}

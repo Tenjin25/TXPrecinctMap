@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_place_3",
+    "year": 2014,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 98.7847734241079,
+    "matched_precinct_rows": 6129,
+    "total_precinct_rows": 6271,
+    "matched_total_votes": 3694512,
+    "total_votes": 3739961,
+    "generated_at": "2026-03-03T22:22:31.273988+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 20608,
+        "rep_votes": 66343,
+        "other_votes": 33259,
+        "total_votes": 120210,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 45735,
+        "margin_pct": 38.04597238994591,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 46273,
+        "rep_votes": 95690,
+        "other_votes": 4465,
+        "total_votes": 146428,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 49417,
+        "margin_pct": 33.748326822738825,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 11339,
+        "rep_votes": 44500,
+        "other_votes": 13151,
+        "total_votes": 68990,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 33161,
+        "margin_pct": 48.06638643281635,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 31733,
+        "rep_votes": 56955,
+        "other_votes": 12355,
+        "total_votes": 101043,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 25222,
+        "margin_pct": 24.96141929452782,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 53941,
+        "rep_votes": 80939,
+        "other_votes": 5545,
+        "total_votes": 140425,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 26997,
+        "margin_pct": 19.22532562017686,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 44442,
+        "rep_votes": 86974,
+        "other_votes": 4146,
+        "total_votes": 135562,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 42532,
+        "margin_pct": 31.3745739956625,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 22735,
+        "rep_votes": 102192,
+        "other_votes": 4601,
+        "total_votes": 129528,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 79457,
+        "margin_pct": 61.343493298746225,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 72057,
+        "rep_votes": 22970,
+        "other_votes": 1841,
+        "total_votes": 96867,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -49087,
+        "margin_pct": -50.67390455557719,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 17055,
+        "rep_votes": 59683,
+        "other_votes": 78974,
+        "total_votes": 155712,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 42628,
+        "margin_pct": 27.376181668721745,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 5967,
+        "rep_votes": 34592,
+        "other_votes": 2983,
+        "total_votes": 43542,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 28625,
+        "margin_pct": 65.74112351293005,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 40775,
+        "rep_votes": 78242,
+        "other_votes": 4953,
+        "total_votes": 123971,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 37467,
+        "margin_pct": 30.222549008306306,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 7501,
+        "rep_votes": 50549,
+        "other_votes": 9982,
+        "total_votes": 68032,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 43048,
+        "margin_pct": 63.27608236166735,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 6664,
+        "rep_votes": 20533,
+        "other_votes": 50373,
+        "total_votes": 77570,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 13869,
+        "margin_pct": 17.87933479437927,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 33489,
+        "rep_votes": 17868,
+        "other_votes": 30533,
+        "total_votes": 81890,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -15621,
+        "margin_pct": -19.07558920503114,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 38963,
+        "rep_votes": 27344,
+        "other_votes": 3460,
+        "total_votes": 69767,
+        "dem_candidate": "JOHN GRANBERG",
+        "rep_candidate": "BERT RICHARDSON",
+        "margin": -11619,
+        "margin_pct": -16.65400547536801,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 13508,
+        "rep_votes": 16647,
+        "other_votes": 51239,
+        "total_votes": 81394,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 3139,
+        "margin_pct": 3.856549622822321,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 75925,
+        "rep_votes": 26749,
+        "other_votes": 2606,
+        "total_votes": 105280,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -49176,
+        "margin_pct": -46.709734713161176,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 16558,
+        "rep_votes": 68968,
+        "other_votes": 5095,
+        "total_votes": 90621,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 52410,
+        "margin_pct": 57.834276823252885,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 85666,
+        "rep_votes": 72647,
+        "other_votes": 13133,
+        "total_votes": 171446,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -13019,
+        "margin_pct": -7.593700979742017,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 45634,
+        "rep_votes": 117856,
+        "other_votes": 68951,
+        "total_votes": 232440,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 72222,
+        "margin_pct": 31.07120015890122,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 48094,
+        "rep_votes": 97717,
+        "other_votes": 4079,
+        "total_votes": 149891,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 49623,
+        "margin_pct": 33.1058420101277,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 40815,
+        "rep_votes": 70653,
+        "other_votes": 7600,
+        "total_votes": 119069,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 29838,
+        "margin_pct": 25.05963323775046,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 38880,
+        "rep_votes": 77098,
+        "other_votes": 6880,
+        "total_votes": 122858,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 38218,
+        "margin_pct": 31.107270607135305,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 12873,
+        "rep_votes": 34302,
+        "other_votes": 85082,
+        "total_votes": 132256,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 21429,
+        "margin_pct": 16.20244081838331,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 8535,
+        "rep_votes": 26858,
+        "other_votes": 1389,
+        "total_votes": 36782,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 18323,
+        "margin_pct": 49.815108813740814,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 30328,
+        "rep_votes": 51944,
+        "other_votes": 13607,
+        "total_votes": 95879,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 21616,
+        "margin_pct": 22.54508286486092,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 45642,
+        "rep_votes": 43084,
+        "other_votes": 9122,
+        "total_votes": 97848,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -2558,
+        "margin_pct": -2.614287986631578,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 33941,
+        "rep_votes": 20153,
+        "other_votes": 1523,
+        "total_votes": 55617,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -13788,
+        "margin_pct": -24.790937291831327,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 90702,
+        "rep_votes": 25023,
+        "other_votes": 6210,
+        "total_votes": 121935,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -65679,
+        "margin_pct": -53.863899235163885,
+        "winner": "DEM"
+      },
+      "31": {
+        "dem_votes": 12275,
+        "rep_votes": 26583,
+        "other_votes": 2850,
+        "total_votes": 41708,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 14308,
+        "margin_pct": 34.30516927208209,
+        "winner": "REP"
+      },
+      "32": {
+        "dem_votes": 52477,
+        "rep_votes": 84904,
+        "other_votes": 11886,
+        "total_votes": 149267,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 32427,
+        "margin_pct": 21.72423251346464,
+        "winner": "REP"
+      },
+      "33": {
+        "dem_votes": 40769,
+        "rep_votes": 17813,
+        "other_votes": 2963,
+        "total_votes": 61545,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -22956,
+        "margin_pct": -37.29947742970658,
+        "winner": "DEM"
+      },
+      "34": {
+        "dem_votes": 17717,
+        "rep_votes": 13039,
+        "other_votes": 3517,
+        "total_votes": 34273,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -4678,
+        "margin_pct": -13.649228255478075,
+        "winner": "DEM"
+      },
+      "35": {
+        "dem_votes": 46938,
+        "rep_votes": 31844,
+        "other_votes": 40696,
+        "total_votes": 119478,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": -15095,
+        "margin_pct": -12.633879594291885,
+        "winner": "DEM"
+      },
+      "36": {
+        "dem_votes": 26223,
+        "rep_votes": 83693,
+        "other_votes": 5472,
+        "total_votes": 115388,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
+        "margin": 57470,
+        "margin_pct": 49.805872361077405,
+        "winner": "REP"
+      }
+    }
+  }
+}

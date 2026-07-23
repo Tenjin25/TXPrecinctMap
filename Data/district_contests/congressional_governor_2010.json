@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "governor",
+    "year": 2010,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.67384763509448,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 7451,
+    "total_votes": 8309,
+    "generated_at": "2026-03-03T22:22:27.546398+00:00"
+  },
+  "general": {
+    "results": {
+      "27": {
+        "dem_votes": 1402,
+        "rep_votes": 1827,
+        "other_votes": 170,
+        "total_votes": 3399,
+        "dem_candidate": "BILL WHITE",
+        "rep_candidate": "RICK PERRY",
+        "margin": 425,
+        "margin_pct": 12.503677552221243,
+        "winner": "REP"
+      },
+      "35": {
+        "dem_votes": 2133,
+        "rep_votes": 1778,
+        "other_votes": 141,
+        "total_votes": 4052,
+        "dem_candidate": "BILL WHITE",
+        "rep_candidate": "RICK PERRY",
+        "margin": -355,
+        "margin_pct": -8.761105626850938,
+        "winner": "DEM"
+      }
+    }
+  }
+}

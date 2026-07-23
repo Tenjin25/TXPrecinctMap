@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "scope": "state_house",
+    "contest_type": "us_senate",
+    "year": 2008,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 89.45448227936068,
+    "matched_precinct_rows": 21,
+    "total_precinct_rows": 26,
+    "matched_total_votes": 10298,
+    "total_votes": 11512,
+    "generated_at": "2026-03-03T22:22:27.529213+00:00"
+  },
+  "general": {
+    "results": {
+      "17": {
+        "dem_votes": 4692,
+        "rep_votes": 5310,
+        "other_votes": 296,
+        "total_votes": 10298,
+        "dem_candidate": "RICHARD J (RICK) NORIEGA",
+        "rep_candidate": "JOHN CORNYN",
+        "margin": 618,
+        "margin_pct": 6.001165274810643,
+        "winner": "REP"
+      }
+    }
+  }
+}

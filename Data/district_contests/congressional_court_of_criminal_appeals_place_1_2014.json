@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "court_of_criminal_appeals_place_1",
+    "year": 2014,
+    "method": "block_assignment_vtd_population_weighted",
+    "crosswalk_files_available": [
+      "nhgis_blk2000_blk2010_48.zip",
+      "nhgis_blk2010_blk2020_48.zip",
+      "nhgis_blk2020_blk2010_48.zip"
+    ],
+    "match_coverage_pct": 91.65152432868967,
+    "matched_precinct_rows": 13,
+    "total_precinct_rows": 14,
+    "matched_total_votes": 9079,
+    "total_votes": 9906,
+    "generated_at": "2026-03-03T22:22:31.140504+00:00"
+  },
+  "general": {
+    "results": {
+      "27": {
+        "dem_votes": 579,
+        "rep_votes": 5872,
+        "other_votes": 666,
+        "total_votes": 7117,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "David Newell",
+        "margin": 5293,
+        "margin_pct": 74.37122383026556,
+        "winner": "REP"
+      },
+      "34": {
+        "dem_votes": 107,
+        "rep_votes": 1687,
+        "other_votes": 168,
+        "total_votes": 1962,
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "David Newell",
+        "margin": 1580,
+        "margin_pct": 80.53007135575942,
+        "winner": "REP"
+      }
+    }
+  }
+}

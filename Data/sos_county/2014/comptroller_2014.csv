@@ -1,0 +1,763 @@
+county,office,district,candidate,party,votes
+ANDERSON,Comptroller of Public Accounts,,Mike Collier,DEM,2251
+ANDERSON,Comptroller of Public Accounts,,Glenn Hegar,REP,7463
+ANDERSON,Comptroller of Public Accounts,,OTHER,OTH,339
+ANDREWS,Comptroller of Public Accounts,,Mike Collier,DEM,244
+ANDREWS,Comptroller of Public Accounts,,Glenn Hegar,REP,1847
+ANDREWS,Comptroller of Public Accounts,,OTHER,OTH,79
+ANGELINA,Comptroller of Public Accounts,,Mike Collier,DEM,3797
+ANGELINA,Comptroller of Public Accounts,,Glenn Hegar,REP,12293
+ANGELINA,Comptroller of Public Accounts,,OTHER,OTH,460
+ARANSAS,Comptroller of Public Accounts,,Mike Collier,DEM,1314
+ARANSAS,Comptroller of Public Accounts,,Glenn Hegar,REP,4428
+ARANSAS,Comptroller of Public Accounts,,OTHER,OTH,218
+ARCHER,Comptroller of Public Accounts,,Mike Collier,DEM,334
+ARCHER,Comptroller of Public Accounts,,Glenn Hegar,REP,2150
+ARCHER,Comptroller of Public Accounts,,OTHER,OTH,61
+ARMSTRONG,Comptroller of Public Accounts,,Mike Collier,DEM,53
+ARMSTRONG,Comptroller of Public Accounts,,Glenn Hegar,REP,477
+ARMSTRONG,Comptroller of Public Accounts,,OTHER,OTH,23
+ATASCOSA,Comptroller of Public Accounts,,Mike Collier,DEM,2498
+ATASCOSA,Comptroller of Public Accounts,,Glenn Hegar,REP,4450
+ATASCOSA,Comptroller of Public Accounts,,OTHER,OTH,270
+AUSTIN,Comptroller of Public Accounts,,Mike Collier,DEM,1124
+AUSTIN,Comptroller of Public Accounts,,Glenn Hegar,REP,5863
+AUSTIN,Comptroller of Public Accounts,,OTHER,OTH,136
+BAILEY,Comptroller of Public Accounts,,Mike Collier,DEM,131
+BAILEY,Comptroller of Public Accounts,,Glenn Hegar,REP,805
+BAILEY,Comptroller of Public Accounts,,OTHER,OTH,19
+BANDERA,Comptroller of Public Accounts,,Mike Collier,DEM,1090
+BANDERA,Comptroller of Public Accounts,,Glenn Hegar,REP,4816
+BANDERA,Comptroller of Public Accounts,,OTHER,OTH,347
+BASTROP,Comptroller of Public Accounts,,Mike Collier,DEM,6235
+BASTROP,Comptroller of Public Accounts,,Glenn Hegar,REP,9325
+BASTROP,Comptroller of Public Accounts,,OTHER,OTH,1100
+BAYLOR,Comptroller of Public Accounts,,Mike Collier,DEM,152
+BAYLOR,Comptroller of Public Accounts,,Glenn Hegar,REP,611
+BAYLOR,Comptroller of Public Accounts,,OTHER,OTH,25
+BEE,Comptroller of Public Accounts,,Mike Collier,DEM,2088
+BEE,Comptroller of Public Accounts,,Glenn Hegar,REP,2708
+BEE,Comptroller of Public Accounts,,OTHER,OTH,195
+BELL,Comptroller of Public Accounts,,Mike Collier,DEM,14097
+BELL,Comptroller of Public Accounts,,Glenn Hegar,REP,27258
+BELL,Comptroller of Public Accounts,,OTHER,OTH,1831
+BEXAR,Comptroller of Public Accounts,,Mike Collier,DEM,136751
+BEXAR,Comptroller of Public Accounts,,Glenn Hegar,REP,143280
+BEXAR,Comptroller of Public Accounts,,OTHER,OTH,13145
+BLANCO,Comptroller of Public Accounts,,Mike Collier,DEM,790
+BLANCO,Comptroller of Public Accounts,,Glenn Hegar,REP,2544
+BLANCO,Comptroller of Public Accounts,,OTHER,OTH,220
+BORDEN,Comptroller of Public Accounts,,Mike Collier,DEM,21
+BORDEN,Comptroller of Public Accounts,,Glenn Hegar,REP,222
+BORDEN,Comptroller of Public Accounts,,OTHER,OTH,6
+BOSQUE,Comptroller of Public Accounts,,Mike Collier,DEM,877
+BOSQUE,Comptroller of Public Accounts,,Glenn Hegar,REP,3720
+BOSQUE,Comptroller of Public Accounts,,OTHER,OTH,190
+BOWIE,Comptroller of Public Accounts,,Mike Collier,DEM,5613
+BOWIE,Comptroller of Public Accounts,,Glenn Hegar,REP,14290
+BOWIE,Comptroller of Public Accounts,,OTHER,OTH,815
+BRAZORIA,Comptroller of Public Accounts,,Mike Collier,DEM,18771
+BRAZORIA,Comptroller of Public Accounts,,Glenn Hegar,REP,40436
+BRAZORIA,Comptroller of Public Accounts,,OTHER,OTH,2180
+BRAZOS,Comptroller of Public Accounts,,Mike Collier,DEM,8518
+BRAZOS,Comptroller of Public Accounts,,Glenn Hegar,REP,20733
+BRAZOS,Comptroller of Public Accounts,,OTHER,OTH,1458
+BREWSTER,Comptroller of Public Accounts,,Mike Collier,DEM,1261
+BREWSTER,Comptroller of Public Accounts,,Glenn Hegar,REP,1329
+BREWSTER,Comptroller of Public Accounts,,OTHER,OTH,223
+BRISCOE,Comptroller of Public Accounts,,Mike Collier,DEM,80
+BRISCOE,Comptroller of Public Accounts,,Glenn Hegar,REP,400
+BRISCOE,Comptroller of Public Accounts,,OTHER,OTH,14
+BROOKS,Comptroller of Public Accounts,,Mike Collier,DEM,1450
+BROOKS,Comptroller of Public Accounts,,Glenn Hegar,REP,400
+BROOKS,Comptroller of Public Accounts,,OTHER,OTH,150
+BROWN,Comptroller of Public Accounts,,Mike Collier,DEM,1036
+BROWN,Comptroller of Public Accounts,,Glenn Hegar,REP,6768
+BROWN,Comptroller of Public Accounts,,OTHER,OTH,243
+BURLESON,Comptroller of Public Accounts,,Mike Collier,DEM,975
+BURLESON,Comptroller of Public Accounts,,Glenn Hegar,REP,3037
+BURLESON,Comptroller of Public Accounts,,OTHER,OTH,111
+BURNET,Comptroller of Public Accounts,,Mike Collier,DEM,2424
+BURNET,Comptroller of Public Accounts,,Glenn Hegar,REP,8763
+BURNET,Comptroller of Public Accounts,,OTHER,OTH,534
+CALDWELL,Comptroller of Public Accounts,,Mike Collier,DEM,3450
+CALDWELL,Comptroller of Public Accounts,,Glenn Hegar,REP,4759
+CALDWELL,Comptroller of Public Accounts,,OTHER,OTH,476
+CALHOUN,Comptroller of Public Accounts,,Mike Collier,DEM,1261
+CALHOUN,Comptroller of Public Accounts,,Glenn Hegar,REP,2584
+CALHOUN,Comptroller of Public Accounts,,OTHER,OTH,155
+CALLAHAN,Comptroller of Public Accounts,,Mike Collier,DEM,321
+CALLAHAN,Comptroller of Public Accounts,,Glenn Hegar,REP,2489
+CALLAHAN,Comptroller of Public Accounts,,OTHER,OTH,124
+CAMERON,Comptroller of Public Accounts,,Mike Collier,DEM,21110
+CAMERON,Comptroller of Public Accounts,,Glenn Hegar,REP,14308
+CAMERON,Comptroller of Public Accounts,,OTHER,OTH,2210
+CAMP,Comptroller of Public Accounts,,Mike Collier,DEM,764
+CAMP,Comptroller of Public Accounts,,Glenn Hegar,REP,1720
+CAMP,Comptroller of Public Accounts,,OTHER,OTH,77
+CARSON,Comptroller of Public Accounts,,Mike Collier,DEM,219
+CARSON,Comptroller of Public Accounts,,Glenn Hegar,REP,1515
+CARSON,Comptroller of Public Accounts,,OTHER,OTH,64
+CASS,Comptroller of Public Accounts,,Mike Collier,DEM,1766
+CASS,Comptroller of Public Accounts,,Glenn Hegar,REP,4863
+CASS,Comptroller of Public Accounts,,OTHER,OTH,209
+CASTRO,Comptroller of Public Accounts,,Mike Collier,DEM,248
+CASTRO,Comptroller of Public Accounts,,Glenn Hegar,REP,832
+CASTRO,Comptroller of Public Accounts,,OTHER,OTH,43
+CHAMBERS,Comptroller of Public Accounts,,Mike Collier,DEM,1433
+CHAMBERS,Comptroller of Public Accounts,,Glenn Hegar,REP,6641
+CHAMBERS,Comptroller of Public Accounts,,OTHER,OTH,240
+CHEROKEE,Comptroller of Public Accounts,,Mike Collier,DEM,1964
+CHEROKEE,Comptroller of Public Accounts,,Glenn Hegar,REP,7190
+CHEROKEE,Comptroller of Public Accounts,,OTHER,OTH,312
+CHILDRESS,Comptroller of Public Accounts,,Mike Collier,DEM,131
+CHILDRESS,Comptroller of Public Accounts,,Glenn Hegar,REP,911
+CHILDRESS,Comptroller of Public Accounts,,OTHER,OTH,29
+CLAY,Comptroller of Public Accounts,,Mike Collier,DEM,393
+CLAY,Comptroller of Public Accounts,,Glenn Hegar,REP,2241
+CLAY,Comptroller of Public Accounts,,OTHER,OTH,104
+COCHRAN,Comptroller of Public Accounts,,Mike Collier,DEM,77
+COCHRAN,Comptroller of Public Accounts,,Glenn Hegar,REP,384
+COCHRAN,Comptroller of Public Accounts,,OTHER,OTH,19
+COKE,Comptroller of Public Accounts,,Mike Collier,DEM,89
+COKE,Comptroller of Public Accounts,,Glenn Hegar,REP,633
+COKE,Comptroller of Public Accounts,,OTHER,OTH,28
+COLEMAN,Comptroller of Public Accounts,,Mike Collier,DEM,259
+COLEMAN,Comptroller of Public Accounts,,Glenn Hegar,REP,1862
+COLEMAN,Comptroller of Public Accounts,,OTHER,OTH,62
+COLLIN,Comptroller of Public Accounts,,Mike Collier,DEM,52492
+COLLIN,Comptroller of Public Accounts,,Glenn Hegar,REP,113744
+COLLIN,Comptroller of Public Accounts,,OTHER,OTH,6567
+COLLINGSWORTH,Comptroller of Public Accounts,,Mike Collier,DEM,143
+COLLINGSWORTH,Comptroller of Public Accounts,,Glenn Hegar,REP,575
+COLLINGSWORTH,Comptroller of Public Accounts,,OTHER,OTH,31
+COLORADO,Comptroller of Public Accounts,,Mike Collier,DEM,1066
+COLORADO,Comptroller of Public Accounts,,Glenn Hegar,REP,3892
+COLORADO,Comptroller of Public Accounts,,OTHER,OTH,115
+COMAL,Comptroller of Public Accounts,,Mike Collier,DEM,6683
+COMAL,Comptroller of Public Accounts,,Glenn Hegar,REP,26120
+COMAL,Comptroller of Public Accounts,,OTHER,OTH,1506
+COMANCHE,Comptroller of Public Accounts,,Mike Collier,DEM,536
+COMANCHE,Comptroller of Public Accounts,,Glenn Hegar,REP,2374
+COMANCHE,Comptroller of Public Accounts,,OTHER,OTH,109
+CONCHO,Comptroller of Public Accounts,,Mike Collier,DEM,81
+CONCHO,Comptroller of Public Accounts,,Glenn Hegar,REP,480
+CONCHO,Comptroller of Public Accounts,,OTHER,OTH,22
+COOKE,Comptroller of Public Accounts,,Mike Collier,DEM,1198
+COOKE,Comptroller of Public Accounts,,Glenn Hegar,REP,7157
+COOKE,Comptroller of Public Accounts,,OTHER,OTH,289
+CORYELL,Comptroller of Public Accounts,,Mike Collier,DEM,2037
+CORYELL,Comptroller of Public Accounts,,Glenn Hegar,REP,6098
+CORYELL,Comptroller of Public Accounts,,OTHER,OTH,392
+COTTLE,Comptroller of Public Accounts,,Mike Collier,DEM,50
+COTTLE,Comptroller of Public Accounts,,Glenn Hegar,REP,276
+COTTLE,Comptroller of Public Accounts,,OTHER,OTH,12
+CRANE,Comptroller of Public Accounts,,Mike Collier,DEM,160
+CRANE,Comptroller of Public Accounts,,Glenn Hegar,REP,618
+CRANE,Comptroller of Public Accounts,,OTHER,OTH,36
+CROCKETT,Comptroller of Public Accounts,,Mike Collier,DEM,210
+CROCKETT,Comptroller of Public Accounts,,Glenn Hegar,REP,538
+CROCKETT,Comptroller of Public Accounts,,OTHER,OTH,34
+CROSBY,Comptroller of Public Accounts,,Mike Collier,DEM,299
+CROSBY,Comptroller of Public Accounts,,Glenn Hegar,REP,680
+CROSBY,Comptroller of Public Accounts,,OTHER,OTH,30
+CULBERSON,Comptroller of Public Accounts,,Mike Collier,DEM,132
+CULBERSON,Comptroller of Public Accounts,,Glenn Hegar,REP,133
+CULBERSON,Comptroller of Public Accounts,,OTHER,OTH,26
+DALLAM,Comptroller of Public Accounts,,Mike Collier,DEM,100
+DALLAM,Comptroller of Public Accounts,,Glenn Hegar,REP,682
+DALLAM,Comptroller of Public Accounts,,OTHER,OTH,39
+DALLAS,Comptroller of Public Accounts,,Mike Collier,DEM,211116
+DALLAS,Comptroller of Public Accounts,,Glenn Hegar,REP,172907
+DALLAS,Comptroller of Public Accounts,,OTHER,OTH,13638
+DAWSON,Comptroller of Public Accounts,,Mike Collier,DEM,395
+DAWSON,Comptroller of Public Accounts,,Glenn Hegar,REP,1505
+DAWSON,Comptroller of Public Accounts,,OTHER,OTH,53
+DEAF SMITH,Comptroller of Public Accounts,,Mike Collier,DEM,536
+DEAF SMITH,Comptroller of Public Accounts,,Glenn Hegar,REP,2049
+DEAF SMITH,Comptroller of Public Accounts,,OTHER,OTH,77
+DELTA,Comptroller of Public Accounts,,Mike Collier,DEM,320
+DELTA,Comptroller of Public Accounts,,Glenn Hegar,REP,957
+DELTA,Comptroller of Public Accounts,,OTHER,OTH,60
+DENTON,Comptroller of Public Accounts,,Mike Collier,DEM,42367
+DENTON,Comptroller of Public Accounts,,Glenn Hegar,REP,92237
+DENTON,Comptroller of Public Accounts,,OTHER,OTH,6892
+DEWITT,Comptroller of Public Accounts,,Mike Collier,DEM,569
+DEWITT,Comptroller of Public Accounts,,Glenn Hegar,REP,3308
+DEWITT,Comptroller of Public Accounts,,OTHER,OTH,87
+DICKENS,Comptroller of Public Accounts,,Mike Collier,DEM,76
+DICKENS,Comptroller of Public Accounts,,Glenn Hegar,REP,405
+DICKENS,Comptroller of Public Accounts,,OTHER,OTH,21
+DIMMIT,Comptroller of Public Accounts,,Mike Collier,DEM,1194
+DIMMIT,Comptroller of Public Accounts,,Glenn Hegar,REP,490
+DIMMIT,Comptroller of Public Accounts,,OTHER,OTH,72
+DONLEY,Comptroller of Public Accounts,,Mike Collier,DEM,118
+DONLEY,Comptroller of Public Accounts,,Glenn Hegar,REP,748
+DONLEY,Comptroller of Public Accounts,,OTHER,OTH,46
+DUVAL,Comptroller of Public Accounts,,Mike Collier,DEM,2308
+DUVAL,Comptroller of Public Accounts,,Glenn Hegar,REP,528
+DUVAL,Comptroller of Public Accounts,,OTHER,OTH,130
+EASTLAND,Comptroller of Public Accounts,,Mike Collier,DEM,459
+EASTLAND,Comptroller of Public Accounts,,Glenn Hegar,REP,3313
+EASTLAND,Comptroller of Public Accounts,,OTHER,OTH,121
+ECTOR,Comptroller of Public Accounts,,Mike Collier,DEM,2663
+ECTOR,Comptroller of Public Accounts,,Glenn Hegar,REP,11601
+ECTOR,Comptroller of Public Accounts,,OTHER,OTH,499
+EDWARDS,Comptroller of Public Accounts,,Mike Collier,DEM,180
+EDWARDS,Comptroller of Public Accounts,,Glenn Hegar,REP,487
+EDWARDS,Comptroller of Public Accounts,,OTHER,OTH,37
+ELLIS,Comptroller of Public Accounts,,Mike Collier,DEM,7417
+ELLIS,Comptroller of Public Accounts,,Glenn Hegar,REP,22868
+ELLIS,Comptroller of Public Accounts,,OTHER,OTH,1188
+EL PASO,Comptroller of Public Accounts,,Mike Collier,DEM,44991
+EL PASO,Comptroller of Public Accounts,,Glenn Hegar,REP,28151
+EL PASO,Comptroller of Public Accounts,,OTHER,OTH,4830
+ERATH,Comptroller of Public Accounts,,Mike Collier,DEM,1216
+ERATH,Comptroller of Public Accounts,,Glenn Hegar,REP,5790
+ERATH,Comptroller of Public Accounts,,OTHER,OTH,252
+FALLS,Comptroller of Public Accounts,,Mike Collier,DEM,933
+FALLS,Comptroller of Public Accounts,,Glenn Hegar,REP,1937
+FALLS,Comptroller of Public Accounts,,OTHER,OTH,81
+FANNIN,Comptroller of Public Accounts,,Mike Collier,DEM,1356
+FANNIN,Comptroller of Public Accounts,,Glenn Hegar,REP,4738
+FANNIN,Comptroller of Public Accounts,,OTHER,OTH,253
+FAYETTE,Comptroller of Public Accounts,,Mike Collier,DEM,1308
+FAYETTE,Comptroller of Public Accounts,,Glenn Hegar,REP,5882
+FAYETTE,Comptroller of Public Accounts,,OTHER,OTH,195
+FISHER,Comptroller of Public Accounts,,Mike Collier,DEM,417
+FISHER,Comptroller of Public Accounts,,Glenn Hegar,REP,697
+FISHER,Comptroller of Public Accounts,,OTHER,OTH,41
+FLOYD,Comptroller of Public Accounts,,Mike Collier,DEM,159
+FLOYD,Comptroller of Public Accounts,,Glenn Hegar,REP,882
+FLOYD,Comptroller of Public Accounts,,OTHER,OTH,22
+FOARD,Comptroller of Public Accounts,,Mike Collier,DEM,116
+FOARD,Comptroller of Public Accounts,,Glenn Hegar,REP,173
+FOARD,Comptroller of Public Accounts,,OTHER,OTH,4
+FORT BEND,Comptroller of Public Accounts,,Mike Collier,DEM,54154
+FORT BEND,Comptroller of Public Accounts,,Glenn Hegar,REP,73852
+FORT BEND,Comptroller of Public Accounts,,OTHER,OTH,3081
+FRANKLIN,Comptroller of Public Accounts,,Mike Collier,DEM,371
+FRANKLIN,Comptroller of Public Accounts,,Glenn Hegar,REP,2071
+FRANKLIN,Comptroller of Public Accounts,,OTHER,OTH,84
+FREESTONE,Comptroller of Public Accounts,,Mike Collier,DEM,898
+FREESTONE,Comptroller of Public Accounts,,Glenn Hegar,REP,3345
+FREESTONE,Comptroller of Public Accounts,,OTHER,OTH,133
+FRIO,Comptroller of Public Accounts,,Mike Collier,DEM,924
+FRIO,Comptroller of Public Accounts,,Glenn Hegar,REP,812
+FRIO,Comptroller of Public Accounts,,OTHER,OTH,59
+GAINES,Comptroller of Public Accounts,,Mike Collier,DEM,288
+GAINES,Comptroller of Public Accounts,,Glenn Hegar,REP,2083
+GAINES,Comptroller of Public Accounts,,OTHER,OTH,72
+GALVESTON,Comptroller of Public Accounts,,Mike Collier,DEM,22111
+GALVESTON,Comptroller of Public Accounts,,Glenn Hegar,REP,39511
+GALVESTON,Comptroller of Public Accounts,,OTHER,OTH,2423
+GARZA,Comptroller of Public Accounts,,Mike Collier,DEM,114
+GARZA,Comptroller of Public Accounts,,Glenn Hegar,REP,676
+GARZA,Comptroller of Public Accounts,,OTHER,OTH,28
+GILLESPIE,Comptroller of Public Accounts,,Mike Collier,DEM,1381
+GILLESPIE,Comptroller of Public Accounts,,Glenn Hegar,REP,6934
+GILLESPIE,Comptroller of Public Accounts,,OTHER,OTH,375
+GLASSCOCK,Comptroller of Public Accounts,,Mike Collier,DEM,20
+GLASSCOCK,Comptroller of Public Accounts,,Glenn Hegar,REP,354
+GLASSCOCK,Comptroller of Public Accounts,,OTHER,OTH,8
+GOLIAD,Comptroller of Public Accounts,,Mike Collier,DEM,789
+GOLIAD,Comptroller of Public Accounts,,Glenn Hegar,REP,1823
+GOLIAD,Comptroller of Public Accounts,,OTHER,OTH,67
+GONZALES,Comptroller of Public Accounts,,Mike Collier,DEM,764
+GONZALES,Comptroller of Public Accounts,,Glenn Hegar,REP,2738
+GONZALES,Comptroller of Public Accounts,,OTHER,OTH,102
+GRAY,Comptroller of Public Accounts,,Mike Collier,DEM,277
+GRAY,Comptroller of Public Accounts,,Glenn Hegar,REP,3280
+GRAY,Comptroller of Public Accounts,,OTHER,OTH,126
+GRAYSON,Comptroller of Public Accounts,,Mike Collier,DEM,5009
+GRAYSON,Comptroller of Public Accounts,,Glenn Hegar,REP,17262
+GRAYSON,Comptroller of Public Accounts,,OTHER,OTH,875
+GREGG,Comptroller of Public Accounts,,Mike Collier,DEM,5908
+GREGG,Comptroller of Public Accounts,,Glenn Hegar,REP,16449
+GREGG,Comptroller of Public Accounts,,OTHER,OTH,587
+GRIMES,Comptroller of Public Accounts,,Mike Collier,DEM,1101
+GRIMES,Comptroller of Public Accounts,,Glenn Hegar,REP,3610
+GRIMES,Comptroller of Public Accounts,,OTHER,OTH,187
+GUADALUPE,Comptroller of Public Accounts,,Mike Collier,DEM,7987
+GUADALUPE,Comptroller of Public Accounts,,Glenn Hegar,REP,20755
+GUADALUPE,Comptroller of Public Accounts,,OTHER,OTH,1217
+HALE,Comptroller of Public Accounts,,Mike Collier,DEM,656
+HALE,Comptroller of Public Accounts,,Glenn Hegar,REP,3500
+HALE,Comptroller of Public Accounts,,OTHER,OTH,116
+HALL,Comptroller of Public Accounts,,Mike Collier,DEM,91
+HALL,Comptroller of Public Accounts,,Glenn Hegar,REP,453
+HALL,Comptroller of Public Accounts,,OTHER,OTH,12
+HAMILTON,Comptroller of Public Accounts,,Mike Collier,DEM,462
+HAMILTON,Comptroller of Public Accounts,,Glenn Hegar,REP,1774
+HAMILTON,Comptroller of Public Accounts,,OTHER,OTH,82
+HANSFORD,Comptroller of Public Accounts,,Mike Collier,DEM,57
+HANSFORD,Comptroller of Public Accounts,,Glenn Hegar,REP,1074
+HANSFORD,Comptroller of Public Accounts,,OTHER,OTH,37
+HARDEMAN,Comptroller of Public Accounts,,Mike Collier,DEM,146
+HARDEMAN,Comptroller of Public Accounts,,Glenn Hegar,REP,483
+HARDEMAN,Comptroller of Public Accounts,,OTHER,OTH,15
+HARDIN,Comptroller of Public Accounts,,Mike Collier,DEM,1667
+HARDIN,Comptroller of Public Accounts,,Glenn Hegar,REP,9340
+HARDIN,Comptroller of Public Accounts,,OTHER,OTH,309
+HARRIS,Comptroller of Public Accounts,,Mike Collier,DEM,307588
+HARRIS,Comptroller of Public Accounts,,Glenn Hegar,REP,344535
+HARRIS,Comptroller of Public Accounts,,OTHER,OTH,19412
+HARRISON,Comptroller of Public Accounts,,Mike Collier,DEM,4109
+HARRISON,Comptroller of Public Accounts,,Glenn Hegar,REP,9911
+HARRISON,Comptroller of Public Accounts,,OTHER,OTH,408
+HARTLEY,Comptroller of Public Accounts,,Mike Collier,DEM,95
+HARTLEY,Comptroller of Public Accounts,,Glenn Hegar,REP,961
+HARTLEY,Comptroller of Public Accounts,,OTHER,OTH,29
+HASKELL,Comptroller of Public Accounts,,Mike Collier,DEM,292
+HASKELL,Comptroller of Public Accounts,,Glenn Hegar,REP,695
+HASKELL,Comptroller of Public Accounts,,OTHER,OTH,28
+HAYS,Comptroller of Public Accounts,,Mike Collier,DEM,15928
+HAYS,Comptroller of Public Accounts,,Glenn Hegar,REP,20226
+HAYS,Comptroller of Public Accounts,,OTHER,OTH,2541
+HEMPHILL,Comptroller of Public Accounts,,Mike Collier,DEM,75
+HEMPHILL,Comptroller of Public Accounts,,Glenn Hegar,REP,681
+HEMPHILL,Comptroller of Public Accounts,,OTHER,OTH,31
+HENDERSON,Comptroller of Public Accounts,,Mike Collier,DEM,3497
+HENDERSON,Comptroller of Public Accounts,,Glenn Hegar,REP,12808
+HENDERSON,Comptroller of Public Accounts,,OTHER,OTH,570
+HIDALGO,Comptroller of Public Accounts,,Mike Collier,DEM,49236
+HIDALGO,Comptroller of Public Accounts,,Glenn Hegar,REP,24104
+HIDALGO,Comptroller of Public Accounts,,OTHER,OTH,3492
+HILL,Comptroller of Public Accounts,,Mike Collier,DEM,1803
+HILL,Comptroller of Public Accounts,,Glenn Hegar,REP,6652
+HILL,Comptroller of Public Accounts,,OTHER,OTH,267
+HOCKLEY,Comptroller of Public Accounts,,Mike Collier,DEM,485
+HOCKLEY,Comptroller of Public Accounts,,Glenn Hegar,REP,3035
+HOCKLEY,Comptroller of Public Accounts,,OTHER,OTH,111
+HOOD,Comptroller of Public Accounts,,Mike Collier,DEM,2319
+HOOD,Comptroller of Public Accounts,,Glenn Hegar,REP,10616
+HOOD,Comptroller of Public Accounts,,OTHER,OTH,485
+HOPKINS,Comptroller of Public Accounts,,Mike Collier,DEM,1725
+HOPKINS,Comptroller of Public Accounts,,Glenn Hegar,REP,5386
+HOPKINS,Comptroller of Public Accounts,,OTHER,OTH,236
+HOUSTON,Comptroller of Public Accounts,,Mike Collier,DEM,970
+HOUSTON,Comptroller of Public Accounts,,Glenn Hegar,REP,3494
+HOUSTON,Comptroller of Public Accounts,,OTHER,OTH,115
+HOWARD,Comptroller of Public Accounts,,Mike Collier,DEM,784
+HOWARD,Comptroller of Public Accounts,,Glenn Hegar,REP,3260
+HOWARD,Comptroller of Public Accounts,,OTHER,OTH,151
+HUDSPETH,Comptroller of Public Accounts,,Mike Collier,DEM,149
+HUDSPETH,Comptroller of Public Accounts,,Glenn Hegar,REP,216
+HUDSPETH,Comptroller of Public Accounts,,OTHER,OTH,36
+HUNT,Comptroller of Public Accounts,,Mike Collier,DEM,3326
+HUNT,Comptroller of Public Accounts,,Glenn Hegar,REP,11930
+HUNT,Comptroller of Public Accounts,,OTHER,OTH,670
+HUTCHINSON,Comptroller of Public Accounts,,Mike Collier,DEM,462
+HUTCHINSON,Comptroller of Public Accounts,,Glenn Hegar,REP,3829
+HUTCHINSON,Comptroller of Public Accounts,,OTHER,OTH,156
+IRION,Comptroller of Public Accounts,,Mike Collier,DEM,51
+IRION,Comptroller of Public Accounts,,Glenn Hegar,REP,360
+IRION,Comptroller of Public Accounts,,OTHER,OTH,17
+JACK,Comptroller of Public Accounts,,Mike Collier,DEM,223
+JACK,Comptroller of Public Accounts,,Glenn Hegar,REP,1433
+JACK,Comptroller of Public Accounts,,OTHER,OTH,41
+JACKSON,Comptroller of Public Accounts,,Mike Collier,DEM,464
+JACKSON,Comptroller of Public Accounts,,Glenn Hegar,REP,2365
+JACKSON,Comptroller of Public Accounts,,OTHER,OTH,51
+JASPER,Comptroller of Public Accounts,,Mike Collier,DEM,1593
+JASPER,Comptroller of Public Accounts,,Glenn Hegar,REP,5203
+JASPER,Comptroller of Public Accounts,,OTHER,OTH,170
+JEFF DAVIS,Comptroller of Public Accounts,,Mike Collier,DEM,356
+JEFF DAVIS,Comptroller of Public Accounts,,Glenn Hegar,REP,533
+JEFF DAVIS,Comptroller of Public Accounts,,OTHER,OTH,74
+JEFFERSON,Comptroller of Public Accounts,,Mike Collier,DEM,25908
+JEFFERSON,Comptroller of Public Accounts,,Glenn Hegar,REP,25046
+JEFFERSON,Comptroller of Public Accounts,,OTHER,OTH,1067
+JIM HOGG,Comptroller of Public Accounts,,Mike Collier,DEM,548
+JIM HOGG,Comptroller of Public Accounts,,Glenn Hegar,REP,138
+JIM HOGG,Comptroller of Public Accounts,,OTHER,OTH,17
+JIM WELLS,Comptroller of Public Accounts,,Mike Collier,DEM,2954
+JIM WELLS,Comptroller of Public Accounts,,Glenn Hegar,REP,2335
+JIM WELLS,Comptroller of Public Accounts,,OTHER,OTH,215
+JOHNSON,Comptroller of Public Accounts,,Mike Collier,DEM,5466
+JOHNSON,Comptroller of Public Accounts,,Glenn Hegar,REP,22228
+JOHNSON,Comptroller of Public Accounts,,OTHER,OTH,1153
+JONES,Comptroller of Public Accounts,,Mike Collier,DEM,611
+JONES,Comptroller of Public Accounts,,Glenn Hegar,REP,2518
+JONES,Comptroller of Public Accounts,,OTHER,OTH,126
+KARNES,Comptroller of Public Accounts,,Mike Collier,DEM,679
+KARNES,Comptroller of Public Accounts,,Glenn Hegar,REP,1629
+KARNES,Comptroller of Public Accounts,,OTHER,OTH,65
+KAUFMAN,Comptroller of Public Accounts,,Mike Collier,DEM,5101
+KAUFMAN,Comptroller of Public Accounts,,Glenn Hegar,REP,14316
+KAUFMAN,Comptroller of Public Accounts,,OTHER,OTH,671
+KENDALL,Comptroller of Public Accounts,,Mike Collier,DEM,1730
+KENDALL,Comptroller of Public Accounts,,Glenn Hegar,REP,9464
+KENDALL,Comptroller of Public Accounts,,OTHER,OTH,459
+KENEDY,Comptroller of Public Accounts,,Mike Collier,DEM,57
+KENEDY,Comptroller of Public Accounts,,Glenn Hegar,REP,51
+KENEDY,Comptroller of Public Accounts,,OTHER,OTH,2
+KENT,Comptroller of Public Accounts,,Mike Collier,DEM,66
+KENT,Comptroller of Public Accounts,,Glenn Hegar,REP,210
+KENT,Comptroller of Public Accounts,,OTHER,OTH,12
+KERR,Comptroller of Public Accounts,,Mike Collier,DEM,2532
+KERR,Comptroller of Public Accounts,,Glenn Hegar,REP,11423
+KERR,Comptroller of Public Accounts,,OTHER,OTH,675
+KIMBLE,Comptroller of Public Accounts,,Mike Collier,DEM,115
+KIMBLE,Comptroller of Public Accounts,,Glenn Hegar,REP,1033
+KIMBLE,Comptroller of Public Accounts,,OTHER,OTH,34
+KING,Comptroller of Public Accounts,,Mike Collier,DEM,3
+KING,Comptroller of Public Accounts,,Glenn Hegar,REP,80
+KING,Comptroller of Public Accounts,,OTHER,OTH,4
+KINNEY,Comptroller of Public Accounts,,Mike Collier,DEM,342
+KINNEY,Comptroller of Public Accounts,,Glenn Hegar,REP,668
+KINNEY,Comptroller of Public Accounts,,OTHER,OTH,126
+KLEBERG,Comptroller of Public Accounts,,Mike Collier,DEM,2748
+KLEBERG,Comptroller of Public Accounts,,Glenn Hegar,REP,2490
+KLEBERG,Comptroller of Public Accounts,,OTHER,OTH,250
+KNOX,Comptroller of Public Accounts,,Mike Collier,DEM,193
+KNOX,Comptroller of Public Accounts,,Glenn Hegar,REP,625
+KNOX,Comptroller of Public Accounts,,OTHER,OTH,33
+LAMAR,Comptroller of Public Accounts,,Mike Collier,DEM,2732
+LAMAR,Comptroller of Public Accounts,,Glenn Hegar,REP,7402
+LAMAR,Comptroller of Public Accounts,,OTHER,OTH,359
+LAMB,Comptroller of Public Accounts,,Mike Collier,DEM,311
+LAMB,Comptroller of Public Accounts,,Glenn Hegar,REP,1695
+LAMB,Comptroller of Public Accounts,,OTHER,OTH,49
+LAMPASAS,Comptroller of Public Accounts,,Mike Collier,DEM,814
+LAMPASAS,Comptroller of Public Accounts,,Glenn Hegar,REP,3557
+LAMPASAS,Comptroller of Public Accounts,,OTHER,OTH,180
+LA SALLE,Comptroller of Public Accounts,,Mike Collier,DEM,409
+LA SALLE,Comptroller of Public Accounts,,Glenn Hegar,REP,368
+LA SALLE,Comptroller of Public Accounts,,OTHER,OTH,32
+LAVACA,Comptroller of Public Accounts,,Mike Collier,DEM,669
+LAVACA,Comptroller of Public Accounts,,Glenn Hegar,REP,4199
+LAVACA,Comptroller of Public Accounts,,OTHER,OTH,97
+LEE,Comptroller of Public Accounts,,Mike Collier,DEM,1007
+LEE,Comptroller of Public Accounts,,Glenn Hegar,REP,2887
+LEE,Comptroller of Public Accounts,,OTHER,OTH,180
+LEON,Comptroller of Public Accounts,,Mike Collier,DEM,510
+LEON,Comptroller of Public Accounts,,Glenn Hegar,REP,3614
+LEON,Comptroller of Public Accounts,,OTHER,OTH,87
+LIBERTY,Comptroller of Public Accounts,,Mike Collier,DEM,2644
+LIBERTY,Comptroller of Public Accounts,,Glenn Hegar,REP,9175
+LIBERTY,Comptroller of Public Accounts,,OTHER,OTH,385
+LIMESTONE,Comptroller of Public Accounts,,Mike Collier,DEM,1021
+LIMESTONE,Comptroller of Public Accounts,,Glenn Hegar,REP,3122
+LIMESTONE,Comptroller of Public Accounts,,OTHER,OTH,109
+LIPSCOMB,Comptroller of Public Accounts,,Mike Collier,DEM,95
+LIPSCOMB,Comptroller of Public Accounts,,Glenn Hegar,REP,704
+LIPSCOMB,Comptroller of Public Accounts,,OTHER,OTH,25
+LIVE OAK,Comptroller of Public Accounts,,Mike Collier,DEM,398
+LIVE OAK,Comptroller of Public Accounts,,Glenn Hegar,REP,1932
+LIVE OAK,Comptroller of Public Accounts,,OTHER,OTH,84
+LLANO,Comptroller of Public Accounts,,Mike Collier,DEM,1275
+LLANO,Comptroller of Public Accounts,,Glenn Hegar,REP,5442
+LLANO,Comptroller of Public Accounts,,OTHER,OTH,268
+LOVING,Comptroller of Public Accounts,,Mike Collier,DEM,8
+LOVING,Comptroller of Public Accounts,,Glenn Hegar,REP,29
+LOVING,Comptroller of Public Accounts,,OTHER,OTH,1
+LUBBOCK,Comptroller of Public Accounts,,Mike Collier,DEM,10266
+LUBBOCK,Comptroller of Public Accounts,,Glenn Hegar,REP,34474
+LUBBOCK,Comptroller of Public Accounts,,OTHER,OTH,1885
+LYNN,Comptroller of Public Accounts,,Mike Collier,DEM,235
+LYNN,Comptroller of Public Accounts,,Glenn Hegar,REP,886
+LYNN,Comptroller of Public Accounts,,OTHER,OTH,25
+MADISON,Comptroller of Public Accounts,,Mike Collier,DEM,463
+MADISON,Comptroller of Public Accounts,,Glenn Hegar,REP,1872
+MADISON,Comptroller of Public Accounts,,OTHER,OTH,49
+MARION,Comptroller of Public Accounts,,Mike Collier,DEM,702
+MARION,Comptroller of Public Accounts,,Glenn Hegar,REP,1446
+MARION,Comptroller of Public Accounts,,OTHER,OTH,66
+MARTIN,Comptroller of Public Accounts,,Mike Collier,DEM,175
+MARTIN,Comptroller of Public Accounts,,Glenn Hegar,REP,883
+MARTIN,Comptroller of Public Accounts,,OTHER,OTH,36
+MASON,Comptroller of Public Accounts,,Mike Collier,DEM,234
+MASON,Comptroller of Public Accounts,,Glenn Hegar,REP,1044
+MASON,Comptroller of Public Accounts,,OTHER,OTH,63
+MATAGORDA,Comptroller of Public Accounts,,Mike Collier,DEM,1990
+MATAGORDA,Comptroller of Public Accounts,,Glenn Hegar,REP,4695
+MATAGORDA,Comptroller of Public Accounts,,OTHER,OTH,203
+MAVERICK,Comptroller of Public Accounts,,Mike Collier,DEM,3646
+MAVERICK,Comptroller of Public Accounts,,Glenn Hegar,REP,1120
+MAVERICK,Comptroller of Public Accounts,,OTHER,OTH,294
+MCCULLOCH,Comptroller of Public Accounts,,Mike Collier,DEM,267
+MCCULLOCH,Comptroller of Public Accounts,,Glenn Hegar,REP,1386
+MCCULLOCH,Comptroller of Public Accounts,,OTHER,OTH,54
+MCLENNAN,Comptroller of Public Accounts,,Mike Collier,DEM,13023
+MCLENNAN,Comptroller of Public Accounts,,Glenn Hegar,REP,28919
+MCLENNAN,Comptroller of Public Accounts,,OTHER,OTH,1452
+MCMULLEN,Comptroller of Public Accounts,,Mike Collier,DEM,32
+MCMULLEN,Comptroller of Public Accounts,,Glenn Hegar,REP,196
+MCMULLEN,Comptroller of Public Accounts,,OTHER,OTH,6
+MEDINA,Comptroller of Public Accounts,,Mike Collier,DEM,2331
+MEDINA,Comptroller of Public Accounts,,Glenn Hegar,REP,7040
+MEDINA,Comptroller of Public Accounts,,OTHER,OTH,340
+MENARD,Comptroller of Public Accounts,,Mike Collier,DEM,55
+MENARD,Comptroller of Public Accounts,,Glenn Hegar,REP,390
+MENARD,Comptroller of Public Accounts,,OTHER,OTH,16
+MIDLAND,Comptroller of Public Accounts,,Mike Collier,DEM,3100
+MIDLAND,Comptroller of Public Accounts,,Glenn Hegar,REP,19375
+MIDLAND,Comptroller of Public Accounts,,OTHER,OTH,804
+MILAM,Comptroller of Public Accounts,,Mike Collier,DEM,1354
+MILAM,Comptroller of Public Accounts,,Glenn Hegar,REP,3283
+MILAM,Comptroller of Public Accounts,,OTHER,OTH,178
+MILLS,Comptroller of Public Accounts,,Mike Collier,DEM,167
+MILLS,Comptroller of Public Accounts,,Glenn Hegar,REP,1104
+MILLS,Comptroller of Public Accounts,,OTHER,OTH,44
+MITCHELL,Comptroller of Public Accounts,,Mike Collier,DEM,243
+MITCHELL,Comptroller of Public Accounts,,Glenn Hegar,REP,882
+MITCHELL,Comptroller of Public Accounts,,OTHER,OTH,31
+MONTAGUE,Comptroller of Public Accounts,,Mike Collier,DEM,908
+MONTAGUE,Comptroller of Public Accounts,,Glenn Hegar,REP,5432
+MONTAGUE,Comptroller of Public Accounts,,OTHER,OTH,242
+MONTGOMERY,Comptroller of Public Accounts,,Mike Collier,DEM,17765
+MONTGOMERY,Comptroller of Public Accounts,,Glenn Hegar,REP,82942
+MONTGOMERY,Comptroller of Public Accounts,,OTHER,OTH,3044
+MOORE,Comptroller of Public Accounts,,Mike Collier,DEM,302
+MOORE,Comptroller of Public Accounts,,Glenn Hegar,REP,2336
+MOORE,Comptroller of Public Accounts,,OTHER,OTH,95
+MORRIS,Comptroller of Public Accounts,,Mike Collier,DEM,1081
+MORRIS,Comptroller of Public Accounts,,Glenn Hegar,REP,1790
+MORRIS,Comptroller of Public Accounts,,OTHER,OTH,94
+MOTLEY,Comptroller of Public Accounts,,Mike Collier,DEM,23
+MOTLEY,Comptroller of Public Accounts,,Glenn Hegar,REP,314
+MOTLEY,Comptroller of Public Accounts,,OTHER,OTH,10
+NACOGDOCHES,Comptroller of Public Accounts,,Mike Collier,DEM,2766
+NACOGDOCHES,Comptroller of Public Accounts,,Glenn Hegar,REP,8609
+NACOGDOCHES,Comptroller of Public Accounts,,OTHER,OTH,378
+NAVARRO,Comptroller of Public Accounts,,Mike Collier,DEM,2253
+NAVARRO,Comptroller of Public Accounts,,Glenn Hegar,REP,6826
+NAVARRO,Comptroller of Public Accounts,,OTHER,OTH,285
+NEWTON,Comptroller of Public Accounts,,Mike Collier,DEM,818
+NEWTON,Comptroller of Public Accounts,,Glenn Hegar,REP,1891
+NEWTON,Comptroller of Public Accounts,,OTHER,OTH,102
+NOLAN,Comptroller of Public Accounts,,Mike Collier,DEM,572
+NOLAN,Comptroller of Public Accounts,,Glenn Hegar,REP,1849
+NOLAN,Comptroller of Public Accounts,,OTHER,OTH,109
+NUECES,Comptroller of Public Accounts,,Mike Collier,DEM,24190
+NUECES,Comptroller of Public Accounts,,Glenn Hegar,REP,28560
+NUECES,Comptroller of Public Accounts,,OTHER,OTH,2526
+OCHILTREE,Comptroller of Public Accounts,,Mike Collier,DEM,82
+OCHILTREE,Comptroller of Public Accounts,,Glenn Hegar,REP,1427
+OCHILTREE,Comptroller of Public Accounts,,OTHER,OTH,38
+OLDHAM,Comptroller of Public Accounts,,Mike Collier,DEM,43
+OLDHAM,Comptroller of Public Accounts,,Glenn Hegar,REP,486
+OLDHAM,Comptroller of Public Accounts,,OTHER,OTH,17
+ORANGE,Comptroller of Public Accounts,,Mike Collier,DEM,3959
+ORANGE,Comptroller of Public Accounts,,Glenn Hegar,REP,12310
+ORANGE,Comptroller of Public Accounts,,OTHER,OTH,551
+PALO PINTO,Comptroller of Public Accounts,,Mike Collier,DEM,1113
+PALO PINTO,Comptroller of Public Accounts,,Glenn Hegar,REP,4269
+PALO PINTO,Comptroller of Public Accounts,,OTHER,OTH,199
+PANOLA,Comptroller of Public Accounts,,Mike Collier,DEM,1118
+PANOLA,Comptroller of Public Accounts,,Glenn Hegar,REP,4448
+PANOLA,Comptroller of Public Accounts,,OTHER,OTH,135
+PARKER,Comptroller of Public Accounts,,Mike Collier,DEM,4930
+PARKER,Comptroller of Public Accounts,,Glenn Hegar,REP,25279
+PARKER,Comptroller of Public Accounts,,OTHER,OTH,1202
+PARMER,Comptroller of Public Accounts,,Mike Collier,DEM,157
+PARMER,Comptroller of Public Accounts,,Glenn Hegar,REP,1190
+PARMER,Comptroller of Public Accounts,,OTHER,OTH,33
+PECOS,Comptroller of Public Accounts,,Mike Collier,DEM,1108
+PECOS,Comptroller of Public Accounts,,Glenn Hegar,REP,1608
+PECOS,Comptroller of Public Accounts,,OTHER,OTH,146
+POLK,Comptroller of Public Accounts,,Mike Collier,DEM,2282
+POLK,Comptroller of Public Accounts,,Glenn Hegar,REP,7496
+POLK,Comptroller of Public Accounts,,OTHER,OTH,402
+POTTER,Comptroller of Public Accounts,,Mike Collier,DEM,2784
+POTTER,Comptroller of Public Accounts,,Glenn Hegar,REP,10209
+POTTER,Comptroller of Public Accounts,,OTHER,OTH,630
+PRESIDIO,Comptroller of Public Accounts,,Mike Collier,DEM,577
+PRESIDIO,Comptroller of Public Accounts,,Glenn Hegar,REP,257
+PRESIDIO,Comptroller of Public Accounts,,OTHER,OTH,62
+RAINS,Comptroller of Public Accounts,,Mike Collier,DEM,417
+RAINS,Comptroller of Public Accounts,,Glenn Hegar,REP,1931
+RAINS,Comptroller of Public Accounts,,OTHER,OTH,72
+RANDALL,Comptroller of Public Accounts,,Mike Collier,DEM,3448
+RANDALL,Comptroller of Public Accounts,,Glenn Hegar,REP,23367
+RANDALL,Comptroller of Public Accounts,,OTHER,OTH,1050
+REAGAN,Comptroller of Public Accounts,,Mike Collier,DEM,75
+REAGAN,Comptroller of Public Accounts,,Glenn Hegar,REP,377
+REAGAN,Comptroller of Public Accounts,,OTHER,OTH,22
+REAL,Comptroller of Public Accounts,,Mike Collier,DEM,150
+REAL,Comptroller of Public Accounts,,Glenn Hegar,REP,835
+REAL,Comptroller of Public Accounts,,OTHER,OTH,38
+RED RIVER,Comptroller of Public Accounts,,Mike Collier,DEM,707
+RED RIVER,Comptroller of Public Accounts,,Glenn Hegar,REP,1842
+RED RIVER,Comptroller of Public Accounts,,OTHER,OTH,77
+REEVES,Comptroller of Public Accounts,,Mike Collier,DEM,588
+REEVES,Comptroller of Public Accounts,,Glenn Hegar,REP,515
+REEVES,Comptroller of Public Accounts,,OTHER,OTH,51
+REFUGIO,Comptroller of Public Accounts,,Mike Collier,DEM,737
+REFUGIO,Comptroller of Public Accounts,,Glenn Hegar,REP,1162
+REFUGIO,Comptroller of Public Accounts,,OTHER,OTH,70
+ROBERTS,Comptroller of Public Accounts,,Mike Collier,DEM,21
+ROBERTS,Comptroller of Public Accounts,,Glenn Hegar,REP,297
+ROBERTS,Comptroller of Public Accounts,,OTHER,OTH,11
+ROBERTSON,Comptroller of Public Accounts,,Mike Collier,DEM,1904
+ROBERTSON,Comptroller of Public Accounts,,Glenn Hegar,REP,2814
+ROBERTSON,Comptroller of Public Accounts,,OTHER,OTH,162
+ROCKWALL,Comptroller of Public Accounts,,Mike Collier,DEM,4220
+ROCKWALL,Comptroller of Public Accounts,,Glenn Hegar,REP,15757
+ROCKWALL,Comptroller of Public Accounts,,OTHER,OTH,680
+RUNNELS,Comptroller of Public Accounts,,Mike Collier,DEM,295
+RUNNELS,Comptroller of Public Accounts,,Glenn Hegar,REP,1866
+RUNNELS,Comptroller of Public Accounts,,OTHER,OTH,90
+RUSK,Comptroller of Public Accounts,,Mike Collier,DEM,1963
+RUSK,Comptroller of Public Accounts,,Glenn Hegar,REP,8114
+RUSK,Comptroller of Public Accounts,,OTHER,OTH,249
+SABINE,Comptroller of Public Accounts,,Mike Collier,DEM,422
+SABINE,Comptroller of Public Accounts,,Glenn Hegar,REP,2187
+SABINE,Comptroller of Public Accounts,,OTHER,OTH,69
+SAN AUGUSTINE,Comptroller of Public Accounts,,Mike Collier,DEM,844
+SAN AUGUSTINE,Comptroller of Public Accounts,,Glenn Hegar,REP,1615
+SAN AUGUSTINE,Comptroller of Public Accounts,,OTHER,OTH,92
+SAN JACINTO,Comptroller of Public Accounts,,Mike Collier,DEM,1655
+SAN JACINTO,Comptroller of Public Accounts,,Glenn Hegar,REP,4305
+SAN JACINTO,Comptroller of Public Accounts,,OTHER,OTH,245
+SAN PATRICIO,Comptroller of Public Accounts,,Mike Collier,DEM,3982
+SAN PATRICIO,Comptroller of Public Accounts,,Glenn Hegar,REP,6793
+SAN PATRICIO,Comptroller of Public Accounts,,OTHER,OTH,455
+SAN SABA,Comptroller of Public Accounts,,Mike Collier,DEM,168
+SAN SABA,Comptroller of Public Accounts,,Glenn Hegar,REP,1198
+SAN SABA,Comptroller of Public Accounts,,OTHER,OTH,43
+SCHLEICHER,Comptroller of Public Accounts,,Mike Collier,DEM,242
+SCHLEICHER,Comptroller of Public Accounts,,Glenn Hegar,REP,547
+SCHLEICHER,Comptroller of Public Accounts,,OTHER,OTH,26
+SCURRY,Comptroller of Public Accounts,,Mike Collier,DEM,388
+SCURRY,Comptroller of Public Accounts,,Glenn Hegar,REP,2333
+SCURRY,Comptroller of Public Accounts,,OTHER,OTH,71
+SHACKELFORD,Comptroller of Public Accounts,,Mike Collier,DEM,50
+SHACKELFORD,Comptroller of Public Accounts,,Glenn Hegar,REP,721
+SHACKELFORD,Comptroller of Public Accounts,,OTHER,OTH,17
+SHELBY,Comptroller of Public Accounts,,Mike Collier,DEM,1221
+SHELBY,Comptroller of Public Accounts,,Glenn Hegar,REP,3962
+SHELBY,Comptroller of Public Accounts,,OTHER,OTH,134
+SHERMAN,Comptroller of Public Accounts,,Mike Collier,DEM,56
+SHERMAN,Comptroller of Public Accounts,,Glenn Hegar,REP,479
+SHERMAN,Comptroller of Public Accounts,,OTHER,OTH,25
+SMITH,Comptroller of Public Accounts,,Mike Collier,DEM,10739
+SMITH,Comptroller of Public Accounts,,Glenn Hegar,REP,35922
+SMITH,Comptroller of Public Accounts,,OTHER,OTH,1461
+SOMERVELL,Comptroller of Public Accounts,,Mike Collier,DEM,352
+SOMERVELL,Comptroller of Public Accounts,,Glenn Hegar,REP,1746
+SOMERVELL,Comptroller of Public Accounts,,OTHER,OTH,79
+STARR,Comptroller of Public Accounts,,Mike Collier,DEM,3952
+STARR,Comptroller of Public Accounts,,Glenn Hegar,REP,832
+STARR,Comptroller of Public Accounts,,OTHER,OTH,130
+STEPHENS,Comptroller of Public Accounts,,Mike Collier,DEM,213
+STEPHENS,Comptroller of Public Accounts,,Glenn Hegar,REP,1647
+STEPHENS,Comptroller of Public Accounts,,OTHER,OTH,45
+STERLING,Comptroller of Public Accounts,,Mike Collier,DEM,39
+STERLING,Comptroller of Public Accounts,,Glenn Hegar,REP,395
+STERLING,Comptroller of Public Accounts,,OTHER,OTH,12
+STONEWALL,Comptroller of Public Accounts,,Mike Collier,DEM,104
+STONEWALL,Comptroller of Public Accounts,,Glenn Hegar,REP,242
+STONEWALL,Comptroller of Public Accounts,,OTHER,OTH,15
+SUTTON,Comptroller of Public Accounts,,Mike Collier,DEM,114
+SUTTON,Comptroller of Public Accounts,,Glenn Hegar,REP,599
+SUTTON,Comptroller of Public Accounts,,OTHER,OTH,17
+SWISHER,Comptroller of Public Accounts,,Mike Collier,DEM,389
+SWISHER,Comptroller of Public Accounts,,Glenn Hegar,REP,929
+SWISHER,Comptroller of Public Accounts,,OTHER,OTH,57
+TARRANT,Comptroller of Public Accounts,,Mike Collier,DEM,141571
+TARRANT,Comptroller of Public Accounts,,Glenn Hegar,REP,210202
+TARRANT,Comptroller of Public Accounts,,OTHER,OTH,14300
+TAYLOR,Comptroller of Public Accounts,,Mike Collier,DEM,3980
+TAYLOR,Comptroller of Public Accounts,,Glenn Hegar,REP,18138
+TAYLOR,Comptroller of Public Accounts,,OTHER,OTH,891
+TERRELL,Comptroller of Public Accounts,,Mike Collier,DEM,146
+TERRELL,Comptroller of Public Accounts,,Glenn Hegar,REP,196
+TERRELL,Comptroller of Public Accounts,,OTHER,OTH,28
+TERRY,Comptroller of Public Accounts,,Mike Collier,DEM,463
+TERRY,Comptroller of Public Accounts,,Glenn Hegar,REP,1654
+TERRY,Comptroller of Public Accounts,,OTHER,OTH,69
+THROCKMORTON,Comptroller of Public Accounts,,Mike Collier,DEM,76
+THROCKMORTON,Comptroller of Public Accounts,,Glenn Hegar,REP,422
+THROCKMORTON,Comptroller of Public Accounts,,OTHER,OTH,18
+TITUS,Comptroller of Public Accounts,,Mike Collier,DEM,1395
+TITUS,Comptroller of Public Accounts,,Glenn Hegar,REP,3408
+TITUS,Comptroller of Public Accounts,,OTHER,OTH,148
+TOM GREEN,Comptroller of Public Accounts,,Mike Collier,DEM,3593
+TOM GREEN,Comptroller of Public Accounts,,Glenn Hegar,REP,13983
+TOM GREEN,Comptroller of Public Accounts,,OTHER,OTH,751
+TRAVIS,Comptroller of Public Accounts,,Mike Collier,DEM,155345
+TRAVIS,Comptroller of Public Accounts,,Glenn Hegar,REP,88752
+TRAVIS,Comptroller of Public Accounts,,OTHER,OTH,18166
+TRINITY,Comptroller of Public Accounts,,Mike Collier,DEM,989
+TRINITY,Comptroller of Public Accounts,,Glenn Hegar,REP,2658
+TRINITY,Comptroller of Public Accounts,,OTHER,OTH,124
+TYLER,Comptroller of Public Accounts,,Mike Collier,DEM,1021
+TYLER,Comptroller of Public Accounts,,Glenn Hegar,REP,3361
+TYLER,Comptroller of Public Accounts,,OTHER,OTH,196
+UPSHUR,Comptroller of Public Accounts,,Mike Collier,DEM,1529
+UPSHUR,Comptroller of Public Accounts,,Glenn Hegar,REP,6750
+UPSHUR,Comptroller of Public Accounts,,OTHER,OTH,346
+UPTON,Comptroller of Public Accounts,,Mike Collier,DEM,112
+UPTON,Comptroller of Public Accounts,,Glenn Hegar,REP,475
+UPTON,Comptroller of Public Accounts,,OTHER,OTH,31
+UVALDE,Comptroller of Public Accounts,,Mike Collier,DEM,2071
+UVALDE,Comptroller of Public Accounts,,Glenn Hegar,REP,2751
+UVALDE,Comptroller of Public Accounts,,OTHER,OTH,167
+VAL VERDE,Comptroller of Public Accounts,,Mike Collier,DEM,3612
+VAL VERDE,Comptroller of Public Accounts,,Glenn Hegar,REP,2938
+VAL VERDE,Comptroller of Public Accounts,,OTHER,OTH,347
+VAN ZANDT,Comptroller of Public Accounts,,Mike Collier,DEM,1818
+VAN ZANDT,Comptroller of Public Accounts,,Glenn Hegar,REP,9453
+VAN ZANDT,Comptroller of Public Accounts,,OTHER,OTH,390
+VICTORIA,Comptroller of Public Accounts,,Mike Collier,DEM,3903
+VICTORIA,Comptroller of Public Accounts,,Glenn Hegar,REP,12657
+VICTORIA,Comptroller of Public Accounts,,OTHER,OTH,412
+WALKER,Comptroller of Public Accounts,,Mike Collier,DEM,3243
+WALKER,Comptroller of Public Accounts,,Glenn Hegar,REP,7426
+WALKER,Comptroller of Public Accounts,,OTHER,OTH,448
+WALLER,Comptroller of Public Accounts,,Mike Collier,DEM,2513
+WALLER,Comptroller of Public Accounts,,Glenn Hegar,REP,6486
+WALLER,Comptroller of Public Accounts,,OTHER,OTH,171
+WARD,Comptroller of Public Accounts,,Mike Collier,DEM,521
+WARD,Comptroller of Public Accounts,,Glenn Hegar,REP,1309
+WARD,Comptroller of Public Accounts,,OTHER,OTH,77
+WASHINGTON,Comptroller of Public Accounts,,Mike Collier,DEM,1809
+WASHINGTON,Comptroller of Public Accounts,,Glenn Hegar,REP,6906
+WASHINGTON,Comptroller of Public Accounts,,OTHER,OTH,220
+WEBB,Comptroller of Public Accounts,,Mike Collier,DEM,17708
+WEBB,Comptroller of Public Accounts,,Glenn Hegar,REP,5779
+WEBB,Comptroller of Public Accounts,,OTHER,OTH,1971
+WHARTON,Comptroller of Public Accounts,,Mike Collier,DEM,1894
+WHARTON,Comptroller of Public Accounts,,Glenn Hegar,REP,6334
+WHARTON,Comptroller of Public Accounts,,OTHER,OTH,128
+WHEELER,Comptroller of Public Accounts,,Mike Collier,DEM,142
+WHEELER,Comptroller of Public Accounts,,Glenn Hegar,REP,1092
+WHEELER,Comptroller of Public Accounts,,OTHER,OTH,44
+WICHITA,Comptroller of Public Accounts,,Mike Collier,DEM,4759
+WICHITA,Comptroller of Public Accounts,,Glenn Hegar,REP,15375
+WICHITA,Comptroller of Public Accounts,,OTHER,OTH,766
+WILBARGER,Comptroller of Public Accounts,,Mike Collier,DEM,619
+WILBARGER,Comptroller of Public Accounts,,Glenn Hegar,REP,1905
+WILBARGER,Comptroller of Public Accounts,,OTHER,OTH,80
+WILLACY,Comptroller of Public Accounts,,Mike Collier,DEM,1226
+WILLACY,Comptroller of Public Accounts,,Glenn Hegar,REP,705
+WILLACY,Comptroller of Public Accounts,,OTHER,OTH,127
+WILLIAMSON,Comptroller of Public Accounts,,Mike Collier,DEM,36262
+WILLIAMSON,Comptroller of Public Accounts,,Glenn Hegar,REP,59497
+WILLIAMSON,Comptroller of Public Accounts,,OTHER,OTH,6248
+WILSON,Comptroller of Public Accounts,,Mike Collier,DEM,2553
+WILSON,Comptroller of Public Accounts,,Glenn Hegar,REP,7190
+WILSON,Comptroller of Public Accounts,,OTHER,OTH,411
+WINKLER,Comptroller of Public Accounts,,Mike Collier,DEM,169
+WINKLER,Comptroller of Public Accounts,,Glenn Hegar,REP,729
+WINKLER,Comptroller of Public Accounts,,OTHER,OTH,38
+WISE,Comptroller of Public Accounts,,Mike Collier,DEM,2026
+WISE,Comptroller of Public Accounts,,Glenn Hegar,REP,9916
+WISE,Comptroller of Public Accounts,,OTHER,OTH,489
+WOOD,Comptroller of Public Accounts,,Mike Collier,DEM,1452
+WOOD,Comptroller of Public Accounts,,Glenn Hegar,REP,9405
+WOOD,Comptroller of Public Accounts,,OTHER,OTH,315
+YOAKUM,Comptroller of Public Accounts,,Mike Collier,DEM,124
+YOAKUM,Comptroller of Public Accounts,,Glenn Hegar,REP,945
+YOAKUM,Comptroller of Public Accounts,,OTHER,OTH,34
+YOUNG,Comptroller of Public Accounts,,Mike Collier,DEM,654
+YOUNG,Comptroller of Public Accounts,,Glenn Hegar,REP,4308
+YOUNG,Comptroller of Public Accounts,,OTHER,OTH,215
+ZAPATA,Comptroller of Public Accounts,,Mike Collier,DEM,787
+ZAPATA,Comptroller of Public Accounts,,Glenn Hegar,REP,287
+ZAPATA,Comptroller of Public Accounts,,OTHER,OTH,37
+ZAVALA,Comptroller of Public Accounts,,Mike Collier,DEM,1084
+ZAVALA,Comptroller of Public Accounts,,Glenn Hegar,REP,278
+ZAVALA,Comptroller of Public Accounts,,OTHER,OTH,53
