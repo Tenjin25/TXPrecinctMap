@@ -4,13 +4,14 @@
   if (root) root.AtlasRegions = Object.freeze(api);
 }(typeof globalThis !== 'undefined' ? globalThis : this, function createAtlasRegions() {
   function normalizeCountyName(name) {
-    return (name || '')
+    const normalized = (name || '')
       .toString()
       .replace(/\s+COUNTY$/i, '')
       .replace(/[^a-z0-9 .\-]/gi, '')
       .replace(/\s+/g, ' ')
       .trim()
       .toUpperCase();
+    return normalized.replace(/[^A-Z0-9]/g, '') === 'LASALLE' ? 'LA SALLE' : normalized;
   }
 
   function getCountySet(counties) {
