@@ -4407,11 +4407,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-pill-value.dem {
-    color: #001f4d;
+    color: #1d4ed8;
   }
 
   .focus-pill-value.rep {
-    color: #bf0a30;
+    color: #dc2626;
   }
 
   .focus-pill-value.tie {
@@ -4521,7 +4521,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-segment.dem {
-    background: linear-gradient(90deg, #002868, #60a5fa);
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
   }
 
   .focus-bar-segment.other {
@@ -4529,7 +4529,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-segment.rep {
-    background: linear-gradient(90deg, #f87171, #bf0a30);
+    background: linear-gradient(90deg, #f87171, #dc2626);
   }
 
   .focus-bar-midpoint {
@@ -7414,8 +7414,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     transition: width 240ms ease;
   }
 
-  .vote-share-fill.dem { background: linear-gradient(90deg, #60a5fa 0%, #002868 100%); }
-  .vote-share-fill.rep { background: linear-gradient(90deg, #fb7185 0%, #bf0a30 100%); }
+  .vote-share-fill.dem { background: linear-gradient(90deg, #60a5fa 0%, #2563eb 100%); }
+  .vote-share-fill.rep { background: linear-gradient(90deg, #fb7185 0%, #dc2626 100%); }
   .vote-share-fill.other { background: linear-gradient(90deg, #94a3b8 0%, #64748b 100%); }
 
   /* Safe fallback: if one-line layout overflows, JS adds .layout-stacked per card. */
@@ -15122,9 +15122,9 @@ document.addEventListener('DOMContentLoaded', function() {
                   <span class="rep">${escapeHtml(`${getCandidateLastName(entry.item, 'Republican', { contestType: contestTypeHint, year: Number(entry.item?.year), office: contestTypeHint ? formatContestName(contestTypeHint, Number(entry.item?.year)) : '' })} ${entry.repPct.toFixed(2)}%`)}</span>
                 </div>
                 <div class="focus-trend-entry-bar" aria-hidden="true">
-                  <span style="width:${entry.demPct.toFixed(4)}%;background:#002868;"></span>
+                  <span style="width:${entry.demPct.toFixed(4)}%;background:#2563eb;"></span>
                   ${entry.otherVotes > 0 ? `<span style="width:${entry.otherPct.toFixed(4)}%;background:#64748b;"></span>` : ''}
-                  <span style="width:${entry.repPct.toFixed(4)}%;background:#bf0a30;"></span>
+                  <span style="width:${entry.repPct.toFixed(4)}%;background:#dc2626;"></span>
                 </div>
                 <div class="focus-trend-entry-footer">
                   <span class="focus-trend-chip">${escapeHtml(totalVotesLabel)}</span>
@@ -20832,9 +20832,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // On narrow screens, tiny Other shares can be visually invisible, so we add a marker.
         let barFlex = '';
         if (otherVotes > 0) {
-          barFlex = `<div style="width:${demPct}%;background:#002868;"></div><div style="width:${repPct}%;background:#bf0a30;"></div><div style="width:${otherPct}%;background:#6b7280;"></div>`;
+          barFlex = `<div style="width:${demPct}%;background:#2563eb;"></div><div style="width:${repPct}%;background:#dc2626;"></div><div style="width:${otherPct}%;background:#6b7280;"></div>`;
         } else {
-          barFlex = `<div style="width:${demPct}%;background:#002868;"></div><div style="width:${repPct}%;background:#bf0a30;"></div>`;
+          barFlex = `<div style="width:${demPct}%;background:#2563eb;"></div><div style="width:${repPct}%;background:#dc2626;"></div>`;
         }
         const tinyOtherMarker = (isMobile && otherVotes > 0 && otherPct > 0 && otherPct < 1.5)
           ? `<div style="position:absolute;top:0;right:0;width:3px;height:100%;background:#6b7280;border-left:1px solid rgba(255,255,255,0.75);" aria-hidden="true"></div>`
@@ -20845,13 +20845,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const breakdownItems = [
           {
             label: 'D',
-            color: '#002868',
+            color: '#2563eb',
             votes: demVotes,
             pct: demPct
           },
           {
             label: 'R',
-            color: '#bf0a30',
+            color: '#dc2626',
             votes: repVotes,
             pct: repPct
           }
@@ -21310,7 +21310,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Prefer the surname in compact labels; ignore trailing suffixes like Jr./III.
       let idx = parts.length - 1;
       while (idx > 0 && isNameSuffixToken(parts[idx])) idx -= 1;
-      return parts[idx];
+      return toTitleCaseName(parts[idx]);
     }
 
     // Shared candidate/last-name resolver for hover, selected results, county trend + timeline, and trajectory.
@@ -22963,7 +22963,7 @@ document.addEventListener('DOMContentLoaded', function() {
             key: 'dem',
             label: 'D',
             candidate: fullCandidateLabel(demCandidate, 'Democratic'),
-            color: '#002868',
+            color: '#2563eb',
             votes: demVotes,
             pct: demPct
           },
@@ -22971,7 +22971,7 @@ document.addEventListener('DOMContentLoaded', function() {
             key: 'rep',
             label: 'R',
             candidate: fullCandidateLabel(repCandidate, 'Republican'),
-            color: '#bf0a30',
+            color: '#dc2626',
             votes: repVotes,
             pct: repPct
           }
@@ -22990,9 +22990,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const shareChips = breakdownItems.map(item => (
           `<div class="statewide-share-chip ${item.key}">${item.label} <strong>${formatPctForCloseRace(item.pct, marginPct)}%</strong></div>`
         )).join('');
-        const barSegments = [`<div style="width:${demPct.toFixed(4)}%;background:#002868;"></div>`];
+        const barSegments = [`<div style="width:${demPct.toFixed(4)}%;background:#2563eb;"></div>`];
         if (otherVotes > 0) barSegments.push(`<div style="width:${otherPct.toFixed(4)}%;background:#6b7280;"></div>`);
-        barSegments.push(`<div style="width:${repPct.toFixed(4)}%;background:#bf0a30;"></div>`);
+        barSegments.push(`<div style="width:${repPct.toFixed(4)}%;background:#dc2626;"></div>`);
         const breakdownGrid = breakdownItems.map(item => (
           `<div class="statewide-breakdown-item">` +
             `<div class="statewide-breakdown-head">` +
