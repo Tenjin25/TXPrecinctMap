@@ -19,28 +19,7 @@
     'superintendent'
   ]);
 
-  const NAMED_JUDICIAL_SEAT_MAP = Object.freeze({
-    nc_supreme_court_associate_justice_brady_seat: '1',
-    nc_supreme_court_associate_justice_newby_seat: '2',
-    nc_supreme_court_associate_justice_hudson_seat: '3',
-    nc_supreme_court_associate_justice_beasley_seat: '4',
-    nc_supreme_court_associate_justice_martin_seat: '5',
-    nc_supreme_court_associate_justice_edmunds_seat: '6',
-    nc_supreme_court_chief_justice_parker_seat: '1',
-    nc_court_of_appeals_judge_wynn_seat: '1',
-    nc_court_of_appeals_judge_calabria_seat: '2',
-    nc_court_of_appeals_judge_mcgee_seat: '4',
-    nc_court_of_appeals_judge_bryant_seat: '5',
-    nc_court_of_appeals_judge_thigpen_seat: '6',
-    nc_court_of_appeals_judge_mccullough_seat: '7',
-    nc_court_of_appeals_judge_davis_seat: '7',
-    nc_court_of_appeals_judge_stephens_seat: '11',
-    nc_court_of_appeals_judge_arrowood_seat: '12',
-    nc_court_of_appeals_judge_dietz_seat: '12',
-    nc_court_of_appeals_judge_martin_seat: '10',
-    nc_court_of_appeals_judge_zachary_seat: '14',
-    nc_court_of_appeals_judge_geer_seat: '15'
-  });
+  const NAMED_JUDICIAL_SEAT_MAP = Object.freeze({});
 
   function parseMajorPartyContested(entry) {
     const raw = entry?.major_party_contested;
@@ -62,9 +41,7 @@
     const contestType = String(entry.contest_type || '').trim();
     const rows = Number(entry.rows || entry.districts || 0) || 0;
     if (!contestType || rows <= 0) return false;
-    const isJudicial = contestType.startsWith('nc_supreme_court_') ||
-      contestType.startsWith('nc_court_of_appeals_') ||
-      contestType.startsWith('supreme_court_') ||
+    const isJudicial = contestType.startsWith('supreme_court_') ||
       contestType.startsWith('court_of_criminal_appeals_');
     if (isJudicial && !parseMajorPartyContested(entry)) return false;
     if (COUNCIL_OF_STATE_CONTEST_TYPES.has(contestType) && !parseMajorPartyContested(entry)) {
@@ -80,21 +57,12 @@
   function getJudicialSeatFamilyKey(contestType, year = NaN) {
     const value = String(contestType || '').trim();
     if (!value) return null;
-    let match = /^nc_supreme_court_associate_justice_seat_0*(\d+)$/i.exec(value);
+    let match = /^supreme_court_place_0*(\d+)(?:_unexpired)?$/i.exec(value);
     if (match) return `sc:${Number(match[1])}`;
-    match = /^nc_supreme_court_chief_justice_seat_0*(\d+)$/i.exec(value);
-    if (match) return `cj:${Number(match[1])}`;
-    match = /^nc_court_of_appeals_judge_seat_0*(\d+)$/i.exec(value);
-    if (match) return `coa:${Number(match[1])}`;
-    if (value === 'nc_court_of_appeals_judge_hunter_seat') {
-      return Number(year) === 2016 ? 'coa:13' : 'coa:8';
-    }
-    if (value === 'nc_supreme_court_chief_justice_parker_seat') return 'cj:1';
-    const namedSeat = NAMED_JUDICIAL_SEAT_MAP[value];
-    if (!namedSeat) return null;
-    if (value.startsWith('nc_supreme_court_chief_justice_')) return `cj:${Number(namedSeat)}`;
-    if (value.startsWith('nc_supreme_court_associate_justice_')) return `sc:${Number(namedSeat)}`;
-    if (value.startsWith('nc_court_of_appeals_judge_')) return `coa:${Number(namedSeat)}`;
+    if (/^supreme_court_chief_justice(?:_unexpired)?$/i.test(value)) return 'sc:chief';
+    match = /^court_of_criminal_appeals_place_0*(\d+)$/i.exec(value);
+    if (match) return `cca:${Number(match[1])}`;
+    if (value === 'court_of_criminal_appeals_presiding_judge') return 'cca:presiding';
     return null;
   }
 
