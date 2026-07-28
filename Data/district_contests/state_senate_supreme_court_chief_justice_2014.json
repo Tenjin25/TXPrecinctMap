@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_chief_justice",
+    "year": 2014,
+    "lines_year": 2022,
+    "method": "tlc_returns_vtd_to_2020_tabblocks_to_district_population_weighted",
+    "crosswalk_file": "state_senate_2022.csv",
+    "weight_basis": "2020 census block population; zero-pop blocks receive weight 1",
+    "candidate_source": "Texas Secretary of State canonical candidate names",
+    "match_coverage_pct": 100.0,
+    "matched_total_votes": 4618779,
+    "total_votes": 4618779,
+    "districts": 31,
+    "generated_at": "2026-07-28T18:05:56.683815+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 44884,
+        "rep_votes": 142395,
+        "other_votes": 4833,
+        "total_votes": 192112,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 97511,
+        "margin_pct": 50.75737070042475,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 48184,
+        "rep_votes": 108325,
+        "other_votes": 4405,
+        "total_votes": 160914,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 60141,
+        "margin_pct": 37.37462246914501,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 51176,
+        "rep_votes": 131539,
+        "other_votes": 5123,
+        "total_votes": 187838,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 80363,
+        "margin_pct": 42.7831429210277,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 38987,
+        "rep_votes": 122628,
+        "other_votes": 4311,
+        "total_votes": 165926,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 83641,
+        "margin_pct": 50.40861588901077,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 46167,
+        "rep_votes": 100771,
+        "other_votes": 6048,
+        "total_votes": 152986,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 54604,
+        "margin_pct": 35.692154837697565,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 48606,
+        "rep_votes": 28164,
+        "other_votes": 1698,
+        "total_votes": 78468,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -20442,
+        "margin_pct": -26.051384003670286,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 39352,
+        "rep_votes": 116915,
+        "other_votes": 3713,
+        "total_votes": 159980,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 77563,
+        "margin_pct": 48.48293536692086,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 44030,
+        "rep_votes": 110507,
+        "other_votes": 5118,
+        "total_votes": 159655,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 66477,
+        "margin_pct": 41.63790673640037,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 50388,
+        "rep_votes": 106262,
+        "other_votes": 5646,
+        "total_votes": 162296,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 55874,
+        "margin_pct": 34.42721940158722,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 63758,
+        "rep_votes": 107015,
+        "other_votes": 4917,
+        "total_votes": 175690,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 43257,
+        "margin_pct": 24.6212078092094,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 50754,
+        "rep_votes": 106033,
+        "other_votes": 4402,
+        "total_votes": 161189,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 55279,
+        "margin_pct": 34.294523819863635,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 50844,
+        "rep_votes": 133110,
+        "other_votes": 5772,
+        "total_votes": 189726,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 82266,
+        "margin_pct": 43.3604250339964,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 97696,
+        "rep_votes": 26767,
+        "other_votes": 1873,
+        "total_votes": 126336,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -70929,
+        "margin_pct": -56.143142097264445,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 129156,
+        "rep_votes": 67779,
+        "other_votes": 11399,
+        "total_votes": 208334,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -61377,
+        "margin_pct": -29.46086572522968,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 76454,
+        "rep_votes": 65231,
+        "other_votes": 3664,
+        "total_votes": 145349,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -11223,
+        "margin_pct": -7.721415352014806,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 56900,
+        "rep_votes": 58502,
+        "other_votes": 3379,
+        "total_votes": 118781,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 1602,
+        "margin_pct": 1.348700549751223,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 44463,
+        "rep_votes": 123690,
+        "other_votes": 4135,
+        "total_votes": 172288,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 79227,
+        "margin_pct": 45.98521080980684,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 45442,
+        "rep_votes": 104130,
+        "other_votes": 3602,
+        "total_votes": 153174,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 58688,
+        "margin_pct": 38.31459647198611,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 53933,
+        "rep_votes": 49926,
+        "other_votes": 3186,
+        "total_votes": 107045,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -4007,
+        "margin_pct": -3.7432855341211644,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 55728,
+        "rep_votes": 42679,
+        "other_votes": 3214,
+        "total_votes": 101621,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -13049,
+        "margin_pct": -12.84084982434733,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 62551,
+        "rep_votes": 42563,
+        "other_votes": 5054,
+        "total_votes": 110168,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -19988,
+        "margin_pct": -18.143199477162153,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 49413,
+        "rep_votes": 109523,
+        "other_votes": 4755,
+        "total_votes": 163691,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 60110,
+        "margin_pct": 36.721627945336024,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 106871,
+        "rep_votes": 36283,
+        "other_votes": 2914,
+        "total_votes": 146068,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -70588,
+        "margin_pct": -48.325437467480896,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 45012,
+        "rep_votes": 107697,
+        "other_votes": 6466,
+        "total_votes": 159175,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 62685,
+        "margin_pct": 39.38118423119209,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 53626,
+        "rep_votes": 143537,
+        "other_votes": 7227,
+        "total_votes": 204390,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 89911,
+        "margin_pct": 43.98992122902295,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 70692,
+        "rep_votes": 56061,
+        "other_votes": 4095,
+        "total_votes": 130848,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -14631,
+        "margin_pct": -11.181676449009538,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 54945,
+        "rep_votes": 41908,
+        "other_votes": 3155,
+        "total_votes": 100008,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -13037,
+        "margin_pct": -13.035957123430125,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 28187,
+        "rep_votes": 118562,
+        "other_votes": 4765,
+        "total_votes": 151514,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 90375,
+        "margin_pct": 59.64795332444527,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 54153,
+        "rep_votes": 31153,
+        "other_votes": 3017,
+        "total_votes": 88323,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -23000,
+        "margin_pct": -26.040782129230212,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 39126,
+        "rep_votes": 109870,
+        "other_votes": 5498,
+        "total_votes": 154494,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 70744,
+        "margin_pct": 45.79077504628011,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 19035,
+        "rep_votes": 107420,
+        "other_votes": 3937,
+        "total_votes": 130392,
+        "dem_candidate": "William Moody",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 88385,
+        "margin_pct": 67.78406650714768,
+        "winner": "REP"
+      }
+    }
+  }
+}

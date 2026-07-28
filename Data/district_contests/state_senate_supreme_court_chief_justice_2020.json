@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "supreme_court_chief_justice",
+    "year": 2020,
+    "lines_year": 2022,
+    "method": "tlc_returns_vtd_to_2020_tabblocks_to_district_population_weighted",
+    "crosswalk_file": "state_senate_2022.csv",
+    "weight_basis": "2020 census block population; zero-pop blocks receive weight 1",
+    "candidate_source": "Texas Secretary of State canonical candidate names",
+    "match_coverage_pct": 100.0,
+    "matched_total_votes": 10995336,
+    "total_votes": 10995336,
+    "districts": 31,
+    "generated_at": "2026-07-28T18:06:38.415123+00:00"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 94970,
+        "rep_votes": 286595,
+        "other_votes": 7249,
+        "total_votes": 388814,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 191625,
+        "margin_pct": 49.284490784796844,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 149997,
+        "rep_votes": 223642,
+        "other_votes": 8605,
+        "total_votes": 382244,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 73645,
+        "margin_pct": 19.266489467460573,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 98965,
+        "rep_votes": 278659,
+        "other_votes": 6938,
+        "total_votes": 384562,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 179694,
+        "margin_pct": 46.72692569728678,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 125365,
+        "rep_votes": 258871,
+        "other_votes": 8950,
+        "total_votes": 393186,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 133506,
+        "margin_pct": 33.95492209793838,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 141846,
+        "rep_votes": 223073,
+        "other_votes": 11147,
+        "total_votes": 376066,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 81227,
+        "margin_pct": 21.599134194529686,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 139261,
+        "rep_votes": 66833,
+        "other_votes": 5655,
+        "total_votes": 211749,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -72428,
+        "margin_pct": -34.2046479558345,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 152902,
+        "rep_votes": 236904,
+        "other_votes": 9320,
+        "total_votes": 399126,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 84002,
+        "margin_pct": 21.04648657316236,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 169131,
+        "rep_votes": 248710,
+        "other_votes": 10036,
+        "total_votes": 427877,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 79579,
+        "margin_pct": 18.598569214984682,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 152280,
+        "rep_votes": 218906,
+        "other_votes": 10730,
+        "total_votes": 381916,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 66626,
+        "margin_pct": 17.44519737324438,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 145555,
+        "rep_votes": 213903,
+        "other_votes": 8649,
+        "total_votes": 368107,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 68348,
+        "margin_pct": 18.567427405618474,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 148715,
+        "rep_votes": 226702,
+        "other_votes": 9785,
+        "total_votes": 385202,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 77987,
+        "margin_pct": 20.24574119552858,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 176627,
+        "rep_votes": 264000,
+        "other_votes": 10497,
+        "total_votes": 451124,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 87373,
+        "margin_pct": 19.367845647759818,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 215283,
+        "rep_votes": 58953,
+        "other_votes": 5893,
+        "total_votes": 280129,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -156330,
+        "margin_pct": -55.80643203666882,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 318231,
+        "rep_votes": 116059,
+        "other_votes": 14020,
+        "total_votes": 448310,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -202172,
+        "margin_pct": -45.0964734224086,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 210436,
+        "rep_votes": 128296,
+        "other_votes": 7978,
+        "total_votes": 346710,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -82140,
+        "margin_pct": -23.6912693605607,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 175472,
+        "rep_votes": 105977,
+        "other_votes": 7568,
+        "total_votes": 289017,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -69495,
+        "margin_pct": -24.04529837345208,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 141954,
+        "rep_votes": 231749,
+        "other_votes": 7733,
+        "total_votes": 381436,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 89795,
+        "margin_pct": 23.541301817342884,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 144773,
+        "rep_votes": 226861,
+        "other_votes": 7297,
+        "total_votes": 378931,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 82088,
+        "margin_pct": 21.663046834384097,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 166830,
+        "rep_votes": 126148,
+        "other_votes": 8851,
+        "total_votes": 301829,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -40682,
+        "margin_pct": -13.478492788963287,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 140197,
+        "rep_votes": 105948,
+        "other_votes": 6581,
+        "total_votes": 252726,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -34249,
+        "margin_pct": -13.551830836558171,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 167478,
+        "rep_votes": 109257,
+        "other_votes": 9402,
+        "total_votes": 286137,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -58221,
+        "margin_pct": -20.347246249174347,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 138325,
+        "rep_votes": 229887,
+        "other_votes": 8891,
+        "total_votes": 377103,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 91562,
+        "margin_pct": 24.280369023847594,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 255981,
+        "rep_votes": 73976,
+        "other_votes": 7906,
+        "total_votes": 337863,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -182005,
+        "margin_pct": -53.86946780203811,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 144860,
+        "rep_votes": 230165,
+        "other_votes": 10975,
+        "total_votes": 386000,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 85305,
+        "margin_pct": 22.099740932642487,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 179282,
+        "rep_votes": 294509,
+        "other_votes": 12575,
+        "total_votes": 486366,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 115227,
+        "margin_pct": 23.691417574419265,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 199656,
+        "rep_votes": 105990,
+        "other_votes": 9910,
+        "total_votes": 315556,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -93666,
+        "margin_pct": -29.682845517118988,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 132026,
+        "rep_votes": 107514,
+        "other_votes": 6943,
+        "total_votes": 246483,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -24512,
+        "margin_pct": -9.944702068702508,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 84713,
+        "rep_votes": 248912,
+        "other_votes": 8428,
+        "total_votes": 342053,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 164199,
+        "margin_pct": 48.00396429793044,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 173915,
+        "rep_votes": 88468,
+        "other_votes": 11816,
+        "total_votes": 274199,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": -85447,
+        "margin_pct": -31.162403947497985,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 146988,
+        "rep_votes": 258044,
+        "other_votes": 10004,
+        "total_votes": 415036,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 111056,
+        "margin_pct": 26.7581607378637,
+        "winner": "REP"
+      },
+      "31": {
+        "dem_votes": 60117,
+        "rep_votes": 232262,
+        "other_votes": 7100,
+        "total_votes": 299479,
+        "dem_candidate": "Amy Clark Meachum",
+        "rep_candidate": "Nathan Hecht",
+        "margin": 172145,
+        "margin_pct": 57.48149285926559,
+        "winner": "REP"
+      }
+    }
+  }
+}
