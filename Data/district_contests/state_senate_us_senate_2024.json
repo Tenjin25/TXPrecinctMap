@@ -14,7 +14,8 @@
     "total_precinct_rows": 8734,
     "matched_total_votes": 8587638,
     "total_votes": 10698261,
-    "generated_at": "2026-03-03T22:22:56.787875+00:00"
+    "generated_at": "2026-03-03T22:22:56.787875+00:00",
+    "candidate_source": "Data/contests/us_senate_2024.json"
   },
   "general": {
     "results": {
@@ -78,8 +79,8 @@
         "rep_votes": 61103,
         "other_votes": 8458,
         "total_votes": 171483,
-        "dem_candidate": "COLIN ALLRED",
-        "rep_candidate": "TED CRUZ",
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
         "margin": -40819,
         "margin_pct": -23.803525713919164,
         "winner": "DEM"
@@ -89,8 +90,8 @@
         "rep_votes": 196306,
         "other_votes": 13320,
         "total_votes": 372907,
-        "dem_candidate": "COLIN ALLRED",
-        "rep_candidate": "TED CRUZ",
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
         "margin": 33025,
         "margin_pct": 8.856095487614875,
         "winner": "REP"
@@ -134,7 +135,7 @@
         "other_votes": 7187,
         "total_votes": 206076,
         "dem_candidate": "Colin Allred",
-        "rep_candidate": "TED CRUZ",
+        "rep_candidate": "Ted Cruz",
         "margin": 24681,
         "margin_pct": 11.976743877869476,
         "winner": "REP"
@@ -155,8 +156,8 @@
         "rep_votes": 44157,
         "other_votes": 8785,
         "total_votes": 218219,
-        "dem_candidate": "COLIN ALLRED",
-        "rep_candidate": "TED CRUZ",
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
         "margin": -121120,
         "margin_pct": -55.50387454804577,
         "winner": "DEM"
@@ -177,8 +178,8 @@
         "rep_votes": 94403,
         "other_votes": 10288,
         "total_votes": 280363,
-        "dem_candidate": "COLIN ALLRED",
-        "rep_candidate": "TED CRUZ",
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
         "margin": -81269,
         "margin_pct": -28.9870632002083,
         "winner": "DEM"
@@ -199,8 +200,8 @@
         "rep_votes": 118970,
         "other_votes": 8600,
         "total_votes": 253827,
-        "dem_candidate": "COLIN ALLRED",
-        "rep_candidate": "TED CRUZ",
+        "dem_candidate": "Colin Allred",
+        "rep_candidate": "Ted Cruz",
         "margin": -7287,
         "margin_pct": -2.8709540572349512,
         "winner": "DEM"
@@ -320,7 +321,7 @@
         "rep_votes": 192608,
         "other_votes": 7806,
         "total_votes": 266632,
-        "dem_candidate": "Collin Allred",
+        "dem_candidate": "Colin Allred",
         "rep_candidate": "Ted Cruz",
         "margin": 126390,
         "margin_pct": 47.40240516890921,

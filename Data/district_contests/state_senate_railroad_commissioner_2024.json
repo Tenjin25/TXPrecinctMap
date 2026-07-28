@@ -14,7 +14,8 @@
     "total_precinct_rows": 8817,
     "matched_total_votes": 8763223,
     "total_votes": 10958607,
-    "generated_at": "2026-03-03T22:22:55.229756+00:00"
+    "generated_at": "2026-03-03T22:22:55.229756+00:00",
+    "candidate_source": "Data/contests/railroad_commissioner_2024.json"
   },
   "general": {
     "results": {
@@ -78,8 +79,8 @@
         "rep_votes": 64079,
         "other_votes": 20467,
         "total_votes": 171529,
-        "dem_candidate": "KATHERINE CULBERT",
-        "rep_candidate": "CHRISTI CRADDICK",
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
         "margin": -22904,
         "margin_pct": -13.352844125483154,
         "winner": "DEM"
@@ -89,8 +90,8 @@
         "rep_votes": 206213,
         "other_votes": 29963,
         "total_votes": 373004,
-        "dem_candidate": "KATHERINE CULBERT",
-        "rep_candidate": "CHRISTI CRADDICK",
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
         "margin": 69385,
         "margin_pct": 18.601677193810254,
         "winner": "REP"
@@ -155,8 +156,8 @@
         "rep_votes": 45868,
         "other_votes": 21147,
         "total_votes": 217543,
-        "dem_candidate": "KATHERINE CULBERT",
-        "rep_candidate": "CHRISTI CRADDICK",
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
         "margin": -104660,
         "margin_pct": -48.110028821888086,
         "winner": "DEM"
@@ -177,8 +178,8 @@
         "rep_votes": 101803,
         "other_votes": 26904,
         "total_votes": 280445,
-        "dem_candidate": "KATHERINE CULBERT",
-        "rep_candidate": "CHRISTI CRADDICK",
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
         "margin": -49935,
         "margin_pct": -17.80563033749933,
         "winner": "DEM"
@@ -199,8 +200,8 @@
         "rep_votes": 126657,
         "other_votes": 20174,
         "total_votes": 253667,
-        "dem_candidate": "KATHERINE CULBERT",
-        "rep_candidate": "CHRISTI CRADDICK",
+        "dem_candidate": "Katherine Culbert",
+        "rep_candidate": "Christi Craddick",
         "margin": 19821,
         "margin_pct": 7.813695252444945,
         "winner": "REP"

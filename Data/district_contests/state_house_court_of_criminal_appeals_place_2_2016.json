@@ -10,7 +10,23 @@
     "total_precinct_rows": 8589,
     "matched_total_votes": 8713254,
     "total_votes": 8730030,
-    "generated_at": "2026-03-04T02:00:13.494834+00:00"
+    "generated_at": "2026-03-04T02:00:13.494834+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_2_2016.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:06.530974+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 15893,
-        "rep_votes": 48189,
-        "other_votes": 3091,
-        "total_votes": 67173,
+        "dem_votes": 14946,
+        "rep_votes": 44552,
+        "other_votes": 2937,
+        "total_votes": 62435,
         "dem_candidate": "Lawrence \"Larry\" Meyers",
         "rep_candidate": "Mary Lou Keel",
-        "margin": 32296,
-        "margin_pct": 48.078841201077815,
+        "margin": 29606,
+        "margin_pct": 47.41891567229919,
         "winner": "REP"
       },
       "11": {

@@ -14,7 +14,8 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 7116,
     "total_votes": 7952,
-    "generated_at": "2026-03-03T22:22:27.565825+00:00"
+    "generated_at": "2026-03-03T22:22:27.565825+00:00",
+    "candidate_source": "Data/contests/railroad_commissioner_2010.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 1915,
         "other_votes": 226,
         "total_votes": 3250,
-        "dem_candidate": "JEFF WEEMS",
-        "rep_candidate": "DAVID PORTER",
+        "dem_candidate": "Jeff Weems",
+        "rep_candidate": "David Porter",
         "margin": 806,
         "margin_pct": 24.8,
         "winner": "REP"
@@ -34,8 +35,8 @@
         "rep_votes": 1793,
         "other_votes": 263,
         "total_votes": 3866,
-        "dem_candidate": "JEFF WEEMS",
-        "rep_candidate": "DAVID PORTER",
+        "dem_candidate": "Jeff Weems",
+        "rep_candidate": "David Porter",
         "margin": -17,
         "margin_pct": -0.43973098810139677,
         "winner": "DEM"

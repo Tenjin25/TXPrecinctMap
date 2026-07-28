@@ -14,7 +14,8 @@
     "total_precinct_rows": 5947,
     "matched_total_votes": 4029946,
     "total_votes": 4830536,
-    "generated_at": "2026-03-03T22:22:50.996201+00:00"
+    "generated_at": "2026-03-03T22:22:50.996201+00:00",
+    "candidate_source": "Data/contests/governor_2022.json"
   },
   "general": {
     "results": {

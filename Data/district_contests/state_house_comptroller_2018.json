@@ -10,7 +10,23 @@
     "total_precinct_rows": 8667,
     "matched_total_votes": 8215680,
     "total_votes": 8228563,
-    "generated_at": "2026-03-04T02:00:23.637605+00:00"
+    "generated_at": "2026-03-04T02:00:23.637605+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "comptroller_2018.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:06.814685+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 16900,
-        "rep_votes": 44441,
-        "other_votes": 2231,
-        "total_votes": 63572,
+        "dem_votes": 16114,
+        "rep_votes": 41213,
+        "other_votes": 2142,
+        "total_votes": 59469,
         "dem_candidate": "Joi Chevalier",
         "rep_candidate": "Glenn Hegar",
-        "margin": 27541,
-        "margin_pct": 43.32253193229724,
+        "margin": 25099,
+        "margin_pct": 42.20518253207553,
         "winner": "REP"
       },
       "11": {

@@ -14,7 +14,24 @@
     "total_precinct_rows": 5948,
     "matched_total_votes": 4002190,
     "total_votes": 4796504,
-    "generated_at": "2026-03-03T22:22:51.272034+00:00"
+    "generated_at": "2026-03-03T22:22:51.272034+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "land_commissioner_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 104,
+    "candidate_source": "Data/contests/land_commissioner_2022.json"
   },
   "general": {
     "results": {
@@ -78,8 +95,8 @@
         "rep_votes": 23660,
         "other_votes": 508,
         "total_votes": 32894,
-        "dem_candidate": "JAY KLEBERG",
-        "rep_candidate": "DAWN BUCKINGHAM",
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
         "margin": 14934,
         "margin_pct": 45.40037696844409,
         "winner": "REP"
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 754,
-        "rep_votes": 3699,
-        "other_votes": 147,
-        "total_votes": 4600,
+        "dem_votes": 19762,
+        "rep_votes": 45662,
+        "other_votes": 785,
+        "total_votes": 66209,
         "dem_candidate": "Jay Kleberg",
         "rep_candidate": "Dawn Buckingham",
-        "margin": 2945,
-        "margin_pct": 64.02173913043478,
+        "margin": 25900,
+        "margin_pct": 39.1185488377713,
         "winner": "REP"
       },
       "11": {
@@ -507,8 +524,8 @@
         "rep_votes": 9221,
         "other_votes": 94,
         "total_votes": 11030,
-        "dem_candidate": "JAY KLEBERG",
-        "rep_candidate": "DAWN BUCKINGHAM",
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
         "margin": 7506,
         "margin_pct": 68.05077062556664,
         "winner": "REP"
@@ -705,8 +722,8 @@
         "rep_votes": 0,
         "other_votes": 37309,
         "total_votes": 37309,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Jay Kleberg",
+        "rep_candidate": "Dawn Buckingham",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

@@ -14,7 +14,8 @@
     "total_precinct_rows": 5109,
     "matched_total_votes": 3453438,
     "total_votes": 4152418,
-    "generated_at": "2026-03-03T22:22:50.614031+00:00"
+    "generated_at": "2026-03-03T22:22:50.614031+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_6_2022.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 27599,
         "other_votes": 0,
         "total_votes": 37025,
-        "dem_candidate": "ROBERT JOHNSON",
-        "rep_candidate": "JESSE F. MCCLURE, III",
+        "dem_candidate": "Robert Johnson",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 18173,
         "margin_pct": 49.083051991897364,
         "winner": "REP"

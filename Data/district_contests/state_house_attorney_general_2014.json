@@ -14,7 +14,24 @@
     "total_precinct_rows": 7845,
     "matched_total_votes": 4673157,
     "total_votes": 4837105,
-    "generated_at": "2026-03-03T22:22:30.470852+00:00"
+    "generated_at": "2026-03-03T22:22:30.470852+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "attorney_general_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 146,
+    "candidate_source": "Data/contests/attorney_general_2014.json"
   },
   "general": {
     "results": {
@@ -118,14 +135,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 8215,
-        "rep_votes": 25432,
-        "other_votes": 1395,
-        "total_votes": 35042,
+        "dem_votes": 7598,
+        "rep_votes": 23439,
+        "other_votes": 1286,
+        "total_votes": 32323,
         "dem_candidate": "Sam Houston",
         "rep_candidate": "Ken Paxton",
-        "margin": 17217,
-        "margin_pct": 49.13246960789909,
+        "margin": 15841,
+        "margin_pct": 49.008445998205616,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 13755,
         "total_votes": 20585,
         "dem_candidate": "Sam Houston",
-        "rep_candidate": "",
+        "rep_candidate": "Ken Paxton",
         "margin": -6830,
         "margin_pct": -33.17941606817269,
         "winner": "DEM"
@@ -254,8 +271,8 @@
         "rep_votes": 0,
         "other_votes": 36820,
         "total_votes": 36820,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -562,7 +579,7 @@
         "rep_votes": 36928,
         "other_votes": 1880,
         "total_votes": 48352,
-        "dem_candidate": "SAM HOUSTON",
+        "dem_candidate": "Sam Houston",
         "rep_candidate": "Ken Paxton",
         "margin": 27384,
         "margin_pct": 56.63467902051621,
@@ -639,8 +656,8 @@
         "rep_votes": 10171,
         "other_votes": 573,
         "total_votes": 12764,
-        "dem_candidate": "SAM HOUSTON",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": 8151,
         "margin_pct": 63.85929175806957,
         "winner": "REP"
@@ -661,8 +678,8 @@
         "rep_votes": 0,
         "other_votes": 40196,
         "total_votes": 40196,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -672,8 +689,8 @@
         "rep_votes": 0,
         "other_votes": 37684,
         "total_votes": 37684,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -683,8 +700,8 @@
         "rep_votes": 0,
         "other_votes": 29593,
         "total_votes": 29593,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -782,7 +799,7 @@
         "rep_votes": 6228,
         "other_votes": 575,
         "total_votes": 13004,
-        "dem_candidate": "San Houston",
+        "dem_candidate": "Sam Houston",
         "rep_candidate": "Ken Paxton",
         "margin": 27,
         "margin_pct": 0.2076284220239926,
@@ -793,8 +810,8 @@
         "rep_votes": 3057,
         "other_votes": 596,
         "total_votes": 10625,
-        "dem_candidate": "SAM HOUSTON",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": -3915,
         "margin_pct": -36.84705882352941,
         "winner": "DEM"
@@ -804,8 +821,8 @@
         "rep_votes": 2827,
         "other_votes": 644,
         "total_votes": 12598,
-        "dem_candidate": "SAM HOUSTON",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": -6300,
         "margin_pct": -50.01012945177353,
         "winner": "DEM"
@@ -815,8 +832,8 @@
         "rep_votes": 6680,
         "other_votes": 929,
         "total_votes": 17206,
-        "dem_candidate": "SAM HOUSTON",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": -2917,
         "margin_pct": -16.952395989283602,
         "winner": "DEM"
@@ -826,8 +843,8 @@
         "rep_votes": 10492,
         "other_votes": 1105,
         "total_votes": 23254,
-        "dem_candidate": "SAM HOUSTON",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": -1165,
         "margin_pct": -5.009890771480176,
         "winner": "DEM"
@@ -837,8 +854,8 @@
         "rep_votes": 5289,
         "other_votes": 703,
         "total_votes": 14095,
-        "dem_candidate": "SAM HOUSTON",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": -2814,
         "margin_pct": -19.96452642781128,
         "winner": "DEM"
@@ -1134,8 +1151,8 @@
         "rep_votes": 0,
         "other_votes": 35206,
         "total_votes": 35206,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

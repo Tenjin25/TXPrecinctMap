@@ -10,7 +10,23 @@
     "total_precinct_rows": 8589,
     "matched_total_votes": 8750330,
     "total_votes": 8767168,
-    "generated_at": "2026-03-04T02:00:18.861700+00:00"
+    "generated_at": "2026-03-04T02:00:18.861700+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_3_2016.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:06.530974+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 15363,
-        "rep_votes": 48209,
-        "other_votes": 3805,
-        "total_votes": 67377,
+        "dem_votes": 14443,
+        "rep_votes": 44551,
+        "other_votes": 3630,
+        "total_votes": 62624,
         "dem_candidate": "Mike Westergren",
         "rep_candidate": "Debra Lehrmann",
-        "margin": 32846,
-        "margin_pct": 48.749573296525526,
+        "margin": 30108,
+        "margin_pct": 48.077414409810935,
         "winner": "REP"
       },
       "11": {

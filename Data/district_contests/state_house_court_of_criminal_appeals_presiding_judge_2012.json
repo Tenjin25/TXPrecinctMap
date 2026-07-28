@@ -14,7 +14,24 @@
     "total_precinct_rows": 2895,
     "matched_total_votes": 2714443,
     "total_votes": 3013264,
-    "generated_at": "2026-03-03T22:22:28.207338+00:00"
+    "generated_at": "2026-03-03T22:22:28.207338+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_presiding_judge_2012.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.552014+00:00"
+      }
+    ],
+    "districts": 72,
+    "candidate_source": "Data/contests/court_of_criminal_appeals_presiding_judge_2012.json"
   },
   "general": {
     "results": {
@@ -63,14 +80,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 1198,
-        "rep_votes": 3268,
-        "other_votes": 162,
-        "total_votes": 4628,
+        "dem_votes": 13540,
+        "rep_votes": 36825,
+        "other_votes": 1855,
+        "total_votes": 52220,
         "dem_candidate": "Keith Hampton",
         "rep_candidate": "Sharon Keller",
-        "margin": 2070,
-        "margin_pct": 44.72774416594641,
+        "margin": 23285,
+        "margin_pct": 44.59019532746074,
         "winner": "REP"
       },
       "11": {
@@ -144,8 +161,8 @@
         "rep_votes": 0,
         "other_votes": 10226,
         "total_votes": 10226,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -155,8 +172,8 @@
         "rep_votes": 0,
         "other_votes": 35251,
         "total_votes": 35251,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -353,8 +370,8 @@
         "rep_votes": 30783,
         "other_votes": 1179,
         "total_votes": 37755,
-        "dem_candidate": "KEITH HAMPTON",
-        "rep_candidate": "SHARON KELLER",
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
         "margin": 24990,
         "margin_pct": 66.18990862137466,
         "winner": "REP"
@@ -364,8 +381,8 @@
         "rep_votes": 7922,
         "other_votes": 365,
         "total_votes": 11029,
-        "dem_candidate": "KEITH HAMPTON",
-        "rep_candidate": "SHARON KELLER",
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
         "margin": 5180,
         "margin_pct": 46.96708677123946,
         "winner": "REP"
@@ -452,8 +469,8 @@
         "rep_votes": 0,
         "other_votes": 3567,
         "total_votes": 3567,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Keith Hampton",
+        "rep_candidate": "Sharon Keller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

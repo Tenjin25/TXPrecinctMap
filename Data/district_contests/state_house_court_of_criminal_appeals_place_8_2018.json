@@ -10,7 +10,23 @@
     "total_precinct_rows": 8651,
     "matched_total_votes": 6377059,
     "total_votes": 6387920,
-    "generated_at": "2026-03-04T02:00:25.539284+00:00"
+    "generated_at": "2026-03-04T02:00:25.539284+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_8_2018.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:06.814685+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -115,13 +131,13 @@
       },
       "10": {
         "dem_votes": 0,
-        "rep_votes": 46534,
-        "other_votes": 9490,
-        "total_votes": 56024,
+        "rep_votes": 43223,
+        "other_votes": 9200,
+        "total_votes": 52423,
         "dem_candidate": "Mark Ash",
         "rep_candidate": "Michelle Slaughter",
-        "margin": 46534,
-        "margin_pct": 83.06083107239755,
+        "margin": 43223,
+        "margin_pct": 82.45045113785933,
         "winner": "REP"
       },
       "11": {

@@ -14,7 +14,24 @@
     "total_precinct_rows": 4310,
     "matched_total_votes": 6720245,
     "total_votes": 7508572,
-    "generated_at": "2026-03-03T22:22:28.777212+00:00"
+    "generated_at": "2026-03-03T22:22:28.777212+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "railroad_commissioner_2012.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.552014+00:00"
+      }
+    ],
+    "districts": 90,
+    "candidate_source": "Data/contests/railroad_commissioner_2012.json"
   },
   "general": {
     "results": {
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 14437,
-        "rep_votes": 82734,
-        "other_votes": 20649,
-        "total_votes": 117820,
+        "dem_votes": 13275,
+        "rep_votes": 75400,
+        "other_votes": 9773,
+        "total_votes": 98448,
         "dem_candidate": "Dale Henry",
         "rep_candidate": "Barry Smitherman",
-        "margin": 68297,
-        "margin_pct": 57.967238159904944,
+        "margin": 62125,
+        "margin_pct": 63.10437997724687,
         "winner": "REP"
       },
       "11": {
@@ -166,7 +183,7 @@
         "rep_votes": 27352,
         "other_votes": 5510,
         "total_votes": 40844,
-        "dem_candidate": "DALE HENRY",
+        "dem_candidate": "Dale Henry",
         "rep_candidate": "Barry Smitherman",
         "margin": 19370,
         "margin_pct": 47.4243462932132,
@@ -210,8 +227,8 @@
         "rep_votes": 0,
         "other_votes": 13082,
         "total_votes": 13082,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -221,8 +238,8 @@
         "rep_votes": 0,
         "other_votes": 42182,
         "total_votes": 42182,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -420,7 +437,7 @@
         "other_votes": 4515,
         "total_votes": 64530,
         "dem_candidate": "Dale Henry",
-        "rep_candidate": "Christi Craddick",
+        "rep_candidate": "Barry Smitherman",
         "margin": 12329,
         "margin_pct": 19.105842243917557,
         "winner": "REP"
@@ -485,8 +502,8 @@
         "rep_votes": 7387,
         "other_votes": 751,
         "total_votes": 9102,
-        "dem_candidate": "Henry",
-        "rep_candidate": "Smitherman",
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
         "margin": 6423,
         "margin_pct": 70.56690837178643,
         "winner": "REP"
@@ -518,8 +535,8 @@
         "rep_votes": 64672,
         "other_votes": 5166,
         "total_votes": 75510,
-        "dem_candidate": "DALE HENRY",
-        "rep_candidate": "BARRY SMITHERMAN",
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
         "margin": 59000,
         "margin_pct": 78.13534631174679,
         "winner": "REP"
@@ -529,8 +546,8 @@
         "rep_votes": 17644,
         "other_votes": 1742,
         "total_votes": 22052,
-        "dem_candidate": "DALE HENRY",
-        "rep_candidate": "BARRY SMITHERMAN",
+        "dem_candidate": "Dale Henry",
+        "rep_candidate": "Barry Smitherman",
         "margin": 14978,
         "margin_pct": 67.92127698167967,
         "winner": "REP"

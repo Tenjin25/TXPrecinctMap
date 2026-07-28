@@ -14,7 +14,8 @@
     "total_precinct_rows": 2904,
     "matched_total_votes": 2326774,
     "total_votes": 2620837,
-    "generated_at": "2026-03-03T22:22:27.843563+00:00"
+    "generated_at": "2026-03-03T22:22:27.843563+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_7_2012.json"
   },
   "general": {
     "results": {
@@ -101,7 +102,7 @@
         "other_votes": 36780,
         "total_votes": 198917,
         "dem_candidate": "",
-        "rep_candidate": "Barbara Parker Herve",
+        "rep_candidate": "Barbara Parker Hervey",
         "margin": 162137,
         "margin_pct": 81.50988141659602,
         "winner": "REP"
@@ -222,7 +223,7 @@
         "other_votes": 1294,
         "total_votes": 5137,
         "dem_candidate": "",
-        "rep_candidate": "Under Votes",
+        "rep_candidate": "Barbara Parker Hervey",
         "margin": 3843,
         "margin_pct": 74.81020050613199,
         "winner": "REP"
@@ -244,7 +245,7 @@
         "other_votes": 10239,
         "total_votes": 86237,
         "dem_candidate": "",
-        "rep_candidate": "Barbara Parker Herve",
+        "rep_candidate": "Barbara Parker Hervey",
         "margin": 75998,
         "margin_pct": 88.1269026336994,
         "winner": "REP"

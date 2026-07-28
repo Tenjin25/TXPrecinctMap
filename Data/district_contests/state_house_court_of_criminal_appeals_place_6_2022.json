@@ -14,7 +14,24 @@
     "total_precinct_rows": 5109,
     "matched_total_votes": 3453438,
     "total_votes": 4152418,
-    "generated_at": "2026-03-03T22:22:50.505182+00:00"
+    "generated_at": "2026-03-03T22:22:50.505182+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_6_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 97,
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_6_2022.json"
   },
   "general": {
     "results": {
@@ -24,7 +41,7 @@
         "other_votes": 0,
         "total_votes": 4232,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 2686,
         "margin_pct": 63.46880907372401,
         "winner": "REP"
@@ -45,8 +62,8 @@
         "rep_votes": 24140,
         "other_votes": 0,
         "total_votes": 32793,
-        "dem_candidate": "ROBERT JOHNSON",
-        "rep_candidate": "JESSE F. MCCLURE, III",
+        "dem_candidate": "Robert Johnson",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 15487,
         "margin_pct": 47.2265422498704,
         "winner": "REP"
@@ -57,7 +74,7 @@
         "other_votes": 0,
         "total_votes": 4162,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 3362,
         "margin_pct": 80.77847188851514,
         "winner": "REP"
@@ -122,8 +139,8 @@
         "rep_votes": 0,
         "other_votes": 3681,
         "total_votes": 3681,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Robert Johnson",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -134,7 +151,7 @@
         "other_votes": 0,
         "total_votes": 8732,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 5922,
         "margin_pct": 67.81951442968392,
         "winner": "REP"
@@ -233,7 +250,7 @@
         "other_votes": 176,
         "total_votes": 11921,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 6603,
         "margin_pct": 55.38964851941951,
         "winner": "REP"
@@ -365,7 +382,7 @@
         "other_votes": 6200,
         "total_votes": 50361,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 27801,
         "margin_pct": 55.20343122654435,
         "winner": "REP"
@@ -386,8 +403,8 @@
         "rep_votes": 0,
         "other_votes": 2804,
         "total_votes": 2804,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Robert Johnson",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -398,7 +415,7 @@
         "other_votes": 8642,
         "total_votes": 24682,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 7204,
         "margin_pct": 29.187261972287498,
         "winner": "REP"
@@ -409,7 +426,7 @@
         "other_votes": 0,
         "total_votes": 19060,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 14266,
         "margin_pct": 74.84784889821616,
         "winner": "REP"
@@ -419,8 +436,8 @@
         "rep_votes": 9257,
         "other_votes": 0,
         "total_votes": 11013,
-        "dem_candidate": "ROBERT JOHNSON",
-        "rep_candidate": "JESSE F. MCCLURE, III",
+        "dem_candidate": "Robert Johnson",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 7501,
         "margin_pct": 68.1104149641333,
         "winner": "REP"
@@ -464,7 +481,7 @@
         "other_votes": 0,
         "total_votes": 3581,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 3015,
         "margin_pct": 84.19435911756491,
         "winner": "REP"
@@ -574,7 +591,7 @@
         "other_votes": 0,
         "total_votes": 7708,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 1760,
         "margin_pct": 22.83341982355994,
         "winner": "REP"
@@ -596,7 +613,7 @@
         "other_votes": 0,
         "total_votes": 1471,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 1167,
         "margin_pct": 79.33378653976887,
         "winner": "REP"
@@ -607,7 +624,7 @@
         "other_votes": 41577,
         "total_votes": 45603,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 3410,
         "margin_pct": 7.4775268744645125,
         "winner": "REP"
@@ -617,8 +634,8 @@
         "rep_votes": 0,
         "other_votes": 37264,
         "total_votes": 37264,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Robert Johnson",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -662,7 +679,7 @@
         "other_votes": 2755,
         "total_votes": 15487,
         "dem_candidate": "Robert Johnson",
-        "rep_candidate": "Jesse F. McClure III",
+        "rep_candidate": "Jesse F. McClure, III",
         "margin": 9224,
         "margin_pct": 59.5596306579712,
         "winner": "REP"
@@ -1073,6 +1090,17 @@
         "margin": -5478,
         "margin_pct": -14.214172656270271,
         "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 20066,
+        "rep_votes": 45608,
+        "other_votes": 0,
+        "total_votes": 65674,
+        "dem_candidate": "Robert Johnson",
+        "rep_candidate": "Jesse F. McClure, III",
+        "margin": 25542,
+        "margin_pct": 38.89210341992265,
+        "winner": "REP"
       }
     }
   }

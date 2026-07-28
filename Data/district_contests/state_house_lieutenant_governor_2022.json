@@ -14,7 +14,24 @@
     "total_precinct_rows": 5948,
     "matched_total_votes": 4018643,
     "total_votes": 4816457,
-    "generated_at": "2026-03-03T22:22:51.671038+00:00"
+    "generated_at": "2026-03-03T22:22:51.671038+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "lieutenant_governor_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 104,
+    "candidate_source": "Data/contests/lieutenant_governor_2022.json"
   },
   "general": {
     "results": {
@@ -78,8 +95,8 @@
         "rep_votes": 23682,
         "other_votes": 712,
         "total_votes": 33082,
-        "dem_candidate": "MIKE COLLIER",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
         "margin": 14994,
         "margin_pct": 45.32374100719424,
         "winner": "REP"
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 877,
-        "rep_votes": 3589,
-        "other_votes": 134,
-        "total_votes": 4600,
+        "dem_votes": 21236,
+        "rep_votes": 43941,
+        "other_votes": 1875,
+        "total_votes": 67052,
         "dem_candidate": "Mike Collier",
         "rep_candidate": "Dan Patrick",
-        "margin": 2712,
-        "margin_pct": 58.95652173913043,
+        "margin": 22705,
+        "margin_pct": 33.8617789178548,
         "winner": "REP"
       },
       "11": {
@@ -507,8 +524,8 @@
         "rep_votes": 9030,
         "other_votes": 214,
         "total_votes": 11128,
-        "dem_candidate": "MIKE COLLIER",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
         "margin": 7146,
         "margin_pct": 64.21639108554996,
         "winner": "REP"
@@ -705,8 +722,8 @@
         "rep_votes": 0,
         "other_votes": 37856,
         "total_votes": 37856,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Dan Patrick",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

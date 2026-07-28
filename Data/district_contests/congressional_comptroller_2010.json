@@ -14,7 +14,9 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 6063,
     "total_votes": 6792,
-    "generated_at": "2026-03-03T22:22:27.542104+00:00"
+    "generated_at": "2026-03-03T22:22:27.542104+00:00",
+    "candidate_source": "Data/contests/comptroller_2010.json",
+    "candidate_name_format": "natural_case_office_candidate"
   },
   "general": {
     "results": {
@@ -23,8 +25,8 @@
         "rep_votes": 2334,
         "other_votes": 160,
         "total_votes": 2857,
-        "dem_candidate": "MARY J RUWART",
-        "rep_candidate": "SUSAN COMBS",
+        "dem_candidate": "Mary J Ruwart",
+        "rep_candidate": "Susan Combs",
         "margin": 1971,
         "margin_pct": 68.98844942247112,
         "winner": "REP"
@@ -34,8 +36,8 @@
         "rep_votes": 2408,
         "other_votes": 289,
         "total_votes": 3206,
-        "dem_candidate": "MARY J RUWART",
-        "rep_candidate": "SUSAN COMBS",
+        "dem_candidate": "Mary J Ruwart",
+        "rep_candidate": "Susan Combs",
         "margin": 1899,
         "margin_pct": 59.23268870867125,
         "winner": "REP"

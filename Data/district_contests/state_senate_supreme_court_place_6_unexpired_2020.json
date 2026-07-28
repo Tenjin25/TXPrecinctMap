@@ -10,7 +10,8 @@
     "total_precinct_rows": 8747,
     "matched_total_votes": 10983083,
     "total_votes": 10998395,
-    "generated_at": "2026-03-04T02:00:37.138558+00:00"
+    "generated_at": "2026-03-04T02:00:37.138558+00:00",
+    "candidate_source": "Data/contests/supreme_court_place_6_unexpired_2020.json"
   },
   "general": {
     "results": {

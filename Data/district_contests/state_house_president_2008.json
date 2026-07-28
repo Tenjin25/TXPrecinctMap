@@ -14,7 +14,24 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 10478,
     "total_votes": 11711,
-    "generated_at": "2026-03-03T22:22:27.519768+00:00"
+    "generated_at": "2026-03-03T22:22:27.519768+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "president_2008.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.497806+00:00"
+      }
+    ],
+    "districts": 2,
+    "candidate_source": "Data/contests/president_2008.json"
   },
   "general": {
     "results": {
@@ -23,10 +40,21 @@
         "rep_votes": 5486,
         "other_votes": 180,
         "total_votes": 10478,
-        "dem_candidate": "BARACK OBAMA / JOE BIDEN",
-        "rep_candidate": "JOHN MCCAIN / SARAH PALIN",
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
         "margin": 674,
         "margin_pct": 6.432525291086084,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 15333,
+        "rep_votes": 38078,
+        "other_votes": 442,
+        "total_votes": 53853,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "margin": 22745,
+        "margin_pct": 42.235344363359516,
         "winner": "REP"
       }
     }

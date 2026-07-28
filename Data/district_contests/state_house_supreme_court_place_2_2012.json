@@ -14,7 +14,24 @@
     "total_precinct_rows": 3043,
     "matched_total_votes": 2400785,
     "total_votes": 2697788,
-    "generated_at": "2026-03-03T22:22:29.022410+00:00"
+    "generated_at": "2026-03-03T22:22:29.022410+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_2_2012.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.552014+00:00"
+      }
+    ],
+    "districts": 77,
+    "candidate_source": "Data/contests/supreme_court_place_2_2012.json"
   },
   "general": {
     "results": {
@@ -86,13 +103,13 @@
       },
       "10": {
         "dem_votes": 0,
-        "rep_votes": 43798,
-        "other_votes": 15105,
-        "total_votes": 58903,
+        "rep_votes": 39628,
+        "other_votes": 14647,
+        "total_votes": 54275,
         "dem_candidate": "",
         "rep_candidate": "Don Willett",
-        "margin": 43798,
-        "margin_pct": 74.35614484830994,
+        "margin": 39628,
+        "margin_pct": 73.01335789958544,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 28,
         "total_votes": 28,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Don Willett",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -178,7 +195,7 @@
         "other_votes": 44,
         "total_votes": 44,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Don Willett",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -255,7 +272,7 @@
         "other_votes": 1531,
         "total_votes": 5952,
         "dem_candidate": "",
-        "rep_candidate": "Under Votes",
+        "rep_candidate": "Don Willett",
         "margin": 4421,
         "margin_pct": 74.27755376344086,
         "winner": "REP"
@@ -398,7 +415,7 @@
         "other_votes": 2825,
         "total_votes": 37755,
         "dem_candidate": "",
-        "rep_candidate": "DON WILLETT",
+        "rep_candidate": "Don Willett",
         "margin": 34930,
         "margin_pct": 92.51754734472254,
         "winner": "REP"
@@ -409,7 +426,7 @@
         "other_votes": 922,
         "total_votes": 11029,
         "dem_candidate": "",
-        "rep_candidate": "DON WILLETT",
+        "rep_candidate": "Don Willett",
         "margin": 10107,
         "margin_pct": 91.6402212349261,
         "winner": "REP"
@@ -497,7 +514,7 @@
         "other_votes": 1423,
         "total_votes": 1423,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Don Willett",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -508,7 +525,7 @@
         "other_votes": 738,
         "total_votes": 3642,
         "dem_candidate": "",
-        "rep_candidate": "Under Votes",
+        "rep_candidate": "Don Willett",
         "margin": 2904,
         "margin_pct": 79.73640856672158,
         "winner": "REP"
@@ -574,7 +591,7 @@
         "other_votes": 22054,
         "total_votes": 22054,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Don Willett",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

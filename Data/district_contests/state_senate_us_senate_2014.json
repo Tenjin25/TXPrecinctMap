@@ -14,7 +14,8 @@
     "total_precinct_rows": 7544,
     "matched_total_votes": 5005381,
     "total_votes": 5167047,
-    "generated_at": "2026-03-03T22:22:35.997846+00:00"
+    "generated_at": "2026-03-03T22:22:35.997846+00:00",
+    "candidate_source": "Data/contests/us_senate_2014.json"
   },
   "general": {
     "results": {
@@ -331,8 +332,8 @@
         "rep_votes": 216,
         "other_votes": 36,
         "total_votes": 349,
-        "dem_candidate": "DAVID ALAMEEL",
-        "rep_candidate": "JOHN CORNYN",
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
         "margin": 119,
         "margin_pct": 34.097421203438394,
         "winner": "REP"

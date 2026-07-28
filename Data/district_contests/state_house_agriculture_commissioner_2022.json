@@ -14,7 +14,24 @@
     "total_precinct_rows": 5948,
     "matched_total_votes": 4004609,
     "total_votes": 4798821,
-    "generated_at": "2026-03-03T22:22:49.013370+00:00"
+    "generated_at": "2026-03-03T22:22:49.013370+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "agriculture_commissioner_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 104,
+    "candidate_source": "Data/contests/agriculture_commissioner_2022.json"
   },
   "general": {
     "results": {
@@ -78,8 +95,8 @@
         "rep_votes": 24084,
         "other_votes": 0,
         "total_votes": 32929,
-        "dem_candidate": "SUSAN HAYS",
-        "rep_candidate": "SID MILLER",
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
         "margin": 15239,
         "margin_pct": 46.278356463907194,
         "winner": "REP"
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 823,
-        "rep_votes": 3678,
-        "other_votes": 99,
-        "total_votes": 4600,
+        "dem_votes": 20355,
+        "rep_votes": 45729,
+        "other_votes": 0,
+        "total_votes": 66084,
         "dem_candidate": "Susan Hays",
         "rep_candidate": "Sid Miller",
-        "margin": 2855,
-        "margin_pct": 62.06521739130435,
+        "margin": 25374,
+        "margin_pct": 38.39658616306519,
         "winner": "REP"
       },
       "11": {
@@ -507,8 +524,8 @@
         "rep_votes": 9265,
         "other_votes": 0,
         "total_votes": 11069,
-        "dem_candidate": "SUSAN HAYS",
-        "rep_candidate": "SID MILLER",
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
         "margin": 7461,
         "margin_pct": 67.40446291444574,
         "winner": "REP"
@@ -705,8 +722,8 @@
         "rep_votes": 0,
         "other_votes": 37470,
         "total_votes": 37470,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Susan Hays",
+        "rep_candidate": "Sid Miller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

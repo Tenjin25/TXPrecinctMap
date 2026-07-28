@@ -14,7 +14,24 @@
     "total_precinct_rows": 5880,
     "matched_total_votes": 3922139,
     "total_votes": 4697165,
-    "generated_at": "2026-03-03T22:22:52.866924+00:00"
+    "generated_at": "2026-03-03T22:22:52.866924+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_5_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 103,
+    "candidate_source": "Data/contests/supreme_court_place_5_2022.json"
   },
   "general": {
     "results": {
@@ -78,8 +95,8 @@
         "rep_votes": 24216,
         "other_votes": 0,
         "total_votes": 32881,
-        "dem_candidate": "AMANDA REICHEK",
-        "rep_candidate": "REBECA HUDDLE",
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
         "margin": 15551,
         "margin_pct": 47.294790304431125,
         "winner": "REP"
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 776,
-        "rep_votes": 3712,
-        "other_votes": 112,
-        "total_votes": 4600,
+        "dem_votes": 20270,
+        "rep_votes": 45792,
+        "other_votes": 0,
+        "total_votes": 66062,
         "dem_candidate": "Amanda Reichek",
         "rep_candidate": "Rebeca Huddle",
-        "margin": 2936,
-        "margin_pct": 63.82608695652174,
+        "margin": 25522,
+        "margin_pct": 38.6334049831976,
         "winner": "REP"
       },
       "11": {
@@ -211,7 +228,7 @@
         "other_votes": 1140,
         "total_votes": 62174,
         "dem_candidate": "Amanda Reichek",
-        "rep_candidate": "Rebecca Huddle",
+        "rep_candidate": "Rebeca Huddle",
         "margin": 25327,
         "margin_pct": 40.73657149152535,
         "winner": "REP"
@@ -420,7 +437,7 @@
         "other_votes": 1364,
         "total_votes": 40939,
         "dem_candidate": "Amanda Reichek",
-        "rep_candidate": "Rebecca Huddle",
+        "rep_candidate": "Rebeca Huddle",
         "margin": -490,
         "margin_pct": -1.1978943596438056,
         "winner": "DEM"
@@ -496,8 +513,8 @@
         "rep_votes": 9277,
         "other_votes": 0,
         "total_votes": 11032,
-        "dem_candidate": "AMANDA REICHEK",
-        "rep_candidate": "REBECA HUDDLE",
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
         "margin": 7522,
         "margin_pct": 68.18346627991299,
         "winner": "REP"
@@ -574,7 +591,7 @@
         "other_votes": 0,
         "total_votes": 6896,
         "dem_candidate": "Amanda Reichek",
-        "rep_candidate": "Rebecca Huddle",
+        "rep_candidate": "Rebeca Huddle",
         "margin": 4592,
         "margin_pct": 66.5893271461717,
         "winner": "REP"
@@ -694,8 +711,8 @@
         "rep_votes": 0,
         "other_votes": 37382,
         "total_votes": 37382,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Amanda Reichek",
+        "rep_candidate": "Rebeca Huddle",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -1146,7 +1163,7 @@
         "other_votes": 1303,
         "total_votes": 38539,
         "dem_candidate": "Amanda Reichek",
-        "rep_candidate": "Rebecca Huddle",
+        "rep_candidate": "Rebeca Huddle",
         "margin": -5470,
         "margin_pct": -14.193414463270972,
         "winner": "DEM"

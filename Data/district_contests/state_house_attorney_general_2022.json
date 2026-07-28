@@ -14,7 +14,24 @@
     "total_precinct_rows": 5948,
     "matched_total_votes": 4013962,
     "total_votes": 4810675,
-    "generated_at": "2026-03-03T22:22:49.419915+00:00"
+    "generated_at": "2026-03-03T22:22:49.419915+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "attorney_general_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 104,
+    "candidate_source": "Data/contests/attorney_general_2022.json"
   },
   "general": {
     "results": {
@@ -78,8 +95,8 @@
         "rep_votes": 23463,
         "other_votes": 719,
         "total_votes": 32975,
-        "dem_candidate": "ROCHELLE MERCEDES GARZA",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Rochelle Mercedes Garza",
+        "rep_candidate": "Ken Paxton",
         "margin": 14670,
         "margin_pct": 44.4882486732373,
         "winner": "REP"
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 815,
-        "rep_votes": 3601,
-        "other_votes": 184,
-        "total_votes": 4600,
+        "dem_votes": 20733,
+        "rep_votes": 43753,
+        "other_votes": 2309,
+        "total_votes": 66795,
         "dem_candidate": "Rochelle Mercedes Garza",
         "rep_candidate": "Ken Paxton",
-        "margin": 2786,
-        "margin_pct": 60.56521739130435,
+        "margin": 23020,
+        "margin_pct": 34.463657459390674,
         "winner": "REP"
       },
       "11": {
@@ -507,8 +524,8 @@
         "rep_votes": 9013,
         "other_votes": 313,
         "total_votes": 11117,
-        "dem_candidate": "ROCHELLE MERCEDES GARZA",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Rochelle Mercedes Garza",
+        "rep_candidate": "Ken Paxton",
         "margin": 7222,
         "margin_pct": 64.96356930826663,
         "winner": "REP"
@@ -705,8 +722,8 @@
         "rep_votes": 0,
         "other_votes": 37720,
         "total_votes": 37720,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Rochelle Mercedes Garza",
+        "rep_candidate": "Ken Paxton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

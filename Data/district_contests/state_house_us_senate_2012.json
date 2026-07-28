@@ -14,7 +14,24 @@
     "total_precinct_rows": 1318,
     "matched_total_votes": 931705,
     "total_votes": 1034537,
-    "generated_at": "2026-03-03T22:22:29.574191+00:00"
+    "generated_at": "2026-03-03T22:22:29.574191+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "us_senate_2012.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.552014+00:00"
+      }
+    ],
+    "districts": 36,
+    "candidate_source": "Data/contests/us_senate_2012.json"
   },
   "general": {
     "results": {
@@ -54,12 +71,12 @@
       "10": {
         "dem_votes": 14045,
         "rep_votes": 37865,
-        "other_votes": 2417,
-        "total_votes": 54327,
+        "other_votes": 1578,
+        "total_votes": 53488,
         "dem_candidate": "Paul Sadler",
         "rep_candidate": "Ted Cruz",
         "margin": 23820,
-        "margin_pct": 43.84560163454636,
+        "margin_pct": 44.53335327550105,
         "winner": "REP"
       },
       "12": {
@@ -133,8 +150,8 @@
         "rep_votes": 0,
         "other_votes": 9516,
         "total_votes": 9516,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -144,8 +161,8 @@
         "rep_votes": 0,
         "other_votes": 34900,
         "total_votes": 34900,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -243,8 +260,8 @@
         "rep_votes": 3784,
         "other_votes": 140,
         "total_votes": 4869,
-        "dem_candidate": "Sadler",
-        "rep_candidate": "Cruz",
+        "dem_candidate": "Paul Sadler",
+        "rep_candidate": "Ted Cruz",
         "margin": 2839,
         "margin_pct": 58.307660710618194,
         "winner": "REP"

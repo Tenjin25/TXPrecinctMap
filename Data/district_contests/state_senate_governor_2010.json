@@ -14,7 +14,8 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 7451,
     "total_votes": 8309,
-    "generated_at": "2026-03-03T22:22:27.552263+00:00"
+    "generated_at": "2026-03-03T22:22:27.552263+00:00",
+    "candidate_source": "Data/contests/governor_2010.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 3605,
         "other_votes": 311,
         "total_votes": 7451,
-        "dem_candidate": "BILL WHITE",
-        "rep_candidate": "RICK PERRY",
+        "dem_candidate": "Bill White",
+        "rep_candidate": "Rick Perry",
         "margin": 70,
         "margin_pct": 0.9394712119178633,
         "winner": "REP"

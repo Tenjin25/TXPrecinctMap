@@ -14,7 +14,24 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 7180,
     "total_votes": 8018,
-    "generated_at": "2026-03-03T22:22:27.533803+00:00"
+    "generated_at": "2026-03-03T22:22:27.533803+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "agriculture_commissioner_2010.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.514179+00:00"
+      }
+    ],
+    "districts": 2,
+    "candidate_source": "Data/contests/agriculture_commissioner_2010.json"
   },
   "general": {
     "results": {
@@ -23,10 +40,21 @@
         "rep_votes": 3893,
         "other_votes": 345,
         "total_votes": 7180,
-        "dem_candidate": "HANK GILBERT",
-        "rep_candidate": "TODD STAPLES",
+        "dem_candidate": "Hank Gilbert",
+        "rep_candidate": "Todd Staples",
         "margin": 951,
         "margin_pct": 13.245125348189415,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 6909,
+        "rep_votes": 22327,
+        "other_votes": 1263,
+        "total_votes": 30499,
+        "dem_candidate": "Hank Gilbert",
+        "rep_candidate": "Todd Staples",
+        "margin": 15418,
+        "margin_pct": 50.55247713039772,
         "winner": "REP"
       }
     }

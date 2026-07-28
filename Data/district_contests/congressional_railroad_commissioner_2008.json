@@ -14,7 +14,8 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 9993,
     "total_votes": 11172,
-    "generated_at": "2026-03-03T22:22:27.522405+00:00"
+    "generated_at": "2026-03-03T22:22:27.522405+00:00",
+    "candidate_source": "Data/contests/railroad_commissioner_2008.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 2252,
         "other_votes": 245,
         "total_votes": 4410,
-        "dem_candidate": "MARK THOMPSON",
-        "rep_candidate": "MICHAEL L WILLIAMS",
+        "dem_candidate": "Mark Thompson",
+        "rep_candidate": "Michael L. Williams",
         "margin": 339,
         "margin_pct": 7.687074829931973,
         "winner": "REP"
@@ -34,8 +35,8 @@
         "rep_votes": 2213,
         "other_votes": 268,
         "total_votes": 5583,
-        "dem_candidate": "MARK THOMPSON",
-        "rep_candidate": "MICHAEL L WILLIAMS",
+        "dem_candidate": "Mark Thompson",
+        "rep_candidate": "Michael L. Williams",
         "margin": -889,
         "margin_pct": -15.923338706788465,
         "winner": "DEM"

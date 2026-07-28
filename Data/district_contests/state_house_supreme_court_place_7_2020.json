@@ -10,7 +10,24 @@
     "total_precinct_rows": 8747,
     "matched_total_votes": 10947060,
     "total_votes": 10962377,
-    "generated_at": "2026-03-04T02:00:37.537522+00:00"
+    "generated_at": "2026-03-04T02:00:37.537522+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_7_2020.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.047943+00:00"
+      }
+    ],
+    "districts": 150,
+    "candidate_source": "Data/contests/supreme_court_place_7_2020.json"
   },
   "general": {
     "results": {
@@ -114,14 +131,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 26743,
-        "rep_votes": 61220,
-        "other_votes": 2062,
-        "total_votes": 90025,
+        "dem_votes": 25616,
+        "rep_votes": 56678,
+        "other_votes": 1950,
+        "total_votes": 84244,
         "dem_candidate": "Staci Williams",
         "rep_candidate": "Jeff Boyd",
-        "margin": 34477,
-        "margin_pct": 38.29713968342127,
+        "margin": 31062,
+        "margin_pct": 36.871468591234986,
         "winner": "REP"
       },
       "11": {

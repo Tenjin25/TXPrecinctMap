@@ -14,7 +14,8 @@
     "total_precinct_rows": 1831,
     "matched_total_votes": 841437,
     "total_votes": 849837,
-    "generated_at": "2026-03-03T22:22:34.452940+00:00"
+    "generated_at": "2026-03-03T22:22:34.452940+00:00",
+    "candidate_source": "Data/contests/supreme_court_place_6_2014.json"
   },
   "general": {
     "results": {
@@ -89,8 +90,8 @@
         "rep_votes": 0,
         "other_votes": 16420,
         "total_votes": 16420,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -166,8 +167,8 @@
         "rep_votes": 0,
         "other_votes": 2799,
         "total_votes": 2799,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -199,8 +200,8 @@
         "rep_votes": 29037,
         "other_votes": 3067,
         "total_votes": 76725,
-        "dem_candidate": "LAWRENCE EDWARD MEYE",
-        "rep_candidate": "JEFF BROWN",
+        "dem_candidate": "Lawrence Edward Meyers",
+        "rep_candidate": "Jeff Brown",
         "margin": -15584,
         "margin_pct": -20.31150211795373,
         "winner": "DEM"

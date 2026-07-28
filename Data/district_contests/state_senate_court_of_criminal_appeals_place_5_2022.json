@@ -14,7 +14,8 @@
     "total_precinct_rows": 5109,
     "matched_total_votes": 3457522,
     "total_votes": 4157070,
-    "generated_at": "2026-03-03T22:22:50.282596+00:00"
+    "generated_at": "2026-03-03T22:22:50.282596+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_5_2022.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 27687,
         "other_votes": 0,
         "total_votes": 37118,
-        "dem_candidate": "DANA HUFFMAN",
-        "rep_candidate": "SCOTT WALKER",
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
         "margin": 18256,
         "margin_pct": 49.18368446575786,
         "winner": "REP"

@@ -10,7 +10,23 @@
     "total_precinct_rows": 8667,
     "matched_total_votes": 8277939,
     "total_votes": 8290937,
-    "generated_at": "2026-03-04T02:00:22.647886+00:00"
+    "generated_at": "2026-03-04T02:00:22.647886+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "attorney_general_2018.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:06.814685+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 19509,
-        "rep_votes": 43000,
-        "other_votes": 1623,
-        "total_votes": 64132,
+        "dem_votes": 18586,
+        "rep_votes": 39882,
+        "other_votes": 1551,
+        "total_votes": 60019,
         "dem_candidate": "Justin Nelson",
         "rep_candidate": "Ken Paxton",
-        "margin": 23491,
-        "margin_pct": 36.6291398989584,
+        "margin": 21296,
+        "margin_pct": 35.48209733584365,
         "winner": "REP"
       },
       "11": {

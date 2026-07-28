@@ -10,7 +10,8 @@
     "total_precinct_rows": 8747,
     "matched_total_votes": 10864137,
     "total_votes": 10879382,
-    "generated_at": "2026-03-04T02:00:34.713298+00:00"
+    "generated_at": "2026-03-04T02:00:34.713298+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_9_2020.json"
   },
   "general": {
     "results": {

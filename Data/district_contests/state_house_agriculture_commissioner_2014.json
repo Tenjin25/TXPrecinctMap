@@ -14,7 +14,24 @@
     "total_precinct_rows": 7820,
     "matched_total_votes": 4638868,
     "total_votes": 4802184,
-    "generated_at": "2026-03-03T22:22:29.966020+00:00"
+    "generated_at": "2026-03-03T22:22:29.966020+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "agriculture_commissioner_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 146,
+    "candidate_source": "Data/contests/agriculture_commissioner_2014.json"
   },
   "general": {
     "results": {
@@ -118,14 +135,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 8015,
-        "rep_votes": 24762,
-        "other_votes": 2265,
-        "total_votes": 35042,
+        "dem_votes": 7410,
+        "rep_votes": 22819,
+        "other_votes": 2094,
+        "total_votes": 32323,
         "dem_candidate": "Jim Hogan",
         "rep_candidate": "Sid Miller",
-        "margin": 16747,
-        "margin_pct": 47.79122196221677,
+        "margin": 15409,
+        "margin_pct": 47.67193639204282,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 14590,
         "total_votes": 20585,
         "dem_candidate": "Jim Hogan",
-        "rep_candidate": "",
+        "rep_candidate": "Sid Miller",
         "margin": -5995,
         "margin_pct": -29.122614682989088,
         "winner": "DEM"
@@ -254,8 +271,8 @@
         "rep_votes": 0,
         "other_votes": 36372,
         "total_votes": 36372,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -562,7 +579,7 @@
         "rep_votes": 36114,
         "other_votes": 3019,
         "total_votes": 48194,
-        "dem_candidate": "JIM HOGAN",
+        "dem_candidate": "Jim Hogan",
         "rep_candidate": "Sid Miller",
         "margin": 27053,
         "margin_pct": 56.13354359463833,
@@ -639,8 +656,8 @@
         "rep_votes": 9944,
         "other_votes": 846,
         "total_votes": 12764,
-        "dem_candidate": "JIM HOGAN",
-        "rep_candidate": "SID MILLER",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": 7970,
         "margin_pct": 62.44124099028517,
         "winner": "REP"
@@ -661,8 +678,8 @@
         "rep_votes": 0,
         "other_votes": 39689,
         "total_votes": 39689,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -672,8 +689,8 @@
         "rep_votes": 0,
         "other_votes": 37109,
         "total_votes": 37109,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -683,8 +700,8 @@
         "rep_votes": 0,
         "other_votes": 29239,
         "total_votes": 29239,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -793,8 +810,8 @@
         "rep_votes": 2934,
         "other_votes": 740,
         "total_votes": 10539,
-        "dem_candidate": "JIM HOGAN",
-        "rep_candidate": "SID MILLER",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": -3931,
         "margin_pct": -37.29955403738495,
         "winner": "DEM"
@@ -804,8 +821,8 @@
         "rep_votes": 2634,
         "other_votes": 832,
         "total_votes": 12419,
-        "dem_candidate": "JIM HOGAN",
-        "rep_candidate": "SID MILLER",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": -6319,
         "margin_pct": -50.88394080974131,
         "winner": "DEM"
@@ -815,8 +832,8 @@
         "rep_votes": 6335,
         "other_votes": 1329,
         "total_votes": 16874,
-        "dem_candidate": "JIM HOGAN",
-        "rep_candidate": "SID MILLER",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": -2875,
         "margin_pct": -17.037037744126927,
         "winner": "DEM"
@@ -826,8 +843,8 @@
         "rep_votes": 10067,
         "other_votes": 1656,
         "total_votes": 22926,
-        "dem_candidate": "JIM HOGAN",
-        "rep_candidate": "SID MILLER",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": -1136,
         "margin_pct": -4.955072843060281,
         "winner": "DEM"
@@ -837,8 +854,8 @@
         "rep_votes": 5027,
         "other_votes": 934,
         "total_votes": 13934,
-        "dem_candidate": "JIM HOGAN",
-        "rep_candidate": "SID MILLER",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": -2946,
         "margin_pct": -21.142529065594946,
         "winner": "DEM"
@@ -1134,8 +1151,8 @@
         "rep_votes": 0,
         "other_votes": 34768,
         "total_votes": 34768,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Jim Hogan",
+        "rep_candidate": "Sid Miller",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

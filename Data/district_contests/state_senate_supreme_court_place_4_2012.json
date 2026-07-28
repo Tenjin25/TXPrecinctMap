@@ -14,7 +14,8 @@
     "total_precinct_rows": 3112,
     "matched_total_votes": 2427157,
     "total_votes": 2724606,
-    "generated_at": "2026-03-03T22:22:29.301219+00:00"
+    "generated_at": "2026-03-03T22:22:29.301219+00:00",
+    "candidate_source": "Data/contests/supreme_court_place_4_2012.json"
   },
   "general": {
     "results": {
@@ -222,7 +223,7 @@
         "other_votes": 1369,
         "total_votes": 5137,
         "dem_candidate": "",
-        "rep_candidate": "Under Votes",
+        "rep_candidate": "John Devine",
         "margin": 3768,
         "margin_pct": 73.35020439945494,
         "winner": "REP"

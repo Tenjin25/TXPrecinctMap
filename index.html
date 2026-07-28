@@ -10003,7 +10003,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   <button id="district-lines-2026" class="view-toggle-btn" type="button" data-testid="lines-2026" aria-label="Use 2026 district lines" aria-pressed="false">2026 Lines</button>
                 </div>
                 <div style="margin-top:4px;font-size:11px;color:#6b7280;">
-                  2022 keeps the longer history; 2024 and 2026 use newer boundaries.
+                  2022/2024: CD118 (PlanC2193). 2026: PlanC2333 mid-decade lines for this fall.
                 </div>
                 <div id="district-lines-loading-hint" class="district-lines-loading-hint" aria-live="polite" aria-atomic="true"></div>
             </div>
@@ -10145,7 +10145,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="legend-segment legend-color" style="background: #cb181d;"></span>
                 <span class="legend-segment legend-color" style="background: #e93a2d;"></span>
                 <span class="legend-segment legend-color" style="background: #f7634b;"></span>
-                <span class="legend-segment legend-color" style="background: #fca98e;"></span>
+                <span class="legend-segment legend-color" style="background: #fca793;"></span>
                 <span class="legend-segment legend-color" style="background: #f4c9c5;"></span>
                 <span class="legend-segment legend-color" style="background: #f7f7f7; border-left: 1px solid rgba(15,23,42,0.12); border-right: 1px solid rgba(15,23,42,0.12);"></span>
                 <span class="legend-segment legend-color" style="background: #c7ddf0;"></span>
@@ -10442,10 +10442,10 @@ document.addEventListener('DOMContentLoaded', function() {
         precinct_sbe2006_to_onemap: withBase('./Data/mappings/precinct_legacy_to_tx_vtd.json'),
         precinct_sbe2006_to_onemap_weights: withBase('./Data/mappings/precinct_legacy_to_tx_vtd_weights.json'),
         precinct_variant_overrides: withBase('./Data/mappings/precinct_variant_overrides.json'),
-        districts: withBase('./Data/tx_cd_2025.geojson'),
-        districts_2022: withBase('./Data/tx_cd_2025.geojson'),
-        districts_2024: withBase('./Data/tx_cd_2025.geojson'),
-        districts_2026: withBase('./Data/tx_cd_2025.geojson'),
+        districts: withBase('./Data/tx_cd_2022.geojson'),
+        districts_2022: withBase('./Data/tx_cd_2022.geojson'),
+        districts_2024: withBase('./Data/tx_cd_2022.geojson'),
+        districts_2026: withBase('./Data/tx_cd_2026.geojson'),
         state_house: withBase('./Data/tx_state_house_2022.geojson'),
         state_house_2022: withBase('./Data/tx_state_house_2022.geojson'),
         state_house_2024: withBase('./Data/tx_state_house_2022.geojson'),
@@ -10464,7 +10464,7 @@ document.addEventListener('DOMContentLoaded', function() {
         district_contests_dirs: {
           '2022': withBase('./Data/district_contests'),
           '2024': withBase('./Data/district_contests'),
-          '2026': withBase('./Data/district_contests')
+          '2026': withBase('./Data/district_contests_2026')
         },
         districts_info: withBase('./Data/tx_congressional_districts.csv'),
         state_house_info: withBase('./Data/tx_state_house_districts.csv'),
@@ -10473,7 +10473,13 @@ document.addEventListener('DOMContentLoaded', function() {
         contests_dir: withBase('./Data/contests'),
         reports_match_year_summary: withBase('./Data/reports/precinct_match_year_summary.csv'),
         reports_top_unmatched: withBase('./Data/reports/precinct_match_top_unmatched.csv'),
-        crosswalks: {}
+        crosswalks: {
+          congressional: withBase('./Data/crosswalks/congressional_2022.csv'),
+          congressional_2022: withBase('./Data/crosswalks/congressional_2022.csv'),
+          congressional_2026: withBase('./Data/crosswalks/congressional_2026.csv'),
+          state_house_2022: withBase('./Data/crosswalks/state_house_2022.csv'),
+          state_senate_2022: withBase('./Data/crosswalks/state_senate_2022.csv')
+        }
       },
       center: [-99.4, 31.2],
       zoom: 5.6,
@@ -20906,12 +20912,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const crosswalks = CONFIG.paths?.crosswalks || {};
       const linesYear = normalizeDistrictLinesYear(linesYearOverride);
       if (scope === 'congressional') {
+        // 2022 and 2024 share CD118 / PlanC2193; only 2026 uses PlanC2333.
         if (linesYear === 2026) {
-          return (crosswalks.congressional_2026 || crosswalks.congressional_2024 || crosswalks.congressional_2022 || crosswalks.congressional) || '';
+          return (crosswalks.congressional_2026 || crosswalks.congressional_2022 || crosswalks.congressional) || '';
         }
-        return (linesYear === 2024
-          ? (crosswalks.congressional_2024 || crosswalks.congressional_2022 || crosswalks.congressional)
-          : (crosswalks.congressional_2022 || crosswalks.congressional)) || '';
+        return (crosswalks.congressional_2022 || crosswalks.congressional) || '';
       }
       if (scope === 'state_house') {
         return crosswalks[`state_house_${linesYear}`] || crosswalks.state_house_2022 || '';
@@ -33712,7 +33717,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (marginPct >= 5.5) {
         return winner === 'R' ? '#f7634b' : '#6baed6'; // Likely — near-original Atlas red, slightly tempered
       } else if (marginPct >= 1.0) {
-        return winner === 'R' ? '#fca98e' : '#8bbde0'; // Lean — near-original Atlas red, slightly tempered
+        return winner === 'R' ? '#fca793' : '#8bbde0'; // Lean — near-original Atlas red, slightly tempered
       } else if (marginPct >= 0.5) {
         return winner === 'R' ? '#f4c9c5' : '#c7ddf0'; // Balanced Tilt shades, still clearly lighter than Lean
       } else {

@@ -14,7 +14,24 @@
     "total_precinct_rows": 7800,
     "matched_total_votes": 4633103,
     "total_votes": 4796569,
-    "generated_at": "2026-03-03T22:22:34.171726+00:00"
+    "generated_at": "2026-03-03T22:22:34.171726+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "railroad_commissioner_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 146,
+    "candidate_source": "Data/contests/railroad_commissioner_2014.json"
   },
   "general": {
     "results": {
@@ -118,14 +135,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 7776,
-        "rep_votes": 24858,
-        "other_votes": 2408,
-        "total_votes": 35042,
+        "dem_votes": 7186,
+        "rep_votes": 22902,
+        "other_votes": 2235,
+        "total_votes": 32323,
         "dem_candidate": "Steve Brown",
         "rep_candidate": "Ryan Sitton",
-        "margin": 17082,
-        "margin_pct": 48.74721762456481,
+        "margin": 15716,
+        "margin_pct": 48.621724468644615,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 14514,
         "total_votes": 20585,
         "dem_candidate": "Steve Brown",
-        "rep_candidate": "",
+        "rep_candidate": "Ryan Sitton",
         "margin": -6071,
         "margin_pct": -29.491676941279728,
         "winner": "DEM"
@@ -254,8 +271,8 @@
         "rep_votes": 0,
         "other_votes": 36181,
         "total_votes": 36181,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -562,7 +579,7 @@
         "rep_votes": 35714,
         "other_votes": 3183,
         "total_votes": 49438,
-        "dem_candidate": "STEVE BROWN",
+        "dem_candidate": "Steve Brown",
         "rep_candidate": "Ryan Sitton",
         "margin": 25173,
         "margin_pct": 50.91832193858975,
@@ -639,8 +656,8 @@
         "rep_votes": 9937,
         "other_votes": 925,
         "total_votes": 12764,
-        "dem_candidate": "STEVE BROWN",
-        "rep_candidate": "RYAN SITTON",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": 8035,
         "margin_pct": 62.95048574114698,
         "winner": "REP"
@@ -661,8 +678,8 @@
         "rep_votes": 0,
         "other_votes": 39697,
         "total_votes": 39697,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -672,8 +689,8 @@
         "rep_votes": 0,
         "other_votes": 37100,
         "total_votes": 37100,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -683,8 +700,8 @@
         "rep_votes": 0,
         "other_votes": 29236,
         "total_votes": 29236,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -793,8 +810,8 @@
         "rep_votes": 2912,
         "other_votes": 1014,
         "total_votes": 10562,
-        "dem_candidate": "STEVE BROWN",
-        "rep_candidate": "RYAN SITTON",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": -3724,
         "margin_pct": -35.25847377390646,
         "winner": "DEM"
@@ -804,8 +821,8 @@
         "rep_votes": 2578,
         "other_votes": 1263,
         "total_votes": 12491,
-        "dem_candidate": "STEVE BROWN",
-        "rep_candidate": "RYAN SITTON",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": -6072,
         "margin_pct": -48.6131572621306,
         "winner": "DEM"
@@ -815,8 +832,8 @@
         "rep_votes": 6291,
         "other_votes": 1689,
         "total_votes": 16947,
-        "dem_candidate": "STEVE BROWN",
-        "rep_candidate": "RYAN SITTON",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": -2676,
         "margin_pct": -15.789423906043238,
         "winner": "DEM"
@@ -826,8 +843,8 @@
         "rep_votes": 10101,
         "other_votes": 2023,
         "total_votes": 22983,
-        "dem_candidate": "STEVE BROWN",
-        "rep_candidate": "RYAN SITTON",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": -758,
         "margin_pct": -3.2980898925292608,
         "winner": "DEM"
@@ -837,8 +854,8 @@
         "rep_votes": 4992,
         "other_votes": 1321,
         "total_votes": 13950,
-        "dem_candidate": "STEVE BROWN",
-        "rep_candidate": "RYAN SITTON",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": -2645,
         "margin_pct": -18.960573476702507,
         "winner": "DEM"
@@ -1134,8 +1151,8 @@
         "rep_votes": 0,
         "other_votes": 34755,
         "total_votes": 34755,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

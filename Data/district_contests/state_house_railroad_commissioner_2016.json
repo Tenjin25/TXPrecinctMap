@@ -10,7 +10,23 @@
     "total_precinct_rows": 8589,
     "matched_total_votes": 8742328,
     "total_votes": 8759186,
-    "generated_at": "2026-03-04T02:00:17.790916+00:00"
+    "generated_at": "2026-03-04T02:00:17.790916+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "railroad_commissioner_2016.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:06.530974+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 15686,
-        "rep_votes": 47156,
-        "other_votes": 4572,
-        "total_votes": 67414,
+        "dem_votes": 14744,
+        "rep_votes": 43546,
+        "other_votes": 4383,
+        "total_votes": 62673,
         "dem_candidate": "Grady Yarbrough",
         "rep_candidate": "Wayne Christian",
-        "margin": 31470,
-        "margin_pct": 46.6816981635862,
+        "margin": 28802,
+        "margin_pct": 45.95599380913631,
         "winner": "REP"
       },
       "11": {

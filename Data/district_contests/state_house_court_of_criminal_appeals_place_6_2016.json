@@ -10,7 +10,23 @@
     "total_precinct_rows": 8589,
     "matched_total_votes": 8687243,
     "total_votes": 8704003,
-    "generated_at": "2026-03-04T02:00:15.724023+00:00"
+    "generated_at": "2026-03-04T02:00:15.724023+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_6_2016.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:06.530974+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 16251,
-        "rep_votes": 48109,
-        "other_votes": 2680,
-        "total_votes": 67040,
+        "dem_votes": 15294,
+        "rep_votes": 44464,
+        "other_votes": 2545,
+        "total_votes": 62303,
         "dem_candidate": "Robert Burns",
         "rep_candidate": "Michael E. Keasler",
-        "margin": 31858,
-        "margin_pct": 47.5208830548926,
+        "margin": 29170,
+        "margin_pct": 46.81957530134985,
         "winner": "REP"
       },
       "11": {

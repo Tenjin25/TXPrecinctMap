@@ -14,7 +14,8 @@
     "total_precinct_rows": 3186,
     "matched_total_votes": 3707810,
     "total_votes": 5023873,
-    "generated_at": "2026-03-03T22:22:53.835243+00:00"
+    "generated_at": "2026-03-03T22:22:53.835243+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_8_2024.json"
   },
   "general": {
     "results": {
@@ -23,7 +24,7 @@
         "rep_votes": 55266,
         "other_votes": 2144,
         "total_votes": 70771,
-        "dem_candidate": "CHIKA ANYIAM",
+        "dem_candidate": "Chika Anyiam",
         "rep_candidate": "Lee Finley",
         "margin": 41905,
         "margin_pct": 59.212106653855386,
@@ -67,7 +68,7 @@
         "rep_votes": 221348,
         "other_votes": 23926,
         "total_votes": 403676,
-        "dem_candidate": "Raquel Saenz Ortiz",
+        "dem_candidate": "Chika Anyiam",
         "rep_candidate": "Lee Finley",
         "margin": 62946,
         "margin_pct": 15.59319850573232,
@@ -122,7 +123,7 @@
         "rep_votes": 58445,
         "other_votes": 2607,
         "total_votes": 81336,
-        "dem_candidate": "Kathy Cheng",
+        "dem_candidate": "Chika Anyiam",
         "rep_candidate": "Lee Finley",
         "margin": 38161,
         "margin_pct": 46.91816523050101,
@@ -144,8 +145,8 @@
         "rep_votes": 19854,
         "other_votes": 217062,
         "total_votes": 244954,
-        "dem_candidate": "CHIKA ANYIAM",
-        "rep_candidate": "LEE FINLEY",
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
         "margin": 11816,
         "margin_pct": 4.8237604786271255,
         "winner": "REP"
@@ -155,7 +156,7 @@
         "rep_votes": 87196,
         "other_votes": 38783,
         "total_votes": 245449,
-        "dem_candidate": "Juan \"Chuy\" Hinojosa",
+        "dem_candidate": "Chika Anyiam",
         "rep_candidate": "Lee Finley",
         "margin": -32274,
         "margin_pct": -13.148963735847365,
@@ -210,8 +211,8 @@
         "rep_votes": 0,
         "other_votes": 254925,
         "total_votes": 254925,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -221,8 +222,8 @@
         "rep_votes": 61981,
         "other_votes": 3608,
         "total_votes": 82523,
-        "dem_candidate": "CHIKA ANYIAM",
-        "rep_candidate": "LEE FINLEY",
+        "dem_candidate": "Chika Anyiam",
+        "rep_candidate": "Lee Finley",
         "margin": 45047,
         "margin_pct": 54.587191808042824,
         "winner": "REP"

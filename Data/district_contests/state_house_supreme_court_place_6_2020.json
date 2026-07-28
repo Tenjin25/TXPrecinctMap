@@ -10,7 +10,23 @@
     "total_precinct_rows": 8747,
     "matched_total_votes": 10939277,
     "total_votes": 10954547,
-    "generated_at": "2026-03-04T02:00:36.382685+00:00"
+    "generated_at": "2026-03-04T02:00:36.382685+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_6_2020.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:07.047943+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 27042,
-        "rep_votes": 62952,
+        "dem_votes": 25911,
+        "rep_votes": 58305,
         "other_votes": 0,
-        "total_votes": 89994,
+        "total_votes": 84216,
         "dem_candidate": "Kathy Cheng",
         "rep_candidate": "Jane Bland",
-        "margin": 35910,
-        "margin_pct": 39.902660177345155,
+        "margin": 32394,
+        "margin_pct": 38.46537475064121,
         "winner": "REP"
       },
       "11": {

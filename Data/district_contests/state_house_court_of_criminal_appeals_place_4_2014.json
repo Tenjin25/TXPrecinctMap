@@ -14,7 +14,24 @@
     "total_precinct_rows": 6282,
     "matched_total_votes": 3286102,
     "total_votes": 3327363,
-    "generated_at": "2026-03-03T22:22:31.799848+00:00"
+    "generated_at": "2026-03-03T22:22:31.799848+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_4_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 134,
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_4_2014.json"
   },
   "general": {
     "results": {
@@ -119,13 +136,13 @@
       },
       "10": {
         "dem_votes": 0,
-        "rep_votes": 25767,
-        "other_votes": 9275,
-        "total_votes": 35042,
+        "rep_votes": 23717,
+        "other_votes": 8606,
+        "total_votes": 32323,
         "dem_candidate": "",
         "rep_candidate": "Kevin Patrick Yeary",
-        "margin": 25767,
-        "margin_pct": 73.53176188573711,
+        "margin": 23717,
+        "margin_pct": 73.3749961327847,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 20585,
         "total_votes": 20585,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -255,7 +272,7 @@
         "other_votes": 7787,
         "total_votes": 7787,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -354,7 +371,7 @@
         "other_votes": 6027,
         "total_votes": 6027,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -475,7 +492,7 @@
         "other_votes": 21675,
         "total_votes": 21675,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -486,7 +503,7 @@
         "other_votes": 52176,
         "total_votes": 52176,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -497,7 +514,7 @@
         "other_votes": 46081,
         "total_votes": 46081,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -508,7 +525,7 @@
         "other_votes": 38442,
         "total_votes": 38442,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -519,7 +536,7 @@
         "other_votes": 30955,
         "total_votes": 30955,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -530,7 +547,7 @@
         "other_votes": 19120,
         "total_votes": 19120,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -618,7 +635,7 @@
         "other_votes": 2660,
         "total_votes": 12764,
         "dem_candidate": "",
-        "rep_candidate": "KEVIN PATRICK YEARY",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 10104,
         "margin_pct": 79.16013788780947,
         "winner": "REP"
@@ -695,7 +712,7 @@
         "other_votes": 3705,
         "total_votes": 7587,
         "dem_candidate": "",
-        "rep_candidate": "KEVIN PATRICK YEARY",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 3882,
         "margin_pct": 51.16646896006327,
         "winner": "REP"
@@ -706,7 +723,7 @@
         "other_votes": 4404,
         "total_votes": 8030,
         "dem_candidate": "",
-        "rep_candidate": "KEVIN PATRICK YEARY",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 3626,
         "margin_pct": 45.15467416957597,
         "winner": "REP"
@@ -717,7 +734,7 @@
         "other_votes": 5544,
         "total_votes": 13051,
         "dem_candidate": "",
-        "rep_candidate": "KEVIN PATRICK YEARY",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 7507,
         "margin_pct": 57.52082193734233,
         "winner": "REP"
@@ -728,7 +745,7 @@
         "other_votes": 6827,
         "total_votes": 18551,
         "dem_candidate": "",
-        "rep_candidate": "KEVIN PATRICK YEARY",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 11724,
         "margin_pct": 63.19874939356369,
         "winner": "REP"
@@ -739,7 +756,7 @@
         "other_votes": 4741,
         "total_votes": 10935,
         "dem_candidate": "",
-        "rep_candidate": "KEVIN PATRICK YEARY",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 6194,
         "margin_pct": 56.64380429812529,
         "winner": "REP"

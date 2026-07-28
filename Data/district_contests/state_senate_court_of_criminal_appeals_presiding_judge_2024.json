@@ -14,7 +14,8 @@
     "total_precinct_rows": 3371,
     "matched_total_votes": 3423015,
     "total_votes": 4590392,
-    "generated_at": "2026-03-03T22:22:54.063196+00:00"
+    "generated_at": "2026-03-03T22:22:54.063196+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_presiding_judge_2024.json"
   },
   "general": {
     "results": {
@@ -144,8 +145,8 @@
         "rep_votes": 19627,
         "other_votes": 216914,
         "total_votes": 244962,
-        "dem_candidate": "HOLLY TAYLOR",
-        "rep_candidate": "DAVID J. SCHENCK",
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
         "margin": 11206,
         "margin_pct": 4.574584849980292,
         "winner": "REP"
@@ -210,8 +211,8 @@
         "rep_votes": 0,
         "other_votes": 254925,
         "total_votes": 254925,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Holly Taylor",
+        "rep_candidate": "David J. Schenck",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

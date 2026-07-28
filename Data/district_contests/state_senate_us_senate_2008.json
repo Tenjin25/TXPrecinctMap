@@ -14,7 +14,8 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 10298,
     "total_votes": 11512,
-    "generated_at": "2026-03-03T22:22:27.531221+00:00"
+    "generated_at": "2026-03-03T22:22:27.531221+00:00",
+    "candidate_source": "Data/contests/us_senate_2008.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 5310,
         "other_votes": 296,
         "total_votes": 10298,
-        "dem_candidate": "RICHARD J (RICK) NORIEGA",
-        "rep_candidate": "JOHN CORNYN",
+        "dem_candidate": "Richard J. (Rick) Noriega",
+        "rep_candidate": "John Cornyn",
         "margin": 618,
         "margin_pct": 6.001165274810643,
         "winner": "REP"

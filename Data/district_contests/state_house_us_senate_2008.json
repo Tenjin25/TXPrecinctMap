@@ -14,7 +14,24 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 10298,
     "total_votes": 11512,
-    "generated_at": "2026-03-03T22:22:27.529213+00:00"
+    "generated_at": "2026-03-03T22:22:27.529213+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "us_senate_2008.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.497806+00:00"
+      }
+    ],
+    "districts": 2,
+    "candidate_source": "Data/contests/us_senate_2008.json"
   },
   "general": {
     "results": {
@@ -23,10 +40,21 @@
         "rep_votes": 5310,
         "other_votes": 296,
         "total_votes": 10298,
-        "dem_candidate": "RICHARD J (RICK) NORIEGA",
-        "rep_candidate": "JOHN CORNYN",
+        "dem_candidate": "Richard J. (Rick) Noriega",
+        "rep_candidate": "John Cornyn",
         "margin": 618,
         "margin_pct": 6.001165274810643,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 15491,
+        "rep_votes": 36186,
+        "other_votes": 1430,
+        "total_votes": 53107,
+        "dem_candidate": "Richard J. (Rick) Noriega",
+        "rep_candidate": "John Cornyn",
+        "margin": 20695,
+        "margin_pct": 38.968497561526725,
         "winner": "REP"
       }
     }

@@ -14,7 +14,8 @@
     "total_precinct_rows": 7803,
     "matched_total_votes": 4678621,
     "total_votes": 4844171,
-    "generated_at": "2026-03-03T22:22:32.825269+00:00"
+    "generated_at": "2026-03-03T22:22:32.825269+00:00",
+    "candidate_source": "Data/contests/governor_2014.json"
   },
   "general": {
     "results": {
@@ -331,8 +332,8 @@
         "rep_votes": 29626,
         "other_votes": 1932,
         "total_votes": 79608,
-        "dem_candidate": "WENDY R. DAVIS",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": -18424,
         "margin_pct": -23.143402673098183,
         "winner": "DEM"

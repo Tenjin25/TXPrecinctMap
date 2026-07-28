@@ -14,7 +14,24 @@
     "total_precinct_rows": 5880,
     "matched_total_votes": 3934163,
     "total_votes": 4710037,
-    "generated_at": "2026-03-03T22:22:53.269851+00:00"
+    "generated_at": "2026-03-03T22:22:53.269851+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_9_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 103,
+    "candidate_source": "Data/contests/supreme_court_place_9_2022.json"
   },
   "general": {
     "results": {
@@ -78,8 +95,8 @@
         "rep_votes": 24140,
         "other_votes": 0,
         "total_votes": 32855,
-        "dem_candidate": "JULIA MALDONADO",
-        "rep_candidate": "EVAN YOUNG",
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
         "margin": 15425,
         "margin_pct": 46.94871404656825,
         "winner": "REP"
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 778,
-        "rep_votes": 3696,
-        "other_votes": 126,
-        "total_votes": 4600,
+        "dem_votes": 20424,
+        "rep_votes": 45511,
+        "other_votes": 0,
+        "total_votes": 65935,
         "dem_candidate": "Julia Maldonado",
         "rep_candidate": "Evan Young",
-        "margin": 2918,
-        "margin_pct": 63.43478260869565,
+        "margin": 25087,
+        "margin_pct": 38.04807765223326,
         "winner": "REP"
       },
       "11": {
@@ -496,8 +513,8 @@
         "rep_votes": 9246,
         "other_votes": 0,
         "total_votes": 11014,
-        "dem_candidate": "JULIA MALDONADO",
-        "rep_candidate": "EVAN YOUNG",
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
         "margin": 7478,
         "margin_pct": 67.89540584710369,
         "winner": "REP"
@@ -694,8 +711,8 @@
         "rep_votes": 0,
         "other_votes": 37364,
         "total_votes": 37364,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Julia Maldonado",
+        "rep_candidate": "Evan Young",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
