@@ -14,7 +14,24 @@
     "total_precinct_rows": 7803,
     "matched_total_votes": 4678621,
     "total_votes": 4844171,
-    "generated_at": "2026-03-03T22:22:32.663147+00:00"
+    "generated_at": "2026-03-03T22:22:32.663147+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "governor_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 146,
+    "candidate_source": "Data/contests/governor_2014.json"
   },
   "general": {
     "results": {
@@ -118,14 +135,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 8610,
-        "rep_votes": 25584,
-        "other_votes": 848,
-        "total_votes": 35042,
+        "dem_votes": 7963,
+        "rep_votes": 23604,
+        "other_votes": 756,
+        "total_votes": 32323,
         "dem_candidate": "Wendy R. Davis",
         "rep_candidate": "Greg Abbott",
-        "margin": 16974,
-        "margin_pct": 48.43901603789738,
+        "margin": 15641,
+        "margin_pct": 48.38969155090802,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 13713,
         "total_votes": 20585,
         "dem_candidate": "Wendy R. Davis",
-        "rep_candidate": "",
+        "rep_candidate": "Greg Abbott",
         "margin": -6872,
         "margin_pct": -33.383594905598926,
         "winner": "DEM"
@@ -254,8 +271,8 @@
         "rep_votes": 0,
         "other_votes": 36890,
         "total_votes": 36890,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -562,7 +579,7 @@
         "rep_votes": 37812,
         "other_votes": 1174,
         "total_votes": 49413,
-        "dem_candidate": "WENDY R. DAVIS",
+        "dem_candidate": "Wendy R. Davis",
         "rep_candidate": "Greg Abbott",
         "margin": 27385,
         "margin_pct": 55.42063829356647,
@@ -606,7 +623,7 @@
         "rep_votes": 26596,
         "other_votes": 715,
         "total_votes": 34222,
-        "dem_candidate": "Wendy R Davis",
+        "dem_candidate": "Wendy R. Davis",
         "rep_candidate": "Greg Abbott",
         "margin": 19685,
         "margin_pct": 57.52147741219099,
@@ -639,8 +656,8 @@
         "rep_votes": 10181,
         "other_votes": 405,
         "total_votes": 12764,
-        "dem_candidate": "WENDY R. DAVIS",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": 8003,
         "margin_pct": 62.6997806330304,
         "winner": "REP"
@@ -661,8 +678,8 @@
         "rep_votes": 0,
         "other_votes": 40502,
         "total_votes": 40502,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -672,8 +689,8 @@
         "rep_votes": 0,
         "other_votes": 38274,
         "total_votes": 38274,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -683,8 +700,8 @@
         "rep_votes": 0,
         "other_votes": 29825,
         "total_votes": 29825,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -760,7 +777,7 @@
         "rep_votes": 5211,
         "other_votes": 2567,
         "total_votes": 8588,
-        "dem_candidate": "Wendy R Davis",
+        "dem_candidate": "Wendy R. Davis",
         "rep_candidate": "Greg Abbott",
         "margin": 4401,
         "margin_pct": 51.245924545877976,
@@ -793,8 +810,8 @@
         "rep_votes": 3271,
         "other_votes": 278,
         "total_votes": 10813,
-        "dem_candidate": "WENDY R. DAVIS",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": -3993,
         "margin_pct": -36.927772126144454,
         "winner": "DEM"
@@ -804,8 +821,8 @@
         "rep_votes": 2945,
         "other_votes": 295,
         "total_votes": 12755,
-        "dem_candidate": "WENDY R. DAVIS",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": -6570,
         "margin_pct": -51.511538009812895,
         "winner": "DEM"
@@ -815,8 +832,8 @@
         "rep_votes": 6830,
         "other_votes": 433,
         "total_votes": 17604,
-        "dem_candidate": "WENDY R. DAVIS",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": -3511,
         "margin_pct": -19.943225171002172,
         "winner": "DEM"
@@ -826,8 +843,8 @@
         "rep_votes": 10808,
         "other_votes": 584,
         "total_votes": 23760,
-        "dem_candidate": "WENDY R. DAVIS",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": -1560,
         "margin_pct": -6.565656565656567,
         "winner": "DEM"
@@ -837,8 +854,8 @@
         "rep_votes": 5555,
         "other_votes": 323,
         "total_votes": 14303,
-        "dem_candidate": "WENDY R. DAVIS",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": -2870,
         "margin_pct": -20.06572047822135,
         "winner": "DEM"
@@ -870,7 +887,7 @@
         "rep_votes": 21933,
         "other_votes": 414,
         "total_votes": 25602,
-        "dem_candidate": "Wendy Davis",
+        "dem_candidate": "Wendy R. Davis",
         "rep_candidate": "Greg Abbott",
         "margin": 18678,
         "margin_pct": 72.95523787204125,
@@ -1134,8 +1151,8 @@
         "rep_votes": 0,
         "other_votes": 35409,
         "total_votes": 35409,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Wendy R. Davis",
+        "rep_candidate": "Greg Abbott",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

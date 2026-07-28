@@ -14,7 +14,8 @@
     "total_precinct_rows": 7558,
     "matched_total_votes": 4557077,
     "total_votes": 4699909,
-    "generated_at": "2026-03-03T22:22:33.333083+00:00"
+    "generated_at": "2026-03-03T22:22:33.333083+00:00",
+    "candidate_source": "Data/contests/land_commissioner_2014.json"
   },
   "general": {
     "results": {
@@ -331,8 +332,8 @@
         "rep_votes": 28543,
         "other_votes": 4209,
         "total_votes": 78644,
-        "dem_candidate": "JOHN COOK",
-        "rep_candidate": "GEORGE P. BUSH",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": -17349,
         "margin_pct": -22.060169879456794,
         "winner": "DEM"

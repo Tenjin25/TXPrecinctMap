@@ -14,7 +14,8 @@
     "total_precinct_rows": 3043,
     "matched_total_votes": 2400785,
     "total_votes": 2697788,
-    "generated_at": "2026-03-03T22:22:29.092434+00:00"
+    "generated_at": "2026-03-03T22:22:29.092434+00:00",
+    "candidate_source": "Data/contests/supreme_court_place_2_2012.json"
   },
   "general": {
     "results": {
@@ -222,7 +223,7 @@
         "other_votes": 1212,
         "total_votes": 5137,
         "dem_candidate": "",
-        "rep_candidate": "Under Votes",
+        "rep_candidate": "Don Willett",
         "margin": 3925,
         "margin_pct": 76.40646291609889,
         "winner": "REP"

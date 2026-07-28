@@ -14,7 +14,8 @@
     "total_precinct_rows": 5880,
     "matched_total_votes": 3925021,
     "total_votes": 4699580,
-    "generated_at": "2026-03-03T22:22:52.605879+00:00"
+    "generated_at": "2026-03-03T22:22:52.605879+00:00",
+    "candidate_source": "Data/contests/supreme_court_place_3_2022.json"
   },
   "general": {
     "results": {

@@ -14,7 +14,8 @@
     "total_precinct_rows": 2,
     "matched_total_votes": 368,
     "total_votes": 1184,
-    "generated_at": "2026-03-03T22:22:53.004370+00:00"
+    "generated_at": "2026-03-03T22:22:53.004370+00:00",
+    "candidate_source": "Data/contests/supreme_court_place_7_2022.json"
   },
   "general": {
     "results": {
@@ -24,7 +25,7 @@
         "other_votes": 0,
         "total_votes": 368,
         "dem_candidate": "",
-        "rep_candidate": "Debra Lehrmann",
+        "rep_candidate": "Rebeca Huddle",
         "margin": 368,
         "margin_pct": 100.0,
         "winner": "REP"

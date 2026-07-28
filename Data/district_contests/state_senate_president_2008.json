@@ -14,7 +14,8 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 10478,
     "total_votes": 11711,
-    "generated_at": "2026-03-03T22:22:27.521343+00:00"
+    "generated_at": "2026-03-03T22:22:27.521343+00:00",
+    "candidate_source": "Data/contests/president_2008.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 5486,
         "other_votes": 180,
         "total_votes": 10478,
-        "dem_candidate": "BARACK OBAMA / JOE BIDEN",
-        "rep_candidate": "JOHN MCCAIN / SARAH PALIN",
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
         "margin": 674,
         "margin_pct": 6.432525291086084,
         "winner": "REP"

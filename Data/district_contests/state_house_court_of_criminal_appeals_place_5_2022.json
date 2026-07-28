@@ -14,7 +14,24 @@
     "total_precinct_rows": 5109,
     "matched_total_votes": 3457522,
     "total_votes": 4157070,
-    "generated_at": "2026-03-03T22:22:50.170878+00:00"
+    "generated_at": "2026-03-03T22:22:50.170878+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_5_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 97,
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_5_2022.json"
   },
   "general": {
     "results": {
@@ -45,8 +62,8 @@
         "rep_votes": 24224,
         "other_votes": 0,
         "total_votes": 32890,
-        "dem_candidate": "DANA HUFFMAN",
-        "rep_candidate": "SCOTT WALKER",
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
         "margin": 15558,
         "margin_pct": 47.30313165095774,
         "winner": "REP"
@@ -122,8 +139,8 @@
         "rep_votes": 0,
         "other_votes": 3691,
         "total_votes": 3691,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -386,8 +403,8 @@
         "rep_votes": 0,
         "other_votes": 2809,
         "total_votes": 2809,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -419,8 +436,8 @@
         "rep_votes": 9244,
         "other_votes": 0,
         "total_votes": 11021,
-        "dem_candidate": "DANA HUFFMAN",
-        "rep_candidate": "SCOTT WALKER",
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
         "margin": 7467,
         "margin_pct": 67.75247255239996,
         "winner": "REP"
@@ -617,8 +634,8 @@
         "rep_votes": 0,
         "other_votes": 37373,
         "total_votes": 37373,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -1073,6 +1090,17 @@
         "margin": -5938,
         "margin_pct": -15.40776875372999,
         "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 20324,
+        "rep_votes": 45651,
+        "other_votes": 0,
+        "total_votes": 65975,
+        "dem_candidate": "Dana Huffman",
+        "rep_candidate": "Scott Walker",
+        "margin": 25327,
+        "margin_pct": 38.38878363016294,
+        "winner": "REP"
       }
     }
   }

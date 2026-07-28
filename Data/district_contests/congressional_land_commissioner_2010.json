@@ -14,7 +14,8 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 7190,
     "total_votes": 8028,
-    "generated_at": "2026-03-03T22:22:27.554264+00:00"
+    "generated_at": "2026-03-03T22:22:27.554264+00:00",
+    "candidate_source": "Data/contests/land_commissioner_2010.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 2096,
         "other_votes": 136,
         "total_votes": 3284,
-        "dem_candidate": "HECTOR URIBE",
-        "rep_candidate": "JERRY PATTERSON",
+        "dem_candidate": "Hector Uribe",
+        "rep_candidate": "Jerry Patterson",
         "margin": 1044,
         "margin_pct": 31.790499390986604,
         "winner": "REP"
@@ -34,8 +35,8 @@
         "rep_votes": 1961,
         "other_votes": 155,
         "total_votes": 3906,
-        "dem_candidate": "HECTOR URIBE",
-        "rep_candidate": "JERRY PATTERSON",
+        "dem_candidate": "Hector Uribe",
+        "rep_candidate": "Jerry Patterson",
         "margin": 171,
         "margin_pct": 4.377880184331797,
         "winner": "REP"

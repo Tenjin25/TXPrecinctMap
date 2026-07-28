@@ -14,7 +14,8 @@
     "total_precinct_rows": 5948,
     "matched_total_votes": 4007037,
     "total_votes": 4802468,
-    "generated_at": "2026-03-03T22:22:49.939140+00:00"
+    "generated_at": "2026-03-03T22:22:49.939140+00:00",
+    "candidate_source": "Data/contests/comptroller_2022.json"
   },
   "general": {
     "results": {

@@ -14,7 +14,8 @@
     "total_precinct_rows": 6282,
     "matched_total_votes": 3286102,
     "total_votes": 3327363,
-    "generated_at": "2026-03-03T22:22:31.933842+00:00"
+    "generated_at": "2026-03-03T22:22:31.933842+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_4_2014.json"
   },
   "general": {
     "results": {
@@ -167,7 +168,7 @@
         "other_votes": 172170,
         "total_votes": 172170,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -332,7 +333,7 @@
         "other_votes": 25221,
         "total_votes": 58154,
         "dem_candidate": "",
-        "rep_candidate": "KEVIN PATRICK YEARY",
+        "rep_candidate": "Kevin Patrick Yeary",
         "margin": 32933,
         "margin_pct": 56.63067028923204,
         "winner": "REP"

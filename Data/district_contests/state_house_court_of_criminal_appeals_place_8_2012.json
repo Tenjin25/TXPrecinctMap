@@ -14,7 +14,24 @@
     "total_precinct_rows": 2906,
     "matched_total_votes": 2321739,
     "total_votes": 2615765,
-    "generated_at": "2026-03-03T22:22:27.999821+00:00"
+    "generated_at": "2026-03-03T22:22:27.999821+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_8_2012.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.552014+00:00"
+      }
+    ],
+    "districts": 74,
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_8_2012.json"
   },
   "general": {
     "results": {
@@ -64,13 +81,13 @@
       },
       "10": {
         "dem_votes": 0,
-        "rep_votes": 41990,
-        "other_votes": 16723,
-        "total_votes": 58713,
+        "rep_votes": 37999,
+        "other_votes": 16086,
+        "total_votes": 54085,
         "dem_candidate": "",
         "rep_candidate": "Elsa Alcala",
-        "margin": 41990,
-        "margin_pct": 71.51738115919814,
+        "margin": 37999,
+        "margin_pct": 70.2579273365998,
         "winner": "REP"
       },
       "11": {
@@ -145,7 +162,7 @@
         "other_votes": 31,
         "total_votes": 31,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Elsa Alcala",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -156,7 +173,7 @@
         "other_votes": 41,
         "total_votes": 41,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "Elsa Alcala",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -387,7 +404,7 @@
         "other_votes": 4035,
         "total_votes": 37755,
         "dem_candidate": "",
-        "rep_candidate": "ELSA ALCALA",
+        "rep_candidate": "Elsa Alcala",
         "margin": 33720,
         "margin_pct": 89.31267381803735,
         "winner": "REP"
@@ -398,7 +415,7 @@
         "other_votes": 1450,
         "total_votes": 11029,
         "dem_candidate": "",
-        "rep_candidate": "ELSA ALCALA",
+        "rep_candidate": "Elsa Alcala",
         "margin": 9579,
         "margin_pct": 86.85284250612023,
         "winner": "REP"
@@ -486,7 +503,7 @@
         "other_votes": 546,
         "total_votes": 3642,
         "dem_candidate": "",
-        "rep_candidate": "Under Votes",
+        "rep_candidate": "Elsa Alcala",
         "margin": 3096,
         "margin_pct": 85.00823723228996,
         "winner": "REP"

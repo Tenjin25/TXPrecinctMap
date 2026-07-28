@@ -14,7 +14,8 @@
     "total_precinct_rows": 5880,
     "matched_total_votes": 3922139,
     "total_votes": 4697165,
-    "generated_at": "2026-03-03T22:22:52.997473+00:00"
+    "generated_at": "2026-03-03T22:22:52.997473+00:00",
+    "candidate_source": "Data/contests/supreme_court_place_5_2022.json"
   },
   "general": {
     "results": {
@@ -68,7 +69,7 @@
         "other_votes": 4056,
         "total_votes": 195495,
         "dem_candidate": "Amanda Reichek",
-        "rep_candidate": "Rebecca Huddle",
+        "rep_candidate": "Rebeca Huddle",
         "margin": 36301,
         "margin_pct": 18.568761349395125,
         "winner": "REP"

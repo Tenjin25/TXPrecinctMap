@@ -14,7 +14,8 @@
     "total_precinct_rows": 6271,
     "matched_total_votes": 3694512,
     "total_votes": 3739961,
-    "generated_at": "2026-03-03T22:22:31.536425+00:00"
+    "generated_at": "2026-03-03T22:22:31.536425+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_3_2014.json"
   },
   "general": {
     "results": {
@@ -166,8 +167,8 @@
         "rep_votes": 0,
         "other_votes": 213076,
         "total_votes": 213076,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -331,8 +332,8 @@
         "rep_votes": 28785,
         "other_votes": 3781,
         "total_votes": 76497,
-        "dem_candidate": "JOHN GRANBERG",
-        "rep_candidate": "BERT RICHARDSON",
+        "dem_candidate": "John Granberg",
+        "rep_candidate": "Bert Richardson",
         "margin": -15146,
         "margin_pct": -19.799469260232428,
         "winner": "DEM"

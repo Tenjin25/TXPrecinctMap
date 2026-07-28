@@ -14,7 +14,8 @@
     "total_precinct_rows": 7800,
     "matched_total_votes": 4633103,
     "total_votes": 4796569,
-    "generated_at": "2026-03-03T22:22:34.334536+00:00"
+    "generated_at": "2026-03-03T22:22:34.334536+00:00",
+    "candidate_source": "Data/contests/railroad_commissioner_2014.json"
   },
   "general": {
     "results": {
@@ -331,8 +332,8 @@
         "rep_votes": 27051,
         "other_votes": 7332,
         "total_votes": 77251,
-        "dem_candidate": "STEVE BROWN",
-        "rep_candidate": "RYAN SITTON",
+        "dem_candidate": "Steve Brown",
+        "rep_candidate": "Ryan Sitton",
         "margin": -15817,
         "margin_pct": -20.47481585998887,
         "winner": "DEM"

@@ -10,7 +10,23 @@
     "total_precinct_rows": 8667,
     "matched_total_votes": 8166432,
     "total_votes": 8179239,
-    "generated_at": "2026-03-04T02:00:24.623395+00:00"
+    "generated_at": "2026-03-04T02:00:24.623395+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_7_2018.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:06.814685+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 18086,
-        "rep_votes": 45275,
+        "dem_votes": 17262,
+        "rep_votes": 42012,
         "other_votes": 0,
-        "total_votes": 63361,
+        "total_votes": 59274,
         "dem_candidate": "Ramona Franklin",
         "rep_candidate": "Barbara Parker Hervey",
-        "margin": 27189,
-        "margin_pct": 42.91125455721974,
+        "margin": 24750,
+        "margin_pct": 41.755238384451864,
         "winner": "REP"
       },
       "11": {

@@ -14,7 +14,8 @@
     "total_precinct_rows": 7830,
     "matched_total_votes": 4649761,
     "total_votes": 4813601,
-    "generated_at": "2026-03-03T22:22:31.137890+00:00"
+    "generated_at": "2026-03-03T22:22:31.137890+00:00",
+    "candidate_source": "Data/contests/comptroller_2014.json"
   },
   "general": {
     "results": {
@@ -331,8 +332,8 @@
         "rep_votes": 27801,
         "other_votes": 4775,
         "total_votes": 77173,
-        "dem_candidate": "MIKE COLLIER",
-        "rep_candidate": "GLENN HEGAR",
+        "dem_candidate": "Mike Collier",
+        "rep_candidate": "Glenn Hegar",
         "margin": -16796,
         "margin_pct": -21.764088476539722,
         "winner": "DEM"

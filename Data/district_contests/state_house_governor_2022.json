@@ -14,7 +14,24 @@
     "total_precinct_rows": 5947,
     "matched_total_votes": 4029946,
     "total_votes": 4830536,
-    "generated_at": "2026-03-03T22:22:50.866383+00:00"
+    "generated_at": "2026-03-03T22:22:50.866383+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "governor_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 104,
+    "candidate_source": "Data/contests/governor_2022.json"
   },
   "general": {
     "results": {
@@ -78,8 +95,8 @@
         "rep_votes": 24223,
         "other_votes": 341,
         "total_votes": 33226,
-        "dem_candidate": "BETO O'ROURKE",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
         "margin": 15561,
         "margin_pct": 46.833804851622226,
         "winner": "REP"
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 792,
-        "rep_votes": 3735,
-        "other_votes": 73,
-        "total_votes": 4600,
+        "dem_votes": 21338,
+        "rep_votes": 45564,
+        "other_votes": 868,
+        "total_votes": 67770,
         "dem_candidate": "Beto O'Rourke",
         "rep_candidate": "Greg Abbott",
-        "margin": 2943,
-        "margin_pct": 63.97826086956522,
+        "margin": 24226,
+        "margin_pct": 35.74738084698244,
         "winner": "REP"
       },
       "11": {
@@ -507,8 +524,8 @@
         "rep_votes": 9287,
         "other_votes": 137,
         "total_votes": 11189,
-        "dem_candidate": "BETO O'ROURKE",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
         "margin": 7522,
         "margin_pct": 67.22674054875324,
         "winner": "REP"
@@ -540,7 +557,7 @@
         "rep_votes": 23672,
         "other_votes": 4116,
         "total_votes": 30803,
-        "dem_candidate": "Beto O' Rourke",
+        "dem_candidate": "Beto O'Rourke",
         "rep_candidate": "Greg Abbott",
         "margin": 20657,
         "margin_pct": 67.06164983930137,
@@ -705,8 +722,8 @@
         "rep_votes": 0,
         "other_votes": 38132,
         "total_votes": 38132,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Beto O'Rourke",
+        "rep_candidate": "Greg Abbott",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

@@ -14,7 +14,24 @@
     "total_precinct_rows": 3122,
     "matched_total_votes": 2939251,
     "total_votes": 3241109,
-    "generated_at": "2026-03-03T22:22:29.442228+00:00"
+    "generated_at": "2026-03-03T22:22:29.442228+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_6_2012.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.552014+00:00"
+      }
+    ],
+    "districts": 77,
+    "candidate_source": "Data/contests/supreme_court_place_6_2012.json"
   },
   "general": {
     "results": {
@@ -85,14 +102,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 15531,
-        "rep_votes": 38694,
-        "other_votes": 4688,
-        "total_votes": 58913,
+        "dem_votes": 14337,
+        "rep_votes": 35465,
+        "other_votes": 4483,
+        "total_votes": 54285,
         "dem_candidate": "Michele Petty",
         "rep_candidate": "Nathan Hecht",
-        "margin": 23163,
-        "margin_pct": 39.3172983891501,
+        "margin": 21128,
+        "margin_pct": 38.920512112001475,
         "winner": "REP"
       },
       "11": {
@@ -166,8 +183,8 @@
         "rep_votes": 0,
         "other_votes": 10501,
         "total_votes": 10501,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -177,8 +194,8 @@
         "rep_votes": 0,
         "other_votes": 35489,
         "total_votes": 35489,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -397,8 +414,8 @@
         "rep_votes": 30042,
         "other_votes": 1581,
         "total_votes": 37755,
-        "dem_candidate": "MICHELE PETTY",
-        "rep_candidate": "NATHAN HECHT",
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
         "margin": 23910,
         "margin_pct": 63.32936034962257,
         "winner": "REP"
@@ -408,8 +425,8 @@
         "rep_votes": 7710,
         "other_votes": 498,
         "total_votes": 11027,
-        "dem_candidate": "MICHELE PETTY",
-        "rep_candidate": "NATHAN HECHT",
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
         "margin": 4891,
         "margin_pct": 44.35476557540582,
         "winner": "REP"
@@ -496,8 +513,8 @@
         "rep_votes": 0,
         "other_votes": 3784,
         "total_votes": 3784,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -573,8 +590,8 @@
         "rep_votes": 0,
         "other_votes": 25644,
         "total_votes": 25644,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Michele Petty",
+        "rep_candidate": "Nathan Hecht",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

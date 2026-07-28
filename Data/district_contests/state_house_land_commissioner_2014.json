@@ -14,7 +14,24 @@
     "total_precinct_rows": 7558,
     "matched_total_votes": 4557077,
     "total_votes": 4699909,
-    "generated_at": "2026-03-03T22:22:33.158391+00:00"
+    "generated_at": "2026-03-03T22:22:33.158391+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "land_commissioner_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 146,
+    "candidate_source": "Data/contests/land_commissioner_2014.json"
   },
   "general": {
     "results": {
@@ -118,14 +135,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 7456,
-        "rep_votes": 25861,
-        "other_votes": 1725,
-        "total_votes": 35042,
+        "dem_votes": 6903,
+        "rep_votes": 23835,
+        "other_votes": 1585,
+        "total_votes": 32323,
         "dem_candidate": "John Cook",
         "rep_candidate": "George P. Bush",
-        "margin": 18405,
-        "margin_pct": 52.52268706124079,
+        "margin": 16932,
+        "margin_pct": 52.38375150821396,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 14658,
         "total_votes": 20585,
         "dem_candidate": "John Cook",
-        "rep_candidate": "",
+        "rep_candidate": "George P. Bush",
         "margin": -5927,
         "margin_pct": -28.792135125001302,
         "winner": "DEM"
@@ -254,8 +271,8 @@
         "rep_votes": 0,
         "other_votes": 36118,
         "total_votes": 36118,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -639,8 +656,8 @@
         "rep_votes": 10242,
         "other_votes": 709,
         "total_votes": 12764,
-        "dem_candidate": "JOHN COOK",
-        "rep_candidate": "GEORGE P. BUSH",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": 8429,
         "margin_pct": 66.03729238483234,
         "winner": "REP"
@@ -661,8 +678,8 @@
         "rep_votes": 0,
         "other_votes": 40075,
         "total_votes": 40075,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -672,8 +689,8 @@
         "rep_votes": 0,
         "other_votes": 37515,
         "total_votes": 37515,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -683,8 +700,8 @@
         "rep_votes": 0,
         "other_votes": 29520,
         "total_votes": 29520,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -761,7 +778,7 @@
         "other_votes": 2682,
         "total_votes": 8544,
         "dem_candidate": "John Cook",
-        "rep_candidate": "Geroge P Bush",
+        "rep_candidate": "George P. Bush",
         "margin": 4186,
         "margin_pct": 48.993445692883896,
         "winner": "REP"
@@ -793,8 +810,8 @@
         "rep_votes": 3024,
         "other_votes": 608,
         "total_votes": 10713,
-        "dem_candidate": "JOHN COOK",
-        "rep_candidate": "GEORGE P. BUSH",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": -4057,
         "margin_pct": -37.86987771865957,
         "winner": "DEM"
@@ -804,8 +821,8 @@
         "rep_votes": 3023,
         "other_votes": 668,
         "total_votes": 12717,
-        "dem_candidate": "JOHN COOK",
-        "rep_candidate": "GEORGE P. BUSH",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": -6003,
         "margin_pct": -47.20675481952782,
         "winner": "DEM"
@@ -815,8 +832,8 @@
         "rep_votes": 6775,
         "other_votes": 961,
         "total_votes": 17449,
-        "dem_candidate": "JOHN COOK",
-        "rep_candidate": "GEORGE P. BUSH",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": -2938,
         "margin_pct": -16.836566122562566,
         "winner": "DEM"
@@ -826,8 +843,8 @@
         "rep_votes": 10414,
         "other_votes": 1231,
         "total_votes": 23542,
-        "dem_candidate": "JOHN COOK",
-        "rep_candidate": "GEORGE P. BUSH",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": -1483,
         "margin_pct": -6.299379831789992,
         "winner": "DEM"
@@ -837,8 +854,8 @@
         "rep_votes": 5307,
         "other_votes": 741,
         "total_votes": 14223,
-        "dem_candidate": "JOHN COOK",
-        "rep_candidate": "GEORGE P. BUSH",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": -2868,
         "margin_pct": -20.164522252689306,
         "winner": "DEM"
@@ -1134,8 +1151,8 @@
         "rep_votes": 0,
         "other_votes": 35059,
         "total_votes": 35059,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "John Cook",
+        "rep_candidate": "George P. Bush",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

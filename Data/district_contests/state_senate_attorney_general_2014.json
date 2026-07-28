@@ -14,7 +14,8 @@
     "total_precinct_rows": 7845,
     "matched_total_votes": 4673157,
     "total_votes": 4837105,
-    "generated_at": "2026-03-03T22:22:30.633059+00:00"
+    "generated_at": "2026-03-03T22:22:30.633059+00:00",
+    "candidate_source": "Data/contests/attorney_general_2014.json"
   },
   "general": {
     "results": {
@@ -331,8 +332,8 @@
         "rep_votes": 28532,
         "other_votes": 4001,
         "total_votes": 78120,
-        "dem_candidate": "SAM HOUSTON",
-        "rep_candidate": "KEN PAXTON",
+        "dem_candidate": "Sam Houston",
+        "rep_candidate": "Ken Paxton",
         "margin": -17055,
         "margin_pct": -21.831797235023043,
         "winner": "DEM"

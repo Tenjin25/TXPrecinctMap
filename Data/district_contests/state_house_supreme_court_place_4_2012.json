@@ -14,7 +14,24 @@
     "total_precinct_rows": 3112,
     "matched_total_votes": 2427157,
     "total_votes": 2724606,
-    "generated_at": "2026-03-03T22:22:29.232852+00:00"
+    "generated_at": "2026-03-03T22:22:29.232852+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_4_2012.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.552014+00:00"
+      }
+    ],
+    "districts": 77,
+    "candidate_source": "Data/contests/supreme_court_place_4_2012.json"
   },
   "general": {
     "results": {
@@ -86,13 +103,13 @@
       },
       "10": {
         "dem_votes": 0,
-        "rep_votes": 42290,
-        "other_votes": 16614,
-        "total_votes": 58904,
+        "rep_votes": 38269,
+        "other_votes": 16007,
+        "total_votes": 54276,
         "dem_candidate": "",
         "rep_candidate": "John Devine",
-        "margin": 42290,
-        "margin_pct": 71.79478473448323,
+        "margin": 38269,
+        "margin_pct": 70.50814356253224,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 3472,
         "total_votes": 3472,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "John Devine",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -178,7 +195,7 @@
         "other_votes": 7778,
         "total_votes": 7778,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "John Devine",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -255,7 +272,7 @@
         "other_votes": 1725,
         "total_votes": 5950,
         "dem_candidate": "",
-        "rep_candidate": "Under Votes",
+        "rep_candidate": "John Devine",
         "margin": 4225,
         "margin_pct": 71.00840336134453,
         "winner": "REP"
@@ -398,7 +415,7 @@
         "other_votes": 3770,
         "total_votes": 37755,
         "dem_candidate": "",
-        "rep_candidate": "JOHN DEVINE",
+        "rep_candidate": "John Devine",
         "margin": 33985,
         "margin_pct": 90.01456760693948,
         "winner": "REP"
@@ -409,7 +426,7 @@
         "other_votes": 1292,
         "total_votes": 11029,
         "dem_candidate": "",
-        "rep_candidate": "JOHN DEVINE",
+        "rep_candidate": "John Devine",
         "margin": 9737,
         "margin_pct": 88.28542932269471,
         "winner": "REP"
@@ -497,7 +514,7 @@
         "other_votes": 2176,
         "total_votes": 2176,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "John Devine",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -508,7 +525,7 @@
         "other_votes": 811,
         "total_votes": 3642,
         "dem_candidate": "",
-        "rep_candidate": "Under Votes",
+        "rep_candidate": "John Devine",
         "margin": 2831,
         "margin_pct": 77.73201537616694,
         "winner": "REP"
@@ -574,7 +591,7 @@
         "other_votes": 22174,
         "total_votes": 22174,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "John Devine",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

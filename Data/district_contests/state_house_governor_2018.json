@@ -10,7 +10,23 @@
     "total_precinct_rows": 8667,
     "matched_total_votes": 8330356,
     "total_votes": 8343440,
-    "generated_at": "2026-03-04T02:00:27.426601+00:00"
+    "generated_at": "2026-03-04T02:00:27.426601+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "governor_2018.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:06.814685+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 16637,
-        "rep_votes": 46961,
-        "other_votes": 1026,
-        "total_votes": 64624,
+        "dem_votes": 15879,
+        "rep_votes": 43647,
+        "other_votes": 975,
+        "total_votes": 60501,
         "dem_candidate": "Lupe Valdez",
         "rep_candidate": "Greg Abbott",
-        "margin": 30324,
-        "margin_pct": 46.92374350086655,
+        "margin": 27768,
+        "margin_pct": 45.89676203699112,
         "winner": "REP"
       },
       "11": {

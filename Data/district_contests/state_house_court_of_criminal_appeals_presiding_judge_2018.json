@@ -10,7 +10,23 @@
     "total_precinct_rows": 8667,
     "matched_total_votes": 8197597,
     "total_votes": 8210446,
-    "generated_at": "2026-03-04T02:00:26.476965+00:00"
+    "generated_at": "2026-03-04T02:00:26.476965+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_presiding_judge_2018.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:06.814685+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 17858,
-        "rep_votes": 44324,
-        "other_votes": 1447,
-        "total_votes": 63629,
+        "dem_votes": 17043,
+        "rep_votes": 41103,
+        "other_votes": 1381,
+        "total_votes": 59527,
         "dem_candidate": "Maria T. (Terri) Jackson",
         "rep_candidate": "Sharon Keller",
-        "margin": 26466,
-        "margin_pct": 41.59424161938738,
+        "margin": 24060,
+        "margin_pct": 40.418633561241116,
         "winner": "REP"
       },
       "11": {

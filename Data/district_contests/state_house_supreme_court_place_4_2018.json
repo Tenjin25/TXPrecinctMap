@@ -10,7 +10,23 @@
     "total_precinct_rows": 8667,
     "matched_total_votes": 8179198,
     "total_votes": 8192012,
-    "generated_at": "2026-03-04T02:00:31.608850+00:00"
+    "generated_at": "2026-03-04T02:00:31.608850+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "supreme_court_place_4_2018.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:06.814685+00:00"
+      }
+    ],
+    "districts": 150
   },
   "general": {
     "results": {
@@ -114,14 +130,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 18229,
-        "rep_votes": 45086,
+        "dem_votes": 17379,
+        "rep_votes": 41846,
         "other_votes": 0,
-        "total_votes": 63315,
+        "total_votes": 59225,
         "dem_candidate": "R.K. Sandill",
         "rep_candidate": "John Devine",
-        "margin": 26857,
-        "margin_pct": 42.41806838821765,
+        "margin": 24467,
+        "margin_pct": 41.31194596876319,
         "winner": "REP"
       },
       "11": {

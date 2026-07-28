@@ -14,7 +14,24 @@
     "total_precinct_rows": 5948,
     "matched_total_votes": 4001147,
     "total_votes": 4795254,
-    "generated_at": "2026-03-03T22:22:52.076936+00:00"
+    "generated_at": "2026-03-03T22:22:52.076936+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "railroad_commissioner_2022.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:07.175310+00:00"
+      }
+    ],
+    "districts": 104,
+    "candidate_source": "Data/contests/railroad_commissioner_2022.json"
   },
   "general": {
     "results": {
@@ -78,8 +95,8 @@
         "rep_votes": 23902,
         "other_votes": 771,
         "total_votes": 32890,
-        "dem_candidate": "LUKE WARFORD",
-        "rep_candidate": "WAYNE CHRISTIAN",
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
         "margin": 15685,
         "margin_pct": 47.68926725448465,
         "winner": "REP"
@@ -107,14 +124,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 735,
-        "rep_votes": 3664,
-        "other_votes": 201,
-        "total_votes": 4600,
+        "dem_votes": 18858,
+        "rep_votes": 44852,
+        "other_votes": 2404,
+        "total_votes": 66114,
         "dem_candidate": "Luke Warford",
         "rep_candidate": "Wayne Christian",
-        "margin": 2929,
-        "margin_pct": 63.67391304347826,
+        "margin": 25994,
+        "margin_pct": 39.31693741113833,
         "winner": "REP"
       },
       "11": {
@@ -507,8 +524,8 @@
         "rep_votes": 9096,
         "other_votes": 270,
         "total_votes": 11017,
-        "dem_candidate": "LUKE WARFORD",
-        "rep_candidate": "WAYNE CHRISTIAN",
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
         "margin": 7445,
         "margin_pct": 67.5773804120904,
         "winner": "REP"
@@ -705,8 +722,8 @@
         "rep_votes": 0,
         "other_votes": 37351,
         "total_votes": 37351,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Luke Warford",
+        "rep_candidate": "Wayne Christian",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

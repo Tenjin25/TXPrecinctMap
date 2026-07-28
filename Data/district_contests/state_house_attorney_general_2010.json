@@ -14,7 +14,24 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 7313,
     "total_votes": 8164,
-    "generated_at": "2026-03-03T22:22:27.539032+00:00"
+    "generated_at": "2026-03-03T22:22:27.539032+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "attorney_general_2010.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.514179+00:00"
+      }
+    ],
+    "districts": 2,
+    "candidate_source": "Data/contests/attorney_general_2010.json"
   },
   "general": {
     "results": {
@@ -23,10 +40,21 @@
         "rep_votes": 4600,
         "other_votes": 248,
         "total_votes": 7313,
-        "dem_candidate": "BARBARA ANN RADNOFSKY",
-        "rep_candidate": "GREG ABBOTT",
+        "dem_candidate": "Barbara Ann Radnofsky",
+        "rep_candidate": "Greg Abbott",
         "margin": 2135,
         "margin_pct": 29.19458498564201,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 6416,
+        "rep_votes": 23707,
+        "other_votes": 804,
+        "total_votes": 30927,
+        "dem_candidate": "Barbara Ann Radnofsky",
+        "rep_candidate": "Greg Abbott",
+        "margin": 17291,
+        "margin_pct": 55.90907621172438,
         "winner": "REP"
       }
     }

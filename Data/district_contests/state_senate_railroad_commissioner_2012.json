@@ -14,7 +14,8 @@
     "total_precinct_rows": 4310,
     "matched_total_votes": 6720245,
     "total_votes": 7508572,
-    "generated_at": "2026-03-03T22:22:28.880353+00:00"
+    "generated_at": "2026-03-03T22:22:28.880353+00:00",
+    "candidate_source": "Data/contests/railroad_commissioner_2012.json"
   },
   "general": {
     "results": {
@@ -255,7 +256,7 @@
         "other_votes": 504,
         "total_votes": 2059,
         "dem_candidate": "Dale Henry",
-        "rep_candidate": "Christi Craddick",
+        "rep_candidate": "Barry Smitherman",
         "margin": -35,
         "margin_pct": -1.6998542982030111,
         "winner": "DEM"

@@ -14,7 +14,24 @@
     "total_precinct_rows": 7544,
     "matched_total_votes": 5005381,
     "total_votes": 5167047,
-    "generated_at": "2026-03-03T22:22:35.842682+00:00"
+    "generated_at": "2026-03-03T22:22:35.842682+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "us_senate_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 140,
+    "candidate_source": "Data/contests/us_senate_2014.json"
   },
   "general": {
     "results": {
@@ -118,14 +135,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 7225,
-        "rep_votes": 26128,
-        "other_votes": 1689,
-        "total_votes": 35042,
+        "dem_votes": 6703,
+        "rep_votes": 24106,
+        "other_votes": 1514,
+        "total_votes": 32323,
         "dem_candidate": "David M. Alameel",
         "rep_candidate": "John Cornyn",
-        "margin": 18903,
-        "margin_pct": 53.94383882198505,
+        "margin": 17403,
+        "margin_pct": 53.84091823159979,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 14917,
         "total_votes": 20585,
         "dem_candidate": "David M. Alameel",
-        "rep_candidate": "",
+        "rep_candidate": "John Cornyn",
         "margin": -5668,
         "margin_pct": -27.53367166038276,
         "winner": "DEM"
@@ -255,7 +272,7 @@
         "other_votes": 234,
         "total_votes": 860,
         "dem_candidate": "David M. Alameel",
-        "rep_candidate": "",
+        "rep_candidate": "John Cornyn",
         "margin": -626,
         "margin_pct": -72.79069767441861,
         "winner": "DEM"
@@ -452,8 +469,8 @@
         "rep_votes": 0,
         "other_votes": 30346,
         "total_votes": 30346,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -551,7 +568,7 @@
         "rep_votes": 38383,
         "other_votes": 2569,
         "total_votes": 49111,
-        "dem_candidate": "DAVID M. ALAMEEL",
+        "dem_candidate": "David M. Alameel",
         "rep_candidate": "John Cornyn",
         "margin": 30224,
         "margin_pct": 61.5422206837572,
@@ -628,8 +645,8 @@
         "rep_votes": 10330,
         "other_votes": 764,
         "total_votes": 12764,
-        "dem_candidate": "DAVID M. ALAMEEL",
-        "rep_candidate": "JOHN CORNYN",
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
         "margin": 8660,
         "margin_pct": 67.84706988404888,
         "winner": "REP"
@@ -650,8 +667,8 @@
         "rep_votes": 0,
         "other_votes": 40172,
         "total_votes": 40172,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -661,8 +678,8 @@
         "rep_votes": 0,
         "other_votes": 37758,
         "total_votes": 37758,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -672,8 +689,8 @@
         "rep_votes": 0,
         "other_votes": 29597,
         "total_votes": 29597,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -1068,8 +1085,8 @@
         "rep_votes": 0,
         "other_votes": 35156,
         "total_votes": 35156,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "David M. Alameel",
+        "rep_candidate": "John Cornyn",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

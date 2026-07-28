@@ -14,7 +14,8 @@
     "total_precinct_rows": 3186,
     "matched_total_votes": 3283008,
     "total_votes": 4436331,
-    "generated_at": "2026-03-03T22:22:53.615080+00:00"
+    "generated_at": "2026-03-03T22:22:53.615080+00:00",
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_7_2024.json"
   },
   "general": {
     "results": {
@@ -23,7 +24,7 @@
         "rep_votes": 54871,
         "other_votes": 3748,
         "total_votes": 70702,
-        "dem_candidate": "NANCY MULDER",
+        "dem_candidate": "Nancy Mulder",
         "rep_candidate": "Gina Parker",
         "margin": 42788,
         "margin_pct": 60.518797205171005,
@@ -144,8 +145,8 @@
         "rep_votes": 19721,
         "other_votes": 217008,
         "total_votes": 244989,
-        "dem_candidate": "NANCY MULDER",
-        "rep_candidate": "GINA PARKER",
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
         "margin": 11461,
         "margin_pct": 4.678166944876278,
         "winner": "REP"
@@ -210,8 +211,8 @@
         "rep_votes": 0,
         "other_votes": 254925,
         "total_votes": 254925,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -221,8 +222,8 @@
         "rep_votes": 61485,
         "other_votes": 3435,
         "total_votes": 82561,
-        "dem_candidate": "NANCY MULDER",
-        "rep_candidate": "GINA PARKER",
+        "dem_candidate": "Nancy Mulder",
+        "rep_candidate": "Gina Parker",
         "margin": 43844,
         "margin_pct": 53.10496497302613,
         "winner": "REP"

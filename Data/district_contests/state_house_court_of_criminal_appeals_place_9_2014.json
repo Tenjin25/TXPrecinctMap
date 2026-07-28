@@ -14,7 +14,24 @@
     "total_precinct_rows": 6271,
     "matched_total_votes": 3267706,
     "total_votes": 3308880,
-    "generated_at": "2026-03-03T22:22:32.203885+00:00"
+    "generated_at": "2026-03-03T22:22:32.203885+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "court_of_criminal_appeals_place_9_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 134,
+    "candidate_source": "Data/contests/court_of_criminal_appeals_place_9_2014.json"
   },
   "general": {
     "results": {
@@ -119,13 +136,13 @@
       },
       "10": {
         "dem_votes": 0,
-        "rep_votes": 26152,
-        "other_votes": 8890,
-        "total_votes": 35042,
+        "rep_votes": 24063,
+        "other_votes": 8260,
+        "total_votes": 32323,
         "dem_candidate": "",
         "rep_candidate": "David Newell",
-        "margin": 26152,
-        "margin_pct": 74.63044346783859,
+        "margin": 24063,
+        "margin_pct": 74.44544132660954,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 20585,
         "total_votes": 20585,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -255,7 +272,7 @@
         "other_votes": 8045,
         "total_votes": 8045,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -354,7 +371,7 @@
         "other_votes": 5952,
         "total_votes": 5952,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -475,7 +492,7 @@
         "other_votes": 21391,
         "total_votes": 21391,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -486,7 +503,7 @@
         "other_votes": 51858,
         "total_votes": 51858,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -497,7 +514,7 @@
         "other_votes": 45552,
         "total_votes": 45552,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -508,7 +525,7 @@
         "other_votes": 37962,
         "total_votes": 37962,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -519,7 +536,7 @@
         "other_votes": 30628,
         "total_votes": 30628,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -530,7 +547,7 @@
         "other_votes": 18830,
         "total_votes": 18830,
         "dem_candidate": "",
-        "rep_candidate": "",
+        "rep_candidate": "David Newell",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -618,7 +635,7 @@
         "other_votes": 2356,
         "total_votes": 12764,
         "dem_candidate": "",
-        "rep_candidate": "DAVID NEWELL",
+        "rep_candidate": "David Newell",
         "margin": 10408,
         "margin_pct": 81.54183641491696,
         "winner": "REP"
@@ -695,7 +712,7 @@
         "other_votes": 3243,
         "total_votes": 7408,
         "dem_candidate": "",
-        "rep_candidate": "DAVID NEWELL",
+        "rep_candidate": "David Newell",
         "margin": 4165,
         "margin_pct": 56.22300215982722,
         "winner": "REP"
@@ -706,7 +723,7 @@
         "other_votes": 3870,
         "total_votes": 7845,
         "dem_candidate": "",
-        "rep_candidate": "DAVID NEWELL",
+        "rep_candidate": "David Newell",
         "margin": 3975,
         "margin_pct": 50.66835474875416,
         "winner": "REP"
@@ -717,7 +734,7 @@
         "other_votes": 4981,
         "total_votes": 12858,
         "dem_candidate": "",
-        "rep_candidate": "DAVID NEWELL",
+        "rep_candidate": "David Newell",
         "margin": 7877,
         "margin_pct": 61.26174917292825,
         "winner": "REP"
@@ -728,7 +745,7 @@
         "other_votes": 6117,
         "total_votes": 18263,
         "dem_candidate": "",
-        "rep_candidate": "DAVID NEWELL",
+        "rep_candidate": "David Newell",
         "margin": 12146,
         "margin_pct": 66.50605048458632,
         "winner": "REP"
@@ -739,7 +756,7 @@
         "other_votes": 4217,
         "total_votes": 10805,
         "dem_candidate": "",
-        "rep_candidate": "DAVID NEWELL",
+        "rep_candidate": "David Newell",
         "margin": 6588,
         "margin_pct": 60.9717723276261,
         "winner": "REP"

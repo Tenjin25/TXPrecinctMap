@@ -14,7 +14,8 @@
     "total_precinct_rows": 6325,
     "matched_total_votes": 3726065,
     "total_votes": 3771983,
-    "generated_at": "2026-03-03T22:22:35.114963+00:00"
+    "generated_at": "2026-03-03T22:22:35.114963+00:00",
+    "candidate_source": "Data/contests/supreme_court_place_7_2014.json"
   },
   "general": {
     "results": {
@@ -166,8 +167,8 @@
         "rep_votes": 0,
         "other_votes": 214994,
         "total_votes": 214994,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -331,8 +332,8 @@
         "rep_votes": 27362,
         "other_votes": 3264,
         "total_votes": 76993,
-        "dem_candidate": "GINA BENAVIDES",
-        "rep_candidate": "JEFF BOYD",
+        "dem_candidate": "Gina Benavides",
+        "rep_candidate": "Jeff Boyd",
         "margin": -19005,
         "margin_pct": -24.68406218747159,
         "winner": "DEM"

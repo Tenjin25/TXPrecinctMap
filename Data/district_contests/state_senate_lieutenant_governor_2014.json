@@ -14,7 +14,8 @@
     "total_precinct_rows": 7849,
     "matched_total_votes": 4683153,
     "total_votes": 4848203,
-    "generated_at": "2026-03-03T22:22:33.843410+00:00"
+    "generated_at": "2026-03-03T22:22:33.843410+00:00",
+    "candidate_source": "Data/contests/lieutenant_governor_2014.json"
   },
   "general": {
     "results": {
@@ -331,8 +332,8 @@
         "rep_votes": 28690,
         "other_votes": 2980,
         "total_votes": 78892,
-        "dem_candidate": "LETICIA VAN DE PUTTE",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": -18532,
         "margin_pct": -23.490341225979822,
         "winner": "DEM"

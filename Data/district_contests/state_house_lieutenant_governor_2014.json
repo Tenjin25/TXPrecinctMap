@@ -14,7 +14,24 @@
     "total_precinct_rows": 7849,
     "matched_total_votes": 4683153,
     "total_votes": 4848203,
-    "generated_at": "2026-03-03T22:22:33.669841+00:00"
+    "generated_at": "2026-03-03T22:22:33.669841+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "lieutenant_governor_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-28T17:25:05.728165+00:00"
+      }
+    ],
+    "districts": 146,
+    "candidate_source": "Data/contests/lieutenant_governor_2014.json"
   },
   "general": {
     "results": {
@@ -23,7 +40,7 @@
         "rep_votes": 23352,
         "other_votes": 3912,
         "total_votes": 33809,
-        "dem_candidate": "Leticia van de Putte",
+        "dem_candidate": "Leticia Van de Putte",
         "rep_candidate": "Dan Patrick",
         "margin": 16807,
         "margin_pct": 49.711615250377115,
@@ -118,14 +135,14 @@
         "winner": "REP"
       },
       "10": {
-        "dem_votes": 8197,
-        "rep_votes": 25361,
-        "other_votes": 1484,
-        "total_votes": 35042,
+        "dem_votes": 7589,
+        "rep_votes": 23386,
+        "other_votes": 1348,
+        "total_votes": 32323,
         "dem_candidate": "Leticia Van de Putte",
         "rep_candidate": "Dan Patrick",
-        "margin": 17164,
-        "margin_pct": 48.98122253296045,
+        "margin": 15797,
+        "margin_pct": 48.87232001980014,
         "winner": "REP"
       },
       "11": {
@@ -167,7 +184,7 @@
         "other_votes": 13781,
         "total_votes": 20585,
         "dem_candidate": "Leticia Van de Putte",
-        "rep_candidate": "",
+        "rep_candidate": "Dan Patrick",
         "margin": -6804,
         "margin_pct": -33.053196494797625,
         "winner": "DEM"
@@ -254,8 +271,8 @@
         "rep_votes": 0,
         "other_votes": 36379,
         "total_votes": 36379,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -562,7 +579,7 @@
         "rep_votes": 36556,
         "other_votes": 1705,
         "total_votes": 48910,
-        "dem_candidate": "LETICIA VAN DE PUTTE",
+        "dem_candidate": "Leticia Van de Putte",
         "rep_candidate": "Dan Patrick",
         "margin": 25907,
         "margin_pct": 52.96871805356778,
@@ -606,7 +623,7 @@
         "rep_votes": 26498,
         "other_votes": 1257,
         "total_votes": 34079,
-        "dem_candidate": "Leticia Van De Putte",
+        "dem_candidate": "Leticia Van de Putte",
         "rep_candidate": "Dan Patrick",
         "margin": 20174,
         "margin_pct": 59.19774641274685,
@@ -639,8 +656,8 @@
         "rep_votes": 10171,
         "other_votes": 608,
         "total_votes": 12764,
-        "dem_candidate": "LETICIA VAN DE PUTTE",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": 8186,
         "margin_pct": 64.13350047007208,
         "winner": "REP"
@@ -661,8 +678,8 @@
         "rep_votes": 0,
         "other_votes": 40341,
         "total_votes": 40341,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -672,8 +689,8 @@
         "rep_votes": 0,
         "other_votes": 37948,
         "total_votes": 37948,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -683,8 +700,8 @@
         "rep_votes": 0,
         "other_votes": 29698,
         "total_votes": 29698,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"
@@ -793,8 +810,8 @@
         "rep_votes": 3123,
         "other_votes": 414,
         "total_votes": 10704,
-        "dem_candidate": "LETICIA VAN DE PUTTE",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": -4044,
         "margin_pct": -37.780269058295964,
         "winner": "DEM"
@@ -804,8 +821,8 @@
         "rep_votes": 2819,
         "other_votes": 412,
         "total_votes": 12683,
-        "dem_candidate": "LETICIA VAN DE PUTTE",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": -6633,
         "margin_pct": -52.30065746931135,
         "winner": "DEM"
@@ -815,8 +832,8 @@
         "rep_votes": 6636,
         "other_votes": 719,
         "total_votes": 17425,
-        "dem_candidate": "LETICIA VAN DE PUTTE",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": -3434,
         "margin_pct": -19.7062352869044,
         "winner": "DEM"
@@ -826,8 +843,8 @@
         "rep_votes": 10574,
         "other_votes": 899,
         "total_votes": 23515,
-        "dem_candidate": "LETICIA VAN DE PUTTE",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": -1468,
         "margin_pct": -6.24282372953434,
         "winner": "DEM"
@@ -837,8 +854,8 @@
         "rep_votes": 5341,
         "other_votes": 512,
         "total_votes": 14216,
-        "dem_candidate": "LETICIA VAN DE PUTTE",
-        "rep_candidate": "DAN PATRICK",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": -3022,
         "margin_pct": -21.257737760270118,
         "winner": "DEM"
@@ -1134,8 +1151,8 @@
         "rep_votes": 0,
         "other_votes": 35250,
         "total_votes": 35250,
-        "dem_candidate": "",
-        "rep_candidate": "",
+        "dem_candidate": "Leticia Van de Putte",
+        "rep_candidate": "Dan Patrick",
         "margin": 0,
         "margin_pct": 0.0,
         "winner": "TIE"

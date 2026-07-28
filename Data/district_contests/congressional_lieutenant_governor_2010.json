@@ -14,7 +14,8 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 7310,
     "total_votes": 8161,
-    "generated_at": "2026-03-03T22:22:27.560789+00:00"
+    "generated_at": "2026-03-03T22:22:27.560789+00:00",
+    "candidate_source": "Data/contests/lieutenant_governor_2010.json"
   },
   "general": {
     "results": {
@@ -23,8 +24,8 @@
         "rep_votes": 2180,
         "other_votes": 157,
         "total_votes": 3328,
-        "dem_candidate": "LINDA CHAVEZ-THOMPSON",
-        "rep_candidate": "DAVID DEWHURST",
+        "dem_candidate": "Linda ChavezThompson",
+        "rep_candidate": "David Dewhurst",
         "margin": 1189,
         "margin_pct": 35.72716346153847,
         "winner": "REP"
@@ -34,8 +35,8 @@
         "rep_votes": 2083,
         "other_votes": 215,
         "total_votes": 3982,
-        "dem_candidate": "LINDA CHAVEZ-THOMPSON",
-        "rep_candidate": "DAVID DEWHURST",
+        "dem_candidate": "Linda ChavezThompson",
+        "rep_candidate": "David Dewhurst",
         "margin": 399,
         "margin_pct": 10.020090406830738,
         "winner": "REP"

@@ -14,7 +14,24 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 7310,
     "total_votes": 8161,
-    "generated_at": "2026-03-03T22:22:27.561789+00:00"
+    "generated_at": "2026-03-03T22:22:27.561789+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "lieutenant_governor_2010.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.514179+00:00"
+      }
+    ],
+    "districts": 2,
+    "candidate_source": "Data/contests/lieutenant_governor_2010.json"
   },
   "general": {
     "results": {
@@ -23,10 +40,21 @@
         "rep_votes": 4263,
         "other_votes": 372,
         "total_votes": 7310,
-        "dem_candidate": "LINDA CHAVEZ-THOMPSON",
-        "rep_candidate": "DAVID DEWHURST",
+        "dem_candidate": "Linda ChavezThompson",
+        "rep_candidate": "David Dewhurst",
         "margin": 1588,
         "margin_pct": 21.723666210670313,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 6620,
+        "rep_votes": 23170,
+        "other_votes": 1157,
+        "total_votes": 30947,
+        "dem_candidate": "Linda ChavezThompson",
+        "rep_candidate": "David Dewhurst",
+        "margin": 16550,
+        "margin_pct": 53.47852780560313,
         "winner": "REP"
       }
     }

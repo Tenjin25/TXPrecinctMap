@@ -14,7 +14,24 @@
     "total_precinct_rows": 26,
     "matched_total_votes": 7116,
     "total_votes": 7952,
-    "generated_at": "2026-03-03T22:22:27.567826+00:00"
+    "generated_at": "2026-03-03T22:22:27.567826+00:00",
+    "exact_coterminous_county_overrides": [
+      {
+        "scope": "state_house",
+        "district": "10",
+        "county": "ELLIS",
+        "county_fips": "139",
+        "tabblock_year": 2020,
+        "tabblocks": 4603,
+        "population": 192455,
+        "crosswalk_file": "block2020_to_state_house_2022.csv",
+        "source_file": "railroad_commissioner_2010.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-28T17:25:05.514179+00:00"
+      }
+    ],
+    "districts": 2,
+    "candidate_source": "Data/contests/railroad_commissioner_2010.json"
   },
   "general": {
     "results": {
@@ -23,10 +40,21 @@
         "rep_votes": 3708,
         "other_votes": 489,
         "total_votes": 7116,
-        "dem_candidate": "JEFF WEEMS",
-        "rep_candidate": "DAVID PORTER",
+        "dem_candidate": "Jeff Weems",
+        "rep_candidate": "David Porter",
         "margin": 789,
         "margin_pct": 11.08768971332209,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 6818,
+        "rep_votes": 22016,
+        "other_votes": 1645,
+        "total_votes": 30479,
+        "dem_candidate": "Jeff Weems",
+        "rep_candidate": "David Porter",
+        "margin": 15198,
+        "margin_pct": 49.86384067718757,
         "winner": "REP"
       }
     }
