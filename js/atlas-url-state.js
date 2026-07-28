@@ -19,7 +19,6 @@
   function normalizeDistrictLinesYear(raw) {
     const year = Number(raw);
     if (year === 2026) return 2026;
-    if (year === 2024) return 2024;
     return 2022;
   }
 

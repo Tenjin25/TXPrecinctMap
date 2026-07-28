@@ -9421,14 +9421,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     };
   }
-  const districtLines2024Btn = document.getElementById('district-lines-2024');
-  if (districtLines2024Btn) {
-    districtLines2024Btn.onclick = function() {
-      if (typeof setDistrictLinesMode === 'function') {
-        setDistrictLinesMode(2024).catch(() => {});
-      }
-    };
-  }
   const districtLines2026Btn = document.getElementById('district-lines-2026');
   if (districtLines2026Btn) {
     districtLines2026Btn.onclick = function() {
@@ -9999,11 +9991,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="section-kicker">District Lines</span>
                 <div class="view-toggle-row" style="display:flex;gap:6px;flex-wrap:wrap;">
                   <button id="district-lines-2022" class="view-toggle-btn active" type="button" data-testid="lines-2022" aria-label="Use 2022 district lines" aria-pressed="true">2022 Lines</button>
-                  <button id="district-lines-2024" class="view-toggle-btn" type="button" data-testid="lines-2024" aria-label="Use 2024 district lines" aria-pressed="false">2024 Lines</button>
                   <button id="district-lines-2026" class="view-toggle-btn" type="button" data-testid="lines-2026" aria-label="Use 2026 district lines" aria-pressed="false">2026 Lines</button>
                 </div>
                 <div style="margin-top:4px;font-size:11px;color:#6b7280;">
-                  2022/2024: CD118 (PlanC2193). 2026: PlanC2333 mid-decade lines for this fall.
+                  2022: CD118 (PlanC2193). 2026: PlanC2333 mid-decade congressional lines.
                 </div>
                 <div id="district-lines-loading-hint" class="district-lines-loading-hint" aria-live="polite" aria-atomic="true"></div>
             </div>
@@ -10413,8 +10404,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-07-28-district-data-refresh';
-    const APP_BUILD_ID = '2026-07-28-district-data-refresh';
+    const DATA_CACHE_BUSTER = '2026-07-28-legislative-aggregation-refresh';
+    const APP_BUILD_ID = '2026-07-28-legislative-aggregation-refresh';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -10829,7 +10820,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let electionData = null; // Flattened array for compatibility
     let contestManifest = [];
     let districtManifest = [];
-    let districtManifestByLines = { '2022': [], '2024': [], '2026': [] };
+    let districtManifestByLines = { '2022': [], '2026': [] };
     let currentDistrictLinesYear = 2022;
     const districtGeometryCache = new Map();
     const districtGeometrySourceKeyById = new Map(); // sourceId -> `${scope}:${path}` currently installed on the map
@@ -12437,7 +12428,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const dirs = CONFIG.paths?.district_contests_dirs || {};
       const scopeKey = (scope || '').toString().trim();
       if (y === 2026 && scopeKey && scopeKey !== 'congressional') {
-        return dirs['2024'] || dirs[String(y)] || CONFIG.paths.district_contests_dir;
+        return dirs['2022'] || CONFIG.paths.district_contests_dir;
       }
       return dirs[String(y)] || CONFIG.paths.district_contests_dir;
     }
@@ -12464,7 +12455,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const y = normalizeDistrictLinesYear(linesYear);
       if (y === 2026) {
         const m2026 = Array.isArray(districtManifestByLines?.['2026']) ? districtManifestByLines['2026'] : [];
-        const m2024 = Array.isArray(districtManifestByLines?.['2024']) ? districtManifestByLines['2024'] : [];
+        const m2022 = Array.isArray(districtManifestByLines?.['2022']) ? districtManifestByLines['2022'] : [];
         const merged = [];
         const seen = new Set();
         const add = (entry) => {
@@ -12478,7 +12469,7 @@ document.addEventListener('DOMContentLoaded', function() {
           merged.push(entry);
         };
         m2026.filter(e => (e?.scope || '').toString().trim() === 'congressional').forEach(add);
-        m2024.filter(e => {
+        m2022.filter(e => {
           const s = (e?.scope || '').toString().trim();
           return s === 'state_house' || s === 'state_senate';
         }).forEach(add);
@@ -13065,27 +13056,15 @@ document.addEventListener('DOMContentLoaded', function() {
       const y = normalizeDistrictLinesYear(linesYear);
       if (scope === 'congressional') {
         if (y === 2026) {
-          return CONFIG.paths.districts_2026 || CONFIG.paths.districts_2024 || CONFIG.paths.districts;
+          return CONFIG.paths.districts_2026 || CONFIG.paths.districts;
         }
-        return y === 2024
-          ? (CONFIG.paths.districts_2024 || CONFIG.paths.districts)
-          : (CONFIG.paths.districts_2022 || CONFIG.paths.districts);
+        return CONFIG.paths.districts_2022 || CONFIG.paths.districts;
       }
       if (scope === 'state_house') {
-        if (y === 2026) {
-          return CONFIG.paths.state_house_2024 || CONFIG.paths.state_house;
-        }
-        return y === 2024
-          ? (CONFIG.paths.state_house_2024 || CONFIG.paths.state_house)
-          : (CONFIG.paths.state_house_2022 || CONFIG.paths.state_house);
+        return CONFIG.paths.state_house_2022 || CONFIG.paths.state_house;
       }
       if (scope === 'state_senate') {
-        if (y === 2026) {
-          return CONFIG.paths.state_senate_2024 || CONFIG.paths.state_senate;
-        }
-        return y === 2024
-          ? (CONFIG.paths.state_senate_2024 || CONFIG.paths.state_senate)
-          : (CONFIG.paths.state_senate_2022 || CONFIG.paths.state_senate);
+        return CONFIG.paths.state_senate_2022 || CONFIG.paths.state_senate;
       }
       return '';
     }
@@ -13101,17 +13080,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const y = normalizeDistrictLinesYear(currentDistrictLinesYear);
       const group = document.getElementById('district-lines-control-group');
       const btn2022 = document.getElementById('district-lines-2022');
-      const btn2024 = document.getElementById('district-lines-2024');
       const btn2026 = document.getElementById('district-lines-2026');
       const showLinesControls = currentView !== 'counties';
       if (group) group.style.display = showLinesControls ? '' : 'none';
       if (btn2022) {
         btn2022.classList.toggle('active', y === 2022);
         btn2022.setAttribute('aria-pressed', y === 2022 ? 'true' : 'false');
-      }
-      if (btn2024) {
-        btn2024.classList.toggle('active', y === 2024);
-        btn2024.setAttribute('aria-pressed', y === 2024 ? 'true' : 'false');
       }
       if (btn2026) {
         const congressView = currentView === 'districts';
@@ -13195,7 +13169,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function shouldWarnDistrictLinesLoad(linesYear) {
       const y = normalizeDistrictLinesYear(linesYear);
-      if (y !== 2024 && y !== 2026) return false;
+      if (y !== 2026) return false;
       const scopes = ['congressional', 'state_house', 'state_senate'];
       return scopes.some(scope => {
         const path = getDistrictGeometryPath(scope, y);
@@ -13228,7 +13202,7 @@ document.addEventListener('DOMContentLoaded', function() {
       updateDistrictLinesToggleUI();
 
       if (appReady) {
-        const showLoading = (nextYear === 2024 || nextYear === 2026) && shouldWarnDistrictLinesLoad(nextYear);
+        const showLoading = nextYear === 2026 && shouldWarnDistrictLinesLoad(nextYear);
         try {
           if (showLoading) showDistrictLinesLoadingModal();
           await refreshDistrictGeometrySources(nextYear);
@@ -19481,30 +19455,6 @@ document.addEventListener('DOMContentLoaded', function() {
           modeledResults[districtId] = buildModeledDistrictResultRow(baseResults[districtId], modeledDef, rowSwingPct, targetTotal);
         });
 
-        // SD-43/44 remain effectively stable across the current 2022/2024 senate plans.
-        // Keep these districts harmonized for modeled statewide contests so switching line mode
-        // does not produce mismatched modeled rows.
-        if (
-          scopeKey === 'state_senate' &&
-          normalizeDistrictLinesYear(linesYear) === 2022 &&
-          (
-            String(modeledDef?.contestType || '') === 'nc_supreme_court_model' ||
-            String(modeledDef?.contestType || '') === 'us_senate_model'
-          )
-        ) {
-          try {
-            const modeled2024 = await buildModeledDistrictSliceNode(scope, modeledDef, 2024);
-            const modeled2024Results = modeled2024?.general?.results || null;
-            if (modeled2024Results) {
-              ['43', '44'].forEach(districtId => {
-                if (modeled2024Results[districtId]) {
-                  modeledResults[districtId] = { ...modeled2024Results[districtId] };
-                }
-              });
-            }
-          } catch (_) {}
-        }
-
         return {
           year: Number(modeledDef.year),
           scope,
@@ -21130,7 +21080,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } : null;
       currentView = view;
       if (currentView !== 'districts' && normalizeDistrictLinesYear(currentDistrictLinesYear) === 2026) {
-        currentDistrictLinesYear = 2024;
+        currentDistrictLinesYear = 2022;
       }
       updateDistrictLinesToggleUI();
 
@@ -21682,9 +21632,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function cvapDistrictPathFor(scope, linesYear) {
       const y = normalizeDistrictLinesYear(linesYear);
       const paths = cvapAggPaths();
-      if (scope === 'congressional') return y === 2026 ? (paths.cd119_2024 || paths.cd118_2022) : (y === 2024 ? paths.cd119_2024 : paths.cd118_2022);
-      if (scope === 'state_house') return y === 2026 ? (paths.state_house_2024 || paths.state_house_2022) : (y === 2024 ? paths.state_house_2024 : paths.state_house_2022);
-      if (scope === 'state_senate') return y === 2026 ? (paths.state_senate_2024 || paths.state_senate_2022) : (y === 2024 ? paths.state_senate_2024 : paths.state_senate_2022);
+      if (scope === 'congressional') return y === 2026 ? (paths.cd119_2024 || paths.cd118_2022) : paths.cd118_2022;
+      if (scope === 'state_house') return paths.state_house_2022;
+      if (scope === 'state_senate') return paths.state_senate_2022;
       return '';
     }
 
@@ -21757,11 +21707,11 @@ document.addEventListener('DOMContentLoaded', function() {
       try { void ensureCvapCountyTotalsLoaded(); } catch (_) {}
       try { void ensureCvapPrecinctTotalsLoaded(); } catch (_) {}
       try {
-        for (const y of [2022, 2024, 2026]) {
+        for (const y of [2022, 2026]) {
           void ensureCvapDistrictTotalsLoaded('congressional', y);
-          void ensureCvapDistrictTotalsLoaded('state_house', y);
-          void ensureCvapDistrictTotalsLoaded('state_senate', y);
         }
+        void ensureCvapDistrictTotalsLoaded('state_house', 2022);
+        void ensureCvapDistrictTotalsLoaded('state_senate', 2022);
       } catch (_) {}
     }
 
@@ -33356,8 +33306,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       try {
         let loadedAnyDistrictManifest = false;
-        districtManifestByLines = { '2022': [], '2024': [], '2026': [] };
-        const manifestLoads = await Promise.all([2022, 2024, 2026].map(async (linesYear) => {
+        districtManifestByLines = { '2022': [], '2026': [] };
+        const manifestLoads = await Promise.all([2022, 2026].map(async (linesYear) => {
           const dir = getActiveDistrictContestsDir(linesYear);
           if (!dir) return { linesYear, files: [], err: null };
           try {
@@ -33393,7 +33343,7 @@ document.addEventListener('DOMContentLoaded', function() {
         districtElectionDataJSON = null;
         districtElectionDataLoadInflight = null;
         districtElectionDataLoadFailed = false;
-        districtManifestByLines = { '2022': [], '2024': [], '2026': [] };
+        districtManifestByLines = { '2022': [], '2026': [] };
         districtManifest = [];
         updateDistrictLinesToggleUI();
       }
