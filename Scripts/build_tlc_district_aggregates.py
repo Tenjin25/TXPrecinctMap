@@ -72,6 +72,10 @@ OFFICE_MAP = {
 }
 
 CANONICAL_CANDIDATE_OVERRIDES = {
+    (2020, "us_senate"): {
+        "dem": "MJ Hegar",
+        "rep": "John Cornyn",
+    },
     (2014, "supreme_court_chief_justice"): {
         "dem": "William Moody",
         "rep": "Nathan Hecht",
