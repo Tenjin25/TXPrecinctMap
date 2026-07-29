@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2014_General_Election_Returns.csv",
-        "source_rows": 236,
-        "applied_at": "2026-07-28T18:12:21.517168+00:00"
+        "source_file": "agriculture_commissioner_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-29T01:23:18.398646+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 7410,
         "rep_votes": 22819,
-        "other_votes": 1255,
-        "total_votes": 31484,
+        "other_votes": 2094,
+        "total_votes": 32323,
         "dem_candidate": "Jim Hogan",
         "rep_candidate": "Sid Miller",
         "margin": 15409,
-        "margin_pct": 48.942319908524965,
+        "margin_pct": 47.67193639204282,
         "winner": "REP"
       },
       "11": {

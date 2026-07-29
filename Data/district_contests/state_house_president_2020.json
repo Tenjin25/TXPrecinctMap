@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2020_General_Election_Returns.csv",
-        "source_rows": 295,
-        "applied_at": "2026-07-28T18:12:27.975943+00:00"
+        "source_file": "president_2020.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-29T01:23:26.649154+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 27565,
         "rep_votes": 56717,
-        "other_votes": 1406,
-        "total_votes": 85688,
+        "other_votes": 1211,
+        "total_votes": 85493,
         "dem_candidate": "Joseph R. Biden",
         "rep_candidate": "Donald J. Trump",
         "margin": 29152,
-        "margin_pct": 34.021099803939876,
+        "margin_pct": 34.098698139028926,
         "winner": "REP"
       },
       "11": {

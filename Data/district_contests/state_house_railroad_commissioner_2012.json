@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2012_General_Election_Returns.csv",
-        "source_rows": 236,
-        "applied_at": "2026-07-28T18:12:19.660607+00:00"
+        "source_file": "railroad_commissioner_2012.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-29T01:23:17.529007+00:00"
       }
     ]
   },
@@ -132,13 +132,13 @@
       },
       "10": {
         "dem_votes": 13275,
-        "rep_votes": 37391,
-        "other_votes": 1921,
-        "total_votes": 52587,
+        "rep_votes": 75400,
+        "other_votes": 9773,
+        "total_votes": 98448,
         "dem_candidate": "Dale Henry",
         "rep_candidate": "Barry Smitherman",
-        "margin": 24116,
-        "margin_pct": 45.8592427786335,
+        "margin": 62125,
+        "margin_pct": 63.10437997724687,
         "winner": "REP"
       },
       "11": {

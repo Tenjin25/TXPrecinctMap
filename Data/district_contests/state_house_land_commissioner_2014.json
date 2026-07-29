@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2014_General_Election_Returns.csv",
-        "source_rows": 236,
-        "applied_at": "2026-07-28T18:12:21.517168+00:00"
+        "source_file": "land_commissioner_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-29T01:23:18.398646+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 6903,
         "rep_votes": 23835,
-        "other_votes": 1070,
-        "total_votes": 31808,
+        "other_votes": 1585,
+        "total_votes": 32323,
         "dem_candidate": "John Cook",
         "rep_candidate": "George P. Bush",
         "margin": 16932,
-        "margin_pct": 53.23189134808853,
+        "margin_pct": 52.38375150821396,
         "winner": "REP"
       },
       "11": {

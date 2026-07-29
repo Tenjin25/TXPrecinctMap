@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2024_General_Election_Returns.csv",
-        "source_rows": 295,
-        "applied_at": "2026-07-28T18:12:32.605963+00:00"
+        "source_file": "railroad_commissioner_2024.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-29T01:23:29.147895+00:00"
       }
     ]
   },

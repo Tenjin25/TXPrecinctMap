@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2012_General_Election_Returns.csv",
-        "source_rows": 236,
-        "applied_at": "2026-07-28T18:12:19.660607+00:00"
+        "source_file": "supreme_court_place_6_2012.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-29T01:23:17.529007+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 14337,
         "rep_votes": 35465,
-        "other_votes": 2499,
-        "total_votes": 52301,
+        "other_votes": 4483,
+        "total_votes": 54285,
         "dem_candidate": "Michele Petty",
         "rep_candidate": "Nathan Hecht",
         "margin": 21128,
-        "margin_pct": 40.396933137033706,
+        "margin_pct": 38.920512112001475,
         "winner": "REP"
       },
       "11": {

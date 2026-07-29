@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2012_General_Election_Returns.csv",
-        "source_rows": 295,
-        "applied_at": "2026-07-28T18:12:19.660607+00:00"
+        "source_file": "president_2012.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-29T01:23:17.529007+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 13881,
         "rep_votes": 39574,
-        "other_votes": 799,
-        "total_votes": 54254,
+        "other_votes": 696,
+        "total_votes": 54151,
         "dem_candidate": "Barack Obama",
         "rep_candidate": "Mitt Romney",
         "margin": 25693,
-        "margin_pct": 47.3568769123014,
+        "margin_pct": 47.44695388820151,
         "winner": "REP"
       },
       "11": {
