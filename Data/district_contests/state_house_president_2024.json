@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2024_General_Election_Returns.csv",
-        "source_rows": 295,
-        "applied_at": "2026-07-28T18:12:32.605963+00:00"
+        "source_file": "president_2024.json",
+        "source_rows": 1,
+        "applied_at": "2026-07-29T01:23:29.147895+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 33850,
         "rep_votes": 64763,
-        "other_votes": 1205,
-        "total_votes": 99818,
+        "other_votes": 944,
+        "total_votes": 99557,
         "dem_candidate": "Kamala D. Harris",
         "rep_candidate": "Donald J. Trump",
         "margin": 30913,
-        "margin_pct": 30.969364242922122,
+        "margin_pct": 31.05055395401629,
         "winner": "REP"
       },
       "11": {

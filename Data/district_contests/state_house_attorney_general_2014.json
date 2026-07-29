@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2014_General_Election_Returns.csv",
-        "source_rows": 236,
-        "applied_at": "2026-07-28T18:12:21.517168+00:00"
+        "source_file": "attorney_general_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-29T01:23:18.398646+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 7598,
         "rep_votes": 23439,
-        "other_votes": 784,
-        "total_votes": 31821,
+        "other_votes": 1286,
+        "total_votes": 32323,
         "dem_candidate": "Sam Houston",
         "rep_candidate": "Ken Paxton",
         "margin": 15841,
-        "margin_pct": 49.78159077338864,
+        "margin_pct": 49.008445998205616,
         "winner": "REP"
       },
       "11": {

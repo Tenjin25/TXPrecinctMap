@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2016_General_Election_Returns.csv",
-        "source_rows": 236,
-        "applied_at": "2026-07-28T18:12:24.375150+00:00"
+        "source_file": "court_of_criminal_appeals_place_5_2016.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-29T01:23:23.155866+00:00"
       }
     ]
   },

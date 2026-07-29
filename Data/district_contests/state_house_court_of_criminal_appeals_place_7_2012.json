@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2012_General_Election_Returns.csv",
-        "source_rows": 118,
-        "applied_at": "2026-07-28T18:12:19.660607+00:00"
+        "source_file": "court_of_criminal_appeals_place_7_2012.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-29T01:23:17.529007+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 0,
         "rep_votes": 38579,
-        "other_votes": 7098,
-        "total_votes": 45677,
+        "other_votes": 15690,
+        "total_votes": 54269,
         "dem_candidate": "",
         "rep_candidate": "Barbara Parker Hervey",
         "margin": 38579,
-        "margin_pct": 84.46045055498391,
+        "margin_pct": 71.08846671211926,
         "winner": "REP"
       },
       "11": {

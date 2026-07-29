@@ -23,9 +23,9 @@
         "tabblocks": 4603,
         "population": 192455,
         "crosswalk_file": "block2020_to_state_house_2022.csv",
-        "source_file": "2024-general-vtds-election-data.zip:2014_General_Election_Returns.csv",
-        "source_rows": 295,
-        "applied_at": "2026-07-28T18:12:21.517168+00:00"
+        "source_file": "us_senate_2014.json",
+        "source_rows": 49,
+        "applied_at": "2026-07-29T01:23:18.398646+00:00"
       }
     ]
   },
@@ -133,12 +133,12 @@
       "10": {
         "dem_votes": 6703,
         "rep_votes": 24106,
-        "other_votes": 1077,
-        "total_votes": 31886,
+        "other_votes": 1514,
+        "total_votes": 32323,
         "dem_candidate": "David M. Alameel",
         "rep_candidate": "John Cornyn",
         "margin": 17403,
-        "margin_pct": 54.57881201781346,
+        "margin_pct": 53.84091823159979,
         "winner": "REP"
       },
       "11": {

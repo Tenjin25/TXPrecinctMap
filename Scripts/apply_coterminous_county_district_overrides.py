@@ -6,19 +6,13 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import zipfile
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
 
-from build_tlc_district_aggregates import (
-    ELECTION_ZIP,
-    candidate_display_name,
-    map_office,
-    party_bucket,
-)
+from build_tlc_district_aggregates import candidate_display_name
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "Data"
@@ -27,37 +21,50 @@ CONTESTS = DATA / "contests"
 DISTRICT_CONTESTS = DATA / "district_contests"
 
 
-def verify_ellis_hd10() -> dict:
+def find_coterminous_county_districts() -> list[dict]:
     path = CROSSWALKS / "block2020_to_state_house_2022.csv"
+    counties_path = DATA / "tl_2020_48_county20.geojson"
     blocks = pd.read_csv(
         path,
         dtype={"block_geoid20": str, "COUNTYFP20": str, "district_num": str},
     )
     blocks["COUNTYFP20"] = blocks["COUNTYFP20"].str.zfill(3)
-    ellis = blocks[blocks["COUNTYFP20"] == "139"]
-    hd10 = blocks[blocks["district_num"] == "10"]
-    if ellis.empty or hd10.empty:
-        raise ValueError("Ellis County or HD-10 has no assigned tabblocks")
-    if set(ellis["district_num"]) != {"10"}:
-        raise ValueError(
-            f"Ellis County is not wholly in HD-10: {sorted(ellis['district_num'].unique())}"
-        )
-    if set(hd10["COUNTYFP20"]) != {"139"}:
-        raise ValueError(
-            f"HD-10 is not wholly in Ellis County: {sorted(hd10['COUNTYFP20'].unique())}"
-        )
-    if set(ellis["block_geoid20"]) != set(hd10["block_geoid20"]):
-        raise ValueError("Ellis County and HD-10 tabblock sets differ")
-    return {
-        "scope": "state_house",
-        "district": "10",
-        "county": "ELLIS",
-        "county_fips": "139",
-        "tabblock_year": 2020,
-        "tabblocks": len(ellis),
-        "population": int(pd.to_numeric(ellis["POP20"], errors="coerce").fillna(0).sum()),
-        "crosswalk_file": path.name,
+    blocks["district_num"] = blocks["district_num"].astype(str)
+
+    counties = json.loads(counties_path.read_text(encoding="utf-8"))
+    county_names = {
+        str(feature.get("properties", {}).get("COUNTYFP20") or "").zfill(3):
+        str(feature.get("properties", {}).get("NAME20") or "").strip().upper()
+        for feature in counties.get("features") or []
     }
+
+    proofs: list[dict] = []
+    for district, district_blocks in blocks.groupby("district_num"):
+        county_fips_values = set(district_blocks["COUNTYFP20"])
+        if len(county_fips_values) != 1:
+            continue
+        county_fips = next(iter(county_fips_values))
+        county_blocks = blocks[blocks["COUNTYFP20"] == county_fips]
+        if set(district_blocks["block_geoid20"]) != set(county_blocks["block_geoid20"]):
+            continue
+        county_name = county_names.get(county_fips, "")
+        if not county_name:
+            raise ValueError(f"No county name found for FIPS {county_fips}")
+        proofs.append(
+            {
+                "scope": "state_house",
+                "district": str(district),
+                "county": county_name,
+                "county_fips": county_fips,
+                "tabblock_year": 2020,
+                "tabblocks": len(district_blocks),
+                "population": int(
+                    pd.to_numeric(district_blocks["POP20"], errors="coerce").fillna(0).sum()
+                ),
+                "crosswalk_file": path.name,
+            }
+        )
+    return sorted(proofs, key=lambda item: int(item["district"]))
 
 
 def exact_result(rows: list[dict], contest_type: str) -> dict:
@@ -93,132 +100,45 @@ def exact_result(rows: list[dict], contest_type: str) -> dict:
     }
 
 
-def load_tlc_ellis_rows(year: int) -> tuple[str, dict[str, list[dict]]]:
-    """Load Ellis returns from the same TLC source used by the district builder."""
-    member_suffix = f"{year}_General_Election_Returns.csv"
-    with zipfile.ZipFile(ELECTION_ZIP) as zf:
-        members = [name for name in zf.namelist() if Path(name).name == member_suffix]
-        if not members:
-            return "", {}
-        member = members[0]
-        with zf.open(member) as source:
-            returns = pd.read_csv(
-                source,
-                dtype={"FIPS": str, "County": str, "Party": str, "Name": str, "Office": str},
-                low_memory=False,
-            )
-    fips = returns["FIPS"].astype(str).str.replace(r"\.0$", "", regex=True).str.zfill(3)
-    county = returns["County"].astype(str).str.strip().str.upper()
-    ellis = returns[(fips == "139") | (county == "ELLIS")].copy()
-    ellis["_contest"] = ellis["Office"].map(map_office)
-    ellis = ellis[ellis["_contest"].notna()].copy()
-    ellis["Votes"] = pd.to_numeric(ellis["Votes"], errors="coerce").fillna(0.0)
-    grouped = {
-        str(contest): rows.to_dict("records")
-        for contest, rows in ellis.groupby("_contest")
-    }
-    return member, grouped
-
-
-def exact_tlc_result(rows: list[dict], contest_type: str, existing: dict) -> dict:
-    votes = {"dem": 0.0, "rep": 0.0, "other": 0.0}
-    names = {"dem": Counter(), "rep": Counter()}
-    for row in rows:
-        bucket = party_bucket(row.get("Party"))
-        value = float(row.get("Votes") or 0)
-        votes[bucket] += value
-        name = str(row.get("Name") or "").strip()
-        if bucket in names and name:
-            names[bucket][name] += value
-
-    dem = round(votes["dem"])
-    rep = round(votes["rep"])
-    other = round(votes["other"])
-    total = dem + rep + other
-    margin = rep - dem
-    return {
-        "dem_votes": dem,
-        "rep_votes": rep,
-        "other_votes": other,
-        "total_votes": total,
-        "dem_candidate": existing.get("dem_candidate")
-        or (candidate_display_name(names["dem"].most_common(1)[0][0], contest_type) if names["dem"] else ""),
-        "rep_candidate": existing.get("rep_candidate")
-        or (candidate_display_name(names["rep"].most_common(1)[0][0], contest_type) if names["rep"] else ""),
-        "margin": margin,
-        "margin_pct": (margin / total) * 100.0 if total else 0.0,
-        "winner": "REP" if rep > dem else ("DEM" if dem > rep else "TIE"),
-    }
-
-
-def apply_year(year: int, proof: dict) -> list[str]:
+def apply_year(year: int, proofs: list[dict]) -> list[str]:
     changed: list[str] = []
     generated_at = datetime.now(timezone.utc).isoformat()
-    if year >= 2012:
-        member, contests = load_tlc_ellis_rows(year)
-        for contest_type, county_rows in sorted(contests.items()):
-            output_path = DISTRICT_CONTESTS / f"state_house_{contest_type}_{year}.json"
-            if not output_path.exists():
-                continue
-            payload = json.loads(output_path.read_text(encoding="utf-8"))
-            results = payload.setdefault("general", {}).setdefault("results", {})
-            existing = results.get(proof["district"]) or {}
-            results[proof["district"]] = exact_tlc_result(county_rows, contest_type, existing)
-            meta = payload.setdefault("meta", {})
-            overrides = [
-                item
-                for item in meta.get("exact_coterminous_county_overrides") or []
-                if str(item.get("district")) != proof["district"]
-            ]
-            overrides.append(
-                {
-                    **proof,
-                    "source_file": f"{ELECTION_ZIP.name}:{member}",
-                    "source_rows": len(county_rows),
-                    "applied_at": generated_at,
-                }
-            )
-            meta["exact_coterminous_county_overrides"] = overrides
-            meta["districts"] = len(results)
-            output_path.write_text(
-                json.dumps(payload, ensure_ascii=True, indent=2) + "\n",
-                encoding="utf-8",
-            )
-            changed.append(output_path.name)
-        return changed
-
     for source_path in sorted(CONTESTS.glob(f"*_{year}.json")):
         contest_type = source_path.stem[: -(len(str(year)) + 1)]
         source = json.loads(source_path.read_text(encoding="utf-8"))
-        county_rows = [
-            row
-            for row in source.get("rows") or []
-            if str(row.get("county") or "").strip().upper().split(" - ", 1)[0] == proof["county"]
-        ]
-        if not county_rows:
-            continue
-
         output_path = DISTRICT_CONTESTS / f"state_house_{contest_type}_{year}.json"
         if not output_path.exists():
             continue
         payload = json.loads(output_path.read_text(encoding="utf-8"))
         results = payload.setdefault("general", {}).setdefault("results", {})
-        results[proof["district"]] = exact_result(county_rows, contest_type)
-
         meta = payload.setdefault("meta", {})
+        proof_districts = {proof["district"] for proof in proofs}
         overrides = [
-            item
-            for item in meta.get("exact_coterminous_county_overrides") or []
-            if str(item.get("district")) != proof["district"]
+            item for item in meta.get("exact_coterminous_county_overrides") or []
+            if str(item.get("district")) not in proof_districts
         ]
-        overrides.append(
-            {
-                **proof,
-                "source_file": source_path.name,
-                "source_rows": len(county_rows),
-                "applied_at": generated_at,
-            }
-        )
+        applied = False
+        for proof in proofs:
+            county_rows = [
+                row
+                for row in source.get("rows") or []
+                if str(row.get("county") or "").strip().upper().split(" - ", 1)[0]
+                == proof["county"]
+            ]
+            if not county_rows:
+                continue
+            results[proof["district"]] = exact_result(county_rows, contest_type)
+            overrides.append(
+                {
+                    **proof,
+                    "source_file": source_path.name,
+                    "source_rows": len(county_rows),
+                    "applied_at": generated_at,
+                }
+            )
+            applied = True
+        if not applied:
+            continue
         meta["exact_coterminous_county_overrides"] = overrides
         meta["districts"] = len(results)
         output_path.write_text(json.dumps(payload, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
@@ -246,7 +166,9 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--years", type=int, nargs="+")
     args = parser.parse_args()
-    proof = verify_ellis_hd10()
+    proofs = find_coterminous_county_districts()
+    if not proofs:
+        raise ValueError("No coterminous county/State House district pairs found")
     years = args.years
     if not years:
         years = sorted(
@@ -258,12 +180,17 @@ def main() -> None:
         )
     changed: list[str] = []
     for year in years:
-        changed.extend(apply_year(year, proof))
+        changed.extend(apply_year(year, proofs))
     update_manifest(changed)
     print(
-        f"verified Ellis County == HD-10 using {proof['tabblocks']:,} tabblocks; "
+        f"verified {len(proofs)} coterminous county/State House district pair(s); "
         f"updated {len(changed)} files"
     )
+    for proof in proofs:
+        print(
+            f"  HD-{proof['district']} == {proof['county'].title()} County "
+            f"({proof['tabblocks']:,} tabblocks)"
+        )
     for name in changed:
         print(f"  {name}")
 
