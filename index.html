@@ -7753,18 +7753,15 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     }
 
     .viz-modes {
-      display: none !important;
+      display: flex !important;
     }
 
     .viz-inline-group {
-      display: block;
+      display: none;
     }
 
     .viz-modes-inline {
-      display: grid !important;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 8px;
-      overflow: visible;
+      display: none !important;
     }
 
     .viz-modes-inline .viz-mode-btn {
@@ -9288,6 +9285,97 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     padding: 0 !important;
   }
 
+  /* Keep party-facing UI colors aligned with the NC atlas; map fills remain mode-specific. */
+  :root {
+    --state-blue: #2563eb;
+    --state-blue-strong: #1d4ed8;
+    --state-red: #dc2626;
+    --state-red-strong: #b91c1c;
+    --state-ribbon: linear-gradient(90deg, var(--state-red) 0%, #f8fafc 50%, var(--state-blue) 100%);
+    --state-accent-gradient: linear-gradient(135deg, var(--state-red-strong) 0%, var(--state-blue-strong) 100%);
+    --tx-control-active: linear-gradient(135deg, #b91c1c 0%, #2563eb 100%);
+    --tx-control-active-strong: linear-gradient(135deg, #b91c1c 0%, #1d4ed8 100%);
+    --ui-accent: var(--state-blue);
+    --ui-accent-2: var(--state-blue-strong);
+  }
+
+  .vote-label.dem,
+  .vote-count.dem,
+  .meta-chip.dem .dot,
+  .statewide-dot.dem,
+  .vote-item.dem .vote-swatch,
+  #hover-tooltip[data-context="votehub-results"] .vhr-row.dem .vhr-dot {
+    color: #2563eb !important;
+    background-color: #2563eb !important;
+  }
+
+  .vote-label.rep,
+  .vote-count.rep,
+  .meta-chip.rep .dot,
+  .statewide-dot.rep,
+  .vote-item.rep .vote-swatch,
+  #hover-tooltip[data-context="votehub-results"] .vhr-row.rep .vhr-dot {
+    color: #dc2626 !important;
+    background-color: #dc2626 !important;
+  }
+
+  .focus-pill-value.dem,
+  .focus-bar-label.dem,
+  .trajectory-line.tone-dem,
+  .trajectory-votes .vote-delta-dem,
+  .trend-arrow.tone-dem,
+  .statewide-call[data-party="dem"],
+  .legend-tier-label.dem,
+  .vote-lead[data-party="dem"] {
+    color: #1d4ed8 !important;
+  }
+
+  .focus-pill-value.rep,
+  .focus-bar-label.rep,
+  .trajectory-line.tone-rep,
+  .trajectory-votes .vote-delta-rep,
+  .trend-arrow.tone-rep,
+  .statewide-call[data-party="rep"],
+  .legend-tier-label.rep,
+  .vote-lead[data-party="rep"] {
+    color: #b91c1c !important;
+  }
+
+  .meta-chip.shift .shift-value.dem { color: #1d4ed8 !important; }
+  .meta-chip.shift .shift-value.rep { color: #b91c1c !important; }
+  .focus-bar-label.dem { color: #1d4ed8 !important; }
+  .focus-bar-label.rep { color: #b91c1c !important; }
+
+  #hover-tooltip [style*="#002868"],
+  #hover-tooltip [style*="#001f4d"],
+  #hover-tooltip [style*="#174f92"],
+  #hover-tooltip [style*="#0284c7"],
+  .vote-counter [style*="#002868"],
+  .vote-counter [style*="#001f4d"],
+  .vote-counter [style*="#174f92"],
+  .vote-counter [style*="#0284c7"],
+  .legend [style*="#002868"],
+  .legend [style*="#001f4d"],
+  .legend [style*="#174f92"],
+  .legend [style*="#0284c7"],
+  .main-controls [style*="#002868"],
+  .main-controls [style*="#001f4d"],
+  .main-controls [style*="#174f92"],
+  .main-controls [style*="#0284c7"] {
+    color: #2563eb !important;
+  }
+
+  #hover-tooltip [style*="#bf0a30"],
+  #hover-tooltip [style*="#8f0824"],
+  .vote-counter [style*="#bf0a30"],
+  .vote-counter [style*="#8f0824"],
+  .legend [style*="#bf0a30"],
+  .legend [style*="#8f0824"],
+  .main-controls [style*="#bf0a30"],
+  .main-controls [style*="#8f0824"] {
+    color: #dc2626 !important;
+  }
+
 </style>
 </head>
 <body>
@@ -10006,7 +10094,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button class="viz-mode-btn" data-mode="shift" type="button"><span>Shift</span></button>
                 <button class="viz-mode-btn" data-mode="flips" type="button"><span>Flips</span></button>
                 <button class="viz-mode-btn" data-mode="demographics" type="button"><span>Demographics</span></button>
-                <button class="viz-mode-btn" data-mode="population_change" type="button" style="display:none"><span>Pop Change</span></button>
+                <button class="viz-mode-btn" data-mode="population_change" type="button"><span>Pop Change</span></button>
               </div>
             </div>
             <details class="control-group control-group-scenario controls-disclosure" id="scenario-disclosure">
@@ -10366,7 +10454,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <script src="./js/atlas-data.js"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
-    <script src="./js/atlas-manifest.js?v=2026-08-10-population-2025-csv"></script>
+    <script src="./js/atlas-manifest.js?v=2026-08-10-ui-party-palette"></script>
     <script src="./js/atlas-modeling.js"></script>
     <script src="./js/atlas-regions.js"></script>
     <script src="./js/atlas-trends.js"></script>
@@ -10404,8 +10492,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-10-population-2025-csv';
-    const APP_BUILD_ID = '2026-08-10-population-2025-csv';
+    const DATA_CACHE_BUSTER = '2026-08-10-ui-party-palette';
+    const APP_BUILD_ID = '2026-08-10-ui-party-palette';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
