@@ -3151,14 +3151,14 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .meta-chip.flip.dem {
-    border-color: rgba(0, 40, 104, 0.65);
-    background: rgba(0, 40, 104, 0.18);
+    border-color: rgba(37, 99, 235, 0.65);
+    background: rgba(37, 99, 235, 0.18);
     color: #dbeafe;
   }
 
   .meta-chip.flip.rep {
-    border-color: rgba(191, 10, 48, 0.65);
-    background: rgba(191, 10, 48, 0.18);
+    border-color: rgba(220, 38, 38, 0.65);
+    background: rgba(220, 38, 38, 0.18);
     color: #fee2e2;
   }
 
@@ -10517,8 +10517,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-30-statewide-lead-v3';
-    const APP_BUILD_ID = '2026-08-30-statewide-lead-v3';
+    const DATA_CACHE_BUSTER = '2026-08-30-flip-colors-v4';
+    const APP_BUILD_ID = '2026-08-30-flip-colors-v4';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -33820,8 +33820,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function colorForFlipMode(toWinner) {
       // toWinner: 'R' | 'D' | 'T'
-      if (toWinner === 'R') return isColorblindModeActive() ? '#d97706' : '#bf0a30';
-      if (toWinner === 'D') return '#002868';
+      if (toWinner === 'R') return isColorblindModeActive() ? '#d97706' : '#dc2626';
+      if (toWinner === 'D') return '#2563eb';
       return '#e2e8f0';
     }
 
