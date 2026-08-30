@@ -9326,31 +9326,35 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-pill-value.dem,
-  .focus-bar-label.dem,
   .trajectory-line.tone-dem,
   .trajectory-votes .vote-delta-dem,
   .trend-arrow.tone-dem,
-  .statewide-call[data-party="dem"],
-  .legend-tier-label.dem,
-  .vote-lead[data-party="dem"] {
+  .legend-tier-label.dem {
     color: #1d4ed8 !important;
   }
 
+  .statewide-call[data-party="dem"],
+  .vote-lead[data-party="dem"],
+  .focus-bar-label.dem {
+    color: #2563eb !important;
+  }
+
   .focus-pill-value.rep,
-  .focus-bar-label.rep,
   .trajectory-line.tone-rep,
   .trajectory-votes .vote-delta-rep,
   .trend-arrow.tone-rep,
-  .statewide-call[data-party="rep"],
-  .legend-tier-label.rep,
-  .vote-lead[data-party="rep"] {
+  .legend-tier-label.rep {
     color: #b91c1c !important;
+  }
+
+  .statewide-call[data-party="rep"],
+  .vote-lead[data-party="rep"],
+  .focus-bar-label.rep {
+    color: #dc2626 !important;
   }
 
   .meta-chip.shift .shift-value.dem { color: #1d4ed8 !important; }
   .meta-chip.shift .shift-value.rep { color: #b91c1c !important; }
-  .focus-bar-label.dem { color: #1d4ed8 !important; }
-  .focus-bar-label.rep { color: #b91c1c !important; }
 
   #hover-tooltip [style*="#002868"],
   #hover-tooltip [style*="#001f4d"],
@@ -10513,8 +10517,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-15-dem-ramp-nc-red-v4';
-    const APP_BUILD_ID = '2026-08-15-dem-ramp-nc-red-v4';
+    const DATA_CACHE_BUSTER = '2026-08-30-candidate-colors-v1';
+    const APP_BUILD_ID = '2026-08-30-candidate-colors-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -20929,9 +20933,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         statewideContent.innerHTML = `
           <div class="statewide-margin" style="margin-bottom:0;">
-            <div class="margin-text" style="color: ${winner === 'Republican' ? '#bf0a30' : '#002868'};font-size:18px;font-weight:700;text-align:left;">
-              Winner: <span style="color:${winner === 'Republican' ? '#bf0a30' : '#002868'}">${fullCandidateLabel(winner === 'Republican' ? repCandidate : demCandidate, winner === 'Republican' ? 'Republican' : 'Democratic')} (${winner === 'Republican' ? 'R' : 'D'})</span><br>
-              Margin: <span style="color:${winner === 'Republican' ? '#bf0a30' : '#002868'}">${winnerMarginLabel(repVotes, demVotes, totalVotes, repCandidate, demCandidate)}</span> <span style="color:#64748b;font-size:14px;">(${Math.abs(repVotes-demVotes).toLocaleString()} votes)</span>
+            <div class="margin-text" style="color: ${winner === 'Republican' ? '#dc2626' : '#2563eb'};font-size:18px;font-weight:700;text-align:left;">
+              Winner: <span style="color:${winner === 'Republican' ? '#dc2626' : '#2563eb'}">${fullCandidateLabel(winner === 'Republican' ? repCandidate : demCandidate, winner === 'Republican' ? 'Republican' : 'Democratic')} (${winner === 'Republican' ? 'R' : 'D'})</span><br>
+              Margin: <span style="color:${winner === 'Republican' ? '#dc2626' : '#2563eb'}">${winnerMarginLabel(repVotes, demVotes, totalVotes, repCandidate, demCandidate)}</span> <span style="color:#64748b;font-size:14px;">(${Math.abs(repVotes-demVotes).toLocaleString()} votes)</span>
             </div>
             ${splitSection}
             <div style="margin-top:10px;font-size:15px;color:#374151;font-weight:600;">
@@ -28993,7 +28997,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const splitInsight = getSplitTicketCountyInsight(norm, contestType, demVotes, repVotes, totalVotes);
 
       // For colorblind mode, use the correct accessibility palette for Republican vote breakdown
-      let repColor = '#bf0a30';
+      let repColor = '#dc2626';
       if (isColorblind) {
         if (parseFloat(marginPct) >= 40) repColor = '#cc5500';
         else if (parseFloat(marginPct) >= 30 && parseFloat(marginPct) <= 39.99) repColor = '#ff6600';
@@ -29004,11 +29008,11 @@ document.addEventListener('DOMContentLoaded', function() {
         else if (parseFloat(marginPct) >= 0.51 && parseFloat(marginPct) <= 0.99) repColor = '#ffeecc';
         else repColor = '#cccccc';
       } else {
-        repColor = '#bf0a30';
+        repColor = '#dc2626';
       }
       let demColor;
       if (isColorblind) demColor = cbColorForMargin(parseFloat(marginPct), 'D');
-      else demColor = '#002868';
+      else demColor = '#2563eb';
 
       focusContent += `
         <details class="focus-disclosure" id="county-vote-details">
@@ -32972,7 +32976,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const winName = winnerParty === 'R'
         ? fullCandidateLabel(repCandidate, 'Republican')
         : (winnerParty === 'D' ? fullCandidateLabel(demCandidate, 'Democratic') : 'Tie');
-      const winColor = winnerParty === 'R' ? '#bf0a30' : (winnerParty === 'D' ? '#002868' : '#6b7280');
+      const winColor = winnerParty === 'R' ? '#dc2626' : (winnerParty === 'D' ? '#2563eb' : '#6b7280');
       const marginLineText = winnerCall.uncontested
         ? `Result: ${winnerCall.shortLabel}`
         : `Margin: ${winnerCall.text} <span style="color:#64748b;font-weight:600;">(${Math.abs(repVotes - demVotes).toLocaleString()} votes)</span>`;
@@ -32985,8 +32989,8 @@ document.addEventListener('DOMContentLoaded', function() {
             ${marginLineText}
           </div>
           <div style="margin-top:8px;font-size:14px;">
-            <div class="tooltip-vote-line"><span style="color:#002868;font-weight:800;">${fullCandidateLabel(demCandidate, 'Democratic')} (D)</span>: <span class="tooltip-vote-pct">${demPctLabel}%</span> (${demVotes.toLocaleString()})</div>
-            <div class="tooltip-vote-line"><span style="color:#bf0a30;font-weight:800;">${fullCandidateLabel(repCandidate, 'Republican')} (R)</span>: <span class="tooltip-vote-pct">${repPctLabel}%</span> (${repVotes.toLocaleString()})</div>
+            <div class="tooltip-vote-line"><span style="color:#2563eb;font-weight:800;">${fullCandidateLabel(demCandidate, 'Democratic')} (D)</span>: <span class="tooltip-vote-pct">${demPctLabel}%</span> (${demVotes.toLocaleString()})</div>
+            <div class="tooltip-vote-line"><span style="color:#dc2626;font-weight:800;">${fullCandidateLabel(repCandidate, 'Republican')} (R)</span>: <span class="tooltip-vote-pct">${repPctLabel}%</span> (${repVotes.toLocaleString()})</div>
             ${otherVotes > 0 ? `<div class="tooltip-vote-line"><span style="color:#6b7280;font-weight:800;">Other</span>: <span class="tooltip-vote-pct">${othPctLabel}%</span> (${otherVotes.toLocaleString()})</div>` : ''}
             <div style="margin-top:6px;color:#374151;font-weight:700;">Total Votes: ${totalVotes.toLocaleString()}</div>
           </div>
