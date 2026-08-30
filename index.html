@@ -9325,7 +9325,6 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     background-color: #dc2626 !important;
   }
 
-  .focus-pill-value.dem,
   .trajectory-line.tone-dem,
   .trajectory-votes .vote-delta-dem,
   .trend-arrow.tone-dem,
@@ -9335,11 +9334,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   .statewide-call[data-party="dem"],
   .vote-lead[data-party="dem"],
-  .focus-bar-label.dem {
+  .focus-bar-label.dem,
+  .focus-pill-value.dem {
     color: #2563eb !important;
   }
 
-  .focus-pill-value.rep,
   .trajectory-line.tone-rep,
   .trajectory-votes .vote-delta-rep,
   .trend-arrow.tone-rep,
@@ -9349,7 +9348,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   .statewide-call[data-party="rep"],
   .vote-lead[data-party="rep"],
-  .focus-bar-label.rep {
+  .focus-bar-label.rep,
+  .focus-pill-value.rep {
     color: #dc2626 !important;
   }
 
@@ -10517,8 +10517,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-30-candidate-colors-v1';
-    const APP_BUILD_ID = '2026-08-30-candidate-colors-v1';
+    const DATA_CACHE_BUSTER = '2026-08-30-candidate-colors-v2';
+    const APP_BUILD_ID = '2026-08-30-candidate-colors-v2';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
