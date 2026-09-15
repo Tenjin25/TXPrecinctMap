@@ -10140,6 +10140,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="controls-subtitle" style="margin-top:10px;">Metro &amp; local areas</div>
                 <div class="region-jumps">
                   <button type="button" class="region-jump-btn" data-region-jump="austin_metro">Austin Metro</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="texoma" title="Sherman–Denison and the Texas-side Texoma region">Texoma</button>
                   <button type="button" class="region-jump-btn" data-region-jump="el_paso">El Paso</button>
                   <button type="button" class="region-jump-btn" data-region-jump="permian_basin">Midland–Odessa</button>
                   <button type="button" class="region-jump-btn" data-region-jump="coastal_bend">Coastal Bend</button>
@@ -10579,8 +10580,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-15-tx-metro-bounds-v6';
-    const APP_BUILD_ID = '2026-09-15-tx-metro-bounds-v6';
+    const DATA_CACHE_BUSTER = '2026-09-15-tx-texoma-jump-v7';
+    const APP_BUILD_ID = '2026-09-15-tx-texoma-jump-v7';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -10710,6 +10711,11 @@ document.addEventListener('DOMContentLoaded', function() {
         label: 'Austin Metro',
         bounds: [[-98.4, 29.5], [-96.9, 31.0]],
         counties: ['Travis', 'Williamson', 'Hays', 'Bastrop', 'Caldwell']
+      },
+      texoma: {
+        label: 'Texoma (Sherman–Denison)',
+        bounds: [[-97.6, 33.2], [-95.7, 34.1]],
+        counties: ['Cooke', 'Fannin', 'Grayson']
       },
       el_paso: {
         label: 'El Paso',
