@@ -7058,6 +7058,10 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     grid-template-columns: repeat(15, minmax(0, 1fr));
   }
 
+  .legend-spectrum.population-change {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
   .legend-segment.legend-color {
     width: auto;
     height: auto;
@@ -7094,8 +7098,14 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   .legend-axis.shift.detailed {
     grid-template-columns: repeat(15, minmax(0, 1fr));
-    gap: 1px;
+    gap: 2px;
     font-size: 10px;
+    letter-spacing: 0;
+  }
+
+  .legend-axis.population-change {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 2px;
     letter-spacing: 0;
   }
 
@@ -22918,16 +22928,16 @@ document.addEventListener('DOMContentLoaded', function() {
           ];
       return `
         <div class="legend-scale-shell">
-          ${buildLegendSpectrum(colors, 'shift')}
+          ${buildLegendSpectrum(colors, 'population-change')}
           <div class="legend-scale-caption">
             <span class="dem">Decline</span>
             <span>Near flat</span>
             <span class="rep">Growth</span>
           </div>
-          <div class="legend-axis shift">
+          <div class="legend-axis population-change">
             ${useAbs
-              ? '<span class="dem">-25k+</span><span class="dem">-10k</span><span class="dem">-2.5k</span><span>0</span><span>+2.5k</span><span class="rep">+10k</span><span class="rep">+25k+</span>'
-              : '<span class="dem">-5%+</span><span class="dem">-2%</span><span class="dem">-1%</span><span>0</span><span>+1%</span><span class="rep">+3%</span><span class="rep">+5%+</span>'
+              ? '<span class="dem">-25k+</span><span class="dem">-10k</span><span class="dem">-2.5k</span><span>Flat</span><span class="rep">+2.5k</span><span class="rep">+10k</span><span class="rep">+25k+</span>'
+              : '<span class="dem">-5%+</span><span class="dem">-2%</span><span class="dem">-0.5%</span><span>Flat</span><span class="rep">+1%</span><span class="rep">+2%</span><span class="rep">+5%+</span>'
             }
           </div>
         </div>
