@@ -10126,6 +10126,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="control-group" style="margin-bottom:12px;">
                 <span class="section-kicker">Quick Jumps</span>
+                <div class="controls-subtitle">Wide regions</div>
                 <div class="region-jumps" id="region-jumps">
                   <button type="button" class="region-jump-btn" data-region-jump="dfw_metro">DFW Metro</button>
                   <button type="button" class="region-jump-btn" data-region-jump="houston_metro">Houston Metro</button>
@@ -10135,6 +10136,21 @@ document.addEventListener('DOMContentLoaded', function() {
                   <button type="button" class="region-jump-btn" data-region-jump="east_texas">East Texas</button>
                   <button type="button" class="region-jump-btn" data-region-jump="west_texas">West Texas</button>
                   <button type="button" class="region-jump-btn" data-region-jump="panhandle">Panhandle</button>
+                </div>
+                <div class="controls-subtitle" style="margin-top:10px;">Metro &amp; local areas</div>
+                <div class="region-jumps">
+                  <button type="button" class="region-jump-btn" data-region-jump="austin_metro">Austin Metro</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="el_paso">El Paso</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="permian_basin">Midland–Odessa</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="coastal_bend">Coastal Bend</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="beaumont_golden_triangle">Beaumont–Port Arthur</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="concho_valley">Concho Valley</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="laredo">Laredo</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="tyler_longview">Tyler–Longview</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="waco_temple">Waco–Temple</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="abilene">Abilene</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="wichita_falls">Wichita Falls</button>
+                  <button type="button" class="region-jump-btn" data-region-jump="victoria_crossroads">Victoria</button>
                 </div>
             </div>
             <div class="control-group" style="margin-bottom:10px;">
@@ -10563,8 +10579,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-15-tx-shift-25-point-v4';
-    const APP_BUILD_ID = '2026-09-15-tx-shift-25-point-v4';
+    const DATA_CACHE_BUSTER = '2026-09-15-tx-metro-jumps-v5';
+    const APP_BUILD_ID = '2026-09-15-tx-metro-jumps-v5';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -10689,6 +10705,66 @@ document.addEventListener('DOMContentLoaded', function() {
         label: 'Panhandle',
         bounds: [[-103.2, 34.3], [-99.9, 36.7]],
         counties: ['Potter', 'Randall', 'Carson', 'Gray', 'Wheeler', 'Hemphill', 'Hutchinson', 'Moore', 'Deaf Smith', 'Dallam', 'Hartley', 'Oldham']
+      },
+      austin_metro: {
+        label: 'Austin Metro',
+        bounds: [[-98.4, 29.5], [-96.9, 31.0]],
+        counties: ['Travis', 'Williamson', 'Hays', 'Bastrop', 'Caldwell']
+      },
+      el_paso: {
+        label: 'El Paso',
+        bounds: [[-106.8, 30.5], [-104.8, 32.1]],
+        counties: ['El Paso', 'Hudspeth']
+      },
+      permian_basin: {
+        label: 'Midland–Odessa',
+        bounds: [[-103.7, 31.0], [-101.1, 32.6]],
+        counties: ['Midland', 'Ector', 'Martin', 'Andrews', 'Howard', 'Crane', 'Winkler', 'Ward', 'Upton']
+      },
+      coastal_bend: {
+        label: 'Coastal Bend',
+        bounds: [[-98.5, 27.1], [-96.6, 28.9]],
+        counties: ['Nueces', 'San Patricio', 'Aransas', 'Kleberg', 'Jim Wells', 'Bee', 'Refugio', 'Live Oak']
+      },
+      beaumont_golden_triangle: {
+        label: 'Beaumont–Port Arthur',
+        bounds: [[-94.9, 29.4], [-93.4, 31.3]],
+        counties: ['Jefferson', 'Orange', 'Hardin', 'Newton', 'Jasper']
+      },
+      concho_valley: {
+        label: 'Concho Valley',
+        bounds: [[-101.4, 30.6], [-99.0, 32.2]],
+        counties: ['Tom Green', 'Irion', 'Sterling', 'Coke', 'Schleicher', 'Concho', 'Runnels', 'Menard', 'McCulloch']
+      },
+      laredo: {
+        label: 'Laredo',
+        bounds: [[-100.3, 26.5], [-98.7, 28.8]],
+        counties: ['Webb', 'Zapata', 'La Salle']
+      },
+      tyler_longview: {
+        label: 'Tyler–Longview',
+        bounds: [[-96.6, 31.3], [-94.3, 33.0]],
+        counties: ['Smith', 'Gregg', 'Rusk', 'Upshur', 'Cherokee', 'Henderson']
+      },
+      waco_temple: {
+        label: 'Waco–Temple',
+        bounds: [[-98.3, 30.6], [-96.1, 32.0]],
+        counties: ['McLennan', 'Bell', 'Coryell', 'Falls', 'Limestone']
+      },
+      abilene: {
+        label: 'Abilene',
+        bounds: [[-100.8, 32.0], [-99.0, 33.1]],
+        counties: ['Taylor', 'Jones', 'Callahan', 'Nolan', 'Shackelford']
+      },
+      wichita_falls: {
+        label: 'Wichita Falls',
+        bounds: [[-99.6, 33.3], [-97.8, 34.6]],
+        counties: ['Wichita', 'Archer', 'Clay', 'Wilbarger']
+      },
+      victoria_crossroads: {
+        label: 'Victoria',
+        bounds: [[-97.9, 27.9], [-96.2, 29.5]],
+        counties: ['Victoria', 'Calhoun', 'Goliad', 'Jackson', 'DeWitt']
       }
     };
 
