@@ -160,10 +160,16 @@ This supports both narrative election analysis and technical diagnostics.
 - Legacy source formats vary by year (county-level versus precinct-level granularity).
 - Precinct naming conventions vary by county and can cause partial match loss in edge cases.
 - Candidate labels vary by source quality; modern rendering applies case normalization for readability.
+- CVAP block values are RDH disaggregated ACS estimates, not block-level Census measurements. 2024 precinct keys use the local 2020-block-to-VTD24 crosswalk; split blocks are allocated by normalized crosswalk weights.
+
+## CVAP Demographics
+
+County, 2024 precinct, 2022 congressional and legislative, and 2026 proposed congressional profiles use 2020–2024 ACS CVAP disaggregated to 2020 Census blocks by the Redistricting Data Hub. The compact aggregates in `Data/cvap_aggregates/` are built with `Scripts/build_tx_cvap_aggregates.py` from the RDH Texas block CSV ZIP and local 2020-block crosswalks. The large source ZIP and crosswalks are not included in the deployed repository. CVAP totals from each aggregate geography reconcile to 19,868,054 statewide; county coverage is 254 of 254.
 
 ## Credits
 
 - U.S. Census TIGER/Line geography
+- U.S. Census Bureau, 2020–2024 ACS CVAP Special Tabulation; Redistricting Data Hub, 2024 CVAP Data Disaggregated to 2020 Census Blocks ([source](https://redistrictingdatahub.org/))
 - OpenElections Texas data
 - Mapbox GL JS
 - Turf.js
