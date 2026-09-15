@@ -9352,22 +9352,26 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .vote-label.dem,
-  .vote-count.dem,
+  .vote-count.dem {
+    color: #2563eb !important;
+  }
+
   .meta-chip.dem .dot,
   .statewide-dot.dem,
   .vote-item.dem .vote-swatch,
   #hover-tooltip[data-context="votehub-results"] .vhr-row.dem .vhr-dot {
-    color: #2563eb !important;
     background-color: #2563eb !important;
   }
 
   .vote-label.rep,
-  .vote-count.rep,
+  .vote-count.rep {
+    color: #dc2626 !important;
+  }
+
   .meta-chip.rep .dot,
   .statewide-dot.rep,
   .vote-item.rep .vote-swatch,
   #hover-tooltip[data-context="votehub-results"] .vhr-row.rep .vhr-dot {
-    color: #dc2626 !important;
     background-color: #dc2626 !important;
   }
 
@@ -34493,7 +34497,7 @@ document.addEventListener('DOMContentLoaded', function() {
       (prevMeta.rows || []).forEach(r => {
         const rowName = (r.county || '').toString();
         const countyOnly = rowName.includes(' - ') ? rowName.split(' - ')[0] : rowName;
-        const countyNorm = (countyOnly || '').toString().replace(/[^a-z0-9 .\-]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
+        const countyNorm = normalizeCountyToken(countyOnly);
         if (!countyNorm) return;
         const prevType = String(prevMeta.contestType || contestType).trim() || contestType;
         const dem = Number(r[`${prevType}_dem`] ?? r.dem_votes ?? 0);
