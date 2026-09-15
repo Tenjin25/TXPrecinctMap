@@ -10579,8 +10579,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-15-tx-metro-jumps-v5';
-    const APP_BUILD_ID = '2026-09-15-tx-metro-jumps-v5';
+    const DATA_CACHE_BUSTER = '2026-09-15-tx-metro-bounds-v6';
+    const APP_BUILD_ID = '2026-09-15-tx-metro-bounds-v6';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -10668,12 +10668,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const REGION_JUMPS = {
       dfw_metro: {
         label: 'DFW Metro',
-        bounds: [[-98.2, 31.5], [-95.9, 33.8]],
+        bounds: [[-98.2, 31.9], [-95.9, 33.6]],
         counties: ['Dallas', 'Tarrant', 'Collin', 'Denton', 'Rockwall', 'Kaufman', 'Ellis', 'Johnson', 'Parker', 'Wise']
       },
       houston_metro: {
         label: 'Houston Metro',
-        bounds: [[-96.7, 28.5], [-94.8, 30.9]],
+        bounds: [[-96.3, 28.6], [-94.2, 30.8]],
         counties: ['Harris', 'Fort Bend', 'Montgomery', 'Brazoria', 'Galveston', 'Chambers', 'Liberty', 'Waller']
       },
       central_texas: {
@@ -10683,7 +10683,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       san_antonio_metro: {
         label: 'San Antonio Metro',
-        bounds: [[-99.8, 28.3], [-97.7, 30.3]],
+        bounds: [[-99.8, 28.4], [-97.5, 30.3]],
         counties: ['Bexar', 'Comal', 'Guadalupe', 'Kendall', 'Wilson', 'Medina', 'Atascosa', 'Bandera']
       },
       rio_grande_valley: {
