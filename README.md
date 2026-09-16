@@ -178,3 +178,9 @@ County, 2024 precinct, 2022 congressional and legislative, and 2026 proposed con
 ## Status
 
 Active project with ongoing data backfills, contest normalization improvements, and UI iteration for county/district/precinct analysis.
+
+## Legend layout (September 2026)
+
+The map key now uses the same expandable, scrollable category-row layout as Margin Categories for Winners, Flips, Shift, and Demographics. Each row pairs a named category with its map color and a short range or interpretation. Population Change uses the same layout where that mode is available.
+
+Shift retains its 15-step diverging spectrum and separates Democratic and Republican movement at 0.5, 1, 5, 10, 15, 20, and 25 percentage points. Movement below 0.5 points is near-white; the 25-point-and-higher category is named **Extreme**. The blue/orange colorblind palette follows the same directional bins.
