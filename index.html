@@ -10384,7 +10384,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="legend-segment legend-color" style="background: #cb181d;"></span>
                 <span class="legend-segment legend-color" style="background: #e93a2d;"></span>
                 <span class="legend-segment legend-color" style="background: #f7634b;"></span>
-                <span class="legend-segment legend-color" style="background: #f99a90;"></span>
+                <span class="legend-segment legend-color" style="background: #fcae91;"></span>
                 <span class="legend-segment legend-color" style="background: #f4c9c5;"></span>
                 <span class="legend-segment legend-color" style="background: #f7f7f7; border-left: 1px solid rgba(15,23,42,0.12); border-right: 1px solid rgba(15,23,42,0.12);"></span>
                 <span class="legend-segment legend-color" style="background: #c7ddf0;"></span>
@@ -10609,17 +10609,17 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </div>
 
-    <script src="./js/atlas-classification.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-core.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-data.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-display.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-election.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-manifest.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-modeling.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-regions.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-trends.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-turnout.js?v=2026-10-06-mobile-contest-ready-v3"></script>
-    <script src="./js/atlas-url-state.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-classification.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-core.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-data.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-display.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-election.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-manifest.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-modeling.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-regions.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-trends.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-turnout.js?v=2026-10-11-mobile-palette-sync-v2"></script>
+    <script src="./js/atlas-url-state.js?v=2026-10-11-mobile-palette-sync-v2"></script>
     <script>
     // --- CONFIG ---
     const ATLAS_CREATOR_SIGNATURE = Object.freeze({
@@ -10652,8 +10652,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-06-mobile-contest-ready-v4';
-    const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v4';
+    const DATA_CACHE_BUSTER = '2026-10-11-mobile-palette-sync-v2';
+    const APP_BUILD_ID = '2026-10-11-mobile-palette-sync-v2';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -21150,13 +21150,17 @@ document.addEventListener('DOMContentLoaded', function() {
           compColor = winner === 'Republican' ? '#ef4444' : '#60a5fa';
         } else if (marginPct >= 1) {
           compLabel = winner === 'Republican' ? "Lean Republican (1.00-5.49%)" : "Lean Democratic (1.00-5.49%)";
-          compColor = winner === 'Republican' ? '#f87171' : '#93c5fd';
+          compColor = winner === 'Republican' ? '#fcae91' : '#9ecae1';
         } else if (marginPct >= 0.50) {
           compLabel = winner === 'Republican' ? "Tilt Republican (0.50-0.99%)" : "Tilt Democratic (0.50-0.99%)";
           compColor = winner === 'Republican' ? '#fff1f2' : '#dbeafe';
         } else {
           compLabel = winner === 'Democratic' ? 'Tossup (Democratic Win - <0.50%)' : 'Tossup (Republican Win - <0.50%)';
           compColor = winner === 'Democratic' ? '#002868' : '#bf0a30';
+        }
+
+        if (marginPct >= 0.5) {
+          compColor = colorForMarginMode(marginPct, winner === 'Republican' ? 'R' : 'D');
         }
 
         // Build the horizontal bar with D/R/Other if present.
@@ -22752,11 +22756,15 @@ document.addEventListener('DOMContentLoaded', function() {
         color = normalizedParty === 'rep' ? '#f87171' : '#60a5fa';
       } else if (pct >= 1.0) {
         tier = 'Lean';
-        color = normalizedParty === 'rep' ? '#fecaca' : '#93c5fd';
+        color = normalizedParty === 'rep' ? '#fcae91' : '#9ecae1';
       } else if (pct >= 0.5) {
         tier = 'Tilt';
         color = normalizedParty === 'rep' ? '#fff1f2' : '#dbeafe';
       }
+
+      // Keep tier swatches synchronized with the active map palette, including
+      // the alternate color-blind ramp.
+      color = colorForMarginMode(pct, normalizedParty === 'rep' ? 'R' : 'D');
 
       const sideAbbrev = normalizedParty === 'rep' ? 'R' : 'D';
       const label = tier === 'Tossup' ? `Tossup (${partyWord} Win)` : `${tier} ${partyWord}`;
@@ -23503,7 +23511,7 @@ document.addEventListener('DOMContentLoaded', function() {
           compColor = winnerCall.party === 'rep' ? '#ef4444' : '#60a5fa';
         } else if (marginPct >= 1) {
           compLabel = winnerCall.party === 'rep' ? 'Lean Republican (1.00-5.49%)' : 'Lean Democratic (1.00-5.49%)';
-          compColor = winnerCall.party === 'rep' ? '#f87171' : '#93c5fd';
+          compColor = winnerCall.party === 'rep' ? '#fcae91' : '#9ecae1';
         } else if (marginPct >= 0.5) {
           compLabel = winnerCall.party === 'rep' ? 'Tilt Republican (0.50-0.99%)' : 'Tilt Democratic (0.50-0.99%)';
           // This color is used as text on the statewide rating pill. Keep it
@@ -23512,6 +23520,9 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
           compLabel = winnerCall.party === 'dem' ? 'Tossup (Democratic Win - <0.50%)' : (winnerCall.party === 'rep' ? 'Tossup (Republican Win - <0.50%)' : 'Tossup');
           compColor = winnerCall.party === 'dem' ? '#002868' : (winnerCall.party === 'rep' ? '#bf0a30' : '#64748b');
+        }
+        if (marginPct >= 0.5 && winnerCall.party !== 'tie') {
+          compColor = colorForMarginMode(marginPct, winnerCall.party === 'rep' ? 'R' : 'D');
         }
 
         const breakdownItems = [
@@ -33204,7 +33215,7 @@ document.addEventListener('DOMContentLoaded', function() {
               else if (competitiveness.includes('Stronghold')) compColor = '#bf0a30';
               else if (competitiveness.includes('Safe')) compColor = '#ef4444';
               else if (competitiveness.includes('Likely')) compColor = '#f87171';
-              else if (competitiveness.includes('Lean')) compColor = '#fecaca';
+              else if (competitiveness.includes('Lean')) compColor = '#fcae91';
               else if (competitiveness.includes('Tilt')) compColor = '#fff1f2';
             } else if (competitiveness.includes('Dem')) {
               if (competitiveness.includes('Annihilation')) compColor = '#1e3a8a';
@@ -33212,8 +33223,12 @@ document.addEventListener('DOMContentLoaded', function() {
               else if (competitiveness.includes('Stronghold')) compColor = '#002868';
               else if (competitiveness.includes('Safe')) compColor = '#174f92';
               else if (competitiveness.includes('Likely')) compColor = '#60a5fa';
-              else if (competitiveness.includes('Lean')) compColor = '#93c5fd';
+              else if (competitiveness.includes('Lean')) compColor = '#9ecae1';
               else if (competitiveness.includes('Tilt')) compColor = '#dbeafe';
+            }
+
+            if (marginPct >= 0.5) {
+              compColor = colorForMarginMode(marginPct, winner === 'Republican' ? 'R' : 'D');
             }
 
             electionInfo = `
@@ -33394,13 +33409,17 @@ document.addEventListener('DOMContentLoaded', function() {
         compColor = winnerParty === 'R' ? '#ef4444' : '#60a5fa';
       } else if (marginPct >= 1) {
         compLabel = winnerParty === 'R' ? 'Lean Republican' : 'Lean Democratic';
-        compColor = winnerParty === 'R' ? '#f87171' : '#93c5fd';
+        compColor = winnerParty === 'R' ? '#fcae91' : '#9ecae1';
       } else if (marginPct >= 0.5) {
         compLabel = winnerParty === 'R' ? 'Tilt Republican' : 'Tilt Democratic';
         compColor = winnerParty === 'R' ? '#fff1f2' : '#dbeafe';
       } else {
         compLabel = 'Tossup';
         compColor = '#6b7280';
+      }
+
+      if (marginPct >= 0.5 && winnerParty !== 'TIE') {
+        compColor = colorForMarginMode(marginPct, winnerParty);
       }
 
       const winName = winnerParty === 'R'
@@ -34241,7 +34260,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (marginPct >= 5.5) {
         return winner === 'R' ? '#f7634b' : '#5b9fd0'; // Likely — near-original Atlas red, slightly tempered
       } else if (marginPct >= 1.0) {
-        return winner === 'R' ? '#f99a90' : '#9ecae1'; // Lean — near-original Atlas red, slightly tempered
+        return winner === 'R' ? '#fcae91' : '#9ecae1'; // Lean — matches the NC production palette
       } else if (marginPct >= 0.5) {
         return winner === 'R' ? '#f4c9c5' : '#c7ddf0'; // Balanced Tilt shades, still clearly lighter than Lean
       } else {
