@@ -67,6 +67,17 @@
       "major_party_contested": true
     },
     {
+      "year": 2026,
+      "contest_type": "agriculture_commissioner",
+      "file": "agriculture_commissioner_2026.json",
+      "rows": 254,
+      "dem_total": 4961035,
+      "rep_total": 4516235,
+      "other_total": 197500,
+      "total_votes": 9674770,
+      "major_party_contested": true
+    },
+    {
       "year": 2002,
       "contest_type": "attorney_general",
       "file": "attorney_general_2002.json",
@@ -130,6 +141,17 @@
       "rep_total": 4278986,
       "other_total": 233750,
       "total_votes": 8010003,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2026.json",
+      "rows": 254,
+      "dem_total": 5102010,
+      "rep_total": 4479898,
+      "other_total": 164318,
+      "total_votes": 9746226,
       "major_party_contested": true
     },
     {
@@ -199,6 +221,17 @@
       "major_party_contested": true
     },
     {
+      "year": 2026,
+      "contest_type": "comptroller",
+      "file": "comptroller_2026.json",
+      "rows": 254,
+      "dem_total": 4983999,
+      "rep_total": 4488794,
+      "other_total": 246757,
+      "total_votes": 9719550,
+      "major_party_contested": true
+    },
+    {
       "year": 2014,
       "contest_type": "court_of_criminal_appeals_place_1",
       "file": "court_of_criminal_appeals_place_1_2014.json",
@@ -254,6 +287,17 @@
       "major_party_contested": true
     },
     {
+      "year": 2026,
+      "contest_type": "court_of_criminal_appeals_place_3",
+      "file": "court_of_criminal_appeals_place_3_2026.json",
+      "rows": 254,
+      "dem_total": 4809543,
+      "rep_total": 4578817,
+      "other_total": 229430,
+      "total_votes": 9617790,
+      "major_party_contested": true
+    },
+    {
       "year": 2014,
       "contest_type": "court_of_criminal_appeals_place_4",
       "file": "court_of_criminal_appeals_place_4_2014.json",
@@ -273,6 +317,17 @@
       "rep_total": 5974016,
       "other_total": 0,
       "total_votes": 10898223,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "court_of_criminal_appeals_place_4",
+      "file": "court_of_criminal_appeals_place_4_2026.json",
+      "rows": 254,
+      "dem_total": 4966146,
+      "rep_total": 4635837,
+      "other_total": 0,
+      "total_votes": 9601983,
       "major_party_contested": true
     },
     {
@@ -408,6 +463,17 @@
       "major_party_contested": true
     },
     {
+      "year": 2026,
+      "contest_type": "court_of_criminal_appeals_place_9",
+      "file": "court_of_criminal_appeals_place_9_2026.json",
+      "rows": 254,
+      "dem_total": 5012169,
+      "rep_total": 4579551,
+      "other_total": 0,
+      "total_votes": 9591720,
+      "major_party_contested": true
+    },
+    {
       "year": 2000,
       "contest_type": "court_of_criminal_appeals_presiding_judge",
       "file": "court_of_criminal_appeals_presiding_judge_2000.json",
@@ -529,6 +595,17 @@
       "major_party_contested": true
     },
     {
+      "year": 2026,
+      "contest_type": "governor",
+      "file": "governor_2026.json",
+      "rows": 254,
+      "dem_total": 5198441,
+      "rep_total": 4501544,
+      "other_total": 150741,
+      "total_votes": 9850726,
+      "major_party_contested": true
+    },
+    {
       "year": 2002,
       "contest_type": "land_commissioner",
       "file": "land_commissioner_2002.json",
@@ -595,6 +672,17 @@
       "major_party_contested": true
     },
     {
+      "year": 2026,
+      "contest_type": "land_commissioner",
+      "file": "land_commissioner_2026.json",
+      "rows": 254,
+      "dem_total": 4983631,
+      "rep_total": 4554225,
+      "other_total": 154149,
+      "total_votes": 9692005,
+      "major_party_contested": true
+    },
+    {
       "year": 2002,
       "contest_type": "lieutenant_governor",
       "file": "lieutenant_governor_2002.json",
@@ -658,6 +746,17 @@
       "rep_total": 4317692,
       "other_total": 222208,
       "total_votes": 8032444,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2026.json",
+      "rows": 254,
+      "dem_total": 5052275,
+      "rep_total": 4462209,
+      "other_total": 257813,
+      "total_votes": 9772297,
       "major_party_contested": true
     },
     {
@@ -881,6 +980,28 @@
       "major_party_contested": true
     },
     {
+      "year": 2026,
+      "contest_type": "railroad_commissioner",
+      "file": "railroad_commissioner_2026.json",
+      "rows": 254,
+      "dem_total": 5071715,
+      "rep_total": 4404157,
+      "other_total": 186620,
+      "total_votes": 9662492,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "supreme_court_chief_justice",
+      "file": "supreme_court_chief_justice_2026.json",
+      "rows": 254,
+      "dem_total": 5070896,
+      "rep_total": 4602468,
+      "other_total": 0,
+      "total_votes": 9673364,
+      "major_party_contested": true
+    },
+    {
       "year": 2000,
       "contest_type": "supreme_court_place_1",
       "file": "supreme_court_place_1_2000.json",
@@ -955,6 +1076,17 @@
       "rep_total": 6372584,
       "other_total": 0,
       "total_votes": 10943755,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "supreme_court_place_2_unexpired",
+      "file": "supreme_court_place_2_unexpired_2026.json",
+      "rows": 254,
+      "dem_total": 5037021,
+      "rep_total": 4607574,
+      "other_total": 0,
+      "total_votes": 9644595,
       "major_party_contested": true
     },
     {
@@ -1200,6 +1332,17 @@
       "major_party_contested": false
     },
     {
+      "year": 2026,
+      "contest_type": "supreme_court_place_7",
+      "file": "supreme_court_place_7_2026.json",
+      "rows": 254,
+      "dem_total": 5080500,
+      "rep_total": 4549955,
+      "other_total": 0,
+      "total_votes": 9630455,
+      "major_party_contested": true
+    },
+    {
       "year": 2014,
       "contest_type": "supreme_court_place_8",
       "file": "supreme_court_place_8_2014.json",
@@ -1231,6 +1374,17 @@
       "other_total": 0,
       "total_votes": 2737,
       "major_party_contested": false
+    },
+    {
+      "year": 2026,
+      "contest_type": "supreme_court_place_8",
+      "file": "supreme_court_place_8_2026.json",
+      "rows": 254,
+      "dem_total": 5002495,
+      "rep_total": 4620162,
+      "other_total": 0,
+      "total_votes": 9622657,
+      "major_party_contested": true
     },
     {
       "year": 2016,
@@ -1351,6 +1505,17 @@
       "rep_total": 5990741,
       "other_total": 269864,
       "total_votes": 11291854,
+      "major_party_contested": true
+    },
+    {
+      "year": 2026,
+      "contest_type": "us_senate",
+      "file": "us_senate_2026.json",
+      "rows": 254,
+      "dem_total": 5410057,
+      "rep_total": 4228924,
+      "other_total": 193784,
+      "total_votes": 9832765,
       "major_party_contested": true
     }
   ]
